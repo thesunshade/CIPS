@@ -1,6 +1,5 @@
 import fs from "fs";
 import makeNormalizedId from "../functions/makeNormalizedId.js";
-import { suttaIndexHtmlStyles } from "./styles/suttaIndexHtmlStyles.js";
 import { scriptsText } from "./scriptsText.js";
 import { copyScriptsText } from "./copyScriptsText.js";
 import { themeScriptsText } from "./themeScriptsText.js";
@@ -82,9 +81,9 @@ export default function createSuttaIndexHtml(indexObject) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-html.png">
       <title>Comprehensive Index of Pāli Suttas</title>
+      <link rel="stylesheet" href="index.css">
       <script src="https://unpkg.com/@popperjs/core@2"></script>
       <script src="https://unpkg.com/tippy.js@6"></script>
-      ${suttaIndexHtmlStyles}
       </head>
       <body id="app" class="app hide-snack-bar">
       <div class="snack-bar">Copied!</div>
