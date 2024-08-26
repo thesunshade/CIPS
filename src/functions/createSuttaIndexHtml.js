@@ -86,16 +86,17 @@ export default function createSuttaIndexHtml(indexObject) {
         ${headwordsArray
           .map(headword => {
             let sortedSubWords = sortedKeys(headwordsObject[headword]);
-
+            let headwordId = makeNormalizedId(headword);
+            let headwordWithCounter = injectCounterNumber(headword, headwordsObject[headword].counter_value);
             sortedSubWords = sortedSubWords.filter(item => item !== "counter_value");
             return `
-            <div id="${makeNormalizedId(headword)}">
+            <div id="${headwordId}">
             <div class="head-word-area">
-                <a class="headword-link" href=${"#" + makeNormalizedId(headword)}>
+                <a class="headword-link" href=${"#" + headwordId}>
                     <span class="head-word">
                     <img src="images/copy-heading.png" alt="copy icon" class="icon copy-icon click-to-copy info" height="16" data-tippy-content="Copy headword text to the clipboard" data-clipboard-text="${headword}">
-                    <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy info" height="16" data-tippy-content="Copy a link to this entry to the clipboard" data-clipboard-text="index.readingfaithfully.org/#${makeNormalizedId(headword)}">
-                    ${injectCounterNumber(headword, headwordsObject[headword].counter_value)}
+                    <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy info" height="16" data-tippy-content="Copy a link to this entry to the clipboard" data-clipboard-text="index.readingfaithfully.org/#${headwordId}">
+                    ${headwordWithCounter}
                     <img src="images/copy-text-up.png" alt="text copy icon" class="icon text-icon copy-icon info" height="16 title="Copy text of entry" data-headword="${headword}" data-tippy-content="Copy plain text of this entry">
                     <img src="images/copy-html-up.png" alt="text copy icon" class="icon html-icon copy-icon info" height="16 title="Copy text of entry" data-headword="${headword}" data-tippy-content="Copy html version of this entry">
                     <img src="images/copy-markdown-up.png" alt="text copy icon" class="icon markdown-icon copy-icon info" height="16 title="Copy text of entry" data-headword="${headword}" data-tippy-content="Copy Markdown version of this entry">
@@ -108,17 +109,24 @@ export default function createSuttaIndexHtml(indexObject) {
               return `<div class="sub-word">${subhead === "" ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}
               <span class="locator-list">
               ${locatorListObject.xrefs
-                .map((xref, index) => {
-                  xref = xref.replace("xref ", "");
-                  return `<a href="#${makeNormalizedId(xref)}" class="xref-link"> 
+                .map((rawXref, index) => {
+                  const xref = rawXref.replace("xref ", "");
+                  let xrefId = makeNormalizedId(xref);
+                  return `<a href="#${xrefId}" class="xref-link"> 
                   ${xref} </a>${index + 1 === locatorListObject.xrefs.length ? "" : "; <br>"} `;
                 })
                 .join("")}
               ${locatorListObject.locators
                 .map((locator, index) => {
-                  return `<a href="${makeUrl(locator)}" target="_blank" rel="noreferrer" class="${makeLinkClass(locator) + " locator"}"  ${getSuttaBlurb(locator) ? `data-tippy-content="${getSuttaBlurb(locator)}"` : ""}> 
-                  ${makeLinkText(locator)} ${getSuttaTitle(locator) ? `<small class="sutta-name">${getSuttaTitle(locator)}</small>` : ""}
-                </a>${index + 1 === locatorListObject.locators.length ? "" : ", "} `;
+                  const url = makeUrl(locator);
+                  const linkClass = makeLinkClass(locator) + " locator";
+                  const linkText = makeLinkText(locator);
+                  const title = getSuttaTitle(locator);
+                  const blurb = getSuttaBlurb(locator);
+                  const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
+                  return `<a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  ${blurb ? `data-tippy-content="${blurb}"` : ""}> 
+                  ${linkText} ${title ? `<small class="sutta-name">${title}</small>` : ""}
+                </a>${connector} `;
                 })
                 .join("")}
               </div>
