@@ -1,6 +1,8 @@
 import fs from "fs";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
-import { infoAreaHtml } from "./infoAreaHtml.js";
+import { openingHtml } from "./htmlParts/openingHtml.js";
+import { settingsBar } from "./htmlParts/settingsBar.js";
+import { endingHtml } from "./htmlParts/endingHtml.js";
 import sortedKeys from "../functionsBuilding/sortedKeys.js";
 import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
@@ -9,6 +11,7 @@ import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { exec } from "child_process";
 
 export default function createSuttaIndexHtml(indexObject) {
+  // because there is no Vv or Pv on SC, those citations go to suttafriends.org
   function makeUrl(locator) {
     if (/^CUSTOM:/.test(locator)) {
       const components = locator.split(":");
@@ -19,6 +22,7 @@ export default function createSuttaIndexHtml(indexObject) {
       return `https://suttacentral.net/${citationOnly(locator)}/en/sujato${segmentOnly(locator)}`;
     }
   }
+
   function makeLinkText(locator) {
     if (/^CUSTOM:/.test(locator)) {
       const components = locator.split(":");
@@ -56,58 +60,6 @@ export default function createSuttaIndexHtml(indexObject) {
     }
   }
 
-  let alphabet = Object.keys(indexObject);
-
-  let suttaIndexHtml = `<!DOCTYPE html>
-      <html lang="en">
-      <head>
-
-      <meta name="theme-color" content="#000000" />
-      <link rel="apple-touch-icon" href="images/favicon.png" />
-      <meta property="og:title" content="Comprehensive Index of Pali Suttas | ReadingFaithfully" />
-      <meta property="og:description" content="Get the teachings you need." />
-      <meta property="og:url" content="https://index.readingfaithfully.org/" />
-      <meta property="og:site_name" content="Index.ReadingFaithfully.org" />
-      <meta property="og:image" itemprop="image" content="images/featuredImage-index.png" />
-
-
-
-
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-html.png">
-      <title>Comprehensive Index of Pāli Suttas</title>
-      <link rel="stylesheet" href="index.css">
-      <script src="https://unpkg.com/@popperjs/core@2"></script>
-      <script src="https://unpkg.com/tippy.js@6"></script>
-      </head>
-      <body id="app" class="app hide-snack-bar">
-      <div class="snack-bar">Copied!</div>
-      
-      <div id="settings-bar" class="settings-bar">
-        <div class="top-row">
-          <div class="search-area">
-          <input type="text" id="search-box" placeholder="Search headwords..." spellcheck="false">
-          </div>
-          <div id="info-button" class="settings-button info" data-tippy-content="Settings and information.">
-            <img class="icon" width="17px"  src="images/info-dot.png" />
-          </div>
-        </div>
-        <div class="alphabet">
-        ${alphabet
-          .map(letter => {
-            return `<span class="letter" id=${letter}>
-                  ${letter}
-                </span>`;
-          })
-          .join("")}
-        </div>
-        <div id="results" class="search-results"></div>
-        <div id="info-area" class="info-area hidden">${infoAreaHtml}</div>
-      </div>
-      <div id="sutta-index" class="sutta-index">`;
-
   function injectCounterNumber(headword, counterNumber) {
     let headwordWithCount;
     if (counterNumber) {
@@ -122,6 +74,7 @@ export default function createSuttaIndexHtml(indexObject) {
     } else return headword;
   }
 
+  let alphabet = Object.keys(indexObject);
   const index = alphabet
     .map(letter => {
       const headwordsObject = indexObject[letter];
@@ -179,17 +132,14 @@ export default function createSuttaIndexHtml(indexObject) {
     })
     .join("");
 
-  suttaIndexHtml +=
-    index +
-    `</div>
-    <script type="module" src="index.js"></script>
-    <script>
-        tippy('.locator',{allowHTML: true, delay: [300, null], touch: ['hold', 500],})
-        tippy('.info', {theme: 'info', touch: ['hold', 500], delay: [500, null],});
-    </script>
-  </body>
-  </html>`;
+  // asemble all the parts
+  let suttaIndexHtml = `${openingHtml}
+    ${settingsBar(indexObject)}
+    <div id="sutta-index" class="sutta-index">
+    ${index}
+    ${endingHtml}`;
 
+  // Save the finished html file
   try {
     fs.writeFileSync("public/index.html", suttaIndexHtml);
     console.log("🌐 index.html written");
@@ -198,6 +148,7 @@ export default function createSuttaIndexHtml(indexObject) {
     console.error(err);
   }
 
+  // bundle the scripts
   exec("npx esbuild src/functions/scripts.js --bundle --minify --outfile=public/index.js", (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);

@@ -1,3 +1,5 @@
+import makeNormalizedId from "../functionsBuilding/makeNormalizedId";
+
 // copy heading to clipboard
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", event => {
