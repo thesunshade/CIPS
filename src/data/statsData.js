@@ -1,0 +1,1 @@
+export const statsData ={ uniqueLocators: 3869, xrefsCount: 389}
