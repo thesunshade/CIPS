@@ -198,25 +198,17 @@ export default function createSuttaIndexHtml(indexObject) {
     console.error(err);
   }
 
-  // let headwordsArraryText = "const headwordsArray =" + JSON.stringify(headwordsArray, null, 2);
-
-  // const script = headwordsArraryText + "\n\n" + scriptsText + copyScriptsText + themeScriptsText;
-
-  // try {
-  //   fs.writeFileSync("../public/scripts.js", script);
-  //   console.log("🛠️ scripts.js written");
-  // } catch (err) {
-  //   console.log("❌There was an error writing scripts.js");
-  //   console.error(err);
-  // }
-
   exec("npx esbuild src/functions/scripts.js --bundle --minify --outfile=public/index.js", (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;
     }
+    if (error && error.code !== 0) {
+      console.error(`Command failed with exit code ${error.code}`);
+    }
     if (stderr) {
-      console.error(`Stderr: ${stderr}`);
+      const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
+      console.error(`🛠️  Script bundled; Stderr: ${singleLineStderr}`);
       return;
     }
     console.log(`Stdout: ${stdout}`);
