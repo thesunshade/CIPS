@@ -1,7 +1,7 @@
 // const { match } = require("assert");
 import fs from "fs";
-import getSuttaTitle from "./src/functions/getSuttaTitle.js";
-import getSuttaBlurb from "./src/functions/getSuttaBlurb.js";
+import getSuttaTitle from "./src/functionsBuilding/getSuttaTitle.js";
+import getSuttaBlurb from "./src/functionsBuilding/getSuttaBlurb.js";
 import createSuttaIndexHtml from "./src/functions/createSuttaIndexHtml.js";
 
 let locatorFirstArray = [];

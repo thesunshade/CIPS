@@ -1,11 +1,11 @@
 import fs from "fs";
-import makeNormalizedId from "./makeNormalizedId.js";
+import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import { infoAreaHtml } from "./infoAreaHtml.js";
-import sortedKeys from "./sortedKeys.js";
-import getSuttaBlurb from "./getSuttaBlurb.js";
-import getSuttaTitle from "./getSuttaTitle.js";
-import justBook from "./justBook.js";
-import convertVatthus from "./convertVatthus.js";
+import sortedKeys from "../functionsBuilding/sortedKeys.js";
+import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
+import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
+import justBook from "../functionsBuilding/justBook.js";
+import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { exec } from "child_process";
 
 export default function createSuttaIndexHtml(indexObject) {
