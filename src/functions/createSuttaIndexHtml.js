@@ -210,7 +210,7 @@ export default function createSuttaIndexHtml(indexObject) {
   //   console.error(err);
   // }
 
-  exec("npx esbuild ../src/functionsVanilla/scripts.js --bundle --minify --outfile=../public/index.js", (error, stdout, stderr) => {
+  exec("npx esbuild ../src/functions/scripts.js --bundle --minify --outfile=../public/index.js", (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;

@@ -1,4 +1,4 @@
-import { headwordsArray } from "../data/headwords-array";
+import { headwordsArray } from "../data/headwords-array.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
