@@ -1,15 +1,12 @@
 import fs from "fs";
-import makeNormalizedId from "../functions/makeNormalizedId.js";
-import { scriptsText } from "./scriptsText.js";
-import { copyScriptsText } from "./copyScriptsText.js";
-import { themeScriptsText } from "./themeScriptsText.js";
-import { headwordsArray } from "../data/headwords-array.js";
+import makeNormalizedId from "./makeNormalizedId.js";
 import { infoAreaHtml } from "./infoAreaHtml.js";
-import sortedKeys from "../functions/sortedKeys.js";
-import getSuttaBlurb from "../functions/getSuttaBlurb.js";
-import getSuttaTitle from "../functions/getSuttaTitle.js";
-import justBook from "../functions/justBook.js";
-import convertVatthus from "../functions/convertVatthus.js";
+import sortedKeys from "./sortedKeys.js";
+import getSuttaBlurb from "./getSuttaBlurb.js";
+import getSuttaTitle from "./getSuttaTitle.js";
+import justBook from "./justBook.js";
+import convertVatthus from "./convertVatthus.js";
+import { exec } from "child_process";
 
 export default function createSuttaIndexHtml(indexObject) {
   function makeUrl(locator) {
@@ -185,7 +182,7 @@ export default function createSuttaIndexHtml(indexObject) {
   suttaIndexHtml +=
     index +
     `</div>
-    <script type="module" src="scripts.js"></script>
+    <script type="module" src="index.js"></script>
     <script>
         tippy('.locator',{allowHTML: true, delay: [300, null], touch: ['hold', 500],})
         tippy('.info', {theme: 'info', touch: ['hold', 500], delay: [500, null],});
@@ -201,15 +198,27 @@ export default function createSuttaIndexHtml(indexObject) {
     console.error(err);
   }
 
-  let headwordsArraryText = "const headwordsArray =" + JSON.stringify(headwordsArray, null, 2);
+  // let headwordsArraryText = "const headwordsArray =" + JSON.stringify(headwordsArray, null, 2);
 
-  const script = headwordsArraryText + "\n\n" + scriptsText + copyScriptsText + themeScriptsText;
+  // const script = headwordsArraryText + "\n\n" + scriptsText + copyScriptsText + themeScriptsText;
 
-  try {
-    fs.writeFileSync("../public/scripts.js", script);
-    console.log("🛠️ scripts.js written");
-  } catch (err) {
-    console.log("❌There was an error writing scripts.js");
-    console.error(err);
-  }
+  // try {
+  //   fs.writeFileSync("../public/scripts.js", script);
+  //   console.log("🛠️ scripts.js written");
+  // } catch (err) {
+  //   console.log("❌There was an error writing scripts.js");
+  //   console.error(err);
+  // }
+
+  exec("npx esbuild ../src/functionsVanilla/scripts.js --bundle --minify --outfile=../public/index.js", (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error: ${error.message}`);
+      return;
+    }
+    if (stderr) {
+      console.error(`Stderr: ${stderr}`);
+      return;
+    }
+    console.log(`Stdout: ${stdout}`);
+  });
 }
