@@ -1,8 +1,8 @@
 // const { match } = require("assert");
 import fs from "fs";
-import getSuttaTitle from "../src/functions/getSuttaTitle.js";
-import getSuttaBlurb from "../src/functions/getSuttaBlurb.js";
-import createSuttaIndexHtml from "../src/functions/createSuttaIndexHtml.js";
+import getSuttaTitle from "./src/functions/getSuttaTitle.js";
+import getSuttaBlurb from "./src/functions/getSuttaBlurb.js";
+import createSuttaIndexHtml from "./src/functions/createSuttaIndexHtml.js";
 
 let locatorFirstArray = [];
 let rawIndexArray = [];
@@ -220,16 +220,16 @@ function createIndexObject() {
 
   // read csv file
   try {
-    const tsvFileContents = fs.readFileSync("../src/data/general-index.csv", "utf8");
+    const tsvFileContents = fs.readFileSync("src/data/general-index.csv", "utf8");
     csvData = tsvFileContents;
     console.log("✅ successfully read TSV file");
   } catch (err) {
-    console.log("❌There was an error reading");
+    console.log("❌There was an error reading general-index.csv");
     console.error(err);
   }
 
   try {
-    const tsvStatsObject = fs.statSync("../src/data/general-index.csv", "utf8");
+    const tsvStatsObject = fs.statSync("src/data/general-index.csv", "utf8");
     const formattedMtime = tsvStatsObject.mtime.toLocaleTimeString([], { hour: "numeric", minute: "2-digit", hour12: true });
     const formattedMtimeDate = tsvStatsObject.mtime.toLocaleString("en-gb", {
       year: "numeric",
@@ -397,7 +397,7 @@ function createIndexObject() {
 
   const object = `export const indexObject =${JSON.stringify(indexObject, null, 5)}`;
   try {
-    fs.writeFileSync("../src/data/index-object.js", object);
+    fs.writeFileSync("src/data/index-object.js", object);
     console.log("✅ indexObject written");
   } catch (err) {
     console.log("❌There was an error writing indexObject");
@@ -407,7 +407,7 @@ function createIndexObject() {
   const headwordLocatorCount = `export const headwordLocatorCount =${JSON.stringify(locatorCountHeadwordsList, null, 5)}`;
 
   try {
-    fs.writeFileSync("../src/data/headwordLocatorCount.js", headwordLocatorCount);
+    fs.writeFileSync("src/data/headwordLocatorCount.js", headwordLocatorCount);
     console.log("✅ headwordLocatorCount written");
   } catch (err) {
     console.log("❌There was an error writing headwordLocatorCount");
@@ -461,7 +461,7 @@ function createIndexObject() {
   </body>`;
 
   try {
-    fs.writeFileSync("../public/locatorcounttable.html", headwordLocatorCountHTML);
+    fs.writeFileSync("public/locatorcounttable.html", headwordLocatorCountHTML);
     console.log("🌐 headwordLocatorCountHTML written");
   } catch (err) {
     console.log("❌There was an error writing headwordLocatorCountHTML");
@@ -502,7 +502,7 @@ function createIndexObject() {
   // uniqueLocators.js needs to be fixed for React app
 
   try {
-    fs.writeFileSync("../src/data/statsData.js", `export const statsData ={ uniqueLocators: ${totalUniqueLocatorsLength}, xrefsCount: ${xrefsCount}}`);
+    fs.writeFileSync("src/data/statsData.js", `export const statsData ={ uniqueLocators: ${totalUniqueLocatorsLength}, xrefsCount: ${xrefsCount}}`);
   } catch (err) {
     console.log("❌There was an error writing total unique locators");
     console.error(err);
@@ -530,7 +530,7 @@ function createHeadingsArray() {
   const headwordsArray = `export const headwordsArray =${JSON.stringify(listOfHeadwords, null, 5)}`;
 
   try {
-    fs.writeFileSync("../src/data/headwords-array.js", headwordsArray);
+    fs.writeFileSync("src/data/headwords-array.js", headwordsArray);
     console.log("✅ headwordsArray written");
   } catch (err) {
     console.log("❌There was an error writing headwordsArray");
@@ -575,7 +575,7 @@ function createLocatorSortedArray() {
   const array = `export const indexArray =${JSON.stringify(locatorFirstArray, null, 5)}`;
 
   try {
-    fs.writeFileSync("../src/data/index-array.js", array);
+    fs.writeFileSync("src/data/index-array.js", array);
     console.log(`✅ indexArray written with ⫷ ${blankSubheads}⫸ blank subheads`);
   } catch (err) {
     console.log("❌There was an error writing indexArray");
@@ -621,7 +621,7 @@ function createLocatorBookObject() {
   const locatorBookObjectString = `export const locatorBookObject =${JSON.stringify(locatorBookObject, null, 2)}`;
 
   try {
-    fs.writeFileSync("../src/data/locator-book-object.js", locatorBookObjectString);
+    fs.writeFileSync("src/data/locator-book-object.js", locatorBookObjectString);
     console.log("✅ locatorBookObject written");
   } catch (err) {
     console.log("❌There was an error writing locatorBookObject");
@@ -860,7 +860,7 @@ text-decoration:none
     </html>`;
 
   try {
-    fs.writeFileSync("../public/locatorsortedtable.html", locatorSortedTableHtml);
+    fs.writeFileSync("public/locatorsortedtable.html", locatorSortedTableHtml);
     console.log("🌐 locatorSortedTableHtml written");
   } catch (err) {
     console.log("❌There was an error writing locatorSortedTableHtml");
@@ -876,7 +876,7 @@ function createDate() {
   });
   const currentTime = new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit", hour12: true });
   try {
-    fs.writeFileSync("../src/data/updateDate.js", `export const updateDate ="${currentDate + ", " + currentTime}"`);
+    fs.writeFileSync("src/data/updateDate.js", `export const updateDate ="${currentDate + ", " + currentTime}"`);
     console.log(`📅 Job completed: ${currentDate} ${currentTime}`);
   } catch (err) {
     console.log("❌There was an error writing updateDate");

@@ -191,7 +191,7 @@ export default function createSuttaIndexHtml(indexObject) {
   </html>`;
 
   try {
-    fs.writeFileSync("../public/index.html", suttaIndexHtml);
+    fs.writeFileSync("public/index.html", suttaIndexHtml);
     console.log("🌐 index.html written");
   } catch (err) {
     console.log("❌There was an error writing index.html");
@@ -210,7 +210,7 @@ export default function createSuttaIndexHtml(indexObject) {
   //   console.error(err);
   // }
 
-  exec("npx esbuild ../src/functions/scripts.js --bundle --minify --outfile=../public/index.js", (error, stdout, stderr) => {
+  exec("npx esbuild src/functions/scripts.js --bundle --minify --outfile=public/index.js", (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;
