@@ -2,5 +2,8 @@
     "type": "module",
     "name": "node-script",
     "version": "1.0.0",
-    "description": "Node script for building data"
+    "description": "Node script for building data",
+    "devDependencies": {
+        "esbuild": "^0.23.1"
+    }
 }
