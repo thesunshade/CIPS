@@ -80,7 +80,7 @@ export default function createSuttaIndexHtml(indexObject) {
       const headwordsObject = indexObject[letter];
       const headwordsArray = Object.keys(headwordsObject);
       return `
-        <div class="alphabet-anchor" id=${letter}>
+        <div class="alphabet-anchor">
           ${letter}
         </div>
         ${headwordsArray
@@ -92,28 +92,29 @@ export default function createSuttaIndexHtml(indexObject) {
             return `
             <div id="${headwordId}">
             <div class="head-word-area">
-                <a class="headword-link" href=${"#" + headwordId}>
+                <a class="headword-link" href="${"#" + headwordId}">
                     <span class="head-word">
                     <img src="images/copy-heading.png" alt="copy icon" class="icon copy-icon click-to-copy info" height="16" data-tippy-content="Copy headword text to the clipboard" data-clipboard-text="${headword}">
                     <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy info" height="16" data-tippy-content="Copy a link to this entry to the clipboard" data-clipboard-text="index.readingfaithfully.org/#${headwordId}">
                     ${headwordWithCounter}
-                    <img src="images/copy-text-up.png" alt="text copy icon" class="icon text-icon copy-icon info" height="16 title="Copy text of entry" data-headword="${headword}" data-tippy-content="Copy plain text of this entry">
-                    <img src="images/copy-html-up.png" alt="text copy icon" class="icon html-icon copy-icon info" height="16 title="Copy text of entry" data-headword="${headword}" data-tippy-content="Copy html version of this entry">
-                    <img src="images/copy-markdown-up.png" alt="text copy icon" class="icon markdown-icon copy-icon info" height="16 title="Copy text of entry" data-headword="${headword}" data-tippy-content="Copy Markdown version of this entry">
+                    <img src="images/copy-text-up.png" alt="text copy icon" class="icon text-icon copy-icon info" height="16" data-headword="${headword}" data-tippy-content="Copy plain text of this entry">
+                    <img src="images/copy-html-up.png" alt="text copy icon" class="icon html-icon copy-icon info" height="16" data-headword="${headword}" data-tippy-content="Copy html version of this entry">
+                    <img src="images/copy-markdown-up.png" alt="text copy icon" class="icon markdown-icon copy-icon info" height="16" data-headword="${headword}" data-tippy-content="Copy Markdown version of this entry">
                     </span>
                 </a>
           </div>
           ${sortedSubWords
             .map(subhead => {
-              let locatorListObject = headwordsObject[headword][subhead];
+              const locatorListObject = headwordsObject[headword][subhead];
               return `<div class="sub-word">${subhead === "" ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}
               <span class="locator-list">
               ${locatorListObject.xrefs
                 .map((rawXref, index) => {
                   const xref = rawXref.replace("xref ", "");
-                  let xrefId = makeNormalizedId(xref);
+                  const xrefId = makeNormalizedId(xref);
+                  const numberOfXrefs = locatorListObject.xrefs.length;
                   return `<a href="#${xrefId}" class="xref-link"> 
-                  ${xref} </a>${index + 1 === locatorListObject.xrefs.length ? "" : "; <br>"} `;
+                  ${xref} </a>${index + 1 === numberOfXrefs ? "" : "; <br>"} `;
                 })
                 .join("")}
               ${locatorListObject.locators
@@ -129,11 +130,12 @@ export default function createSuttaIndexHtml(indexObject) {
                 </a>${connector} `;
                 })
                 .join("")}
-              </div>
+                </span>
+              </div><!--end sub-word -->
               `;
             })
             .join("")}
-          </span>
+
           </div>`;
           })
           .join("")}`;

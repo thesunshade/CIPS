@@ -6,13 +6,13 @@ import { indexArray } from "../data/index-array.js";
 export const infoAreaHtml = `
   <div class="settings-button-row">
     <div id="theme-button" class="theme-button settings-button info" data-tippy-content="toggle light/dark theme">
-      <img class="icon" height="20"  src="images/8673129_ic_fluent_dark_theme_filled.png" />
+      <img class="icon" height="20"  src="images/8673129_ic_fluent_dark_theme_filled.png" alt="theme change icon"/>
     </div>
     <div id="color-button" class="settings-button info" data-tippy-content="toggle colorized citations">
-      <img class="icon" height="20" src="images/palette.png">
+      <img class="icon" height="20" src="images/palette.png" alt="colored citation icon">
     </div>
     <div id="eye-button" class="settings-button info" data-tippy-content="Toggle visibility of copy buttons">
-      <img class="icon" height="20" src="images/eye.png">
+      <img class="icon" height="20" src="images/eye.png" alt="toggle copy buttons icon">
     </div>
   </div>
       <p>

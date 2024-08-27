@@ -10,13 +10,13 @@ export function settingsBar(indexObject) {
           <input type="text" id="search-box" placeholder="Search headwords..." spellcheck="false">
           </div>
           <div id="info-button" class="settings-button info" data-tippy-content="Settings and information.">
-            <img class="icon" width="17px"  src="images/info-dot.png" />
+            <img class="icon" width="17"  src="images/info-dot.png" alt="Info icon"/>
           </div>
         </div>
         <div class="alphabet">
         ${alphabet
           .map(letter => {
-            return `<span class="letter" id=${letter}>
+            return `<span class="letter" id="${letter}">
                   ${letter}
                 </span>`;
           })
