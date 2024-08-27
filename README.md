@@ -8,7 +8,11 @@ Curious about the philosopy being used to create the index? See [these notes](ht
 
 ## Running locally
 
-You should be able to run the site locally just by opening `/public/index.html`
+To run the site locally, just start a simple http server pointing at the "public" folder:
+
+```bash
+npx http-server public -o -p 9999
+```
 
 ## Development
 

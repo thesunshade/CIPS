@@ -4,6 +4,7 @@ import "./themeScripts.js";
 import "./copyScripts.js";
 import tippy from "tippy.js";
 
+const SITENAME = "Comprehensive Index of Pāli Suttas";
 const searchBox = document.getElementById("search-box");
 const resultsContainer = document.getElementById("results");
 let activeIndex = -1;
@@ -86,6 +87,7 @@ function createResultItem(item, query, firstOnly) {
     const anchorId = makeNormalizedId(item);
     document.getElementById(anchorId).scrollIntoView({ behavior: "smooth" });
     window.history.pushState(null, null, "#" + anchorId);
+    document.title = `${item} | ${SITENAME}`;
   });
 
   resultsContainer.appendChild(resultItem);
@@ -208,6 +210,28 @@ allDetails.forEach(details => {
     }
   });
 });
+
+function updatePageTitle() {
+  const targetId = window.location.hash.substring(1);
+  if (targetId) {
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      const headWordElement = targetElement.querySelector('span.head-word');
+      if (headWordElement) {
+        const headWordText = headWordElement.textContent.trim();
+        document.title = `${headWordText} | ${SITENAME}`;
+        return;
+      }
+    }
+  }
+  // else
+  document.title = SITENAME;
+}
+
+document.addEventListener("DOMContentLoaded", updatePageTitle);
+window.addEventListener("hashchange", updatePageTitle);
+
+// Setup tippy.js tooltips
 
 tippy(".locator", { allowHTML: true, delay: [300, null], touch: ["hold", 500] });
 tippy(".info", { theme: "info", touch: ["hold", 500], delay: [500, null] });
