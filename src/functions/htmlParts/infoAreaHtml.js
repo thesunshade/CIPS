@@ -1,7 +1,7 @@
-import { updateDate } from "../data/updateDate.js";
-import { statsData } from "../data/statsData.js";
-import { headwordsArray } from "../data/headwords-array.js";
-import { indexArray } from "../data/index-array.js";
+import { updateDate } from "../../data/updateDate.js";
+import { statsData } from "../../data/statsData.js";
+import { headwordsArray } from "../../data/headwords-array.js";
+import { indexArray } from "../../data/index-array.js";
 
 export const infoAreaHtml = `
   <div class="settings-button-row">

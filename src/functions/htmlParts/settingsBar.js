@@ -1,4 +1,4 @@
-import { infoAreaHtml } from "../infoAreaHtml.js";
+import { infoAreaHtml } from "./infoAreaHtml.js";
 
 export function settingsBar(indexObject) {
   let alphabet = Object.keys(indexObject);
