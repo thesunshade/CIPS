@@ -11,7 +11,7 @@ export const openingHtml = `<!DOCTYPE html>
       <meta property="og:image" itemprop="image" content="images/featuredImage-index.png" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-html.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
       <title>Comprehensive Index of Pāli Suttas</title>
       <link rel="stylesheet" href="index.css">
       <script src="https://unpkg.com/@popperjs/core@2"></script>

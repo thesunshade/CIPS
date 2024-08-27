@@ -75,6 +75,7 @@ export default function createSuttaIndexHtml(indexObject) {
   }
 
   let alphabet = Object.keys(indexObject);
+  // this builds the html for the index
   const index = alphabet
     .map(letter => {
       const headwordsObject = indexObject[letter];
@@ -94,12 +95,12 @@ export default function createSuttaIndexHtml(indexObject) {
             <div class="head-word-area">
                 <a class="headword-link" href="${"#" + headwordId}">
                     <span class="head-word">
-                    <img src="images/copy-heading.png" alt="copy icon" class="icon copy-icon click-to-copy info" height="16" data-tippy-content="Copy headword text to the clipboard" data-clipboard-text="${headword}">
-                    <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy info" height="16" data-tippy-content="Copy a link to this entry to the clipboard" data-clipboard-text="index.readingfaithfully.org/#${headwordId}">
+                    <img src="images/copy-heading.png" alt="copy icon" class="icon copy-icon click-to-copy copy-headword" height="16" data-clipboard-text="${headword}">
+                    <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy copy-link" height="16" data-clipboard-text="index.readingfaithfully.org/#${headwordId}">
                     ${headwordWithCounter}
-                    <img src="images/copy-text-up.png" alt="text copy icon" class="icon text-icon copy-icon info" height="16" data-headword="${headword}" data-tippy-content="Copy plain text of this entry">
-                    <img src="images/copy-html-up.png" alt="text copy icon" class="icon html-icon copy-icon info" height="16" data-headword="${headword}" data-tippy-content="Copy html version of this entry">
-                    <img src="images/copy-markdown-up.png" alt="text copy icon" class="icon markdown-icon copy-icon info" height="16" data-headword="${headword}" data-tippy-content="Copy Markdown version of this entry">
+                    <img src="images/copy-text.png" alt="text copy icon" class="icon text-icon copy-icon entry-text" height="16" data-headword="${headword}">
+                    <img src="images/copy-html.png" alt="text copy icon" class="icon html-icon copy-icon entry-html" height="16" data-headword="${headword}">
+                    <img src="images/copy-markdown.png" alt="text copy icon" class="icon markdown-icon copy-icon entry-markdown" height="16" data-headword="${headword}">
                     </span>
                 </a>
           </div>
@@ -114,7 +115,7 @@ export default function createSuttaIndexHtml(indexObject) {
                   const xrefId = makeNormalizedId(xref);
                   const numberOfXrefs = locatorListObject.xrefs.length;
                   return `<a href="#${xrefId}" class="xref-link"> 
-                  ${xref} </a>${index + 1 === numberOfXrefs ? "" : "; <br>"} `;
+                  ${xref}</a>${index + 1 === numberOfXrefs ? "" : "; <br>"} `;
                 })
                 .join("")}
               ${locatorListObject.locators
@@ -131,11 +132,9 @@ export default function createSuttaIndexHtml(indexObject) {
                 })
                 .join("")}
                 </span>
-              </div><!--end sub-word -->
-              `;
+              </div>`;
             })
             .join("")}
-
           </div>`;
           })
           .join("")}`;

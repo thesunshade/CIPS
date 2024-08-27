@@ -462,7 +462,7 @@ function createIndexObject() {
   </body>`;
 
   try {
-    fs.writeFileSync("public/locatorcounttable.html", headwordLocatorCountHTML);
+    fs.writeFileSync("public/locatorCountTable.html", headwordLocatorCountHTML);
     console.log("🌐 headwordLocatorCountHTML written");
   } catch (err) {
     console.log("❌There was an error writing headwordLocatorCountHTML");
@@ -863,7 +863,7 @@ text-decoration:none
     </html>`;
 
   try {
-    fs.writeFileSync("public/locatorsortedtable.html", locatorSortedTableHtml);
+    fs.writeFileSync("public/locatorSortedTable.html", locatorSortedTableHtml);
     console.log("🌐 locatorSortedTableHtml written");
   } catch (err) {
     console.log("❌There was an error writing locatorSortedTableHtml");
