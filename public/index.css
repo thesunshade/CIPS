@@ -518,11 +518,13 @@ a.xref-link {
   transform: translateX(-50%);
   width: 8rem;
   border-radius: 10px;
-  background-color: var(--primary);
+  background-color: var(--dark-offwhite);
+  border: solid 2px var(--offblack);
   color: var(--offblack);
   text-align: center;
   padding: 10px;
-  box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.2); */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   opacity: 1;
   transition: opacity 0.15s ease-in-out;
   z-index: 9999;
@@ -614,14 +616,14 @@ details>div {
 }
 
 .tippy-box[data-theme~='info'] {
-  background-color: #c9c9c9;
+  background-color: var(--dark-offwhite);
   color: black;
   border: 1px solid black;
 }
 
 .tippy-box[data-theme~='info']>.tippy-arrow::before {
-  border-top-color: #c9c9c9;
-  border-bottom-color: #c9c9c9;
+  border-top-color: var(--dark-offwhite);
+  border-bottom-color: var(--dark-offwhite);
 }
 
 .tippy-content:empty {
