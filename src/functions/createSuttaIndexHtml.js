@@ -9,6 +9,7 @@ import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { exec } from "child_process";
+// import { indexObject } from "../data/index-object.js";
 
 export default function createSuttaIndexHtml(indexObject) {
   // because there is no Vv or Pv on SC, those citations go to suttafriends.org

@@ -23,7 +23,7 @@
     "**/.git": false
   },
   "search.useIgnoreFiles": false,
-  "explorer.excludeGitIgnore": false,
+  "explorer.excludeGitIgnore": true,
   "search.useGlobalIgnoreFiles": false,
   "search.useParentIgnoreFiles": false
 }

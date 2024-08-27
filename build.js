@@ -2,7 +2,7 @@
 import fs from "fs";
 import getSuttaTitle from "./src/functionsBuilding/getSuttaTitle.js";
 import getSuttaBlurb from "./src/functionsBuilding/getSuttaBlurb.js";
-import createSuttaIndexHtml from "./src/functions/createSuttaIndexHtml.js";
+// import createSuttaIndexHtml from "./src/functions/createSuttaIndexHtml.js";
 import { findNonUniqueHeadwords } from "./src/functionsBuilding/findNonUniqueHeadwords.js";
 
 let locatorFirstArray = [];
@@ -511,7 +511,15 @@ function createIndexObject() {
 
   // end of total unique locators
 
-  createSuttaIndexHtml(indexObject);
+  (async () => {
+    try {
+      const module = await import("./src/functions/createSuttaIndexHtml.js");
+      const createSuttaIndexHtml = module.default; // Access the default export
+      createSuttaIndexHtml(indexObject);
+    } catch (err) {
+      console.error("Error loading module:", err);
+    }
+  })();
 }
 
 function createHeadingsArray() {
@@ -889,10 +897,8 @@ function createDate() {
 
 console.log("▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼");
 
+createDate();
 createIndexObject();
 createLocatorSortedArray();
 createHeadingsArray();
 createLocatorBookObject();
-createDate();
-
-console.log("▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲");
