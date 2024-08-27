@@ -2,6 +2,7 @@ import { headwordsArray } from "../data/headwords-array.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
+import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import tippy from "tippy.js";
 
 const SITENAME = "Comprehensive Index of Pāli Suttas";
@@ -44,20 +45,6 @@ function renderResults({ query, firstOnly }) {
   }
   contains.forEach(item => createResultItem(item, query, firstOnly));
   resultsContainer.scrollTop = 0;
-}
-
-function makeNormalizedId(text) {
-  return text
-    .trim()
-    .replace("ā", "aa")
-    .replace("ī", "ii")
-    .replace("ū", "uu")
-    .replace("Ā", "Aa")
-    .replace("xref ", "")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/ /g, "-")
-    .replace(/[,;.“”'"’/()]/g, "");
 }
 
 function createResultItem(item, query, firstOnly) {
@@ -216,7 +203,7 @@ function updatePageTitle() {
   if (targetId) {
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
-      const headWordElement = targetElement.querySelector('span.head-word');
+      const headWordElement = targetElement.querySelector("span.head-word");
       if (headWordElement) {
         const headWordText = headWordElement.textContent.trim();
         document.title = `${headWordText} | ${SITENAME}`;

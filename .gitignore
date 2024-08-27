@@ -13,7 +13,18 @@ node_modules
 /coverage
 
 # production
-/build
+/public/index.html
+/public/index.js
+/public/locatorCountTable.html
+/public/locatorSortedTable.html
+/src/data/headwordLocatorCount.js
+/src/data/headwords-array.js
+/src/data/index-array.js
+/src/data/index-object.js
+/src/data/locator-book-object.js
+/src/data/statsData.js
+/src/data/updateDate.js
+/src/data/uniqueLocators.js
 
 # misc
 .DS_Store

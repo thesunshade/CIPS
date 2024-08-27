@@ -397,6 +397,10 @@ a.xref-link {
   text-decoration: none
 }
 
+.hide-names .sutta-name {
+  display: none;
+}
+
 .colored-locators .locator {
   border: solid 1px rgb(220, 220, 220);
 }
@@ -488,17 +492,9 @@ a.xref-link {
     background-color: inherit;
   }
 
-  .head-word-area {
-    /* top: 5.2rem; */
-  }
-
   .sub-word {
     padding-left: var(--mobile-indent);
     text-indent: initial;
-  }
-
-  .sutta-name {
-    display: none;
   }
 
   .link-icon,

@@ -14,6 +14,9 @@ export const infoAreaHtml = `
     <div id="eye-button" class="settings-button info" data-tippy-content="Toggle visibility of copy buttons">
       <img class="icon" height="20" src="images/eye.png" alt="toggle copy buttons icon">
     </div>
+    <div id="names-button" class="settings-button info" data-tippy-content="Toggle visibility of sutta names">
+      <img class="icon" height="20" src="images/tag.png" alt="toggle names buttons icon">
+    </div>
   </div>
       <p>
         This is an incomplete and unpublished draft of an index of the Sutta Piṭaka. For more information, visit the

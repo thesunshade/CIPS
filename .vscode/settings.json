@@ -18,5 +18,12 @@
     "titleBar.inactiveBackground": "#e2b88399",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#e2b883"
+  "peacock.color": "#e2b883",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "search.useIgnoreFiles": false,
+  "explorer.excludeGitIgnore": false,
+  "search.useGlobalIgnoreFiles": false,
+  "search.useParentIgnoreFiles": false
 }

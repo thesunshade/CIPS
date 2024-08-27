@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", applyColor);
 // Add event listener to the color button
 document.getElementById("color-button").addEventListener("click", toggleColor);
 
+// Initialize the names on page load
+document.addEventListener("DOMContentLoaded", applyNames);
+
+// Add event listener to the names button
+document.getElementById("names-button").addEventListener("click", toggleNames);
+
 // Function to apply the theme based on localStorage
 function applyTheme() {
   const theme = localStorage.getItem("theme");
@@ -53,5 +59,26 @@ function toggleColor() {
   } else {
     document.body.classList.add("colored-locators");
     localStorage.setItem("color", "true");
+  }
+}
+
+// Function to apply the names visibility based on localStorage
+function applyNames() {
+  const names = localStorage.getItem("names");
+  if (names === "false") {
+    document.body.classList.add("hide-names");
+  } else {
+    document.body.classList.remove("hide-names");
+  }
+}
+
+// Function to toggle the names
+function toggleNames() {
+  if (document.body.classList.contains("hide-names")) {
+    document.body.classList.remove("hide-names");
+    localStorage.setItem("names", "true");
+  } else {
+    document.body.classList.add("hide-names");
+    localStorage.setItem("names", "false");
   }
 }
