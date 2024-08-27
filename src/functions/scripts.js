@@ -2,6 +2,7 @@ import { headwordsArray } from "../data/headwords-array.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
+import tippy from "tippy.js";
 
 const searchBox = document.getElementById("search-box");
 const resultsContainer = document.getElementById("results");
@@ -207,3 +208,6 @@ allDetails.forEach(details => {
     }
   });
 });
+
+tippy(".locator", { allowHTML: true, delay: [300, null], touch: ["hold", 500] });
+tippy(".info", { theme: "info", touch: ["hold", 500], delay: [500, null] });
