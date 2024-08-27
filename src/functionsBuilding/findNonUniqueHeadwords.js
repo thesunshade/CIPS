@@ -23,5 +23,7 @@ export function findNonUniqueHeadwords(headwords) {
     }
   }
 
-  console.log("💀 Non-unique headwords:", nonUniqueHeadwords);
+  if (nonUniqueHeadwords.size > 0) {
+    console.log("💀 Non-unique headwords:", nonUniqueHeadwords);
+  }
 }
