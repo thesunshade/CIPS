@@ -139,7 +139,7 @@ a {
 .top-row {
   display: flex;
   flex-direction: row;
-  column-gap: 1rem;
+  column-gap: .5rem;
   align-items: center;
   padding: .5rem 0;
   min-width: 360px;
