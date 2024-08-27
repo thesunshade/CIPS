@@ -701,7 +701,7 @@ details>div {
   background-color: var(--dark-offwhite);
   color: var(--offblack);
   text-align: center;
-  border: 2px var(--offblack);
+  border: 2px solid var(--offblack);
   border-radius: 20px;
   padding: 16px;
   position: fixed;
