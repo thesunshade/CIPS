@@ -6,7 +6,7 @@ export function settingsBar(indexObject) {
   return `<div id="settings-bar" class="settings-bar">
   <div class="snack-bar">Copied!</div>
         <div class="top-row">
-        <img src="images/favicon-index-thicker64.png" width="19" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+        <img src="images/favicon-index-thicker64.png" width="22" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
           <div class="search-area">
           <input type="text" id="search-box" placeholder="Search headwords..." spellcheck="false">
           </div>
