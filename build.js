@@ -3,6 +3,7 @@ import fs from "fs";
 import getSuttaTitle from "./src/functionsBuilding/getSuttaTitle.js";
 import getSuttaBlurb from "./src/functionsBuilding/getSuttaBlurb.js";
 import createSuttaIndexHtml from "./src/functions/createSuttaIndexHtml.js";
+import { findNonUniqueHeadwords } from "./src/functionsBuilding/findNonUniqueHeadwords.js";
 
 let locatorFirstArray = [];
 let rawIndexArray = [];
@@ -526,6 +527,8 @@ function createHeadingsArray() {
     listOfHeadwords.push(headwords);
   }
   listOfHeadwords = listOfHeadwords.flat();
+
+  findNonUniqueHeadwords(listOfHeadwords);
 
   const headwordsArray = `export const headwordsArray =${JSON.stringify(listOfHeadwords, null, 5)}`;
 
