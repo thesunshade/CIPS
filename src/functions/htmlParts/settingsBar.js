@@ -5,6 +5,8 @@ export function settingsBar(indexObject) {
 
   return `<div id="settings-bar" class="settings-bar">
   <div class="snack-bar">Copied!</div>
+  <div id="loading-snackbar">Loading, please wait...</div>
+
         <div class="top-row">
         <img src="images/favicon-index-thicker64.png" width="22" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
           <div class="search-area">

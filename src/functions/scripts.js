@@ -5,6 +5,13 @@ import "./copyScripts.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import tippy from "tippy.js";
 
+window.addEventListener("load", function () {
+  // Hide the snackbar once the page has loaded
+  document.getElementById("loading-snackbar").style.visibility = "hidden";
+});
+
+document.getElementById("loading-snackbar").style.visibility = "visible";
+
 const SITENAME = "Comprehensive Index of Pāli Suttas";
 const searchBox = document.getElementById("search-box");
 const resultsContainer = document.getElementById("results");
