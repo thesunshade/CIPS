@@ -17,7 +17,7 @@ export const infoAreaHtml = `
   </div>
       <p>
         This is an incomplete and unpublished draft of an index of the Sutta Piṭaka. For more information, visit the
-        <a href="https://github.com/thesunshade/sutta-index#readme" rel="noreferrer" target="_blank">
+        <a href="https://github.com/thesunshade/CIPS#readme" rel="noreferrer" target="_blank">
           ReadMe.
         </a>
       </p>
