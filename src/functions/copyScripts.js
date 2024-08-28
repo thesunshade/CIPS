@@ -164,5 +164,6 @@ function createElementObject(elementId) {
     .replace(/,\]/g, "]");
 
   elementObject += "]}}";
+  console.log(JSON.parse(elementObject));
   return JSON.parse(elementObject);
 }

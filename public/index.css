@@ -744,13 +744,13 @@ details>div {
   text-align: center;
   border: 2px solid var(--offblack);
   border-radius: 20px;
-  padding: 16px;
+  padding: 8px;
   position: fixed;
   left: 50%;
   bottom: 30px;
   transform: translateX(-50%);
   z-index: 1000;
-  font-size: 17px;
+  font-size: 14px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   display: block;
   /* Visible by default */
