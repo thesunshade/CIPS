@@ -8,6 +8,7 @@ export function settingsBar(indexObject) {
   <div id="loading-snackbar">Loading…
   <div class="mobile-message">Some older mobile devices may not offer full functionality</div>
   </div>
+<div id="console-logs"></div>
 
         <div class="top-row">
         <img src="images/favicon-index-thicker64.png" width="22" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
