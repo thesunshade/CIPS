@@ -16,6 +16,45 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Failed to copy text:", err);
           });
       }
+    } else if (event.target.classList.contains("text-icon")) {
+      event.preventDefault();
+      const headword = event.target.getAttribute("data-headword");
+      if (headword) {
+        navigator.clipboard
+          .writeText(createTxtEntry(headword))
+          .then(() => {
+            toggleSnackBar();
+          })
+          .catch(err => {
+            console.error("Failed to copy text of entry id : " + headword + " ", err);
+          });
+      }
+    } else if (event.target.classList.contains("html-icon")) {
+      event.preventDefault();
+      const headword = event.target.getAttribute("data-headword");
+      if (headword) {
+        navigator.clipboard
+          .writeText(createHtmlEntry(headword))
+          .then(() => {
+            toggleSnackBar();
+          })
+          .catch(err => {
+            console.error("Failed to copy text of entry id : " + headword + " ", err);
+          });
+      }
+    } else if (event.target.classList.contains("markdown-icon")) {
+      event.preventDefault();
+      const headword = event.target.getAttribute("data-headword");
+      if (headword) {
+        navigator.clipboard
+          .writeText(createMarkdownEntry(headword))
+          .then(() => {
+            toggleSnackBar();
+          })
+          .catch(err => {
+            console.error("Failed to copy text of entry id : " + headword + " ", err);
+          });
+      }
     }
   });
 });
