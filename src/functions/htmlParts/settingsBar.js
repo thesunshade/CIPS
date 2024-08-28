@@ -9,9 +9,9 @@ export function settingsBar(indexObject) {
 
         <div class="top-row">
         <img src="images/favicon-index-thicker64.png" width="22" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
-          <div class="search-area">
+
           <input type="text" id="search-box" placeholder="Search headwords..." spellcheck="false">
-          </div>
+
           <div id="info-button" class="settings-button info" data-tippy-content="Settings and information.">
             <img class="icon" width="20"  src="images/info-dot-gear.png" alt="Info icon"/>
           </div>

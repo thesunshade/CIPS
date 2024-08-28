@@ -96,9 +96,9 @@ export default function createSuttaIndexHtml(indexObject) {
             <div class="head-word-area">
                 <a class="headword-link" href="${"#" + headwordId}">
                     <span class="head-word">
+                    ${headwordWithCounter}
                     <img src="images/copy-heading.png" alt="copy icon" class="icon copy-icon click-to-copy copy-headword" height="16" data-clipboard-text="${headword}">
                     <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy copy-link" height="16" data-clipboard-text="index.readingfaithfully.org/#${headwordId}">
-                    ${headwordWithCounter}
                     <img src="images/copy-text.png" alt="text copy icon" class="icon text-icon copy-icon entry-text" height="16" data-headword="${headword}">
                     <img src="images/copy-html.png" alt="text copy icon" class="icon html-icon copy-icon entry-html" height="16" data-headword="${headword}">
                     <img src="images/copy-markdown.png" alt="text copy icon" class="icon markdown-icon copy-icon entry-markdown" height="16" data-headword="${headword}">
