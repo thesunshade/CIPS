@@ -523,9 +523,14 @@ a.xref-link {
     background-color: inherit;
   }
 
-  .sub-word {
+  /* .sub-word {
     padding-left: var(--mobile-indent);
     text-indent: initial;
+  } */
+
+  .sub-word {
+    padding-left: .5rem;
+    text-indent: -.5rem;
   }
 
   .link-icon,
@@ -727,6 +732,8 @@ details>div {
   border-color: transparent;
   border-style: solid
 }
+
+
 
 #loading-snackbar {
   min-width: 250px;
