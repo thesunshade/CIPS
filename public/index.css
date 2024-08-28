@@ -122,7 +122,7 @@ p {
 a {
   text-decoration: none;
   white-space: nowrap;
-  word-spacing: -3px;
+  /* word-spacing: -3px;   */
 }
 
 .settings-bar {
@@ -409,16 +409,18 @@ a.xref-link {
   color: #00af00
 }
 
-.locator {
-  text-decoration: none
-}
+/* .locator {
+  text-decoration: none;
+} */
 
 .hide-names .sutta-name {
   display: none;
 }
 
 .colored-locators .locator {
-  border: solid 1px rgb(220, 220, 220);
+  /* border: solid 1px rgb(220, 220, 220); */
+  /* box-shadow: inset 1px 0 0 0 rgb(220, 220, 220); */
+  padding: 2px;
 }
 
 .colored-locators .dn {
