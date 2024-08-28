@@ -4,7 +4,6 @@ import "./themeScripts.js";
 import "./copyScripts.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import tippy from "tippy.js";
-import "tippy.js/dist/tippy.css";
 
 window.addEventListener("load", function () {
   // Hide the snackbar once the page has fully loaded

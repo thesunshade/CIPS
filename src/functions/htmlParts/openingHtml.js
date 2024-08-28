@@ -14,6 +14,5 @@ export const openingHtml = `<!DOCTYPE html>
       <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
       <title>Comprehensive Index of Pāli Suttas</title>
       <link rel="stylesheet" href="index.css">
-
       </head>
       <body id="app" class="app hide-snack-bar">`;

@@ -180,7 +180,7 @@ export default function createSuttaIndexHtml(indexObject) {
   // bundle the scripts
   const rawJsFile = "src/functions/scripts.js";
   const bundledJsFile = "public/index.js";
-  const rawCssFile = "public/styles.css";
+  const rawCssFile = "public/rawStyles.css";
   const bundledCssFile = "public/index.css";
 
   exec(`npx esbuild ${rawJsFile} --bundle --minify --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
