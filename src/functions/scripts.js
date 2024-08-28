@@ -4,55 +4,7 @@ import "./themeScripts.js";
 import "./copyScripts.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import tippy from "tippy.js";
-
-(function () {
-  const logContainer = document.getElementById("console-logs");
-
-  const appendMessage = (message, color) => {
-    const p = document.createElement("p");
-    p.style.color = color;
-    p.textContent = message;
-    logContainer.appendChild(p);
-  };
-
-  const oldConsoleLog = console.log;
-  const oldConsoleError = console.error;
-  const oldConsoleWarn = console.warn;
-  const oldConsoleInfo = console.info;
-  const oldConsoleDebug = console.debug;
-
-  console.log = function (message) {
-    appendMessage(message, "black");
-    oldConsoleLog.apply(console, arguments);
-  };
-
-  console.error = function (message) {
-    appendMessage(message, "red");
-    oldConsoleError.apply(console, arguments);
-  };
-
-  console.warn = function (message) {
-    appendMessage(message, "orange");
-    oldConsoleWarn.apply(console, arguments);
-  };
-
-  console.info = function (message) {
-    appendMessage(message, "blue");
-    oldConsoleInfo.apply(console, arguments);
-  };
-
-  console.debug = function (message) {
-    appendMessage(message, "green");
-    oldConsoleDebug.apply(console, arguments);
-  };
-})();
-
-// window.addEventListener("load", function () {
-//   // Hide the snackbar once the page has loaded
-//   document.getElementById("loading-snackbar").style.visibility = "hidden";
-// });
-
-// document.getElementById("loading-snackbar").style.visibility = "visible";
+import "tippy.js/dist/tippy.css";
 
 window.addEventListener("load", function () {
   // Hide the snackbar once the page has fully loaded

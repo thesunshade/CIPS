@@ -178,7 +178,12 @@ export default function createSuttaIndexHtml(indexObject) {
   }
 
   // bundle the scripts
-  exec("npx esbuild src/functions/scripts.js --bundle --minify --outfile=public/index.js", (error, stdout, stderr) => {
+  const rawJsFile = "src/functions/scripts.js";
+  const bundledJsFile = "public/index.js";
+  const rawCssFile = "public/styles.css";
+  const bundledCssFile = "public/index.css";
+
+  exec(`npx esbuild ${rawJsFile} --bundle --minify --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;
@@ -189,6 +194,23 @@ export default function createSuttaIndexHtml(indexObject) {
     if (stderr) {
       const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
       console.error(`🛠️  Script bundled; Stderr: ${singleLineStderr}`);
+      return;
+    }
+    console.log(`Stdout: ${stdout}`);
+  });
+
+  // Bundle and minify CSS
+  exec(`npx esbuild ${rawCssFile} --bundle --minify --outfile=${bundledCssFile}  --external:*.woff --external:*.woff2`, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error: ${error.message}`);
+      return;
+    }
+    if (error && error.code !== 0) {
+      console.error(`Command failed with exit code ${error.code}`);
+    }
+    if (stderr) {
+      const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
+      console.error(`🖍️  CSS bundled; Stderr: ${singleLineStderr}`);
       return;
     }
     console.log(`Stdout: ${stdout}`);

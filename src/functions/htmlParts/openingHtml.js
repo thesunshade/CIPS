@@ -14,7 +14,6 @@ export const openingHtml = `<!DOCTYPE html>
       <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
       <title>Comprehensive Index of Pāli Suttas</title>
       <link rel="stylesheet" href="index.css">
-      <script src="https://unpkg.com/@popperjs/core@2"></script>
-      <script src="https://unpkg.com/tippy.js@6"></script>
+
       </head>
       <body id="app" class="app hide-snack-bar">`;
