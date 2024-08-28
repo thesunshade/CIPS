@@ -488,6 +488,7 @@ a.xref-link {
 
   input {
     font-family: "Fira Sans Extra Condensed";
+    max-width: 400px;
   }
 
   .icon-label {
