@@ -637,6 +637,10 @@ details>div {
   padding-left: .7rem;
 }
 
+.html-message {
+  display: none;
+}
+
 .stats {
   margin-top: 1rem;
   padding: 10px 15px;

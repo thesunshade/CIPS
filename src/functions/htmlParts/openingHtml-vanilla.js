@@ -14,8 +14,12 @@ export const openingHtml = `<!DOCTYPE html>
       <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-html.png">
       <title>Simple | Comprehensive Index of Pāli Suttas</title>
       <style>
+      html {
+      scroll-padding-top: 3rem; 
+      }
       body {
       font-family: sans-serif;
+      background-color: #f0f0f0;
       }
 
       .settings-bar {
@@ -43,6 +47,7 @@ export const openingHtml = `<!DOCTYPE html>
       }
 
       .alphabet-anchor{
+      margin-top:10px;
       font-size:2rem;
       font-weight:bold;
       }
@@ -67,7 +72,9 @@ export const openingHtml = `<!DOCTYPE html>
       .xref-link {
       color:green;
       }
-
+      .full-message{
+      display:none;
+      }
       </style>
       </head>
       <body id="app" class="app">`;

@@ -100,9 +100,11 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
     // const linkClass = makeLinkClass(locator) + " locator";
     const linkText = makeLinkText(locator);
     const title = getSuttaTitle(locator);
+    // to add title:
+    /// ${title ? ` ${title}` : ""}
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return ` <a href="${url}" target="_blank" rel="noreferrer" >${linkText}${title ? ` ${title}` : ""}</a>${connector}`;
+    return ` <a href="${url}" target="_blank" rel="noreferrer" >${linkText}</a>${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
@@ -131,7 +133,7 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
     .map(letter => {
       const headwordsObject = indexObject[letter];
       const headwordsArray = Object.keys(headwordsObject);
-      return `<div class="alphabet-anchor" id="${letter}">${letter}</div>
+      return `<div class="alphabet-anchor" id="${letter}">— ${letter} —</div>
         ${headwordsArray
           .map(headword => {
             let sortedSubWords = sortedKeys(headwordsObject[headword]);
