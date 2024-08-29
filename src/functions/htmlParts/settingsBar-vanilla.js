@@ -12,6 +12,6 @@ export function settingsBar(indexObject) {
                 </a>`;
           })
           .join("")}
-        <a href="#info" class="letter">ℹ️</a></div>
+        <a href="#info" class="letter">ⓘ</a></div>
         </div>`;
 }

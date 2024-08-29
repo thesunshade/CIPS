@@ -99,7 +99,7 @@ export const infoAreaHtml = `
           All citation for Vimanavatthu and Petavatthu link to SuttaFriends.org as it is the only complete online resource.
         </p>
       </details>
-      <details>
+      <details open>
         <summary>Misc.</summary>
         <div>
           <p>

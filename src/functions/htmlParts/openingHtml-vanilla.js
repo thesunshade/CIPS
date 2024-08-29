@@ -17,6 +17,7 @@ export const openingHtml = `<!DOCTYPE html>
       body {
       font-family: sans-serif;
       }
+
       .settings-bar {
       background-color: white;
       position: fixed;
@@ -29,14 +30,18 @@ export const openingHtml = `<!DOCTYPE html>
       padding-top:10px;
       border-bottom: solid 2px black;
       }
+
       .alphabet {
       max-width: 35rem;
       min-width: 0;
       }
+
       .letter {
       text-decoration: none;
       font-weight:bold;
+      color: black;
       }
+
       .alphabet-anchor{
       font-size:2rem;
       font-weight:bold;
