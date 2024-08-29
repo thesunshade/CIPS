@@ -1,0 +1,16 @@
+export const settingsAreaHtml = `
+  <div class="settings-button-row">
+    <div id="theme-button" class="theme-button settings-button info" data-tippy-content="toggle light/dark theme">
+      <img class="icon" height="20"  src="images/theme.png" alt="theme change icon"/> <span class="icon-label">Theme</span>
+    </div>
+    <div id="color-button" class="settings-button info" data-tippy-content="toggle colorized citations">
+      <img class="icon" height="20" src="images/palette.png" alt="colored citation icon"> <span class="icon-label">Citation color</span>
+    </div>
+    <div id="eye-button" class="settings-button info" data-tippy-content="Toggle visibility of copy buttons">
+      <img class="icon" height="20" src="images/eye.png" alt="toggle copy buttons icon"> <span class="icon-label">Copy buttons</span>
+    </div>
+    <div id="names-button" class="settings-button info" data-tippy-content="Toggle visibility of sutta names">
+      <img class="icon" height="20" src="images/tag.png" alt="toggle names buttons icon"> <span class="icon-label">Sutta names</span>
+    </div>
+  </div>
+`;

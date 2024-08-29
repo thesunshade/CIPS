@@ -4,20 +4,6 @@ import { headwordsArray } from "../../data/headwords-array.js";
 import { indexArray } from "../../data/index-array.js";
 
 export const infoAreaHtml = `
-  <div class="settings-button-row">
-    <div id="theme-button" class="theme-button settings-button info" data-tippy-content="toggle light/dark theme">
-      <img class="icon" height="20"  src="images/theme.png" alt="theme change icon"/> <span class="icon-label">Theme</span>
-    </div>
-    <div id="color-button" class="settings-button info" data-tippy-content="toggle colorized citations">
-      <img class="icon" height="20" src="images/palette.png" alt="colored citation icon"> <span class="icon-label">Citation color</span>
-    </div>
-    <div id="eye-button" class="settings-button info" data-tippy-content="Toggle visibility of copy buttons">
-      <img class="icon" height="20" src="images/eye.png" alt="toggle copy buttons icon"> <span class="icon-label">Copy buttons</span>
-    </div>
-    <div id="names-button" class="settings-button info" data-tippy-content="Toggle visibility of sutta names">
-      <img class="icon" height="20" src="images/tag.png" alt="toggle names buttons icon"> <span class="icon-label">Sutta names</span>
-    </div>
-  </div>
       <p>
         This is an incomplete and unpublished draft of an index of the Sutta Piṭaka. For more information, visit the
         <a href="https://github.com/thesunshade/CIPS#readme" rel="noreferrer" target="_blank">
@@ -50,7 +36,7 @@ export const infoAreaHtml = `
       <details>
         <summary>Sutta Summaries</summary>
         <div>
-          <p>Desktop users can hover over citations with the mouse to see a summary of the sutta. Mobile and touch users can try a long press to see them.</p>
+          <p>On the full version of the index, desktop users can hover over citations with the mouse to see a summary of the sutta. Mobile and touch users can try a long press to see them.</p>
         </div>
       </details>
       <details>

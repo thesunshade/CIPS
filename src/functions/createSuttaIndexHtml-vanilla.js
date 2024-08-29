@@ -1,7 +1,8 @@
 import fs from "fs";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import { openingHtml } from "./htmlParts/openingHtml-vanilla.js";
-import { settingsBar } from "./htmlParts/settingsBar.js";
+import { settingsBar } from "./htmlParts/settingsBar-vanilla.js";
+import { infoAreaHtml } from "./htmlParts/infoAreaHtml.js";
 import { endingHtml } from "./htmlParts/endingHtml-vanilla.js";
 import sortedKeys from "../functionsBuilding/sortedKeys.js";
 import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
@@ -130,7 +131,7 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
     .map(letter => {
       const headwordsObject = indexObject[letter];
       const headwordsArray = Object.keys(headwordsObject);
-      return `<div class="alphabet-anchor">${letter}</div>
+      return `<div class="alphabet-anchor" id="${letter}">${letter}</div>
         ${headwordsArray
           .map(headword => {
             let sortedSubWords = sortedKeys(headwordsObject[headword]);
@@ -158,8 +159,14 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
 
   // asemble all the parts
   let suttaIndexHtml = `${openingHtml}
+  ${settingsBar(indexObject)}
     <div id="sutta-index" class="sutta-index">
     ${index}
+    <hr>
+    <div id="info">
+    <h1>Information</h1>
+    ${infoAreaHtml}
+    </div>
     ${endingHtml}`;
 
   // Save the finished html file

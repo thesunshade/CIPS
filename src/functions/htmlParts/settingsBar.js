@@ -1,4 +1,5 @@
 import { infoAreaHtml } from "./infoAreaHtml.js";
+import { settingsAreaHtml } from "./settingsAreaHtml.js";
 
 export function settingsBar(indexObject) {
   let alphabet = Object.keys(indexObject);
@@ -27,6 +28,8 @@ export function settingsBar(indexObject) {
           .join("")}
         </div>
         <div id="results" class="search-results"></div>
-        <div id="info-area" class="info-area hidden">${infoAreaHtml}</div>
+        <div id="info-area" class="info-area hidden">
+        ${settingsAreaHtml}
+        ${infoAreaHtml}</div>
       </div>`;
 }

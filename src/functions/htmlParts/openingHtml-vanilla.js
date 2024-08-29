@@ -17,7 +17,30 @@ export const openingHtml = `<!DOCTYPE html>
       body {
       font-family: sans-serif;
       }
-
+      .settings-bar {
+      background-color: white;
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      padding: 0 10px;
+      z-index: 100;
+      min-height: 2rem;
+      padding-top:10px;
+      border-bottom: solid 2px black;
+      }
+      .alphabet {
+      max-width: 35rem;
+      min-width: 0;
+      }
+      .letter {
+      text-decoration: none;
+      font-weight:bold;
+      }
+      .alphabet-anchor{
+      font-size:2rem;
+      font-weight:bold;
+      }
       .sub-word {
       margin-left:1rem;
       padding-left: 1rem;
