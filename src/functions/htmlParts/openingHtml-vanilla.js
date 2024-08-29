@@ -3,7 +3,7 @@ export const openingHtml = `<!DOCTYPE html>
       <head>
       <meta charset="UTF-8">
       <meta name="theme-color" content="#000000" />
-      <link rel="apple-touch-icon" href="images/favicon.png" />
+      <link rel="apple-touch-icon" href="images/favicon-html.png" />
       <meta property="og:title" content="Comprehensive Index of Pali Suttas | ReadingFaithfully" />
       <meta property="og:description" content="Get the teachings you need." />
       <meta property="og:url" content="https://index.readingfaithfully.org/" />
