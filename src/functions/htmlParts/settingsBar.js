@@ -6,7 +6,7 @@ export function settingsBar(indexObject) {
   return `<div id="settings-bar" class="settings-bar">
   <div class="snack-bar">Copied!</div>
   <div id="loading-snackbar">Loading…
-  <div class="mobile-message">Some older mobile devices may not offer full functionality</div>
+  <div class="mobile-message">For older devices, try a <a href="simple.html" target="_blank" rel="noreferrer" >simple version of the index</a></div>
   </div>
         <div class="top-row">
         <img src="images/favicon-index-thicker64.png" width="22" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">

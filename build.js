@@ -520,6 +520,16 @@ function createIndexObject() {
       console.error("Error loading module:", err);
     }
   })();
+
+  (async () => {
+    try {
+      const moduleVanilla = await import("./src/functions/createSuttaIndexHtml-vanilla.js");
+      const createSuttaIndexHtmlVanilla = moduleVanilla.default; // Access the default export
+      createSuttaIndexHtmlVanilla(indexObject);
+    } catch (err) {
+      console.error("Error loading module:", err);
+    }
+  })();
 }
 
 function createHeadingsArray() {
