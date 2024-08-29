@@ -173,7 +173,7 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
 
   // Save the finished html file
   try {
-    fs.writeFileSync("public/simple.html", suttaIndexHtml);
+    fs.writeFileSync("public/simple/index.html", suttaIndexHtml);
     console.log("🌐 simple.html written");
   } catch (err) {
     console.log("❌There was an error writing simple.html");
