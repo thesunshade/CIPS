@@ -3,15 +3,14 @@ export const openingHtml = `<!DOCTYPE html>
       <head>
       <meta charset="UTF-8">
       <meta name="theme-color" content="#000000" />
-      <link rel="apple-touch-icon" href="images/favicon-html.png" />
+      <link rel="apple-touch-icon" href="favicon-html.png" />
       <meta property="og:title" content="Comprehensive Index of Pali Suttas | ReadingFaithfully" />
       <meta property="og:description" content="Get the teachings you need." />
       <meta property="og:url" content="https://index.readingfaithfully.org/" />
-      <meta property="og:site_name" content="Index.ReadingFaithfully.org" />
-      <meta property="og:image" itemprop="image" content="images/featuredImage-index.png" />
+      <meta property="og:site_name" content="simple-ndex.ReadingFaithfully.org" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-html.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-html.png">
       <title>Simple | Comprehensive Index of Pāli Suttas</title>
       <style>
       html {
