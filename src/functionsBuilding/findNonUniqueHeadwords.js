@@ -1,6 +1,6 @@
 import makeNormalizedId from "./makeNormalizedId.js";
 
-export function findNonUniqueHeadwords(headwords) {
+export default function findNonUniqueHeadwords(headwords) {
   const idToHeadwordsMap = new Map();
 
   // Map normalized IDs to headwords
@@ -24,6 +24,6 @@ export function findNonUniqueHeadwords(headwords) {
   }
 
   if (nonUniqueHeadwords.size > 0) {
-    console.log("💀 Non-unique headwords:", nonUniqueHeadwords);
+    console.warn("💀 Non-unique headwords:", nonUniqueHeadwords);
   }
 }

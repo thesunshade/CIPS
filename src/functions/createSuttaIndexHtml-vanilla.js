@@ -174,48 +174,9 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
   // Save the finished html file
   try {
     fs.writeFileSync("public/simple/index.html", suttaIndexHtml);
-    console.log("🌐 simple/index.html written");
+    console.info("🌐 simple/index.html written");
   } catch (err) {
-    console.log("❌There was an error writing simple/index.html");
+    console.error("❌There was an error writing simple/index.html");
     console.error(err);
   }
-
-  // // bundle the scripts
-  // const rawJsFile = "src/functions/scripts.js";
-  // const bundledJsFile = "public/index.js";
-  // const rawCssFile = "public/rawStyles.css";
-  // const bundledCssFile = "public/index.css";
-
-  // exec(`npx esbuild ${rawJsFile} --bundle --minify --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
-  //   if (error) {
-  //     console.error(`Error: ${error.message}`);
-  //     return;
-  //   }
-  //   if (error && error.code !== 0) {
-  //     console.error(`Command failed with exit code ${error.code}`);
-  //   }
-  //   if (stderr) {
-  //     const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
-  //     console.error(`🛠️  Script bundled; Stderr: ${singleLineStderr}`);
-  //     return;
-  //   }
-  //   console.log(`Stdout: ${stdout}`);
-  // });
-
-  // // Bundle and minify CSS
-  // exec(`npx esbuild ${rawCssFile} --bundle --minify --outfile=${bundledCssFile}  --external:*.woff --external:*.woff2`, (error, stdout, stderr) => {
-  //   if (error) {
-  //     console.error(`Error: ${error.message}`);
-  //     return;
-  //   }
-  //   if (error && error.code !== 0) {
-  //     console.error(`Command failed with exit code ${error.code}`);
-  //   }
-  //   if (stderr) {
-  //     const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
-  //     console.error(`🖍️  CSS bundled; Stderr: ${singleLineStderr}`);
-  //     return;
-  //   }
-  //   console.log(`Stdout: ${stdout}`);
-  // });
 }

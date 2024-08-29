@@ -305,7 +305,6 @@ input {
   font-size: 1.6rem;
   border-bottom: solid #3f3f3f 2px;
   margin-top: 1rem;
-  margin-left: 1rem;
   color: #3f3f3f;
   padding-bottom: .5rem;
   font-weight: bold;
@@ -535,7 +534,7 @@ a.xref-link {
   } */
 
   .sub-word {
-    padding-left: .5rem;
+    padding-left: 1rem;
     text-indent: -.5rem;
   }
 

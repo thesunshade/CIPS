@@ -172,9 +172,9 @@ export default function createSuttaIndexHtml(indexObject) {
   // Save the finished html file
   try {
     fs.writeFileSync("public/index.html", suttaIndexHtml);
-    console.log("🌐 index.html written");
+    console.info("🌐 index.html written");
   } catch (err) {
-    console.log("❌There was an error writing index.html");
+    console.error("❌There was an error writing index.html");
     console.error(err);
   }
 
@@ -183,7 +183,7 @@ export default function createSuttaIndexHtml(indexObject) {
   const bundledJsFile = "public/index.js";
   const rawCssFile = "public/rawStyles.css";
   const bundledCssFile = "public/index.css";
-
+  //
   exec(`npx esbuild ${rawJsFile} --bundle --minify --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
@@ -197,7 +197,7 @@ export default function createSuttaIndexHtml(indexObject) {
       console.error(`🛠️  Script bundled; Stderr: ${singleLineStderr}`);
       return;
     }
-    console.log(`Stdout: ${stdout}`);
+    console.info(`Stdout: ${stdout}`);
   });
 
   // Bundle and minify CSS
@@ -214,6 +214,6 @@ export default function createSuttaIndexHtml(indexObject) {
       console.error(`🖍️  CSS bundled; Stderr: ${singleLineStderr}`);
       return;
     }
-    console.log(`Stdout: ${stdout}`);
+    console.info(`Stdout: ${stdout}`);
   });
 }
