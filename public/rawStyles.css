@@ -66,9 +66,11 @@
 :root {
   --indent: 3.5rem;
   --mobile-indent: .5rem;
-  --primary: rgb(238, 111, 32);
+  /* --primary: #ee6f20; */
+  --primary: #b54d0d;
   --dark-primary: #6b1617;
   --offwhite: #fff9f1;
+  --offwhite-saturated: #ffeecc;
   --dark-offwhite: #d1d1d1;
   --offblack: #150d01;
   --link: #0000EE;
@@ -130,7 +132,16 @@ a {
   /* word-spacing: -3px;   */
 }
 
+/*pasanna*/
+.info-area a,
+.info-area a:visited {
+  color: #FAE46D !important;
+}
+
+
 .settings-bar {
+  color: var(--offwhite-saturated);
+  /*pasanna*/
   background-color: var(--primary);
   position: fixed;
   top: 0;
@@ -178,6 +189,11 @@ input {
 
 .settings-button img:active {
   rotate: 90deg;
+}
+
+.settings-bar .icon {
+
+  filter: brightness(0) saturate(100%) invert(87%) sepia(12%) saturate(668%) hue-rotate(342deg) brightness(107%) contrast(102%);
 }
 
 .icon {
@@ -271,16 +287,21 @@ input {
 
 .dark .link-list,
 .dark .search-results {
-
   background-color: var(--offblack);
 
 }
 
 .menu-item {
+  color: var(--offblack);
   padding-left: 1rem;
   text-indent: -1rem;
   display: block;
   cursor: pointer;
+}
+
+.dark .menu-item {
+  color: var(--offwhite-saturated)
+    /*pasanna related*/
 }
 
 .menu-item strong {
@@ -290,7 +311,9 @@ input {
 .menu-item:hover,
 .menu-item.active {
   background-color: var(--primary);
-  color: black;
+  /* color: black; */
+  color: var(--offwhite-saturated)
+    /*pasanna*/
 }
 
 .link-list div {
@@ -651,7 +674,8 @@ details summary {
 }
 
 details>div {
-  border-left: solid 2px black;
+  /* border-left: solid 2px black; */
+  border-left: solid 2px var(--offwhite-saturated);
   margin-left: .7rem;
   padding-left: .7rem;
 }
