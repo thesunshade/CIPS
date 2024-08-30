@@ -72,7 +72,8 @@
   --offwhite: #fff9f1;
   --offwhite-saturated: #ffeecc;
   --dark-offwhite: #d1d1d1;
-  --offblack: #150d01;
+  /* --offblack: #150d01; */
+  --offblack: #5d4037;
   --link: #0000EE;
   --visited: #551A8B;
   --dark-link: #729cff;
@@ -90,6 +91,20 @@
   --pv: #D3D3D3;
   --thag: #DDF0FF;
   --thig: #DCE3C7;
+
+  /* --dn: #ACE6E6;
+  --mn: #DBA9A9;
+  --sn: #B1D6FA;
+  --an: #B8B8E3;
+  --kp: #FAE1C8;
+  --dhp: #ABD4C0;
+  --ud: #e9e296;
+  --iti: #FAC0CB;
+  --snp: #E3BDF2;
+  --vv: #FFFFC2;
+  --pv: #D4D4D4;
+  --thag: #DDF0FF;
+  --thig: #F0FFE0; */
   accent-color: black;
 }
 
@@ -386,6 +401,11 @@ input {
   color: var(--dark-offwhite)
 }
 
+/*pasanna SHOULD PROBABLY BE IN THE .HEADWORD-LINK*/
+.dark .head-word {
+  color: #fff;
+}
+
 /* headword icons */
 
 .copy-icon,
@@ -428,12 +448,10 @@ a.xref-link {
   color: #007b00
 }
 
-.dark .xref-link {
-  color: #00af00
-}
-
+.dark .xref-link,
 .dark .xref-link:visited {
-  color: #00af00
+  /* color: #00af00; */
+  color: #8bc34a;
 }
 
 .hide-names .sutta-name {
@@ -444,12 +462,14 @@ a.xref-link {
   padding: 2px;
 }
 
-.dark a {
-  color: var(--dark-link)
+.dark .locator {
+  /* color: var(--dark-link); */
+  color: #ffecb3;
 }
 
-.dark a {
-  color: var(--dark-visited)
+.dark .locator:visited {
+  /* color: var(--dark-visited); */
+  color: #ffccbc;
 }
 
 .colored-locators.dark .locator,
@@ -460,6 +480,27 @@ a.xref-link {
 .colored-locators.dark .locator:visited,
 .locator:visited {
   color: var(--visited)
+}
+
+/*pasanna*/
+.colored-locators .locator {
+  color: #7b3e08
+}
+
+/*pasanna*/
+.colored-locator .locator:visited {
+  color: #451e02
+}
+
+/*pasanna*/
+.locator {
+  color: #a65711
+}
+
+
+/*pasanna*/
+.locator:visited {
+  color: #612901
 }
 
 .colored-locators .dn {
