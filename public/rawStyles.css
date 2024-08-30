@@ -429,11 +429,13 @@ a.xref-link {
   color: var(--dark-visited)
 }
 
-.colored-locators.dark .locator {
+.colored-locators.dark .locator,
+.locator {
   color: var(--link)
 }
 
-.colored-locators.dark .locator:visited {
+.colored-locators.dark .locator:visited,
+.locator:visited {
   color: var(--visited)
 }
 
