@@ -637,7 +637,8 @@ body.copy-buttons-visible .copy-icon {
 
 .info-area a,
 .info-area a:visited {
-  color: var(--link)
+  color: var(--link);
+  text-decoration: underline;
 }
 
 .dark .info-area a,
