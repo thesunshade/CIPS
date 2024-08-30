@@ -71,6 +71,8 @@
   --offwhite: #fff9f1;
   --dark-offwhite: #d1d1d1;
   --offblack: #150d01;
+  --link: #0000EE;
+  --visited: #551A8B;
   --dark-link: #729cff;
   --dark-visited: #b472ff;
   --dn: #d1eddf;
@@ -411,18 +413,28 @@ a.xref-link {
   color: #00af00
 }
 
-/* .locator {
-  text-decoration: none;
-} */
-
 .hide-names .sutta-name {
   display: none;
 }
 
 .colored-locators .locator {
-  /* border: solid 1px rgb(220, 220, 220); */
-  /* box-shadow: inset 1px 0 0 0 rgb(220, 220, 220); */
   padding: 2px;
+}
+
+.dark a {
+  color: var(--dark-link)
+}
+
+.dark a {
+  color: var(--dark-visited)
+}
+
+.colored-locators.dark .locator {
+  color: var(--link)
+}
+
+.colored-locators.dark .locator:visited {
+  color: var(--visited)
 }
 
 .colored-locators .dn {
@@ -623,7 +635,12 @@ body.copy-buttons-visible .copy-icon {
 
 .info-area a,
 .info-area a:visited {
-  color: rgb(0, 48, 207)
+  color: var(--link)
+}
+
+.dark .info-area a,
+.dark .info-area a:visited {
+  color: var(--dark-link)
 }
 
 details summary {

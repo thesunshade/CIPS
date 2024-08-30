@@ -105,13 +105,13 @@ export const infoAreaHtml = `
         <p class="full-message">You are viewing the full featured index. There is also a <a href="https://simple-index.readingfaithfully.org">plain HTML version</a> that works better on older mobile devices.</p>
         <p class="html-message">You are viewing the plain HTML version of the index. There is also a <a href="https://index.readingfaithfully.org"> full featured version</a> with sutta summaries and search.</p>
           <p>
-            <a href="./locatorCountTable.html" rel="noreferrer" target="_blank">
+            <a href="https://index.readingfaithfully.org/locatorCountTable.html" rel="noreferrer" target="_blank">
               Table of headwords
             </a>
             sorted by number of unique locators.
           </p>
           <p>
-            <a href="./locatorSortedTable.html" rel="noreferrer" target="_blank">
+            <a href="https://index.readingfaithfully.org/locatorSortedTable.html" rel="noreferrer" target="_blank">
               Table of suttas
             </a>
             with headwords and sub-heads.
