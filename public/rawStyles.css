@@ -1,67 +1,9 @@
 @import url('../node_modules/tippy.js/dist/border.css');
 @import url('../node_modules/tippy.js/dist/tippy.css');
-
-@font-face {
-  font-family: "Fira Sans";
-  src: url("fonts/firasans-regular-webfont.woff") format('woff'),
-    url("fonts/firasans-regular-webfont.woff2") format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  src: url("fonts/firasans-medium-webfont.woff") format('woff'),
-    url("fonts/firasans-medium-webfont.woff2") format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  src: url("fonts/firasans-italic-webfont.woff") format('woff'),
-    url("fonts/firasans-italic-webfont.woff2") format('woff2');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  src: url("fonts/firasansextracondensed-regular-webfont.woff") format('woff'),
-    url("fonts/firasansextracondensed-regular-webfont.woff2") format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  src: url("fonts/firasansextracondensed-medium-webfont.woff") format('woff'),
-    url("fonts/firasansextracondensed-medium-webfont.woff2") format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  src: url("fonts/firasansextracondensed-italic-webfont.woff") format('woff'),
-    url("fonts/firasansextracondensed-italic-webfont.woff2") format('woff2');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Fira Code";
-  src: url("fonts/firacode-bold-webfont.woff") format('woff'),
-    url("fonts/firacode-bold-webfont.woff2") format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@import url('../src/functions/cssParts/tippy-custom.css');
+@import url('../src/functions/cssParts/fonts.css');
+@import url('../src/functions/cssParts/infoArea.css');
+@import url('../src/functions/cssParts/snackBars.css');
 
 :root {
   --indent: 3.5rem;
@@ -108,6 +50,17 @@
   accent-color: black;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 4rem;
+  scroll-behavior: smooth;
+}
+
 body {
   max-height: 100vh;
   max-width: 100vw;
@@ -118,41 +71,20 @@ body {
   padding: 0;
 }
 
-::selection {
-  background-color: var(--primary);
-}
-
 body.dark {
   background-color: var(--offblack);
   color: var(--dark-offwhite);
 }
 
-html {
-  scroll-padding-top: 4rem;
-  scroll-behavior: smooth;
-}
-
-* {
-  box-sizing: border-box
+::selection {
+  background-color: var(--primary);
+  color: var(--offwhite);
 }
 
 p {
   margin: 0;
   font-family: "Fira Sans";
 }
-
-a {
-  text-decoration: none;
-  white-space: nowrap;
-  /* word-spacing: -3px;   */
-}
-
-/*pasanna*/
-.info-area a,
-.info-area a:visited {
-  color: #FAE46D !important;
-}
-
 
 .settings-bar {
   color: var(--offwhite-saturated);
@@ -181,21 +113,45 @@ input {
   font-family: "Fira Sans";
   font-size: inherit;
   flex-grow: 1;
+  border: solid 1px var(--offblack);
+  border-radius: 4px;
+  background-color: var(--offwhite-saturated);
+  padding: 3px 0px 2px 4px;
 }
 
-.dark .input-box {
+input:focus {
+  background-color: var(--offwhite);
+}
+
+.dark input {
+  color: var(--offwhite);
   border-color: var(--offwhite);
   background-color: var(--dark-primary);
+}
+
+.dark input:focus {
+  color: var(--offwhite);
+  border-color: var(--offwhite);
+  background-color: var(--offblack);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .settings-button {
   display: flex;
   flex-direction: row;
-
 }
 
 .settings-button img {
-
   margin-top: 0.2rem;
   rotate: 0deg;
   transition: rotate ease-in-out 1s;
@@ -207,13 +163,11 @@ input {
 }
 
 .settings-bar .icon {
-
   filter: brightness(0) saturate(100%) invert(87%) sepia(12%) saturate(668%) hue-rotate(342deg) brightness(107%) contrast(102%);
 }
 
 .icon {
   filter: brightness(0);
-
 }
 
 .icon-label {
@@ -224,7 +178,6 @@ input {
   filter: brightness(1);
   filter: invert(100%);
 }
-
 
 .alphabet {
   font-family: "Fira Code";
@@ -262,7 +215,6 @@ input {
   color: var(--offwhite)
 }
 
-
 .dark .settings-bar {
   background-color: var(--dark-primary);
 }
@@ -294,7 +246,6 @@ input {
   color: black;
 }
 
-
 .link-list div {
   list-style: none;
   text-indent: -1rem;
@@ -303,7 +254,6 @@ input {
 .dark .link-list,
 .dark .search-results {
   background-color: var(--offblack);
-
 }
 
 .menu-item {
@@ -349,7 +299,6 @@ input {
   padding-bottom: .5rem;
   font-weight: bold;
   font-family: "Fira Code";
-
 }
 
 .dark .alphabet-anchor {
@@ -414,7 +363,6 @@ input {
   padding-left: .1rem;
 }
 
-
 .headword-link .link-icon,
 .headword-link .copy-icon {
   visibility: hidden;
@@ -427,19 +375,16 @@ input {
   visibility: inherit;
 }
 
-
 .sub-word {
   padding-left: 3.5rem;
   text-indent: -2rem;
   line-height: 1.4rem;
 }
 
-a.xref-link {
+.xref-link {
+  text-decoration: none;
   white-space: inherit;
   word-spacing: inherit;
-}
-
-.xref-link {
   color: #007b00;
   font-style: italic;
 }
@@ -494,7 +439,9 @@ a.xref-link {
 
 /*pasanna*/
 .locator {
-  color: #a65711
+  color: #a65711;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 
@@ -606,11 +553,6 @@ a.xref-link {
     background-color: inherit;
   }
 
-  /* .sub-word {
-    padding-left: var(--mobile-indent);
-    text-indent: initial;
-  } */
-
   .sub-word {
     padding-left: 1rem;
     text-indent: -.5rem;
@@ -626,48 +568,6 @@ a.xref-link {
   body.copy-buttons-visible .copy-icon {
     display: inherit;
   }
-}
-
-.snack-bar {
-  font-size: 1.2rem;
-  position: fixed;
-  top: 7rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 8rem;
-  border-radius: 10px;
-  background-color: var(--dark-offwhite);
-  border: solid 2px var(--offblack);
-  color: var(--offblack);
-  text-align: center;
-  padding: 10px;
-  /* box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.2); */
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  opacity: 1;
-  transition: opacity 0.15s ease-in-out;
-  z-index: 9999;
-}
-
-.hide-snack-bar .snack-bar {
-  opacity: 0;
-  transition: opacity 0.15s ease-in-out;
-  pointer-events: none;
-}
-
-.dark .snack-bar {
-  background-color: var(--offwhite);
-  color: var(--dark-primary);
-  box-shadow: 1px -1px 3px rgb(0, 0, 0);
-}
-
-.info-area {
-  padding: 0rem 0 1rem;
-  min-width: 10rem;
-  max-width: 35rem;
-  max-height: 70vh;
-  overflow-y: auto;
-  border-top: solid 1px;
-  overscroll-behavior: contain;
 }
 
 .settings-button-row {
@@ -691,162 +591,4 @@ body.copy-buttons-visible .copy-icon {
 
 .hidden {
   display: none
-}
-
-.info-area p {
-  line-height: 130%;
-  margin-bottom: .7rem;
-
-}
-
-.info-area a,
-.info-area a:visited {
-  color: var(--link);
-  text-decoration: underline;
-}
-
-.dark .info-area a,
-.dark .info-area a:visited {
-  color: var(--dark-link)
-}
-
-details summary {
-  cursor: pointer;
-}
-
-details>div {
-  /* border-left: solid 2px black; */
-  border-left: solid 2px var(--offwhite-saturated);
-  margin-left: .7rem;
-  padding-left: .7rem;
-}
-
-.html-message {
-  display: none;
-}
-
-.stats {
-  margin-top: 1rem;
-  padding: 10px 15px;
-  line-height: 1.6rem;
-  border: solid 2px black;
-  border-radius: 5px;
-  max-width: 16rem
-}
-
-.dark .stats {
-  border-color: var(--offwhite);
-}
-
-.answer {
-  font-weight: bold;
-  display: inline;
-}
-
-.update-date {
-  font-size: .7rem;
-  text-align: right;
-}
-
-.tippy-box[data-theme~='info'] {
-  background-color: var(--dark-offwhite);
-  color: black;
-  border: 1px solid black;
-}
-
-.tippy-box[data-theme~='info']>.tippy-arrow::before {
-  border-top-color: var(--dark-offwhite);
-  border-bottom-color: var(--dark-offwhite);
-}
-
-.tippy-content:empty {
-  display: none;
-}
-
-.tippy-content:empty+.tippy-arrow {
-  display: none;
-}
-
-.tippy-box {
-  border: 1px transparent
-}
-
-.tippy-box[data-placement^=top]>.tippy-arrow:after {
-  border-top-color: inherit;
-  border-width: 8px 8px 0;
-  bottom: -8px;
-  left: 0
-}
-
-.tippy-box[data-placement^=bottom]>.tippy-arrow:after {
-  border-bottom-color: inherit;
-  border-width: 0 8px 8px;
-  top: -8px;
-  left: 0
-}
-
-.tippy-box[data-placement^=left]>.tippy-arrow:after {
-  border-left-color: inherit;
-  border-width: 8px 0 8px 8px;
-  right: -8px;
-  top: 0
-}
-
-.tippy-box[data-placement^=right]>.tippy-arrow:after {
-  border-width: 8px 8px 8px 0;
-  left: -8px;
-  top: 0;
-  border-right-color: inherit
-}
-
-.tippy-box[data-placement^=top]>.tippy-svg-arrow>svg:first-child:not(:last-child) {
-  top: 17px
-}
-
-.tippy-box[data-placement^=bottom]>.tippy-svg-arrow>svg:first-child:not(:last-child) {
-  bottom: 17px
-}
-
-.tippy-box[data-placement^=left]>.tippy-svg-arrow>svg:first-child:not(:last-child) {
-  left: 12px
-}
-
-.tippy-box[data-placement^=right]>.tippy-svg-arrow>svg:first-child:not(:last-child) {
-  right: 12px
-}
-
-.tippy-arrow {
-  border-color: inherit
-}
-
-.tippy-arrow:after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  border-color: transparent;
-  border-style: solid
-}
-
-
-
-#loading-snackbar {
-  min-width: 350px;
-  background-color: var(--dark-offwhite);
-  color: var(--offblack);
-  text-align: center;
-  border: 2px solid var(--offblack);
-  border-radius: 20px;
-  padding: 8px;
-  position: fixed;
-  left: 50%;
-  bottom: 30px;
-  transform: translateX(-50%);
-  z-index: 1000;
-  font-size: 14px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  display: block;
-}
-
-#loading-snackbar a {
-  text-decoration: underline;
 }

@@ -9,9 +9,8 @@ export function settingsBar(indexObject) {
   <div id="loading-snackbar">For older devices, try a <a href="https://simple-index.readingfaithfully.org" target="_blank" rel="noreferrer" >simple version of the index</a>.</div>
         <div class="top-row">
         <img src="images/favicon-index-thicker64.png" class="icon" width="22" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
-
+          <label for="search-box" class="sr-only">Search:</label>
           <input type="text" id="search-box" placeholder="Search headwords..." spellcheck="false">
-
           <div id="info-button" class="settings-button info" data-tippy-content="Settings and information.">
             <img class="icon" width="20"  src="images/info-dot.png" alt="Info icon"/>
           </div>

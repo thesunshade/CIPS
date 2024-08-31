@@ -66,10 +66,10 @@ export const infoAreaHtml = `
         <summary>Coverage</summary>
         <div class="row-2">
           <div>
-            Complete: <span class="answer">MN; SN 1–3, 12–56; AN; Kp; Dhp; Ud; Iti; Snp; Vv; Pv; Thag; Thig</span>
+            Complete: <strong>MN; SN 1–3, 12–56; AN; Kp; Dhp; Ud; Iti; Snp; Vv; Pv; Thag; Thig</strong>
           </div>
           <div>
-            Planned: <span class="answer">DN, SN</span>
+            Planned: <strong>DN, SN</strong>
           </div>
             <div class="stats">
             <div class="settings-notice">
@@ -77,16 +77,16 @@ export const infoAreaHtml = `
             </div>
             <div class="row-1">
               <div>
-                <span class="answer">${headwordsArray.length}</span> Headwords
+                <strong>${headwordsArray.length}</strong> Headwords
               </div>
               <div>
-                <span class="answer">${(indexArray.length - statsData.xrefsCount).toLocaleString("en-US")}</span> Locators
+                <strong>${(indexArray.length - statsData.xrefsCount).toLocaleString("en-US")}</strong> Locators
               </div>
               <div>
-                <span class="answer">${statsData.uniqueLocators.toLocaleString("en-US")}</span> Unique Locators
+                <strong>${statsData.uniqueLocators.toLocaleString("en-US")}</strong> Unique Locators
               </div>
               <div>
-                <span class="answer">${statsData.xrefsCount.toLocaleString("en-US")}</span> Xref headwords
+                <strong>${statsData.xrefsCount.toLocaleString("en-US")}</strong> Xref headwords
               </div>
             </div>
             <p class="update-date">

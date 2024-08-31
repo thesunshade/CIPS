@@ -1,0 +1,53 @@
+.snack-bar {
+    font-size: 1.2rem;
+    position: fixed;
+    top: 7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8rem;
+    border-radius: 10px;
+    background-color: var(--dark-offwhite);
+    border: solid 2px var(--offblack);
+    color: var(--offblack);
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.2); */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    opacity: 1;
+    transition: opacity 0.15s ease-in-out;
+    z-index: 9999;
+}
+
+.hide-snack-bar .snack-bar {
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+    pointer-events: none;
+}
+
+.dark .snack-bar {
+    background-color: var(--offwhite);
+    color: var(--dark-primary);
+    box-shadow: 1px -1px 3px rgb(0, 0, 0);
+}
+
+#loading-snackbar {
+    min-width: 350px;
+    background-color: var(--dark-offwhite);
+    color: var(--offblack);
+    text-align: center;
+    border: 2px solid var(--offblack);
+    border-radius: 20px;
+    padding: 8px;
+    position: fixed;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    z-index: 1000;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+#loading-snackbar a {
+    text-decoration: underline;
+}
