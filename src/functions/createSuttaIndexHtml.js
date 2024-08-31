@@ -1,4 +1,5 @@
 import fs from "fs";
+import { exec } from "child_process";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import { openingHtml } from "./htmlParts/openingHtml.js";
 import { settingsBar } from "./htmlParts/settingsBar.js";
@@ -9,7 +10,7 @@ import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
-import { exec } from "child_process";
+import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
 // import { indexObject } from "../data/index-object.js";
 
 export default function createSuttaIndexHtml(indexObject) {
@@ -173,6 +174,7 @@ export default function createSuttaIndexHtml(indexObject) {
   try {
     fs.writeFileSync("public/index.html", suttaIndexHtml);
     console.info("🌐 index.html written");
+    tidyHtml("public/index.html");
   } catch (err) {
     console.error("❌There was an error writing index.html");
     console.error(err);

@@ -7,6 +7,7 @@
         "esbuild": "^0.23.1"
     },
     "dependencies": {
+        "htmltidy2": "^1.2.0",
         "tippy.js": "^6.3.7"
     }
 }

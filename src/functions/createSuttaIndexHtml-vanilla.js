@@ -9,6 +9,7 @@ import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
+import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
 import { exec } from "child_process";
 // import { indexObject } from "../data/index-object.js";
 
@@ -175,6 +176,7 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
   try {
     fs.writeFileSync("public/simple/index.html", suttaIndexHtml);
     console.info("🌐 simple/index.html written");
+    tidyHtml("public/simple/index.html");
   } catch (err) {
     console.error("❌There was an error writing simple/index.html");
     console.error(err);
