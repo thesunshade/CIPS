@@ -17,6 +17,7 @@ node_modules
 /public/index.js
 /public/locatorCountTable.html
 /public/locatorSortedTable.html
+/public/simple/index.html
 /src/data/headwordLocatorCount.js
 /src/data/headwords-array.js
 /src/data/index-array.js
@@ -25,6 +26,12 @@ node_modules
 /src/data/statsData.js
 /src/data/updateDate.js
 /src/data/uniqueLocators.js
+/src/functions/cssParts/fonts.css
+/src/functions/cssParts/infoArea.css
+/src/functions/cssParts/snackBars.css
+/src/functions/cssParts/tippy-custom.css
+
+
 
 # misc
 .DS_Store
