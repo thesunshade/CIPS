@@ -107,7 +107,7 @@ export default function createSuttaIndexHtml(indexObject) {
     const title = getSuttaTitle(locator);
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return ` <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  ${blurb ? `data-tippy-content="${blurb}"` : ""}>${linkText}${title ? ` <small class="sutta-name">${title}</small>` : ""}</a>${connector}`;
+    return ` <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  ${blurb ? `data-tippy-content="${blurb}"` : ""}>${linkText}${title ? ` <span class="sutta-name">${title}</span>` : ""}</a>${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
