@@ -78,18 +78,18 @@ export default function createSuttaIndexHtml(indexObject) {
   }
 
   function constructHeadWordArea(headwordId, headwordWithCounter, headword) {
-    return `            <div class="head-word-area">
+    return `\n            <head-word-area>
                 <a class="headword-link" href="${"#" + headwordId}">
-                    <span class="head-word">
+                    <head-word>
                     ${headwordWithCounter}
                     <img src="images/copy-heading.png" alt="copy icon" class="icon copy-icon click-to-copy copy-headword" height="16" data-clipboard-text="${headword}">
                     <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy copy-link" height="16" data-clipboard-text="index.readingfaithfully.org/#${headwordId}">
                     <img src="images/copy-text.png" alt="text copy icon" class="icon text-icon copy-icon entry-text" height="16" data-headword="${headword}">
                     <img src="images/copy-html.png" alt="text copy icon" class="icon html-icon copy-icon entry-html" height="16" data-headword="${headword}">
                     <img src="images/copy-markdown.png" alt="text copy icon" class="icon markdown-icon copy-icon entry-markdown" height="16" data-headword="${headword}">
-                    </span>
+                    </head-word>
                 </a>
-          </div>`;
+          </head-word-area>`;
   }
 
   function constructLocatorListHtml(locatorListObject) {
@@ -108,7 +108,7 @@ export default function createSuttaIndexHtml(indexObject) {
     const title = getSuttaTitle(locator);
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return ` <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  ${blurb ? `data-tippy-content="${blurb}"` : ""}>${linkText}${title ? ` <span class="sutta-name">${title}</span>` : ""}</a>${connector}`;
+    return ` <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  ${blurb ? `data-tippy-content="${blurb}"` : ""}>${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
@@ -126,7 +126,7 @@ export default function createSuttaIndexHtml(indexObject) {
           return constructLocatorHtml(locatorListObject, locator, index);
         })
         .join("");
-      return `<div class="sub-word">${locatorListHtml}</div>`;
+      return locatorListHtml ? `<sub-word>${locatorListHtml}</sub-word>` : "";
     } else return "";
   }
 
@@ -137,27 +137,27 @@ export default function createSuttaIndexHtml(indexObject) {
     .map(letter => {
       const headwordsObject = indexObject[letter];
       const headwordsArray = Object.keys(headwordsObject);
-      return `<div class="alphabet-anchor">${letter}</div>
+      return `<alphabet-anchor>${letter}</alphabet-anchor>
         ${headwordsArray
           .map(headword => {
             let sortedSubWords = sortedKeys(headwordsObject[headword]);
             let headwordId = makeNormalizedId(headword);
             let headwordWithCounter = injectCounterNumber(headword, headwordsObject[headword].counter_value);
             sortedSubWords = sortedSubWords.filter(item => item !== "counter_value");
-            return `<div id="${headwordId}">${constructHeadWordArea(headwordId, headwordWithCounter, headword)}${sortedSubWords
+            return `\n        <headword-section id="${headwordId}">${constructHeadWordArea(headwordId, headwordWithCounter, headword)}${sortedSubWords
               .map(subhead => {
                 const locatorListObject = headwordsObject[headword][subhead];
-                return `${constructSublessLocatorList(locatorListObject, subhead)}<div class="sub-word">${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}<span class="locator-list">
-              ${locatorListObject.xrefs
-                .map((rawXref, index) => {
-                  return constructXrefHtml(locatorListObject, rawXref, index);
-                })
-                .join("")}
-              ${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}</span>
-              </div>`;
+                return `${constructSublessLocatorList(locatorListObject, subhead)}
+                <sub-word>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}\n              <locator-list>${locatorListObject.xrefs
+                  .map((rawXref, index) => {
+                    return constructXrefHtml(locatorListObject, rawXref, index);
+                  })
+                  .join("")}
+              ${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}</locator-list>
+              </sub-word>`;
               })
               .join("")}
-          </div>`;
+          </headword-section>`;
           })
           .join("")}`;
     })

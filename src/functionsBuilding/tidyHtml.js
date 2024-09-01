@@ -5,7 +5,7 @@ export function tidyHtml(htmlFile) {
   // const htmlFile = "public/index.html";
   const tidyReportFile = `src/data/tidyReport-${htmlFile}.txt`;
 
-  exec(`tidy -q -e ${htmlFile}`, (error, stdout, stderr) => {
+  exec(`tidy -q -e --custom-tags yes ${htmlFile}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`⚠️ Tidy Error for ${htmlFile}: ${error.message}`);
       return;
