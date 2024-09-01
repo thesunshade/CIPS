@@ -22,4 +22,4 @@ The site is built by running
 node build
 ```
 
-in the root directory. This will generate the single `public/index.html` file as well as bundle all of the scripts files into `public/index.js`
+in the root directory. This will generate the single `public/index.html` file as well as bundle all of the scripts files into `public/index.js` and the css into `public/index.css`
