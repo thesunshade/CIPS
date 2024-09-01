@@ -8,7 +8,8 @@
 :root {
   /* --primary: #ee6f20; */
   --primary: #b54d0d;
-  --dark-primary: #6b1617;
+  /* --dark-primary: #6b1617; */
+  --dark-primary: #3f1011;
   --offwhite: #fff9f1;
   --offwhite-saturated: #ffeecc;
   --dark-offwhite: #d1d1d1;
@@ -76,6 +77,11 @@ body.dark {
 
 ::selection {
   background-color: var(--primary);
+  color: var(--offwhite);
+}
+
+.dark ::selection {
+  background-color: var(--dark-primary);
   color: var(--offwhite);
 }
 
@@ -274,10 +280,17 @@ input:focus {
 .menu-item:hover,
 .menu-item.active {
   background-color: var(--primary);
-  /* color: black; */
   color: var(--offwhite-saturated)
     /*pasanna*/
 }
+
+.dark .menu-item:hover,
+.dark .menu-item.active {
+  background-color: var(--dark-primary);
+  color: var(--offwhite-saturated)
+}
+
+
 
 .link-list div {
   padding-left: 1rem;
@@ -394,6 +407,10 @@ sub-word {
   font-style: italic;
 }
 
+.xref-link:hover {
+  text-decoration: underline;
+}
+
 .xref-link:visited {
   color: #007b00
 }
@@ -413,6 +430,14 @@ sutta-name {
 
 .colored-locators .locator {
   padding: 2px;
+}
+
+.locator:hover {
+  text-decoration: underline;
+}
+
+.colored-locators .locator:hover {
+  text-decoration: none;
 }
 
 .dark .locator {
