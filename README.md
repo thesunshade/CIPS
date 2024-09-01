@@ -1,3 +1,5 @@
+![Screenshot of the app in September of 2024](public/images/screenshot.png)
+
 # Sutta Index Project
 
 This sutta index is still very much a work in progress. You can find a demo of the data [here](https://index.readingfaithfully.org/).
