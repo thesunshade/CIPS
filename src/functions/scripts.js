@@ -152,7 +152,7 @@ function handleLetterClick(event) {
 }
 
 // Attach event listeners to all letter buttons
-document.querySelectorAll(".letter").forEach(button => {
+document.querySelectorAll(".menu-letter").forEach(button => {
   button.addEventListener("click", handleLetterClick);
 });
 

@@ -6,15 +6,17 @@
 @import url('../src/functions/cssParts/snackBars.css');
 
 :root {
-  /* --primary: #ee6f20; */
   --primary: #b54d0d;
-  /* --dark-primary: #6b1617; */
   --dark-primary: #3f1011;
+  --white: #fff;
+  --white-filter: brightness(1) invert(100%);
   --offwhite: #fff9f1;
   --offwhite-saturated: #ffeecc;
+  --offwhite-saturated-filter: brightness(0) saturate(100%) invert(97%) sepia(6%) saturate(2029%) hue-rotate(315deg) brightness(103%) contrast(102%);
   --dark-offwhite: #d1d1d1;
-  /* --offblack: #150d01; */
   --offblack: #5d4037;
+  --offblack-filter: brightness(0) saturate(100%) invert(26%) sepia(6%) saturate(3124%) hue-rotate(337deg) brightness(98%) contrast(89%);
+  accent-color: black;
   --link: #0000EE;
   --visited: #551A8B;
   --dark-link: #729cff;
@@ -32,7 +34,9 @@
   --pv: #D3D3D3;
   --thag: #DDF0FF;
   --thig: #DCE3C7;
-
+  /* --primary: #ee6f20; */
+  /* --dark-primary: #6b1617; */
+  /* --offblack: #150d01; */
   /* --dn: #ACE6E6;
   --mn: #DBA9A9;
   --sn: #B1D6FA;
@@ -46,7 +50,6 @@
   --pv: #D4D4D4;
   --thag: #DDF0FF;
   --thig: #F0FFE0; */
-  accent-color: black;
 }
 
 *,
@@ -92,7 +95,6 @@ p {
 
 .settings-bar {
   color: var(--offwhite-saturated);
-  /*pasanna*/
   background-color: var(--primary);
   position: fixed;
   top: 0;
@@ -100,7 +102,7 @@ p {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   padding: 0 10px;
   z-index: 100;
-  min-height: 4.5rem;
+  min-height: 4.3rem;
 }
 
 .top-row {
@@ -139,6 +141,7 @@ input:focus {
   background-color: var(--offblack);
 }
 
+/*screen reader*/
 .sr-only {
   position: absolute;
   width: 1px;
@@ -166,12 +169,14 @@ input:focus {
   rotate: 90deg;
 }
 
-.settings-bar .icon {
-  filter: brightness(0) saturate(100%) invert(87%) sepia(12%) saturate(668%) hue-rotate(342deg) brightness(107%) contrast(102%);
+.settings-bar .icon,
+.dark .settings-bar .icon {
+  filter: var(--offwhite-saturated-filter)
 }
 
 .icon {
-  filter: brightness(0);
+  /* filter: brightness(0); */
+  filter: var(--offblack-filter)
 }
 
 .icon-label {
@@ -179,11 +184,10 @@ input:focus {
 }
 
 .dark .icon {
-  filter: brightness(1);
-  filter: invert(100%);
+  filter: var(--white-filter);
 }
 
-.alphabet {
+.alphabet-menu {
   font-family: "Fira Code";
   display: flex;
   flex-direction: row;
@@ -192,31 +196,21 @@ input:focus {
   min-width: 0;
 }
 
-.alphabet a,
-.alphabet a:visited {
-  color: black;
-}
-
-.alphabet span {
+.menu-letter {
   border-radius: 8px 8px 0px 0px;
   padding: 4px 4px 3px 3px;
   cursor: pointer;
 }
 
-.alphabet span:hover {
+.menu-letter:hover {
   color: var(--primary);
   text-decoration: none;
-  background-color: black;
+  background-color: var(--offwhite-saturated);
 }
 
-.dark .alphabet span:hover {
+.dark .menu-letter:hover {
   color: var(--dark-primary) !important;
   background-color: var(--offwhite);
-}
-
-.dark .alphabet a,
-.dark .alphabet a:visited {
-  color: var(--offwhite)
 }
 
 .dark .settings-bar {
@@ -373,7 +367,7 @@ head-word {
 
 /*pasanna SHOULD PROBABLY BE IN THE .HEADWORD-LINK*/
 .dark head-word {
-  color: #fff;
+  color: var(--white);
 }
 
 /* headword icons */

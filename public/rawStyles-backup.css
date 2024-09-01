@@ -1,83 +1,24 @@
 @import url('../node_modules/tippy.js/dist/border.css');
 @import url('../node_modules/tippy.js/dist/tippy.css');
-
-@font-face {
-  font-family: "Fira Sans";
-  src: url("fonts/firasans-regular-webfont.woff") format('woff'),
-    url("fonts/firasans-regular-webfont.woff2") format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  src: url("fonts/firasans-medium-webfont.woff") format('woff'),
-    url("fonts/firasans-medium-webfont.woff2") format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  src: url("fonts/firasans-italic-webfont.woff") format('woff'),
-    url("fonts/firasans-italic-webfont.woff2") format('woff2');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  src: url("fonts/firasansextracondensed-regular-webfont.woff") format('woff'),
-    url("fonts/firasansextracondensed-regular-webfont.woff2") format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  src: url("fonts/firasansextracondensed-medium-webfont.woff") format('woff'),
-    url("fonts/firasansextracondensed-medium-webfont.woff2") format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Fira Sans Extra Condensed";
-  src: url("fonts/firasansextracondensed-italic-webfont.woff") format('woff'),
-    url("fonts/firasansextracondensed-italic-webfont.woff2") format('woff2');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Fira Code";
-  src: url("fonts/firacode-bold-webfont.woff") format('woff'),
-    url("fonts/firacode-bold-webfont.woff2") format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@import url('../src/functions/cssParts/tippy-custom.css');
+@import url('../src/functions/cssParts/fonts.css');
+@import url('../src/functions/cssParts/infoArea.css');
+@import url('../src/functions/cssParts/snackBars.css');
 
 :root {
-  --indent: 3.5rem;
-  --mobile-indent: .5rem;
-  --primary: rgb(238, 111, 32);
-  /* --primary: rgb(189, 82, 16); */
-  --dark-primary: #6b1617;
+  --primary: #b54d0d;
+  --dark-primary: #3f1011;
+  --white: #fff;
+  --white-filter: brightness(1) invert(100%);
   --offwhite: #fff9f1;
-  --offwhite-rich: #ffeecc;
+  --offwhite-saturated: #ffeecc;
+  --offwhite-saturated-filter: brightness(0) saturate(100%) invert(97%) sepia(6%) saturate(2029%) hue-rotate(315deg) brightness(103%) contrast(102%);
   --dark-offwhite: #d1d1d1;
-  --offblack: #150d01;
-  /* --offblack: #5d4037; */
-  /* --link: #0000EE;
-  --visited: #551A8B; */
-  --link: rgb(189, 82, 16);
-  --visited: rgb(129, 53, 7);
+  --offblack: #5d4037;
+  --offblack-filter: brightness(0) saturate(100%) invert(26%) sepia(6%) saturate(3124%) hue-rotate(337deg) brightness(98%) contrast(89%);
+  accent-color: black;
+  --link: #0000EE;
+  --visited: #551A8B;
   --dark-link: #729cff;
   --dark-visited: #b472ff;
   --dn: #d1eddf;
@@ -93,7 +34,33 @@
   --pv: #D3D3D3;
   --thag: #DDF0FF;
   --thig: #DCE3C7;
-  accent-color: black;
+  /* --primary: #ee6f20; */
+  /* --dark-primary: #6b1617; */
+  /* --offblack: #150d01; */
+  /* --dn: #ACE6E6;
+  --mn: #DBA9A9;
+  --sn: #B1D6FA;
+  --an: #B8B8E3;
+  --kp: #FAE1C8;
+  --dhp: #ABD4C0;
+  --ud: #e9e296;
+  --iti: #FAC0CB;
+  --snp: #E3BDF2;
+  --vv: #FFFFC2;
+  --pv: #D4D4D4;
+  --thag: #DDF0FF;
+  --thig: #F0FFE0; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 4rem;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -106,23 +73,19 @@ body {
   padding: 0;
 }
 
-::selection {
-  background-color: var(--primary);
-  color: var(--offwhite)
-}
-
 body.dark {
   background-color: var(--offblack);
   color: var(--dark-offwhite);
 }
 
-html {
-  scroll-padding-top: 4rem;
-  scroll-behavior: smooth;
+::selection {
+  background-color: var(--primary);
+  color: var(--offwhite);
 }
 
-* {
-  box-sizing: border-box
+.dark ::selection {
+  background-color: var(--dark-primary);
+  color: var(--offwhite);
 }
 
 p {
@@ -130,15 +93,9 @@ p {
   font-family: "Fira Sans";
 }
 
-a {
-  text-decoration: none;
-  white-space: nowrap;
-  /* word-spacing: -3px;   */
-}
-
 .settings-bar {
+  color: var(--offwhite-saturated);
   background-color: var(--primary);
-  color: var(--offwhite-rich);
   position: fixed;
   top: 0;
   width: 100vw;
@@ -162,23 +119,45 @@ input {
   font-family: "Fira Sans";
   font-size: inherit;
   flex-grow: 1;
-  background-color: var(--offwhite);
-  border: solid 1px var(--dark-offwhite)
+  border: solid 1px var(--offblack);
+  border-radius: 4px;
+  background-color: var(--offwhite-saturated);
+  padding: 3px 0px 2px 4px;
 }
 
-.dark .input-box {
+input:focus {
+  background-color: var(--offwhite);
+}
+
+.dark input {
+  color: var(--offwhite);
   border-color: var(--offwhite);
   background-color: var(--dark-primary);
+}
+
+.dark input:focus {
+  color: var(--offwhite);
+  border-color: var(--offwhite);
+  background-color: var(--offblack);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .settings-button {
   display: flex;
   flex-direction: row;
-
 }
 
 .settings-button img {
-
   margin-top: 0.2rem;
   rotate: 0deg;
   transition: rotate ease-in-out 1s;
@@ -189,13 +168,14 @@ input {
   rotate: 90deg;
 }
 
-.icon {
-  filter: brightness(0);
-
+.settings-bar .icon,
+.dark .settings-bar .icon {
+  filter: var(--offwhite-saturated-filter)
 }
 
-.settings-bar .icon {
-  filter: brightness(0) saturate(100%) invert(93%) sepia(6%) saturate(4433%) hue-rotate(304deg) brightness(117%) contrast(111%);
+.icon {
+  /* filter: brightness(0); */
+  filter: var(--offblack-filter)
 }
 
 .icon-label {
@@ -203,12 +183,10 @@ input {
 }
 
 .dark .icon {
-  filter: brightness(1);
-  filter: invert(100%);
+  filter: var(--white-filter);
 }
 
-
-.alphabet {
+.alphabet-menu {
   font-family: "Fira Code";
   display: flex;
   flex-direction: row;
@@ -217,33 +195,22 @@ input {
   min-width: 0;
 }
 
-.alphabet a,
-.alphabet a:visited {
-  color: black;
-}
-
-.alphabet span {
+.menu-letter {
   border-radius: 8px 8px 0px 0px;
   padding: 4px 4px 3px 3px;
   cursor: pointer;
 }
 
-.alphabet span:hover {
+.menu-letter:hover {
   color: var(--primary);
   text-decoration: none;
-  background-color: black;
+  background-color: var(--offwhite-saturated);
 }
 
-.dark .alphabet span:hover {
+.dark .menu-letter:hover {
   color: var(--dark-primary) !important;
   background-color: var(--offwhite);
 }
-
-.dark .alphabet a,
-.dark .alphabet a:visited {
-  color: var(--offwhite)
-}
-
 
 .dark .settings-bar {
   background-color: var(--dark-primary);
@@ -276,7 +243,6 @@ input {
   color: black;
 }
 
-
 .link-list div {
   list-style: none;
   text-indent: -1rem;
@@ -284,16 +250,20 @@ input {
 
 .dark .link-list,
 .dark .search-results {
-
   background-color: var(--offblack);
-
 }
 
 .menu-item {
+  color: var(--offblack);
   padding-left: 1rem;
   text-indent: -1rem;
   display: block;
   cursor: pointer;
+}
+
+.dark .menu-item {
+  color: var(--offwhite-saturated)
+    /*pasanna related*/
 }
 
 .menu-item strong {
@@ -303,8 +273,17 @@ input {
 .menu-item:hover,
 .menu-item.active {
   background-color: var(--primary);
-  color: black;
+  color: var(--offwhite-saturated)
+    /*pasanna*/
 }
+
+.dark .menu-item:hover,
+.dark .menu-item.active {
+  background-color: var(--dark-primary);
+  color: var(--offwhite-saturated)
+}
+
+
 
 .link-list div {
   padding-left: 1rem;
@@ -316,7 +295,8 @@ input {
   margin: 0.5rem 0;
 }
 
-.alphabet-anchor {
+alphabet-anchor {
+  display: block;
   font-size: 1.6rem;
   border-bottom: solid #3f3f3f 2px;
   margin-top: 1rem;
@@ -324,10 +304,9 @@ input {
   padding-bottom: .5rem;
   font-weight: bold;
   font-family: "Fira Code";
-
 }
 
-.dark .alphabet-anchor {
+.dark alphabet-anchor {
   font-size: 1.6rem;
   border-bottom: solid #bfbfbf 2px;
   color: #bfbfbf;
@@ -338,18 +317,23 @@ input {
   margin: 6rem 1rem;
 }
 
-.head-word-area {
+headword-section {
+  display: block;
+}
+
+head-word-area {
+  display: block;
   padding-top: .4rem;
   position: sticky;
   top: 4.2rem;
   background-color: var(--offwhite);
 }
 
-.dark .head-word-area {
+.dark head-word-area {
   background-color: var(--offblack);
 }
 
-.head-word {
+head-word {
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -360,6 +344,10 @@ input {
   padding-right: .25rem;
   font-size: .83em;
   color: gray;
+}
+
+.dark .counter {
+  color: var(--dark-offwhite)
 }
 
 .headword-link,
@@ -376,6 +364,11 @@ input {
   color: var(--dark-offwhite)
 }
 
+/*pasanna SHOULD PROBABLY BE IN THE .HEADWORD-LINK*/
+.dark head-word {
+  color: var(--white);
+}
+
 /* headword icons */
 
 .copy-icon,
@@ -383,7 +376,6 @@ input {
   padding-right: .1rem;
   padding-left: .1rem;
 }
-
 
 .headword-link .link-icon,
 .headword-link .copy-icon {
@@ -397,53 +389,62 @@ input {
   visibility: inherit;
 }
 
-
-.sub-word {
+sub-word {
+  display: block;
   padding-left: 3.5rem;
   text-indent: -2rem;
   line-height: 1.4rem;
 }
 
-a.xref-link {
+.xref-link {
+  text-decoration: none;
   white-space: inherit;
   word-spacing: inherit;
-}
-
-.xref-link {
   color: #007b00;
   font-style: italic;
+}
+
+.xref-link:hover {
+  text-decoration: underline;
 }
 
 .xref-link:visited {
   color: #007b00
 }
 
-.dark .xref-link {
-  color: #00af00
-}
-
+.dark .xref-link,
 .dark .xref-link:visited {
-  color: #00af00
+  color: #8bc34a;
 }
 
-.hide-names .sutta-name {
+sutta-name {
+  font-size: 85%;
+}
+
+.hide-names sutta-name {
   display: none;
-}
-
-.locator {
-  font-weight: bold;
 }
 
 .colored-locators .locator {
   padding: 2px;
 }
 
-.dark a {
-  color: var(--dark-link)
+.locator:hover {
+  text-decoration: underline;
 }
 
-.dark a:visited {
-  color: var(--dark-visited)
+.colored-locators .locator:hover {
+  text-decoration: none;
+}
+
+.dark .locator {
+  /* color: var(--dark-link); */
+  color: #ffecb3;
+}
+
+.dark .locator:visited {
+  /* color: var(--dark-visited); */
+  color: #ffccbc;
 }
 
 .colored-locators.dark .locator,
@@ -453,7 +454,30 @@ a.xref-link {
 
 .colored-locators.dark .locator:visited,
 .locator:visited {
-  color: var(--visited);
+  color: var(--visited)
+}
+
+/*pasanna*/
+.colored-locators .locator {
+  color: #7b3e08
+}
+
+/*pasanna*/
+.colored-locator .locator:visited {
+  color: #451e02
+}
+
+/*pasanna*/
+.locator {
+  color: #a65711;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+
+/*pasanna*/
+.locator:visited {
+  color: #612901
 }
 
 .colored-locators .dn {
@@ -559,7 +583,7 @@ a.xref-link {
     background-color: inherit;
   }
 
-  .sub-word {
+  sub-word {
     padding-left: 1rem;
     text-indent: -.5rem;
   }
@@ -574,47 +598,6 @@ a.xref-link {
   body.copy-buttons-visible .copy-icon {
     display: inherit;
   }
-}
-
-.snack-bar {
-  font-size: 1.2rem;
-  position: fixed;
-  top: 7rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 8rem;
-  border-radius: 10px;
-  background-color: var(--dark-offwhite);
-  border: solid 2px var(--offblack);
-  color: var(--offblack);
-  text-align: center;
-  padding: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  opacity: 1;
-  transition: opacity 0.15s ease-in-out;
-  z-index: 9999;
-}
-
-.hide-snack-bar .snack-bar {
-  opacity: 0;
-  transition: opacity 0.15s ease-in-out;
-  pointer-events: none;
-}
-
-.dark .snack-bar {
-  background-color: var(--offwhite);
-  color: var(--dark-primary);
-  box-shadow: 1px -1px 3px rgb(0, 0, 0);
-}
-
-.info-area {
-  padding: 0rem 0 1rem;
-  min-width: 10rem;
-  max-width: 35rem;
-  max-height: 70vh;
-  overflow-y: auto;
-  border-top: solid 1px;
-  overscroll-behavior: contain;
 }
 
 .settings-button-row {
@@ -638,173 +621,4 @@ body.copy-buttons-visible .copy-icon {
 
 .hidden {
   display: none
-}
-
-.info-area p {
-  line-height: 130%;
-  margin-bottom: .7rem;
-
-}
-
-.info-area a,
-.info-area a:visited {
-  /* color: var(--link); */
-  color: #FAE46D;
-  text-decoration: underline;
-}
-
-.dark .info-area a,
-.dark .info-area a:visited {
-  color: var(--dark-link)
-}
-
-details summary {
-  cursor: pointer;
-}
-
-details>div {
-  border-left: solid 2px var(--offwhite);
-  margin-left: .7rem;
-  padding-left: .7rem;
-}
-
-.html-message {
-  display: none;
-}
-
-.stats {
-  margin-top: 1rem;
-  padding: 10px 15px;
-  line-height: 1.6rem;
-  border: solid 2px black;
-  border-radius: 5px;
-  max-width: 16rem
-}
-
-.dark .stats {
-  border-color: var(--offwhite);
-}
-
-.answer {
-  font-weight: bold;
-  display: inline;
-}
-
-.update-date {
-  font-size: .7rem;
-  text-align: right;
-}
-
-.tippy-box[data-theme~='info'] {
-  background-color: var(--dark-offwhite);
-  color: black;
-  border: 1px solid black;
-}
-
-.tippy-box[data-theme~='info']>.tippy-arrow::before {
-  border-top-color: var(--dark-offwhite);
-  border-bottom-color: var(--dark-offwhite);
-}
-
-.tippy-content:empty {
-  display: none;
-}
-
-.tippy-content:empty+.tippy-arrow {
-  display: none;
-}
-
-.tippy-box {
-  border: 1px transparent;
-  box-shadow: 2px 3px 9px 3px rgba(222, 222, 222, 0.879);
-  background-color: #fbf2db;
-  background-color: var(--offwhite-rich);
-  color: var(--offblack);
-
-}
-
-.dark .tippy-box {
-  box-shadow: 2px 3px 9px 3px rgba(62, 39, 35, 1);
-  color: var(--offwhite);
-  background: #795548;
-}
-
-.tippy-box[data-placement^=top]>.tippy-arrow:after {
-  border-top-color: inherit;
-  border-width: 8px 8px 0;
-  bottom: -8px;
-  left: 0
-}
-
-.tippy-box[data-placement^=bottom]>.tippy-arrow:after {
-  border-bottom-color: inherit;
-  border-width: 0 8px 8px;
-  top: -8px;
-  left: 0
-}
-
-.tippy-box[data-placement^=left]>.tippy-arrow:after {
-  border-left-color: inherit;
-  border-width: 8px 0 8px 8px;
-  right: -8px;
-  top: 0
-}
-
-.tippy-box[data-placement^=right]>.tippy-arrow:after {
-  border-width: 8px 8px 8px 0;
-  left: -8px;
-  top: 0;
-  border-right-color: inherit
-}
-
-.tippy-box[data-placement^=top]>.tippy-svg-arrow>svg:first-child:not(:last-child) {
-  top: 17px
-}
-
-.tippy-box[data-placement^=bottom]>.tippy-svg-arrow>svg:first-child:not(:last-child) {
-  bottom: 17px
-}
-
-.tippy-box[data-placement^=left]>.tippy-svg-arrow>svg:first-child:not(:last-child) {
-  left: 12px
-}
-
-.tippy-box[data-placement^=right]>.tippy-svg-arrow>svg:first-child:not(:last-child) {
-  right: 12px
-}
-
-.tippy-arrow {
-  border-color: inherit
-}
-
-.tippy-arrow:after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  border-color: transparent;
-  border-style: solid
-}
-
-
-
-#loading-snackbar {
-  min-width: 350px;
-  background-color: var(--dark-offwhite);
-  color: var(--offblack);
-  text-align: center;
-  border: 2px solid var(--offblack);
-  border-radius: 20px;
-  padding: 8px;
-  position: fixed;
-  left: 50%;
-  bottom: 30px;
-  transform: translateX(-50%);
-  z-index: 1000;
-  font-size: 14px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  display: block;
-}
-
-#loading-snackbar a {
-  text-decoration: underline;
 }

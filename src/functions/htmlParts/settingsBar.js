@@ -15,10 +15,10 @@ export function settingsBar(indexObject) {
             <img class="icon" width="20"  src="images/info-dot.png" alt="Info icon"/>
           </div>
         </div>
-        <div class="alphabet">
+        <div class="alphabet-menu">
         ${alphabet
           .map(letter => {
-            return `<span class="letter" id="${letter}">
+            return `<span class="menu-letter" id="${letter}">
                   ${letter}
                 </span>`;
           })
