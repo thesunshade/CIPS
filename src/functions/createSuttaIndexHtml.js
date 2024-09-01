@@ -153,8 +153,9 @@ export default function createSuttaIndexHtml(indexObject) {
                     return constructXrefHtml(locatorListObject, rawXref, index);
                   })
                   .join("")}
-              ${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}</locator-list>
-              </sub-word>`;
+              ${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}
+              </locator-list>
+                </sub-word>`;
               })
               .join("")}
           </headword-section>`;
