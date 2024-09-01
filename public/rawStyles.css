@@ -353,6 +353,10 @@ head-word {
   color: gray;
 }
 
+.dark .counter {
+  color: var(--dark-offwhite)
+}
+
 .headword-link,
 .headword-link:visited {
   color: var(--offblack);
