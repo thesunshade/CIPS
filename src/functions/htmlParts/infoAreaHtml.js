@@ -86,9 +86,9 @@ export const infoAreaHtml = `
                 <strong>${statsData.xrefsCount.toLocaleString("en-US")}</strong> Xref headwords
               </div>
             </div>
-            <p class="update-date">
+            <div class="update-date">
               <i>Last updated</i>: ${updateDate}
-            </p>
+            </div>
           </div>
         </div>
         <p>
