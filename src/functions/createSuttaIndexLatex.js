@@ -10,7 +10,7 @@ import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
 // import { indexObject } from "../data/index-object.js";
 
-export default function createSuttaIndexHtml(indexObject) {
+export default function createSuttaIndexLatex(indexObject) {
   function makeLinkText(locator) {
     if (/^CUSTOM:/.test(locator)) {
       const components = locator.split(":");

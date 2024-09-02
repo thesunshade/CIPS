@@ -341,15 +341,15 @@ function createIndexObject() {
     }
   })();
 
-  (async () => {
-    try {
-      const moduleLatex = await import("./src/functions/createSuttaIndexLatex.js");
-      const createSuttaIndexLatex = moduleLatex.default; // Access the default export
-      createSuttaIndexLatex(indexObject);
-    } catch (err) {
-      console.error("Error loading module Latex:", err);
-    }
-  })();
+  // (async () => {
+  //   try {
+  //     const moduleLatex = await import("./src/functions/createSuttaIndexLatex.js");
+  //     const createSuttaIndexLatex = moduleLatex.default; // Access the default export
+  //     createSuttaIndexLatex(indexObject);
+  //   } catch (err) {
+  //     console.error("Error loading module Latex:", err);
+  //   }
+  // })();
 }
 
 function createHeadingsArray() {
