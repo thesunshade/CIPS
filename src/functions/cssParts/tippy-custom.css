@@ -2,8 +2,10 @@
     background-color: var(--dark-offwhite);
     color: black;
     border: 1px solid black;
-    text-indent: 0;
+
 }
+
+
 
 .tippy-box[data-theme~='info']>.tippy-arrow::before {
     border-top-color: var(--dark-offwhite);
@@ -19,7 +21,8 @@
 }
 
 .tippy-box {
-    border: 1px transparent
+    border: 1px transparent;
+    text-indent: 0;
 }
 
 .tippy-box[data-placement^=top]>.tippy-arrow:after {
