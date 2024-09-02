@@ -26,10 +26,7 @@ node_modules
 /src/data/statsData.js
 /src/data/updateDate.js
 /src/data/uniqueLocators.js
-/src/functions/cssParts/fonts.css
-/src/functions/cssParts/infoArea.css
-/src/functions/cssParts/snackBars.css
-/src/functions/cssParts/tippy-custom.css
+
 
 
 

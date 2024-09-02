@@ -194,6 +194,7 @@ input:focus {
   justify-content: space-between;
   max-width: 35rem;
   min-width: 0;
+  padding-right: 15px;
 }
 
 .menu-letter {

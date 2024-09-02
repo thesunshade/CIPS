@@ -1,0 +1,64 @@
+.info-area {
+    padding: 0rem 0 1rem;
+    min-width: 10rem;
+    max-width: 35rem;
+    max-height: 70vh;
+    overflow-y: auto;
+    border-top: solid 1px;
+    overscroll-behavior: contain;
+}
+
+.info-area p {
+    line-height: 130%;
+    margin-bottom: .7rem;
+}
+
+.info-area a,
+.info-area a:visited {
+    color: var(--link);
+    text-decoration: underline;
+}
+
+/*pasanna*/
+.info-area a,
+.info-area a:visited {
+    color: #FAE46D !important;
+}
+
+.info-area a:hover {
+    text-decoration: none;
+}
+
+.dark .info-area a,
+.dark .info-area a:visited {
+    color: var(--dark-link)
+}
+
+details summary {
+    cursor: pointer;
+}
+
+details>div {
+    /* border-left: solid 2px black; */
+    border-left: solid 2px var(--offwhite-saturated);
+    margin-left: .7rem;
+    padding-left: .7rem;
+}
+
+.html-message {
+    display: none;
+}
+
+.stats {
+    margin-top: 1rem;
+    padding: 10px 15px;
+    line-height: 1.6rem;
+    border: solid 2px var(--offwhite-saturated);
+    border-radius: 5px;
+    max-width: 16rem
+}
+
+.update-date {
+    font-size: .7rem;
+    text-align: right;
+}
