@@ -22,7 +22,7 @@
 /*pasanna*/
 .info-area a,
 .info-area a:visited {
-    color: #FAE46D !important;
+    color: var(--text-link) !important;
 }
 
 .info-area a:hover {

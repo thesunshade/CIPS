@@ -44,3 +44,4 @@ yarn-error.log*
 public/latex/index.tex
 public/rawStyles-backup.css
 public/index.css
+src/functions/cssParts/tippy-custom-VP-almost-working.css

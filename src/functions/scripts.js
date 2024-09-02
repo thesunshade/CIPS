@@ -244,7 +244,7 @@ window.addEventListener("hashchange", updatePageTitle);
 
 // Setup tippy.js tooltips
 
-tippy(".locator", { allowHTML: true, delay: [300, null], touch: ["hold", 500] });
+tippy(".locator", { allowHTML: true, delay: [300, null], touch: ["hold", 500], interactive: true });
 tippy(".info", { theme: "info", touch: ["hold", 500], delay: [500, null] });
 
 tippy(".copy-headword", { content: "Copy headword text to the clipboard", theme: "info", touch: ["hold", 500], delay: [500, null] });

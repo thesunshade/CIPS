@@ -16,11 +16,14 @@
   --dark-offwhite: #d1d1d1;
   --offblack: #5d4037;
   --offblack-filter: brightness(0) saturate(100%) invert(26%) sepia(6%) saturate(3124%) hue-rotate(337deg) brightness(98%) contrast(89%);
-  accent-color: black;
+  --accent-color: black;
+  --text-link: #FAE46D;
   --link: #0000EE;
   --visited: #551A8B;
   --dark-link: #729cff;
   --dark-visited: #b472ff;
+  --xref-light: #007b00;
+  --xref-dark: #8bc34a;
   --dn: #d1eddf;
   --mn: #F5DEB3;
   --sn: #ADD8E6;
@@ -279,7 +282,6 @@ kbd {
 .dark .menu-item,
 .dark .no-results {
   color: var(--offwhite-saturated)
-    /*pasanna related*/
 }
 
 .no-results {
@@ -294,7 +296,6 @@ kbd {
 .menu-item.active {
   background-color: var(--primary);
   color: var(--offwhite-saturated)
-    /*pasanna*/
 }
 
 .dark .menu-item:hover,
@@ -302,8 +303,6 @@ kbd {
   background-color: var(--dark-primary);
   color: var(--offwhite-saturated)
 }
-
-
 
 .link-list div {
   padding-left: 1rem;
@@ -343,7 +342,7 @@ headword-section {
 
 head-word-area {
   display: block;
-  padding-top: .4rem;
+  padding-top: .5rem;
   position: sticky;
   top: 4.2rem;
   background-color: var(--offwhite);
@@ -413,28 +412,26 @@ sub-word {
   display: block;
   padding-left: 3.5rem;
   text-indent: -2rem;
-  line-height: 1.4rem;
+  line-height: 1.6rem;
 }
 
-.xref-link {
+.xref-link,
+.xref-link:visited {
   text-decoration: none;
   white-space: inherit;
   word-spacing: inherit;
-  color: #007b00;
+  color: var(--xref-light);
   font-style: italic;
+}
+
+
+.dark .xref-link,
+.dark .xref-link:visited {
+  color: var(--xref-dark);
 }
 
 .xref-link:hover {
   text-decoration: underline;
-}
-
-.xref-link:visited {
-  color: #007b00
-}
-
-.dark .xref-link,
-.dark .xref-link:visited {
-  color: #8bc34a;
 }
 
 sutta-name {
@@ -446,7 +443,8 @@ sutta-name {
 }
 
 .colored-locators .locator {
-  padding: 2px;
+  padding: 2px 4px 1px;
+  margin-right: 1px;
 }
 
 .locator:hover {
@@ -458,34 +456,13 @@ sutta-name {
 }
 
 .dark .locator {
-  /* color: var(--dark-link); */
   color: #ffecb3;
 }
 
 .dark .locator:visited {
-  /* color: var(--dark-visited); */
   color: #ffccbc;
 }
 
-.colored-locators.dark .locator,
-.locator {
-  color: var(--link)
-}
-
-.colored-locators.dark .locator:visited,
-.locator:visited {
-  color: var(--visited)
-}
-
-/*pasanna*/
-.colored-locators .locator {
-  color: #7b3e08
-}
-
-/*pasanna*/
-.colored-locator .locator:visited {
-  color: #451e02
-}
 
 /*pasanna*/
 .locator {
@@ -494,10 +471,17 @@ sutta-name {
   white-space: nowrap;
 }
 
-
 /*pasanna*/
 .locator:visited {
   color: #612901
+}
+
+.colored-locators .locator {
+  color: #7b3e08
+}
+
+.colored-locators .locator:visited {
+  color: #0c0000;
 }
 
 .colored-locators .dn {
