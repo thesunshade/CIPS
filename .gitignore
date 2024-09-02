@@ -46,3 +46,4 @@ yarn-error.log*
 *.xlsx#
 public/latex/index.tex
 public/rawStyles-backup.css
+public/index.css

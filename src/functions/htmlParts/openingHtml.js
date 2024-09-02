@@ -14,5 +14,36 @@ export const openingHtml = `<!DOCTYPE html>
       <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
       <title>Comprehensive Index of Pāli Suttas</title>
       <link rel="stylesheet" href="index.css">
+<style>
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   color: #5d4037;
+   background: linear-gradient(currentColor 0 0) center/100% 4.5px,
+          linear-gradient(currentColor 0 0) center/4.5px 100%,
+          radial-gradient(farthest-side,#0000 calc(100% - 6.7px),currentColor calc(100% - 5.6px)),
+          radial-gradient(circle 6.7px,currentColor 94%,#0000 0);
+   background-repeat: no-repeat;
+   animation: spinner-mu2ebf 2.8s infinite linear;
+   position: relative;
+   margin:10px auto;
+}
+
+.spinner::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   border-radius: inherit;
+   background: inherit;
+   transform: rotate(45deg);
+}
+
+@keyframes spinner-mu2ebf {
+   to {
+      transform: rotate(.5turn);
+   }
+}
+</style>
       </head>
       <body id="app" class="app hide-snack-bar">`;
