@@ -61,7 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function createTxtEntry(headword) {
   const entryObject = createElementObject(makeNormalizedId(headword));
-  console.log(entryObject);
   const subheadsArray = entryObject[headword].subheads;
   let text = "";
   text += headword;
@@ -83,7 +82,6 @@ function createTxtEntry(headword) {
 
 function createMarkdownEntry(headword) {
   const entryObject = createElementObject(makeNormalizedId(headword));
-  console.log(entryObject);
   const subheadsArray = entryObject[headword].subheads;
   let text = "";
   text += "### " + headword;
@@ -106,7 +104,6 @@ function createMarkdownEntry(headword) {
 
 function createHtmlEntry(headword) {
   const entryObject = createElementObject(makeNormalizedId(headword));
-  console.log(entryObject);
   const subheadsArray = entryObject[headword].subheads;
   let text = "";
   text += "<h1>" + headword + "</h1>\n<ul>\n";
@@ -149,7 +146,7 @@ function createElementObject(elementId) {
     .replace(/ target="_blank" rel="noreferrer"/g, "")
     .replace(/ (title)=".+?"/g, "")
     .replace(/<img.+?>/g, "")
-    .replace(/<span class="counter">.+?<\/span>/g, "")
+    .replace(/<span class="counter">.+?<\/span> /g, "")
     .replace(/<small class="sutta-name">(.+?)<\/small>/g, "$1")
     .replace(/>\s+?</g, "><")
     .replace(/(\S)\s+?</g, "$1<")
@@ -159,11 +156,12 @@ function createElementObject(elementId) {
     .replace(/<div class="sub-word">(.+?)<span class="locator-list">/g, '{"title": "$1", "links": [')
     .replace(/<a href="(.+?)" class=".+?">(.+?)<\/a>,*/g, '{"url": "$1","location": "$2"},')
     .replace(/<\/span><\/div>/g, "]},")
+    .replace(/<\/div><div class="sub-word">/g, "")
     .replace(/;<br>/g, "")
     .replace(/,$/, "")
     .replace(/,\]/g, "]");
 
   elementObject += "]}}";
-  console.log(JSON.parse(elementObject));
+
   return JSON.parse(elementObject);
 }
