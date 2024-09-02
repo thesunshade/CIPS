@@ -49,6 +49,25 @@ function renderResults({ query, firstOnly }) {
     resultsContainer.appendChild(separator);
   }
   contains.forEach(item => createResultItem(item, query, firstOnly));
+
+  if (startsWith.length === 0 && contains.length === 0) {
+    const noResultsMessage = document.createElement("div");
+    noResultsMessage.className = "no-results";
+
+    let message = "No results found.";
+
+    if (/Windows|Linux/.test(navigator.userAgent)) {
+      message += " Try <kbd>Ctrl+F</kbd> to search within the page.";
+    } else if (/Mac/i.test(navigator.userAgent)) {
+      message += " Try Command+F to search within the page.";
+    } else if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+      message += " Try using the browser's find feature.";
+    }
+
+    noResultsMessage.innerHTML = message;
+    resultsContainer.appendChild(noResultsMessage);
+  }
+
   resultsContainer.scrollTop = 0;
 }
 

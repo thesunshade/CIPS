@@ -224,6 +224,18 @@ input:focus {
   text-wrap: wrap;
 }
 
+kbd {
+  background-color: var(--primary);
+  color: var(--offwhite-saturated);
+  padding: 2px;
+  border: solid 0px;
+  border-radius: 5px;
+}
+
+.dark kbd {
+  background-color: var(--dark-primary);
+}
+
 .link-list,
 .search-results {
   overflow-y: auto;
@@ -254,7 +266,8 @@ input:focus {
   background-color: var(--offblack);
 }
 
-.menu-item {
+.menu-item,
+.no-results {
   color: var(--offblack);
   padding-left: 1rem;
   text-indent: -1rem;
@@ -262,9 +275,14 @@ input:focus {
   cursor: pointer;
 }
 
-.dark .menu-item {
+.dark .menu-item,
+.dark .no-results {
   color: var(--offwhite-saturated)
     /*pasanna related*/
+}
+
+.no-results {
+  cursor: inherit;
 }
 
 .menu-item strong {
@@ -565,16 +583,16 @@ sutta-name {
     align-items: center;
   }
 
-  .alphabet {
-
+  .alphabet-menu {
     max-width: 100% !important;
+    padding-right: 15px;
   }
 
-  .alphabet span {
+  .alphabet-menu span {
     padding: 0px;
   }
 
-  .alphabet span:hover {
+  .alphabet-menu span:hover {
     color: rgb(109, 109, 109);
     background-color: inherit;
   }
