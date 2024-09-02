@@ -2,6 +2,7 @@
     background-color: var(--dark-offwhite);
     color: black;
     border: 1px solid black;
+    text-indent: 0;
 }
 
 .tippy-box[data-theme~='info']>.tippy-arrow::before {
