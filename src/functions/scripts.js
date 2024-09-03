@@ -97,7 +97,7 @@ function createResultItem(item, query, firstOnly) {
     resultsContainer.innerHTML = "";
     const anchorId = makeNormalizedId(item);
     document.getElementById(anchorId).scrollIntoView({ behavior: "smooth" });
-    document.getElementById("search-box").blur();
+    // document.getElementById("search-box").blur();
     window.history.pushState(null, null, "#" + anchorId);
     document.title = `${item} | ${SITENAME}`;
   });
@@ -139,7 +139,7 @@ function handleKeyboardNavigation(e) {
   if (activeIndex > -1) {
     const activeItem = items[activeIndex];
     activeItem.scrollIntoView({ block: "nearest", inline: "nearest" });
-    document.getElementById("search-box").blur();
+    // document.getElementById("search-box").blur();
   }
 }
 
