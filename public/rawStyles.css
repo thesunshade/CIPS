@@ -635,8 +635,7 @@ body.copy-buttons-visible .copy-icon {
     }
 
     .colored-locators .locator {
-      padding: 1px 4px;
-      !important
+      padding: 1px 4px !important;
     }
   }
 }
