@@ -2,8 +2,8 @@ import { headwordsArray } from "../data/headwords-array.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
+import "./tippyScripts.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
-import tippy from "tippy.js";
 
 window.addEventListener("load", function () {
   // Hide the snackbar once the page has fully loaded
@@ -97,6 +97,7 @@ function createResultItem(item, query, firstOnly) {
     resultsContainer.innerHTML = "";
     const anchorId = makeNormalizedId(item);
     document.getElementById(anchorId).scrollIntoView({ behavior: "smooth" });
+    document.getElementById("search-box").blur();
     window.history.pushState(null, null, "#" + anchorId);
     document.title = `${item} | ${SITENAME}`;
   });
@@ -138,6 +139,7 @@ function handleKeyboardNavigation(e) {
   if (activeIndex > -1) {
     const activeItem = items[activeIndex];
     activeItem.scrollIntoView({ block: "nearest", inline: "nearest" });
+    document.getElementById("search-box").blur();
   }
 }
 
@@ -241,14 +243,3 @@ function updatePageTitle() {
 
 document.addEventListener("DOMContentLoaded", updatePageTitle);
 window.addEventListener("hashchange", updatePageTitle);
-
-// Setup tippy.js tooltips
-
-tippy(".locator", { allowHTML: true, delay: [300, null], touch: ["hold", 500], interactive: true });
-tippy(".info", { theme: "info", touch: ["hold", 500], delay: [500, null] });
-
-tippy(".copy-headword", { content: "Copy headword text to the clipboard", theme: "info", touch: ["hold", 500], delay: [500, null] });
-tippy(".copy-link", { content: "Copy a link to this entry to the clipboard", theme: "info", touch: ["hold", 500], delay: [500, null] });
-tippy(".entry-text", { content: "Copy plain text of this entry", theme: "info", touch: ["hold", 500], delay: [500, null] });
-tippy(".entry-html", { content: "Copy html version of this entry", theme: "info", touch: ["hold", 500], delay: [500, null] });
-tippy(".entry-markdown", { content: "Copy Markdown version of this entry", theme: "info", touch: ["hold", 500], delay: [500, null] });
