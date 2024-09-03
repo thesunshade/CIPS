@@ -15,6 +15,7 @@
   --offwhite-saturated-filter: brightness(0) saturate(100%) invert(97%) sepia(6%) saturate(2029%) hue-rotate(315deg) brightness(103%) contrast(102%);
   --dark-offwhite: #d1d1d1;
   --offblack: #5d4037;
+  --offblacker: #150d01;
   --offblack-filter: brightness(0) saturate(100%) invert(26%) sepia(6%) saturate(3124%) hue-rotate(337deg) brightness(98%) contrast(89%);
   --accent-color: black;
   --text-link: #FAE46D;
@@ -39,7 +40,6 @@
   --thig: #DCE3C7;
   /* --primary: #ee6f20; */
   /* --dark-primary: #6b1617; */
-  /* --offblack: #150d01; */
   /* --dn: #ACE6E6;
   --mn: #DBA9A9;
   --sn: #B1D6FA;
@@ -178,8 +178,8 @@ input:focus {
 }
 
 .icon {
-  /* filter: brightness(0); */
-  filter: var(--offblack-filter)
+  filter: brightness(0);
+  /* filter: var(--offblack-filter) */
 }
 
 .icon-label {
@@ -371,7 +371,7 @@ head-word {
 
 .headword-link,
 .headword-link:visited {
-  color: var(--offblack);
+  color: var(--offblacker);
   word-spacing: inherit;
   position: relative;
   text-decoration: none !important;

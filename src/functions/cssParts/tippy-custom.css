@@ -1,5 +1,5 @@
 .tippy-box {
-    background-color: var(--offblack);
+    background-color: #795548;
     color: var(--offwhite-saturated);
     box-shadow: 2px 3px 9px 3px rgba(0, 0, 0, 0.184);
     border: 1px transparent;
@@ -8,7 +8,7 @@
 
 .tippy-arrow {
     border-color: inherit;
-    color: var(--offblack);
+    color: #795548;
 }
 
 .tippy-box[data-theme~='info'] {
