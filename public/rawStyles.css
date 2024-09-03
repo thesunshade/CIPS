@@ -626,3 +626,17 @@ body.copy-buttons-visible .copy-icon {
 .hidden {
   display: none
 }
+
+/*Safari specific*/
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .sub-word {
+      line-height: 1.7rem !important
+    }
+
+    .colored-locators .locator {
+      padding: 1px 4px;
+      !important
+    }
+  }
+}
