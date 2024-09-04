@@ -2,7 +2,7 @@ import { headwordsArray } from "../data/headwords-array.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
-import "./tippyScripts.js";
+// import "./tippyScripts.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 
 window.addEventListener("load", function () {
