@@ -206,6 +206,25 @@ export default function createSuttaIndexHtml(indexObject) {
     console.info(`Stdout: ${stdout}`);
   });
 
+  const rawJsFileBlurbs = "src/functions/tippyBlurbScripts.js";
+  const bundledJsFileBlurbs = "public/blurbs.js";
+
+  exec(`npx esbuild ${rawJsFileBlurbs} --bundle --minify  --outfile=${bundledJsFileBlurbs}`, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error blurbs: ${error.message}`);
+      return;
+    }
+    if (error && error.code !== 0) {
+      console.error(`Command failed with exit code for blurbs${error.code}`);
+    }
+    if (stderr) {
+      const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
+      console.error(`🛠️  blurbs Script bundled; Stderr: ${singleLineStderr}`);
+      return;
+    }
+    console.info(`Stdout: ${stdout}`);
+  });
+
   // Bundle and minify CSS
   exec(`npx esbuild ${rawCssFile} --bundle --minify --outfile=${bundledCssFile}  --external:*.woff --external:*.woff2`, (error, stdout, stderr) => {
     if (error) {
