@@ -108,7 +108,7 @@ export default function createSuttaIndexHtml(indexObject) {
     const title = getSuttaTitle(locator);
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  ${blurb ? `data-tippy-content="${blurb}"` : ""}>${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
+    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-loc="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
@@ -183,8 +183,10 @@ export default function createSuttaIndexHtml(indexObject) {
   const bundledJsFile = "public/index.js";
   const rawCssFile = "public/rawStyles.css";
   const bundledCssFile = "public/index.css";
+  const mini = "";
+  // const mini ="--minify"
   //
-  exec(`npx esbuild ${rawJsFile} --bundle --minify --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
+  exec(`npx esbuild ${rawJsFile} --bundle ${mini} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;
