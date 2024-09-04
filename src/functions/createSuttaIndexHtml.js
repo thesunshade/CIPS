@@ -82,11 +82,6 @@ export default function createSuttaIndexHtml(indexObject) {
           <a class="headword-link" href="${"#" + headwordId}">
             <head-word>
               ${headwordWithCounter}
-              <img src="images/copy-heading.png" alt="copy icon" class="icon copy-icon click-to-copy copy-headword" height="16" data-clipboard-text="${headword}">
-              <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy copy-link" height="16" data-clipboard-text="index.readingfaithfully.org/#${headwordId}">
-              <img src="images/copy-text.png" alt="text copy icon" class="icon text-icon copy-icon entry-text" height="16" data-headword="${headword}">
-              <img src="images/copy-html.png" alt="text copy icon" class="icon html-icon copy-icon entry-html" height="16" data-headword="${headword}">
-              <img src="images/copy-markdown.png" alt="text copy icon" class="icon markdown-icon copy-icon entry-markdown" height="16" data-headword="${headword}">
             </head-word>
           </a>
         </head-word-area>`;
@@ -108,14 +103,14 @@ export default function createSuttaIndexHtml(indexObject) {
     const title = getSuttaTitle(locator);
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-loc="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
+    return `\n            ${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
     const xref = rawXref.replace("xref ", "");
     const xrefId = makeNormalizedId(xref);
     const numberOfXrefs = locatorListObject.xrefs.length;
-    return `\n            <a href="#${xrefId}" class="xref-link">${xref}</a>${index + 1 === numberOfXrefs ? "" : "; <br>"}`;
+    return `\n            <span  class="xref-link">${xref}</span>${index + 1 === numberOfXrefs ? "" : "; <br>"}`;
   }
 
   function constructSublessLocatorList(locatorListObject, subhead) {
