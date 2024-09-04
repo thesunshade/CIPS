@@ -141,12 +141,11 @@ export default function createSuttaIndexHtml(indexObject) {
             .map(subhead => {
               const locatorListObject = headwordsObject[headword][subhead];
               return `${constructSublessLocatorList(locatorListObject, subhead)}
-        <sub-word>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}\n          <locator-list>${locatorListObject.xrefs
+        <sub-word>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}          ${locatorListObject.xrefs
                 .map((rawXref, index) => {
                   return constructXrefHtml(locatorListObject, rawXref, index);
                 })
                 .join("")}${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}
-          </locator-list>
         </sub-word>`;
             })
             .join("")}
