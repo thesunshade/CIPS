@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     interactive: true,
     content: reference => {
       const locator = reference.getAttribute("data-loc");
-      return blurbs[locator];
+      return blurbs[locator] ? blurbs[locator] : "";
     },
   });
 });
