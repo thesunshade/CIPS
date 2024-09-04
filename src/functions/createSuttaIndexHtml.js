@@ -103,14 +103,14 @@ export default function createSuttaIndexHtml(indexObject) {
     const title = getSuttaTitle(locator);
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return `\n            <span href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-loc="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</span>${connector}`;
+    return `\n            <span  class="${linkClass}"  data-loc="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</span>${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
     const xref = rawXref.replace("xref ", "");
     const xrefId = makeNormalizedId(xref);
     const numberOfXrefs = locatorListObject.xrefs.length;
-    return `\n            <a href="#${xrefId}" class="xref-link">${xref}</a>${index + 1 === numberOfXrefs ? "" : "; <br>"}`;
+    return `\n            <span  class="xref-link">${xref}</span>${index + 1 === numberOfXrefs ? "" : "; <br>"}`;
   }
 
   function constructSublessLocatorList(locatorListObject, subhead) {
