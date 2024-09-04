@@ -187,7 +187,8 @@ export default function createSuttaIndexHtml(indexObject) {
   // const mini ="--minify"
   // const bundleJs = "";
   const bundleJs = "--bundle";
-  const external = "--external:../data/blurbs.js";
+  // const external = "--external:../data/blurbs.js";
+  const external = "";
   //
   exec(`npx esbuild ${rawJsFile} ${bundleJs} ${mini} ${external} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
     if (error) {
