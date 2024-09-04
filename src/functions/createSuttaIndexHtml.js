@@ -185,8 +185,10 @@ export default function createSuttaIndexHtml(indexObject) {
   const bundledCssFile = "public/index.css";
   const mini = "";
   // const mini ="--minify"
+  const bundleJs = "";
+  // const bundleJs ="--bundle"
   //
-  exec(`npx esbuild ${rawJsFile} --bundle ${mini} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
+  exec(`npx esbuild ${rawJsFile} ${bundleJs} ${mini} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;
