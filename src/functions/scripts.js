@@ -97,7 +97,7 @@ function createResultItem(item, query, firstOnly) {
     resultsContainer.innerHTML = "";
     const anchorId = makeNormalizedId(item);
     document.getElementById(anchorId).scrollIntoView({ behavior: "smooth" });
-    // document.getElementById("search-box").blur();
+    document.getElementById("search-box").blur();
     window.history.pushState(null, null, "#" + anchorId);
     document.title = `${item} | ${SITENAME}`;
   });

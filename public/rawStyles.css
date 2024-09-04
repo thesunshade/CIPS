@@ -73,7 +73,7 @@ body {
   line-height: 125%;
   background-color: var(--offwhite);
   margin: 0;
-  padding: 0;
+  padding: 0 0 10rem 0;
 }
 
 body.dark {
@@ -123,7 +123,7 @@ input {
   font-size: inherit;
   flex-grow: 1;
   border: solid 1px var(--offblack);
-  border-radius: 4px;
+  /* border-radius: 4px; */
   background-color: var(--offwhite-saturated);
   padding: 3px 0px 2px 4px;
 }
