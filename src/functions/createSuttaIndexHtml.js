@@ -103,7 +103,7 @@ export default function createSuttaIndexHtml(indexObject) {
     const title = getSuttaTitle(locator);
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return `\n            <span  class="${linkClass}"  data-loc="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</span>${connector}`;
+    return `\n            ${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
