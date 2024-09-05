@@ -11,7 +11,8 @@ document.addEventListener("mouseover", function (event) {
   // Find the closest element that has the 'data-id' attribute
   const element = event.target.closest("[data-id]");
 
-  if (elem._tippy) return;
+  if (!element) return;
+  if (element._tippy) return;
 
   if (element) {
     const citation = element.getAttribute("data-id");
