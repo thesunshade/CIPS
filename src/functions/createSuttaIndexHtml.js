@@ -108,7 +108,7 @@ export default function createSuttaIndexHtml(indexObject) {
     const title = getSuttaTitle(locator);
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-loc="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
+    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-loc="${locator.toLowerCase()}" data-id="${locator}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
@@ -186,8 +186,8 @@ export default function createSuttaIndexHtml(indexObject) {
   // const mini ="--minify"
   // const bundleJs = "";
   const bundleJs = "--bundle";
-  // const external = "--external:../data/blurbs.js";
-  const external = "";
+  const external = "--external:getBlurbs.js";
+  // const external = "";
   //
   exec(`npx esbuild ${rawJsFile} ${bundleJs} ${mini} ${external} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
     if (error) {
@@ -205,8 +205,8 @@ export default function createSuttaIndexHtml(indexObject) {
     console.info(`Stdout: ${stdout}`);
   });
 
-  const rawJsFileBlurbs = "src/functions/tippyBlurbScripts.js";
-  const bundledJsFileBlurbs = "public/blurbs.js";
+  const rawJsFileBlurbs = "src/functions/getBlurbs.js";
+  const bundledJsFileBlurbs = "public/getBlurbs.js";
 
   exec(`npx esbuild ${rawJsFileBlurbs} --bundle --minify  --outfile=${bundledJsFileBlurbs}`, (error, stdout, stderr) => {
     if (error) {

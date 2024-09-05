@@ -2,8 +2,21 @@ import { headwordsArray } from "../data/headwords-array.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
-import "./tippyScripts.js";
+// import "./tippyScripts.js";
+import tippy from "tippy.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
+import getBlurb from "./getBlurbs.js";
+
+document.addEventListener("mouseover", function (event) {
+  // Find the closest element that has the 'data-id' attribute
+  const element = event.target.closest("[data-id]");
+  if (element) {
+    const citation = element.getAttribute("data-id");
+    const blurb = getBlurb(citation);
+    tippy(element, { content: blurb });
+    element._tippy.show();
+  }
+});
 
 window.addEventListener("load", function () {
   // Hide the snackbar once the page has fully loaded
