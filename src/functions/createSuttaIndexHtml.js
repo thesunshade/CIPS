@@ -108,7 +108,7 @@ export default function createSuttaIndexHtml(indexObject) {
     const title = getSuttaTitle(locator);
     const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-loc="${locator.toLowerCase()}" data-id="${locator}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
+    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-id="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
@@ -125,7 +125,7 @@ export default function createSuttaIndexHtml(indexObject) {
           return constructLocatorHtml(locatorListObject, locator, index);
         })
         .join("");
-      return locatorListHtml ? `<sub-word>${locatorListHtml}</sub-word>` : "";
+      return locatorListHtml ? `<sub-w>${locatorListHtml}</sub-w>` : "";
     } else return "";
   }
 
@@ -146,12 +146,12 @@ export default function createSuttaIndexHtml(indexObject) {
             .map(subhead => {
               const locatorListObject = headwordsObject[headword][subhead];
               return `${constructSublessLocatorList(locatorListObject, subhead)}
-        <sub-word>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}          ${locatorListObject.xrefs
+        <sub-w>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}          ${locatorListObject.xrefs
                 .map((rawXref, index) => {
                   return constructXrefHtml(locatorListObject, rawXref, index);
                 })
                 .join("")}${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}
-        </sub-word>`;
+        </sub-w>`;
             })
             .join("")}
       </headword-section>`;

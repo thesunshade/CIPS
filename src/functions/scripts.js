@@ -13,7 +13,6 @@ document.addEventListener("mouseover", function (event) {
 
   if (!element) return;
   if (element._tippy) return;
-
   if (element) {
     const citation = element.getAttribute("data-id");
     const blurb = getBlurb(citation);

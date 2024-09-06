@@ -153,10 +153,10 @@ function createElementObject(elementId) {
     .replace(/>\s+?(\S.)/g, ">$1")
     .replace(/<headword-section id=".+?">(.+)<\/headword-section>/, "$1")
     .replace(/<head-word-area><a class="headword-link" href="#(.+?)"><head-word>(.+?)<\/head-word><\/a><\/head-word-area>/, '{  "$2": { "anchor": "$1", "subheads": [')
-    .replace(/<sub-word>(.+?)<locator-list>/g, '{"title": "$1", "links": [')
+    .replace(/<sub-w>(.+?)<locator-list>/g, '{"title": "$1", "links": [')
     .replace(/<a href="(.+?)" class=".+?">(.+?)<\/a>,*/g, '{"url": "$1","location": "$2"},')
-    .replace(/<\/locator-list><\/sub-word>/g, "]},")
-    .replace(/<\/div><sub-word>/g, "")
+    .replace(/<\/locator-list><\/sub-w>/g, "]},")
+    .replace(/<\/div><sub-w>/g, "")
     .replace(/;<br>/g, "")
     .replace(/,$/, "")
     .replace(/,\]/g, "]");
