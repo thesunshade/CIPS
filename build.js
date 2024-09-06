@@ -7,6 +7,7 @@ import findNonUniqueHeadwords from "./src/functionsBuilding/findNonUniqueHeadwor
 import logTsvCreationDate from "./src/functionsBuilding/logTsvCreationDate.js";
 import createLocatorSortedTableHtml from "./src/functionsBuilding/createLocatorSortedTableHtml.js";
 import { openingHtmlheadwordLocatorCountHtml } from "./src/functions/htmlParts/openingHtmlheadwordLocatorCountHtml.js";
+import { blurbs } from "./src/data/blurbs.js";
 
 let alphabetKeys;
 let locatorFirstArray = [];
@@ -316,6 +317,21 @@ function createIndexObject() {
     fs.writeFileSync("src/data/statsData.js", `export const statsData ={ uniqueLocators: ${totalUniqueLocatorsLength}, xrefsCount: ${xrefsCount}}`);
   } catch (err) {
     console.error("❌There was an error writing total unique locators");
+    console.error(err);
+  }
+
+  const filteredBlurbs = allLocatorsArray.reduce((result, key) => {
+    const locator = key.toLowerCase().split(":")[0];
+    if (blurbs.hasOwnProperty(locator)) {
+      result[locator] = blurbs[locator];
+    }
+    return result;
+  }, {});
+
+  try {
+    fs.writeFileSync("src/data/filteredBlurbs.js", `export const filteredBlurbs =${JSON.stringify(filteredBlurbs, null, 5)}`);
+  } catch (err) {
+    console.error("❌There was an error writing filteredBlurbs");
     console.error(err);
   }
 

@@ -189,7 +189,7 @@ export default function createSuttaIndexHtml(indexObject) {
   const external = "--external:getBlurbs.js";
   // const external = "";
   //
-  exec(`npx esbuild ${rawJsFile} ${bundleJs} ${mini} ${external} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
+  exec(`npx esbuild ${rawJsFile} ${bundleJs} ${mini} --minify-syntax=false ${external} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;

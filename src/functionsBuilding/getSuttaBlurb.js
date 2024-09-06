@@ -1,7 +1,7 @@
-import { blurbs } from "../data/blurbs.js";
+import { filteredBlurbs } from "../data/filteredBlurbs.js";
 
 export default function getSuttaBlurb(citation) {
-  let blurb = blurbs[citation.toLowerCase()] ? `${blurbs[citation.toLowerCase()]}` : "";
+  let blurb = filteredBlurbs[citation.toLowerCase()] ? `${filteredBlurbs[citation.toLowerCase()]}` : "";
 
   blurb = blurb.replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
