@@ -12,7 +12,7 @@ document.addEventListener("mouseover", function (event) {
     tippy(element, { content: blurb, delay: [500, null] });
     // Only show the tippy after the delay and if the cursor is still over the element
     setTimeout(function () {
-      if (element.matches(":hover")) {
+      if (element.matches(":hover, :active")) {
         element._tippy.show();
       }
     }, 500);
