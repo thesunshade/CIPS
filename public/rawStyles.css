@@ -114,7 +114,6 @@ p {
   column-gap: .5rem;
   align-items: center;
   padding: .5rem 0;
-  min-width: 360px;
   max-width: 35rem;
 }
 
@@ -549,7 +548,7 @@ sutta-name {
 
   input {
     font-family: "Fira Sans Extra Condensed";
-    max-width: 400px;
+    max-width: 100%;
   }
 
   .icon-label {

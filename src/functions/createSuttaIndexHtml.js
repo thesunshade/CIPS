@@ -1,5 +1,6 @@
 import fs from "fs";
 import { exec } from "child_process";
+import { minify } from "html-minifier-terser";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import { openingHtml } from "./htmlParts/openingHtml.js";
 import { settingsBar } from "./htmlParts/settingsBar.js";
@@ -167,15 +168,43 @@ export default function createSuttaIndexHtml(indexObject) {
     ${index}
     ${endingHtml}`;
 
+  // Minify the HTML content
+  // suttaIndexHtml = minify(suttaIndexHtml, {
+  //   collapseWhitespace: true,
+  //   removeComments: true,
+  //   removeRedundantAttributes: true,
+  //   removeScriptTypeAttributes: true,
+  //   removeStyleLinkTypeAttributes: true,
+  //   useShortDoctype: true,
+  //   minifyCSS: true,
+  //   minifyJS: true,
+  // });
+  // console.log(suttaIndexHtml);
   // Save the finished html file
-  try {
-    fs.writeFileSync("public/index.html", suttaIndexHtml);
-    console.info("🌐 index.html written");
-    tidyHtml("public/index.html");
-  } catch (err) {
-    console.error("❌There was an error writing index.html");
-    console.error(err);
+
+  async function createSuttaIndexHtml() {
+    // Minify the HTML content
+    suttaIndexHtml = await minify(suttaIndexHtml, {
+      collapseWhitespace: true,
+      removeComments: true,
+      removeRedundantAttributes: true,
+      removeScriptTypeAttributes: true,
+      removeStyleLinkTypeAttributes: true,
+      useShortDoctype: true,
+      minifyCSS: true,
+      minifyJS: true,
+    });
+
+    try {
+      fs.writeFileSync("public/index.html", suttaIndexHtml);
+      console.info("🌐 index.html written");
+      tidyHtml("public/index.html");
+    } catch (err) {
+      console.error("❌There was an error writing index.html");
+      console.error(err);
+    }
   }
+  createSuttaIndexHtml();
 
   // bundle the scripts
   const rawJsFile = "src/functions/scripts.js";
