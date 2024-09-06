@@ -3172,5 +3172,14 @@ export const filteredBlurbs ={
      "sn4.20": "The Buddha wonders whether it is possible to rule justly, without violence. Māra appears and encourages the Buddha to purse such a path.",
      "sn4.21": "Māra approaches some young mendicants as an old brahmin, and tries to tempt them with talk of the pleasures of youth.",
      "sn4.22": "Māra repeatedly pesters the monk Samiddhi when he is on retreat. The Buddha encourages him, until eventually Samiddhi is able to recognize Māra for himself.",
-     "sn4.23": "Venerable Godhika finds himself repeatedly falling away from his meditation attainments due to severe illness. Eventually he considers suicide, and Māra tries to get the Buddha to deter him. But the Buddha says Godhika has already attained awakening and has died blamelessly."
+     "sn4.23": "Venerable Godhika finds himself repeatedly falling away from his meditation attainments due to severe illness. Eventually he considers suicide, and Māra tries to get the Buddha to deter him. But the Buddha says Godhika has already attained awakening and has died blamelessly.",
+     "sn5.1": "The nun Āḷavikā has entered the Dark Wood seeking seclusion when Māra comes to threaten her, claiming there is no escape and no point in seclusion. She recognizes him instantly and dismisses his taunts, asserting that she is beyond his control.",
+     "sn5.2": "When meditating in the Dark Wood, the nun Somā is taunted by Māra, who claims that a mere woman can never see the subtle truth. She rejects him, stating that gender does not matter when one is perceiving deep truths, and telling Māra to go see those still attached to gender.",
+     "sn5.4": "Māra comes to the nun Vijayā in the form of a handsome youth and tries to tempt her from her path. But she rejects sensual pleasures, as she delights in subtle meditation and has ended ignorance.",
+     "sn5.5": "Uppalavaṇṇā is rebuked by Māra, who says a beautiful woman like her should fear rogues when alone in the forest. However, she dismisses such fears, saying she can use her psychic powers to defeat thousands of rogues like him.",
+     "sn5.6": "Māra asks the nun Cālā why she disapproves of rebith. She replies that it necessarily entails suffering.",
+     "sn5.7": "Māra asks the nun Upacālā where she wishes to be reborn. But as the world everywhere is burning, she rejects all forms of rebirth.",
+     "sn5.8": "Māra asks the nun Sīsupacālā whose teaching she believes in. She replies that she rejects the various sectarians and follows the Buddha, as his teachings lead to freedom.",
+     "sn5.9": "Māra asks the nun Selā about who has created this “puppet”, i.e. the form that has been reincarnated. She replies that there is no creator, but it arises as a result of conditions, like the growing of a seed in a field.",
+     "sn5.10": "Māra asks the nun about who has created this being. Recognizing him, she points out that the word “being” is nothing more than a convention used to designate the aggregates, just as the word “cart” is used when the parts are assembled"
 }
