@@ -9,7 +9,7 @@ document.addEventListener("mouseover", function (event) {
   if (element) {
     const citation = element.getAttribute("data-id");
     const blurb = getBlurb(citation);
-    tippy(element, { content: blurb, delay: [500, null] });
+    tippy(element, { content: blurb, delay: [500, null], touch: ["hold", 500] });
     // Only show the tippy after the delay and if the cursor is still over the element
     setTimeout(function () {
       if (element.matches(":hover, :active")) {
@@ -33,6 +33,7 @@ document.addEventListener("touchstart", function (event) {
     tippy(element, {
       content: blurb,
       delay: [500, null],
+      touch: ["hold", 500],
     });
 
     touchTimer = setTimeout(function () {
