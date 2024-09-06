@@ -189,7 +189,7 @@ export default function createSuttaIndexHtml(indexObject) {
   const external = "--external:getBlurbs.js";
   // const external = "";
   //
-  exec(`npx esbuild ${rawJsFile} ${bundleJs} ${mini} --minify-syntax=false ${external} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
+  exec(`npx esbuild ${rawJsFile} ${bundleJs} ${mini} --charset=utf8 ${external} --outfile=${bundledJsFile}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;
@@ -208,7 +208,7 @@ export default function createSuttaIndexHtml(indexObject) {
   const rawJsFileBlurbs = "src/functions/getBlurbs.js";
   const bundledJsFileBlurbs = "public/getBlurbs.js";
 
-  exec(`npx esbuild ${rawJsFileBlurbs} --bundle --minify  --outfile=${bundledJsFileBlurbs}`, (error, stdout, stderr) => {
+  exec(`npx esbuild ${rawJsFileBlurbs} --bundle --minify --charset=utf8 --outfile=${bundledJsFileBlurbs}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error blurbs: ${error.message}`);
       return;
