@@ -144,17 +144,14 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
             return `<div id="${headwordId}">${constructHeadWordArea(headwordId, headwordWithCounter, headword)}${sortedSubWords
               .map(subhead => {
                 const locatorListObject = headwordsObject[headword][subhead];
-                return `${constructSublessLocatorList(locatorListObject, subhead)}<div class="sub-word">${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}<span class="locator-list">
-              ${locatorListObject.xrefs
-                .map((rawXref, index) => {
-                  return constructXrefHtml(locatorListObject, rawXref, index);
-                })
-                .join("")}
-              ${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}</span>
-              </div>`;
+                return `${constructSublessLocatorList(locatorListObject, subhead)}<div class="sub-word">${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}${locatorListObject.xrefs
+                  .map((rawXref, index) => {
+                    return constructXrefHtml(locatorListObject, rawXref, index);
+                  })
+                  .join("")}
+              ${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}</div>`;
               })
-              .join("")}
-          </div>`;
+              .join("")}</div>`;
           })
           .join("")}`;
     })

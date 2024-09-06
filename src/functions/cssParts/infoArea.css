@@ -60,3 +60,13 @@ details>div {
     font-size: .7rem;
     text-align: right;
 }
+
+.info-area ::selection {
+    color: var(--primary);
+    background-color: var(--offwhite-saturated);
+}
+
+.dark .info-area ::selection {
+    color: var(--dark-primary);
+    background-color: var(--offwhite-saturated);
+}

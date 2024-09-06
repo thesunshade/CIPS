@@ -31,6 +31,7 @@ export const infoAreaHtml = `
           <p>Pāli is given for some terms. The Pāli is generally in the singular, though the term in the text may be plural.</p>
           <p>Generally, headwords will be in English. For some words where the Pāli is more concise and well known (e.g. Bodhisatta, paccekabuddha) it will be listed under Pāli.</p>
           <p>In some cases, although a Pāli word may appear in parentheses in the head word, the Pāli word may not appear in the text.</p>
+          <p>Proper names may refer to multiple distinct individuals. Also note that some identical looking names may be gendered versions, e.g. Visākhā and Visākha.</p>
         </div>
       </details>
       <details>
@@ -113,7 +114,6 @@ export const infoAreaHtml = `
             </a>
             with headwords and sub-heads.
           </p>
-          <p>Proper names may refer to multiple distinct individuals. Also note that some identical looking names may be gendered versions, e.g. Visākhā and Visākha.</p>
         </div>
       </details>
 `;
