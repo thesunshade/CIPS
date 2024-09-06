@@ -66,7 +66,7 @@ export const infoAreaHtml = `
         <summary>Coverage</summary>
         <div class="row-2">
           <div>
-            Complete: <strong>DN 1, MN, SN 1–4, SN 12–56, AN, Kp, Dhp, Ud, Iti, Snp, Vv, Pv, Thag, Thig</strong>
+            Complete: <strong>DN 1, MN, SN 1–5, SN 12–56, AN, Kp, Dhp, Ud, Iti, Snp, Vv, Pv, Thag, Thig</strong>
           </div>
             <div class="stats">
             <div class="settings-notice">

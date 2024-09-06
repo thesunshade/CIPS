@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", event => {
     if (event.target.classList.contains("click-to-copy")) {
       event.preventDefault();
-      const textToCopy = event.target.getAttribute("data-clipboard-text");
+      const textToCopy = event.target.getAttribute("data-clipbt");
       if (textToCopy) {
         navigator.clipboard
           .writeText(textToCopy)
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     } else if (event.target.classList.contains("text-icon")) {
       event.preventDefault();
-      const headword = event.target.getAttribute("data-headword");
+      const headword = event.target.getAttribute("data-head");
       if (headword) {
         navigator.clipboard
           .writeText(createTxtEntry(headword))
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     } else if (event.target.classList.contains("html-icon")) {
       event.preventDefault();
-      const headword = event.target.getAttribute("data-headword");
+      const headword = event.target.getAttribute("data-head");
       if (headword) {
         navigator.clipboard
           .writeText(createHtmlEntry(headword))
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     } else if (event.target.classList.contains("markdown-icon")) {
       event.preventDefault();
-      const headword = event.target.getAttribute("data-headword");
+      const headword = event.target.getAttribute("data-head");
       if (headword) {
         navigator.clipboard
           .writeText(createMarkdownEntry(headword))

@@ -5,14 +5,12 @@ import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
 import { openingHtml } from "./htmlParts/openingHtml.js";
 import { settingsBar } from "./htmlParts/settingsBar.js";
 import { endingHtml } from "./htmlParts/endingHtml.js";
-// import { settingsAreaHtml } from "./htmlParts/settingsAreaHtml.js";
 import sortedKeys from "../functionsBuilding/sortedKeys.js";
 import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
-// import { indexObject } from "../data/index-object.js";
 
 export default function createSuttaIndexHtml(indexObject) {
   // because there is no Vv or Pv on SC, those citations go to suttafriends.org
@@ -83,11 +81,11 @@ export default function createSuttaIndexHtml(indexObject) {
           <a class="headword-link" href="${"#" + headwordId}">
             <head-word>
               ${headwordWithCounter}
-              <img src="images/copy-heading.png" alt="copy icon" class="icon copy-icon click-to-copy copy-headword" height="16" data-clipboard-text="${headword}">
-              <img src="images/link-icon.png" alt="link copy icon" class="icon link-icon click-to-copy copy-link" height="16" data-clipboard-text="index.readingfaithfully.org/#${headwordId}">
-              <img src="images/copy-text.png" alt="text copy icon" class="icon text-icon copy-icon entry-text" height="16" data-headword="${headword}">
-              <img src="images/copy-html.png" alt="text copy icon" class="icon html-icon copy-icon entry-html" height="16" data-headword="${headword}">
-              <img src="images/copy-markdown.png" alt="text copy icon" class="icon markdown-icon copy-icon entry-markdown" height="16" data-headword="${headword}">
+              <img src="images/copy-head.png" alt="copy icon" class="icon copy-icon click-to-copy copy-headword" height="16" data-clipbt="${headword}">
+              <img src="images/link.png" alt="link copy icon" class="icon link-icon click-to-copy copy-link" height="16" data-clipbt="index.readingfaithfully.org/#${headwordId}">
+              <img src="images/copy-txt.png" alt="text copy icon" class="icon text-icon copy-icon entry-text" height="16" data-head="${headword}">
+              <img src="images/copy-html.png" alt="text copy icon" class="icon html-icon copy-icon entry-html" height="16" data-head="${headword}">
+              <img src="images/copy-md.png" alt="text copy icon" class="icon markdown-icon copy-icon entry-markdown" height="16" data-head="${headword}">
             </head-word>
           </a>
         </head-word-area>`;
@@ -167,20 +165,6 @@ export default function createSuttaIndexHtml(indexObject) {
     <div id="sutta-index" class="sutta-index">
     ${index}
     ${endingHtml}`;
-
-  // Minify the HTML content
-  // suttaIndexHtml = minify(suttaIndexHtml, {
-  //   collapseWhitespace: true,
-  //   removeComments: true,
-  //   removeRedundantAttributes: true,
-  //   removeScriptTypeAttributes: true,
-  //   removeStyleLinkTypeAttributes: true,
-  //   useShortDoctype: true,
-  //   minifyCSS: true,
-  //   minifyJS: true,
-  // });
-  // console.log(suttaIndexHtml);
-  // Save the finished html file
 
   async function createSuttaIndexHtml() {
     // Minify the HTML content
