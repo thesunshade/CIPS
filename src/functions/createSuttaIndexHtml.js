@@ -182,8 +182,8 @@ export default function createSuttaIndexHtml(indexObject) {
   const bundledJsFile = "public/index.js";
   const rawCssFile = "public/rawStyles.css";
   const bundledCssFile = "public/index.css";
-  const mini = "";
-  // const mini ="--minify"
+  // const mini = "";
+  const mini = "--minify";
   // const bundleJs = "";
   const bundleJs = "--bundle";
   const external = "--external:getBlurbs.js";
