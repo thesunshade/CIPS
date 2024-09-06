@@ -178,7 +178,6 @@ input:focus {
 
 .icon {
   filter: brightness(0);
-  /* filter: var(--offblack-filter) */
 }
 
 .icon-label {
@@ -577,8 +576,10 @@ sutta-name {
   }
 
   .alphabet-menu span:hover {
-    color: rgb(109, 109, 109);
-    background-color: inherit;
+    /* color: rgb(109, 109, 109); */
+    /* background-color: inherit; */
+    color: var(--primary);
+    background-color: var(--offwhite-saturated);
   }
 
   .dark .alphabet a:hover {

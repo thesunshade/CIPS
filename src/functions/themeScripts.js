@@ -1,20 +1,11 @@
-// Initialize the theme on page load
-document.addEventListener("DOMContentLoaded", applyTheme);
-
-// Add event listener to the theme button
 document.getElementById("theme-button").addEventListener("click", toggleTheme);
-
-// Initialize the color on page load
-document.addEventListener("DOMContentLoaded", applyColor);
-
-// Add event listener to the color button
 document.getElementById("color-button").addEventListener("click", toggleColor);
-
-// Initialize the names on page load
-document.addEventListener("DOMContentLoaded", applyNames);
-
-// Add event listener to the names button
 document.getElementById("names-button").addEventListener("click", toggleNames);
+
+// Initialize the page load
+document.addEventListener("DOMContentLoaded", applyTheme);
+document.addEventListener("DOMContentLoaded", applyColor);
+document.addEventListener("DOMContentLoaded", applyNames);
 
 // Function to apply the theme based on localStorage
 function applyTheme() {

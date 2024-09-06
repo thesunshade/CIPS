@@ -19,7 +19,6 @@
     text-decoration: underline;
 }
 
-/*pasanna*/
 .info-area a,
 .info-area a:visited {
     color: var(--text-link) !important;
@@ -39,7 +38,6 @@ details summary {
 }
 
 details>div {
-    /* border-left: solid 2px black; */
     border-left: solid 2px var(--offwhite-saturated);
     margin-left: .7rem;
     padding-left: .7rem;
