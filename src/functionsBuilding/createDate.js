@@ -9,7 +9,9 @@ export default function createDate() {
   const currentTime = new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit", hour12: true });
   try {
     fs.writeFileSync("src/data/updateDate.js", `export const updateDate ="${currentDate + ", " + currentTime}"`);
-    console.info(`🏁 Job completed: ${currentDate} ${currentTime}`);
+    setTimeout(() => {
+      console.info(`🏁 Job completed: ${currentDate} ${currentTime}`);
+    }, 5000);
   } catch (err) {
     console.error("❌There was an error writing updateDate");
     console.error(err);
