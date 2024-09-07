@@ -3181,5 +3181,15 @@ export const filteredBlurbs ={
      "sn5.7": "Māra asks the nun Upacālā where she wishes to be reborn. But as the world everywhere is burning, she rejects all forms of rebirth.",
      "sn5.8": "Māra asks the nun Sīsupacālā whose teaching she believes in. She replies that she rejects the various sectarians and follows the Buddha, as his teachings lead to freedom.",
      "sn5.9": "Māra asks the nun Selā about who has created this “puppet”, i.e. the form that has been reincarnated. She replies that there is no creator, but it arises as a result of conditions, like the growing of a seed in a field.",
-     "sn5.10": "Māra asks the nun about who has created this being. Recognizing him, she points out that the word “being” is nothing more than a convention used to designate the aggregates, just as the word “cart” is used when the parts are assembled"
+     "sn5.10": "Māra asks the nun about who has created this being. Recognizing him, she points out that the word “being” is nothing more than a convention used to designate the aggregates, just as the word “cart” is used when the parts are assembled",
+     "sn6.1": "After his awakening, the Buddha hesitated to teach, thinking that the Dhamma is too subtle for people to understand. But the high divinity Brahmā Sahampati appears and encourages him to teach, pointing out that there are some with “little dust in their eyes” who will understand.",
+     "sn6.2": "After his awakening, the Buddha reflects that one should live with reverence; but who is he to revere, since he is fully awakened? He realizes that he should live revering the Dhamma. Brahmā Sahampati appears and agrees with him, saying that this is how all Buddhas of past and future live too.",
+     "sn6.3": "Brahmā Sahampati appears before a woman who is a devotee of his, and tells her to offer food instead to her son, a Buddhist monk, as Brahmās don’t eat the food she offers.",
+     "sn6.4": "Baka the Brahmā conceives the wrong view that his status is permanent and imperishable. The Buddha goes to dissuade him, and they have an exchange in verse, with the Buddha telling Baka of his past lives. ",
+     "sn6.5": "An unnamed brahmā god thinks to himself that he is so powerful no asctic can approach him. The Buddha goes straight to his realm and appears wrapped in flame above his head. Mahāmoggallāna and several other disciples follow him. The brahmā and his retinue are sutiably impressed.",
+     "sn6.6": "The brahmās Subrahmā and Suddhāvāsa note that a fellow-brahmā is living in negligence, overly impressed with his own glory, so they go to shake him from his complacence.",
+     "sn6.7": "The brahmās Subrahmā and Suddhāvāsa come to the Buddha’s hut and speak on the monk Kokālika, a follower of Devadatta.",
+     "sn6.11": "Brahmā Sanaṅkumāra appears to the Buddha and asserts that the aristocrat or khattiya is the best caste, but the Buddha is the best of people.",
+     "sn6.12": "Brahmā Sahampati, referring to Devadatta, points out that honors destroy a scoundrel.",
+     "sn6.13": "Brahmā Sahampati appears to the Buddha and speaks in praise of the renunciates staying fearless in the deep forest, and celebrates the many who have found freedom."
 }
