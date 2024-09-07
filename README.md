@@ -8,6 +8,25 @@ If you would like to offer feedback, please see [this page in the documentation]
 
 Curious about the philosopy being used to create the index? See [these notes](https://github.com/thesunshade/CIPS/blob/main/src/documentation/principlesOfIndexingSuttas.md#principles-of-indexing-suttas).
 
+## Development
+
+### Dependencies
+
+```bash
+sudo apt install tidy
+npm ci
+```
+
+### Build
+
+The site is built by running
+
+```
+node build
+```
+
+in the root directory. This will generate the `public/index.html` file as well as all of the scripts and css needed for the site.
+
 ## Running locally
 
 To run the site locally, just start a simple http server pointing at the "public" folder:
@@ -16,12 +35,3 @@ To run the site locally, just start a simple http server pointing at the "public
 npx http-server public -o -p 9999
 ```
 
-## Development
-
-The site is built by running
-
-```
-node build
-```
-
-in the root directory. This will generate the single `public/index.html` file as well as bundle all of the scripts files into `public/index.js` and the css into `public/index.css`
