@@ -1,6 +1,8 @@
 import tippy from "tippy.js";
 import getBlurb from "./getBlurbs";
 
+const params = { delay: [500, null], touch: ["hold", 500], allowHTML: true, interactive: true };
+
 document.addEventListener("mouseover", function (event) {
   // Find the closest element that has the 'data-id' attribute
   const element = event.target.closest("[data-id]");
@@ -8,8 +10,8 @@ document.addEventListener("mouseover", function (event) {
   if (element._tippy) return;
   if (element) {
     const citation = element.getAttribute("data-id");
-    const blurb = getBlurb(citation);
-    tippy(element, { content: blurb, delay: [500, null], touch: ["hold", 500] });
+    params.content = getBlurb(citation);
+    tippy(element, params);
     // Only show the tippy after the delay and if the cursor is still over the element
     setTimeout(function () {
       if (element.matches(":hover, :active")) {
@@ -29,12 +31,8 @@ document.addEventListener("touchstart", function (event) {
 
   if (element) {
     const citation = element.getAttribute("data-id");
-    const blurb = getBlurb(citation);
-    tippy(element, {
-      content: blurb,
-      delay: [500, null],
-      touch: ["hold", 500],
-    });
+    params.content = getBlurb(citation);
+    tippy(element, params);
 
     touchTimer = setTimeout(function () {
       element._tippy.show();
