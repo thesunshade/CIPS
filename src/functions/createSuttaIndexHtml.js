@@ -6,7 +6,6 @@ import { openingHtml } from "./htmlParts/openingHtml.js";
 import { settingsBar } from "./htmlParts/settingsBar.js";
 import { endingHtml } from "./htmlParts/endingHtml.js";
 import sortedKeys from "../functionsBuilding/sortedKeys.js";
-import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
@@ -105,7 +104,6 @@ export default function createSuttaIndexHtml(indexObject) {
     const linkClass = makeLinkClass(locator) + " locator";
     const linkText = makeLinkText(locator);
     const title = getSuttaTitle(locator);
-    const blurb = getSuttaBlurb(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
     return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-id="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
   }
@@ -218,16 +216,16 @@ export default function createSuttaIndexHtml(indexObject) {
     console.info(`Stdout: ${stdout}`);
   });
 
-  const rawJsFileBlurbs = "src/functions/getBlurbs.js";
-  const bundledJsFileBlurbs = "public/getBlurbs.js";
+  const rawJsFileTooltips = "src/functions/jitTippy.js";
+  const bundledJsFileTooltips = "public/tooltips.js";
 
-  exec(`npx esbuild ${rawJsFileBlurbs} --bundle --minify --charset=utf8 --outfile=${bundledJsFileBlurbs}`, (error, stdout, stderr) => {
+  exec(`npx esbuild ${rawJsFileTooltips} --bundle --minify --charset=utf8 --outfile=${bundledJsFileTooltips}`, (error, stdout, stderr) => {
     if (error) {
-      console.error(`Error blurbs: ${error.message}`);
+      console.error(`Error tooltips: ${error.message}`);
       return;
     }
     if (error && error.code !== 0) {
-      console.error(`Command failed with exit code for blurbs${error.code}`);
+      console.error(`Command failed with exit code for tooltips${error.code}`);
     }
     if (stderr) {
       const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();

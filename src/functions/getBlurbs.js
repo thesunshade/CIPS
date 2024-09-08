@@ -1,4 +1,4 @@
-import { blurbs } from "../data/blurbs";
+import { blurbs } from "../data/blurbs.js";
 
 export default function getBlurb(citation) {
   const blurb = blurbs[citation];

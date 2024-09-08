@@ -3,7 +3,7 @@ import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
-import "./jitTippy.js";
+// import "./jitTippy.js";
 
 window.addEventListener("load", function () {
   // Hide the snackbar once the page has fully loaded

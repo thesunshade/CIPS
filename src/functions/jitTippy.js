@@ -1,5 +1,5 @@
 import tippy from "tippy.js";
-import getBlurb from "./getBlurbs";
+import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 
 const params = { delay: [500, null], touch: ["hold", 500], allowHTML: true, interactive: true };
 
@@ -10,7 +10,7 @@ document.addEventListener("mouseover", function (event) {
   if (element._tippy) return;
   if (element) {
     const citation = element.getAttribute("data-id");
-    params.content = getBlurb(citation);
+    params.content = getSuttaBlurb(citation);
     tippy(element, params);
     // Only show the tippy after the delay and if the cursor is still over the element
     setTimeout(function () {
@@ -31,7 +31,7 @@ document.addEventListener("touchstart", function (event) {
 
   if (element) {
     const citation = element.getAttribute("data-id");
-    params.content = getBlurb(citation);
+    params.content = getSuttaBlurb(citation);
     tippy(element, params);
 
     touchTimer = setTimeout(function () {
