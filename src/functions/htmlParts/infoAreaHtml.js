@@ -7,7 +7,7 @@ export const infoAreaHtml = `
       <p>
         This is an incomplete and unpublished draft of an index of the Sutta Piṭaka. For more information, visit the
         <a href="https://github.com/thesunshade/CIPS#readme" rel="noreferrer" target="_blank">
-          ReadMe.
+          ReadMe on GitHub. <img src="images/GitHub.png"  height="18" alt="github logo" class="icon" style="position: relative; top: 3px;">
         </a>
       </p>
 
@@ -37,7 +37,7 @@ export const infoAreaHtml = `
       <details>
         <summary>Sutta Summaries</summary>
         <div>
-          <p>On the full version of the index, desktop users can hover over citations with the mouse to see a summary of the sutta. Mobile and touch users can try a long press to see them.</p>
+          <p>Most suttas have a short summary. To see them, desktop users can hover over citations with the mouse. Mobile and touch users can swipe them.</p>
         </div>
       </details>
       <details>
