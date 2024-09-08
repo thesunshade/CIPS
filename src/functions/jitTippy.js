@@ -2,7 +2,10 @@ import tippy from "tippy.js";
 import { hideAll } from "tippy.js";
 import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 
-const params = { delay: [500, null], touch: ["hold", 500], allowHTML: true, interactive: true, onShow(i){hideAll()} };
+const MOUSEOVERDELAY = 350;
+const TOUCHDELAY = 250;
+
+const params = { delay: [MOUSEOVERDELAY, null], touch: ["hold", TOUCHDELAY], allowHTML: true, interactive: true, onShow(i){hideAll()} };
 
 document.addEventListener("mouseover", function (event) {
   // Find the closest element that has the 'data-id' attribute
@@ -18,7 +21,7 @@ document.addEventListener("mouseover", function (event) {
       if (element.matches(":hover, :active")) {
         element._tippy.show();
       }
-    }, 500);
+    }, MOUSEOVERDELAY);
   }
 });
 
@@ -37,7 +40,7 @@ document.addEventListener("touchstart", function (event) {
 
     touchTimer = setTimeout(function () {
       element._tippy.show();
-    }, 500);
+    }, TOUCHDELAY);
 
     // Clear the timer if the touch ends or moves
     const cancelTouch = function () {

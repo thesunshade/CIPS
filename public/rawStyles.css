@@ -374,6 +374,8 @@ head-word {
   position: relative;
   text-decoration: none !important;
   white-space: inherit;
+  display: block;
+  width: fit-content;
 }
 
 .dark .headword-link,
