@@ -3,7 +3,6 @@ import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
-// import "./jitTippy.js";
 
 window.addEventListener("load", function () {
   // Hide the snackbar once the page has fully loaded
@@ -74,9 +73,6 @@ function renderResults({ query, firstOnly }) {
 function createResultItem(item, query, firstOnly) {
   const resultItem = document.createElement("div");
   resultItem.className = "menu-item search-result";
-
-  const normalizedQuery = normalizeString(query);
-  const lowerItem = normalizeString(item);
 
   // Use a regular expression to find matches
   const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");

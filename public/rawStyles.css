@@ -381,7 +381,7 @@ head-word {
   color: var(--dark-offwhite)
 }
 
-/*pasanna SHOULD PROBABLY BE IN THE .HEADWORD-LINK*/
+/*SHOULD PROBABLY BE IN THE .HEADWORD-LINK*/
 .dark head-word {
   color: var(--white);
 }
