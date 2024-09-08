@@ -1,4 +1,7 @@
-import fs from "fs";
+import createRawIndexArray from "./src/functionsBuilding/createRawIndexArray.js";
+import save from "./src/functionsBuilding/save.js";
+import initializeAlphabetObject from "./src/functionsBuilding/initializeAlphabetObject.js";
+import errorCheckHeadSub from "./src/functionsBuilding/errorCheckHeadSub.js";
 import natsort from "./src/functionsBuilding/natsort.js";
 import createDate from "./src/functionsBuilding/createDate.js";
 import normalizeDiacriticString from "./src/functionsBuilding/normalizeDiacriticString.js";
@@ -9,84 +12,15 @@ import createLocatorSortedTableHtml from "./src/functionsBuilding/createLocatorS
 import { openingHtmlheadwordLocatorCountHtml } from "./src/functions/htmlParts/openingHtmlheadwordLocatorCountHtml.js";
 import { blurbs } from "./src/data/blurbs.js";
 
-let alphabetKeys;
 let locatorFirstArray = [];
 let xrefArray = [];
-let rawIndexArray = [];
-const indexObject = {
-  A: {},
-  B: {},
-  C: {},
-  D: {},
-  E: {},
-  F: {},
-  G: {},
-  H: {},
-  I: {},
-  J: {},
-  K: {},
-  L: {},
-  M: {},
-  N: {},
-  O: {},
-  P: {},
-  Q: {},
-  R: {},
-  S: {},
-  T: {},
-  U: {},
-  V: {},
-  W: {},
-  Y: {},
-  Z: {},
-};
-let alphabetGroupedObject = {
-  A: {},
-  B: {},
-  C: {},
-  D: {},
-  E: {},
-  F: {},
-  G: {},
-  H: {},
-  I: {},
-  J: {},
-  K: {},
-  L: {},
-  M: {},
-  N: {},
-  O: {},
-  P: {},
-  Q: {},
-  R: {},
-  S: {},
-  T: {},
-  U: {},
-  V: {},
-  W: {},
-  Y: {},
-  Z: {},
-};
+
+const indexObject = initializeAlphabetObject();
+const alphabetGroupedObject = initializeAlphabetObject();
 
 // build the index object
-function createIndexObject() {
-  let csvData;
-
-  // read csv file
-  try {
-    const tsvFileContents = fs.readFileSync("src/data/general-index.csv", "utf8");
-    csvData = tsvFileContents;
-    console.info("✅ successfully read TSV file");
-  } catch (err) {
-    console.errror("❌There was an error reading general-index.csv");
-    console.error(err);
-  }
-
-  let lines = csvData.split("\n");
-
-  for (let i = 0; i < lines.length; i++) {
-    rawIndexArray[i] = lines[i].split("\t");
-  }
+function createIndexObject(indexArray) {
+  let rawIndexArray = [...indexArray];
 
   // change blank sub-headings to ~
   function transformArray(rawIndexArray) {
@@ -108,16 +42,7 @@ function createIndexObject() {
 
     const headStartingWithLetter = head.replace("“", "");
     const firstRealLetter = normalizeDiacriticString(headStartingWithLetter.charAt(0)).toUpperCase();
-    if (head === "") {
-      console.error(`❌  @${i + 1} there is a blank headword! Sub: ${sub}, Locator: ${locator}`);
-    }
-    if (/xref/.test(head)) {
-      console.warn(`❌ The headword  @${i + 1} "${head}" contains 'xref'`);
-    }
-    if (/["']/.test(sub + head)) {
-      console.warn(`❌ The sub/headword @${i + 1} ${head}/${sub} contains straight quotes
-      This may indicate that the csv file format was incorrect`);
-    }
+    errorCheckHeadSub(head, sub);
     if (!alphabetGroupedObject[firstRealLetter].hasOwnProperty(head)) {
       // the key of the headword does not exist in the object yet, so create the key and add the locator-xref object
       alphabetGroupedObject[firstRealLetter][head] = { [sub]: { locators: [], xrefs: [] } };
@@ -174,8 +99,7 @@ function createIndexObject() {
     });
   }
 
-  alphabetKeys = Object.keys(indexObject);
-
+  let alphabetKeys = Object.keys(indexObject);
   for (let i = 0; i < alphabetKeys.length; i++) {
     const unsortHeadwObj = alphabetGroupedObject[alphabetKeys[i]];
     const sortedHeadwObjArr = sortedKeys(unsortHeadwObj);
@@ -240,23 +164,11 @@ function createIndexObject() {
   locatorCountHeadwordsList.reverse();
 
   const object = `export const indexObject =${JSON.stringify(indexObject, null, 5)}`;
-  try {
-    fs.writeFileSync("src/data/index-object.js", object);
-    console.info("✅ indexObject written");
-  } catch (err) {
-    console.error("❌There was an error writing indexObject");
-    console.error(err);
-  }
+  save("src/data/index-object.js", object, "💾");
 
   const headwordLocatorCount = `export const headwordLocatorCount =${JSON.stringify(locatorCountHeadwordsList, null, 5)}`;
 
-  try {
-    fs.writeFileSync("src/data/headwordLocatorCount.js", headwordLocatorCount);
-    console.info("✅ headwordLocatorCount written");
-  } catch (err) {
-    console.error("❌There was an error writing headwordLocatorCount");
-    console.error(err);
-  }
+  save("src/data/headwordLocatorCount.js", headwordLocatorCount, "💾");
 
   let headwordLocatorCountHtml = openingHtmlheadwordLocatorCountHtml;
 
@@ -272,13 +184,7 @@ function createIndexObject() {
   <div>
   </body>`;
 
-  try {
-    fs.writeFileSync("public/locatorCountTable.html", headwordLocatorCountHtml);
-    console.info("🌐 headwordLocatorCountHTML written");
-  } catch (err) {
-    console.error("❌There was an error writing headwordLocatorCountHTML");
-    console.error(err);
-  }
+  save("public/locatorCountTable.html", headwordLocatorCountHtml, "🌐");
 
   // ---------- S T A T S --------------
   // count total unique locators
@@ -313,12 +219,7 @@ function createIndexObject() {
 
   // uniqueLocators.js needs to be fixed for React app
 
-  try {
-    fs.writeFileSync("src/data/statsData.js", `export const statsData ={ uniqueLocators: ${totalUniqueLocatorsLength}, xrefsCount: ${xrefsCount}}`);
-  } catch (err) {
-    console.error("❌There was an error writing total unique locators");
-    console.error(err);
-  }
+  save("src/data/statsData.js", `export const statsData ={ uniqueLocators: ${totalUniqueLocatorsLength}, xrefsCount: ${xrefsCount}}`, "💾");
 
   const filteredBlurbs = allLocatorsArray.reduce((result, key) => {
     const locator = key.toLowerCase().split(":")[0];
@@ -328,12 +229,7 @@ function createIndexObject() {
     return result;
   }, {});
 
-  try {
-    fs.writeFileSync("src/data/filteredBlurbs.js", `export const filteredBlurbs =${JSON.stringify(filteredBlurbs, null, 5)}`);
-  } catch (err) {
-    console.error("❌There was an error writing filteredBlurbs");
-    console.error(err);
-  }
+  save("src/data/filteredBlurbs.js", `export const filteredBlurbs =${JSON.stringify(filteredBlurbs, null, 5)}`, "💾");
 
   // end of total unique locators
 
@@ -368,7 +264,8 @@ function createIndexObject() {
   // })();
 }
 
-function createHeadingsArray() {
+function createHeadingsArray(indexArray) {
+  const rawIndexArray = [...indexArray];
   function makeArrayOfXrefs(rawIndexArray) {
     for (let i = 0; i < rawIndexArray.length; i++) {
       if (/xref/.test(rawIndexArray[i][2])) xrefArray.push(rawIndexArray[i][2].replace("xref ", "").replace("\r", ""));
@@ -376,6 +273,7 @@ function createHeadingsArray() {
   }
 
   let listOfHeadwords = [];
+  let alphabetKeys = Object.keys(indexObject);
   for (let i = 0; i < alphabetKeys.length; i++) {
     const headwords = Object.keys(indexObject[alphabetKeys[i]]);
     listOfHeadwords.push(headwords);
@@ -386,25 +284,20 @@ function createHeadingsArray() {
 
   const headwordsArray = `export const headwordsArray =${JSON.stringify(listOfHeadwords, null, 5)}`;
 
-  try {
-    fs.writeFileSync("src/data/headwords-array.js", headwordsArray);
-    console.info("✅ headwordsArray written");
-  } catch (err) {
-    console.error("❌There was an error writing headwordsArray");
-    console.error(err);
-  }
+  save("src/data/headwords-array.js", headwordsArray, "💾");
 
   makeArrayOfXrefs(rawIndexArray);
 
   //go through xrefArray and make sure that each one appears in the list of headwords
   for (let i = 0; i < xrefArray.length; i++) {
     if (!headwordsArray.includes(xrefArray[i].trim())) {
-      console.error(`❌  ${xrefArray[i]} is not a valid xref`);
+      console.error(`⚠️  ${xrefArray[i]} is not a valid xref`);
     }
   }
 }
 
-function createLocatorSortedArray() {
+function createLocatorSortedArray(indexArray) {
+  const rawIndexArray = [...indexArray];
   for (let i = 0; i < rawIndexArray.length - 1; i++) {
     if (!/xref/.test(rawIndexArray[i][2]) && !/CUSTOM/.test(rawIndexArray[i][2])) {
       locatorFirstArray.push([rawIndexArray[i][2].replace(/\r/, ""), rawIndexArray[i][0], rawIndexArray[i][1]]);
@@ -415,11 +308,12 @@ function createLocatorSortedArray() {
 
   // test for blank locator field
   for (let i = 0; i < locatorFirstArray.length; i++) {
-    if (locatorFirstArray[i][0] === "") {
-      console.error(`❌ Missing Locator, Head: ${locatorFirstArray[i][1]}; Sub: ${locatorFirstArray[i][2] ? locatorFirstArray[i][2] : "blank"}`);
+    const locator = locatorFirstArray[i][0];
+    if (locator === "") {
+      console.error(`⚠️ Missing Locator, Head: ${locatorFirstArray[i][1]}; Sub: ${locatorFirstArray[i][2] ? locatorFirstArray[i][2] : "blank"}`);
     }
-    if (!/(DN|MN|SN|AN|Kp|Dhp|Ud|Iti|Snp|Vv|Pv|Thag|Thig|xref)/.test(locatorFirstArray[i][0])) {
-      console.error(`❌ Bad citation or xref:${locatorFirstArray[i][0] ? locatorFirstArray[i][0] : "blank"}; Head: ${locatorFirstArray[i][1]}; Sub: ${locatorFirstArray[i][2] ? locatorFirstArray[i][2] : "blank"}`);
+    if (!/(DN|MN|SN|AN|Kp|Dhp|Ud|Iti|Snp|Vv|Pv|Thag|Thig|xref)/.test(locator)) {
+      console.error(`⚠️ Bad citation or xref:${locator ? locator : "blank"}; Head: ${locatorFirstArray[i][1]}; Sub: ${locatorFirstArray[i][2] ? locatorFirstArray[i][2] : "blank"}`);
     }
   }
 
@@ -431,13 +325,8 @@ function createLocatorSortedArray() {
 
   const array = `export const indexArray =${JSON.stringify(locatorFirstArray, null, 5)}`;
 
-  try {
-    fs.writeFileSync("src/data/index-array.js", array);
-    console.info(`✅ indexArray written with ⫷ ${blankSubheads}⫸ blank subheads`);
-  } catch (err) {
-    console.error("❌There was an error writing indexArray");
-    console.error(err);
-  }
+  save("src/data/index-array.js", array, "💾");
+  console.warn(`☹️  ${blankSubheads} blank subheads`);
 }
 
 function createLocatorBookObject() {
@@ -468,20 +357,16 @@ function createLocatorBookObject() {
 
   const locatorBookObjectString = `export const locatorBookObject =${JSON.stringify(locatorBookObject, null, 2)}`;
 
-  try {
-    fs.writeFileSync("src/data/locator-book-object.js", locatorBookObjectString);
-    console.info("✅ locatorBookObject written");
-  } catch (err) {
-    console.error("❌There was an error writing locatorBookObject");
-    console.error(err);
-  }
+  save("src/data/locator-book-object.js", locatorBookObjectString, "💾");
+
   createLocatorSortedTableHtml(locatorBookObject);
 }
 
 console.info("▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼");
+const rawIndexArray = createRawIndexArray("src/data/general-index.csv");
 logTsvCreationDate();
-createIndexObject();
-createLocatorSortedArray();
-createHeadingsArray();
+createIndexObject(rawIndexArray);
+createLocatorSortedArray(rawIndexArray);
+createHeadingsArray(rawIndexArray);
 createLocatorBookObject();
 createDate();

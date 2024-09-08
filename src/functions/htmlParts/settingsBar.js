@@ -3,7 +3,6 @@ import { settingsAreaHtml } from "./settingsAreaHtml.js";
 
 export function settingsBar(indexObject) {
   let alphabet = Object.keys(indexObject);
-
   return `<div id="settings-bar" class="settings-bar">
   <div class="snack-bar">Copied!</div>
   <div id="loading-snackbar">

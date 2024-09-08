@@ -180,6 +180,18 @@ input:focus {
   filter: brightness(0);
 }
 
+.settings-bar .icon:hover {
+  filter: brightness(0) !important
+}
+
+.icon:hover {
+  filter: brightness(0) saturate(100%) invert(60%) sepia(8%) saturate(9%) hue-rotate(336deg) brightness(85%) contrast(79%) !important
+}
+
+.dark .icon:hover {
+  filter: brightness(0) saturate(100%) invert(60%) sepia(8%) saturate(9%) hue-rotate(336deg) brightness(85%) contrast(79%) !important;
+}
+
 .icon-label {
   display: none;
 }
