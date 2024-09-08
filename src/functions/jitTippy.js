@@ -1,7 +1,8 @@
 import tippy from "tippy.js";
+import { hideAll } from "tippy.js";
 import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 
-const params = { delay: [500, null], touch: ["hold", 500], allowHTML: true, interactive: true };
+const params = { delay: [500, null], touch: ["hold", 500], allowHTML: true, interactive: true, onShow(i){hideAll()} };
 
 document.addEventListener("mouseover", function (event) {
   // Find the closest element that has the 'data-id' attribute
@@ -44,6 +45,5 @@ document.addEventListener("touchstart", function (event) {
     };
 
     element.addEventListener("touchend", cancelTouch, { once: true });
-    element.addEventListener("touchmove", cancelTouch, { once: true });
   }
 });
