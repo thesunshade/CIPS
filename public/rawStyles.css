@@ -346,6 +346,10 @@ alphabet-anchor {
   max-width: 34rem;
 }
 
+.dark .preface {
+  color: var(--white)
+}
+
 .subtitle {
   text-align: center;
   font-style: italic;

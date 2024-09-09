@@ -1,5 +1,5 @@
 export default function initializeAlphabetObject() {
-  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWYZ".split("");
   return alphabet.reduce((obj, letter) => {
     obj[letter] = {};
     return obj;

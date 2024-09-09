@@ -5,7 +5,15 @@ import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 const MOUSEOVERDELAY = 350;
 const TOUCHDELAY = 250;
 
-const params = { delay: [MOUSEOVERDELAY, null], touch: ["hold", TOUCHDELAY], allowHTML: true, interactive: true, onShow(i){hideAll()} };
+const params = {
+  delay: [MOUSEOVERDELAY, null],
+  touch: ["hold", TOUCHDELAY],
+  allowHTML: true,
+  interactive: true,
+  onShow(i) {
+    hideAll();
+  },
+};
 
 document.addEventListener("mouseover", function (event) {
   // Find the closest element that has the 'data-id' attribute
