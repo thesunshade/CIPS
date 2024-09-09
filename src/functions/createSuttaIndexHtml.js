@@ -106,7 +106,7 @@ export default function createSuttaIndexHtml(indexObject) {
     const linkText = makeLinkText(locator);
     const title = getSuttaTitle(locator);
     const connector = index + 1 === locatorListObject.locators.length ? "" : ", ";
-    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-id="${locator.toLowerCase()}">${linkText}${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
+    return `\n            <a href="${url}" target="_blank" rel="noreferrer" class="${linkClass}"  data-id="${locator.toLowerCase()}">${linkText}  ${title ? ` <sutta-name>${title}</sutta-name>` : ""}</a>${connector}`;
   }
 
   function constructXrefHtml(locatorListObject, rawXref, index) {
@@ -177,6 +177,7 @@ export default function createSuttaIndexHtml(indexObject) {
       useShortDoctype: true,
       minifyCSS: true,
       minifyJS: true,
+      ignoreCustomFragments: [/<a[\s\S]*?<\/a>/], // This regex matches content within <a> tags
     });
 
     try {
