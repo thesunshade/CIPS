@@ -43,6 +43,7 @@ function createIndexObject(indexArray) {
     const headStartingWithLetter = head.replace("“", "");
     const firstRealLetter = normalizeDiacriticString(headStartingWithLetter.charAt(0)).toUpperCase();
     errorCheckHeadSub(head, sub);
+
     if (!alphabetGroupedObject[firstRealLetter].hasOwnProperty(head)) {
       // the key of the headword does not exist in the object yet, so create the key and add the locator-xref object
       alphabetGroupedObject[firstRealLetter][head] = { [sub]: { locators: [], xrefs: [] } };
@@ -176,8 +177,8 @@ function createIndexObject(indexArray) {
   for (let i = 0; i < locatorCountHeadwordsList.length; i++) {
     headwordLocatorCountHtml += `
     <div class="row">
-    <div class="headword">${locatorCountHeadwordsList[i][0]}</div>
-    <div class="count">${locatorCountHeadwordsList[i][1]}</div>
+    <div>${locatorCountHeadwordsList[i][0]}</div>
+    <div>${locatorCountHeadwordsList[i][1]}</div>
     </div>`;
   }
   headwordLocatorCountHtml += `

@@ -5,36 +5,15 @@ export const openinglocatorSortedTableHtml = `<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-table.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-table.png">
   <title>Locators sorted by sutta</title>
   <style>
 
  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;700&display=swap');
 
   :root {
-  --indent: 3.5rem;
-  --mobile-indent: .5rem;
   --primary: rgb(238, 111, 32);
-  --dark-primary: #6b1617;
   --offwhite: #fff9f1;
-  --dark-offwhite: #d1d1d1;
-  --offblack: #150d01;
-  --dark-link: #729cff;
-  --dark-visited: #b472ff;
-  --dn: #d1eddf;
-  --mn: #F5DEB3;
-  --sn: #ADD8E6;
-  --an: #E6E6FA;
-  --kp: #FFD485;
-  --dhp: #B7E0D2;
-  --ud: #e9e296;
-  --iti: #FFE4E1;
-  --snp: #FAF0E6;
-  --vv: #FAFAD2;
-  --pv: #D3D3D3;
-  --thag: #DDF0FF;
-  --thig: #DCE3C7;
-  accent-color: black;
 }
 
 .book-selector {
@@ -48,6 +27,7 @@ export const openinglocatorSortedTableHtml = `<!DOCTYPE html>
   position: sticky;
   height:2rem;
   border-bottom: .1rem solid black;
+  margin:auto;
 }
 
 .book-button {
@@ -62,16 +42,13 @@ export const openinglocatorSortedTableHtml = `<!DOCTYPE html>
   color: black;
 }
 
-.dark .book-button:visited {
-  color: var(--offwhite);
-}
-
-.locator-sorted-table {
+table {
   font-family: "Fira Sans Extra Condensed";
   border-collapse: collapse;
   width: 40rem;
   table-layout: fixed;
-  border: 1px solid
+  border: 1px solid;
+  margin:auto
 }
 
 .table-header-row {
@@ -86,13 +63,6 @@ export const openinglocatorSortedTableHtml = `<!DOCTYPE html>
   background: var(--primary) !important;
 }
 
-.dark .table-header-row,
-.dark .book-header-row {
-  background: var(--dark-primary) !important
-}
-
-
-
 td,
 th {
   border: 1px solid #a8a8a8;
@@ -100,20 +70,11 @@ th {
   padding: 2px;
 }
 
-.dark td,
-.dark th {
-  border: 1px solid #716363;
-  text-align: left;
-  padding: 8px;
-}
 
 tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.dark tr:nth-child(even) {
-  background-color: #2b201f;
-}
 
 td a {
 text-decoration:none
@@ -165,7 +126,7 @@ text-decoration:none
         Thig
       </a>
     </div>
-  <table class="locator-sorted-table">
+  <table>
       <thead class="table-header-row">
         <tr>
           <th class="first-column">Citation</th>

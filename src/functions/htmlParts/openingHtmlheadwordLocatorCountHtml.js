@@ -8,12 +8,17 @@ export const openingHtmlheadwordLocatorCountHtml = `<!DOCTYPE html>
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-table.png">
   <title>Headwords sorted by number of locators</title>
   <style>
+  .heading {
+  margin: 1rem auto;
+  max-width:35rem;
+  }
   .table{
     display:flex;
     flex-direction:column;
     max-width:20rem;
     border-top:solid 1px black;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    margin:auto;
   }
   .row{
     display:flex;
@@ -24,10 +29,10 @@ export const openingHtmlheadwordLocatorCountHtml = `<!DOCTYPE html>
     border-left:solid 1px black;
     border-right:solid 1px black;
   }
-  .row:nth-child(even) {background: #ee7121}
+  .row:nth-child(even) {background: white}
   .row:nth-child(odd) {background: #fff9f1}
   </style>
   </head>
   
   <body>
-  <div>The following is the number of unique locators (i.e. citations) that each headword has (across all subheads). Headwords without actual locators are not included.</div>`;
+  <div class="heading">The following is the number of unique locators (i.e. citations) that each headword has (across all subheads). Headwords without actual locators are not included.</div>`;
