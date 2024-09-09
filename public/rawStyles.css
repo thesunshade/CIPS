@@ -342,6 +342,20 @@ alphabet-anchor {
   margin-top: 1rem;
 }
 
+.preface {
+  max-width: 34rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+  text-wrap: balance;
+}
+
+.preface p {
+  margin-bottom: 20px;
+}
+
 .sutta-index {
   margin: 6rem 1rem;
 }

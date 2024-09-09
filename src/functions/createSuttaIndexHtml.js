@@ -10,6 +10,7 @@ import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
+import { prefaceHtml } from "./htmlParts/prefaceHtml.js";
 
 export default function createSuttaIndexHtml(indexObject) {
   // because there is no Vv or Pv on SC, those citations go to suttafriends.org
@@ -161,6 +162,7 @@ export default function createSuttaIndexHtml(indexObject) {
   let suttaIndexHtml = `${openingHtml}
     ${settingsBar(indexObject)}
     <div id="sutta-index" class="sutta-index">
+    ${prefaceHtml}
     ${index}
     ${endingHtml}`;
 
