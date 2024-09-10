@@ -1,3 +1,4 @@
+import fs from "fs";
 import createRawIndexArray from "./src/functionsBuilding/createRawIndexArray.js";
 import save from "./src/functionsBuilding/save.js";
 import initializeAlphabetObject from "./src/functionsBuilding/initializeAlphabetObject.js";
@@ -9,7 +10,6 @@ import sortCitationsList from "./src/functionsBuilding/sortCitationsList.js";
 import findNonUniqueHeadwords from "./src/functionsBuilding/findNonUniqueHeadwords.js";
 import logTsvCreationDate from "./src/functionsBuilding/logTsvCreationDate.js";
 import createLocatorSortedTableHtml from "./src/functionsBuilding/createLocatorSortedTableHtml.js";
-import { openingHtmlheadwordLocatorCountHtml } from "./src/functions/htmlParts/openingHtmlheadwordLocatorCountHtml.js";
 import { blurbs } from "./src/data/blurbs.js";
 
 let locatorFirstArray = [];
@@ -22,12 +22,12 @@ const alphabetGroupedObject = initializeAlphabetObject();
 function createIndexObject(indexArray) {
   let rawIndexArray = [...indexArray];
 
-  // change blank sub-headings to ~
+  // change blank sub-headings to —
   function transformArray(rawIndexArray) {
     return rawIndexArray.map(item => {
       const subheadHasJustWhitespace = /^\s*$/.test(item[1]);
       if (subheadHasJustWhitespace && !item[2].includes("xref")) {
-        item[1] = "~";
+        item[1] = "—";
       }
       return item;
     });
@@ -170,6 +170,8 @@ function createIndexObject(indexArray) {
   const headwordLocatorCount = `export const headwordLocatorCount =${JSON.stringify(locatorCountHeadwordsList, null, 5)}`;
 
   save("src/data/headwordLocatorCount.js", headwordLocatorCount, "💾");
+
+  const openingHtmlheadwordLocatorCountHtml = fs.readFileSync(new URL("./src/functions/htmlParts/openingHtmlheadwordLocatorCountHtml.txt", import.meta.url), "utf8");
 
   let headwordLocatorCountHtml = openingHtmlheadwordLocatorCountHtml;
 

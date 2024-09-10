@@ -1,4 +1,4 @@
-export const openinglocatorSortedTableHtml = `<!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   
   <head>
@@ -134,4 +134,4 @@ text-decoration:none
           <th class="third-column">SubHead</th>
         </tr>
       </thead>
-      <tbody>`;
+      <tbody>

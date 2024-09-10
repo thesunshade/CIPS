@@ -1,5 +1,5 @@
 import fs from "fs";
-import { infoAreaHtml } from "./infoAreaHtml.js";
+import { infoArea } from "./infoArea.js";
 
 const settingsAreaHtml = fs.readFileSync(new URL("./settingsAreaHtml.txt", import.meta.url), "utf8");
 
@@ -31,6 +31,6 @@ export function settingsBar(indexObject) {
         <div id="results" class="search-results"></div>
         <div id="info-area" class="info-area hidden">
         ${settingsAreaHtml}
-        ${infoAreaHtml}</div>
+        ${infoArea}</div>
       </div>`;
 }

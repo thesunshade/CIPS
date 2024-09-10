@@ -1,17 +1,13 @@
 import fs from "fs";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
-import { openingHtml } from "./htmlParts/openingHtml-vanilla.js";
 import { settingsBar } from "./htmlParts/settingsBar-vanilla.js";
-import { infoAreaHtml } from "./htmlParts/infoAreaHtml.js";
-import { endingHtml } from "./htmlParts/endingHtml-vanilla.js";
+import { infoArea } from "./htmlParts/infoArea.js";
 import sortedKeys from "../functionsBuilding/sortedKeys.js";
 import getSuttaBlurb from "../functionsBuilding/getSuttaBlurb.js";
 import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
-import { exec } from "child_process";
-// import { indexObject } from "../data/index-object.js";
 
 export default function createSuttaIndexHtmlVanilla(indexObject) {
   // because there is no Vv or Pv on SC, those citations go to suttafriends.org
@@ -158,6 +154,9 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
     .join("");
 
   // asemble all the parts
+  const endingHtml = fs.readFileSync(new URL("./htmlParts/endingHtml-vanilla.txt", import.meta.url), "utf8");
+  const openingHtml = fs.readFileSync(new URL("./htmlParts/openingHtml-vanilla.txt", import.meta.url), "utf8");
+
   let suttaIndexHtml = `${openingHtml}
   ${settingsBar(indexObject)}
     <div id="sutta-index" class="sutta-index">
@@ -165,7 +164,7 @@ export default function createSuttaIndexHtmlVanilla(indexObject) {
     <hr>
     <div id="info">
     <h1>Information</h1>
-    ${infoAreaHtml}
+    ${infoArea}
     </div>
     ${endingHtml}`;
 

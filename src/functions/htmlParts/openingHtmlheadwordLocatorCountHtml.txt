@@ -1,4 +1,4 @@
-export const openingHtmlheadwordLocatorCountHtml = `<!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   
   <head>
@@ -35,4 +35,4 @@ export const openingHtmlheadwordLocatorCountHtml = `<!DOCTYPE html>
   </head>
   
   <body>
-  <div class="heading">The following is the number of unique locators (i.e. citations) that each headword has (across all subheads). Headwords without actual locators are not included.</div>`;
+  <div class="heading">The following is the number of unique locators (i.e. citations) that each headword has (across all subheads). Headwords without actual locators are not included.</div>

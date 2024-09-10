@@ -1,4 +1,4 @@
-export const openingHtml = `<!DOCTYPE html>
+<!DOCTYPE html>
       <html lang="en">
       <head>
       <meta charset="UTF-8">
@@ -76,4 +76,4 @@ export const openingHtml = `<!DOCTYPE html>
       }
       </style>
       </head>
-      <body id="app" class="app">`;
+      <body id="app" class="app">

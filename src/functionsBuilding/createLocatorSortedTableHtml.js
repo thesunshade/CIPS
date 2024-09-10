@@ -1,9 +1,9 @@
 import fs from "fs";
 import getSuttaTitle from "./getSuttaTitle.js";
 import getSuttaBlurb from "./getSuttaBlurb.js";
-import { openinglocatorSortedTableHtml } from "../functions/htmlParts/openinglocatorSortedTableHtml.js";
 
 export default function createLocatorSortedTableHtml(locatorBookObject) {
+  const openinglocatorSortedTableHtml = fs.readFileSync(new URL("../functions/htmlParts/openinglocatorSortedTableHtml.txt", import.meta.url), "utf8");
   let locatorSortedTableHtml = openinglocatorSortedTableHtml;
 
   function citationOnly(locator) {
