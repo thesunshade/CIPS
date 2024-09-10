@@ -2,15 +2,16 @@ import fs from "fs";
 import { exec } from "child_process";
 import { minify } from "html-minifier-terser";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
-import { openingHtml } from "./htmlParts/openingHtml.js";
 import { settingsBar } from "./htmlParts/settingsBar.js";
-import { endingHtml } from "./htmlParts/endingHtml.js";
 import sortedKeys from "../functionsBuilding/sortedKeys.js";
 import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
-import { prefaceHtml } from "./htmlParts/prefaceHtml.js";
+
+const endingHtml = fs.readFileSync(new URL("./htmlParts/endingHtml.txt", import.meta.url), "utf8");
+const openingHtml = fs.readFileSync(new URL("./htmlParts/openingHtml.txt", import.meta.url), "utf8");
+const prefaceHtml = fs.readFileSync(new URL("./htmlParts/prefaceHtml.txt", import.meta.url), "utf8");
 
 export default function createSuttaIndexHtml(indexObject) {
   // because there is no Vv or Pv on SC, those citations go to suttafriends.org

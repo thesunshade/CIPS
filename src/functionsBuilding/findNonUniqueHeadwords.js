@@ -25,5 +25,6 @@ export default function findNonUniqueHeadwords(headwords) {
 
   if (nonUniqueHeadwords.size > 0) {
     console.warn("💀 Non-unique headwords:", nonUniqueHeadwords);
+    console.warn("They are non-unique because once they are normalized they are identical.");
   }
 }

@@ -1,5 +1,7 @@
+import fs from "fs";
 import { infoAreaHtml } from "./infoAreaHtml.js";
-import { settingsAreaHtml } from "./settingsAreaHtml.js";
+
+const settingsAreaHtml = fs.readFileSync(new URL("./settingsAreaHtml.txt", import.meta.url), "utf8");
 
 export function settingsBar(indexObject) {
   let alphabet = Object.keys(indexObject);
