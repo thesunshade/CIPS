@@ -169,7 +169,7 @@ export default function createSuttaIndexHtml(indexObject) {
   async function createSuttaIndexHtml() {
     // Minify the HTML content
     suttaIndexHtml = await minify(suttaIndexHtml, {
-      collapseWhitespace: true,
+      collapseWhitespace: false,
       removeComments: true,
       removeRedundantAttributes: true,
       removeScriptTypeAttributes: true,
@@ -177,7 +177,7 @@ export default function createSuttaIndexHtml(indexObject) {
       useShortDoctype: true,
       minifyCSS: true,
       minifyJS: true,
-      ignoreCustomFragments: [/<a[\s\S]*?<\/a>/], // This regex matches content within <a> tags
+      // ignoreCustomFragments: [/<a[\s\S]*?<\/a>/], // This regex matches content within <a> tags
     });
 
     try {

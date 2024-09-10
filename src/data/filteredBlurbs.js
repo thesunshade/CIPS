@@ -3191,5 +3191,6 @@ export const filteredBlurbs ={
      "sn6.7": "The brahmās Subrahmā and Suddhāvāsa come to the Buddha’s hut and speak on the monk Kokālika, a follower of Devadatta.",
      "sn6.11": "Brahmā Sanaṅkumāra appears to the Buddha and asserts that the aristocrat or khattiya is the best caste, but the Buddha is the best of people.",
      "sn6.12": "Brahmā Sahampati, referring to Devadatta, points out that honors destroy a scoundrel.",
-     "sn6.13": "Brahmā Sahampati appears to the Buddha and speaks in praise of the renunciates staying fearless in the deep forest, and celebrates the many who have found freedom."
+     "sn6.13": "Brahmā Sahampati appears to the Buddha and speaks in praise of the renunciates staying fearless in the deep forest, and celebrates the many who have found freedom.",
+     "sn6.15": "After the Buddha became finally extinguished, Brahmā Sahampati led a series of distinguished beings who uttered verses in commemoration"
 }
