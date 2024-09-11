@@ -58,3 +58,5 @@ document.addEventListener("touchstart", function (event) {
     element.addEventListener("touchend", cancelTouch, { once: true });
   }
 });
+
+tippy(".settings-button", params);
