@@ -280,6 +280,21 @@ kbd {
   background-color: var(--offblack);
 }
 
+.sutta-separator {
+  color: var(--offblacker);
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.search-result a {
+  color: var(--offblacker)
+}
+
+.search-result a:hover {
+  color: var(--offwhite-saturated);
+  background-color: var(--primary);
+}
+
 .menu-item,
 .no-results {
   color: var(--offblack);
