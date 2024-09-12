@@ -5583,3 +5583,5 @@ export const allSuttasPaliNameArray = [
   "Isidāsī | Thig15.1",
   "Sumedhā | Thig16.1",
 ];
+
+window.allSuttasPaliNameArray = allSuttasPaliNameArray;

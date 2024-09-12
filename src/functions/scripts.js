@@ -1,5 +1,5 @@
 import { headwordsArray } from "../data/headwords-array.js";
-import { allSuttasPaliNameArray } from "../data/allSuttasPaliNameArray.js";
+import { allSuttasPaliNameArray } from "../../public/allSuttasPaliNameArray.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
@@ -43,13 +43,22 @@ function renderResults({ query, firstOnly }) {
     }
   });
 
-  // Check matches in allSuttasPaliNameArray
-  allSuttasPaliNameArray.forEach(item => {
-    const normalizedItem = normalizeString(item);
-    if (normalizedItem.includes(normalizedQuery)) {
-      suttaMatches.push(item);
+  if (window.allSuttasPaliNameArray) {
+    // The data is available, you can now use it
+    const allSuttasPaliNameArray = window.allSuttasPaliNameArray;
+
+    // Check matches in allSuttasPaliNameArray
+    if (query.length >= 3) {
+      allSuttasPaliNameArray.forEach(item => {
+        const normalizedItem = normalizeString(item);
+        if (normalizedItem.includes(normalizedQuery)) {
+          suttaMatches.push(item);
+        }
+      });
     }
-  });
+  } else {
+    console.log("Sutta data not yet loaded.");
+  }
 
   startsWith.forEach(item => createResultItem(item, query, firstOnly));
   if (startsWith.length && contains.length) {
@@ -59,10 +68,10 @@ function renderResults({ query, firstOnly }) {
   }
   contains.forEach(item => createResultItem(item, query, firstOnly));
 
-  if ((startsWith.length || contains.length) && suttaMatches.length) {
+  if (suttaMatches.length) {
     const suttaSeparator = document.createElement("div");
     suttaSeparator.className = "separator sutta-separator";
-    suttaSeparator.textContent = "Suttas on SuttaCentral.net: ";
+    suttaSeparator.textContent = "Open on SuttaCentral.net: ";
     resultsContainer.appendChild(suttaSeparator);
   }
 
@@ -139,11 +148,14 @@ function createResultSuttaName(item, query, firstOnly) {
   // Extract the ID from the item
   const id = item.split("|")[1].trim().toLowerCase();
 
+  highlightedItem = highlightedItem.replace(" |", "");
+
   // Create the link element
   const link = document.createElement("a");
   link.href = `https://suttacentral.net/${id}/en/sujato`;
   link.target = "_blank"; // Open in a new tab
   link.rel = "noopener noreferrer"; // Security best practice
+  link.classList = "off-site";
   link.innerHTML = highlightedItem;
 
   // Append the link to the result item
