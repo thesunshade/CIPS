@@ -1,4 +1,5 @@
 import { headwordsArray } from "../data/headwords-array.js";
+import { allSuttasPaliNameArray } from "../../public/allSuttasPaliNameArray.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
@@ -29,6 +30,7 @@ function renderResults({ query, firstOnly }) {
 
   const startsWith = [];
   const contains = [];
+  const suttaMatches = [];
 
   const normalizedQuery = normalizeString(query);
 
@@ -41,6 +43,23 @@ function renderResults({ query, firstOnly }) {
     }
   });
 
+  if (window.allSuttasPaliNameArray) {
+    // The data is available, you can now use it
+    const allSuttasPaliNameArray = window.allSuttasPaliNameArray;
+
+    // Check matches in allSuttasPaliNameArray
+    if (query.length >= 3) {
+      allSuttasPaliNameArray.forEach(item => {
+        const normalizedItem = normalizeString(item);
+        if (normalizedItem.includes(normalizedQuery)) {
+          suttaMatches.push(item);
+        }
+      });
+    }
+  } else {
+    console.log("Sutta data not yet loaded.");
+  }
+
   startsWith.forEach(item => createResultItem(item, query, firstOnly));
   if (startsWith.length && contains.length) {
     const separator = document.createElement("div");
@@ -49,7 +68,16 @@ function renderResults({ query, firstOnly }) {
   }
   contains.forEach(item => createResultItem(item, query, firstOnly));
 
-  if (startsWith.length === 0 && contains.length === 0) {
+  if (suttaMatches.length) {
+    const suttaSeparator = document.createElement("div");
+    suttaSeparator.className = "separator sutta-separator";
+    suttaSeparator.textContent = "Open on SuttaCentral.net: ";
+    resultsContainer.appendChild(suttaSeparator);
+  }
+
+  suttaMatches.forEach(item => createResultSuttaName(item, query, firstOnly));
+
+  if (startsWith.length === 0 && contains.length === 0 && suttaMatches.length === 0) {
     const noResultsMessage = document.createElement("div");
     noResultsMessage.className = "no-results";
 
@@ -97,6 +125,41 @@ function createResultItem(item, query, firstOnly) {
     window.history.pushState(null, null, "#" + anchorId);
     document.title = `${item} | ${SITENAME}`;
   });
+
+  resultsContainer.appendChild(resultItem);
+}
+
+function createResultSuttaName(item, query, firstOnly) {
+  const resultItem = document.createElement("div");
+  resultItem.className = "menu-item search-result";
+
+  // Use a regular expression to find matches
+  const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
+  const regex = new RegExp("(" + escapedQuery + ")", "gi");
+
+  let highlightedItem;
+
+  if (firstOnly) {
+    highlightedItem = item;
+  } else {
+    highlightedItem = item.replace(regex, "<strong>$1</strong>");
+  }
+
+  // Extract the ID from the item
+  const id = item.split("|")[1].trim().toLowerCase();
+
+  highlightedItem = highlightedItem.replace(" |", "");
+
+  // Create the link element
+  const link = document.createElement("a");
+  link.href = `https://suttacentral.net/${id}/en/sujato`;
+  link.target = "_blank"; // Open in a new tab
+  link.rel = "noopener noreferrer"; // Security best practice
+  link.classList = "off-site";
+  link.innerHTML = highlightedItem;
+
+  // Append the link to the result item
+  resultItem.appendChild(link);
 
   resultsContainer.appendChild(resultItem);
 }

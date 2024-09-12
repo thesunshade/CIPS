@@ -280,6 +280,38 @@ kbd {
   background-color: var(--offblack);
 }
 
+.sutta-separator {
+  color: var(--primary);
+  font-style: italic;
+  padding-top: 10px;
+  margin-bottom: .5rem;
+}
+
+.off-site {
+  color: var(--offblacker);
+  text-decoration: none;
+}
+
+.off-site:hover {
+  text-decoration: inherit;
+}
+
+.search-result a:after {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url("images/external-link.png");
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 0 0 0 2px;
+}
+
+.search-result a:hover {
+  color: var(--offwhite-saturated);
+  background-color: var(--primary);
+}
+
 .menu-item,
 .no-results {
   color: var(--offblack);
@@ -319,7 +351,7 @@ kbd {
   display: block
 }
 
-.separator {
+.menu-item+.separator {
   border-top: 1px solid #ddd;
   margin: 0.5rem 0;
 }
