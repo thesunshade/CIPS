@@ -181,9 +181,21 @@ function handleKeyboardNavigation(e) {
   } else if (e.key === "Enter") {
     e.preventDefault();
     if (activeIndex > -1) {
-      items[activeIndex].click();
+      const activeItem = items[activeIndex];
+      const link = activeItem.querySelector("a");
+      if (link) {
+        link.click(); // Trigger the link click if available
+      } else {
+        activeItem.click(); // Fallback to the default click behavior
+      }
     } else if (items.length > 0) {
-      items[0].click(); // Click the first item if no item is active
+      const firstItem = items[0];
+      const link = firstItem.querySelector("a");
+      if (link) {
+        link.click(); // Trigger the link click if available
+      } else {
+        firstItem.click(); // Fallback to the default click behavior
+      }
     }
   } else if (e.key === "Escape") {
     searchBox.value = "";

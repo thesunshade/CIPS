@@ -3204,5 +3204,7 @@ export const filteredBlurbs ={
      "sn7.10": "A brahmin is searching for his lost oxen when he sees the Buddha meditating peacefully in the forest. He laments the many sorrows of his life, celebrating the Buddha’s happiness and freedom from such sorrows.",
      "sn7.11": "A brahmin farmer criticizes the Buddha for failing to produce food, merely living off the work of others. But the Buddha shows that his true work is spiritual.",
      "sn7.12": "A brahmin complains when the Buddha visits for alms again and again. The Buddha takes the chance to point out that all natural phenomena repeat in cycles, and only an awakened one escapes the cycle.",
-     "sn7.13": "The Buddha is ill and sends his attendant monk Upavāṇa to fetch some hot water. A brahmin gives him not just water, but also molasses to ease his stomach. Later the brahmin visits the Buddha to discuss generosity."
+     "sn7.13": "The Buddha is ill and sends his attendant monk Upavāṇa to fetch some hot water. A brahmin gives him not just water, but also molasses to ease his stomach. Later the brahmin visits the Buddha to discuss generosity.",
+     "sn7.14": "A brahmin is shabby clothes has been kicked out of his home by ungrateful sons. The Buddha gives him a verse to recite in the village council, comparing his faithless sons to his trusty wooden staff. Ashamed, the sons take back their father, bathe and dress him.",
+     "sn7.15": "A stuck-up brahmin listening to the Buddha teach is awestruck when the Buddha appears to read his mind. To the surprise of the crowd, he bows and kisses the Buddha’s feet. The Buddha tells him to take his seat, and they exchange verses on the topic of conceit."
 }
