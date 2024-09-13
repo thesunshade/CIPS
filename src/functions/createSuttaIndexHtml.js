@@ -220,9 +220,28 @@ export default function createSuttaIndexHtml(indexObject) {
     console.info(`Stdout: ${stdout}`);
   });
 
+  const rawJsFileTooltips = "src/functions/jitTippy.js";
+  const bundledJsFileTooltips = "public/tooltips.js";
+
+  exec(`npx esbuild ${rawJsFileTooltips} --bundle --minify --charset=utf8 --outfile=${bundledJsFileTooltips}`, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error tooltips: ${error.message}`);
+      return;
+    }
+    if (error && error.code !== 0) {
+      console.error(`Command failed with exit code for tooltips${error.code}`);
+    }
+    if (stderr) {
+      const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
+      console.error(`🛠️  blurbs Script bundled; Stderr: ${singleLineStderr}`);
+      return;
+    }
+    console.info(`Stdout: ${stdout}`);
+  });
+
+  // minify name array
   const rawJsFileNameArray = "src/data/allSuttasPaliNameArray.js";
   const bundledJsNameArray = "public/allSuttasPaliNameArray.js";
-
   exec(`npx esbuild ${rawJsFileNameArray} --bundle --minify --charset=utf8 --outfile=${bundledJsNameArray}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error tooltips: ${error.message}`);
@@ -240,7 +259,7 @@ export default function createSuttaIndexHtml(indexObject) {
   });
 
   // Bundle and minify CSS
-  exec(`npx esbuild ${rawCssFile} --bundle --minify --outfile=${bundledCssFile}  --external:*.woff --external:*.woff2 --external:*.png`, (error, stdout, stderr) => {
+  exec(`npx esbuild ${rawCssFile} --bundle --minify --outfile=${bundledCssFile}  --external:*.woff --external:*.woff2`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error.message}`);
       return;
