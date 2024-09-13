@@ -3208,5 +3208,9 @@ export const filteredBlurbs ={
      "sn7.14": "A brahmin is shabby clothes has been kicked out of his home by ungrateful sons. The Buddha gives him a verse to recite in the village council, comparing his faithless sons to his trusty wooden staff. Ashamed, the sons take back their father, bathe and dress him.",
      "sn7.15": "A stuck-up brahmin listening to the Buddha teach is awestruck when the Buddha appears to read his mind. To the surprise of the crowd, he bows and kisses the Buddha’s feet. The Buddha tells him to take his seat, and they exchange verses on the topic of conceit.",
      "sn7.17": "A brahmin is enjoying his work in the woods. Seeing the Buddha in meditation, he wonders what sort of work the Buddha enjoys.",
-     "sn7.18": "Some brahmin students are collecting firewood when they see the Buddha in meditation. They return and inform their teacher, who visits the Buddha to ask him how he is so peaceful in the wild forest."
+     "sn7.18": "Some brahmin students are collecting firewood when they see the Buddha in meditation. They return and inform their teacher, who visits the Buddha to ask him how he is so peaceful in the wild forest.",
+     "sn7.19": "A brahmin wonders whether the legitimate seeking of alms is a proper way to support his parents.",
+     "sn7.20": "The Buddha explains that a true mendicant is one who has gone beyond evil.",
+     "sn7.21": "A brahmin believes that by bathing he can wash away his sins. But the Buddha speaks of the Dhamma as a lake for true purification.",
+     "sn7.22": "When the Buddha approaches a brahmin council in session, they complain that he is out of order."
 }
