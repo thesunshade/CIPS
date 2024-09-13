@@ -1,5 +1,5 @@
 import { headwordsArray } from "../data/headwords-array.js";
-import { allSuttasPaliNameArray } from "../../public/allSuttasPaliNameArray.js";
+import { allSuttasPaliNameArray } from "../data/allSuttasPaliNameArray.js";
 import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
@@ -179,7 +179,7 @@ function createResultSuttaName(item, query, firstOnly) {
   link.rel = "noopener noreferrer"; // Security best practice
   link.classList = "off-site";
   link.innerHTML = highlightedItem;
-
+  link.setAttribute("data-id", id);
   // Append the link to the result item
   resultItem.appendChild(link);
 

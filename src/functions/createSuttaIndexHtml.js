@@ -220,10 +220,10 @@ export default function createSuttaIndexHtml(indexObject) {
     console.info(`Stdout: ${stdout}`);
   });
 
-  const rawJsFileTooltips = "src/functions/jitTippy.js";
-  const bundledJsFileTooltips = "public/tooltips.js";
+  const rawJsFileNameArray = "src/data/allSuttasPaliNameArray.js";
+  const bundledJsNameArray = "public/allSuttasPaliNameArray.js";
 
-  exec(`npx esbuild ${rawJsFileTooltips} --bundle --minify --charset=utf8 --outfile=${bundledJsFileTooltips}`, (error, stdout, stderr) => {
+  exec(`npx esbuild ${rawJsFileNameArray} --bundle --minify --charset=utf8 --outfile=${bundledJsNameArray}`, (error, stdout, stderr) => {
     if (error) {
       console.error(`Error tooltips: ${error.message}`);
       return;
@@ -233,7 +233,7 @@ export default function createSuttaIndexHtml(indexObject) {
     }
     if (stderr) {
       const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
-      console.error(`🛠️  blurbs Script bundled; Stderr: ${singleLineStderr}`);
+      console.error(`🛠️  bundledJsNameArray; Stderr: ${singleLineStderr}`);
       return;
     }
     console.info(`Stdout: ${stdout}`);
