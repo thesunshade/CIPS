@@ -3212,5 +3212,9 @@ export const filteredBlurbs ={
      "sn7.19": "A brahmin wonders whether the legitimate seeking of alms is a proper way to support his parents.",
      "sn7.20": "The Buddha explains that a true mendicant is one who has gone beyond evil.",
      "sn7.21": "A brahmin believes that by bathing he can wash away his sins. But the Buddha speaks of the Dhamma as a lake for true purification.",
-     "sn7.22": "When the Buddha approaches a brahmin council in session, they complain that he is out of order."
+     "sn7.22": "When the Buddha approaches a brahmin council in session, they complain that he is out of order.",
+     "sn8.1": "Enticed by the sight of beautiful women, the newly ordained monk Vaṅgīsa dispels desire and celebrates his commitment to the spiritual path in verse.",
+     "sn8.2": "Vaṅgīsa is troubled again by lust, but manages to dispel it through his own efforts. His verse speak of the way of the renunciate, letting go of desire and wrong views, and dedicated to ethical conduct and seclusion.",
+     "sn8.3": "As a renowned poet, Vaṅgīsa looked down on less skilled mendicants. Ashamed of his conceit, he exhorted himself in verse to be humble and at peace.",
+     "sn8.4": "Troubled once more by lust, Vaṅgīsa turned to Ānanda for support. Ānanda tells him to shift his perception so that beautiful things no longer seem so."
 }
