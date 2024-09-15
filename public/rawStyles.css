@@ -418,11 +418,39 @@ head-word-area {
   background-color: var(--offblack);
 }
 
+/* head-word {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+} */
+
 head-word {
   font-weight: bold;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  /* Allow text wrapping */
 }
+
+head-word span,
+head-word img {
+  flex-shrink: 0;
+  /* Prevent images and span from shrinking */
+}
+
+head-word::first-line {
+  display: flex;
+  /* Keep the first line intact with wrapping allowed */
+  flex-grow: 1;
+  /* Ensure the text block can grow and take up space */
+  min-width: 0;
+  /* Allow the text to shrink when necessary */
+  white-space: normal;
+  /* Let the text wrap naturally */
+}
+
+/*end cgpt*/
+
 
 .counter {
   padding-bottom: .3rem;
