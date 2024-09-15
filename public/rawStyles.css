@@ -96,6 +96,12 @@ p {
   font-family: "Fira Sans";
 }
 
+h1 {
+  line-height: 100%;
+  text-align: center;
+  text-wrap: balance;
+}
+
 .settings-bar {
   color: var(--offwhite-saturated);
   background-color: var(--primary);
