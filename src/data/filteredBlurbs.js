@@ -3216,5 +3216,7 @@ export const filteredBlurbs ={
      "sn8.1": "Enticed by the sight of beautiful women, the newly ordained monk Vaṅgīsa dispels desire and celebrates his commitment to the spiritual path in verse.",
      "sn8.2": "Vaṅgīsa is troubled again by lust, but manages to dispel it through his own efforts. His verse speak of the way of the renunciate, letting go of desire and wrong views, and dedicated to ethical conduct and seclusion.",
      "sn8.3": "As a renowned poet, Vaṅgīsa looked down on less skilled mendicants. Ashamed of his conceit, he exhorted himself in verse to be humble and at peace.",
-     "sn8.4": "Troubled once more by lust, Vaṅgīsa turned to Ānanda for support. Ānanda tells him to shift his perception so that beautiful things no longer seem so."
+     "sn8.4": "Troubled once more by lust, Vaṅgīsa turned to Ānanda for support. Ānanda tells him to shift his perception so that beautiful things no longer seem so.",
+     "sn8.7": "On the Pavāraṇā day at the end of the rains retreat, the Buddha invites the Saṅgha to admonish him. But not only is the Buddha faultless, so are all the 500 monks present. Vaṅgīsa is inspired to utter a elaborate praise of the Buddha.",
+     "sn8.8": "Seeing the Buddha speak on the Dhamma, and the rapt attention of the Saṅgha, Vaṅgīsa comes out with verses in his praise. When asked if the verses were spontaneous, he replies that they were, and the Buddha invites him to speak further."
 }
