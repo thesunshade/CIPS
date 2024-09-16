@@ -137,6 +137,11 @@ input:focus {
   background-color: var(--offwhite);
 }
 
+input:focus-visible {
+  outline: 3px solid var(--offwhite-saturated);
+  outline-offset: .5px;
+}
+
 .dark input {
   color: var(--offwhite);
   border-color: var(--offwhite);
