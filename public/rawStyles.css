@@ -533,6 +533,7 @@ sub-w {
 
 .xref-link:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 sutta-name {
@@ -560,11 +561,12 @@ sutta-name {
 
 .locator:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
-.colored-locators .locator:hover {
+/* .colored-locators .locator:hover {
   text-decoration: none;
-}
+} */
 
 .dark .locator {
   color: #ffecb3;
