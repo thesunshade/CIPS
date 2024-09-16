@@ -3218,5 +3218,7 @@ export const filteredBlurbs ={
      "sn8.3": "As a renowned poet, Vaṅgīsa looked down on less skilled mendicants. Ashamed of his conceit, he exhorted himself in verse to be humble and at peace.",
      "sn8.4": "Troubled once more by lust, Vaṅgīsa turned to Ānanda for support. Ānanda tells him to shift his perception so that beautiful things no longer seem so.",
      "sn8.7": "On the Pavāraṇā day at the end of the rains retreat, the Buddha invites the Saṅgha to admonish him. But not only is the Buddha faultless, so are all the 500 monks present. Vaṅgīsa is inspired to utter a elaborate praise of the Buddha.",
-     "sn8.8": "Seeing the Buddha speak on the Dhamma, and the rapt attention of the Saṅgha, Vaṅgīsa comes out with verses in his praise. When asked if the verses were spontaneous, he replies that they were, and the Buddha invites him to speak further."
+     "sn8.8": "Seeing the Buddha speak on the Dhamma, and the rapt attention of the Saṅgha, Vaṅgīsa comes out with verses in his praise. When asked if the verses were spontaneous, he replies that they were, and the Buddha invites him to speak further.",
+     "sn8.9": "Aññā Koṇḍañña, the very first disciple to realize the Dhamma, comes to visit the Buddha after long in seclusion. Inspired, Vaṅgīsa speaks verses in his praise.",
+     "sn8.10": "Vaṅgīsa speaks in praise of Moggallāna and the Saṅgha."
 }
