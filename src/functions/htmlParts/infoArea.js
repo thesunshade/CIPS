@@ -73,7 +73,7 @@ export const infoArea = `
             <div><em>Stats:</em></div>
             <div class="row-1">
               <div>
-                <strong>${headwordsArray.length}</strong> Headwords
+                <strong>${headwordsArray.length.toLocaleString("en-US")}</strong> Headwords
               </div>
               <div>
                 <strong>${(indexArray.length - statsData.xrefsCount).toLocaleString("en-US")}</strong> Locators
