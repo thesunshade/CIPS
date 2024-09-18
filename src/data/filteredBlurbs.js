@@ -3220,5 +3220,15 @@ export const filteredBlurbs ={
      "sn8.7": "On the Pavāraṇā day at the end of the rains retreat, the Buddha invites the Saṅgha to admonish him. But not only is the Buddha faultless, so are all the 500 monks present. Vaṅgīsa is inspired to utter a elaborate praise of the Buddha.",
      "sn8.8": "Seeing the Buddha speak on the Dhamma, and the rapt attention of the Saṅgha, Vaṅgīsa comes out with verses in his praise. When asked if the verses were spontaneous, he replies that they were, and the Buddha invites him to speak further.",
      "sn8.9": "Aññā Koṇḍañña, the very first disciple to realize the Dhamma, comes to visit the Buddha after long in seclusion. Inspired, Vaṅgīsa speaks verses in his praise.",
-     "sn8.10": "Vaṅgīsa speaks in praise of Moggallāna and the Saṅgha."
+     "sn8.10": "Vaṅgīsa speaks in praise of Moggallāna and the Saṅgha.",
+     "sn10.1": "A local spirit asks the Buddha how a body is produced if there is no soul.",
+     "sn10.2": "A spirit tells the Buddha that if he is truly free he should not be instructing others.",
+     "sn10.3": "The spirits Khara and Sūciloma argue about whether the Buddha is a true ascetic or not. They approach him initially with threats, but then ask as to the origin of greed and hate.",
+     "sn10.5": "It seems that the novice Sānu had returned to his home intending to disrobe. To prevent him, a spirit possessed him, encouraging him to pursue the path of good. Sānu’s mother, weeping for her son, also tries to make him stay in robes.",
+     "sn10.6": "A female spirit hushes her son Piyaṅkara so she can hear the teaching and pursue harmlessness.",
+     "sn10.7": "A female spirit hushes her children as she listens to the teaching. But her son Punabbasu says that he had not been talking, as he too wants to learn.",
+     "sn10.8": "When Anāthapiṇḍika heard that a Buddha had arisen in the world, he rose first thing in the morning to go and visit him. But a mysterious darkness caused him to hesitate, so a spirit repeatedly encouraged him to step forward. Finally he reached the Buddha, and asked if he had slept well.",
+     "sn10.9": "A spirit was full of faith in the nun Sukkā, so he went about the towns and villages encouraging people to listen to her teaching.",
+     "sn10.10": "A spirit was full of faith in the nun Sukkā, so he went about the towns and villages singing the benefits of giving her offerings.",
+     "sn10.11": "A spirit was full of faith in the nun Cirā, so he went about the towns and villages singing the benefits of giving her offerings."
 }
