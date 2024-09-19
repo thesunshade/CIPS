@@ -147,7 +147,7 @@ function createElementObject(elementId) {
     .replace(/ target="_blank" rel="noreferrer"/g, "")
     .replace(/ (title)=".+?"/g, "")
     .replace(/<img.+?>/g, "")
-    .replace(/<span class="counter">.+?<\/span> /g, "")
+    .replace(/<span class="counter">.+?<\/span>/g, "")
     .replace(/<sutta-name>(.+?)<\/sutta-name>/g, "$1")
     .replace(/>\s+?</g, "><")
     .replace(/(\S)\s+?</g, "$1<")
@@ -160,7 +160,8 @@ function createElementObject(elementId) {
     .replace(/<\/div><sub-w>/g, "")
     .replace(/;<br>/g, "")
     .replace(/,$/, "")
-    .replace(/,\]/g, "]");
+    .replace(/,\]/g, "]")
+    .replace(/   /g, " ");
 
   elementObject += "]}}";
 
