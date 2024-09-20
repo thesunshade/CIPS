@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function createTxtEntry(headword) {
   const entryObject = createElementObject(makeNormalizedId(headword));
+
   const subheadsArray = entryObject[headword].subheads;
   let text = "";
   text += headword;
@@ -161,7 +162,8 @@ function createElementObject(elementId) {
     .replace(/;<br>/g, "")
     .replace(/,$/, "")
     .replace(/,\]/g, "]")
-    .replace(/   /g, " ");
+    .replace(/   /g, " ")
+    .replace(/  /g, " ");
 
   elementObject += "]}}";
 
