@@ -3265,5 +3265,6 @@ export const filteredBlurbs ={
      "sn56.58": "As a few drops of water compared to the ocean, so is the suffering remaining to one who has seen the four noble truths.",
      "sn56.59": "As seven bits of gravel are smaller than the Himalayas, so is the suffering remaining to one who has seen the four noble truths.",
      "sn56.60": "As seven bits of gravel are smaller than the Himalayas, so is the suffering remaining to one who has seen the four noble truths.",
-     "dn3": "A young brahmin student attacks the Buddha’s family, but is put in his place."
+     "dn3": "A young brahmin student attacks the Buddha’s family, but is put in his place.",
+     "dn4": "A reputed brahmin visits the Buddha, despite the reservations of other brahmins. They discuss the true meaning of a brahmin, and the Buddha skillfully draws him around to his own point of view."
 }

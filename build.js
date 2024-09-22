@@ -294,7 +294,7 @@ function createHeadingsArray(indexArray) {
   //go through xrefArray and make sure that each one appears in the list of headwords
   for (let i = 0; i < xrefArray.length; i++) {
     if (!headwordsArray.includes(xrefArray[i].trim())) {
-      console.error(`⚠️  ${xrefArray[i]} is not a valid xref`);
+      console.error(`❌❌❌  ${xrefArray[i]} is not a valid xref`);
     }
   }
 }
@@ -313,10 +313,10 @@ function createLocatorSortedArray(indexArray) {
   for (let i = 0; i < locatorFirstArray.length; i++) {
     const locator = locatorFirstArray[i][0];
     if (locator === "") {
-      console.error(`⚠️ Missing Locator, Head: ${locatorFirstArray[i][1]}; Sub: ${locatorFirstArray[i][2] ? locatorFirstArray[i][2] : "blank"}`);
+      console.error(`❌❌❌ Missing Locator, Head: ${locatorFirstArray[i][1]}; Sub: ${locatorFirstArray[i][2] ? locatorFirstArray[i][2] : "blank"}`);
     }
     if (!/(DN|MN|SN|AN|Kp|Dhp|Ud|Iti|Snp|Vv|Pv|Thag|Thig|xref)/.test(locator)) {
-      console.error(`⚠️ Bad citation or xref:${locator ? locator : "blank"}; Head: ${locatorFirstArray[i][1]}; Sub: ${locatorFirstArray[i][2] ? locatorFirstArray[i][2] : "blank"}`);
+      console.error(`❌❌❌ Bad citation or xref:${locator ? locator : "blank"}; Head: ${locatorFirstArray[i][1]}; Sub: ${locatorFirstArray[i][2] ? locatorFirstArray[i][2] : "blank"}`);
     }
   }
 
@@ -349,12 +349,20 @@ function createLocatorBookObject() {
     Thig: [],
   };
 
-  function findBook(citation) {
-    return citation.match(/(DN|MN|SN|AN|Kp|Dhp|Ud|Iti|Snp|Vv|Pv|Thag|Thig|xref)/)[0];
+  function findBook(citation, lineNumber) {
+    const match = citation.match(/(DN|MN|SN|AN|Kp|Dhp|Ud|Iti|Snp|Vv|Pv|Thag|Thig|xref)/);
+
+    if (!match) {
+      if (citation == "") console.error("citation is empty");
+      console.error(`Error: No match found for citation: ${citation} at ${lineNumber}`);
+      throw new Error(`Invalid citation: ${citation}`);
+    }
+
+    return match[0];
   }
 
   for (let i = 0; i < locatorFirstArray.length; i++) {
-    const book = findBook(locatorFirstArray[i][0]);
+    const book = findBook(locatorFirstArray[i][0], i + 1);
     locatorBookObject[book].push(locatorFirstArray[i]);
   }
 
