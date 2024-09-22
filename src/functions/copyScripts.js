@@ -163,7 +163,9 @@ function createElementObject(elementId) {
     .replace(/,$/, "")
     .replace(/,\]/g, "]")
     .replace(/   /g, " ")
-    .replace(/  /g, " ");
+    .replace(/  /g, " ")
+    .replace(/<segment-id>/g, "")
+    .replace(/<\/segment-id>/g, "");
 
   elementObject += "]}}";
 

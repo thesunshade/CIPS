@@ -540,6 +540,11 @@ sutta-name {
   font-size: 85%;
 }
 
+segment-id {
+  font-size: 75%;
+  font-weight: 900;
+}
+
 .hide-names sutta-name {
   display: none;
 }

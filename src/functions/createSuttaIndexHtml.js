@@ -30,10 +30,14 @@ export default function createSuttaIndexHtml(indexObject) {
     if (/^CUSTOM:/.test(locator)) {
       const components = locator.split(":");
       return components[2];
+    } else if (/:/.test(locator)) {
+      const [citation, segment] = locator.split(/:(.+)/);
+      return `${citation}<segment-id>:${segment}</segment-id>`;
     } else {
       return locator;
     }
   }
+
   function makeLinkClass(locator) {
     if (/^CUSTOM:/.test(locator)) {
       const components = locator.split(":");
