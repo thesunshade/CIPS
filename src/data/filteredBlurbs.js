@@ -3266,5 +3266,6 @@ export const filteredBlurbs ={
      "sn56.59": "As seven bits of gravel are smaller than the Himalayas, so is the suffering remaining to one who has seen the four noble truths.",
      "sn56.60": "As seven bits of gravel are smaller than the Himalayas, so is the suffering remaining to one who has seen the four noble truths.",
      "dn3": "A young brahmin student attacks the Buddha’s family, but is put in his place.",
-     "dn4": "A reputed brahmin visits the Buddha, despite the reservations of other brahmins. They discuss the true meaning of a brahmin, and the Buddha skillfully draws him around to his own point of view."
+     "dn4": "A reputed brahmin visits the Buddha, despite the reservations of other brahmins. They discuss the true meaning of a brahmin, and the Buddha skillfully draws him around to his own point of view.",
+     "dn5": "A brahmin wishes to undertake a great sacrifice, and asks for the Buddha’s advice. The Buddha tells a legend of the past, in which a king is persuaded to give up violent sacrifice, and instead to devote his resources to supporting the needy citizens of his realm. However, even such a beneficial and non-violent sacrifice pales in comparison to the spiritual sacrifice of giving up attachments."
 }
