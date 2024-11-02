@@ -1164,7 +1164,6 @@ export const filteredBlurbs ={
      "an3.150": "Wholesome deeds keep you whole.",
      "an3.154": "Kinds of homage: body, speech, and mind.",
      "an3.155": "A good morning, a good afternoon, a good evening.",
-     "an3.156": "The addicted practice, the scorching practice, the middle practice.",
      "an4.3": "After reflection, you should criticize those worthy or criticism, and praise those worthy of praise.",
      "an4.4": "You harm yourself by acting badly towards parents, the Buddha, and spiritual practitioners.",
      "an4.5": "A person who goes with the stream; a person who goes against the stream; a stable person; and one who has crossed over.",

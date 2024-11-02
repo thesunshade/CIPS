@@ -29,6 +29,7 @@ noble eightfold path (ariya aṭṭhangika magga)		xref right livelihood (sammā
 noble eightfold path (ariya aṭṭhangika magga)		xref right effort (sammā vāyāma)
 noble eightfold path (ariya aṭṭhangika magga)		xref right mindfulness (sammā sati)
 noble eightfold path (ariya aṭṭhangika magga)		xref right concentration (sammā samādhi)
+generosity (cāga)		xref accomplishment in generosity (cāgasampadā)
 shunning		xref banishment
 causality		xref wholesome chain of causality
 causality		xref unwholesome chain of causality
@@ -1511,6 +1512,8 @@ meditation on ugliness (asubhabhāvanā)		xref perception of ugliness (asubhasa�
 perception of ugliness (asubhasaññā)		xref meditation on ugliness (asubhabhāvanā)
 lay life		xref laypeople
 laypeople		xref lay life
+judging		xref familiarity needed to judge
+judging		xref misjudging others
 stealing		xref right action (sammā kammanta)
 killing		xref right action (sammā kammanta)
 sexual misconduct		xref right action (sammā kammanta)
@@ -6208,6 +6211,9 @@ rebirth	Buddha declaring of people	MN68
 stages of enlightenment	Buddha declaring of people	MN68
 inspiration	through knowing rebirth of individuals	MN68
 generosity (cāga)	recollection of other’s	MN68
+wisdom	recollection of other’s	MN68
+virtue (sīla)	recollection of other’s	MN68
+recollection of virtue (sīlānussati)	other people’s	MN68
 arahants	Buddha declaring someone has attained	MN68
 non-returner (anāgāmi)	Buddha declaring someone has attained	MN68
 once returner (sakadāgāmī)	Buddha declaring someone has attained	MN68
@@ -9576,12 +9582,12 @@ fools (bāla)	harm themselves with bad action	AN3.150
 wise people	help themselves with good action	AN3.150
 worshiping (vandati) 	by body, speech and mind	AN3.154
 good actions	all day long	AN3.155
-wrong views	that there is nothing wrong with sensual pleasures	AN3.156
-mortification (tapojigucchā)	that are scorching	AN3.156
-middle path (majjhimā paṭipadā)	satipaṭṭhāna 	AN3.156
-addicted practice (āgāḷhā paṭipadā)	nothing wrong with sense pleasures	AN3.156
-scorching practice (nijjhāmā paṭipadā)	self mortification	AN3.156
-bodhipakkhiyā dhammā	as middle path	AN3.156
+wrong views	that there is nothing wrong with sensual pleasures	AN156-162
+mortification (tapojigucchā)	that are scorching	AN156-162
+middle path (majjhimā paṭipadā)	satipaṭṭhāna 	AN156-162
+addicted practice (āgāḷhā paṭipadā)	nothing wrong with sense pleasures	AN156-162
+scorching practice (nijjhāmā paṭipadā)	self mortification	AN156-162
+bodhipakkhiyā dhammā	as middle path	AN156-162
 emptiness concentration (suññato samādhi)	insight into greed	AN3.183
 signless concentration (animitto samādhi)	insight into greed	AN3.183
 undirected concentration (appaṇihito samādhi)	insight into greed	AN3.183
@@ -9693,6 +9699,7 @@ stilling the physical process (passaddhakāyasaṅkhāra)	definition	AN4.38
 conceit “I am” (asmimāna)	one who has given up is “withdrawn”	AN4.38
 sacrifices (yañña)	kinds Buddha praised	AN4.39
 sacrifices (yañña)	kinds Buddha praised	AN4.40
+departed relatives	sharing merit with	AN4.40
 meditation	blissful in the present life	AN4.41
 knowledge and vision (ñāṇadassana)	perception of light leads to	AN4.41
 aggregates (khandha)	seeing rise and fall of	AN4.41
@@ -15042,6 +15049,7 @@ heedlessness (pamāda)	prevents giving	SN1.32
 giving (dāna)	prevented by stinginess, heedlessness, fear	SN1.32
 fear (bhaya)	prevents giving	SN1.32
 giving (dāna)	when you have little	SN1.32
+giving (dāna)	small amount	SN1.32
 giving (dāna)	what is hard to give	SN1.32
 giving (dāna)	by bad person	SN1.32
 giving (dāna)	levels of	SN1.32
@@ -15061,6 +15069,7 @@ giving (dāna)	smallest gift has value	SN1.33
 seeds	simile for giving	SN1.33
 Dhamma	better than giving	SN1.33
 sense pleasures (kāma, kāmaguṇa)	impermanent	SN1.34
+sense pleasures (kāma, kāmaguṇa)	withdrawn from	SN1.34
 desire (chanda)	cause of suffering	SN1.34
 intention (saṅkappa)	greedy	SN1.34
 death (maccu)	realm of death (maccudheyya)	SN1.34
