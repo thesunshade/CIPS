@@ -218,7 +218,7 @@ export default function createSuttaIndexHtml(indexObject) {
     }
     if (stderr) {
       const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
-      console.error(`🛠️  Script bundled; Stderr: ${singleLineStderr}`);
+      console.log(`🛠️  Script bundled; Stderr: ${singleLineStderr}`);
       return;
     }
     console.info(`Stdout: ${stdout}`);
@@ -237,7 +237,7 @@ export default function createSuttaIndexHtml(indexObject) {
     }
     if (stderr) {
       const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
-      console.error(`🛠️  blurbs Script bundled; Stderr: ${singleLineStderr}`);
+      console.log(`🛠️  blurbs Script bundled; Stderr: ${singleLineStderr}`);
       return;
     }
     console.info(`Stdout: ${stdout}`);
@@ -256,7 +256,7 @@ export default function createSuttaIndexHtml(indexObject) {
     }
     if (stderr) {
       const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
-      console.error(`🛠️  bundledJsNameArray; Stderr: ${singleLineStderr}`);
+      console.log(`🛠️  bundledJsNameArray; Stderr: ${singleLineStderr}`);
       return;
     }
     console.info(`Stdout: ${stdout}`);
@@ -273,7 +273,7 @@ export default function createSuttaIndexHtml(indexObject) {
     }
     if (stderr) {
       const singleLineStderr = stderr.replace(/\r?\n/g, " ").trim();
-      console.error(`🖍️  CSS bundled; Stderr: ${singleLineStderr}`);
+      console.log(`🖍️  CSS bundled; Stderr: ${singleLineStderr}`);
       return;
     }
     console.info(`Stdout: ${stdout}`);
