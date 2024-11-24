@@ -43,31 +43,36 @@ function createIndexObject(indexArray) {
     const headStartingWithLetter = head.replace("“", "");
     const firstRealLetter = normalizeDiacriticString(headStartingWithLetter.charAt(0)).toUpperCase();
     errorCheckHeadSub(head, sub);
+    const letterKey = alphabetGroupedObject[firstRealLetter];
 
-    if (!alphabetGroupedObject[firstRealLetter].hasOwnProperty(head)) {
+    if (!letterKey.hasOwnProperty(head)) {
       // the key of the headword does not exist in the object yet, so create the key and add the locator-xref object
-      alphabetGroupedObject[firstRealLetter][head] = { [sub]: { locators: [], xrefs: [] } };
+      letterKey[head] = { [sub]: { locators: [], xrefs: [] } };
       if (/xref/.test(locator)) {
-        alphabetGroupedObject[firstRealLetter][head][sub].xrefs.push(locator);
+        letterKey[head][sub].xrefs.push(locator);
       } else {
-        alphabetGroupedObject[firstRealLetter][head][sub].locators.push(locator);
+        letterKey[head][sub].locators.push(locator);
       }
     } else {
-      if (!alphabetGroupedObject[firstRealLetter][head].hasOwnProperty(sub)) {
+      if (!letterKey[head].hasOwnProperty(sub)) {
         // the key for the headword exists, but the sub does not exist as a key
-        alphabetGroupedObject[firstRealLetter][head][sub] = { locators: [], xrefs: [] };
+        letterKey[head][sub] = { locators: [], xrefs: [] };
 
         if (/xref/.test(locator)) {
-          alphabetGroupedObject[firstRealLetter][head][sub].xrefs.push(locator);
+          letterKey[head][sub].xrefs.push(locator);
         } else {
-          alphabetGroupedObject[firstRealLetter][head][sub].locators.push(locator);
+          letterKey[head][sub].locators.push(locator);
         }
       } else {
         // the head and sub already exist, so the locator must be pushed into the array
         if (/xref/.test(locator)) {
-          alphabetGroupedObject[firstRealLetter][head][sub].xrefs.push(locator);
+          letterKey[head][sub].xrefs.push(locator);
         } else {
-          alphabetGroupedObject[firstRealLetter][head][sub].locators.push(locator);
+          if (!letterKey[head][sub].locators.includes(locator)) {
+            letterKey[head][sub].locators.push(locator);
+          } else {
+            console.error(`Duplicate locator found: Head=${head}, Sub=${sub}, Locator=${locator}`);
+          }
         }
       }
     }
