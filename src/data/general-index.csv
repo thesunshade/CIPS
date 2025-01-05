@@ -3434,10 +3434,19 @@ travel	to earn money	Vv84
 devas	giving advice	Vv84
 stupa (thupa)	cleaning	Vv85
 merit (puñña)	small amounts give big results	Vv85
-Saṅgha	field of merit	Pv1
+ghosts	 	CUSTOM:Pv:Petavatthu:SuttaFriends.org/pv
 departed relatives	sharing merit with	Pv1
+arahants	like fields	Pv1
+fields	simile for arahants	Pv1
+farmers (kassaka)	simile for givers	Pv1
+seeds	simile for gifts	Pv1
 wrong speech (micchā vācā)	results of	Pv2
+pigs	ghost with mouth of	Pv2
+ghosts	with pig’s mouth	Pv2
+results of actions	mixture of	Pv2
 monastics	reborn as ghosts	Pv3
+ghosts	former monastics	Pv3
+ghosts	smelly mouth	Pv3
 wrong speech (micchā vācā)	results of	Pv3
 departed relatives	sharing merit with	Pv4
 gods	sharing merit with	Pv4
@@ -3450,10 +3459,13 @@ departed relatives	sharing merit with	Pv5
 ghost realm	qualities of	Pv5
 merit sharing	like rain reaching the oceans	Pv5
 merit sharing	as a source of merit itself	Pv5
-ghosts	 	CUSTOM:Pv:Petavatthu:SuttaFriends.org/pv
+oceans (sāgara)	simile for merit sharing	Pv5
+Bimbisāra, King	advised on sharing merit (commentary)	Pv5
 speech	false oath	Pv6
 pregnancy	causing termination of someone else’s	Pv6
 ghosts	child eating	Pv6
+sons	ghost eating	Pv6
+hunger	ghosts	Pv6
 ghosts	hunger	Pv6
 speech	false oath	Pv7
 ghosts	child eating	Pv7
@@ -3545,6 +3557,7 @@ departed relatives	sharing merit with	Pv38
 wrong views	giving up like vomiting	Pv38
 ghosts	hunger	Pv40
 wealthy people	not giving	Pv41
+paccekabuddhas	disparaging	Pv41
 monastics	treating them badly	Pv42
 paccekabuddhas	disparaging	Pv42
 hell (niraya)	torture in	Pv42
@@ -3561,7 +3574,6 @@ social mobility	through good action	Pv47
 merit (puñña)	small amounts give big results	Pv48
 wealthy people	not giving	Pv50
 ghosts	with hammers	Pv51
-paccekabuddhas	disparaging	Pv41
 Buddha, the	excellence is like fire blazing	Thag1.3
 association	with the wise	Thag1.4
 Māra	army of pushed away like flood	Thag1.7
@@ -8937,6 +8949,7 @@ decisions	making prejudiced decisions	AN2.46
 decisions	making unprejudiced decisions	AN2.46
 listening to Dhamma	not paying attention while	AN2.47
 listening to Dhamma	correctly	AN2.47
+emptiness (suññatā)	interest in	AN2.47
 poetry	preferred to Dhamma	AN2.47
 questions, asking	to clarify meaning	AN2.47
 assemblies	valuing material things vs. Dhamma	AN2.48
@@ -10627,6 +10640,7 @@ famine	situation not good for meditation	AN5.78
 old age (jarā)	not good for meditation	AN5.78
 sickness	not good for meditation	AN5.78
 perils (bhaya)	future	AN5.79
+emptiness (suññatā)	monastics won’t have interest in future 	AN5.79
 poetry	will become more popular	AN5.79
 senior monastics	will become corrupt	AN5.79
 requisites, four	attachment to causes danger for community	AN5.80
@@ -19681,6 +19695,7 @@ virtue (sīla)	reason for rebirth in good destination	SN55.18
 good rebirth (sugati)	confidence and virtue cause of	SN55.18
 Buddha, the	visiting deva world	SN55.20
 death (maraṇa)	good	SN55.21
+death (maraṇa)	losing mindfulness at time of	SN55.21
 mindfulness (sati)	losing 	SN55.21
 mind (citta)	rises up to good place after death	SN55.21
 corpse	rots away while mind rises up	SN55.21
