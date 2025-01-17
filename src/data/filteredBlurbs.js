@@ -855,6 +855,7 @@ export const filteredBlurbs ={
      "thig5.6": " Having gone forth out of faith from the lay life to homelessness, I wandered here and there, jealous of possessions and honors. …",
      "thig5.8": " I gave birth to ten sons in this form, this bag of bones. Then, when feeble and old, I approached a nun. …",
      "thig5.9": " My hair mown off, covered in mud, I used to wander wearing just one robe. I saw fault where there was none, and was blind to the actual fault. …",
+     "thig5.10": " Plowing the fields, sowing seeds in the ground, supporting partners and children, young men acquire wealth. …",
      "thig5.11": " “Taking a pestle, young men pound grain. Supporting partners and children, young men acquire wealth. …",
      "thig5.12": " I used to be in a sorry state. As a childless widow, bereft of friends or relatives, I got neither food nor clothes. …",
      "thig6.1": " “One whose path you do not know, not whence they came nor where they went; though they came from who knows where, you mourn that being, crying, ‘Oh my son!’ …",
@@ -3266,5 +3267,6 @@ export const filteredBlurbs ={
      "sn56.60": "As seven bits of gravel are smaller than the Himalayas, so is the suffering remaining to one who has seen the four noble truths.",
      "dn3": "A young brahmin student attacks the Buddha’s family, but is put in his place.",
      "dn4": "A reputed brahmin visits the Buddha, despite the reservations of other brahmins. They discuss the true meaning of a brahmin, and the Buddha skillfully draws him around to his own point of view.",
-     "dn5": "A brahmin wishes to undertake a great sacrifice, and asks for the Buddha’s advice. The Buddha tells a legend of the past, in which a king is persuaded to give up violent sacrifice, and instead to devote his resources to supporting the needy citizens of his realm. However, even such a beneficial and non-violent sacrifice pales in comparison to the spiritual sacrifice of giving up attachments."
+     "dn5": "A brahmin wishes to undertake a great sacrifice, and asks for the Buddha’s advice. The Buddha tells a legend of the past, in which a king is persuaded to give up violent sacrifice, and instead to devote his resources to supporting the needy citizens of his realm. However, even such a beneficial and non-violent sacrifice pales in comparison to the spiritual sacrifice of giving up attachments.",
+     "dn6": "The Buddha explains to a diverse group of lay people how the results of meditation depend on the manner of development."
 }
