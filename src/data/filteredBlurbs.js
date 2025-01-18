@@ -3268,5 +3268,7 @@ export const filteredBlurbs ={
      "dn3": "A young brahmin student attacks the Buddha’s family, but is put in his place.",
      "dn4": "A reputed brahmin visits the Buddha, despite the reservations of other brahmins. They discuss the true meaning of a brahmin, and the Buddha skillfully draws him around to his own point of view.",
      "dn5": "A brahmin wishes to undertake a great sacrifice, and asks for the Buddha’s advice. The Buddha tells a legend of the past, in which a king is persuaded to give up violent sacrifice, and instead to devote his resources to supporting the needy citizens of his realm. However, even such a beneficial and non-violent sacrifice pales in comparison to the spiritual sacrifice of giving up attachments.",
-     "dn6": "The Buddha explains to a diverse group of lay people how the results of meditation depend on the manner of development."
+     "dn6": "The Buddha explains to a diverse group of lay people how the results of meditation depend on the manner of development.",
+     "dn7": "This discourse is mostly quoted by the Buddha in the previous.",
+     "dn8": "The Buddha is challenged by a naked ascetic on the topic of spiritual austerities. He points out that it is quite possible to perform all kinds of austere practices without having any inner purity of mind."
 }
