@@ -3271,5 +3271,7 @@ export const filteredBlurbs ={
      "dn6": "The Buddha explains to a diverse group of lay people how the results of meditation depend on the manner of development.",
      "dn7": "This discourse is mostly quoted by the Buddha in the previous.",
      "dn8": "The Buddha is challenged by a naked ascetic on the topic of spiritual austerities. He points out that it is quite possible to perform all kinds of austere practices without having any inner purity of mind.",
-     "dn9": "The Buddha discusses with a wanderer the nature of perception and how it evolves through deeper states of meditation. None of these, however, should be identified with a self or soul."
+     "dn9": "The Buddha discusses with a wanderer the nature of perception and how it evolves through deeper states of meditation. None of these, however, should be identified with a self or soul.",
+     "dn10": "Shortly after the Buddha’s death, Venerable Ānanda is invited to explain the core teachings.",
+     "dn11": "The Buddha refuses to perform miracles, explaining that this is not the right way to inspire faith. He goes on to tell the story of a monk whose misguided quest for answers led him as far as Brahmā."
 }
