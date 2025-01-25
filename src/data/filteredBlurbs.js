@@ -3273,5 +3273,6 @@ export const filteredBlurbs ={
      "dn8": "The Buddha is challenged by a naked ascetic on the topic of spiritual austerities. He points out that it is quite possible to perform all kinds of austere practices without having any inner purity of mind.",
      "dn9": "The Buddha discusses with a wanderer the nature of perception and how it evolves through deeper states of meditation. None of these, however, should be identified with a self or soul.",
      "dn10": "Shortly after the Buddha’s death, Venerable Ānanda is invited to explain the core teachings.",
-     "dn11": "The Buddha refuses to perform miracles, explaining that this is not the right way to inspire faith. He goes on to tell the story of a monk whose misguided quest for answers led him as far as Brahmā."
+     "dn11": "The Buddha refuses to perform miracles, explaining that this is not the right way to inspire faith. He goes on to tell the story of a monk whose misguided quest for answers led him as far as Brahmā.",
+     "dn12": "A brahmin has fallen into the idea that there is no point in trying to offer spiritual help to others. The Buddha goes to see him, and persuades him of the genuine benefits of spiritual teaching."
 }
