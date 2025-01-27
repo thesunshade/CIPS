@@ -10,6 +10,7 @@ export const infoArea = `
           ReadMe on GitHub. <img src="images/GitHub.png"  height="18" alt="github logo" class="icon" style="position: relative; top: 3px;">
         </a>
       </p>
+      <p>To report missing or incorrect information, please use the <a href="https://readingfaithfully.org/contact/" rel="noreferrer" target="_blank"><img src="images/MaterialSymbolsMailRounded48.png"  height="20" alt="mail icon" class="icon" style="position: relative; top: 3px;"> contact form on ReadingFaithfully.org</a>.</p>
 
       <details>
         <summary>How to use the index</summary>
