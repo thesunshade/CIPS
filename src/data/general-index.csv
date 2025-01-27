@@ -1912,7 +1912,7 @@ patience (khanti)	as a blessing	Kp5
 admonishment	being easy to (sovacassatā)	Kp5
 association	with wise	Kp5
 Dhamma discussion	time for	Kp5
-austerity	as a blessing	Kp5
+mortification (tapas)	as a blessing	Kp5
 celibacy	as a blessing	Kp5
 four noble truths	as a blessing	Kp5
 nibbāna	as a blessing	Kp5
@@ -2242,7 +2242,11 @@ human birth	rarity of	Dhp182
 Buddhas	rarity of	Dhp182
 Dhamma	in brief	Dhp183
 patience (khanti)	as austerity	Dhp184
+mortification (tapas)	patience is highest	Dhp184
+nibbāna	supreme	Dhp184
+ascetics (samaṇa)	does not harm another	Dhp184
 Dhamma	in brief	Dhp185
+monastic rules (pātimokkha)	restraint	Dhp185
 sense pleasures (kāma, kāmaguṇa)	insatiable	Dhp186
 greed	insatiable	Dhp186
 sense pleasures (kāma, kāmaguṇa)	not satisfied by rain of gold coins 	Dhp186
@@ -3097,7 +3101,7 @@ patience (khanti)	as a blessing	Snp2.4
 admonishment	being easy to (sovacassatā)	Snp2.4
 association	with wise	Snp2.4
 Dhamma discussion	time for	Snp2.4
-austerity	as a blessing	Snp2.4
+mortification (tapas)	as a blessing	Snp2.4
 celibacy	as a blessing	Snp2.4
 four noble truths	as a blessing	Snp2.4
 nibbāna	as a blessing	Snp2.4
@@ -4885,7 +4889,7 @@ Uddaka Rāmaputta	teaching Bodhisatta	MN26
 dimension of neither perception nor non-perception (nevasaññanāsaññāyatana)	Uddaka Rāmaputta’s teachings leading to	MN26
 Senānigama 	Buddha’s enlightenment	MN26
 Uruvelā 	Buddha’s enlightenment	MN26
-Buddha, the	attaining enlightenment	MN26
+Buddha, the	enlightenment of	MN26
 deep (gambhīra)	Dhamma is 	MN26
 logic (takka)	Dhamma is beyond scope of	MN26
 attachments, stilling of all (sabbūpadhipaṭinissaggo)	hard to see	MN26
@@ -4896,6 +4900,7 @@ Dhamma	qualities of	MN26
 subtle (nipuṇa)	Dhamma is 	MN26
 Dhamma teaching	Buddha reluctant to	MN26
 Sahampati, Brahmā	requesting the Buddha to teach	MN26
+Buddha, the	reluctant to teach	MN26
 mountains	person standing on, simile for Buddha	MN26
 lotuses	simile for different people’s ability to understand Dhamma	MN26
 water lilies	simile for different people’s ability to understand Dhamma	MN26
@@ -7142,7 +7147,7 @@ oral tradition (anussava)	brahmins going by	MN100
 vedas	masters of making spiritual claims	MN100
 faith (saddhā)	spiritual claims based on	MN100
 logic (takka)	spiritual claims based on	MN100
-Buddha, the	attaining enlightenment	MN100
+Buddha, the	enlightenment of	MN100
 Buddha, the	path to enlightenment	MN100
 Buddha, the	austerity practices	MN100
 direct knowledges (abhiññā)	claims based on	MN100
@@ -12195,6 +12200,7 @@ men	catching women	AN8.18
 Pahārāda, asura	simile of ocean	AN8.19
 Dhamma	has many treasures	AN8.19
 Dhamma	has one taste	AN8.19
+salt	taste of, simile for liberation	AN8.19
 asuras	love of ocean	AN8.19
 Dhamma	simile of ocean	AN8.19
 gradual training (anupubbasikkhā)	simile of ocean	AN8.19
@@ -12208,6 +12214,7 @@ Saṅgha	simile of ocean	AN8.19
 Saṅgha	without caste distinctions	AN8.19
 Dhamma	has many treasures	AN8.20
 Dhamma	has one taste	AN8.20
+salt	taste of, simile for liberation	AN8.20
 asuras	love of ocean	AN8.20
 bad monastics	in pātimokkha recitation	AN8.20
 Dhamma	simile of ocean	AN8.20
@@ -13651,7 +13658,7 @@ virtue, higher (adhisīla)	being able to encourage in as qualification to ordain
 mind, higher (adhicitta)	being able to encourage in as qualification to ordain monastics	AN10.34
 wisdom, higher (adhipaññā)	being able to encourage in as qualification to ordain monastics	AN10.34
 dependence (nissaya)	who is qualified to give	AN10.35
-attendant	who should have	AN10.36
+attendants	who should have	AN10.36
 schisms	definition	AN10.37
 Dhamma teaching	incorrectly related to schisms	AN10.37
 harmony in Saṅgha (saṅghasāmaggī)	definition	AN10.38
@@ -15761,7 +15768,7 @@ Udaya, brahmin	complains about Buddha receiving alms	SN7.12
 lay life	repetitive nature	SN7.12
 rebirth	continuous	SN7.12
 rebirth	not being	SN7.12
-attendant	of the Buddha	SN7.13
+attendants	of the Buddha	SN7.13
 Upavāṇa, Ven.	Buddha’s attendant	SN7.13
 Buddha, the	illness of	SN7.13
 giving (dāna)	whom to give to	SN7.13
@@ -18313,8 +18320,10 @@ Asibandhakaputta, chief	trying to trick the Buddha	SN42.9
 famine	Buddha’s compassion for families during	SN42.9
 compassion (anukampā)	Buddha’s compassion for families during famine	SN42.9
 almsfood	offering never leads to ruin of families	SN42.9
+poverty	giving never cause of	SN42.9
 family	causes for ruin of	SN42.9
 giving (dāna)	leads to wealth	SN42.9
+giving (dāna)	poverty never result	SN42.9
 Buddha, the	criticizing	SN42.9
 Maṇicūḷaka, chief	asking about monastics and money	SN42.10
 gold and money (jātarūparajata)	monastics not permitted	SN42.10
@@ -20351,3 +20360,64 @@ Buddha, the	knowing path to Brahmā	DN13:31.0
 conch blowers	simile for spreading brahmaviharas	DN13:40-75.0
 brahmaviharas	like conch blower	DN13:40-75.0
 brahmaviharas	path to Brahmā	DN13:40-75.0
+recitation of monastic code (pātimokkha)		xref monastic rules (pātimokkha)
+monastic rules (pātimokkha)		xref recitation of monastic code (pātimokkha)
+past lives	previous Buddhas	DN14:1.0
+Vipassī, Buddha	biogragraphical information	DN14:1.0
+Sikhī, Buddha	biogragraphical information	DN14:1.0
+Vessabhū, Buddha	biogragraphical information	DN14:1.0
+Kakusandha, Buddha	biogragraphical information	DN14:1.0
+Koṇāgamana, Buddha	biogragraphical information	DN14:1.0
+Kassapa, Buddha	biogragraphical information	DN14:1.0
+Buddha, the	biogragraphical information	DN14:1.0
+Buddhas	biogragraphical information	DN14:1.0
+khattiyas	Buddhas who were	DN14:1.0
+brahmins	Buddhas who were	DN14:1.0
+lifespans	of previous Buddhas	DN14:1.0
+Bodhi Tree	of previous Buddhas	DN14:1.0
+chief disciples (sāvakayuga)	of previous Buddhas	DN14:1.0
+assemblies	of previous Buddhas	DN14:1.0
+attendants	of previous Buddhas	DN14:1.0
+parents	of previous Buddhas	DN14:1.0
+city (nagara)	of previous Buddhas	DN14:1.0
+Buddha, the	knowing Buddhas of the past	DN14:1.0
+bodhisattas	characteristics, behaviours	DN14:1.17.0
+Tusita heaven	bodhisattas place in	DN14:1.17.0
+light	spreading through the universe	DN14:1.17.0
+bodhisattas	mothers of	DN14:1.17.0
+mothers	of bodhisattas	DN14:1.17.0
+gems	simile for bodhisattas	DN14:1.17.0
+birth	of bodhisattas	DN14:1.17.0
+marks of a great man	appearing on Vipassī Buddha	DN14:1.31.0
+brahmins	soothsayers examining bodhisattas	DN14:1.31.0
+blinking	Tavatiṁsa gods don’t	DN14:1.33.8.0
+divine eye (dibbacakkhu)	Vipassī possessing at birth	DN14:1.33.8.0
+judging	Vipassī bodhisatta helping father judge	DN14:1.33.8.0
+palaces (pāsādā)	Bodhisatta’s three	DN14:1.33.8.0
+old person	as divine messenger	DN14:2.1.0
+old person	Vipassī bodhisatta seeing	DN14:2.1.0
+sick person	as divine messenger	DN14:2.4.0
+sick person	Vipassī bodhisatta seeing	DN14:2.4.0
+corpse	as divine messenger	DN14:2.8.0
+corpse	Vipassī bodhisatta seeing	DN14:2.8.0
+monastics	as divine messenger	DN14:2.12.0
+monastics	Vipassī bodhisatta seeing	DN14:2.12.0
+going forth (pabbajja)	84,000 go forth with Vipassī bodhisatta	DN14:2.16.0
+dependent origination	Vipassī Buddha	DN14:2.18.0
+aggregates	Vipassī Buddha	DN14:2.18.0
+Vipassī, Buddha	enlightenment of	DN14:2.18.0
+Vipassī, Buddha	reluctant to teach	DN14:3.1.0
+Mahābrahmā, the Great Brahmā	encourages Vipassī Buddha to teach	DN14:3.1.0
+lotuses	simile for different people’s ability to understand Dhamma	DN14:3.1.0
+mountains	person standing on, simile for Buddha	DN14:3.1.0
+gradual instruction (anupubba katha)	by Vipassī Buddha	DN14:3.1.0
+Great Commission, the	Vipassī Buddha sends monks out to teach	DN14:3.22.0
+recitation of monastic code (pātimokkha)	Vipassī Buddha’s	DN14:3.22.0
+Dhamma	in brief	DN14:3.22.0
+patience (khanti)	as austerity	DN14:3.22.0
+mortification (tapas)	patience is highest	DN14:3.22.0
+nibbāna	supreme	DN14:3.22.0
+ascetics (samaṇa)	does not harm another	DN14:3.22.0
+monastic rules (pātimokkha)	restraint	DN14:3.22.0
+pure abodes (suddhāvāsā)	Buddha visiting	DN14:3.29.0
+pure abodes (suddhāvāsā)	gods who lived under previous Buddhas	DN14:3.29.0
