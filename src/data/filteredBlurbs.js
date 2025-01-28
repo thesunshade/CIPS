@@ -3275,5 +3275,6 @@ export const filteredBlurbs ={
      "dn10": "Shortly after the Buddha’s death, Venerable Ānanda is invited to explain the core teachings.",
      "dn11": "The Buddha refuses to perform miracles, explaining that this is not the right way to inspire faith. He goes on to tell the story of a monk whose misguided quest for answers led him as far as Brahmā.",
      "dn12": "A brahmin has fallen into the idea that there is no point in trying to offer spiritual help to others. The Buddha goes to see him, and persuades him of the genuine benefits of spiritual teaching.",
-     "dn14": "The Buddha teaches about the six Buddhas of the past, and tells a lengthy account of one of those, Vipassī."
+     "dn14": "The Buddha teaches about the six Buddhas of the past, and tells a lengthy account of one of those, Vipassī.",
+     "dn15": "Rejecting Venerable Ānanda’s claim to easily understand dependent origination, the Buddha presents a complex and demanding analysis, revealing hidden nuances and implications of this central teaching."
 }
