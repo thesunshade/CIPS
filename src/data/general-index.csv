@@ -11137,10 +11137,13 @@ wholesome chain of causality	inspiration to concentration	AN6.10
 principles of cordiality (dhammā sāraṇīyā)	definition	AN6.11
 harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	AN6.11
 monastic rules (vinaya)	principles of cordiality	AN6.11
+right view	as principle of cordiality	AN6.11
+loving-kindness (mettā)	as principle of cordiality	AN6.11
 loving-kindness (mettā)	as principle of cordiality	AN6.12
 principles of cordiality (dhammā sāraṇīyā)	definition	AN6.12
 harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	AN6.12
 monastic rules (vinaya)	principles of cordiality	AN6.12
+right view	as principle of cordiality	AN6.12
 loving-kindness (mettā)	liberation of mind by	AN6.13
 escape (nissaraṇa)	elements of	AN6.13
 heart’s release by loving-kindness (mettā cetovimutti) 	cause for giving up ill will	AN6.13
@@ -11675,6 +11678,7 @@ arahants	protecting leads to growth	AN7.21
 growth	principles that lead to	AN7.21
 society	principles that lead to growth	AN7.21
 Ajātasattu	wanting to invade Vajjis	AN7.22
+Vassakāra, brahmin	asking about invading Vajjis	AN7.22
 harmony (samagga)	leads to growth	AN7.22
 respect (gārava)	leads to growth	AN7.22
 tradition (vaṁsa)	leads to growth	AN7.22
@@ -11683,16 +11687,21 @@ sexual misconduct	leads to decline in a society	AN7.22
 arahants	protecting leads to growth	AN7.22
 growth	principles that lead to	AN7.22
 society	principles that lead to growth	AN7.22
+women	not abducting	AN7.22
+respect (gārava)	for elders	AN7.22
 harmony in Saṅgha (saṅghasāmaggī)	leads to growth	AN7.23
+meetings (sannipāta)	frequent leads to growth	AN7.23
 respect (gārava)	leads to growth	AN7.23
 monastic rules (vinaya)	not abolishing or creating	AN7.23
 craving for existence (bhavataṇhā)	prevents growth	AN7.23
+mindfulness (sati)	leads to growth	AN7.23
 wilderness (arañña)	living in leads to growth	AN7.23
 work	relishing prevents growth	AN7.24
 socializing	relishing prevents growth	AN7.24
 sleep	relishing prevents growth	AN7.24
 evil wishes (pāpiccha)	prevents growth	AN7.24
 friends, bad	prevents growth	AN7.24
+contentment	with partial attainments	AN7.24
 faith (saddhā)	prevents decline	AN7.25
 conscience and prudence (hiri ottappa)	prevents decline	AN7.25
 learning	prevents decline	AN7.25
@@ -19657,6 +19666,13 @@ lay life	wish to be reborn in heaven	SN55.7
 sense pleasures, five	enjoying and rebirth in heaven	SN55.7
 Dhamma teaching	that applies to oneself	SN55.7
 golden rule motif	wrong action and wrong speech	SN55.7
+killing	golden rule	SN55.7
+stealing	golden rule	SN55.7
+sexual misconduct	golden rule	SN55.7
+lying	golden rule	SN55.7
+divisive speech	golden rule	SN55.7
+harsh speech	golden rule	SN55.7
+useless speech (samphappalāpa)	golden rule	SN55.7
 reflection (paṭisañcikkhati)	how we like to be treated	SN55.7
 right action (sammā kammanta)	reflecting on how we like to be treated	SN55.7
 right speech (sammā vācā)	reflecting on how we like to be treated	SN55.7
@@ -20362,8 +20378,8 @@ Buddha, the	knowing path to Brahmā	DN13:31.0
 conch blowers	simile for spreading brahmaviharas	DN13:40-75.0
 brahmaviharas	like conch blower	DN13:40-75.0
 brahmaviharas	path to Brahmā	DN13:40-75.0
-recitation of monastic code (pātimokkha)		xref monastic rules (pātimokkha)
-monastic rules (pātimokkha)		xref recitation of monastic code (pātimokkha)
+recitation of monastic code (pātimokkha)	 	xref monastic rules (pātimokkha)
+monastic rules (pātimokkha)	 	xref recitation of monastic code (pātimokkha)
 past lives	previous Buddhas	DN14:1.0
 Vipassī, Buddha	biogragraphical information	DN14:1.0
 Sikhī, Buddha	biogragraphical information	DN14:1.0
@@ -20451,6 +20467,7 @@ grasping (upādāna)	none anywhere	DN15:1.0
 craving (taṇha)	none anywhere	DN15:1.0
 feelings (vedanā)	none anywhere	DN15:1.0
 unwholesome chain of causality	feeling to safeguarding	DN15:1.0
+wholesome chain of causality	no seeking to no birth	DN15:1.0
 searches (esana, pariyesanā)	caused by craving	DN15:1.0
 searches (esana, pariyesanā)	cause of gaining material possessions 	DN15:1.0
 gain (lābha)	caused by searches	DN15:1.0
@@ -20506,3 +20523,52 @@ dimension of neither perception nor non-perception (nevasaññanāsaññāyatana
 liberations, eight (vimokkha)	definition	DN15:35.0
 beauty (subha)	focused on, liberation	DN15:35.0
 one freed both ways (ubhatobhāgavimutta)	eight liberations	DN15:35.0
+Ajātasattu	wanting to invade Vajjis	DN16
+Vassakāra, brahmin	asking about invading Vajjis	DN16
+harmony (samagga)	leads to growth	DN16:1.4.0
+respect (gārava)	leads to growth	DN16:1.4.0
+tradition (vaṁsa)	leads to growth	DN16:1.4.0
+shrines (cetiya)	venerating	DN16:1.4.0
+sexual misconduct	leads to decline in a society	DN16:1.4.0
+arahants	protecting leads to growth	DN16:1.4.0
+growth	principles that lead to	DN16:1.4.0
+society	principles that lead to growth	DN16:1.4.0
+women	not abducting	DN16:1.4.0
+respect (gārava)	for elders	DN16:1.4.0
+harmony in Saṅgha (saṅghasāmaggī)	leads to growth	DN16:1.6.0
+meetings (sannipāta)	frequent leads to growth	DN16:1.6.0
+respect (gārava)	leads to growth	DN16:1.6.0
+monastic rules (vinaya)	not abolishing or creating	DN16:1.6.0
+craving for existence (bhavataṇhā)	prevents growth	DN16:1.6.0
+mindfulness (sati)	leads to growth	DN16:1.6.0
+wilderness (arañña)	living in leads to growth	DN16:1.6.0
+work	relishing prevents growth	DN16:1.6.0
+socializing	relishing prevents growth	DN16:1.6.0
+sleep	relishing prevents growth	DN16:1.6.0
+evil wishes (pāpiccha)	prevents growth	DN16:1.6.0
+friends, bad	prevents growth	DN16:1.6.0
+contentment	with partial attainments	DN16:1.6.0
+faith (saddhā)	prevents decline	DN16:1.6.0
+conscience and prudence (hiri ottappa)	prevents decline	DN16:1.6.0
+learning	prevents decline	DN16:1.6.0
+energy (vīriya)	prevents decline	DN16:1.6.0
+mindfulness (sati)	prevents decline	DN16:1.6.0
+wisdom (paññā)	prevents decline	DN16:1.6.0
+awakening factors, seven (bojjhaṅga)	prevent decline	DN16:1.6.0
+perception of impermanence (aniccasaññā)	prevent decline	DN16:1.6.0
+perception of not self (anattasaññā)	prevent decline	DN16:1.6.0
+perception of ugliness (asubhasaññā)	prevent decline	DN16:1.6.0
+perception of danger/drawback (ādīnavasaññā)	prevent decline	DN16:1.6.0
+perception of giving up (pahānasaññā)	prevent decline	DN16:1.6.0
+perception of fading away (virāgasaññā)	prevent decline	DN16:1.6.0
+perception of cessation (nirodhasaññā)	prevent decline	DN16:1.6.0
+principles of cordiality (dhammā sāraṇīyā)	definition	DN16:1.6.0
+harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	DN16:1.6.0
+monastic rules (vinaya)	principles of cordiality	DN16:1.6.0
+right view	as principle of cordiality	DN16:1.6.0
+loving-kindness (mettā)	as principle of cordiality	DN16:1.6.0
+concentration (samādhi)	virtue, imbued with	DN16:1.6.0
+virtue (sīla)	concentration, imbuing	DN16:1.6.0
+wisdom (paññā)	concentration, imbued with	DN16:1.6.0
+concentration (samādhi)	wisdom, imbuing	DN16:1.6.0
+taints (āsava)	ended by mind imbued with wisdom	DN16:1.6.0
