@@ -2720,6 +2720,9 @@ Buddha, the	illness of	Ud8.5
 Buddha, the	psychic powers	Ud8.5
 almsfood	most beneficial	Ud8.5
 virtue (sīla)	benefits of	Ud8.6
+devas	living in human houses	Ud8.6
+appreciating (anumodati)	after meal	Ud8.6
+devas	offerings to	Ud8.6
 Buddha, the	psychic powers	Ud8.6
 Buddha, the	attendants	Ud8.7
 death (maraṇa)	of relative	Ud8.8
@@ -5555,7 +5558,8 @@ noble disciple (ariya sāvaka)	knows proper practice	MN46
 observances (samādāna)	for ways of, painful/pleasant	MN46
 results of actions	rebirth	MN46
 pain (dukkha)	actions done in pain and sadness	MN46
-actions	done in pain and sadness	MN46
+actions	 	xref observances (samādāna)
+observances (samādāna)	done in pain and sadness	MN46
 bad actions	done in pain and sadness	MN46
 bad actions	done with pleasure and happiness	MN46
 good actions	done in pain and sadness	MN46
@@ -12638,7 +12642,6 @@ dimension of neither perception nor non-perception (nevasaññanāsaññāyatana
 cessation of perception and feeling (saññāvedayitanirodha)	liberations	AN8.66
 lying	eight expressions	AN8.67
 speech	declarations	AN8.68
-speech	declarations	AN8.69
 speaking truth	eight expressions	AN8.68
 assemblies	eight kinds	AN8.69
 Buddha, the	approaching different assemblies	AN8.69
@@ -12658,6 +12661,11 @@ Buddha, the	surrenders life force	AN8.70
 Cāpāla Tree-shrine	Buddha surrenders life force	AN8.70
 earthquakes	associated with events in Buddha’s life	AN8.70
 earthquakes	causes for	AN8.70
+bodhisattas	birth of causes earthquake	AN8.70
+Buddhas	enlightenment of causes earthquake	AN8.70
+wheel of Dhamma	turning cause of earthquake	AN8.70
+Buddhas	death of causes earthquake	AN8.70
+Buddhas	surrendering life force causes earthquake	AN8.70
 wheel of Dhamma	Buddha starts rolling	AN8.70
 unsatisfied	should not be satisfied with partial attainment	AN8.71
 faith (saddhā)	not enough just to have	AN8.71
@@ -15202,7 +15210,7 @@ world (loka)	arisen in six	SN1.70
 killing	anger should be killed	SN1.71
 anger (kodha)	should be killed	SN1.71
 anger (kodha)	poisoned tip, honey root	SN1.71
-honey	root of anger	SN1.71
+honey	simile for anger	SN1.71
 poisons	tip of anger	SN1.71
 husbands	token of woman	SN1.72
 women	husband is token of	SN1.72
@@ -15247,7 +15255,7 @@ meditator	should know arising and passing	SN2.2
 killing	anger should be killed	SN2.3
 anger (kodha)	should be killed	SN2.3
 anger (kodha)	poisoned tip, honey root	SN2.3
-honey	root of anger	SN2.3
+honey	simile for anger	SN2.3
 poisons	tip of anger	SN2.3
 Māgha, devaputta	anger 	SN2.3
 Buddha, the	best of lights	SN2.4
@@ -15729,7 +15737,7 @@ exclamations	Namo tassa bhagavato…	SN7.1
 killing	anger should be killed	SN7.1
 anger (kodha)	should be killed	SN7.1
 anger (kodha)	poisoned tip, honey root	SN7.1
-honey	root of anger	SN7.1
+honey	simile for anger	SN7.1
 poisons	tip of anger	SN7.1
 insulting (akkosa)	brahmin with name	SN7.2
 insulting (akkosa)	Buddha	SN7.2
@@ -16034,7 +16042,7 @@ worshiping (namassati)	gods worshiping Buddhists	SN11.20
 killing	anger should be killed	SN11.21
 anger (kodha)	should be killed	SN11.21
 anger (kodha)	poisoned tip, honey root	SN11.21
-honey	root of anger	SN11.21
+honey	simile for anger	SN11.21
 poisons	tip of anger	SN11.21
 yakkhas	sitting on Sakkha’s throne	SN11.22
 anger (kodha)	anger eating yakkha	SN11.22
@@ -19077,6 +19085,7 @@ foundations of mindfulness, four (satipaṭṭhāna)	sign (nimitta) of the mind	
 happiness in the present life (diṭṭhadhammasukhavihāra)	foundations of mindfulness	SN47.8
 foundations of mindfulness, four (satipaṭṭhāna)	happiness in present life	SN47.8
 Buddha, the	illness of	SN47.9
+rains residence (vassāvāsa)	of the Buddha	SN47.9
 intention to live (jīvitasaṅkhāra)	Buddha maintains to prevent passing away	SN47.9
 Ānanda, Ven.	upset when Buddha was sick	SN47.9
 hands	Buddha is open-handed	SN47.9
@@ -19430,9 +19439,13 @@ Buddha, the	enlightenment, iddhipāda	SN51.9
 Ānanda, Ven.	not asking Buddha to continue to live	SN51.10
 shrines (cetiya)	beauty of	SN51.10
 bases of psychic power (iddhipāda)	one who has developed could live for an eon	SN51.10
+hint (obhāsa)	Buddha giving to Ānanda	SN51.10
+Ānanda, Ven.	not getting Buddha’s hint	SN51.10
 eon (kappa)	one who has developed bases of psychic powers could live for	SN51.10
 Māra	encouraging Buddha to attain parinibbāna	SN51.10
 disciples of the Buddha	Buddha would not pass away until he had	SN51.10
+laypeople	as teachers	SN51.10
+Dhamma	popular and widespread	SN51.10
 learned (bahussutā)	Buddha would not pass away until he had learned disciples	SN51.10
 bhikkhunīs	Buddha would not pass away until he had learned bhikkhunīs	SN51.10
 lay follower (upāsaka, upāsikā)	Buddha would not pass away until he had learned disciples	SN51.10
@@ -20596,3 +20609,68 @@ wealth	gained by virtuous behavior	DN16:1.24.0
 reputation	good reputation gained through virtuous behavior	DN16:1.24.0
 good rebirth (sugati)	gained by virtuous behavior	DN16:1.24.0
 accomplishment in virtue (sīlasampadā)	benefits of	DN16:1.24.0
+devas	living in human houses	DN16:1.26.0
+appreciating (anumodati)	after meal	DN16:1.26.0
+devas	offerings to	DN16:1.26.0
+Buddha, the	psychic powers	DN16:1.26.0
+four noble truths	not truly seeing causes rebirth	DN16:2.1.0
+suffering (dukkha)	root cut off	DN16:2.1.0
+Sāḷha, Ven.	Buddha declares attainment	DN16:2.5.0
+Nandā, Ven.	Buddha declares attainment	DN16:2.5.0
+Sudatta, householder	Buddha declares attainment	DN16:2.5.0
+Sujātā, householder	Buddha declares attainment	DN16:2.5.0
+bhikkhunīs	Buddha declaring attainments of 	DN16:2.5.0
+Mirror of Dhamma	definition	DN16:2.5.0
+factors of stream-entry	Mirror of Dhamma	DN16:2.5.0
+Buddha, the	declaring rebirth of individuals 	DN16:2.5.0
+Buddha, the	declaring attainments of individuals 	DN16:2.5.0
+questions, asking	about disciples’ attainments	DN16:2.5.0
+stream-enterers (sotāpanna)	declarations of, how to make 	DN16:2.5.0
+non-returner (anāgāmi)	examples of	DN16:2.5.0
+bhikkhunīs	non-returner	DN16:2.5.0
+mindfulness and clear comprehension (satisampajañña)	definition	DN16:2.8.0
+Ambapālī	inviting Buddha to a meal	DN16:2.14.0
+Ambapālī	offering Mango Grove	DN16:2.14.0
+gods of the Thirty-Three (tāvatiṁsā devā)	compared to Licchavis	DN16:2.14.0
+Licchavis	compared to the gods of the Thirty-Three	DN16:2.14.0
+rains residence (vassāvāsa)	of the Buddha	DN16:2.21.0
+Buddha, the	illness of	DN16:2.21.0
+intention to live (jīvitasaṅkhāra)	Buddha maintains to prevent passing away	DN16:2.21.0
+Ānanda, Ven.	upset when Buddha was sick	DN16:2.21.0
+hands	Buddha is open-handed	DN16:2.21.0
+secrets	Buddha has no secret teachings	DN16:2.21.0
+Buddha, the	eighty years old	DN16:2.21.0
+carts	old held together with straps, simile for Buddha in old age	DN16:2.21.0
+old age	Buddha experiencing	DN16:2.21.0
+body	old, like cart held together with straps	DN16:2.21.0
+signless immersion of the heart (animittaṁ cetosamādhi)	Buddha finds comfort in	DN16:2.21.0
+islands	let the teaching be your	DN16:2.21.0
+Dhamma	as island	DN16:2.21.0
+refuges	live as your own	DN16:2.21.0
+refuges	teaching as	DN16:2.21.0
+foundations of mindfulness, four (satipaṭṭhāna)	as island and refuge	DN16:2.21.0
+shrines (cetiya)	beauty of	DN16:3.1.0
+bases of psychic power (iddhipāda)	one who has developed could live for an eon	DN16:3.1.0
+hint (obhāsa)	Buddha giving to Ānanda	DN16:3.1.0
+Ānanda, Ven.	not getting Buddha’s hint	DN16:3.1.0
+eon (kappa)	one who has developed bases of psychic powers could live for	DN16:3.1.0
+Māra	encouraging Buddha to attain parinibbāna	DN16:3.7.0
+disciples of the Buddha	Buddha would not pass away until he had	DN16:3.7.0
+laypeople	as teachers	DN16:3.7.0
+Dhamma	popular and widespread	DN16:3.7.0
+learned (bahussutā)	Buddha would not pass away until he had learned disciples	DN16:3.7.0
+bhikkhunīs	Buddha would not pass away until he had learned bhikkhunīs	DN16:3.7.0
+lay follower (upāsaka, upāsikā)	Buddha would not pass away until he had learned disciples	DN16:3.7.0
+life force (āyusaṅkhāra)	surrendering of	DN16:3.10.0
+Buddha, the	surrenders life force	DN16:3.10.0
+Cāpāla Tree-shrine	Buddha surrenders life force	DN16:3.10.0
+earthquakes	associated with events in Buddha’s life	DN16:3.11.0
+bodhisattas	birth of causes earthquake	DN16:3.11.0
+Buddhas	enlightenment of causes earthquake	DN16:3.11.0
+wheel of Dhamma	turning cause of earthquake	DN16:3.11.0
+Buddhas	death of causes earthquake	DN16:3.11.0
+Buddhas	surrendering life force causes earthquake	DN16:3.11.0
+assemblies	eight kinds	DN16:3.21.0
+Buddha, the	approaching different assemblies	DN16:3.21.0
+Buddha, the	psychic powers	DN16:3.21.0
+Buddha, the	teaching different groups	DN16:3.21.0
