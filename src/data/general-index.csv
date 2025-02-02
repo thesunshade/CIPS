@@ -2336,7 +2336,8 @@ noble eightfold path (ariya aṭṭhangika magga)	as essential	Dhp274
 self-reliance	Buddhas only show the way	Dhp276
 Buddhas	only show the way	Dhp276
 impermanence	all conditioned things are	Dhp277
-conditions (saṅkāra)	all are impermanent	Dhp278
+conditions (saṅkāra)	all are impermanent	Dhp277
+conditions (saṅkāra)	all are suffering	Dhp278
 suffering (dukkha)	all conditioned things are	Dhp278
 not-self	all things are	Dhp279
 laziness (kosajja)	cannot see path	Dhp280
@@ -2716,9 +2717,13 @@ escape (nissaraṇa)	from the born	Ud8.3
 nibbāna	Dhamma talk on	Ud8.4
 wholesome chain of causality	independence to no passing away	Ud8.4
 Buddha, the	last meal	Ud8.5
+Cunda the smith	Buddha’s last meal	Ud8.5
 Buddha, the	illness of	Ud8.5
 Buddha, the	psychic powers	Ud8.5
 almsfood	most beneficial	Ud8.5
+pork	fed to Buddha	Ud8.5
+Cunda the smith	should not feel remorse	Ud8.5
+regret (vippaṭisāra)	dispelling Cunda the smith’s	Ud8.5
 virtue (sīla)	benefits of	Ud8.6
 devas	living in human houses	Ud8.6
 appreciating (anumodati)	after meal	Ud8.6
@@ -5628,6 +5633,7 @@ Great Hell (mahāniraya)	description of	MN50
 wardens of hell (nirayapāla)	talking to person in hell	MN50
 hell (niraya)	torture in	MN50
 hell (niraya)	having head of a fish	MN50
+elephant look	Kakusandha Buddha looks at Māra	MN50
 heavenly mansions (vimāna)	Ven. Moggallāna can see	MN50
 Palace of Migara’s Mother	Ven. Moggallāna shaking with toe	MN50
 Palace of Victory	Ven. Moggallāna shaking with toe	MN50
@@ -6563,7 +6569,9 @@ noble eightfold path (ariya aṭṭhangika magga)	why disciples respect the Budd
 liberations, eight (vimokkha)	why disciples respect the Buddha	MN77
 liberations, eight (vimokkha)	definition	MN77
 bases of overcoming (abhibhāyatana)	why disciples respect the Buddha	MN77
+meditation	 	xref bases of overcoming (abhibhāyatana)
 bases of overcoming (abhibhāyatana)	definition	MN77
+form (rūpa)	perceiving in meditation	MN77
 flowers	flax etc., simile for visions in meditation	MN77
 stars	morning, simile for visions in meditation	MN77
 kasiṇas	ten	MN77
@@ -20674,3 +20682,49 @@ assemblies	eight kinds	DN16:3.21.0
 Buddha, the	approaching different assemblies	DN16:3.21.0
 Buddha, the	psychic powers	DN16:3.21.0
 Buddha, the	teaching different groups	DN16:3.21.0
+bases of overcoming (abhibhāyatana)	definition	DN16:3.24.0
+form (rūpa)	perceiving in meditation	DN16:3.24.0
+flowers	flax etc., simile for visions in meditation	DN16:3.24.0
+stars	morning, simile for visions in meditation	DN16:3.24.0
+formless attainments	 	xref liberations, eight (vimokkha)
+liberations, eight (vimokkha)	 	xref formless attainments
+liberations, eight (vimokkha)	definition	DN16:3.33.0
+Ānanda, Ven.	blamed by Buddha	DN16:3.38.0
+loved ones	must be separated from	DN16:3.38.0
+bodhipakkhiyā dhammā	for the benefit of the world	DN16:3.38.0
+heedfulness (appamāda)	Buddha’s admonishment to be	DN16:3.38.0
+conditions (saṅkāra)	liable to fall apart	DN16:3.38.0
+Buddha, the	announces passing away in three months	DN16:3.38.0
+elephant look	Buddha looking at Vesālī	DN16:4.1.0
+Dhamma	how to evaluate what is and what isn’t	DN16:4.5.0
+great references (mahāpadesa)	what is and is not Dhamma	DN16:4.5.0
+Buddha, the	last meal	DN16:4.13.0
+Cunda the smith	Buddha’s last meal	DN16:4.13.0
+Buddha, the	illness of	DN16:4.13.0
+Buddha, the	psychic powers	DN16:4.13.0
+almsfood	most beneficial	DN16:4.13.0
+pork	fed to Buddha	DN16:4.13.0
+water	cloudy becoming clear for the Buddha	DN16:4.21.0
+Āḷāra Kālāma	meditating despite noise	DN16:4.26.0
+Buddha, the	meditating despite noise	DN16:4.26.0
+robes	offered to Buddha	DN16:4.26.0
+Buddha, the	skin brightens on two occasions	DN16:4.26.0
+Cunda the smith	should not feel remorse	DN16:4.26.0
+almsfood	most beneficial	DN16:4.26.0
+regret (vippaṭisāra)	dispelling Cunda the smith’s	DN16:4.26.0
+sal trees	Buddha’s passing away	DN16:5.1.0
+coral tree (pārichattaka)	flowers of at time of Buddha’s passing	DN16:5.1.0
+respect (gārava)	for Buddha, how to show highest	DN16:5.1.0
+Upavāṇa, Ven.	blocking view of devas	DN16:5.4.0
+devas	visiting Buddha at passing away	DN16:5.4.0
+devas	free from desire	DN16:5.4.0
+inspiration	four places	DN16:5.7.0
+pilgrimage	to four places	DN16:5.7.0
+pilgrimage	dying on	DN16:5.7.0
+Buddha, the	places significant in life of	DN16:5.7.0
+good rebirth (sugati)	dying on pilgrimage	DN16:5.7.0
+Ānanda, Ven.	asking questions before Buddha’s passing	DN16:5.9.0
+women	how monks should act around	DN16:5.9.0
+corpse	how Buddha’s should be treated	DN16:5.9.0
+wheel-turning monarchs	corpse, how one should be treated	DN16:5.9.0
+cremation	of wheel-turning monarch	DN16:5.9.0
