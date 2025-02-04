@@ -242,7 +242,16 @@ function handleKeyboardNavigation(e) {
   }
 }
 
-searchBox.addEventListener("input", () => renderResults({ query: searchBox.value, firstOnly: false }));
+let debounceTimer;
+
+searchBox.addEventListener("input", () => {
+  clearTimeout(debounceTimer); // Reset the timer on each input event
+
+  debounceTimer = setTimeout(() => {
+    renderResults({ query: searchBox.value, firstOnly: false });
+  }, 300); // Adjust delay (in milliseconds) as needed
+});
+
 searchBox.addEventListener("keydown", handleKeyboardNavigation);
 
 document.addEventListener("keydown", e => {
