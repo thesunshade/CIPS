@@ -13,7 +13,7 @@ export default function createMdCitationCopyButton(link, name) {
   button.style.cursor = "pointer";
 
   const img = document.createElement("img");
-  img.src = "..\\public\\images\\copy-md.png";
+  img.src = "images/copy-md.png";
   img.alt = "Copy markdown link";
   img.style.height = "14px";
   img.style.position = "relative";
