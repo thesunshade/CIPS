@@ -4,6 +4,7 @@ import "./copyButtonVisibility.js";
 import "./themeScripts.js";
 import "./copyScripts.js";
 import makeNormalizedId from "../functionsBuilding/makeNormalizedId.js";
+import createMdCitationCopyButton from "./createMdCitationCopyButton.js";
 
 window.addEventListener("load", function () {
   // Hide the snackbar once the page has fully loaded
@@ -182,6 +183,11 @@ function createResultSuttaName(item, query, firstOnly) {
   link.setAttribute("data-id", id);
   // Append the link to the result item
   resultItem.appendChild(link);
+
+  const scLink = `https://suttacentral.net/${id}/en/sujato`;
+  const name = highlightedItem;
+
+  resultItem.appendChild(createMdCitationCopyButton(scLink, name));
 
   resultsContainer.appendChild(resultItem);
 }
