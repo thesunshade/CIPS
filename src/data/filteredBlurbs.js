@@ -3277,5 +3277,7 @@ export const filteredBlurbs ={
      "dn12": "A brahmin has fallen into the idea that there is no point in trying to offer spiritual help to others. The Buddha goes to see him, and persuades him of the genuine benefits of spiritual teaching.",
      "dn14": "The Buddha teaches about the six Buddhas of the past, and tells a lengthy account of one of those, Vipassī.",
      "dn15": "Rejecting Venerable Ānanda’s claim to easily understand dependent origination, the Buddha presents a complex and demanding analysis, revealing hidden nuances and implications of this central teaching.",
-     "dn16": "The longest of all discourses, this extended narrative tells of the events surrounding the Buddha’s death. Full of vivid and moving details, it is an ideal entry point into knowing the Buddha as a person, and understanding how the Buddhist community coped with his passing."
+     "dn16": "The longest of all discourses, this extended narrative tells of the events surrounding the Buddha’s death. Full of vivid and moving details, it is an ideal entry point into knowing the Buddha as a person, and understanding how the Buddhist community coped with his passing.",
+     "dn17": "An elaborate story of a past life of the Buddha as a legendary king who renounced all to practice meditation.",
+     "dn18": "Beginning with an account of the fates of disciples who had recently passed away, the scene shifts to a discussion of Dhamma held by the gods."
 }
