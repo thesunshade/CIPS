@@ -3279,5 +3279,6 @@ export const filteredBlurbs ={
      "dn15": "Rejecting Venerable Ānanda’s claim to easily understand dependent origination, the Buddha presents a complex and demanding analysis, revealing hidden nuances and implications of this central teaching.",
      "dn16": "The longest of all discourses, this extended narrative tells of the events surrounding the Buddha’s death. Full of vivid and moving details, it is an ideal entry point into knowing the Buddha as a person, and understanding how the Buddhist community coped with his passing.",
      "dn17": "An elaborate story of a past life of the Buddha as a legendary king who renounced all to practice meditation.",
-     "dn18": "Beginning with an account of the fates of disciples who had recently passed away, the scene shifts to a discussion of Dhamma held by the gods."
+     "dn18": "Beginning with an account of the fates of disciples who had recently passed away, the scene shifts to a discussion of Dhamma held by the gods.",
+     "dn19": "A minor deity informs the Buddha of the conversations and business of the gods."
 }
