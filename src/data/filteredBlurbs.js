@@ -3281,5 +3281,6 @@ export const filteredBlurbs ={
      "dn17": "An elaborate story of a past life of the Buddha as a legendary king who renounced all to practice meditation.",
      "dn18": "Beginning with an account of the fates of disciples who had recently passed away, the scene shifts to a discussion of Dhamma held by the gods.",
      "dn19": "A minor deity informs the Buddha of the conversations and business of the gods.",
-     "dn20": "When deities from all realms gather in homage to the Buddha, he gives a series of verses describing them. These verses, which are commonly chanted in Theravadin countries, give one of the most detailed descriptions of the deities worshiped at the the time of the Buddha."
+     "dn20": "When deities from all realms gather in homage to the Buddha, he gives a series of verses describing them. These verses, which are commonly chanted in Theravadin countries, give one of the most detailed descriptions of the deities worshiped at the the time of the Buddha.",
+     "dn21": "After hearing a love song from a god of music, the Buddha engages in a deep discussion with Sakka on the conditioned origin of attachment and suffering."
 }
