@@ -249,7 +249,7 @@ searchBox.addEventListener("input", () => {
 
   debounceTimer = setTimeout(() => {
     renderResults({ query: searchBox.value, firstOnly: false });
-  }, 300); // Adjust delay (in milliseconds) as needed
+  }, 200); // Adjust delay (in milliseconds) as needed
 });
 
 searchBox.addEventListener("keydown", handleKeyboardNavigation);
