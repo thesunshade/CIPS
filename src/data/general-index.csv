@@ -2924,7 +2924,7 @@ residue remaining, with (saupādisesa)	nibbāna element	Iti44
 wakefulness (jāgara)	leads to enlightenment	Iti47
 celibacy	false claim of	Iti48
 mendicants	evil	Iti48
-iron balls	eating	Iti48
+balls of iron	eating	Iti48
 existence	love of	Iti49
 existence	disgust with	Iti49
 results of actions	harming oneself	Iti50
@@ -3014,7 +3014,7 @@ monastic life	goal of	Iti91
 monastic life	poorly lived like firebrand	Iti91
 firebrand	simile for poorly lived monastic life	Iti91
 alms gathering practice	difficult	Iti91
-iron balls	eating	Iti91
+balls of iron	eating	Iti91
 sense pleasures (kāma, kāmaguṇa)	monastics coveting	Iti91
 Buddha, the	closeness to	Iti92
 Dhamma	seeing sees the Buddha	Iti92
@@ -4550,10 +4550,12 @@ eating	mindfulness of body	MN10
 urinating	mindfulness of body	MN10
 defecating	mindfulness of body	MN10
 situational awareness (sampajañña)	mindfulness of body	MN10
-perception of ugliness (asubhasaññā)	mindfulness of body	MN10
+perception of ugliness	mindfulness of body	MN10
 mindfulness of body (kāyānupassanā)	ugliness	MN10
 body	like a bag of grains	MN10
 body	thirty-two parts	MN10
+hair		xref body
+bones		xref body
 grains	bag of, simile for parts of body	MN10
 elements (dhātu)	mindfulness of body	MN10
 mindfulness of body (kāyānupassanā)	elements	MN10
@@ -19557,7 +19559,7 @@ body (kāya)	visiting brahmā world with physical body	SN51.22
 Buddha, the	visiting brahmā world	SN51.22
 incredible and amazing (acchariyā abbhutā)	Buddha’s psychic powers	SN51.22
 psychic powers (iddhi)	how they work	SN51.22
-iron balls	simile for body and psychic powers	SN51.22
+balls of iron	simile for body and psychic powers	SN51.22
 body (kāya)	lighter, like heated iron ball, cotton wool	SN51.22
 cotton wool (kappāsapicu, tūlapicu)	simile for body and psychic powers	SN51.22
 non-returner (anāgāmi)	through bases of psychic power	SN51.25
@@ -20904,3 +20906,176 @@ happiness (somanassa)	connected with rod and sword	DN21:1.8.0
 Sakka, Lord of Gods	qualities of	DN21:1.8.0
 “Namo tassa bhagavato…”	Sakka	DN21:1.8.0
 Sakka, Lord of Gods	asking questions	DN21:1.8.0
+one way path (ekāyano maggo)	foundations of mindfulness	DN22
+foundations of mindfulness, four (satipaṭṭhāna)	definition in detail	DN22
+mindfulness of body (kāyānupassanā)	definition	DN22:2.0.1
+keenness (ātāpi)	mindfulness	DN22
+situational awareness (sampajañña)	mindfulness	DN22
+covetousness (abhijjhā)	mindfulness removing	DN22
+sadness (domanassa)	mindfulness removing	DN22
+mindfulness of breathing (ānāpānassati)	mindfulness of body (kāyānupassanā)	DN22:2.0.1
+bodily formation (kāyasaṅkhāra)	mindfulness of breathing	DN22:2.0.1
+carpenters	simile for mindfulness of breathing	DN22:2.0.1
+mindfulness of breathing (ānāpānassati)	like carpenter making a cut	DN22:2.0.1
+internally (ajjhattaṁ)	mindfulness	DN22:2.0.1
+externally (bahiddha)	mindfulness	DN22:2.0.1
+postures	mindfulness of body	DN22:2.0.1
+eating	mindfulness of body	DN22:2.0.1
+urinating	mindfulness of body	DN22:2.0.1
+defecating	mindfulness of body	DN22:2.0.1
+situational awareness (sampajañña)	mindfulness of body	DN22:2.0.1
+perception of ugliness	mindfulness of body	DN22:2.0.1
+mindfulness of body (kāyānupassanā)	ugliness	DN22:2.0.1
+body	like a bag of grains	DN22:2.0.1
+body	thirty-two parts	DN22:2.0.1
+grains	bag of, simile for parts of body	DN22:2.0.1
+elements (dhātu)	mindfulness of body	DN22:2.0.1
+mindfulness of body (kāyānupassanā)	elements	DN22:2.0.1
+body	like cuts of meat	DN22:2.0.1
+meat	cuts of, simile for elements in body	DN22:2.0.1
+butchers	cuts of meat, simile for elements in body	DN22:2.0.1
+charnel ground contemplation (sivathikā)	mindfulness of body	DN22:2.0.1
+mindfulness of feeling (vedanānupassanā)	definition	DN22:11.0
+worldly (āmisa, sāmisa)	feelings	DN22:11.0
+spiritual (nirāmisa)	feelings	DN22:11.0
+feelings (vedanā)	as foundation of mindfulness	DN22:11.0
+feelings (vedanā)	contemplation of	DN22:11.0
+mindfulness of mind (cittānupassanā)	definition	DN22:12.0
+mind (citta)	as foundation of mindfulness	DN22:12.0
+mind (citta)	contemplation of	DN22:12.0
+greed, hatred, delusion	mind with	DN22:12.0
+mind (citta)	scattered or not scattered	DN22:12.0
+mind (citta)	expansive or unexpansive	DN22:12.0
+mind (citta)	supreme or not supreme	DN22:12.0
+mind (citta)	immersed or not in samadhi	DN22:12.0
+mind (citta)	freed or unfreed	DN22:12.0
+mind (citta)	with defilements	DN22:12.0
+mindfulness of mind objects (dhammānupassanā)	definition	DN22:13.0.1
+phenomena (dhamma)	contemplation of	DN22:13.0.1
+hindrances (nīvaraṇa)	understanding of	DN22:13.0.1
+aggregates (khandha)	understanding of arising and passing away	DN22:13.0.1
+faculties, sense (indriya)	understanding of arising and fulfillment	DN22:13.0.1
+awakening factors, seven (bojjhaṅga)	understanding of arising and passing away	DN22:13.0.1
+four noble truths	understanding of	DN22:13.0.1
+four noble truths	analysis of	DN22:13.0.1
+noble truth of suffering	analysis of	DN22:13.0.1
+noble truth of the origin of suffering	analysis of	DN22:13.0.1
+noble truth of the cessation of suffering	analysis of	DN22:13.0.1
+noble truth of the practice that leads to the cessation of suffering	analysis of	DN22:13.0.1
+birth (jāti)	as first noble truth	DN22:13.0.1
+old age (jarā)	as first noble truth	DN22:13.0.1
+death (maraṇa)	as first noble truth	DN22:13.0.1
+sorrow (soka)	as first noble truth	DN22:13.0.1
+lamentation (parideva)	as first noble truth	DN22:13.0.1
+suffering (dukkha)	as first noble truth	DN22:13.0.1
+sadness (domanassa)	as first noble truth	DN22:13.0.1
+distress (upāyāsa)	as first noble truth	DN22:13.0.1
+not getting what you wish for	as first noble truth	DN22:13.0.1
+association (sampayoga)	with disliked is suffering	DN22:13.0.1
+separation from the loved	is suffering	DN22:13.0.1
+birth (jāti)	definition	DN22:13.0.1
+aggregates (khandha)	definition of birth	DN22:13.0.1
+sense bases (āyatana)	definition of birth	DN22:13.0.1
+old age (jarā)	definition	DN22:13.0.1
+faculties (indriya)	definition of old age	DN22:13.0.1
+death (maraṇa)	definition	DN22:13.0.1
+aggregates (khandha)	definition of death	DN22:13.0.1
+faculty of life (jīvitindriya)	definition of death	DN22:13.0.1
+sorrow (soka)	definition	DN22:13.0.1
+lamentation (parideva)	definition	DN22:13.0.1
+suffering (dukkha)	definition	DN22:13.0.1
+sadness (domanassa)	definition	DN22:13.0.1
+distress (upāyāsa)	definition	DN22:13.0.1
+not getting what you wish for	as suffering: definition	DN22:13.0.1
+rebirth	wishing to not be reborn	DN22:13.0.1
+old age (jarā)	wishing not to grow old	DN22:13.0.1
+death (maraṇa)	wishing not to die	DN22:13.0.1
+wishing (iccha)	wishing not to die, etc. in first noble truth	DN22:13.0.1
+suffering (dukkha)	in brief, aggregates are suffering	DN22:13.0.1
+aggregates (khandha)	as suffering	DN22:13.0.1
+craving (taṇha)	as second noble truth	DN22:13.0.1
+delight (nandi)	in second noble truth	DN22:13.0.1
+lust (rāga)	in second noble truth	DN22:13.0.1
+craving for existence (bhavataṇhā)	in second noble truth	DN22:13.0.1
+craving for sensual pleasures (kāmataṇhā)	in second noble truth	DN22:13.0.1
+craving to end existence (vibhavataṇhā)	in second noble truth	DN22:13.0.1
+craving (taṇha)	sense bases	DN22:13.0.1
+ordinary person (puthujjana)	suffering of	DN22:13.0.1
+cessation (nirodha)	suffering	DN22:13.0.1
+cessation (nirodha)	as third noble truth	DN22:13.0.1
+noble eightfold path (ariya aṭṭhangika magga)	as fourth noble truth	DN22:13.0.1
+right view (sammā diṭṭhi)	definition	DN22:13.0.1
+right intention (sammā saṅkappa)	definition	DN22:13.0.1
+right action (sammā kammanta)	definition	DN22:13.0.1
+right livelihood (sammā ājīva)	definition	DN22:13.0.1
+right effort (sammā vāyāma)	definition	DN22:13.0.1
+right mindfulness (sammā sati)	definition	DN22:13.0.1
+right concentration (sammā samādhi)	definition	DN22:13.0.1
+renunciation (nekkhamma)	in definition of right intention (sammā saṅkappa)	DN22:13.0.1
+good will (abyāpāda, avyāpāda)	in definition of right intention (sammā saṅkappa)	DN22:13.0.1
+harmlessness (avihiṁsā)	in definition of right intention (sammā saṅkappa)	DN22:13.0.1
+false speech	in definition of right speech (sammā vācā)	DN22:13.0.1
+divisive speech	in definition of right speech (sammā vācā)	DN22:13.0.1
+harsh speech	in definition of right speech (sammā vācā)	DN22:13.0.1
+useless speech (samphappalāpa)	in definition of right speech (sammā vācā)	DN22:13.0.1
+killing	in definition right action (sammā kammanta)	DN22:13.0.1
+stealing	in definition right action (sammā kammanta)	DN22:13.0.1
+sexual misconduct	in definition right action (sammā kammanta)	DN22:13.0.1
+energy (vīriya)	in definition of right effort (sammā vāyāma)	DN22:13.0.1
+skillfulness (kusala)	in definition of right effort (sammā vāyāma)	DN22:13.0.1
+unskillfulness (akusala)	in definition of right effort (sammā vāyāma)	DN22:13.0.1
+zeal (chanda)	in definition of right effort (sammā vāyāma)	DN22:13.0.1
+mindfulness of body (kāyānupassanā)	in definition of right mindfulness (sammā sati)	DN22:13.0.1
+mindfulness of feeling (vedanānupassanā)	in definition of right mindfulness (sammā sati)	DN22:13.0.1
+mindfulness of mind (cittānupassanā)	in definition of right mindfulness (sammā sati)	DN22:13.0.1
+mindfulness of mind objects (dhammānupassanā)	in definition of right mindfulness (sammā sati)	DN22:13.0.1
+foundations of mindfulness, four (satipaṭṭhāna)	in definition of right mindfulness (sammā sati)	DN22:13.0.1
+jhānas	in definition of right concentration (sammā samādhi)	DN22:13.0.1
+time	taken to attain enlightenment	DN22:13.0.1
+farmers (kassaka)		xref seeds
+results of actions		xref giving (dāna)
+Pāyāsi king	discussion with Ven. Kumārakassapa	DN23:2.0
+Kumārakassapa, Ven.	discussion with King Pāyāsi	DN23:2.0
+wrong views (diṭṭhigata)	no rebirth, no results of actions	DN23:2.0
+doctrine of nihilism (natthikavāda)	disproved by Ven. Kumārakassapa	DN23:5.0
+Candima, devaputta	proof of other worlds	DN23:5.0
+Sūriya, devaputta	proof of other worlds	DN23:5.0
+other world (paraloka)	prooving existence of	DN23
+results of actions	prooving existence of	DN23
+thieves (cora)	simile for results of actions	DN23:5.0
+wardens of hell (nirayapāla)	pleading with	DN23:5.0
+sewer	simile for gods returning to earth	DN23:5.0
+devas	returning to tell about heaven	DN23:5.0
+gods of the Thirty-Three (tāvatiṁsā devā)	lifespan of	DN23:5.0
+blind people	simile for not seeing other worlds	DN23:5.0
+divine eye (dibbacakkhu)	seeing next life	DN23:5.0
+ascetics and brahmins (samaṇabrāhmaṇa)	psychic powers	DN23:5.0
+ascetics and brahmins (samaṇabrāhmaṇa)	not committing suicide	DN23:5.0
+suicide	not committing to get good rebirth	DN23:5.0
+pregnancy	opening belly to see fetus	DN23:5.0
+ascetics and brahmins (samaṇabrāhmaṇa)	good collect merit	DN23:5.0
+soul (jīva)	trying to see for dead person	DN23:5.0
+pots	trapping someone in to catch soul	DN23:5.0
+dreams	simile for not seeing soul of dead person	DN23:5.0
+balls of iron	simile for dead person	DN23:5.0
+conch blowers	conch, simile for body and life	DN23:5.0
+fires	trying to make irrationally, simile for finding soul	DN23:5.0
+anger (kopa)	holding wrong views out of	DN23:5.0
+disdain (makkha)	holding wrong views out of	DN23:5.0
+contemptuousness (paḷāsa)	holding wrong views out of	DN23:5.0
+caravan (sattha)	crossing desert, simile for holding wrong views out of spite	DN23:5.0
+deserts (kantāra)	crossing, simile for holding wrong views out of spite	DN23:5.0
+dung	holdign on to, simile for holding wrong views out of spite	DN23:5.0
+gamblers	simile for holding wrong views out of spite	DN23:5.0
+hemp	holdign on to, simile for holding wrong views out of spite	DN23:5.0
+gold	holdign on to, simile for holding wrong views out of spite	DN23:5.0
+sacrifices (yañña)	types of	DN23:31.0
+seeds	planted in bad field, simile for sacrifices	DN23:31.0
+farmers (kassaka)	simile for sacrifices	DN23:31.0
+Uttara, servant of Pāyāsi	as a human and deva	DN23:32.0
+offerings	seeking results from	DN23:32.0
+giving (dāna)	carefully or carelessly	DN23:32.0
+gods of the Four Great Kings (cātumahārājika devā)	Uttara reborn among	DN23:32.0
+Pāyāsi king	reborn as Serissaka deva	DN23:32.0
+Gavampati, Ven.	visiting the god Pāyāsi	DN23:33.0
+giving (dāna)	result of	DN23:33.0
