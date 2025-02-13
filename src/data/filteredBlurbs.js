@@ -3285,5 +3285,6 @@ export const filteredBlurbs ={
      "dn21": "After hearing a love song from a god of music, the Buddha engages in a deep discussion with Sakka on the conditioned origin of attachment and suffering.",
      "dn22": "The Buddha details the seventh factor of the noble eightfold path, mindfulness meditation. This discourse is essentially identical to MN 10, with the addition of an extended section on the four noble truths derived from MN 141.",
      "dn23": "This is a long and entertaining debate between a monk and a skeptic, who went to elaborate and bizarre lengths to prove that there is no such thing as an afterlife. The discourse contains a colorful series of parables and examples.",
-     "dn24": "When Sunakkhatta threatens to disrobe, the Buddha is unimpressed. Rejecting showy displays of asceticism or wondrous powers, he demonstrates his pre-eminence."
+     "dn24": "When Sunakkhatta threatens to disrobe, the Buddha is unimpressed. Rejecting showy displays of asceticism or wondrous powers, he demonstrates his pre-eminence.",
+     "dn25": "This discourse gives a specially good example of dialog between religions The Buddha insists that he is not interested to make anyone give up their teacher or practices, but only to help people let go of suffering."
 }
