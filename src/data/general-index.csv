@@ -5465,7 +5465,9 @@ deceit (kuhaka/māyāvī)	quality of bad ascetic	MN40
 evil wishes (pāpiccha)	quality of bad ascetic	MN40
 wrong view (micchā diṭṭhi)	quality of bad ascetic	MN40
 weapons	wrapped in robe, simile for bad ascetic	MN40
-robes	wearing does not earn the name	MN40
+rag-robe wearing		xref robes
+rag-robe	wearing does not earn the name	MN40
+babies	ascetic practices won’t purify	MN40
 naked ascetics (acelaka)	being does not earn the name	MN40
 tree root dwelling (rukkhamūlika)	living does not earn the name	MN40
 vedas	memorizing does not earn the name	MN40
@@ -8701,8 +8703,8 @@ sense objects	seeing repulsive and unrepulsive, etc.	MN152
 equanimity (upekkhā)	towards repulsive an unrepulsive	MN152
 noble ones (ariya)	with developed faculties	MN152
 faculties, sense (indriya)	noble ones	MN152
-men	minds occupied by women	AN1.1-5
-women	minds occupied by men	AN1.6-10
+men	minds occupied by women	AN1.1-10
+women	minds occupied by men	AN1.1-10
 sign of the beautiful (subhanimitta)	cause for sense desire	AN1.11
 sense desire (kāmacchanda)	caused by sign of the beautiful	AN1.11
 feature of harshness (paṭighanimitta)	cause for ill will (vyāpāda)	AN1.12
@@ -8790,20 +8792,20 @@ heedlessness (pamāda)	as very harmful	AN1.98
 heedfulness (appamāda)	as very helpful	AN1.99
 laziness (kosajja)	as very harmful	AN1.100
 energy, stirring up (vīriyārambha)	as helpful	AN1.101
-Dhamma	decline, factors leading to	AN1.118-128
+Dhamma	decline, factors leading to	AN1.98-139
 Dhamma	continuation of, factors leading to	AN1.129
-Dhamma teaching	teaching non-Dhamma as very harmful	AN1.130-139
-Dhamma teaching	correctly leads to continuation of Dhamma and much merit	AN1.140-142
+Dhamma teaching	teaching non-Dhamma as very harmful	AN1.98-139
+Dhamma teaching	correctly leads to continuation of Dhamma and much merit	AN1.140-149
 monastic rules (vinaya)	teaching wrongly leads to decline	AN1.142
 monastic rules (vinaya)	teaching rightly leads to continuation	AN1.143
-monastic rules (vinaya)	teaching wrongly leads to decline	AN1.150-159
-monastic rules (vinaya)	teaching rightly leads to continuation	AN1.160-169
+monastic rules (vinaya)	teaching wrongly leads to decline	AN1.150-169
+monastic rules (vinaya)	teaching rightly leads to continuation	AN1.150-169
 Buddha, the	rarity of	AN1.171
 Buddha, the	arising of is beneficial for all	AN1.170
 Buddha, the	death is regretted	AN1.173
 Buddha, the	without counterpart	AN1.174
 analytical knowledge (paṭisambhidā)	from the arising of the Buddha	AN1.176
-stages of enlightenment	from the arising of the Buddha	AN1.181-186
+stages of enlightenment	from the arising of the Buddha	AN1.170-187
 Sāriputta, Ven.	rightly keeps rolling wheel of Dhamma	AN1.187
 Aññā Koṇḍañña, Ven.	foremost in seniority	AN1.188
 seniority	foremost	AN1.188
@@ -8895,11 +8897,11 @@ giving (dāna)	foremost givers	AN1.264
 Kātiyānī, householder	foremost with confirmed confidence	AN1.265
 Nakulamātā, householder	foremost who have trust	AN1.266
 Kuraragharikā, householder	foremost whose confidence is based on oral transmission	AN1.267
-right view, person accomplished in (diṭṭhisampanna puggala)	impossibilities	AN1.268-276
-ordinary person (puthujjana)	possibilities	AN1.268-276
+right view, person accomplished in (diṭṭhisampanna puggala)	impossibilities	AN1.268-277
+ordinary person (puthujjana)	possibilities	AN1.268-277
 Buddhas	impossible for two at the same time	AN1.277
-heinous actions, five (ānantarika kamma)	possible for ordinary person	AN1.271-276
-heinous actions, five (ānantarika kamma)	impossible for person with right view	AN1.271-276
+heinous actions, five (ānantarika kamma)	possible for ordinary person	AN1.268-277
+heinous actions, five (ānantarika kamma)	impossible for person with right view	AN1.268-277
 wheel-turning monarchs	impossible for two at the same time	AN1.278
 Buddhas	impossible for woman to be	AN1.279
 wheel-turning monarchs	impossible for woman to be	AN1.280
@@ -8908,8 +8910,8 @@ Māra	impossible for woman to be	AN1.282
 Brahmā	impossible for woman to be	AN1.283
 results of actions	bad actions give bad results	AN1.284
 results of actions	good actions give good results	AN1.285
-results of actions	bad action cannot cause rebirth in heaven	AN1.290-292
-results of actions	good action cannot cause rebirth in hell	AN1.293-295
+results of actions	bad action cannot cause rebirth in heaven	AN1.287-295
+results of actions	good action cannot cause rebirth in hell	AN1.287-295
 recollection of Buddha (buddhānussati)	leads only to nibbāna	AN1.296
 recollection of Dhamma (dhammānussati)	leads only to nibbāna	AN1.297
 recollection of Saṅgha (saṅghānussati)	leads only to nibbāna	AN1.298
@@ -10475,7 +10477,7 @@ roof peak	simile for wisdom	AN5.12
 powers (bala)	faith, energy, mindfulness, immersion, wisdom	AN5.12
 powers (bala)	five: definition	AN5.14
 powers (bala)	five: where they are seen	AN5.15
-faith (saddhā)	power: seen in factors of stream entry	AN5.15
+faith (saddhā)	power: seen in factors of stream-entry	AN5.15
 energy (vīriya)	power: seen in four right efforts	AN5.15
 mindfulness (sati)	power: seen in four foundations of	AN5.15
 concentration (samādhi)	power: seen in jhāna	AN5.15
@@ -11007,7 +11009,7 @@ punishment (daṇḍa)	for breaking precepts	AN5.178
 giving (dāna)	whom to give to	AN5.179
 lay life	higher practices	AN5.179
 laypeople	wearing white	AN5.180
-precepts, five	stream entry and	AN5.179
+precepts, five	stream-entry and	AN5.179
 faith (saddhā)	in triple gem	AN5.179
 Buddha, the	smiling	AN5.180
 Kassapa, Buddha	and lay follower Gavesī	AN5.180
@@ -13231,7 +13233,7 @@ sense restraint (indriyasaṁvara)	when mind is steady	AN9.26
 pillars	simile for well consolidated mind	AN9.26
 mind (citta)	like stone pillar	AN9.26
 precepts, five	preventing dangers in present and future lives	AN9.27
-precepts, five	stream entry and	AN9.27
+precepts, five	stream-entry and	AN9.27
 stream-enterers (sotāpanna)	four factors of	AN9.27
 factors of stream-entry (sotāpattiyaṅga)	definition	AN9.27
 confidence (aveccappasāda)	factor of stream-entry	AN9.27
@@ -14467,7 +14469,7 @@ wealth	enjoying without attachment	AN10.91
 milk	like milk to cream of ghee for refined use of wealth	AN10.91
 ghee	like milk to cream of ghee for refined use of wealth	AN10.91
 precepts, five	preventing dangers in present and future lives	AN10.92
-precepts, five	stream entry and	AN10.92
+precepts, five	stream-entry and	AN10.92
 stream-enterers (sotāpanna)	four factors of	AN10.92
 factors of stream-entry (sotāpattiyaṅga)	definition	AN10.92
 stream-enterers (sotāpanna)	declarations of	AN10.92
@@ -17524,9 +17526,9 @@ views about the self	cause of 	SN24.44
 follower by faith (saddhānusārī)	definition: sense bases impermanent	SN25.1
 Dhamma follower (dhammānusārī)	definition: sense bases impermanent	SN25.1
 stream-enterers (sotāpanna)	definition: sense bases impermanent	SN25.1
-sense bases	understanding and stream entry, etc.	SN25.1
-elements (dhātu)	understanding and stream entry, etc.	SN25.9
-aggregates	understanding and stream entry, etc.	SN25.10
+sense bases	understanding and stream-entry, etc.	SN25.1
+elements (dhātu)	understanding and stream-entry, etc.	SN25.9
+aggregates	understanding and stream-entry, etc.	SN25.10
 stream-enterers (sotāpanna)	 	CUSTOM:SN:SN 25 Okkanta Saṁyutta:suttacentral.net/sn25
 sense bases	as suffering	SN26.1
 elements (dhātu)	as suffering	SN26.9
@@ -19725,10 +19727,10 @@ grieving	concern that family will grieve after death	SN55.3
 deathbed	concern for relatives	SN55.3
 stream-enterers (sotāpanna)	death of, example	SN55.3
 factors of stream-entry (sotāpattiyaṅga)	definition: associating with true persons, etc.	SN55.5
-association (saṁseva)	with true persons, factor of stream entry	SN55.5
-hearing the Dhamma (dhammassavana)	factor of stream entry	SN55.5
-proper attention (yoniso manasikāra)	factor of stream entry	SN55.5
-practicing according to the Dhamma (dhammānudhammappaṭipanna)	factor of stream entry	SN55.5
+association (saṁseva)	with true persons, factor of stream-entry	SN55.5
+hearing the Dhamma (dhammassavana)	factor of stream-entry	SN55.5
+proper attention (yoniso manasikāra)	factor of stream-entry	SN55.5
+practicing according to the Dhamma (dhammānudhammappaṭipanna)	factor of stream-entry	SN55.5
 stream, the (sota)	definition	SN55.5
 noble eightfold path (ariya aṭṭhangika magga)	stream, the (sota)	SN55.5
 stream-enterers (sotāpanna)	definition	SN55.5
@@ -19738,7 +19740,7 @@ lay life	living close to the Buddha	SN55.6
 lay life	crowded and dusty	SN55.6
 laypeople	sense desire	SN55.6
 factors of stream-entry	confirmed confidence and generosity	SN55.6
-confidence (aveccappasāda)	factor of stream entry	SN55.6
+confidence (aveccappasāda)	factor of stream-entry	SN55.6
 generosity (cāga)	quality of stream-enterer	SN55.6
 Buddha, the	reputation	SN55.7
 lay life	enjoying sense pleasures	SN55.7
@@ -19783,7 +19785,7 @@ ceremonies	of “going upwards” (udayagāmī)	SN55.12
 factors of stream-entry	“going upwards” (udayagāmī)	SN55.12
 factors of stream-entry	what has been given up	SN55.13
 fear of bad rebirth (duggatibhaya)	not having 	SN55.14
-bad rebirth (duggati)	escaping through stream entry	SN55.14
+bad rebirth (duggati)	escaping through stream-entry	SN55.14
 proselytizing	to those for whom you have sympathy	SN55.16
 factors of stream-entry	encouraging those for whom you have sympathy	SN55.16
 friends	factors of stream-entry	SN55.16
@@ -19815,10 +19817,10 @@ elephants	distracted by at time of death	SN55.21
 death (maraṇa)	fear of	SN55.21
 lay life	distractions in	SN55.22
 death (maraṇa)	fear of	SN55.22
-trees	slanting to the east, simile for disciple with factors of stream entry	SN55.22
+trees	slanting to the east, simile for disciple with factors of stream-entry	SN55.22
 factors of stream-entry	like tree slanting to the east	SN55.22
-Mahānāma the Sakyan	discussing factors of stream entry	SN55.23
-Godhā the Sakyan	discussing factors of stream entry	SN55.23
+Mahānāma the Sakyan	discussing factors of stream-entry	SN55.23
+Godhā the Sakyan	discussing factors of stream-entry	SN55.23
 Buddha, the	siding with no matter what	SN55.23
 Sarakāni the Sakyan	drinking alcohol	SN55.24
 alcohol	one who drank becoming stream-enterer	SN55.24
@@ -19854,11 +19856,11 @@ sickness	cured by Dhamma talk	SN55.26
 factors of stream-entry (sotāpattiyaṅga)	ten respects	SN55.26
 Ānanda, Ven.	teaching Anāthapiṇḍika	SN55.27
 Anāthapiṇḍika, householder	sick	SN55.27
-death (maraṇa)	fear of, removed by factors of stream entry	SN55.27
+death (maraṇa)	fear of, removed by factors of stream-entry	SN55.27
 factors of stream-entry (sotāpattiyaṅga)	fear at time of death	SN55.27
 stream-enterers (sotāpanna)	declarations of	SN55.27
 precepts, five	preventing dangers in present and future lives	SN55.28
-precepts, five	stream entry and	SN55.28
+precepts, five	stream-entry and	SN55.28
 stream-enterers (sotāpanna)	four factors of	SN55.28
 factors of stream-entry (sotāpattiyaṅga)	definition	SN55.28
 stream-enterers (sotāpanna)	declarations of	SN55.28
@@ -19894,9 +19896,9 @@ virtue (sīla)	virtuous lay disciple	SN55.37
 faith (saddhā)	lay follower, faithful	SN55.37
 generosity (cāga)	lay follower, generous	SN55.37
 wisdom (paññā)	lay follower, wise	SN55.37
-rain	on mountain top, simile for factors of stream entry	SN55.38
+rain	on mountain top, simile for factors of stream-entry	SN55.38
 factors of stream-entry	like rain on mountain flowing to ocean	SN55.38
-Kāḷigodhā the Sakyan	declaring stream entry	SN55.39
+Kāḷigodhā the Sakyan	declaring stream-entry	SN55.39
 stream-enterers (sotāpanna)	examples of	SN55.39
 stream-enterers (sotāpanna)	Buddha declaring someone has attained	SN55.39
 Nandiya the Sakyan	asking about living negligently	SN55.40
@@ -19921,10 +19923,10 @@ wealth	factors of stream-entry	SN55.44
 factors of stream-entry	as wealth	SN55.44
 fame (yasas)	factors of stream-entry	SN55.45
 factors of stream-entry (sotāpattiyaṅga)	definition: associating with true persons, etc. 	SN55.50
-association (saṁseva)	with true persons, factor of stream entry	SN55.50
-hearing the Dhamma (dhammassavana)	factor of stream entry	SN55.50
-proper attention (yoniso manasikāra)	factor of stream entry	SN55.50
-practicing according to the Dhamma (dhammānudhammappaṭipanna)	factor of stream entry	SN55.50
+association (saṁseva)	with true persons, factor of stream-entry	SN55.50
+hearing the Dhamma (dhammassavana)	factor of stream-entry	SN55.50
+proper attention (yoniso manasikāra)	factor of stream-entry	SN55.50
+practicing according to the Dhamma (dhammānudhammappaṭipanna)	factor of stream-entry	SN55.50
 arahants	fewer than non-returners	SN55.52
 non-returner (anāgāmi)	fewer than once returners	SN55.52
 once returner (sakadāgāmī)	fewer than stream-enterers	SN55.52
@@ -19949,10 +19951,10 @@ laypeople	arahants	SN55.54
 arahants	laypeople	SN55.54
 factors of stream-entry	definition: associating with true persons, etc. 	SN55.55
 stream-enterers (sotāpanna)	factors that lead to; association with true persons, etc.	SN55.55
-association (saṁseva)	with true persons, leads to stream entry	SN55.55
-hearing the Dhamma (dhammassavana)	leads to stream entry	SN55.55
-proper attention (yoniso manasikāra)	leads to stream entry	SN55.55
-practicing according to the Dhamma (dhammānudhammappaṭipanna)	leads to stream entry	SN55.55
+association (saṁseva)	with true persons, leads to stream-entry	SN55.55
+hearing the Dhamma (dhammassavana)	leads to stream-entry	SN55.55
+proper attention (yoniso manasikāra)	leads to stream-entry	SN55.55
+practicing according to the Dhamma (dhammānudhammappaṭipanna)	leads to stream-entry	SN55.55
 once returner (sakadāgāmī)	factors that lead to; association with true persons, etc.	SN55.56
 non-returner (anāgāmi)	factors that lead to; association with true persons, etc.	SN55.57
 arahantship	factors that lead to; association with true persons, etc.	SN55.58
