@@ -21,7 +21,7 @@ export default function createMdCitationCopyButton(link, name) {
 
   button.appendChild(img);
 
-  const textToCopy = `[${name}](${link})`;
+  const textToCopy = `[${cleanName(name)}](${link})`;
 
   function handleClick() {
     navigator.clipboard
@@ -30,6 +30,10 @@ export default function createMdCitationCopyButton(link, name) {
         toggleSnackBar();
       })
       .catch(err => console.error("Copy failed:", err));
+  }
+
+  function cleanName(name) {
+    return name.replace("<strong>", "").replace("</strong>", "");
   }
 
   button.addEventListener("click", handleClick);
