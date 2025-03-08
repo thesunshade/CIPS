@@ -169,8 +169,8 @@ unmindful (muṭṭhassatī)		xref unmindfulness (muṭṭhassacca)
 transmigration		xref saṁsāra
 brothers		xref siblings
 sisters		xref siblings
-family		xref lay follower (upāsaka, upāsikā)
-lay follower (upāsaka, upāsikā)		xref family
+family		xref lay followers (upāsaka, upāsikā)
+lay followers (upāsaka, upāsikā)		xref family
 giving (dāna)		xref receiving gifts
 admonishment		xref hard to admonish (dovacassa)
 hard to admonish (dovacassa)		xref admonishment
@@ -2404,7 +2404,8 @@ self-reliance	island metaphor	Dhp238
 self-purification	simile of silversmith	Dhp239
 results of actions	harming oneself	Dhp240
 results of actions	simile of rust	Dhp240
-stains	of hymns, houses, beauty, guards, etc	Dhp241-42
+stains	of hymns, houses, beauty, guards, etc	Dhp241
+stains	of hymns, houses, beauty, guards, etc	Dhp242
 ignorance (avijjā)	worst stain of all	Dhp243
 results of actions	harming oneself	Dhp247
 confidence (pasāda)	giving and	Dhp249
@@ -2424,7 +2425,7 @@ seniority	true meaning	Dhp260
 seniority	true meaning	Dhp261
 external appearance	not matching internal	Dhp262
 external appearance	not matching internal	Dhp264
-ascetic, mendicant, sage	true meaning	Dhp265–72
+ascetic, mendicant, sage	true meaning	Dhp256-272
 noble eightfold path (ariya aṭṭhangika magga)	as best path	Dhp273
 noble eightfold path (ariya aṭṭhangika magga)	as essential	Dhp274
 self-reliance	Buddhas only show the way	Dhp276
@@ -6630,7 +6631,7 @@ honey	pressing out, simile for listening to the Buddha	MN77
 listening to Dhamma	attentively	MN77
 disrobing	still praising the Triple Gem	MN77
 monastery attendant (ārāmika)	becoming after disrobing	MN77
-lay follower (upāsaka, upāsikā)	becoming after disrobing	MN77
+lay followers (upāsaka, upāsikā)	becoming after disrobing	MN77
 eating little (appāhāra)	praise for	MN77
 robes	content with any kind of	MN77
 almsfood	contentment with	MN77
@@ -6810,7 +6811,7 @@ Bodhisatta	reborn as Jotipāla	MN81
 Jotipāla, Bodhisatta	and Kassapa Buddha	MN81
 bathing	Ghaṭīkāra and Jotipāla	MN81
 Kikī, King	and Kassapa Buddha	MN81
-lay follower (upāsaka, upāsikā)	faith of Ghaṭīkāra	MN81
+lay followers (upāsaka, upāsikā)	faith of Ghaṭīkāra	MN81
 rainy season	King Kikī inviting Kassapa Buddha	MN81
 confidence (aveccappasāda)	of Ghaṭīkāra	MN81
 precepts, ten	layperson following	MN81
@@ -8808,6 +8809,13 @@ analytical knowledge (paṭisambhidā)	from the arising of the Buddha	AN1.176
 stages of enlightenment	from the arising of the Buddha	AN1.170-187
 Sāriputta, Ven.	rightly keeps rolling wheel of Dhamma	AN1.187
 Aññā Koṇḍañña, Ven.	foremost in seniority	AN1.188
+foremost	bhikkhu disciples of Buddha	AN1.188-197
+foremost	bhikkhu disciples of Buddha	AN1.198-208
+foremost	bhikkhu disciples of Buddha	AN1.209-218
+foremost	bhikkhu disciples of Buddha	AN1.219-234
+foremost	bhikkhuni disciples of Buddha	AN1.235-247
+foremost	laymen disciples of Buddha	AN1.248-257
+foremost	laywomen disciples of Buddha	AN1.258-267
 seniority	foremost	AN1.188
 Sāriputta, Ven.	foremost in great wisdom	AN1.189
 Moggallāna, Ven.	foremost in psychic power	AN1.190
@@ -9696,12 +9704,12 @@ fools (bāla)	harm themselves with bad action	AN3.150
 wise people	help themselves with good action	AN3.150
 worshiping (vandati) 	by body, speech and mind	AN3.154
 good actions	all day long	AN3.155
-wrong views	that there is nothing wrong with sensual pleasures	AN156-162
-mortification (tapojigucchā)	that are scorching	AN156-162
-middle path (majjhimā paṭipadā)	satipaṭṭhāna 	AN156-162
-addicted practice (āgāḷhā paṭipadā)	nothing wrong with sense pleasures	AN156-162
-scorching practice (nijjhāmā paṭipadā)	self mortification	AN156-162
-bodhipakkhiyā dhammā	as middle path	AN156-162
+wrong views	that there is nothing wrong with sensual pleasures	AN3.156-162
+mortification (tapojigucchā)	that are scorching	AN3.156-162
+middle path (majjhimā paṭipadā)	satipaṭṭhāna 	AN3.156-162
+addicted practice (āgāḷhā paṭipadā)	nothing wrong with sense pleasures	AN3.156-162
+scorching practice (nijjhāmā paṭipadā)	self mortification	AN3.156-162
+bodhipakkhiyā dhammā	as middle path	AN3.156-162
 emptiness concentration (suññato samādhi)	insight into greed	AN3.183
 signless concentration (animitto samādhi)	insight into greed	AN3.183
 undirected concentration (appaṇihito samādhi)	insight into greed	AN3.183
@@ -9731,7 +9739,6 @@ postures	for practicing always	AN4.11
 danger in slightest fault	seeing	AN4.12
 hindrances (nīvaraṇa)	removed in four postures	AN4.12
 right effort (sammā vāyāma)	definition	AN4.13
-foremost	disciples of Buddha	AN1.188-267
 right effort (sammā vāyāma)	regarding sense objects	AN4.14
 sense objects	and right effort	AN4.14
 right effort (sammā vāyāma)	and thoughts	AN4.14
@@ -10089,7 +10096,7 @@ Dhamma teachers	on topic or off	AN4.139
 Dhamma teachers	meaning and phrasing	AN4.140
 Dhamma teachers	analytical knowledge	AN4.140
 analytical knowledge (paṭisambhidā)	will never run out of things to say	AN4.140
-wisdom (paññā)	best kind of illumination	AN4.141-145
+wisdom (paññā)	best kind of illumination	AN4.141
 times	for different activities	AN4.146
 listening to Dhamma	time for	AN4.146
 Dhamma discussion	time for	AN4.146
@@ -10444,8 +10451,18 @@ useless speech (tiracchāna)	leads to hell	AN4.270
 covetousness (abhijjhā)	leads to hell	AN4.271
 ill will (vyāpāda, byāpāda)	leads to hell	AN4.272
 wrong view (micchā diṭṭhi)	leads to hell	AN4.273
-encouragement	to do bad	AN4.264-273
-encouragement	to do good	AN4.264-273
+encouragement	to do bad	AN4.264
+encouragement	to do good	AN4.264
+killing	encouraging	AN4.264
+stealing	encouraging	AN4.265
+sexual misconduct	encouraging	AN4.266
+lying	encouraging	AN4.267
+divisive speech	encouraging	AN4.268
+harsh speech	encouraging	AN4.269
+useless speech (samphappalāpa)	encouraging	AN4.270
+covetousness (abhijjhā)	encouraging	AN4.271
+ill will (vyāpāda, byāpāda)	encouraging	AN4.272
+wrong view (micchā diṭṭhi)	encouraging	AN4.273
 foundations of mindfulness, four (satipaṭṭhāna)	insight into greed	AN4.274
 right effort (sammā vāyāma)	insight into greed	AN4.275
 bases of psychic power (iddhipāda)	insight into greed	AN4.276
@@ -11020,6 +11037,7 @@ gradual training (anupubbasikkhā)	taking on more aspects	AN5.180
 wilderness (arañña)	kinds of wilderness dwellers	AN5.181
 mental illness	reason for living in wilderness	AN5.181
 few wishes (appiccha)	reason for living in wilderness	AN5.181
+ascetic practices (dhutaṅga)	reasons for	AN5.181
 rag-robe wearing	reasons for	AN5.182
 mental illness	reason for rag-robe wearing	AN5.182
 few wishes (appiccha)	reason for rag-robe wearing	AN5.182
@@ -11031,7 +11049,6 @@ open air dwelling (abbhokāsika)	reason for	AN5.185
 few wishes (appiccha)	reason for open air dwelling	AN5.185
 never lying down practice	reason for	AN5.186
 eating in one sitting (ekāsanik)	reason for	AN5.188
-ascetic practices (dhutaṅga)	reasons for	AN5.181-190
 brahmins	ancient traditions	AN5.191
 sexual activity	of brahmins	AN5.191
 dogs	compared to brahmins	AN5.191
@@ -11212,11 +11229,13 @@ stinginess (maccharī)	types	AN5.254
 stinginess (maccharī)	worst kind is of teachings	AN5.254
 stinginess (maccharī)	giving up	AN5.255
 stinginess (maccharī)	prevents jhāna	AN5.256
-jhānas	prevented by stinginess	AN5.256-259
-stages of enlightenment	prevented by stinginess	AN5.260-263
+jhānas	prevented by stinginess	AN5.256
+jhānas	prevented by stinginess	AN5.257-263
+stages of enlightenment	prevented by stinginess	AN5.257-263
 stinginess (maccharī)	prevents jhāna	AN5.264
-jhānas	prevented by stinginess	AN5.264-267
-stages of enlightenment	prevented by stinginess	AN5.268-271
+jhānas	prevented by stinginess	AN5.264
+jhānas	prevented by stinginess	AN5.265-271
+stages of enlightenment	prevented by stinginess	AN5.265-271
 meal allocator	going to hell	AN5.272
 work	various monastic jobs	AN5.273-285
 ājīvakas	going to hell	AN5.293
@@ -11712,7 +11731,8 @@ sleep	relishing prevents mindfulness of body	AN6.118
 socializing	relishing prevents mindfulness of body	AN6.118
 overeating	relishing prevents mindfulness of body	AN6.118
 sense doors, guarding (indriyesu guttadvāra)	needed for mindfulness of body	AN6.118
-stream-enterers (sotāpanna)	list of	AN6.119-139
+stream-enterers (sotāpanna)	list of	AN6.119
+stream-enterers (sotāpanna)	list of	AN6.120-139
 gain (lābha)	one who desires gain will not be respected by his companions	AN7.1
 conscience and prudence (hiri ottappa)	one who lacks will not be respected by his companions	AN7.1
 evil wishes (pāpiccha)	one who has will not be respected by companions	AN7.1
@@ -12380,24 +12400,24 @@ speech	kind words	AN8.24
 wealth	reason people listen to someone	AN8.24
 past, present, future	attracting people is the same in	AN8.24
 Mahānāma the Sakyan	asking about definition of lay follower	AN8.25
-lay follower (upāsaka, upāsikā)	definition	AN8.25
-lay follower (upāsaka, upāsikā)	virtuous: definition	AN8.25
+lay followers (upāsaka, upāsikā)	definition	AN8.25
+lay followers (upāsaka, upāsikā)	virtuous: definition	AN8.25
 refuges	definition of a lay follower	AN8.25
 virtue (sīla)	virtuous lay disciple	AN8.25
-lay follower (upāsaka, upāsikā)	benefiting themselves and others	AN8.25
+lay followers (upāsaka, upāsikā)	benefiting themselves and others	AN8.25
 encouragement	to do good	AN8.25
 welfare (hita)	ones own and others	AN8.25
 memorizing	helping oneself and others	AN8.25
-lay follower (upāsaka, upāsikā)	practices of	AN8.25
+lay followers (upāsaka, upāsikā)	practices of	AN8.25
 Jīvaka Komārabhacca, householder	asking about definition of lay follower	AN8.26
-lay follower (upāsaka, upāsikā)	definition	AN8.26
-lay follower (upāsaka, upāsikā)	virtuous: definition	AN8.26
+lay followers (upāsaka, upāsikā)	definition	AN8.26
+lay followers (upāsaka, upāsikā)	virtuous: definition	AN8.26
 encouragement	to do good	AN8.26
 listening to Dhamma	like to listen	AN8.26
 memorizing	helping oneself and others	AN8.26
 giving (dāna)	encouraging others to	AN8.26
 monastics	visiting	AN8.26
-lay follower (upāsaka, upāsikā)	practices of	AN8.26
+lay followers (upāsaka, upāsikā)	practices of	AN8.26
 welfare (hita)	ones own and others	AN8.26
 powers (bala)	of different people	AN8.27
 babies	crying as power	AN8.27
@@ -12759,7 +12779,7 @@ Māra	encouraging Buddha to attain parinibbāna	AN8.70
 disciples of the Buddha	Buddha would not pass away until he had	AN8.70
 learned (bahussutā)	Buddha would not pass away until he had learned disciples	AN8.70
 bhikkhunīs	Buddha would not pass away until he had learned bhikkhunīs	AN8.70
-lay follower (upāsaka, upāsikā)	Buddha would not pass away until he had learned disciples	AN8.70
+lay followers (upāsaka, upāsikā)	Buddha would not pass away until he had learned disciples	AN8.70
 life force (āyu, āyusaṅkhāra)	surrendering of	AN8.70
 Buddha, the	surrenders life force	AN8.70
 Cāpāla Tree-shrine	Buddha surrenders life force	AN8.70
@@ -12872,7 +12892,7 @@ villages (gāma)	as more dangerous than wilderness	AN8.86
 village dwelling monk (gāmantavihārī)	dangers of	AN8.86
 bliss of seclusion (pavivekasukha)	getting and not getting	AN8.86
 alms bowls	turning upside down, reason for	AN8.87
-lay follower (upāsaka, upāsikā)	turning bowl upside down for	AN8.87
+lay followers (upāsaka, upāsikā)	turning bowl upside down for	AN8.87
 harmony in Saṅgha (saṅghasāmaggī)	laypeople trying to create disharmony	AN8.87
 Saṅgha	laypeople trying to harm	AN8.87
 insulting (akkosa)	monastics	AN8.87
@@ -17567,7 +17587,7 @@ nāgas	cause for rebirth as	SN29.7
 bad actions	cause for rebirth as nāga	SN29.7
 good actions	cause for rebirth as nāga	SN29.7
 rebirth	by choice/aspiration	SN29.7
-giving (dāna)	to gain rebirth	SN29.11–20
+giving (dāna)	to gain rebirth	SN29.11-20
 giving (dāna)	to gain rebirth	SN29.21-50
 supaṇṇas	 	CUSTOM:SN:SN 30 Supaṇṇa Saṁyutta:suttacentral.net/sn30
 supaṇṇas	birth of	SN30.1
@@ -19510,7 +19530,7 @@ laypeople	as teachers	SN51.10
 Dhamma	popular and widespread	SN51.10
 learned (bahussutā)	Buddha would not pass away until he had learned disciples	SN51.10
 bhikkhunīs	Buddha would not pass away until he had learned bhikkhunīs	SN51.10
-lay follower (upāsaka, upāsikā)	Buddha would not pass away until he had learned disciples	SN51.10
+lay followers (upāsaka, upāsikā)	Buddha would not pass away until he had learned disciples	SN51.10
 life force (āyusaṅkhāra)	surrendering of	SN51.10
 Buddha, the	surrenders life force	SN51.10
 Cāpāla Tree-shrine	Buddha surrenders life force	SN51.10
@@ -19890,7 +19910,7 @@ devas	comparing themselves with humans who have factors of stream-entry	SN55.36
 results of actions	gods with factors of stream-entry	SN55.36
 factors of stream-entry	and devas	SN55.36
 Mahānāma the Sakyan	asking about definition of lay follower	SN55.37
-lay follower (upāsaka, upāsikā)	definition	SN55.37
+lay followers (upāsaka, upāsikā)	definition	SN55.37
 refuges	definition of a lay follower	SN55.37
 virtue (sīla)	virtuous lay disciple	SN55.37
 faith (saddhā)	lay follower, faithful	SN55.37
@@ -20691,7 +20711,7 @@ laypeople	as teachers	DN16:3.7.0
 Dhamma	popular and widespread	DN16:3.7.0
 learned (bahussutā)	Buddha would not pass away until he had learned disciples	DN16:3.7.0
 bhikkhunīs	Buddha would not pass away until he had learned bhikkhunīs	DN16:3.7.0
-lay follower (upāsaka, upāsikā)	Buddha would not pass away until he had learned disciples	DN16:3.7.0
+lay followers (upāsaka, upāsikā)	Buddha would not pass away until he had learned disciples	DN16:3.7.0
 life force (āyusaṅkhāra)	surrendering of	DN16:3.10.0
 Buddha, the	surrenders life force	DN16:3.10.0
 Cāpāla Tree-shrine	Buddha surrenders life force	DN16:3.10.0
@@ -21225,3 +21245,127 @@ ascetics (samaṇa)	appearing at expansion of world	DN27:25.0
 bodhipakkhiyā dhammā	all castes can develop	DN27:30.0
 restraint (saṁvara)	all castes can develop	DN27:30.0
 Sanaṅkumāra, Brahmā	verse of	DN27:30.0
+Sāriputta, Ven.	lion’s roar	DN28:1.0
+Buddhas	have same qualities	DN28:1.0
+Buddhas	of the past and future	DN28:1.0
+gatekeeper	simile for inferring Buddha’s knowledge	DN28:1.0
+citadel	simile for inferring Buddha’s knowledge	DN28:1.0
+cats	simile for inferring Buddha’s knowledge	DN28:1.0
+lion’s roar	Sāriputta’s	DN28:1.0
+bodhipakkhiyā dhammā	unsurpassable	DN28:1.0
+sense bases (āyatana)	Buddha’s teachings on is unsurpassable	DN28:1.0
+conception (gabbhāvakkanti)	four types	DN28:1.0
+situational awareness (sampajañña)	at conception	DN28:1.0
+mind reading	four ways	DN28:1.0
+non-humans (amanussa)	hearing things from	DN28:1.0
+devas	hearing things from	DN28:1.0
+accomplishment in vision (dassanasampadā)	four types	DN28:1.0
+perception of ugliness	accomplishment in vision	DN28:1.0
+body parts	perception of ugliness	DN28:1.0
+consciousness (viññāṇa)	stream of (viññāṇasota)	DN28:1.0
+person (puggala)	description of	DN28:1.0
+one freed both ways (ubhatobhāgavimutta)	Buddha describing people	DN28:1.0
+one freed by wisdom (paññāvimutta)	Buddha describing people	DN28:1.0
+one freed by faith (saddhāvimutta)	Buddha describing people	DN28:1.0
+personal witness (kāyasakkhī)	Buddha describing people	DN28:1.0
+one attained to view (diṭṭhippatta)	Buddha describing people	DN28:1.0
+Dhamma follower (dhammānusārī)	Buddha describing people	DN28:1.0
+Dhamma follower (dhammānusārī)	Buddha describing people	DN28:1.0
+Dhamma follower (dhammānusārī)	kinds of striving	DN28:1.0
+practices (paṭipatti)	types of	DN28:1.0
+speech (bhassa)	unsurpassable	DN28:1.0
+virtue (sīla)	unsurpassable	DN28:1.0
+instruction (anusāsana)	Buddha knows responsiveness to	DN28:1.0
+declaring enlightenment	Buddha knows potential	DN28:1.0
+eternalism (sassatavāda)	Buddha understands	DN28:1.0
+eternalism (sassatavāda)	types of	DN28:1.0
+psychic powers (iddhi)	noble and ignoble	DN28:1.0
+recollection of past lives	unsurpassable	DN28:1.0
+knowledge of passing away and rebirth of beings (cutūpapātañāna)	unsurpassable	DN28:1.0
+repulsive (paṭikūla)	seeing repulsive and unrepulsive in, etc.	DN28:1.0
+unrepulsive (appaṭikūla)	seeing repulsive and unrepulsive in, etc.	DN28:1.0
+sense pleasures (kāma, kāmaguṇa)	Buddha does not engage in	DN28:1.0
+mortification (attakilamatha)	Buddha does not engage in	DN28:1.0
+Buddhas	have same qualities	DN28:1.0
+Buddhas	two cannot arise at the same time	DN28:1.0
+sammāsambuddha	two cannot arise at the same time	DN28:1.0
+incredible and amazing (acchariyā abbhutā)	Buddha’s qualities	DN28:20.0
+doubt (kaṅkhā)	a teaching to remove	DN28:20.0
+wickedness		xref demerit (apuñña)
+remorse (kukkucca)		xref regret
+regret		xref remorse (kukkucca)
+Nigaṇṭha Nāṭaputta	death	DN29
+disputes	about badly proclaimed Dhamma	DN29
+Cunda, Ven.	reporting Nigaṇṭha Nāṭaputta’s death	DN29
+Ānanda, Ven.	reporting Nigaṇṭha Nāṭaputta’s death	DN29
+teachers of other religions	badly explained, ineffective teachings	DN29:4.0
+demerit (apuñña)	encouraging bad teaching	DN29:4.0
+students (sāvaka)	following and not following teachings	DN29:6.0
+practicing	in line with Dhamma	DN29:6.0
+merit (puñña)	encouraging good teaching	DN29:6.0
+regret	when missing opportunity to practice	DN29:8.0
+teachers (satthā)	senior teachers available	DN29:10.0
+bhikkhus	able to teach	DN29:10.0
+bhikkhunīs	able to teach	DN29:10.0
+lay followers (upāsaka, upāsikā)	able to teach	DN29:10.0
+spiritual path (brahmacariya)	complete or incomplete	DN29:10.0
+spiritual path (brahmacariya)	Buddha’s perfect	DN29:10.0
+Uddaka Rāmaputta	saying about razor	DN29:10.0
+razor	seeing edge of	DN29:10.0
+seeing (passato)	but not seeing	DN29:10.0
+reciting Dhamma	should come together to	DN29:17.0
+bodhipakkhiyā dhammā	should be recited	DN29:17.0
+disputes	about Dhamma	DN29:18.0
+disputes	resolving	DN29:18.0
+phrasing (byañjana)	disputes over	DN29:18.0
+meaning (attha)	disputes over	DN29:18.0
+taints (āsava)	this life and future lives	DN29:22.0
+taints (āsava)	to be given up by using	DN29:22.0
+requisites, four	taints	DN29:22.0
+requisites, four	using after reflecting	DN29:22.0
+requisites, four	as sufficient	DN29:22.0
+pleasure (sukha)	indulgence in	DN29:23.0
+killing	happiness from	DN29:23.0
+stealing	happiness from	DN29:23.0
+lying	happiness from	DN29:23.0
+sense pleasures (kāma, kāmaguṇa)	indulgence in	DN29:23.0
+pleasure (sukha)	leading to enlightenment	DN29:23.0
+jhānas	leads to enlightenment	DN29:23.0
+jhānas	pleasure leading to enlightenment	DN29:23.0
+stream-enterers (sotāpanna)	benefit of jhānas	DN29:25.0
+non-returner (anāgāmi)	benefit of jhānas	DN29:25.0
+once returner (sakadāgāmī)	benefit of jhānas	DN29:25.0
+arahantship	benefit of jhānas	DN29:25.0
+pillars	simile for things not to be done	DN29:26.0
+arahants	cannot do	DN29:26.0
+killing	arahants cannot	DN29:26.0
+stealing	arahants cannot	DN29:26.0
+sexual intercourse	arahants cannot	DN29:26.0
+lying	arahants cannot	DN29:26.0
+sense pleasures (kāma, kāmaguṇa)	arahants cannot collect	DN29:26.0
+decisions	arahants cannot make prejudiced decisions	DN29:26.0
+desire (chanda)	arahants cannot make prejudiced decisions	DN29:26.0
+hatred (dosa)	arahants cannot make prejudiced decisions	DN29:26.0
+delusion (moha)	arahants cannot make prejudiced decisions	DN29:26.0
+fear (bhaya)	arahants cannot make prejudiced decisions	DN29:26.0
+favouritism	arahants cannot make prejudiced decisions	DN29:26.0
+knowledge and vision (ñāṇadassana)	past and future	DN29:27.0
+past and future	Buddha’s knowledge of	DN29:27.0
+future	Buddha’s knowledge of	DN29:27.0
+Buddha, the	knowing past from memory	DN29:27.0
+Buddha, the	knowing future	DN29:27.0
+questions, answering	Buddha’s way of	DN29:27.0
+world, the	Buddha knows	DN29:27.0
+Tathāgatas	definition	DN29:27.0
+Buddha, the	understanding of	DN29:27.0
+undeclared (abyākata)	things undeclared by the Buddha	DN29:30.0
+Tathāgatas	existing after death	DN29:30.0
+declared (byākata)	four noble truths	DN29:32.0
+fundamentals of the spiritual life (ādibrahmacariya)	Buddha only teaches what is	DN29:32.0
+views about the self	undeclared points	DN29:34.0
+views about the world	undeclared points	DN29:34.0
+pleasure (sukha)	nature of undeclared	DN29:34.0
+pain (dukkha)	nature of undeclared	DN29:34.0
+views about the self	undeclared points	DN29:37.0
+foundations of mindfulness, four (satipaṭṭhāna)	for going beyond views	DN29:37.0
+marks of a great man	in detail	DN30
