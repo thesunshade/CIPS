@@ -3299,5 +3299,6 @@ export const filteredBlurbs ={
      "dn27": "In contrast with the brahmin’s self-serving mythologies of the past, the Buddha presents an account of evolution that shows how human choices are an integral part of the ecological balance, and how excessive greed destroys the order of nature.",
      "dn28": "Shortly before he passes away, Venerable Sāriputta visits the Buddha and utters a moving eulogy of his great teacher.",
      "dn29": "Following the death of Nigaṇṭha Nātaputta, the leader of the Jains, the Buddha emphasizes the stability and maturity of his own community. He encourages the community to come together after his death and recite the teachings in harmony.",
-     "dn30": "This presents the brahmanical prophecy of the Great Man, and explains the 32 marks in detail. This discourse contains some of the latest and most complex verse forms in the canon."
+     "dn30": "This presents the brahmanical prophecy of the Great Man, and explains the 32 marks in detail. This discourse contains some of the latest and most complex verse forms in the canon.",
+     "dn31": "The Buddha encounters a young man who honors his dead parents by performing rituals. The Buddha recasts the meaningless rites in terms of virtuous conduct. This is the most detailed discourse on ethics for lay people."
 }

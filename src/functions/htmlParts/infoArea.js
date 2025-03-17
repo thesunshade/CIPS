@@ -51,9 +51,7 @@ export const infoArea = `
             </a>
             of all words in the Sutta Piṭaka. For that you may want to try using
             <a href="https://www.digitalpalireader.online" rel="noreferrer" target="_blank">
-              the DigitalPaliReader.online
-            </a>
-            .
+              the DigitalPaliReader.online</a>.
           </p>
           <p>
             The
@@ -68,7 +66,7 @@ export const infoArea = `
         <summary>Coverage</summary>
         <div class="row-2">
           <div>
-            Complete: <strong>DN 1–29, MN, SN, AN, Kp, Dhp, Ud, Iti, Snp, Vv, Pv, Thag, Thig</strong>
+            Complete: <strong>DN 1–31, MN, SN, AN, Kp, Dhp, Ud, Iti, Snp, Vv, Pv, Thag, Thig</strong>
           </div>
             <div class="stats">
             <div><em>Stats:</em></div>
@@ -109,9 +107,7 @@ export const infoArea = `
           </p>
           <p>
             <a href="https://index.readingfaithfully.org/locatorSortedTable.html" rel="noreferrer" target="_blank">
-              Table of suttas
-            </a>
-            with headwords and sub-heads.
+              Table of suttas</a> with headwords and sub-heads.
           </p>
         </div>
       </details>
