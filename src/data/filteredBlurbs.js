@@ -3300,5 +3300,6 @@ export const filteredBlurbs ={
      "dn28": "Shortly before he passes away, Venerable Sāriputta visits the Buddha and utters a moving eulogy of his great teacher.",
      "dn29": "Following the death of Nigaṇṭha Nātaputta, the leader of the Jains, the Buddha emphasizes the stability and maturity of his own community. He encourages the community to come together after his death and recite the teachings in harmony.",
      "dn30": "This presents the brahmanical prophecy of the Great Man, and explains the 32 marks in detail. This discourse contains some of the latest and most complex verse forms in the canon.",
-     "dn31": "The Buddha encounters a young man who honors his dead parents by performing rituals. The Buddha recasts the meaningless rites in terms of virtuous conduct. This is the most detailed discourse on ethics for lay people."
+     "dn31": "The Buddha encounters a young man who honors his dead parents by performing rituals. The Buddha recasts the meaningless rites in terms of virtuous conduct. This is the most detailed discourse on ethics for lay people.",
+     "dn32": "Mighty spirits hold a congregation, and warn the Buddha that, since not all spirits are friendly, the mendicants should learn verses of protection."
 }
