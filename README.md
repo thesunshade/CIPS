@@ -8,12 +8,19 @@ If you would like to offer feedback, please see [this page in the documentation]
 
 Curious about the philosopy being used to create the index? See [these notes](https://github.com/thesunshade/CIPS/blob/main/src/documentation/principlesOfIndexingSuttas.md#principles-of-indexing-suttas).
 
+# License
+
+All data and content in this repository (including the final website as well as raw data) is copyright ReadingFaithfully.org and may not be reproduced without permission.
+
+**The use of this index for training, developing, testing, or improving any artificial intelligence system, machine learning model, or similar technology is strictly prohibited.**
+
 ## Development
 
 ### Dependencies
 
 ```bash
 sudo apt install tidy
+
 npm ci
 ```
 
@@ -34,4 +41,3 @@ To run the site locally, just start a simple http server pointing at the "public
 ```bash
 npx http-server public -o -p 9999
 ```
-
