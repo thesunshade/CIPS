@@ -1127,7 +1127,6 @@ qualities of triple gem		xref triple gem
 thirty-seven aids to enlightenment		xref bodhipakkhiyā dhammā
 wings to awakening		xref bodhipakkhiyā dhammā
 adept (asekha)		xref one beyond training (asekha)
-demonstrations (pāṭihāriya)		xref miracles (pāṭihāriya)
 homage		xref worshiping (vandati)
 striving (padhāna)		xref right effort (sammā vāyāma)
 desire (chanda)		xref zeal (chanda)
@@ -9777,8 +9776,8 @@ requisites, four	as trifles	AN4.27
 contentment (santuṭṭhi)	with requisites	AN4.27
 contentment (santuṭṭhi)	with requisites	AN4.28
 meditation	love for	AN4.28
-noble traditions (ariyavaṁsa)	contentment wit requisites and meditation	AN4.28
-tradition (vaṁsa)	contentment wit requisites and meditation	AN4.28
+noble traditions (ariyavaṁsa)	contentment with requisites and meditation	AN4.28
+tradition (vaṁsa)	contentment with requisites and meditation	AN4.28
 good will (abyāpāda, avyāpāda)	as footprint of the Dhamma	AN4.29
 footprints of the Dhamma (dhammapada)	contentment, good will, right mindfulness, and right concentration	AN4.29
 contentment (santuṭṭhi)	as footprint of the Dhamma	AN4.29
@@ -9821,6 +9820,7 @@ conceit “I am” (asmimāna)	one who has given up is “withdrawn”	AN4.38
 sacrifices (yañña)	kinds Buddha praised	AN4.39
 sacrifices (yañña)	kinds Buddha praised	AN4.40
 departed relatives	sharing merit with	AN4.40
+concentration (samādhi)	four ways of developing	AN4.41
 meditation	blissful in the present life	AN4.41
 knowledge and vision (ñāṇadassana)	perception of light leads to	AN4.41
 aggregates (khandha)	seeing rise and fall of	AN4.41
@@ -10341,10 +10341,10 @@ heaven (sagga)	right view leads to	AN4.212
 right view (sammā diṭṭhi)	resulting in heaven	AN4.212
 wrong view (micchā diṭṭhi)	resulting in hell	AN4.212
 hell (niraya)	actions that lead to	AN4.213
+gratitude	leads to heaven	AN4.213
 hell (niraya)	wrong view leads to	AN4.214
 heaven (sagga)	actions that lead to	AN4.215
 heaven (sagga)	right view leads to	AN4.216
-gratitude	leads to heaven	AN4.217
 ingratitude	leads to hell	AN4.218
 speech	declarations	AN4.217
 lying	leads to hell	AN4.217
@@ -11362,7 +11362,7 @@ gods	who were human disciples of the Buddha	AN6.34
 Tissa, Brahma	former monk	AN6.34
 stream-enterers (sotāpanna)	gods that have become	AN6.34
 gods	that are stream-enterers	AN6.34
-disputes	roots of arguments	AN6.36
+disputes (vivadati)	roots of arguments	AN6.36
 respect (gārava)	lack of leads to arguments	AN6.36
 wrong view (micchā diṭṭhi)	cause of arguments	AN6.36
 evil wishes (pāpiccha)	cause of arguments	AN6.36
@@ -15881,7 +15881,7 @@ Buddha, the	illness of	SN7.13
 giving (dāna)	whom to give to	SN7.13
 sons	kicking out father	SN7.14
 old person	kicked out by children	SN7.14
-gratitude	sons not having for father	SN7.14
+ingratitude	sons towards father	SN7.14
 fathers	kicked out by children	SN7.14
 teacher’s fee (ācariyadhana)	wish to pay	SN7.14
 arrogance (thaddha)	son	SN7.15
@@ -21557,6 +21557,7 @@ psychic powers (iddhi)		xref bases of psychic power (iddhipāda)
 bases of psychic power (iddhipāda)		xref psychic powers (iddhi)
 going forth (pabbajja)		xref renunciation (nekkhamma)
 renunciation (nekkhamma)		xref going forth (pabbajja)
+beings (satta)		xref abodes of beings
 Nigaṇṭha Nāṭaputta	death	DN33
 Sāriputta, Ven.	detailed listing of terms	DN33
 reciting Dhamma	should come together to	DN33
@@ -21590,3 +21591,60 @@ merit (puñña)	grounds for making	DN33:1.10.0
 sensual rebirth (kāmūpapatti)	three kinds	DN33:1.10.0
 happy rebirth (sukhūpapatti)	three kinds	DN33:1.10.0
 wisdom (paññā)	three kinds	DN33:1.10.0
+weapons	metaphorical	DN33:1.10.0
+weapons	three	DN33:1.10.0
+eyes	three	DN33:1.10.0
+training (sikkhā)	three	DN33:1.10.0
+unsurpassable things (anuttariya)	three	DN33:1.10.0
+concentration (samādhi)	three	DN33:1.10.0
+purity (soceyya)	three types	DN33:1.10.0
+sagacity/perfection (moneyya)	three types	DN33:1.10.0
+vanity (mada)	three	DN33:1.10.0
+Dhamma	putting the Dhamma in charge	DN33:1.10.0
+topics of discussion	three	DN33:1.10.0
+dwellings, mental (vihāra)	three	DN33:1.10.0
+miracles (pāṭihāriya)	three	DN33:1.10.0
+concentration (samādhi)	four ways of developing	DN33:1.11.0
+meditation	blissful in the present life	DN33:1.11.0
+knowledge and vision (ñāṇadassana)	perception of light leads to	DN33:1.11.0
+aggregates (khandha)	seeing rise and fall of	DN33:1.11.0
+heart’s release, limitless (appamāṇa cetovimutti)	definition	DN33:1.11.0
+formless (arūpa)	definition	DN33:1.11.0
+noble traditions (ariyavaṁsa)	contentment with requisites and meditation	DN33:1.11.0
+striving (padhāna)	four	DN33:1.11.0
+restraint (saṁvara)	striving	DN33:1.11.0
+abandoning (pajahati, pahāna)	striving	DN33:1.11.0
+development (bhāvanā)	striving	DN33:1.11.0
+protection (rakkha)	striving	DN33:1.11.0
+knowledge (ñāṇa)	four	DN33:1.11.0
+factors of stream-entry	four	DN33:1.11.0
+factors of stream-entry	factors of	DN33:1.11.0
+fruits of monastic life (sāmaññaphala)	definition	DN33:1.11.0
+nutriment (āhāra)	four types	DN33:1.11.0
+consciousness (viññāṇa)	remaining	DN33:1.11.0
+prejudices (agatigamana)	decision making	DN33:1.11.0
+practices (paṭipatti)	types of	DN33:1.11.0
+realized (sacchi)	four things to be	DN33:1.11.0
+self, acquisition of (attapaṭilābhā)	kinds of	DN33:1.11.0
+realms (gati)	five	DN33:2.1.0
+pure abodes (suddhāvāsā)	five	DN33:2.1.0
+non-returner (anāgāmi)	five types	DN33:2.1.0
+faculties (indriya)	five	DN33:2.1.0
+perceptions (saññā)	ripening in freedom	DN33:2.1.0
+disrespect (agārava)	six kinds	DN33:2.2.0
+respect (gārava)	six kinds	DN33:2.2.0
+wealth	noble	DN33:2.3.0
+good people (sappurisa)	qualities of	DN33:2.3.0
+religious donation (dakkhiṇā)	seven worthy of	DN33:2.3.0
+fetters (saṁyojana)	seven	DN33:2.3.0
+opportunities (khaṇa)	lost 	DN33:3.2.0
+noble dwellings (ariyavāsa)	ten	DN33:3.3.0
+understanding	contact	DN34:1.2.0
+development (bhāvanā)	thing that should be developed	DN34
+full understanding (pariñña)	things that should be understood	DN34
+abandoning (pajahati, pahāna)	things that should be abandoned	DN34
+hard to comprehend (duppaṭivijjha)	things that are	DN34
+direct knowledges (abhiññā)	things that should be directly known	DN34
+realized (sacchi)	things that should be	DN34
+improper attention (ayoniso manasikāra)	makes things worse	DN34:1.2.0
+serenity of mind, heart (cetosamādhi)	immediate result	DN34:1.2.0
