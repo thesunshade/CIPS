@@ -5,7 +5,7 @@ import { indexArray } from "../../data/index-array.js";
 
 export const infoArea = `
       <p>
-        This is an incomplete and unpublished draft of an index of the Sutta Piṭaka. For more information, visit the
+        This is a first draft of an index of the Sutta Piṭaka. For more information, visit the
         <a href="https://github.com/thesunshade/CIPS#readme" rel="noreferrer" target="_blank">
           ReadMe on GitHub. <img src="images/GitHub.png"  height="18" alt="github logo" class="icon" style="position: relative; top: 3px;">
         </a>
@@ -66,7 +66,7 @@ export const infoArea = `
         <summary>Coverage</summary>
         <div class="row-2">
           <div>
-            Complete: <strong>DN 1–33, MN, SN, AN, Kp, Dhp, Ud, Iti, Snp, Vv, Pv, Thag, Thig</strong>
+            Complete: <strong>DN, MN, SN, AN, Kp, Dhp, Ud, Iti, Snp, Vv, Pv, Thag, Thig</strong>
           </div>
             <div class="stats">
             <div><em>Stats:</em></div>
@@ -97,7 +97,7 @@ export const infoArea = `
       <details open>
         <summary>Misc.</summary>
         <div>
-        <p class="full-message">You are viewing the full featured index. There is also a <a href="https://simple-index.readingfaithfully.org">plain HTML version</a> that works better on older mobile devices.</p>
+        <p class="full-message">You are viewing the full featured index. There is also a <a href="https://simple-index.readingfaithfully.org">plain HTML version</a> that may better on older mobile devices.</p>
         <p class="html-message">You are viewing the plain HTML version of the index. There is also a <a href="https://index.readingfaithfully.org"> full featured version</a> with sutta summaries and search.</p>
           <p>
             <a href="https://index.readingfaithfully.org/locatorCountTable.html" rel="noreferrer" target="_blank">
