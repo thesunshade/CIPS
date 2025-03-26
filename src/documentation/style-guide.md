@@ -2,6 +2,12 @@
 
 Don't use. This saves space
 
+# Periods/full stops
+
+Periods should always be used after `etc.`, `vs.`, and `Ven.`.
+
+Perods should not otherwise be used even for complete sentences.
+
 # Quotations
 
 Exact phrases shoud be in typographic “double quote marks”

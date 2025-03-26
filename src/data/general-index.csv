@@ -7,6 +7,10 @@ Four Great Kings, the (catumahārāja)		xref  Virūḷhaka, deva king
 Four Great Kings, the (catumahārāja)		xref Virūpakkha, deva king
 Four Great Kings, the (catumahārāja)		xref Kuvera, deva king
 difficult to do		xref hard to do (dukkara)
+stupidity		xref fools (bāla)
+fools (bāla)		xref stupidity
+unwise (duppañña)		xref fools (bāla)
+xref fools (bāla)		xref unwise (duppañña)
 cosmos		xref eternalism (sassatavāda)
 psychic powers (iddhi)		xref mind-made body (manomayena kāya)
 savings		xref money
@@ -4898,7 +4902,7 @@ fools (moghapurisa)	wrongly grasping Dhamma	MN22
 rafts	simile for using Dhamma to cross over	MN22
 views (diṭṭhi)	grounds for (diṭṭhiṭṭhāna)	MN22
 Dhamma	like a raft	MN22
-aggregates (khandha)	as not self	MN22
+aggregates (khandha)	as not-self	MN22
 eternalism (sassatavāda)	ground for views	MN22
 views about the self (attavāda)	ground for views	MN22
 “This is not mine, I am not this, this is not my self”	aggregates	MN22
@@ -5269,9 +5273,9 @@ Assaji, Ven.	speaking with Saccaka Nigaṇṭhaputta	MN35
 Buddha, the	debating with	MN35
 debates	like tossing around sheep, strainer, etc.	MN35
 Buddha, the	how he teaches	MN35
-aggregates	as impermanent, suffering, not self	MN35
+aggregates	as impermanent, suffering, not-self	MN35
 conditions (saṅkāra)	impermanent	MN35
-things (dhamma)	not self	MN35
+things (dhamma)	not-self	MN35
 plants	simile for self in aggregates	MN35
 seeds	simile for self in aggregates	MN35
 aggregates	as self	MN35
@@ -5560,7 +5564,7 @@ phenomena (dhamma)	that are felt	MN43
 life force (āyu, āyusaṅkhāra)	phenomena that are felt	MN43
 corpse	vitality, warmth, consciousness	MN43
 cessation of perception and feeling (saññāvedayitanirodha)	different from dead body	MN43
-corpse	different from cessation of perception and feeling.	MN43
+corpse	different from cessation of perception and feeling	MN43
 loving-kindness (mettā)	as immeasurable deliverance	MN43
 heart’s release, neutral (adukkhamasukha cetovimutti)	first jhāna	MN43
 heart’s release, signless (animittā cetovimutti)	conditions for attaining, remaining, emerging	MN43
@@ -6402,7 +6406,7 @@ scrutinizing (tulana)	leads to striving	MN70
 striving (padhāna)	leads to direct realization	MN70
 teachers of other religions	behaviour of students	MN70
 material things (āmisa)	valuing	MN70
-faithful disciple	“The Buddha is my Teacher, I am his disciple. The Buddha knows, I do not know.”	MN70
+faithful disciple	“The Buddha is my Teacher, I am his disciple. The Buddha knows, I do not know”	MN70
 energy (vīriya)	letting ones flesh and blood dry up	MN70
 Teacher’s instruction (satthusāsana, buddha sāsana)	nourishing for a faithful disciple	MN70
 disciples of the Buddha	Teacher’s instruction is nourishing	MN70
@@ -6878,7 +6882,7 @@ direct knowledges (abhiññā)	practice leading to	MN83
 nibbāna	practice leading to	MN83
 noble eightfold path (ariya aṭṭhangika magga)	established by the Buddha	MN83
 Mahā Kaccāna, Ven.	praise of	MN84
-Avantiputta, King	meeting Mahā Ven. Kaccāna	MN84
+Avantiputta, King	meeting Ven. Mahā Kaccāna	MN84
 caste (vaṇṇa)	refuting	MN84
 merchants (vessa)	equality with other castes	MN84
 workers (sudda)	equality with other castes	MN84
@@ -7539,7 +7543,7 @@ identity view (sakkāyadiṭṭhi)	arises because of regarding aggregates as sel
 gratification (assāda)	of aggregates	MN109
 danger (ādīnava)	of aggregates	MN109
 escape (nissaraṇa)	from aggregates	MN109
-aggregates (khandha)	as not self	MN109
+aggregates (khandha)	as not-self	MN109
 conceit (māna)	knowing and seeing so that there is no	MN109
 I making (ahaṅkāra)	knowing and seeing so that there is no	MN109
 not-self	aggregates	MN109
@@ -7602,9 +7606,9 @@ aggregates (khandha)	testing the claim someone is an arahant	MN112
 aggregates (khandha)	as powerless, fading away, unreliable	MN112
 elements (dhātu)	six	MN112
 elements (dhātu)	testing the claim someone is an arahant	MN112
-elements (dhātu)	as not self	MN112
+elements (dhātu)	as not-self	MN112
 elements (dhātu)	underlying tendencies and	MN112
-consciousness element (viññāṇadhātu)	as not self	MN112
+consciousness element (viññāṇadhātu)	as not-self	MN112
 sense bases (āyatana)	cessation of desire	MN112
 I making (ahaṅkāra)	knowing and seeing so that there is no	MN112
 gradual training (anupubbasikkhā)	as reported by an arahant	MN112
@@ -8333,7 +8337,7 @@ wisdom (paññā)	do not neglect	MN140
 earth element (pathavī dhātu)	definition	MN140
 earth element (pathavī dhātu)	internal and external	MN140
 body parts	elements and	MN140
-elements (dhātu)	as not self	MN140
+elements (dhātu)	as not-self	MN140
 not-self	elements as	MN140
 disillusionment (nibbidā)	with elements	MN140
 dispassion (virāga)	towards elements	MN140
@@ -8520,7 +8524,7 @@ Mahā Cunda, Ven.	visiting Ven. Channa	MN144
 Channa, Ven.	illness and death of	MN144
 declaring enlightenment	testing the claim	MN144
 Sāriputta, Ven.	offering to care for sick monk	MN144
-suicide	of Ven. Channa	MN144
+suicide	Ven. Channa	MN144
 sense bases (āyatana)	as not-self	MN144
 not-self	sense bases	MN144
 cessation (nirodha)	sense bases	MN144
@@ -8542,15 +8546,15 @@ Mahā Pajāpatī Gotamī, Ven.	requesting instruction (anusāsana)	MN146
 Nandaka, Ven.	teaching bhikkhunīs	MN146
 bhikkhunīs	instructing	MN146
 bhikkhunīs	Dhamma talk given to	MN146
-sense bases (āyatana)	as impermanent, suffering, not self	MN146
+sense bases (āyatana)	as impermanent, suffering, not-self	MN146
 not-self	sense bases	MN146
 impermanence	of sense bases and objects	MN146
 sense objects	impermanence	MN146
-sense objects	as impermanent, suffering, not self	MN146
+sense objects	as impermanent, suffering, not-self	MN146
 consciousness (viññāṇa)	impermanence	MN146
-consciousness (viññāṇa)	as impermanent, suffering, not self	MN146
+consciousness (viññāṇa)	as impermanent, suffering, not-self	MN146
 feelings (vedanā)	impermanence	MN146
-feelings (vedanā)	as impermanent, suffering, not self	MN146
+feelings (vedanā)	as impermanent, suffering, not-self	MN146
 oil lamps	simile for impermanence	MN146
 feelings (vedanā)	as dependently arisen	MN146
 consciousness (viññāṇa)	as dependently arisen	MN146
@@ -8568,16 +8572,16 @@ Dhamma teaching	repetition as an aid to understanding	MN146
 stream-enterers (sotāpanna)	examples of attainment	MN146
 Rāhula, Ven.	attaining enlightenment	MN147
 gods	in audience of Dhamma talk	MN147
-sense bases (āyatana)	as impermanent, suffering, not self	MN147
+sense bases (āyatana)	as impermanent, suffering, not-self	MN147
 impermanence	sense bases	MN147
 suffering (dukkha)	sense bases	MN147
 not-self	sense bases	MN147
-feelings (vedanā)	as impermanent, suffering, not self	MN147
-perceptions (saññā)	as impermanent, suffering, not self	MN147
-formations (saṅkhāra)	as impermanent, suffering, not self	MN147
-consciousness (viññāṇa)	as impermanent, suffering, not self	MN147
+feelings (vedanā)	as impermanent, suffering, not-self	MN147
+perceptions (saññā)	as impermanent, suffering, not-self	MN147
+formations (saṅkhāra)	as impermanent, suffering, not-self	MN147
+consciousness (viññāṇa)	as impermanent, suffering, not-self	MN147
 disillusionment (nibbidā)	sense bases	MN147
-contact (phassa)	as impermanent, suffering, not self	MN147
+contact (phassa)	as impermanent, suffering, not-self	MN147
 Dhamma	good in beginning, middle, end	MN148
 sense bases (āyatana)	internal and external	MN148
 sense bases (āyatana)	analysis of	MN148
@@ -8588,13 +8592,13 @@ formations (saṅkhāra)	six classes of	MN148
 contact (phassa)	six classes of	MN148
 contact (phassa)	meeting of consciousness and internal and external base	MN148
 craving (taṇhā)	six classes of	MN148
-sense bases (āyatana)	not self	MN148
-consciousness (viññāṇa)	not self	MN148
-feelings (vedanā)	not self	MN148
-perceptions (saññā)	not self	MN148
-formations (saṅkhāra)	not self	MN148
-contact (phassa)	not self	MN148
-craving (taṇhā)	not self	MN148
+sense bases (āyatana)	not-self	MN148
+consciousness (viññāṇa)	not-self	MN148
+feelings (vedanā)	not-self	MN148
+perceptions (saññā)	not-self	MN148
+formations (saṅkhāra)	not-self	MN148
+contact (phassa)	not-self	MN148
+craving (taṇhā)	not-self	MN148
 identity (sakkāya)	origin of	MN148
 underlying tendency to greed (rāgānusaya)	from approving and welcoming a feeling	MN148
 underlying tendency to repulsion (paṭighānusaya)	from sorrow of painful feeling	MN148
@@ -9230,7 +9234,7 @@ Dhamma	honored by the Buddha	AN3.14
 wheels	made well	AN3.15
 chariot-maker	Bodhisatta as	AN3.15
 Bodhisatta	as chariot-maker	AN3.15
-Pacetana, King	ordering a chariot.	AN3.15
+Pacetana, King	ordering a chariot	AN3.15
 sense doors, guarding (indriyesu guttadvāra)	definition	AN3.16
 eating in moderation	definition	AN3.16
 wakefulness (jāgara)	definition	AN3.16
@@ -9677,9 +9681,9 @@ good monastics	see things as “This is not mine, I am not this, this is not my 
 good monastics	like a warrior	AN3.133
 assemblies	three	AN3.134
 friendship	qualities of a good friend	AN3.135
-impermanence	“All conditions are impermanent.”	AN3.136
-suffering (dukkha)	“All conditions are suffering.”	AN3.136
-not-self	“All things are not-self.”	AN3.136
+impermanence	“All conditions are impermanent”	AN3.136
+suffering (dukkha)	“All conditions are suffering”	AN3.136
+not-self	“All things are not-self”	AN3.136
 Makkhali, teacher	worst of all teachings, like a hair blanket	AN3.137
 accomplishments	three types	AN3.138
 growth	three types	AN3.139
@@ -10683,7 +10687,7 @@ perception of danger/drawback (ādīnavasaññā)	culminates in deathless	AN5.61
 perception of repulsiveness of food (āhāre paṭikūlasaññā)	culminates in deathless	AN5.61
 perception of dissatisfaction with the whole world (sabbaloke anabhiratasaññā)	culminates in deathless	AN5.61
 perception of impermanence (aniccasaññā)	culminates in deathless	AN5.62
-perception of not self (anattasaññā)	culminates in deathless	AN5.62
+perception of not-self (anattasaññā)	culminates in deathless	AN5.62
 perception of death (maraṇasaññā)	culminates in deathless	AN5.62
 perception of repulsiveness of food (āhāre paṭikūlasaññā)	culminates in deathless	AN5.62
 perception of dissatisfaction with the whole world (sabbaloke anabhiratasaññā)	culminates in deathless	AN5.62
@@ -11670,7 +11674,7 @@ nibbāna	regarding as suffering	AN6.101
 suffering (dukkha)	regarding nibbāna as	AN6.101
 perception of impermanence (aniccasaññā)	benefits of	AN6.102
 perception of suffering (dukkhasañña)	benefits of	AN6.103
-perception of not self (anattasaññā)	benefits of	AN6.104
+perception of not-self (anattasaññā)	benefits of	AN6.104
 higher ethics, higher mind, higher wisdom	to give up craving	AN6.105
 craving for sensual pleasures (kāmataṇhā)	should be given up	AN6.105
 craving for existence (bhavataṇhā)	should be given up	AN6.105
@@ -11694,7 +11698,7 @@ thoughts (vitakka)	good to give up bad	AN6.109
 perceptions (saññā)	good to give up bad	AN6.111
 elements (dhātu)	of sensuality, malice, cruelty	AN6.111
 perception of impermanence (aniccasaññā)	to give up view that things are gratifying	AN6.112
-perception of not self (anattasaññā)	to give up view of self	AN6.112
+perception of not-self (anattasaññā)	to give up view of self	AN6.112
 right view (sammā diṭṭhi)	to give up wrong view	AN6.112
 discontent (arati)	rejoicing (mudita) to give up	AN6.113
 rejoicing (mudita)	to remove discontent	AN6.113
@@ -11771,8 +11775,8 @@ Ugga the government minster	wealth	AN7.7
 Migāra of Rohaṇa	wealthy	AN7.7
 wealth	faith, ethical conduct, conscience, prudence, learning, generosity, wisdom	AN7.7
 wealth	that cannot be taken away	AN7.7
-fetters (saṁyojana)	attraction, repulsion, views, doubt, conceit, desire to be reborn, ignorance.	AN7.8
-fetters (saṁyojana)	attraction, repulsion, views, doubt, conceit, desire to be reborn, ignorance.	AN7.9
+fetters (saṁyojana)	attraction, repulsion, views, doubt, conceit, desire to be reborn, ignorance	AN7.8
+fetters (saṁyojana)	attraction, repulsion, views, doubt, conceit, desire to be reborn, ignorance	AN7.9
 fetters (saṁyojana)	attraction, repulsion, views, doubt, conceit, jealousy, stinginess	AN7.10
 underlying tendencies (anusaya)	sensual desire, repulsion, views, doubt, conceit, desire to be reborn, ignorance	AN7.11
 underlying tendencies (anusaya)	sensual desire, repulsion, views, doubt, conceit, desire to be reborn, ignorance	AN7.12
@@ -11839,7 +11843,7 @@ mindfulness (sati)	prevents decline	AN7.25
 wisdom (paññā)	prevents decline	AN7.25
 awakening factors, seven (bojjhaṅga)	prevent decline	AN7.26
 perception of impermanence (aniccasaññā)	prevent decline	AN7.27
-perception of not self (anattasaññā)	prevent decline	AN7.27
+perception of not-self (anattasaññā)	prevent decline	AN7.27
 perception of ugliness (asubhasaññā)	prevent decline	AN7.27
 perception of danger/drawback (ādīnavasaññā)	prevent decline	AN7.27
 perception of giving up (pahānasaññā)	prevent decline	AN7.27
@@ -12308,7 +12312,7 @@ conversion	Buddha urging caution for one considering converting	AN8.12
 Buddha, the	how he teaches	AN8.12
 giving (dāna)	“Gifts should only be given to the Buddha”	AN8.12
 gradual instruction (anupubba katha)	to Sīha	AN8.12
-Dhamma teaching	not secretly, hoping to profit.	AN8.12
+Dhamma teaching	not secretly, hoping to profit	AN8.12
 almsfood	meat	AN8.12
 meat	offered to Buddha	AN8.12
 Nigaṇṭhas	slandering the Buddha	AN8.12
@@ -12481,9 +12485,9 @@ giving (dāna)	how to give	AN8.31
 giving (dāna)	after insulting	AN8.31
 giving (dāna)	out of fear	AN8.31
 giving (dāna)	thinking of repaying	AN8.31
-giving (dāna)	thinking, “They’ll give to me.”	AN8.31
-giving (dāna)	thinking, “It’s good to give.”	AN8.31
-giving (dāna)	thinking, “I cook, they don’t. It wouldn’t be right for me to not give to them.”	AN8.31
+giving (dāna)	thinking, “They’ll give to me”	AN8.31
+giving (dāna)	thinking, “It’s good to give”	AN8.31
+giving (dāna)	thinking, “I cook, they don’t. It wouldn’t be right for me to not give to them”	AN8.31
 giving (dāna)	to get good reputation	AN8.31
 giving (dāna)	thoughts while	AN8.31
 giving (dāna)	rebirth in heaven	AN8.32
@@ -12925,7 +12929,7 @@ perception of ugliness (asubhasaññā)	to give up greed	AN9.1
 loving-kindness (mettā)	to abandon hatred	AN9.1
 mindfulness of breathing (ānāpānassati)	to cut off thinking	AN9.1
 perception of impermanence (aniccasaññā)	to remove conceit “I am”	AN9.1
-perception of not self (anattasaññā)	to remove conceit “I am”	AN9.1
+perception of not-self (anattasaññā)	to remove conceit “I am”	AN9.1
 faith (saddhā)	supported by	AN9.2
 conscience and prudence (hiri ottappa)	supported by	AN9.2
 energy (vīriya)	supported by	AN9.2
@@ -13944,7 +13948,7 @@ deathless (amata)	culmination	AN10.58
 nibbāna	as things’ final end	AN10.58
 going forth (pabbajja)	training	AN10.59
 perception of impermanence (aniccasaññā)	consolidate mind in	AN10.59
-perception of not self (anattasaññā)	consolidate mind in	AN10.59
+perception of not-self (anattasaññā)	consolidate mind in	AN10.59
 perception of ugliness (asubhasaññā)	consolidate mind in	AN10.59
 perception of danger/drawback (ādīnavasaññā)	consolidate mind in	AN10.59
 becoming (bhava)	knowing	AN10.59
@@ -13960,8 +13964,8 @@ Girimānanda, Ven.	advice when sick	AN10.60
 sickness	perceptions to practice when sick	AN10.60
 perception of impermanence (aniccasaññā)	definition	AN10.60
 aggregates (khandha)	perception of impermanence	AN10.60
-perception of not self (anattasaññā)	definition	AN10.60
-sense bases (āyatana)	perception of not self	AN10.60
+perception of not-self (anattasaññā)	definition	AN10.60
+sense bases (āyatana)	perception of not-self	AN10.60
 perception of ugliness (asubhasaññā)	definition	AN10.60
 body parts	perception of ugliness	AN10.60
 perception of danger/drawback (ādīnavasaññā)	definition	AN10.60
@@ -14335,7 +14339,7 @@ friends, bad	cause of and giving up	AN10.76
 conscience and prudence (hiri ottappa)	cause of lack of and giving up	AN10.76
 heedlessness (pamāda)	cause of and giving up	AN10.76
 unwholesome chain of causality	heedlessness to birth, old age and death	AN10.76
-wholesome chain of causality	lack of conscience and prudence to ending birth, old age and death.	AN10.76
+wholesome chain of causality	lack of conscience and prudence to ending birth, old age and death	AN10.76
 crows	ten bad qualities of	AN10.77
 bad monastics	ten qualities of like qualities of crow	AN10.77
 Nigaṇṭhas	ten bad qualities of	AN10.78
@@ -14818,7 +14822,7 @@ perception of not-self in suffering (dukkhe anattasaññā)	for insight into gre
 perception of giving up (pahānasaññā)	for insight into greed	AN10.237
 perception of fading away (virāgasaññā)	for insight into greed	AN10.237
 perception of cessation (nirodhasaññā)	for insight into greed	AN10.237
-perception of not self (anattasaññā)	for insight into greed	AN10.238
+perception of not-self (anattasaññā)	for insight into greed	AN10.238
 perception of skeleton (aṭṭhisaññā)	for insight into greed	AN10.237
 perception of corpse	for insight into greed	AN10.237
 noble eightfold path (ariya aṭṭhangika magga)	for insight into greed	AN10.239
@@ -15555,7 +15559,7 @@ paccekabuddhas	regret after giving alms to	SN3.20
 giving (dāna)	regret after giving	SN3.20
 enjoyment (bhoga)	not able to enjoy wealth	SN3.20
 children	cause for not having	SN3.20
-killing	brothers’ children	SN3.20
+killing	brother’s child	SN3.20
 Hell of Screams	cause for rebirth in	SN3.20
 wealth	not making good use of	SN3.20
 actions (kamma)	taken to next life	SN3.20
@@ -16892,7 +16896,7 @@ sense bases	impermanent, suffering	SN18.11
 I making (ahaṅkāra)	knowing and seeing so that there is no	SN18.21
 possessiveness (mamaṅkāra)	knowing and seeing so that there is no	SN18.21
 conceit, underlying tendency (mānānusaya)	knowing and seeing so that there is no	SN18.21
-aggregates	“This is not mine, I am not this, this is not my self.”	SN18.21
+aggregates	“This is not mine, I am not this, this is not my self”	SN18.21
 “This is not mine, I am not this, this is not my self”	aggregates	SN18.21
 Lakkhaṇa, Ven.	seeing ghosts	CUSTOM:SN:SN 19 Lakkhaṇa Saṁyutta:suttacentral.net/sn19
 Moggallāna, Ven.	seeing ghosts	CUSTOM:SN:SN 19 Lakkhaṇa Saṁyutta:suttacentral.net/sn19
@@ -17037,7 +17041,7 @@ Hāliddikāni, householder	asking about Chapter of the Eights	SN22.3
 Chapter of the Eights	The Questions of Māgandiya 	SN22.3
 aggregates	home for consciousness	SN22.3
 consciousness (viññāṇa)	aggregates as home for	SN22.3
-homelessness	metaphor for non attachment to aggregates	SN22.3
+homelessness	metaphor for non-attachment to aggregates	SN22.3
 aggregates	homeless metaphor	SN22.3
 future (anāgata)	aggregates	SN22.3
 sense pleasures (kāma, kāmaguṇa)	free from	SN22.3
@@ -17095,7 +17099,7 @@ disillusionment (nibbidā)	aggregates	SN22.39
 islands	be your own	SN22.43
 sorrow (soka)	aggregates	SN22.43
 identity (sakkāya)	aggregates	SN22.44
-impermanence	aggregates: suffering, not self, etc.	SN22.45
+impermanence	aggregates: suffering, not-self, etc.	SN22.45
 aggregates	impermanent	SN22.45
 self (atta)	regarding things as	SN22.47
 aggregates of clinging (pañcupādānakkhandhā)	regarding things as self	SN22.47
@@ -17186,10 +17190,10 @@ not-self	give up desire for what is	SN22.68
 not-self	aggregates	SN22.68
 self (atta)	what belongs to	SN22.69
 Rādha, Ven.	knowing and seeing	SN22.71
-knowing and seeing	aggregates not self	SN22.71
+knowing and seeing	aggregates not-self	SN22.71
 I making (ahaṅkāra)	knowing and seeing so that there is no	SN22.71
 Suādha, Ven.	knowing and seeing	SN22.72
-knowing and seeing	aggregates not self	SN22.72
+knowing and seeing	aggregates not-self	SN22.72
 I making (ahaṅkāra)	knowing and seeing so that there is no	SN22.72
 gratification, danger, escape	aggregates	SN22.73
 ordinary person (puthujjana)	aggregates	SN22.73
@@ -17244,7 +17248,7 @@ identity view (sakkāyadiṭṭhi)	arises because of regarding aggregates as sel
 gratification (assāda)	of aggregates	SN22.82
 danger (ādīnava)	of aggregates	SN22.82
 escape (nissaraṇa)	from aggregates	SN22.82
-aggregates (khandha)	as not self	SN22.82
+aggregates (khandha)	as not-self	SN22.82
 conceit (māna)	knowing and seeing so that there is no	SN22.82
 I making (ahaṅkāra)	knowing and seeing so that there is no	SN22.82
 not-self	aggregates	SN22.82
@@ -17515,9 +17519,9 @@ cessation (nirodha)	being liable to	SN23.22
 views (diṭṭhi)	 	CUSTOM:SN:SN 24 Diṭṭhi Saṁyutta:suttacentral.net/sn24
 views (diṭṭhi)	arising because of grasping to aggregates	SN24.1
 stream-enterers (sotāpanna)	doubt, removal of	SN24.1
-impermanence	aggregates: suffering, not self, etc.	SN24.1
+impermanence	aggregates: suffering, not-self, etc.	SN24.1
 “This is mine, I am this, this is my self”	because of grasping at aggregates	SN24.2
-impermanence	aggregates: suffering, not self, etc.	SN24.3
+impermanence	aggregates: suffering, not-self, etc.	SN24.3
 “I might not be, and it might not be mine. I will not be, and it will not be mine” (no cassaṁ, no ca me siyā, na bhavissāmi, na me bhavissatī’ti)	why view arises	SN24.4
 giving (dāna)	no result (wrong view)	SN24.5
 merit (puñña)	no result (wrong view)	SN24.5
@@ -17704,7 +17708,7 @@ underlying tendencies (anusaya)	giving up through knowing and seeing sense bases
 grasping (upādāna)	complete understanding of	SN35.60
 contact (phassa)	condition for feeling	SN35.60
 grasping (upādāna)	exhaustion of all	SN35.61
-sense bases	as impermanent, suffering, not self	SN35.62
+sense bases	as impermanent, suffering, not-self	SN35.62
 Migajāla, Ven.	asking about living alone	SN35.63
 living alone (ekavihārī)	definition	SN35.63
 craving (taṇhā)	as partner	SN35.63
@@ -17835,16 +17839,16 @@ wakefulness (jāgara)	definition	SN35.120
 eating in moderation	definition	SN35.120
 Rāhula, Ven.	attaining enlightenment	SN35.121
 gods	in audience of Dhamma talk	SN35.121
-sense bases (āyatana)	as impermanent, suffering, not self	SN35.121
+sense bases (āyatana)	as impermanent, suffering, not-self	SN35.121
 impermanence	sense bases	SN35.121
 suffering (dukkha)	sense bases	SN35.121
 not-self	sense bases	SN35.121
-feelings (vedanā)	as impermanent, suffering, not self	SN35.121
-perceptions (saññā)	as impermanent, suffering, not self	SN35.121
-formations (saṅkhāra)	as impermanent, suffering, not self	SN35.121
-consciousness (viññāṇa)	as impermanent, suffering, not self	SN35.121
+feelings (vedanā)	as impermanent, suffering, not-self	SN35.121
+perceptions (saññā)	as impermanent, suffering, not-self	SN35.121
+formations (saṅkhāra)	as impermanent, suffering, not-self	SN35.121
+consciousness (viññāṇa)	as impermanent, suffering, not-self	SN35.121
 disillusionment (nibbidā)	sense bases	SN35.121
-contact (phassa)	as impermanent, suffering, not self	SN35.121
+contact (phassa)	as impermanent, suffering, not-self	SN35.121
 Ugga of Vesālī, householder	asking why some are fully enlightened	SN35.124
 Uggata of Hatthigāmaka, householder	asking why some are fully enlightened	SN35.125
 Upāli, householder	asking why some are fully enlightened	SN35.126
@@ -17973,8 +17977,8 @@ spiritual path (brahmacariya)	not possible if sense bases were fetters	SN35.232
 sense bases	Buddha has, but no greed	SN35.232
 Buddha, the	has sense bases but not greed	SN35.232
 Kāmabhū, Ven.	asking about fetters	SN35.233
-Udāyī, Ven.	consciousness is not self	SN35.234
-consciousness (viññāṇa)	not self	SN35.234
+Udāyī, Ven.	consciousness is not-self	SN35.234
+consciousness (viññāṇa)	not-self	SN35.234
 banana trees	simile for no self in sense bases	SN35.234
 nail, pin	into eye	SN35.235
 eyes	pin stuck into	SN35.235
@@ -18330,7 +18334,7 @@ perceptions (saññā)	mental formations	SN41.6
 feelings (vedanā)	mental formations	SN41.6
 cessation of perception and feeling (saññāvedayitanirodha)	attaining	SN41.6
 cessation of perception and feeling (saññāvedayitanirodha)	different from dead body	SN41.6
-corpse	different from cessation of perception and feeling.	SN41.6
+corpse	different from cessation of perception and feeling	SN41.6
 cessation of perception and feeling (saññāvedayitanirodha)	what is helpful for attaining	SN41.6
 serenity (samatha)	helpful for cessation of perception and feeling	SN41.6
 insight (vipassanā)	helpful for cessation of perception and feeling	SN41.6
@@ -19159,7 +19163,7 @@ foundations of mindfulness, four (satipaṭṭhāna)	ones own domain	SN47.6
 sense pleasures, five	not ones own domain	SN47.7
 foundations of mindfulness, four (satipaṭṭhāna)	ones own domain	SN47.7
 monkey	getting stuck in tar trap, simile for going out of ones own domain	SN47.7
-cooks	not taking the master’s hint, simile for not practicing foundations of mindfulness properly.	SN47.8
+cooks	not taking the master’s hint, simile for not practicing foundations of mindfulness properly	SN47.8
 sign (nimitta)	of mind while practicing foundations of mindfulness	SN47.8
 foundations of mindfulness, four (satipaṭṭhāna)	sign (nimitta) of the mind	SN47.8
 happiness in the present life (diṭṭhadhammasukhavihāra)	foundations of mindfulness	SN47.8
@@ -20625,7 +20629,7 @@ mindfulness (sati)	prevents decline	DN16:1.6.0
 wisdom (paññā)	prevents decline	DN16:1.6.0
 awakening factors, seven (bojjhaṅga)	prevent decline	DN16:1.6.0
 perception of impermanence (aniccasaññā)	prevent decline	DN16:1.6.0
-perception of not self (anattasaññā)	prevent decline	DN16:1.6.0
+perception of not-self (anattasaññā)	prevent decline	DN16:1.6.0
 perception of ugliness (asubhasaññā)	prevent decline	DN16:1.6.0
 perception of danger/drawback (ādīnavasaññā)	prevent decline	DN16:1.6.0
 perception of giving up (pahānasaññā)	prevent decline	DN16:1.6.0
