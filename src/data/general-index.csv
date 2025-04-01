@@ -1,3 +1,28 @@
+five aggregates		xref aggregates
+psychic powers		xref magic
+Kosala, King		xref Pasenadi Kosala, King
+kings		xref Aruṇavā, King
+kings		xref Avantiputta, King
+kings		xref Bimbisāra, King
+kings		xref Dhataraṭṭha, deva king
+kings		xref Four Great Kings, the (catumahārāja)
+kings		xref Kikī, King
+kings		xref Koravya, King
+kings		xref Kuvera, deva king
+kings		xref Mahāsudassana, King
+kings		xref Mahāvijita, King
+kings		xref Makhādeva, King
+kings		xref Okkāka, King
+kings		xref Pacetana, King
+kings		xref Pasenadi Kosala, King
+kings		xref Pāyāsi, King
+kings		xref Udena, King
+kings		xref Vessavaṇa, deva king
+kings		xref Virūḷhaka, deva king
+kings		xref Virūpakkha, deva king
+kings		xref Yama, King
+queens		xref Māyā, Queen Mahā
+queens		xref Mallikā, Queen
 Dhataraṭṭha, deva king		xref Four Great Kings, the (catumahārāja)
 Virūḷhaka, deva king		xref Four Great Kings, the (catumahārāja)
 Virūpakkha, deva king		xref Four Great Kings, the (catumahārāja)
@@ -638,11 +663,11 @@ causes (nidāna)		xref unwholesome roots (rāga, dosa, moha)
 regret		xref restlessness and remorse (uddhaccakukkucca)
 restlessness and remorse (uddhaccakukkucca)		xref regret
 cosmos		xref world system (lokadhātu)
-virtue, concentration, and wisdom (sīla, samādhi, paññā)		xref virtue (sīla)
-virtue (sīla)		xref virtue, concentration, and wisdom (sīla, samādhi, paññā)
-virtue, concentration, and wisdom (sīla, samādhi, paññā)		xref wisdom (paññā)
-virtue, concentration, and wisdom (sīla, samādhi, paññā)		xref concentration (samādhi)
-concentration (samādhi)		xref virtue, concentration, and wisdom (sīla, samādhi, paññā)
+virtue, concentration, wisdom (sīla, samādhi, paññā)		xref virtue (sīla)
+virtue (sīla)		xref virtue, concentration, wisdom (sīla, samādhi, paññā)
+virtue, concentration, wisdom (sīla, samādhi, paññā)		xref wisdom (paññā)
+virtue, concentration, wisdom (sīla, samādhi, paññā)		xref concentration (samādhi)
+concentration (samādhi)		xref virtue, concentration, wisdom (sīla, samādhi, paññā)
 wrong views		xref views of other sects
 views of other sects		xref wrong views
 upajjhāya		xref preceptor (upajjhāya)
@@ -668,10 +693,10 @@ conscience and prudence (hiri ottappa)		xref prudence (ottāpa)
 conscience (hiri)		xref conscience and prudence (hiri ottappa)
 distortion of perception		xref perception, distorted (viparītasaññā)
 conscience and prudence (hiri ottappa)		xref conscience (hiri)
-old age (jarā)		xref old age, sickness, and death
-old age, sickness, and death		xref old age (jarā)
-sickness		xref old age, sickness, and death
-death (maraṇa)		xref old age, sickness, and death
+old age (jarā)		xref old age, sickness, death
+old age, sickness, death		xref old age (jarā)
+sickness		xref old age, sickness, death
+death (maraṇa)		xref old age, sickness, death
 results of actions		xref rebirth
 rebirth		xref results of actions
 rebirth		xref good rebirth (sugati)
@@ -1647,8 +1672,8 @@ rituals		xref ceremonies
 ceremonies		xref practices
 bad rebirth (duggati)		xref fear of bad rebirth (duggatibhaya)
 fear of bad rebirth (duggatibhaya)		xref bad rebirth (duggati)
-arising, vanishing, and change (uppādo, vayo, aññathatta)		xref change (aññathatta)
-change (aññathatta)		xref arising, vanishing, and change (uppādo, vayo, aññathatta)
+arising, vanishing, change (uppādo, vayo, aññathatta)		xref change (aññathatta)
+change (aññathatta)		xref arising, vanishing, change (uppādo, vayo, aññathatta)
 virtue (sīla)		xref factors of stream-entry
 sand (vālikā)		xref soil (paṁsu)
 tendency		xref underlying tendencies (anusaya)
@@ -4628,9 +4653,9 @@ liberations, eight (vimokkha)	Buddha knows	MN12
 concentration (samādhi)	Buddha knows	MN12
 attainments (samāpatti)	Buddha knows	MN12
 wrong view (micchā diṭṭhi)	leads to hell	MN12
-accomplishment in virtue (sīlasampadā)	person who is attains liberation simile for person with wrong view going to hell	MN12
-accomplishment in concentration (samādhisampannā)	person who is attains liberation simile for person with wrong view going to hell	MN12
-accomplishment in wisdom (paññāsampadā)	person who is attains liberation simile for person with wrong view going to hell	MN12
+accomplishment in virtue (sīlasampadā)	person who is attains liberation, simile for person with wrong view going to hell	MN12
+accomplishment in concentration (samādhisampannā)	person who is attains liberation, simile for person with wrong view going to hell	MN12
+accomplishment in wisdom (paññāsampadā)	person who is attains liberation, simile for person with wrong view going to hell	MN12
 self-assurances (vesārajja)	Tathāgata has four	MN12
 Dhamma	not leading to the end of suffering	MN12
 obstructions (antarāyikā dhammā)	not really obstructions	MN12
@@ -5253,7 +5278,7 @@ milking	milking dry, simile for knowing moderation in accepting requisites	MN33
 requisites, four	knowing moderation in accepting like not milking dry	MN33
 moderation, knowing (mattaññū)	knowing moderation in accepting like not milking dry	MN33
 worshiping (pūjā)	elder monastics	MN33
-loving-kindness (mettā)	by body, speech and mind	MN33
+loving-kindness (mettā)	by body, speech, mind	MN33
 loving-kindness (mettā)	in action	MN33
 growth	factors that lead to	MN33
 cowherd	simile for one able to lead	MN34
@@ -5305,6 +5330,7 @@ Nanda Vaccha	ascetic practices of	MN36
 Kisa Saṅkicca	ascetic practices of	MN36
 Makkhali Gosāla	ascetic practices of	MN36
 luxuries	returning to after ascetic practices	MN36
+ascetic practices	luxuries after	MN36
 pleasant feelings (sukhavedanā)	attachment to	MN36
 pleasant feelings (sukhavedanā)	noble disciple does not become attached	MN36
 painful feelings (dukkhavedanā)	noble disciple does not sorrow	MN36
@@ -5689,7 +5715,7 @@ giving (dāna)	as principle of cordiality	MN48
 sharing	as principle of cordiality	MN48
 right view	as principle of cordiality	MN48
 right view	leads to harmony	MN48
-loving-kindness (mettā)	by body, speech and mind 	MN48
+loving-kindness (mettā)	by body, speech, mind 	MN48
 giving (dāna)	by monastics	MN48
 Baka Brahmā	wrong views	MN49
 Buddha, the	teaching gods	MN49
@@ -6090,7 +6116,7 @@ self-purification	possible or not	MN60
 agency	do beings have	MN60
 causality	exists	MN60
 formless realm (arūpabhava)	existence of	MN60
-form (rūpa)	disillusionment, dispassion, and cessation regarding	MN60
+form (rūpa)	disillusionment, dispassion, cessation regarding	MN60
 becoming (bhava)	cessation of	MN60
 cessation of being/future lives (bhavanirodha)	existence of	MN60
 gods who are formless and made of perception (devā arūpino saññāmayā)	rebirth among	MN60
@@ -6107,12 +6133,12 @@ elephants	simile of person who is willing to lie	MN61
 joking	do not lie even as a joke	MN61
 lying	person who lies can do anything	MN61
 mirrors	simile for self-examination	MN61
-reviewing (paccavekkhaṇā)	before, during, and after actions	MN61
-actions (kamma)	reviewing before, during, and after	MN61
-speech	reviewing before, during, and after	MN61
-mental action (manokamma)	reviewing before, during, and after	MN61
-unskillfulness (akusala)	reviewing before, during, and after actions	MN61
-skillfulness (kusala)	reviewing before, during, and after actions	MN61
+reviewing (paccavekkhaṇā)	before, during, after actions	MN61
+actions (kamma)	reviewing before, during, after	MN61
+speech	reviewing before, during, after	MN61
+mental action (manokamma)	reviewing before, during, after	MN61
+unskillfulness (akusala)	reviewing before, during, after actions	MN61
+skillfulness (kusala)	reviewing before, during, after actions	MN61
 confession	of bad actions after doing	MN61
 restraint	after doing bad actions	MN61
 disgust (aṭṭīyati)	at bad actions	MN61
@@ -6143,10 +6169,10 @@ space element (ākāsa dhātu)	internal and external	MN62
 space element (ākāsa dhātu)	right understanding and	MN62
 seeing with wisdom	elements	MN62
 meditation	like earth, water, fire, air, space	MN62
-earth	not horrified, repelled, and disgusted because of unclean things	MN62
-water	not horrified, repelled, and disgusted because of unclean things	MN62
-fire	not horrified, repelled, and disgusted because of unclean things	MN62
-air	not horrified, repelled, and disgusted because of unclean things	MN62
+earth	not horrified, repelled, disgusted because of unclean things	MN62
+water	not horrified, repelled, disgusted because of unclean things	MN62
+fire	not horrified, repelled, disgusted because of unclean things	MN62
+air	not horrified, repelled, disgusted because of unclean things	MN62
 space (ākāsa)	not established anywhere	MN62
 earth	meditation like	MN62
 water	meditation like	MN62
@@ -6738,7 +6764,7 @@ wholesome roots (vītarāga, vītadosa, vītamoha)	cause of wholesome	MN78
 mind (citta)	origin of habits and intentions	MN78
 right livelihood (sammā ājīva)	cessation of unskillful behaviour	MN78
 wrong livelihood (micchā ājīva)	giving up	MN78
-bad actions	by body, speech and mind	MN78
+bad actions	by body, speech, mind 	MN78
 right effort, four (sammappadhāna)	to give up unskillful behaviour	MN78
 perceptions (saññā)	cause of unskillful intention	MN78
 virtue (sīla)	not identifying with	MN78
@@ -7392,7 +7418,7 @@ virtue (sīla)	as principle of cordiality	MN104
 sharing	as principle of cordiality	MN104
 right view (sammā diṭṭhi)	as principle of cordiality	MN104
 right view (sammā diṭṭhi)	leads to harmony	MN104
-loving-kindness (mettā)	by body, speech and mind 	MN104
+loving-kindness (mettā)	by body, speech, mind  	MN104
 death (maraṇa)	abandoning the training as	MN105
 final knowledge (aññā)	declaring enlightenment	MN105
 overestimation (adhimāna)	declaring enlightenment	MN105
@@ -7704,7 +7730,7 @@ elements (dhātu)	six	MN115
 elements (dhātu)	skilled in	MN115
 elements (dhātu)	pleasure, pain, happiness, sadness, equanimity, ignorance	MN115
 elements (dhātu)	sensuality and renunciation, malice and good will, and cruelty and harmlessness	MN115
-elements (dhātu)	of the sensual realm, the realm of luminous form, and the formless realm	MN115
+elements (dhātu)	of the sensual realm, the realm of luminous form, the formless realm	MN115
 elements (dhātu)	conditioned element and unconditioned element	MN115
 sense bases (āyatana)	skilled in	MN115
 dependent origination (paṭiccasamuppāda)	skilled in	MN115
@@ -9342,7 +9368,7 @@ going forth (pabbajja)	recommended by the wise	AN3.45
 parents	caring for recommended by the wise	AN3.45
 merit (puñña)	by supporting mendicants	AN3.46
 characteristics (lakkhaṇa)	of conditioned phenomena	AN3.47
-arising, vanishing, and change (uppādo, vayo, aññathatta)	characteristics of conditioned	AN3.47
+arising, vanishing, change (uppādo, vayo, aññathatta)	characteristics of conditioned	AN3.47
 conditioned (saṅkhata)	characteristics	AN3.47
 unconditioned (asaṅkhata)	characteristics	AN3.47
 sal trees	supported by Himalayas like family supported by head with faith	AN3.48
@@ -9405,7 +9431,7 @@ mental preoccupations (manopavicāra)	eighteen	AN3.61
 dependent origination (paṭiccasamuppāda)	as second noble truth	AN3.61
 perils (bhaya)	that separate mother and child	AN3.62
 noble eightfold path (ariya aṭṭhangika magga)	as practice to remove perils of old age, etc.	AN3.62
-old age, sickness, and death	as perils removed by noble eightfold path	AN3.62
+old age, sickness, death	as perils removed by noble eightfold path	AN3.62
 loving-kindness (mettā)	as “luxurious bed” of brahmās	AN3.63
 Buddha, the	reputation definition	AN3.63
 luxuries	not allowed for mendicants	AN3.63
@@ -9645,9 +9671,9 @@ accomplishment in mind (cittasampadā)	definition	AN3.117
 accomplishment in view (diṭṭhisampadā)	definition	AN3.117
 mind (citta)	accomplishment in	AN3.117
 right view (sammā diṭṭhi)	accomplishment in	AN3.117
-accomplishment in virtue (sīlasampadā)	leads to good rebirth like loaded dice	AN3.118
-accomplishment in mind (cittasampadā)	leads to good rebirth like loaded dice	AN3.118
-accomplishment in view (diṭṭhisampadā)	leads to good rebirth like loaded dice	AN3.118
+accomplishment in virtue (sīlasampadā)	leads to good rebirth, like loaded dice	AN3.118
+accomplishment in mind (cittasampadā)	leads to good rebirth, like loaded dice	AN3.118
+accomplishment in view (diṭṭhisampadā)	leads to good rebirth, like loaded dice	AN3.118
 livelihood	accomplishment in	AN3.119
 purity (soceyya)	three types of, definition	AN3.120
 hindrances (nīvaraṇa)	seeing in the mind	AN3.121
@@ -9702,7 +9728,7 @@ hell (niraya)	unwholesome actions lead to	AN3.146
 heaven (sagga)	wholesome actions lead to	AN3.146
 fools (bāla)	harm themselves with bad action	AN3.150
 wise people	help themselves with good action	AN3.150
-worshiping (vandati) 	by body, speech and mind	AN3.154
+worshiping (vandati) 	by body, speech, mind 	AN3.154
 good actions	all day long	AN3.155
 wrong views	that there is nothing wrong with sensual pleasures	AN3.156-162
 mortification (tapojigucchā)	that are scorching	AN3.156-162
@@ -9780,11 +9806,11 @@ meditation	love for	AN4.28
 noble traditions (ariyavaṁsa)	contentment with requisites and meditation	AN4.28
 tradition (vaṁsa)	contentment with requisites and meditation	AN4.28
 good will (abyāpāda, avyāpāda)	as footprint of the Dhamma	AN4.29
-footprints of the Dhamma (dhammapada)	contentment, good will, right mindfulness, and right concentration	AN4.29
+footprints of the Dhamma (dhammapada)	contentment, good will, right mindfulness, right concentration	AN4.29
 contentment (santuṭṭhi)	as footprint of the Dhamma	AN4.29
 right mindfulness (sammā sati)	as footprint of the Dhamma	AN4.29
 right concentration (sammā samādhi)	as footprint of the Dhamma	AN4.29
-tradition (vaṁsa)	contentment, good will, right mindfulness, and right concentration	AN4.29
+tradition (vaṁsa)	contentment, good will, right mindfulness, right concentration	AN4.29
 views of other sects	against the footprints of Dhamma	AN4.30
 region	suitable	AN4.31
 merit (puñña)	done in the past	AN4.31
@@ -10089,8 +10115,8 @@ understanding	immediately	AN4.133
 results of actions	living off the fruit of	AN4.134
 actions (kamma)	living off the fruit of current actions	AN4.134
 blame	levels of	AN4.135
-virtue, concentration, and wisdom (sīla, samādhi, paññā)	people with levels of	AN4.136
-virtue, concentration, and wisdom (sīla, samādhi, paññā)	people with levels of	AN4.137
+virtue, concentration, wisdom (sīla, samādhi, paññā)	people with levels of	AN4.136
+virtue, concentration, wisdom (sīla, samādhi, paññā)	people with levels of	AN4.137
 retreat	by body or mind	AN4.138
 right intention (sammā saṅkappa)	on retreat by mind	AN4.138
 Dhamma teachers	on topic or off	AN4.139
@@ -10204,7 +10230,7 @@ Dhamma	how to evaluate what is and what isn’t	AN4.180
 great references (mahāpadesa)	what is and is not Dhamma	AN4.180
 mendicants	worthy of gifts	AN4.181
 mendicants	like a warrior	AN4.181
-old age, sickness, and death	no one can be guarantor	AN4.182
+old age, sickness, death	no one can be guarantor	AN4.182
 results of actions	to be experienced as they should be experienced	AN4.182
 Vassakāra, brahmin	asks about speech	AN4.183
 skillfulness and unskillfulness	determines what should be talked about	AN4.183
@@ -10617,15 +10643,15 @@ generosity (cāga)	as a type of wealth	AN5.47
 wealth	faith, ethics, learning, generosity, wisdom	AN5.47
 death (maraṇa)	universality of	AN5.48
 reflection (paṭisaṅkhā)	on aging, sickness, etc.	AN5.48
-old age, sickness, and death	cannot be escaped	AN5.48
-old age, sickness, and death	should be reflected on	AN5.48
-old age, sickness, and death	universality of	AN5.48
+old age, sickness, death	cannot be escaped	AN5.48
+old age, sickness, death	should be reflected on	AN5.48
+old age, sickness, death	universality of	AN5.48
 grieving	uselessness of	AN5.48
 grieving	makes enemies rejoice	AN5.48
 death (maraṇa)	of relative	AN5.49
 Nārada, Ven.	counselling King Muṇḍa	AN5.50
-old age, sickness, and death	universality of	AN5.50
-old age, sickness, and death	should be reflected on	AN5.50
+old age, sickness, death	universality of	AN5.50
+old age, sickness, death	should be reflected on	AN5.50
 sorrow	pulling out sorrow’s arrow	AN5.50
 hindrances (nīvaraṇa)	parasites of the mind	AN5.51
 wisdom (paññā)	removing the hindrances	AN5.51
@@ -10659,13 +10685,13 @@ wakefulness (jāgara)	not devoted to wakefulness leads to dissatisfaction	AN5.56
 skillfulness (kusala)	not discerning leads to dissatisfaction	AN5.56
 death (maraṇa)	frequent recollection	AN5.57
 reviewing (paccavekkhaṇā)	things to always reflect on	AN5.57
-old age, sickness, and death	things to always reflect on	AN5.57
+old age, sickness, death	things to always reflect on	AN5.57
 separation from the loved	things to always reflect on	AN5.57
 actions (kamma)	being the owner of ones own	AN5.57
 subjects	to be reflected on	AN5.57
-old age, sickness, and death	overcome intoxication with youth, health, life	AN5.57
+old age, sickness, death	overcome intoxication with youth, health, life	AN5.57
 reviewing (paccavekkhaṇā)	leads to wholesome actions	AN5.57
-old age, sickness, and death	universality of	AN5.57
+old age, sickness, death	universality of	AN5.57
 separation from the loved	universality of	AN5.57
 actions (kamma)	all are owner of their actions	AN5.57
 fetters (saṁyojana)	removed by reviewing five subjects	AN5.57
@@ -12104,7 +12130,7 @@ wisdom (paññā)	like a wall	AN7.67
 wisdom (paññā)	noble disciple with gives up unwholesome	AN7.67
 wisdom (paññā)	quality of a noble disciple	AN7.67
 jhānas	like provisions in a frontier citadel	AN7.67
-jhānas	for enjoyment, relief, comfort, and for alighting upon extinguishment	AN7.67
+jhānas	for enjoyment, relief, comfort, for alighting upon extinguishment	AN7.67
 noble disciple (ariya sāvaka)	who cannot be overrun by Māra	AN7.67
 nine types of teachings	one who knows is worthy of gifts	AN7.68
 meaning (attha)	one who knows is worthy of gifts	AN7.68
@@ -12324,7 +12350,7 @@ noble eightfold path (ariya aṭṭhangika magga)	as straight (uju) path	AN8.13
 determination	not to move until enlightened	AN8.13
 horses	wild colt, simile for bad people	AN8.14
 admonishment	being difficult to	AN8.14
-accusations	not responding well to	AN8.14
+accusations	responding to	AN8.14
 obstinacy (thambha)	difficult to admonish	AN8.14
 disrobing	when accused	AN8.14
 beauty	laziness	AN8.15
@@ -13039,23 +13065,23 @@ Sāriputta, Ven.	lion’s roar	AN9.11
 Sāriputta, Ven.	falsely accused	AN9.11
 false accusations	Ven. Sāriputta accused	AN9.11
 mindfulness of body (kāyagatāsati)	one who has cannot attack without apologizing	AN9.11
-earth, the	not horrified, repelled, and disgusted because of unclean things	AN9.11
+earth, the	not horrified, repelled, disgusted because of unclean things	AN9.11
 earth, the	simile for mind	AN9.11
 mind (cetas)	like the earth	AN9.11
-water	not horrified, repelled, and disgusted because of unclean things	AN9.11
+water	not horrified, repelled, disgusted because of unclean things	AN9.11
 water	simile for mind	AN9.11
 mind (cetas)	like water	AN9.11
 water	mind like	AN9.11
 earth, the	mind like	AN9.11
-fire	not horrified, repelled, and disgusted because of unclean things	AN9.11
+fire	not horrified, repelled, disgusted because of unclean things	AN9.11
 fire	mind like	AN9.11
 fire	simile for mind	AN9.11
 mind (cetas)	like fire	AN9.11
 wind (vāyo)	mind like	AN9.11
-wind (vāyo)	not horrified, repelled, and disgusted because of unclean things	AN9.11
+wind (vāyo)	not horrified, repelled, disgusted because of unclean things	AN9.11
 wind (vāyo)	simile for mind	AN9.11
 mind (cetas)	like wind	AN9.11
-rag	not horrified, repelled, and disgusted because of unclean things	AN9.11
+rag	not horrified, repelled, disgusted because of unclean things	AN9.11
 rag	mind like	AN9.11
 rag	simile for mind	AN9.11
 mind (cetas)	like a rag	AN9.11
@@ -14312,18 +14338,18 @@ doubt (vicikicchā)	must be given up to give up greed, hatred, delusion	AN10.76
 improper attention (ayoniso manasikāra)	must be given up to give up to give up three lower fetters	AN10.76
 wrong path (kummagga)	must be given up to give up to give up three lower fetters	AN10.76
 mental sluggishness (cetaso līnatta)	must be given up to give up to give up three lower fetters	AN10.76
-sīlabbataparāmāsa	to give up, improper attention, following a wrong path, and mental sluggishness must be given up	AN10.76
-identity view (sakkāyadiṭṭhi)	to give up, improper attention, following a wrong path, and mental sluggishness must be given up	AN10.76
-doubt (vicikicchā)	to give up, improper attention, following a wrong path, and mental sluggishness must be given up	AN10.76
-improper attention (ayoniso manasikāra)	to give up, unmindfulness, lack of situational awareness, and distracted mind must be given up	AN10.76
-wrong path (kummagga)	to give up, unmindfulness, lack of situational awareness, and distracted mind must be given up	AN10.76
-mental sluggishness (cetaso līnatta)	to give up, unmindfulness, lack of situational awareness, and distracted mind must be given up	AN10.76
-unmindfulness (muṭṭhassacca)	must be given up to give up improper attention, following a wrong path, and mental sluggishness	AN10.76
-situational awareness (sampajañña)	lack of must be given up to give up improper attention, following a wrong path, and mental sluggishness	AN10.76
-distracted mind (cetaso vikkhepa)	must be given up to give up improper attention, following a wrong path, and mental sluggishness	AN10.76
-unmindfulness (muṭṭhassacca)	to give up, not wanting to see the noble ones, not wanting to hear the teaching of the noble ones, and a fault-finding mind must be given up	AN10.76
-situational awareness (sampajañña)	to give up, not wanting to see the noble ones, not wanting to hear the teaching of the noble ones, and a fault-finding mind must be given up	AN10.76
-distracted mind (cetaso vikkhepa)	to give up, not wanting to see the noble ones, not wanting to hear the teaching of the noble ones, and a fault-finding mind must be given up	AN10.76
+sīlabbataparāmāsa	to give up, improper attention, following a wrong path, mental sluggishness must be given up	AN10.76
+identity view (sakkāyadiṭṭhi)	to give up, improper attention, following a wrong path, mental sluggishness must be given up	AN10.76
+doubt (vicikicchā)	to give up, improper attention, following a wrong path, mental sluggishness must be given up	AN10.76
+improper attention (ayoniso manasikāra)	to give up, unmindfulness, lack of situational awareness, distracted mind must be given up	AN10.76
+wrong path (kummagga)	to give up, unmindfulness, lack of situational awareness, distracted mind must be given up	AN10.76
+mental sluggishness (cetaso līnatta)	to give up, unmindfulness, lack of situational awareness, distracted mind must be given up	AN10.76
+unmindfulness (muṭṭhassacca)	must be given up to give up improper attention, following a wrong path, mental sluggishness	AN10.76
+situational awareness (sampajañña)	lack of must be given up to give up improper attention, following a wrong path, mental sluggishness	AN10.76
+distracted mind (cetaso vikkhepa)	must be given up to give up improper attention, following a wrong path, mental sluggishness	AN10.76
+unmindfulness (muṭṭhassacca)	to give up, not wanting to see the noble ones, not wanting to hear the teaching of the noble ones, a fault-finding mind must be given up	AN10.76
+situational awareness (sampajañña)	to give up, not wanting to see the noble ones, not wanting to hear the teaching of the noble ones, a fault-finding mind must be given up	AN10.76
+distracted mind (cetaso vikkhepa)	to give up, not wanting to see the noble ones, not wanting to hear the teaching of the noble ones, a fault-finding mind must be given up	AN10.76
 noble ones (ariya)	not wanting to see	AN10.76
 listening to Dhamma	not wanting to listen	AN10.76
 fault-finding mind (upārambhacittatā)	giving up	AN10.76
@@ -15087,7 +15113,7 @@ milking	milking dry, simile for knowing moderation in accepting requisites	AN11.
 requisites, four	knowing moderation in accepting like not milking dry	AN11.17
 moderation, knowing (mattaññū)	knowing moderation in accepting like not milking dry	AN11.17
 worshiping (pūjā)	elder monastics	AN11.17
-loving-kindness (mettā)	by body, speech and mind	AN11.17
+loving-kindness (mettā)	by body, speech, mind 	AN11.17
 growth	factors that lead to	AN11.17
 this world (idhaloka)	perceptions and	AN11.18
 other world (paraloka)	perceptions and	AN11.18
@@ -16784,6 +16810,7 @@ listening attentively (ohitasota)	Buddha advises Ven. Mahā Kassapa	SN16.11
 mindfulness of body (kāyagatāsati)	full of pleasure	SN16.11
 Tathāgatas	existing after death	SN16.12
 training rules (sikkhāpada)	why more now	SN16.13
+arahants	why fewer now	SN16.13
 decline	more training rules when beings are in decline	SN16.13
 untrue teachings (asaddhamma)	arising	SN16.13
 gold	counterfeit gold, simile for untrue teachings	SN16.13
@@ -17091,9 +17118,9 @@ Dhamma teaching	in brief (saṅkhittena), aggregates	SN22.35
 underlying tendencies (anusaya)	aggregates	SN22.35
 Dhamma teaching	in brief (saṅkhittena), aggregates	SN22.36
 underlying tendencies (anusaya)	aggregates	SN22.36
-arising, vanishing, and change (uppādo, vayo, aññathatta)	aggregates	SN22.37
+arising, vanishing, change (uppādo, vayo, aññathatta)	aggregates	SN22.37
 aggregates	arising, vanishing, change	SN22.37
-arising, vanishing, and change (uppādo, vayo, aññathatta)	aggregates	SN22.38
+arising, vanishing, change (uppādo, vayo, aññathatta)	aggregates	SN22.38
 aggregates	arising, vanishing, change	SN22.38
 disillusionment (nibbidā)	aggregates	SN22.39
 islands	be your own	SN22.43
@@ -17210,10 +17237,10 @@ form (rūpa)	called because it is deformed	SN22.79
 feelings (vedanā)	called because it feels	SN22.79
 feelings (vedanā)	pleasure, pain, neutral	SN22.79
 perceptions (saññā)	called because it perceives	SN22.79
-perceptions (saññā)	blue, yellow, red, and white	SN22.79
+perceptions (saññā)	blue, yellow, red, white	SN22.79
 formations (saṅkhāra)	called because they produce conditioned phenomena	SN22.79
 consciousness (viññāṇa)	called because it cognizes	SN22.79
-consciousness (viññāṇa)	sour, bitter, pungent, sweet, hot, mild, salty, and bland 	SN22.79
+consciousness (viññāṇa)	sour, bitter, pungent, sweet, hot, mild, salty, bland 	SN22.79
 abandoning (pajahati, pahāna)	aggregates	SN22.79
 arahants	neither give up nor accumulate	SN22.79
 seeds	young seedlings needing water, simile for young monastics	SN22.80
@@ -17329,7 +17356,7 @@ encouragement	capable of understanding Dhamma	SN22.90
 duality (dvaya)	existence and non-existence	SN22.90
 existence (atthitā)	duality of	SN22.90
 non-existence (natthiā)	duality of	SN22.90
-world, the	shackled by attraction, grasping, and insisting 	SN22.90
+world, the	shackled by attraction, grasping, insisting 	SN22.90
 extremes (anta)	existence and non-existence	SN22.90
 middle (majjha)	dependent origination as middle way	SN22.90
 dependent origination	as middle way	SN22.90
@@ -18006,7 +18033,7 @@ villages (gāma)	simile for internal sense bases; empty	SN35.238
 internal sense bases	like empty village	SN35.238
 thieves (cora)	simile for external sense bases	SN35.238
 external sense bases	like thieves	SN35.238
-floods (ogha)	of sensuality, desire to be reborn, views, and ignorance 	SN35.238
+floods (ogha)	of sensuality, desire to be reborn, views, ignorance 	SN35.238
 near shore (orima)	simile for identity	SN35.238
 identity (sakkāya)	like near shore	SN35.238
 far shore (pārima)	simile for nibbāna	SN35.238
@@ -18319,7 +18346,6 @@ psychic powers (iddhi)	weather change	SN41.4
 weather	changing using psychic powers	SN41.4
 Mahaka, Ven.	changing weather using psychic powers	SN41.4
 psychic powers (iddhi)	showing off	SN41.4
-Mahaka, Ven.	disappearing	SN41.4
 laypeople	teaching monastics	SN41.5
 chariots	simile for body	SN41.5
 wheels	simile for virtue	SN41.5
@@ -18785,7 +18811,7 @@ searches (esana, pariyesanā)	for sensual pleasures, continued existence, a spir
 noble eightfold path (ariya aṭṭhangika magga)	to know searches	SN45.161
 “I’m better,” “I’m equal,” “I’m worse”	kinds of discrimination	SN45.162
 noble eightfold path (ariya aṭṭhangika magga)	for direct knowledge of three kinds of discrimination	SN45.162
-taints (āsava)	sensuality, desire to be reborn, and ignorance	SN45.163
+taints (āsava)	sensuality, desire to be reborn, ignorance	SN45.163
 taints (āsava)	noble eightfold path is for giving up	SN45.163
 noble eightfold path (ariya aṭṭhangika magga)	for giving up taints	SN45.163
 sensuous realm (kāmabhava)	noble eightfold path is for giving up	SN45.164
@@ -18807,10 +18833,10 @@ noble eightfold path (ariya aṭṭhangika magga)	for giving up feelings	SN45.16
 craving (taṇhā)	three types	SN45.170
 craving (taṇhā)	noble eightfold path is for giving up	SN45.170
 craving (taṇhā)	given up by eightfold path	SN45.170
-floods (ogha)	of sensuality, desire to be reborn, views, and ignorance	SN45.171
+floods (ogha)	of sensuality, desire to be reborn, views, ignorance	SN45.171
 noble eightfold path (ariya aṭṭhangika magga)	to give up floods	SN45.171
 attachments (yoga)	to sensual pleasures, future lives, views, ignorance	SN45.172
-grasping (upādāna)	sensual pleasures, views, precepts and observances, and theories of a self	SN45.173
+grasping (upādāna)	sensual pleasures, views, precepts and observances, theories of a self	SN45.173
 noble eightfold path (ariya aṭṭhangika magga)	to give up grasping	SN45.173
 grasping (upādāna)	given up by eightfold path	SN45.173
 underlying tendencies (anusaya)	seven	SN45.175
@@ -19007,7 +19033,7 @@ sense desire (kāmacchanda)	starved by sign of ugly	SN46.51
 sign of the ugly (asubhanimitta)	starves sense desire	SN46.51
 ill will (vyāpāda, byāpāda)	starved by hearts release by loving-kindness	SN46.51
 heart’s release by loving-kindness (mettā cetovimutti)	starves ill will	SN46.51
-dullness and drowsiness (thinamiddha)	starved by elements of initiative, persistence, and exertion	SN46.51
+dullness and drowsiness (thinamiddha)	starved by elements of initiative, persistence, exertion	SN46.51
 restlessness and remorse (uddhaccakukkucca)	starved by the settled mind	SN46.51
 settled (vūpasama)	settled mind starves restlessness and remorse	SN46.51
 doubt (vicikicchā)	starved by settled mind	SN46.51
@@ -19034,8 +19060,8 @@ awakening factor of tranquility (passaddhisambojjhaṅga)	physical and mental	SN
 awakening factor of immersion (samādhisambojjhaṅga)	with and without applied and sustained thought	SN46.52
 awakening factor of equanimity (upekkhāsambojjhaṅga)	for internal and external	SN46.52
 wanderers of other sects (aññatitthiya paribbājaka)	difference between their teaching and the Buddha’s	SN46.53
-mental sluggishness (cetaso līnatta)	wrong time to develop the awakening factors of tranquility, immersion, and equanimity	SN46.53
-mental sluggishness (cetaso līnatta)	right time to develop the awakening factors of investigation of principles, energy, and rapture	SN46.53
+mental sluggishness (cetaso līnatta)	wrong time to develop the awakening factors of tranquility, immersion, equanimity	SN46.53
+mental sluggishness (cetaso līnatta)	right time to develop the awakening factors of investigation of principles, energy, rapture	SN46.53
 awakening factor of tranquility (passaddhisambojjhaṅga)	do not develop when mind is sluggish	SN46.53
 awakening factor of immersion (samādhisambojjhaṅga)	do not develop when mind is sluggish	SN46.53
 awakening factor of equanimity (upekkhāsambojjhaṅga)	do not develop when mind is sluggish	SN46.53
@@ -19043,8 +19069,8 @@ fires	simile for awakening factors to develop at proper time	SN46.53
 awakening factor of investigation of principles (dhammavicayasambojjhaṅga)	develop when mind is sluggish	SN46.53
 awakening factor of energy (vīriyasambojjhaṅga)	develop when mind is sluggish	SN46.53
 awakening factor of rapture (pītisambojjhaṅga)	develop when mind is sluggish	SN46.53
-restlessness (uddhacca)	wrong time to develop the awakening factors of investigation of principles, energy, and rapture	SN46.53
-restlessness (uddhacca)	right time to develop the awakening factors of tranquility, immersion, and equanimity	SN46.53
+restlessness (uddhacca)	wrong time to develop the awakening factors of investigation of principles, energy, rapture	SN46.53
+restlessness (uddhacca)	right time to develop the awakening factors of tranquility, immersion, equanimity	SN46.53
 awakening factor of investigation of principles (dhammavicayasambojjhaṅga)	do not develop when mind is restless	SN46.53
 awakening factor of energy (vīriyasambojjhaṅga)	do not develop when mind is restless	SN46.53
 awakening factor of rapture (pītisambojjhaṅga)	do not develop when mind is restless	SN46.53
@@ -19131,7 +19157,7 @@ virtue (sīla)	grounded on one develops awakening factors	SN46.99
 awakening factors, seven (bojjhaṅga)	grounded on virtue	SN46.99
 searches (esana, pariyesanā)	for sensual pleasures, continued existence, a spiritual life	SN46.111
 awakening factors, seven (bojjhaṅga)	to know searches	SN46.111
-floods (ogha)	of sensuality, desire to be reborn, views, and ignorance	SN46.121
+floods (ogha)	of sensuality, desire to be reborn, views, ignorance	SN46.121
 awakening factors, seven (bojjhaṅga)	to give up floods	SN46.121
 fetters (saṁyojana)	awakening factors to give up five higher	SN46.130
 awakening factors, seven (bojjhaṅga)	to give up five higher fetters	SN46.130
@@ -21531,7 +21557,7 @@ gifts, specific types of	adornments from husbands to wives	DN31:27.0
 friends and colleagues (mittāmaccā)	caring for friends	DN31:27.0
 bondservants (dāsa)	caring for	DN31:27.0
 workers (kammakara)	caring for	DN31:27.0
-loving-kindness (mettā)	by body, speech and mind 	DN31:27.0
+loving-kindness (mettā)	by body, speech, mind  	DN31:27.0
 ascetics and brahmins (samaṇabrāhmaṇa)	caring for	DN31:27.0
 Four Great Kings, the (catumahārāja)	visiting the Buddha	DN32
 yakkhas	ruled by Kuvera	DN32
@@ -21565,8 +21591,8 @@ reciting Dhamma	should come together to	DN33
 food	all beings sustained by	DN33:1.7.9.0
 conditions (saṅkāra)	all beings sustained by	DN33:1.7.9.1
 contentment	with partial attainments	DN33:1.9.0
-bad actions	by body, speech and mind	DN33:1.10.0
-good actions	by body, speech and mind	DN33:1.10.0
+bad actions	by body, speech, mind 	DN33:1.10.0
+good actions	by body, speech, mind 	DN33:1.10.0
 thoughts (vitakka)	skillful and unskillful	DN33:1.10.0
 intention (saṅkappa)	skillful and unskillful	DN33:1.10.0
 perceptions (saññā)	skillful and unskillful	DN33:1.10.0
