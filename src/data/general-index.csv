@@ -710,7 +710,7 @@ anger (kodha)		xref temper
 temper		xref anger (kodha)
 Dhamma teachers		xref teachers
 teachers		xref Dhamma teachers
-talk		xref socializing
+talk (bhassa)		xref socializing
 socializing		xref talk
 sleep		xref sleepiness
 sleepiness		xref sleep
@@ -2039,7 +2039,7 @@ sacrifices (yañña)	good and bad	DN5
 sacrifices (yañña)	animal	DN5
 animals	sacrifice of	DN5
 Mahāvijita, King	performing a sacrifice	DN5:8.0
-taxes (bali)	on troubled kingdom	DN5:8.0
+taxation	on troubled kingdom	DN5:8.0
 kingship	proper method	DN5:8.0
 social welfare	benefits of	DN5:8.0
 kings (rāja)	factors of	DN5:8.0
@@ -3437,7 +3437,7 @@ Tathāgatas	understanding to the end	MN1
 delight (nandi)	root of suffering	MN1
 knowing and seeing	ending of taints	MN2
 proper attention (yoniso manasikāra)	removing taints	MN2
-taints (āsava)	to be given up by seeing	MN2
+taints (āsava)	to be given up by seeing, avoiding, etc	MN2
 ordinary person (puthujjana)	not knowing where to apply mind	MN2
 taint of sensuality (kāmāsava)	causing taints to increase	MN2
 taint of existence (bhavāsava)	causing taints to increase	MN2
@@ -3447,16 +3447,13 @@ future (anāgata)	speculating about	MN2
 present (paccuppanna)	indecision about	MN2
 views about the self (attavāda)	caused by unwise reflection	MN2
 learned noble disciple (sutavā ariyasāvaka)	knowing where to apply mind	MN2
-taints (āsava)	to be given up by restraint	MN2
 sense restraint (indriyasaṁvara)	taints (āsava) and	MN2
-taints (āsava)	to be given up by using	MN2
 reflection (paṭisaṅkhā)	on using in order to remove defilements	MN2
 robes	reflection on using	MN2
 almsfood	reflection on using	MN2
 dwellings (senāsana)	reflection on using	MN2
 medicine	reflection on using	MN2
 enduring (adhivāsana)	in order to remove taints (āsava)	MN2
-taints (āsava)	to be given up by enduring	MN2
 cold	to be given up by enduring	MN2
 heat	to be given up by enduring	MN2
 hunger	to be given up by enduring	MN2
@@ -3465,18 +3462,15 @@ insects	to be given up by enduring	MN2
 criticism	to be given up by enduring	MN2
 pain (dukkha)	to be given up by enduring	MN2
 deadly pain	to be given up by enduring	MN2
-taints (āsava)	to be given up by avoiding	MN2
 avoiding (parivajjana)	in order to remove taints (āsava)	MN2
 animals	avoiding to remove taints	MN2
 friends, bad	avoiding to remove taints	MN2
 seats	avoiding bad to remove taints	MN2
-taints (āsava)	to be given up by removing	MN2
 removing (vinodana)	in order to remove taints (āsava)	MN2
 tolerating bad thoughts	not tolerating	MN2
 intention of sensual desire (kāmasaṅkappa)	removing	MN2
 intention of ill will (byāpādasaṅkappa)	removing	MN2
 intention of cruelty (vihiṁsāsaṅkappa)	removing	MN2
-taints (āsava)	to be given up by developing	MN2
 development (bhāvanā)	in order to remove taints (āsava)	MN2
 development (bhāvanā)	awakening factors, seven (bojjhaṅga)	MN2
 heirs (dāyāda)	in Dhamma, not material things	MN3
@@ -3898,6 +3892,7 @@ nakedness	ascetic practice	MN12
 beards	tearing out	MN12
 standing	ascetic practice	MN12
 beds	of thorns/spikes	MN12
+thorns	bed of	MN12
 bathing	as ritual	MN12
 bathing	refusing to	MN12
 water	harming creatures in	MN12
@@ -4042,7 +4037,6 @@ cowherd	simile for dealing with thoughts in meditation	MN19
 meditation	dealing with thoughts, like cowherd	MN19
 unskillful qualities (akusala dhamma)	overcoming in meditation	MN19
 danger (ādīnava)	of unwholesome thoughts	MN19
-thinking	in meditation	MN19
 intention (cetana)	frequent thoughts become our intention	MN19
 mind (cetas)	frequent thoughts become nature of our mind	MN19
 thoughts (vitakka)	frequent thoughts become nature of our mind	MN19
@@ -4985,6 +4979,7 @@ humans	deceptive, unlike animals	MN51
 self-mortification (attantapo)	people who do	MN51
 mortifying others (parantapa)	people who do	MN51
 self-mortification (attantapo)	people who do not	MN51
+thorns	bed of	MN51
 mortifying others (parantapa)	people who do not	MN51
 happiness (sukha)	beings want happiness	MN51
 suffering (dukkha)	beings avoid	MN51
@@ -5233,6 +5228,7 @@ giving (dāna)	“Gifts should only be given to the Buddha”	MN56
 gradual instruction (anupubba katha)	to Upāli	MN56
 cloth	simile for doctrine taking pounding	MN56
 blood	spewing hot	MN56
+testicles	simile for failing to debate the Buddha	MN56
 magic	conversion magic of Buddha	MN56
 relatives	wishing for them to be converted	MN56
 conversion	wishing for all to be converted	MN56
@@ -7307,7 +7303,7 @@ regret	having and not having	MN129
 regret	over life poorly lived	MN129
 fools (bāla)	rebirth of	MN129
 hell (niraya)	completely disagreeable	MN129
-swords	striking with as simile for hell	MN129
+swords	simile for hell, being struck with	MN129
 hell (niraya)	torture in	MN129
 hell (niraya)	description of	MN129
 torture	in hell	MN129
@@ -7360,6 +7356,7 @@ hell (niraya)	torture in	MN130
 hell (niraya)	description of	MN130
 torture	in hell	MN130
 Great Hell (mahāniraya)	description of	MN130
+thorns	hell	MN130
 Dung Hell (gūthaniraya)	description of	MN130
 Hell of Hot Coals (kukkulaniraya)	description of	MN130
 hell (niraya)	trying to eat and drink in	MN130
@@ -7751,6 +7748,7 @@ Anāthapiṇḍika, householder	requesting deep teachings for householders	MN143
 laypeople	teachings usually given to	MN143
 Tusita heaven	Anāthapiṇḍika reborn in	MN143
 Anāthapiṇḍika, householder	reborn in Tusita heaven	MN143
+Anāthapiṇḍika, householder	as deva praising Jeta’s grove and Ven. Sāriputta	MN143
 Jeta’s Grove	praised by god Anāthapiṇḍika	MN143
 Sāriputta, Ven.	praise of	MN143
 Sāriputta, Ven.	visiting Ven. Channa	MN144
@@ -7940,6 +7938,7 @@ noble ones (ariya)	with developed faculties	MN152
 faculties, sense (indriya)	noble ones	MN152
 devas	 	CUSTOM:SN:SN 1 Devatā Saṁyutta:suttacentral.net/sn1
 flood crossing	how to	SN1.1
+swimmer	crossing flood	SN1.2
 liberation (vimokkha)	how Buddha understands	SN1.2
 perceptions (saññā)	finishing of	SN1.2
 consciousness (viññāṇa)	finishing of	SN1.2
@@ -13973,6 +13972,7 @@ singing	regarded as wailing	AN3.107
 dancing	regarded as madness	AN3.107
 laughter and showing teeth	childish	AN3.107
 smiling	enough to do when pleased	AN3.107
+teeth	showing when laughing	AN3.107
 sleep	is never satisfied	AN3.108
 alcohol	desire for is never satisfied	AN3.108
 sexual intercourse	desire for is never satisfied	AN3.108
@@ -15663,7 +15663,7 @@ reviewing (paccavekkhaṇā)	mindfulness of death	AN6.20
 gods	seeing bad qualities of monks	AN6.21
 work	leading to mendicant’s decline	AN6.21
 sleep	leading to mendicant’s decline	AN6.21
-talk	leading to mendicant’s decline	AN6.21
+talk (bhassa)	leading to mendicant’s decline	AN6.21
 friends, bad	leading to mendicant’s decline	AN6.21
 admonishment	being difficult to leading to decline	AN6.21
 past, present, future	training is the same	AN6.22
@@ -15851,16 +15851,13 @@ rebirth	to lower situation	AN6.57
 results of actions	bright and dark: definition	AN6.57
 actions (kamma)	bright and dark: definition	AN6.57
 rebirth	classes of	AN6.57
-taints (āsava)	to be given up by restraint	AN6.58
 sense restraint (indriyasaṁvara)	taints (āsava) and	AN6.58
-taints (āsava)	to be given up by using	AN6.58
 reflection (paṭisaṅkhā)	on using in order to remove defilements	AN6.58
 robes	reflection on using	AN6.58
 almsfood	reflection on using	AN6.58
 dwellings (senāsana)	reflection on using	AN6.58
 medicine	reflection on using	AN6.58
 enduring (adhivāsana)	in order to remove taints (āsava)	AN6.58
-taints (āsava)	to be given up by enduring	AN6.58
 cold	to be given up by enduring	AN6.58
 heat (uṇha, usmā)	to be given up by enduring	AN6.58
 hunger	to be given up by enduring	AN6.58
@@ -15869,18 +15866,16 @@ insects	to be given up by enduring	AN6.58
 criticism	to be given up by enduring	AN6.58
 pain (dukkha)	to be given up by enduring	AN6.58
 deadly pain	to be given up by enduring	AN6.58
-taints (āsava)	to be given up by avoiding	AN6.58
+taints (āsava)	to be given up by seeing, avoiding, etc	AN6.58
 avoiding (parivajjana)	in order to remove taints (āsava)	AN6.58
 animals	avoiding to remove taints	AN6.58
 friends, bad	avoiding to remove taints	AN6.58
 seats	avoiding bad to remove taints	AN6.58
-taints (āsava)	to be given up by removing	AN6.58
 removing (vinodana)	in order to remove taints (āsava)	AN6.58
 tolerating bad thoughts	not tolerating	AN6.58
 intention of sensual desire (kāmasaṅkappa)	removing	AN6.58
 intention of ill will (byāpādasaṅkappa)	removing	AN6.58
 intention of cruelty (vihiṁsāsaṅkappa)	removing	AN6.58
-taints (āsava)	to be given up by developing	AN6.58
 development (bhāvanā)	in order to remove taints (āsava)	AN6.58
 development (bhāvanā)	awakening factors, seven (bojjhaṅga)	AN6.58
 giving (dāna)	worthy of gifts	AN6.58
@@ -18325,6 +18320,8 @@ perception of ugliness (asubhasaññā)	definition	AN10.60
 body parts	perception of ugliness	AN10.60
 perception of danger/drawback (ādīnavasaññā)	definition	AN10.60
 sickness	perception of danger/drawback	AN10.60
+thirst	drawback of body	AN10.60
+hunger	drawback of body	AN10.60
 perception of giving up (pahānasaññā)	definition	AN10.60
 sensual thoughts (kāmavitakka)	perception of giving up	AN10.60
 malicious thoughts (byāpādavitakka)	perception of giving up	AN10.60
