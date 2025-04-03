@@ -1,5 +1,8 @@
 dependent origination		xref unwholesome chain of causality
 dependent origination		xref wholesome chain of causality
+suffering (dukkha)		xref pain (dukkha)
+stress		xref suffering (dukkha)
+occupations		xref painters
 conditionality (idappaccayatā)		xref unwholesome chain of causality
 conditionality (idappaccayatā)		xref wholesome chain of causality
 farmers (kassaka)		xref seeds
@@ -1933,7 +1936,7 @@ mind (citta)	pure and bright in fourth jhāna	DN2:34.0.1
 cloth	white, covering person, simile for fourth jhāna	DN2:34.0.1
 jhānas	fruit of ascetic life	DN2:34.0.1
 knowledge and vision (ñāṇadassana)	understanding the body	DN2:34.0.1
-gems	beryl, simile of examining the body	DN2:34.0.1
+gems	simile for examining the body	DN2:34.0.1
 knowledge and vision (ñāṇadassana)	fruit of ascetic life	DN2:34.0.1
 mind-made body (manomayena kāya)	definition	DN2:34.0.1
 mind-made body (manomayena kāya)	fruit of ascetic life	DN2:34.0.1
@@ -2135,7 +2138,7 @@ water lilies	simile for third jhāna	DN10:2.1.0
 lotuses	simile for third jhāna	DN10:2.1.0
 mind (citta)	pure and bright in fourth jhāna	DN10:2.1.0
 cloth	white, covering person, simile for fourth jhāna	DN10:2.1.0
-gems	beryl, simile of examining the body	DN10:2.1.0
+gems	simile for examining the body	DN10:2.1.0
 mind-made body (manomayena kāya)	definition	DN10:2.1.0
 reeds	simile for mind made body	DN10:2.1.0
 snakes	slough, simile for mind made body	DN10:2.1.0
@@ -2686,8 +2689,8 @@ verbal conduct (vacīsamācāra)	two kinds, to be cultivated and not	DN21:1.8.0
 searches (esana, pariyesanā)	two kinds	DN21:1.8.0
 monastic rules (pātimokkha)	restraint	DN21:1.8.0
 sense restraint (indriyasaṁvara)	how to practice	DN21:1.8.0
-association (sevitabba)	things to be cultivated and not	DN21:1.8.0
-“Only this is true, anything else is wrong” (idameva saccaṁ, moghamaññan’ti)	no sincgle doctrine for all	DN21:1.8.0
+association (sevitabba)	cultivated and not, things to be	DN21:1.8.0
+“Only this is true, anything else is wrong” (idameva saccaṁ, moghamaññan’ti)	no single doctrine for all	DN21:1.8.0
 elements (dhātu)	various in the world	DN21:1.8.0
 security from bondage (yogakkhemī)	have all ascetics achieved?	DN21:1.8.0
 Sakka, Lord of Gods	ascetics and brahmins becoming his disciples	DN21:1.8.0
@@ -2936,7 +2939,7 @@ sexual misconduct	period of decline	DN26:10.0
 harsh speech	period of decline	DN26:10.0
 useless speech (samphappalāpa)	period of decline	DN26:10.0
 wrong view (micchā diṭṭhi)	period of decline	DN26:10.0
-decline (parihāna)	things that lead to	DN26:10.0
+decline (parihāna)	cause of	DN26:10.0
 greed, immoral (visamalobha)	period of decline	DN26:10.0
 desire, illicit (adhammarāga)	period of decline	DN26:10.0
 wrong custom (micchādhamma)	period of decline	DN26:10.0
@@ -4008,7 +4011,7 @@ Daṇḍapāṇi the Sakyan	questioning the Buddha	MN18
 conflicts (viggahaya)	Buddha not conflicting with anyone	MN18
 Dhamma	in brief	MN18
 Mahā Kaccāna, Ven.	explaining brief statement	MN18
-heartwood	simile of asking question from monk when should have asked the Buddha	MN18
+heartwood	simile for asking question from monk when should have asked the Buddha	MN18
 Buddha, the	as vision and knowledge	MN18
 proliferation (papañca)	perceptions	MN18
 attachments (ajjhosāna)	from perceptions	MN18
@@ -4103,7 +4106,7 @@ spades	digging away the earth, simile for enduring speech	MN21
 earth, the	digging away, simile for enduring speech	MN21
 dye	making pictures in space, simile for enduring speech	MN21
 space (ākāsa)	painting pictures in space, simile for enduring speech	MN21
-painter	making pictures in space, simile for enduring speech	MN21
+painters	making pictures in space, simile for enduring speech	MN21
 torches	burning away Ganges, simile for enduring speech	MN21
 Ganges river	burning away, simile for enduring speech	MN21
 cat-skin bag	making noise, simile for enduring speech	MN21
@@ -4569,7 +4572,7 @@ sleep	in daytime	MN36
 delusion (moha)	definition	MN36
 sleep	Buddha criticized for	MN36
 taints (āsava)	giving up is ending of delusion	MN36
-palm trees	cut off, simile of Buddha’s defilements cut off	MN36
+palm trees	simile for Buddha’s defilements cut off	MN36
 Buddha, the	skin brightens when attacked	MN36
 Sakka, Lord of Gods	asking about arahants	MN37
 craving (taṇhā)	freed through ending of (taṇhāsaṅkhayavimutta)	MN37
@@ -4944,7 +4947,7 @@ Gods of Streaming Radiance (ābhassarā devā)	Baka Brahmā’s birth in	MN49
 Gods of Abundant Fruit (vehapphalā devā)	Baka Brahmā’s birth in	MN49
 Buddha, the	psychic powers, vanishing and reappearing	MN49
 Māra	encouraging Buddha not to teach	MN49
-palm trees	cut off, simile of Buddha’s defilements cut off 	MN49
+palm trees	simile for Buddha’s defilements cut off 	MN49
 Moggallāna, Ven.	Māra	MN50
 Māra	tormenting Ven. Moggallāna	MN50
 Kakusandha, Buddha	Ven. Moggallāna in time of	MN50
@@ -5228,12 +5231,12 @@ Buddha, the	urging support of other mendicants	MN56
 giving (dāna)	whom to give to	MN56
 giving (dāna)	“Gifts should only be given to the Buddha”	MN56
 gradual instruction (anupubba katha)	to Upāli	MN56
-cloth	simile of pure cloth taking dye	MN56
+cloth	simile for doctrine taking pounding	MN56
 blood	spewing hot	MN56
 magic	conversion magic of Buddha	MN56
 relatives	wishing for them to be converted	MN56
 conversion	wishing for all to be converted	MN56
-monkey	simile of doctrine not taking a pounding	MN56
+monkey	simile for doctrine not taking pounding	MN56
 Nigaṇṭha’s doctrine	like monkey not taking a pounding	MN56
 bait	Buddha has spat out world’s	MN56
 Buddha, the	qualities of	MN56
@@ -5274,7 +5277,7 @@ babies	something stuck in throat, simile for scolding	MN58
 speech	true	MN58
 speech	harmful	MN58
 speech	pleasing	MN58
-chariots	simile of knowing parts	MN58
+chariots	simile for knowing answers to questions	MN58
 Pañcakaṅga, master builder	feelings	MN59
 Udāyī, Ven.	feelings	MN59
 feelings (vedanā)	three	MN59
@@ -5334,7 +5337,7 @@ Rāhula, Ven.	advice on lying	MN61
 pots	simile for person who lies	MN61
 lying	person who lies is like empty pot, etc.	MN61
 water	simile for person who lies	MN61
-elephants	simile of person who is willing to lie	MN61
+elephants	simile for person who is willing to lie	MN61
 joking	do not lie even as a joke	MN61
 lying	person who lies can do anything	MN61
 mirrors	simile for self-examination	MN61
@@ -5403,7 +5406,7 @@ soul (jīva)	body and	MN63
 body (sarīra)	soul and	MN63
 Tathāgatas	existing after death	MN63
 disrobing	threatening to	MN63
-arrows	simile of person struck by	MN63
+arrows	simile for asking unimportant questoins	MN63
 going forth (pabbajja)	wrong reasons for	MN63
 rebirth	regardless of undeclared views	MN63
 fundamentals of the spiritual life (ādibrahmacariya)	undeclared points are not	MN63
@@ -5471,12 +5474,12 @@ admonishment	being difficult to	MN65
 offences against monastic rules (āpatti)	frequent offender vs. occasional offender	MN65
 faith (saddhā)	getting by on	MN65
 love (pema)	getting by on love of Dhamma	MN65
-eyes	simile of person with one eye	MN65
+eyes	simile simile for person getting by on faith	MN65
 admonishment	gentle like protecting someone with one eye	MN65
 monastic rules (vinaya)	reason for creation of	MN65
 Saṅgha	attaining great size, wealth, etc.	MN65
 horses	thoroughbred, simile for training	MN65
-horse trainers	simile of thoroughbred being trained	MN65
+horse trainers	simile for gradual path	MN65
 gradual training (anupubbasikkhā)	like training a horse	MN65
 horses	thoroughbred worthy of a king, simile for good monastic	MN65
 good monastics	like thoroughbred horse	MN65
@@ -5556,14 +5559,14 @@ enduring (adhivāsana)	after appraisal	MN68
 avoiding (parivajjana)	after appraisal	MN68
 removing (vinodana)	after appraisal	MN68
 Buddha, the	defilements cut off	MN68
-palm trees	cut off, simile of Buddha’s defilements cut off	MN68
+palm trees	simile for Buddha’s defilements cut off	MN68
 taints (āsava)	like palm tree cut off	MN68
 Buddha, the	declaring rebirth of individuals	MN68
 rebirth	Buddha declaring of people	MN68
 stages of enlightenment	Buddha declaring of people	MN68
 inspiration	through knowing rebirth of individuals	MN68
 generosity (cāga)	recollection of others’	MN68
-wisdom	recollection of others’	MN68
+wisdom (paññā)	recollection of others’	MN68
 virtue (sīla)	recollection of others’	MN68
 recollection of virtue (sīlānussati)	other people’s	MN68
 arahants	Buddha declaring someone has attained	MN68
@@ -5681,7 +5684,7 @@ immeasurable (appameyya)	Buddha	MN72
 deep (gambhīra)	Buddha	MN72
 hard to fathom (duppariyogāḷha)	Buddha	MN72
 Tathāgatas	deep, immeasurable, hard to fathom	MN72
-palm trees	cut off, simile of Buddha’s five aggregates cut off	MN72
+palm trees	simile for Buddha’s five aggregates cut off	MN72
 oceans	simile for the Buddha	MN72
 heartwood	simile for the Dhamma	MN72
 dispensation (pāvacana)	consisting only of heartwood	MN72
@@ -5713,7 +5716,7 @@ useless speech, giving up	skillful	MN73
 covetousness, giving up	skillful	MN73
 ill will, giving up	skillful	MN73
 wrong view, giving up	skillful	MN73
-palm trees	cut off, simile of craving cut off	MN73
+palm trees	simile for craving cut off	MN73
 craving (taṇhā)	like palm tree cut off	MN73
 taints (āsava)	ending of	MN73
 disciples of the Buddha	Buddha has hundreds of	MN73
@@ -5913,7 +5916,7 @@ mind (citta)	pure and bright in fourth jhāna	MN77
 cloth	white, covering person, simile for fourth jhāna	MN77
 elements, four great (cattāri mahābhūtāni)	tied to consciousness	MN77
 consciousness (viññāṇa)	tied to four great elements	MN77
-gems	beryl, simile of examining the body	MN77
+gems	simile for examining the body	MN77
 mind-made body (manomayena kāya)	definition	MN77
 reeds	simile for mind made body	MN77
 snakes	slough, simile for mind made body	MN77
@@ -6528,7 +6531,7 @@ living as one pleases	unwholesome qualities grow	MN101
 skillfulness (kusala)	gained through painful striving	MN101
 unskillfulness (akusala)	through living as one pleases	MN101
 painful striving	to reduce unwholesome and increase wholesome	MN101
-arrowsmiths	simile of not heating arrow after is is straight	MN101
+arrowsmiths	simile for arahant not needing training	MN101
 painful striving	stopping when goal is achieved, like arrowsmith	MN101
 gradual training (anupubbasikkhā)	long version	MN101
 Buddha, the	praise on ten grounds	MN101
@@ -6646,8 +6649,8 @@ dimension of neither perception nor non-perception (nevasaññanāsaññāyatana
 nibbāna	being intent on	MN105
 darts (salla)	craving	MN105
 poisons	ignorance	MN105
-arrows	simile of person struck by	MN105
-surgeons	simile of treating a wound	MN105
+arrows	simile for unsuitable behavior	MN105
+surgeons	simile for unsuitable behavior	MN105
 disrobing	caused by overestimation	MN105
 disrobing	as death	MN105
 deadly pain	committing one of the corrupt offenses	MN105
@@ -6720,7 +6723,7 @@ arahants	continue to practice meditation, mindfulness, situational awareness	MN1
 arahants	life after attainment	MN107
 disciples of the Buddha	do all attain enlightenment?	MN107
 nibbāna	will all attain?	MN107
-Rājagaha	road to, simile of not all attaining enlightenment	MN107
+Rājagaha	road to, simile for not all attaining enlightenment	MN107
 directions	simile for not everyone attaining nibbāna	MN107
 going forth (pabbajja)	out of faith	MN107
 going forth (pabbajja)	without faith	MN107
@@ -7204,10 +7207,10 @@ Dhamma teaching	not being competent to	MN125
 sense pleasures (kāma, kāmaguṇa)	mind obsessed with cannot understand Dhamma	MN125
 renunciation (nekkhamma)	what can only be known through	MN125
 sense pleasures (kāma, kāmaguṇa)	blocking realization	MN125
-elephants	trained and untrained, simile of	MN125
-horses	trained and untrained, simile of	MN125
-oxen	trained and untrained, simile of	MN125
-mountains	blocking view, simile for ignorance blocking realization	MN125
+elephants	simile for trained and untrained people	MN125
+horses	simile for trained and untrained people	MN125
+oxen	simile for trained and untrained people	MN125
+mountains	simile for ignorance blocking realization	MN125
 elephants	simile for gradual training	MN125
 elephant tracker (nāgavanika)	simile for gradual training	MN125
 gradual training (anupubbasikkhā)	in detail	MN125
@@ -7227,10 +7230,10 @@ fruit, spiritual (phala)	wishing for	MN126
 properly (yoniso)	leading the spiritual life	MN126
 improperly (ayoniso)	leading the spiritual life	MN126
 wrong eightfold path	doesn’t bear fruit	MN126
-oil	person needing, simile of right and wrong practice	MN126
-milk	person needing, simile of right and wrong practice	MN126
-butter	person needing, simile of right and wrong practice	MN126
-fire	person needing, simile of right and wrong practice	MN126
+oil	simile for right and wrong practice	MN126
+milk	simile for right and wrong practice	MN126
+butter	simile for right and wrong practice	MN126
+fire	simile for right and wrong practice	MN126
 noble eightfold path (ariya aṭṭhangika magga)	does bear fruit	MN126
 loving-kindness (mettā)	as immeasurable deliverance	MN127
 Pañcakaṅga, master builder	asking about meditation	MN127
@@ -7246,8 +7249,8 @@ Gods of Limitless Radiance (appamāṇābhā devā)	path to rebirth among	MN127
 gods of corrupted radiance (saṅkiliṭṭhābhānaṁ devā)	path to rebirth among	MN127
 gods of pure radiance (parisuddhābhānaṁ devā)	path to rebirth among	MN127
 gods	difference between	MN127
-oil lamps	simile of differences between gods	MN127
-flies	simile of thoughts of gods	MN127
+oil lamps	simile for differences between gods	MN127
+flies	simile for thoughts of gods	MN127
 Sabhiya Kaccāna, Ven.	asking about gods	MN127
 loving-kindness (mettā)	in action	MN128
 Kosambi	dispute at	MN128
@@ -7835,7 +7838,7 @@ underlying tendency to greed (rāgānusaya)	from approving and welcoming a feeli
 underlying tendency to repulsion (paṭighānusaya)	from sorrow of painful feeling	MN148
 underlying tendency to ignorance (avijjānusaya)	from not understanding neutral feeling	MN148
 pleasant feelings (sukhavedanā)	underlying tendency to greed (rāgānusaya)	MN148
-painful feelings	underlying tendency to repulsion (paṭighānusaya)	MN148
+painful feelings (dukkhavedanā)	underlying tendency to repulsion (paṭighānusaya)	MN148
 neutral feelings (adukkhamasukhaṁ vedanā)	underlying tendency to ignorance (avijjānusaya)	MN148
 knowledge (vijjā)	giving rise to	MN148
 ignorance (avijjā)	giving up	MN148
@@ -9300,7 +9303,7 @@ consciousness (viññāṇa)	nutriment	SN12.63
 consciousness (viññāṇa)	like being struck by spears	SN12.63
 spears	being struck by, simile for consciousness	SN12.63
 nutriment (āhāra)	dependent origination	SN12.64
-painter	simile for nutriment	SN12.64
+painters	simile for nutriment	SN12.64
 houses	light not landing on wall, simile for no desire	SN12.64
 light	not landing on wall, simile for no desire	SN12.64
 Bodhisatta	reflection on the world, dependent origination	SN12.65
@@ -9625,7 +9628,7 @@ mindfulness of body (kāyagatāsati)	full of pleasure	SN16.11
 Tathāgatas	existing after death	SN16.12
 training rules (sikkhāpada)	why more now	SN16.13
 arahants	why fewer now	SN16.13
-decline	more training rules when beings are in decline	SN16.13
+decline (hāyamāna)	more training rules when beings are in decline	SN16.13
 untrue teachings (asaddhamma)	arising	SN16.13
 gold	counterfeit gold, simile for untrue teachings	SN16.13
 elements (dhātu)	don’t make teaching disappear	SN16.13
@@ -9913,7 +9916,7 @@ craving (taṇhā)	picking up of burden	SN22.22
 full understanding (pariñña)	aggregates	SN22.23
 full understanding (pariñña)	definition	SN22.23
 directly knowing (abhijānanta)	aggregates	SN22.24
-palm trees	cut off, simile of desire for aggregates	SN22.25
+palm trees	simile for desire for aggregates cut off	SN22.25
 gratification, danger, escape	aggregates	SN22.26
 Bodhisatta	gratification, danger, escape	SN22.26
 gratification, danger, escape	search for in aggregates	SN22.27
@@ -10148,7 +10151,7 @@ decline (parihāna)	fear of	SN22.88
 detached (visaṁyutta)	experiencing feelings	SN22.88
 death	feeling the end of life approaching	SN22.88
 cool (sīta)	becoming right here	SN22.88
-oil lamps	simile of arahant passing away	SN22.88
+oil lamps	simile for arahant passing away	SN22.88
 nibbāna	like oil lamp going out	SN22.88
 Khemaka, Ven.	enlightened while teaching	SN22.89
 Dāsaka, Ven.	 messenger to Ven. Khemaka	SN22.89
@@ -10228,7 +10231,7 @@ reviewing (paccavekkhaṇā)	done regularly	SN22.100
 picture (citta)	“Conduct,” “Fairing on”	SN22.100
 mind (citta)	more elaborate than picture called “Conduct”	SN22.100
 animal realm	no other order so diversified	SN22.100
-painter	simile for mind creating future	SN22.100
+painters	simile for mind creating future	SN22.100
 future lives	like artist painting a picture	SN22.100
 ordinary person (puthujjana)	aggregates	SN22.100
 knowing (jānato)	origin and ending of aggregates	SN22.101
@@ -10980,7 +10983,7 @@ foundations of mindfulness, four (satipaṭṭhāna)	sickness and	SN36.7
 situational awareness (sampajañña)	sickness and	SN36.7
 feelings (vedanā)	contemplation of	SN36.7
 body, ending with (kāyapariyantika)	feeling	SN36.7
-oil lamps	simile of arahant passing away	SN36.7
+oil lamps	simile for arahant passing away	SN36.7
 nibbāna	like oil lamp going out	SN36.7
 feelings (vedanā)	impermanent	SN36.9
 feelings (vedanā)	contact, like fire sticks	SN36.9
@@ -11084,7 +11087,7 @@ women	powers of	SN37.29
 women	powers of	SN37.30
 women	being sent away from family	SN37.30
 women	reborn in heaven	SN37.31
-women	things hard to get	SN37.32
+women	hard to get, things that are	SN37.32
 children	hard to get	SN37.32
 co-wives	hard to avoid	SN37.32
 merit (puñña)	helps wives get beneficial things	SN37.32
@@ -11588,7 +11591,7 @@ nāgas	supported by Himalayas, simile for eightfold path supported by virtue	SN4
 virtue (sīla)	grounded on one develops noble eightfold path	SN45.151
 noble eightfold path (ariya aṭṭhangika magga)	grounded on virtue	SN45.151
 trees	slanting to the east, simile for noble eightfold path leads to nibbāna	SN45.152
-pots	water pot tipped, simile of person giving up bad qualities	SN45.153
+pots	water pot tipped, simile for person giving up bad qualities	SN45.153
 unskillful qualities (akusala dhamma)	completely giving up	SN45.153
 spike	simile for wrong view and right view	SN45.154
 right view (sammā diṭṭhi)	leads to nibbāna	SN45.154
@@ -12979,8 +12982,8 @@ Sineru, king of mountains	compared to pebbles, simile for suffering ended	SN56.5
 pebbles	compared to Mt. Sineru, simile for suffering ended	SN56.50
 right view, person accomplished in (diṭṭhisampanna puggala)	suffering removed like Mt. Sineru	SN56.50
 right view, person accomplished in (diṭṭhisampanna puggala)	suffering removed like great earth	SN56.51
-fingernail (nakhasikhā)	dirt, simile of suffering removed by stream-enterer	SN56.51
-earth, the	simile of suffering removed by stream-enterer	SN56.51
+fingernail (nakhasikhā)	dirt, simile for suffering removed by stream-enterer	SN56.51
+earth, the	simile for suffering removed by stream-enterer	SN56.51
 seven lives	for stream-enterer	SN56.51
 ponds	giant, simile for suffering removed by stream-enterer	SN56.52
 grass	water on tip of, simile for suffering removed by stream-enterer	SN56.52
@@ -13700,7 +13703,7 @@ conditioned (saṅkhata)	characteristics	AN3.47
 unconditioned (asaṅkhata)	characteristics	AN3.47
 sal trees	supported by Himalayas like family supported by head with faith	AN3.48
 family	grows in faith, virtue, wisdom	AN3.48
-painful feelings	enduring	AN3.49
+painful feelings (dukkhavedanā)	enduring	AN3.49
 keenness (ātāpi)	to prevent bad, develop good, endure pain	AN3.49
 thieves (cora)	as metaphor for bad monastic	AN3.50
 monastic life	wrongly practiced	AN3.50
@@ -14228,7 +14231,6 @@ Anāthapiṇḍika, householder	appropriate lay practice	AN4.60
 giving (dāna)	four requisites	AN4.60
 lay life	what to practice	AN4.60
 generosity (cāga)	as cause for wealth	AN4.61
-Anāthapiṇḍika, householder	things likeable and hard to get	AN4.61
 generosity (cāga)	definition	AN4.61
 accomplishment in generosity (cāgasampadā)	definition	AN4.61
 hard to obtain (dullabha)	four things hard to obtain	AN4.61
@@ -14760,7 +14762,7 @@ paccekabuddhas	worthy of stupa	AN4.247
 wheel-turning monarchs	worthy of stupa	AN4.247
 arahants	worthy of stupa	AN4.247
 Buddhas	worthy of stupa	AN4.247
-wisdom (paññā)	things that lead to growth	AN4.248
+wisdom (paññā)	growth	AN4.248
 association	with good people grows wisdom	AN4.248
 listening to Dhamma	grows wisdom	AN4.248
 proper attention (yoniso manasikāra)	leads to wisdom	AN4.248
@@ -15011,9 +15013,9 @@ eating in moderation	not eating in moderation leads to dissatisfaction	AN5.56
 wakefulness (jāgara)	not devoted to wakefulness leads to dissatisfaction	AN5.56
 skillfulness (kusala)	not discerning leads to dissatisfaction	AN5.56
 death (maraṇa)	frequent recollection	AN5.57
-reviewing (paccavekkhaṇā)	things to always reflect on	AN5.57
-old age, sickness, death	things to always reflect on	AN5.57
-separation from the loved	things to always reflect on	AN5.57
+reviewing (paccavekkhaṇā)	always reflect on, things one should	AN5.57
+old age, sickness, death	always reflect on	AN5.57
+separation from the loved	always reflect on	AN5.57
 actions (kamma)	being the owner of ones own	AN5.57
 subjects	to be reflected on	AN5.57
 old age, sickness, death	overcome intoxication with youth, health, life	AN5.57
@@ -15056,7 +15058,7 @@ vigor (ussoḷi)	leads to nibbāna	AN5.67
 bases of psychic power (iddhipāda)	psychic powers	AN5.68
 Bodhisatta	development of bases of psychic power	AN5.68
 Buddha, the	psychic powers	AN5.68
-disillusionment (nibbidā)	things leading to	AN5.69
+disillusionment (nibbidā)	conditions for	AN5.69
 perception of ugliness (asubhasaññā)	leading to disillusionment	AN5.69
 perception of repulsiveness of food (āhāre paṭikūlasaññā)	leading to disillusionment	AN5.69
 perception of dissatisfaction with the whole world (sabbaloke anabhiratasaññā)	leading to disillusionment	AN5.69
@@ -15149,7 +15151,7 @@ work	monastics able to do skillfully	AN5.86
 senior monastics	desirable and undesirable	AN5.87
 senior monastics	desirable and undesirable	AN5.88
 senior monastics	with wrong view	AN5.88
-trainee (sekha)	things that lead to decline	AN5.89
+trainee (sekha)	decline in	AN5.89
 work	caught up in	AN5.89
 reviewing (paccavekkhaṇā)	trainee	AN5.89
 work	having much and competent in	AN5.90
@@ -15704,7 +15706,7 @@ Saṅgha	serving	AN6.30
 recollection (anussati)	unsurpassable	AN6.30
 recollection of Buddha (buddhānussati)	unsurpassable	AN6.30
 recollection of Saṅgha (saṅghānussati)	unsurpassable	AN6.30
-trainee (sekha)	things that lead to decline	AN6.31
+trainee (sekha)	decline in	AN6.31
 work	caught up in	AN6.31
 sleep	leading to mendicant’s decline	AN6.31
 eating in moderation	doesn’t lead to decline	AN6.31
@@ -15995,7 +15997,7 @@ listening to Dhamma	properly and improperly	AN6.88
 listening to Dhamma	not paying attention while	AN6.88
 wrong views	block enlightenment	AN6.88
 listening to Dhamma	desire to	AN6.88
-accomplishment in view (diṭṭhisampadā)	things that block	AN6.89
+accomplishment in view (diṭṭhisampadā)	blockages	AN6.89
 fetters (saṁyojana)	blocking accomplishment in view	AN6.89
 identity view (sakkāyadiṭṭhi)	blocking accomplishment in view	AN6.89
 doubt (vicikicchā)	blocking accomplishment in view	AN6.89
@@ -16142,7 +16144,7 @@ one attained to view (diṭṭhippatta)	worthy of gifts	AN7.14
 one freed by faith (saddhāvimutta)	worthy of gifts	AN7.14
 Dhamma follower (dhammānusārī)	worthy of gifts	AN7.14
 follower by faith (saddhānusārī)	worthy of gifts	AN7.14
-water	simile of seven kinds of people	AN7.15
+water	simile for seven kinds of people	AN7.15
 stream-enterers (sotāpanna)	like person in water who rises up then sees and discerns	AN7.15
 once returner (sakadāgāmī)	like person in water who rises up and crosses over	AN7.15
 non-returner (anāgāmi)	like person in water who rises up and finds a footing	AN7.15
@@ -16202,7 +16204,7 @@ perception of danger/drawback (ādīnavasaññā)	prevent decline	AN7.27
 perception of giving up (pahānasaññā)	prevent decline	AN7.27
 perception of fading away (virāgasaññā)	prevent decline	AN7.27
 perception of cessation (nirodhasaññā)	prevent decline	AN7.27
-trainee (sekha)	things that lead to decline	AN7.28
+trainee (sekha)	decline in	AN7.28
 work	caught up in	AN7.28
 sleep	leading to mendicant’s decline	AN7.28
 eating in moderation	doesn’t lead to decline	AN7.28
@@ -16396,7 +16398,7 @@ treasures, seven (satta ratana)	Bodhisatta having	AN7.62
 Anāthapiṇḍika, householder	daughter-in-law	AN7.63
 Sujātā, householder	daughter-in-law of Anāthapiṇḍika	AN7.63
 wives	types of	AN7.63
-enemies	things that make them happy	AN7.64
+enemies	happiness of	AN7.64
 anger (kodha)	cause of ugliness	AN7.64
 anger (kodha)	cause of bad sleep	AN7.64
 anger (kodha)	cause of getting opposite of what one needs	AN7.64
@@ -16619,7 +16621,7 @@ friends, bad	overcome	AN8.7
 Uttara, Ven.	whatever is well-spoken is spoken by the Buddha	AN8.8
 Vessavaṇa, deva king	hearing a Dhamma talk	AN8.8
 Sakka, Lord of Gods	encouraging a monk to teach	AN8.8
-grains	simile of teachings coming from the Buddha	AN8.8
+grains	simile for teachings coming from the Buddha	AN8.8
 well-spoken (subhāsita)	whatever is well-spoken is spoken by the Buddha	AN8.8
 fundamentals of the spiritual life (ādibrahmacariya)	qualities to overcome	AN8.8
 Nanda, Ven.	clear comprehension	AN8.9
@@ -16637,9 +16639,9 @@ expulsion from saṅgha	example of	AN8.10
 external appearance	not matching internal	AN8.10
 bad monastics	example of	AN8.10
 trash	Buddha tells monks to take out the trash	AN8.10
-grains	bad, simile of bad monks corrupting good monks	AN8.10
+grains	bad, simile for bad monks corrupting good monks	AN8.10
 bad monastics	like bad barley corrupting crop	AN8.10
-trees	rotten, simile of bad monastic looking good on the outside	AN8.10
+trees	rotten, simile for bad monastic looking good on the outside	AN8.10
 familiarity needed to judge	who is bad and good	AN8.10
 association	causing good and bad qualities to spread	AN8.10
 bad qualities (asaddhamma)	hidden	AN8.10
@@ -16697,30 +16699,30 @@ Dhamma	has many treasures	AN8.19
 Dhamma	has one taste	AN8.19
 salt	taste of, simile for liberation	AN8.19
 asuras	love of ocean	AN8.19
-Dhamma	simile of ocean	AN8.19
-gradual training (anupubbasikkhā)	simile of ocean	AN8.19
+Dhamma	like ocean	AN8.19
+gradual training (anupubbasikkhā)	like ocean	AN8.19
 nibbāna	never fills up	AN8.19
 oceans	loved by asuras	AN8.19
 Saṅgha	guarding precepts	AN8.19
 Saṅgha	has many great beings	AN8.19
 Saṅgha	removes corrupt members	AN8.19
 Saṅgha	like river	AN8.19
-Saṅgha	simile of ocean	AN8.19
+Saṅgha	like ocean	AN8.19
 Saṅgha	without caste distinctions	AN8.19
 Dhamma	has many treasures	AN8.20
 Dhamma	has one taste	AN8.20
 salt	taste of, simile for liberation	AN8.20
 asuras	love of ocean	AN8.20
 bad monastics	in pātimokkha recitation	AN8.20
-Dhamma	simile of ocean	AN8.20
-gradual training (anupubbasikkhā)	simile of ocean	AN8.20
+Dhamma	like ocean	AN8.20
+gradual training (anupubbasikkhā)	like ocean	AN8.20
 nibbāna	never fills up	AN8.20
 oceans	loved by asuras	AN8.20
 Saṅgha	guarding precepts	AN8.20
 Saṅgha	has many great beings	AN8.20
 Saṅgha	removes corrupt members	AN8.20
 Saṅgha	like river	AN8.20
-Saṅgha	simile of ocean	AN8.20
+Saṅgha	like ocean	AN8.20
 Saṅgha	without caste distinctions	AN8.20
 Moggallāna, Ven.	throwing monk out	Ud5.5
 Ugga of Vesālī, householder	eight amazing and wonderful qualities	AN8.21
@@ -16857,7 +16859,7 @@ giving (dāna)	levels of	AN8.34
 giving (dāna)	qualities of recipient	AN8.34
 giving (dāna)	to the Saṅgha	AN8.34
 giving (dāna)	to someone possessing noble eightfold path	AN8.34
-fields	simile of giving	AN8.34
+fields	simile for giving	AN8.34
 giving (dāna)	recipients like fields	AN8.34
 giving (dāna)	fruitful gifts	AN8.34
 giving (dāna)	cause for rebirth	AN8.35
@@ -17176,7 +17178,7 @@ virtue (sīla)	accomplishment in	AN8.75
 generosity (cāga)	accomplishment in	AN8.75
 wisdom (paññā)	accomplishment in	AN8.75
 generosity (cāga)	as an accomplishment	AN8.76
-decline (parihāna)	things that lead to	AN8.79
+decline (parihāna)	cause of	AN8.79
 work	leading to mendicant’s decline	AN8.79
 talk (bhassa)	leading to mendicant’s decline	AN8.79
 sleep	leading to mendicant’s decline	AN8.79
@@ -17206,7 +17208,7 @@ disillusionment and dispassion (nibbidāvirāga)	condition for knowledge and vis
 trees	simile for one without conditions	AN8.81
 Puṇṇiya, Ven.	asking about inspiration for teaching	AN8.82
 Buddha, the	inspiration for teaching	AN8.82
-inspiration	things that inspire the Buddha to teach	AN8.82
+inspiration	causes Buddha to teach	AN8.82
 Buddha, the	teaching when inspired	AN8.82
 faith (saddhā)	inspires the Buddha to teach	AN8.82
 approaching (upasaṅkami)	inspires the Buddha to teach	AN8.82
@@ -17420,8 +17422,8 @@ bull (usabha)	with horns cut, humble like	AN9.11
 bull (usabha)	mind like	AN9.11
 bull (usabha)	with cut horns, simile for mind	AN9.11
 mind (cetas)	like bull with horns cut	AN9.11
-youth	freshly bathed, simile of repulsion towards body	AN9.11
-corpse	of snake or dog, simile of repulsion towards body	AN9.11
+youth	freshly bathed, simile for repulsion towards body	AN9.11
+corpse	of snake or dog, simile for repulsion towards body	AN9.11
 rotten body (pūtikāya)	repulsiveness of	AN9.11
 repulsive	towards body	AN9.11
 bowls	of fat, simile for body	AN9.11
@@ -17542,8 +17544,8 @@ Uttarakuru, people of	surpassing gods	AN9.21
 Jambudīpa (India)	people of	AN9.21
 gods of the Thirty-Three (tāvatiṁsā devā)	humans compared to	AN9.21
 spiritual path (brahmacariya)	lived in Jambudīpa	AN9.21
-horses	wild colt, simile of types of people	AN9.22
-horses	thoroughbred, simile of types of people	AN9.22
+horses	wild colt, simile for types of people	AN9.22
+horses	thoroughbred, simile for types of people	AN9.22
 questions, answering	without faltering	AN9.22
 searches (esana, pariyesanā)	caused by craving	AN9.23
 craving (taṇhā)	cause of searches	AN9.23
@@ -17674,7 +17676,7 @@ dimension of nothingness (ākiñcaññāyatana)	sense pleasures are affliction f
 dimension of neither perception nor non-perception (nevasaññanāsaññāyatana)	sense pleasures are affliction for one in	AN9.34
 cessation of perception and feeling (saññāvedayitanirodha)	defilements come to an end	AN9.34
 Sāriputta, Ven.	happiness of nibbāna	AN9.34
-cows	simile of unskilled meditator	AN9.35
+cows	simile for unskilled meditator	AN9.35
 jhānas	being skilled or unskilled with	AN9.35
 jhānas	stabilizing	AN9.35
 psychic powers (iddhi)	jhānas and	AN9.35
@@ -17696,7 +17698,7 @@ aggregates (khandha)	jhāna and contemplation of	AN9.36
 nibbāna	jhānas and	AN9.36
 passion for the Dhamma (dhammarāga)	rebirth caused by	AN9.36
 love for the Dhamma (dhammanandi)	rebirth caused by	AN9.36
-archers	simile of gradual training	AN9.36
+archers	simile for gradual training	AN9.36
 meditator	like an archer who trains gradually	AN9.36
 deathless (amata)	applying mind to	AN9.36
 boil (gaṇḍa)	aggregates	AN9.36
@@ -18545,7 +18547,7 @@ recollection (anussati)	departed relatives recollecting monks	AN10.71
 contentment (santuṭṭhi)	how to achieve	AN10.71
 enduring (khama)	how to	AN10.71
 rudeness (durutta)	how to endure	AN10.71
-painful feelings	how to endure	AN10.71
+painful feelings (dukkhavedanā)	how to endure	AN10.71
 discontent (arati)	how to prevail over	AN10.71
 delight (rati)	how to prevail over	AN10.71
 fear (bhaya)	how to prevail over	AN10.71
@@ -18725,7 +18727,7 @@ few wishes (appiccha)	essential for monastic’s development	AN10.82
 right view (sammā diṭṭhi)	essential for monastic’s development	AN10.82
 Puṇṇiya, Ven.	asking about inspiration for teaching	AN10.83
 Buddha, the	inspiration for teaching	AN10.83
-inspiration	things that inspire the Buddha to teach	AN10.83
+inspiration	causes Buddha to teach	AN10.83
 Buddha, the	teaching when inspired	AN10.83
 faith (saddhā)	inspires the Buddha to teach	AN10.83
 approaching (upasaṅkami)	inspires the Buddha to teach	AN10.83
@@ -18753,7 +18755,7 @@ evil wishes (pāpiccha)	without giving up, cannot become arahant	AN10.84
 stopping when more left to do	means decline in the teachings	AN10.84
 boasting	about attainments	AN10.85
 Mahā Cunda, Ven.	on boasting	AN10.85
-false spiritual claims	simile of person not paying debt	AN10.85
+false spiritual claims	like person not paying debt	AN10.85
 false spiritual claims	of meditative attainments	AN10.85
 debt (iṇa)	simile for false claims of attainment	AN10.85
 overestimation (adhimāna)	declaring enlightenment	AN10.86
@@ -19332,8 +19334,8 @@ mindfulness (sati)	establishing based on generosity	AN11.13
 recollection of deities (devatānussati)	establishing mindfulness internally	AN11.13
 mindfulness (sati)	establishing based on deities	AN11.13
 unskillful qualities (akusala dhamma)	completely giving up	AN11.13
-pots	water pot tipped, simile of person giving up bad qualities	AN11.13
-fire	not re-burning, simile of person giving up bad qualities	AN11.13
+pots	water pot tipped, simile for person giving up bad qualities	AN11.13
+fire	not re-burning, simile for person giving up bad qualities	AN11.13
 Subhūti, Ven.	introduces Ven. Saddha to the Buddha	AN11.14
 Saddha, Ven.	with the manifestations of faith	AN11.14
 faith (saddhā)	manifestations/results of	AN11.14
@@ -19667,10 +19669,10 @@ heedfulness (appamāda)	like fire	Dhp31
 heedlessness (pamāda)	seeing fear in	Dhp31
 heedlessness (pamāda)	seeing fear in	Dhp32
 mind (citta)	 	CUSTOM:Dhp:Dhp Chapter 3:suttacentral.net/dhp33-43/en/sujato
-mind (citta)	simile of arrow maker	Dhp33
-mind (citta)	as hard to control	Dhp33
-mind (citta)	as hard to control	Dhp34
-mind (citta)	simile of fish	Dhp34
+mind (citta)	like arrow maker	Dhp33
+mind (citta)	hard to control	Dhp33
+mind (citta)	hard to control	Dhp34
+mind (citta)	like fish	Dhp34
 mind (citta)	tamed leads to happiness	Dhp35
 mind (citta)	as subtle	Dhp36
 mind (citta)	guarded leads to happiness	Dhp36
@@ -19680,19 +19682,19 @@ mind (citta)	guarded like citadel	Dhp40
 death (maraṇa)	comes quickly	Dhp41
 mind (citta)	untrained worse than enemy	Dhp42
 mind (citta)	trained better than family	Dhp43
-body	simile of foam	Dhp46
-death (maraṇa)	simile of flood	Dhp47
-alms gathering practice	simile of bee and flower	Dhp49
+body	like foam	Dhp46
+death (maraṇa)	like flood	Dhp47
+alms gathering practice	like bee and flower	Dhp49
 fault-finding	don’t find fault with others	Dhp50
 self-reflection	only watch yourself	Dhp50
 beautiful words without practicing	like flower without fragrance	Dhp51
 beautiful words beneficial for the one who practices	like flower with fragrance	Dhp52
-good actions	simile of garland maker	Dhp53
+good actions	like garland maker	Dhp53
 reputation	like fragrance that goes against wind	Dhp54
 virtue (sīla)	as supreme fragrance	Dhp55
 virtue (sīla)	as supreme fragrance	Dhp56
 Māra	cannot find the good	Dhp57
-disciples of the Buddha	simile of lotus in mud	Dhp59
+disciples of the Buddha	like lotus in mud	Dhp59
 fools (bāla)	 	CUSTOM:Dhp:Dhp Chapter 5:suttacentral.net/dhp60-75/en/sujato
 fools (bāla)	long in saṁsāra	Dhp60
 fools (bāla)	don’t associate with	Dhp61
@@ -19723,7 +19725,7 @@ self-taming	like carpenter	Dhp80
 arrowsmiths	simile for self-taming	Dhp80
 irrigators	simile for self-taming	Dhp80
 carpenters	simile for self-taming	Dhp80
-wise people	simile of lake	Dhp82
+wise people	like lake	Dhp82
 happiness (sukha)	not affected by	Dhp83
 suffering (dukkha)	not affected by	Dhp83
 nibbāna	attained by few	Dhp85
@@ -19764,7 +19766,7 @@ bad actions	accumulating little by little	Dhp121
 good actions	accumulating little by little	Dhp122
 evil (pāpa)	avoid like merchant a dangerous road	Dhp123
 evil (pāpa)	avoid like poison	Dhp123
-bad actions	simile of poison	Dhp124
+bad actions	like poison	Dhp124
 harming a good person	like dust thrown into the wind	Dhp125
 actions (kamma)	cannot escape results of	Dhp127
 death (maraṇa)	cannot escape	Dhp128
@@ -19775,15 +19777,15 @@ killing	result of	Dhp131
 killing	result of	Dhp132
 harsh speech	results of	Dhp133
 conflicts	stopping	Dhp134
-death (maraṇa)	simile of cowherd	Dhp135
+death (maraṇa)	like cowherd	Dhp135
 violence	result of	Dhp137
 violence	result of	Dhp138
 violence	result of	Dhp139
 violence	result of	Dhp140
 mortification (tapojigucchā)	uselessness of	Dhp141
 external appearance	not matching internal	Dhp142
-conscience (hiri)	simile of horse and whip	Dhp143
-conscience (hiri)	simile of horse and whip	Dhp144
+conscience (hiri)	like horse and whip	Dhp143
+conscience (hiri)	like horse and whip	Dhp144
 self-taming	wise tame themselves	Dhp145
 self-taming	like arrow maker	Dhp145
 self-taming	like irrigator	Dhp145
@@ -19809,8 +19811,8 @@ unlearned person	like an ox	Dhp152
 oxen	simile for unlearned person	Dhp152
 first verses of Buddha	housebuilder simile	Dhp153
 rebirth	painful	Dhp153
-house builder	simile of	Dhp153
-house builder	simile of	Dhp154
+house builder	simile for mind	Dhp153
+house builder	simile for mind	Dhp154
 spiritual path (brahmacariya)	rejected in youth	Dhp155
 spiritual path (brahmacariya)	rejected in youth	Dhp156
 old age (jarā)	like cranes in dried pond	Dhp155
@@ -19818,13 +19820,13 @@ old age (jarā)	like spent arrows	Dhp156
 self-taming	difficult to do	Dhp159
 self-taming	difficult to do	Dhp160
 evil (pāpa)	actions harming oneself	Dhp161
-results of actions	simile of diamond grinding	Dhp161
+results of actions	like diamond grinding	Dhp161
 evil (pāpa)	actions harming oneself	Dhp162
-immorality	simile of creeper	Dhp162
+immorality	like creeper	Dhp162
 bad actions	easy to do	Dhp163
 good actions	hard to do	Dhp163
 evil (pāpa)	actions harming oneself	Dhp164
-results of actions	simile of bamboo	Dhp164
+results of actions	like bamboo	Dhp164
 self-reliance	purified by oneself	Dhp165
 self-sacrifice	not neglecting ones own good	Dhp166
 sleep	sleeping well	Dhp168
@@ -19837,7 +19839,7 @@ chariots	simile for the world	Dhp171
 world, the	like chariot	Dhp171
 heedfulness (appamāda)	like moon freed from clouds	Dhp172
 heedfulness (appamāda)	like moon freed from clouds	Dhp173
-heaven (sagga)	simile of bird and net	Dhp174
+heaven (sagga)	like bird and net	Dhp174
 heaven (sagga)	few reborn in	Dhp174
 lying	person who lies can do anything	Dhp176
 giving (dāna)	praised by wise	Dhp177
@@ -19897,7 +19899,7 @@ craving (taṇhā)	as source of sorrow	Dhp215
 good actions	rebirth	Dhp219
 good actions	rebirth	Dhp220
 anger (kodha)	 	CUSTOM:Dhp:Dhp Chapter 17:suttacentral.net/dhp221-234/en/sujato
-anger (kodha)	simile of charioteer	Dhp222
+anger (kodha)	like charioteer	Dhp222
 anger (kodha)	keep in check	Dhp222
 anger (kodha)	overcoming	Dhp223
 stinginess (maccharī)	overcoming	Dhp223
@@ -19913,9 +19915,9 @@ misconduct	giving up	Dhp233
 self-reliance	island metaphor	Dhp236
 death	preparing for	Dhp237
 self-reliance	island metaphor	Dhp238
-self-purification	simile of silversmith	Dhp239
+self-purification	like silversmith	Dhp239
 results of actions	harming oneself	Dhp240
-results of actions	simile of rust	Dhp240
+results of actions	like rust	Dhp240
 stains	of hymns, houses, beauty, guards, etc.	Dhp241
 stains	of hymns, houses, beauty, guards, etc.	Dhp242
 ignorance (avijjā)	worst stain of all	Dhp243
@@ -19950,7 +19952,7 @@ not-self	all things are	Dhp279
 laziness (kosajja)	cannot see path	Dhp280
 meditation	wisdom and	Dhp282
 wisdom (paññā)	meditation and	Dhp282
-attachments	simile of calf	Dhp284
+attachments	like calf	Dhp284
 attachments	sexual	Dhp284
 death (maraṇa)	like flood	Dhp287
 floods (ogha)	simile for death	Dhp287
@@ -19998,7 +20000,7 @@ elephants	self tamed person is better than giant	Dhp322
 self-taming	one who has is better	Dhp323
 friendship	helpful	Dhp323
 Dhanapāla	elephant	Dhp324
-overeating	simile of hog	Dhp325
+overeating	like hog	Dhp325
 self-reliance	like elephant	Dhp327
 elephants	simile for self-reliance	Dhp327
 friendship	stick with good friend	Dhp328
@@ -20022,12 +20024,12 @@ grass	simile for craving	Dhp335
 rain	simile for craving	Dhp335
 craving (taṇhā)	like water drop on lotus leaf	Dhp336
 lotuses	leaf and drop of water as simile for craving	Dhp336
-Māra	simile of stream	Dhp337
+Māra	like stream crushing reeds	Dhp337
 craving (taṇhā)	simile of root digging	Dhp337
 craving (taṇhā)	underlying tendency	Dhp338
 craving (taṇhā)	underlying tendency	Dhp340
-craving (taṇhā)	simile of rabbit	Dhp342
-craving (taṇhā)	simile of rabbit	Dhp343
+craving (taṇhā)	like rabbit	Dhp342
+craving (taṇhā)	like rabbit	Dhp343
 monastic life	giving up	Dhp344
 sense pleasures (kāma, kāmaguṇa)	as fetter	Dhp346
 sense pleasures (kāma, kāmaguṇa)	as fetter	Dhp347
@@ -20145,7 +20147,7 @@ Bhaddiya Kāḷigodhā, Ven.	calling out “Oh, what bliss!”	Ud2.10
 spiritual path (brahmacariya)	dissatisfaction with	Ud2.10
 judging	misjudging others	Ud2.10
 renunciation (nekkhamma)	bliss of	Ud2.10
-painful feelings	enduring	Ud3.1
+painful feelings (dukkhavedanā)	enduring	Ud3.1
 past actions	results of	Ud3.1
 enduring (adhivāsana)	painful feelings	Ud3.1
 spiritual path (brahmacariya)	not delighting in	Ud3.2
@@ -20446,7 +20448,7 @@ elements (dhātu)	form, formlessness, cessation	Iti51
 feelings (vedanā)	three	Iti52
 feelings (vedanā)	three	Iti53
 pleasant feelings (sukhavedanā)	seen as suffering	Iti53
-painful feelings	seen as dart	Iti53
+painful feelings (dukkhavedanā)	seen as dart	Iti53
 neutral feelings (adukkhamasukhaṁ vedanā)	seen as impermanent	Iti53
 impermanence	neutral feelings seen as	Iti53
 searches (esana, pariyesanā)	three types	Iti54
@@ -20598,7 +20600,7 @@ streams (saritā)	simile for craving	Snp1.1
 conceit (māna)	like flood	Snp1.1
 essence (sāra)	like fig tree has no flower	Snp1.1
 anger (kodha)	arahant is free from	Snp1.1
-arahants	simile of snake skin	Snp1.1
+arahants	like snake shedding skin	Snp1.1
 proliferation (papañca)	going beyond	Snp1.1
 illusion	life as	Snp1.1
 lay life	filled with duties	Snp1.2
@@ -20610,7 +20612,7 @@ Buddha, the	attainments	Snp1.2
 loved ones	as source of sorrow	Snp1.2
 solitude	better than association with fools	Snp1.3
 loved ones	as source of sorrow	Snp1.3
-renunciation (nekkhamma)	simile of fallen leaves	Snp1.3
+renunciation (nekkhamma)	like fallen leaves	Snp1.3
 friendship	stick with good friend	Snp1.3
 friendship	equal or better	Snp1.3
 companionship	like noisy bracelets	Snp1.3
@@ -20677,8 +20679,8 @@ perception of ugliness (asubhasaññā)	nature of body	Snp1.11
 charnel ground contemplation (sivathikā)	rejecting desire for body	Snp1.11
 sages (muni)	qualities of	Snp1.12
 solitude	of a sage	Snp1.12
-lay life	simile of peacock	Snp1.12
-monastic life	simile of swan	Snp1.12
+lay life	like peacock	Snp1.12
+monastic life	like swan	Snp1.12
 meat eating	not what is blameworthy	Snp2.2
 bad actions	blameworthy, not meat eating	Snp2.2
 mortification (tapas)	not what purifies	Snp2.2
@@ -20736,7 +20738,7 @@ honor	your Dhamma teacher	Snp2.8
 honor	your Dhamma teacher	Snp2.9
 Dhamma teaching	when not ready	Snp2.8
 association	with the wise	Snp2.8
-Dhamma teachers	simile of boat	Snp2.8
+Dhamma teachers	like boat	Snp2.8
 listening to Dhamma	to reach highest goal	Snp2.9
 Dhamma	delight in	Snp2.9
 honor	elders	Snp2.9
@@ -20851,8 +20853,8 @@ Kokālika, Ven.	criticizes chief disciples	Snp3.10
 Sahampati, Brahmā	reports Kokālika’s birth in hell	Snp3.10
 hell (niraya)	lifespan in	Snp3.10
 mustard seeds	cartload, simile for length of hell	Snp3.10
-speech	simile of axe	Snp3.10
-harming a good person	simile of dust in wind	Snp3.10
+speech	like axe	Snp3.10
+harming a good person	like dust in wind	Snp3.10
 hell (niraya)	actions that lead to	Snp3.10
 hell (niraya)	torture in	Snp3.10
 Tāvatiṁsa heaven	celebrating the Buddha’s birth	Snp3.11
@@ -20885,7 +20887,7 @@ disputes	about Dhamma	Snp4.5
 conceit (māna)	wrong views	Snp4.5
 old age (jarā)	dying of	Snp4.6
 death (maraṇa)	like dream gone when waking are the dead	Snp4.6
-craving (taṇhā)	simile of water drop on lotus leaf	Snp4.6
+craving (taṇhā)	like water drop on lotus leaf	Snp4.6
 purity (suddhi, pārisuddhi)	by another	Snp4.6
 sexual activity	by monastics	Snp4.7
 monastics	sexual activity	Snp4.7
