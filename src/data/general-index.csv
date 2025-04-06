@@ -1,5 +1,7 @@
 dependent origination		xref unwholesome chain of causality
 dependent origination		xref wholesome chain of causality
+bulls (usabha)		xref elephants
+excess energy (accāraddhavīriya)		xref energy (vīriya)
 suffering (dukkha)		xref pain (dukkha)
 stress		xref suffering (dukkha)
 occupations		xref painters
@@ -371,7 +373,7 @@ kuṭis		xref dwellings (senāsana)
 dwellings (senāsana)		xref kuṭis
 encouragement		xref urgency
 insects		xref flies
-animals		xref  bull (usabha)
+animals		xref  bulls (usabha)
 animals		xref  calf
 animals		xref  cats
 animals		xref  cows
@@ -3136,7 +3138,7 @@ Buddha, the	body of	DN30
 enemies	cannot stop Buddha or wheel-turning monarch	DN30:1.4.0
 skillful qualities (kusala dhamma)	Bodhisatta practicing	DN30:1.4.0
 uposatha	Bodhisatta observing	DN30:1.4.0
-feet	Buddha’s 	DN30:1.4.0
+feet	Buddhas’	DN30:1.4.0
 Buddhas	cannot be stopped by anyone	DN30:1.4.0
 wheel-turning monarchs	cannot be stopped by anyone	DN30:1.4.0
 feet	Buddhas’	DN30:1.7.0
@@ -4480,6 +4482,7 @@ foundations of mindfulness, four (satipaṭṭhāna)	knowing, like knowing the p
 milking	milking dry, simile for knowing moderation in accepting requisites	MN33
 requisites, four	knowing moderation in accepting like not milking dry	MN33
 moderation, knowing (mattaññū)	knowing moderation in accepting like not milking dry	MN33
+bulls (usabha)	simile for elder monastics	MN33
 worshiping (pūjā)	elder monastics	MN33
 loving-kindness (mettā)	by body, speech, mind	MN33
 loving-kindness (mettā)	in action	MN33
@@ -6933,7 +6936,7 @@ consciousness (viññāṇa)	as element	MN115
 elements (dhātu)	six	MN115
 elements (dhātu)	skilled in	MN115
 elements (dhātu)	pleasure, pain, happiness, sadness, equanimity, ignorance	MN115
-elements (dhātu)	sensuality and renunciation, malice and good will, and cruelty and harmlessness	MN115
+elements (dhātu)	sensuality and renunciation, malice and good will, cruelty and harmlessness	MN115
 elements (dhātu)	of the sensual realm, the realm of luminous form, the formless realm	MN115
 elements (dhātu)	conditioned element and unconditioned element	MN115
 sense bases (āyatana)	skilled in	MN115
@@ -7284,7 +7287,7 @@ treasures	coming upon hidden treasure, simile for excitement in meditation	MN128
 discomfort (duṭṭhulla)	ending concentration	MN128
 excess energy (accāraddhavīriya)	ending concentration	MN128
 quails	gripping too tightly, simile for excess energy	MN128
-quails	gripping too loosely, simile for excess energy	MN128
+quails	gripping too loosely, simile for lax energy	MN128
 energy (vīriya)	overly lax energy and ending concentration	MN128
 longing (abhijappā)	ending concentration	MN128
 diversified perception (nānattasaññī)	ending concentration	MN128
@@ -7388,7 +7391,6 @@ Tāvatiṁsa heaven	Buddha visiting	MN134
 Pāricchattaka tree	Buddha sitting under	MN134
 giving (dāna)	result of	MN135
 Subha, Todeyya’s son	asking about differences in people	MN135
-actions (kamma)	being the owner of ones own	MN135
 actions (kamma)	all are owner of their actions	MN135
 actions (kamma)	heir to one’s	MN135
 actions (kamma)	ownership of	MN135
@@ -14266,6 +14268,7 @@ Devadatta	ruin of	AN4.68
 Devadatta	like bamboo that fruits and dies	AN4.68
 kings	moral leaders; causing natural disasters	AN4.70
 unrighteous (adhammika)	leaders	AN4.70
+bulls (usabha)	simile for leaders	AN4.70
 celestial bodies	becoming erratic	AN4.70
 certainty (apaṇṇaka)	ending defilements	AN4.71
 certainty (apaṇṇaka)	ending defilements	AN4.72
@@ -15016,7 +15019,6 @@ death (maraṇa)	frequent recollection	AN5.57
 reviewing (paccavekkhaṇā)	always reflect on, things one should	AN5.57
 old age, sickness, death	always reflect on	AN5.57
 separation from the loved	always reflect on	AN5.57
-actions (kamma)	being the owner of ones own	AN5.57
 subjects	to be reflected on	AN5.57
 old age, sickness, death	overcome intoxication with youth, health, life	AN5.57
 reviewing (paccavekkhaṇā)	leads to wholesome actions	AN5.57
@@ -15712,7 +15714,7 @@ sleep	leading to mendicant’s decline	AN6.31
 eating in moderation	does not lead to decline	AN6.31
 eating	immoderation	AN6.31
 respect (gārava)	does not lead to decline	AN6.32
-conscience and prudence (hiri ottappa)	does not lead to decline	AN6.33
+conscience and prudence (hiri ottappa)	do not lead to decline	AN6.33
 Moggallāna, Ven.	visiting brahmā world	AN6.34
 gods	who were human disciples of the Buddha	AN6.34
 Tissa, Brahmā	former monk	AN6.34
@@ -15941,7 +15943,7 @@ seclusion	possible to learn the patterns of the mind	AN6.68
 seclusion	leads to nibbāna	AN6.68
 respect (gārava)	does not lead to decline	AN6.69
 admonishment	being easy to (sovacassatā)	AN6.69
-friends, good	does not lead to decline	AN6.69
+friends, good	do not lead to decline	AN6.69
 encouragement	to be respectful	AN6.69
 concentration (samādhi)	without it, psychic powers are impossible	AN6.70
 concentration (samādhi)	without it, enlightenment not possible	AN6.70
@@ -17413,9 +17415,7 @@ outcast (caṇḍāla)	boy or girl, humble	AN9.11
 outcast (caṇḍāla)	boy or girl, simile for mind	AN9.11
 mind (cetas)	like outcast boy or girl	AN9.11
 outcast (caṇḍāla)	mind like outcast boy or girl	AN9.11
-bull (usabha)	with horns cut, humble like	AN9.11
-bull (usabha)	mind like	AN9.11
-bull (usabha)	with cut horns, simile for mind	AN9.11
+bulls (usabha)	simile for mind, with cut horns	AN9.11
 mind (cetas)	like bull with horns cut	AN9.11
 youth	freshly bathed, simile for repulsion towards body	AN9.11
 corpse	of snake or dog, simile for repulsion towards body	AN9.11
@@ -19110,7 +19110,7 @@ hell (niraya)	cause for rebirth in	AN10.211
 heaven (sagga)	cause for rebirth in	AN10.211
 female	causes for rebirth	AN10.213
 self-assured (visārada)	qualities that make one	AN10.215
-actions (kamma)	being the owner of ones own	AN10.216
+actions (kamma)	all are owner of their actions	AN10.216
 creeping (saṁsappanīya)	exposition on	AN10.216
 animals	creeping	AN10.216
 beings (bhātā)	born from beings	AN10.216
@@ -19399,11 +19399,11 @@ non-returner (anāgāmi)	through dimension of infinite consciousness	AN11.16
 conditioned (saṅkhata)	jhānas	AN11.16
 conditioned (saṅkhata)	heart’s release by loving-kindness, etc.	AN11.16
 dimension of infinite space (ākāsānañcāyatana)	leads to enlightenment	AN11.16
-dimension of infinite space (ākāsānañcāyatana)	lead to once-returning	AN11.16
+dimension of infinite space (ākāsānañcāyatana)	leads to once-returning	AN11.16
 dimension of infinite space (ākāsānañcāyatana)	reflecting on as impermanent	AN11.16
 dimension of infinite space (ākāsānañcāyatana)	conditioned	AN11.16
 dimension of infinite consciousness (viññāṇañcāyatana)	leads to enlightenment	AN11.16
-dimension of infinite consciousness (viññāṇañcāyatana)	lead to once-returning	AN11.16
+dimension of infinite consciousness (viññāṇañcāyatana)	leads to once-returning	AN11.16
 dimension of infinite consciousness (viññāṇañcāyatana)	reflecting on as impermanent	AN11.16
 dimension of infinite consciousness (viññāṇañcāyatana)	conditioned	AN11.16
 treasures	entrance to hidden, simile for eleven doors to the deathless	AN11.16
@@ -19439,6 +19439,7 @@ milking	milking dry, simile for knowing moderation in accepting requisites	AN11.
 requisites, four	knowing moderation in accepting like not milking dry	AN11.17
 moderation, knowing (mattaññū)	knowing moderation in accepting like not milking dry	AN11.17
 worshiping (pūjā)	elder monastics	AN11.17
+bulls (usabha)	simile for elder monastics	AN11.17
 loving-kindness (mettā)	by body, speech, mind 	AN11.17
 growth	factors that lead to	AN11.17
 this world (idhaloka)	perceptions and	AN11.18
