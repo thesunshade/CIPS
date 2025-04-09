@@ -32,9 +32,10 @@ But not elsewhere.
 
 # General
 
-| Don't use                                    | Use                                        |
-| -------------------------------------------- | ------------------------------------------ |
-| leaf and drop of water as simile for craving | leaf and drop of water, simile for craving |
+| Don't use                                       | Use                                             |
+| ----------------------------------------------- | ----------------------------------------------- |
+| leaf and drop of water as simile for craving    | leaf and drop of water, simile for craving      |
+| human world, heavenly world, animal world, etc. | human realm, heavenly realm, animal realm, etc. |
 
 ## contractions
 
