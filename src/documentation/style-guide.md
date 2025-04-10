@@ -25,10 +25,12 @@ But not elsewhere.
 # Capitalize
 
 - Saṅgha (unless in longer Pali word)
+- Bodhisatta when standing in for the name of Gotama
 
 # Don't Capitalize
 
 - brahmā realm
+- bodhisatta when used for bodhisattas in general
 
 # General
 
@@ -54,3 +56,4 @@ Unless they are a direct quote, do not use
 # Still needs to be resolved
 
 - leads to vs leading to
+- comma before "like", e.g. "with bad, like leaving a smooth road for rough" vs. "with good like fragrance of sandalwood"
