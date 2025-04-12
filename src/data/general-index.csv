@@ -1,5 +1,6 @@
 dependent origination		xref unwholesome chain of causality
 dependent origination		xref wholesome chain of causality
+abortion		xref pregnancy
 bulls (usabha)		xref elephants
 excess energy (accāraddhavīriya)		xref energy (vīriya)
 Buddhas		xref paccekabuddhas
@@ -3048,8 +3049,8 @@ eternalism (sassatavāda)	types of	DN28:1.0
 psychic powers (iddhi)	noble and ignoble	DN28:1.0
 recollection of past lives	unsurpassable	DN28:1.0
 knowledge of passing away and rebirth of beings (cutūpapātañāna)	unsurpassable	DN28:1.0
-repulsive (paṭikūla)	seeing repulsive and unrepulsive in, etc.	DN28:1.0
-unrepulsive (appaṭikūla)	seeing repulsive and unrepulsive in, etc.	DN28:1.0
+repulsive (paṭikūla)	seeing repulsive and unrepulsive, etc.	DN28:1.0
+unrepulsive (appaṭikūla)	seeing repulsive and unrepulsive, etc.	DN28:1.0
 sense pleasures (kāma, kāmaguṇa)	Buddha does not engage in	DN28:1.0
 mortification (attakilamatha)	Buddha does not engage in	DN28:1.0
 Buddhas	two cannot arise at the same time	DN28:1.0
@@ -3092,7 +3093,7 @@ stealing	happiness from	DN29:23.0
 lying	happiness from	DN29:23.0
 sense pleasures (kāma, kāmaguṇa)	indulgence in	DN29:23.0
 pleasure (sukha)	leading to enlightenment	DN29:23.0
-jhānas	leads to enlightenment	DN29:23.0
+jhānas	lead to enlightenment	DN29:23.0
 jhānas	pleasure leading to enlightenment	DN29:23.0
 stream-enterers (sotāpanna)	benefit of jhānas	DN29:25.0
 non-returner (anāgāmi)	benefit of jhānas	DN29:25.0
@@ -3572,7 +3573,7 @@ danger in slightest fault	seeing	MN6
 respect (gārava)	practice well to achieve	MN6
 monastic rules (vinaya)	live following	MN6
 almsfood	sought in suitable places	MN6
-spiritual companion (sabrahmacārī)	wish to be liked by	MN6
+spiritual companions (sabrahmacārī)	wish to be liked by	MN6
 internal serenity of mind (ajjhattaṁ cetosamatha)	being devoted to	MN6
 meditation (jhāyati)	do not neglect (anirākatajjhāna)	MN6
 insight (vipassanā)	being endowed with	MN6
@@ -3988,7 +3989,7 @@ bondages of the mind (cetovinibaddha, cetasovinibandha)	five kinds	MN16
 mental barrenness (cetokhila)	definition	MN16
 bondages of the mind (cetovinibaddha, cetasovinibandha)	definition	MN16
 doubt (vicikicchā)	about triple gem and training	MN16
-spiritual companion (sabrahmacārī)	anger at	MN16
+spiritual companions (sabrahmacārī)	anger at	MN16
 angry (kupita)	with spiritual companions	MN16
 sense pleasures (kāma, kāmaguṇa)	desire and craving for	MN16
 body (kāya)	desire and craving for	MN16
@@ -5822,7 +5823,7 @@ spiritual path (brahmacariya)	without consolation	MN76
 wrong view (micchā diṭṭhi)	negates the spiritual life	MN76
 elements, four great (cattāri mahābhūtāni)	wrong views about	MN76
 doctrine of nihilism (natthikavāda)	negating the spiritual path	MN76
-giving (dāna)	“doctrine for morons”	MN76
+giving (dāna)	“doctrine of morons”	MN76
 annihilationism (ucchedavāda)	negating the spiritual path	MN76
 doctrine of inaction/non-doing (akiriyavādā)	negating the spiritual path	MN76
 doctrine of no-cause/non-causality (ahetuvādā)	negating the spiritual path	MN76
@@ -5910,7 +5911,7 @@ bases of overcoming (abhibhāyatana)	why disciples respect the Buddha	MN77
 bases of overcoming (abhibhāyatana)	definition	MN77
 form (rūpa)	perceiving in meditation	MN77
 flowers	flax etc., simile for visions in meditation	MN77
-stars	morning, simile for visions in meditation	MN77
+stars	morning star, simile for visions in meditation	MN77
 kasiṇas	ten	MN77
 jhānas	similes for	MN77
 bath attendants	simile for first jhāna	MN77
@@ -6848,7 +6849,7 @@ sense bases (āyatana)	cessation of desire	MN112
 I making (ahaṅkāra)	knowing and seeing so that there is no	MN112
 gradual training (anupubbasikkhā)	as reported by an arahant	MN112
 enlightenment	without triple knowledge	MN112
-spiritual companion (sabrahmacārī)	fortunate to have an enlightened one as	MN112
+spiritual companions (sabrahmacārī)	fortunate to have an enlightened one as	MN112
 good people (sappurisa)	qualities of	MN113
 bad people (asappurisa)	qualities of	MN113
 arrogance	because of high family, fame, etc.	MN113
@@ -7932,9 +7933,7 @@ strong person	flexing arm, simile for controlling the mind	MN152
 water	drops falling into hot pan, simile for controlling the mind	MN152
 disgust (aṭṭīyati)	by liking and disliking sense objects	MN152
 noble ones (ariya)	seeing repulsive and unrepulsive, etc.	MN152
-repulsive	seeing repulsive and unrepulsive in	MN152
-repulsive	seeing unrepulsive in	MN152
-repulsive	seeing repulsive in	MN152
+repulsive (paṭikūla)	seeing repulsive and unrepulsive, etc.	MN152
 sense objects	seeing repulsive and unrepulsive, etc.	MN152
 equanimity (upekkhā)	towards repulsive an unrepulsive	MN152
 noble ones (ariya)	with developed faculties	MN152
@@ -8779,7 +8778,7 @@ Aññā Koṇḍañña, Ven.	Ven. Vaṅgīsa’s praise of	SN8.9
 Moggallāna, Ven.	Ven. Vaṅgīsa’s praise of	SN8.10
 devas	 	CUSTOM:SN:SN 9 Vana Saṁyutta:suttacentral.net/sn9
 lay life	memories and thoughts of	SN9.1
-birds	shaking off dust; simile for removing desire	SN9.1
+birds	shaking off dust, simile for removing desire	SN9.1
 sense desire (kāmarāga)	removing	SN9.1
 urgency (saṁvega)	deva stirring up in monastic	SN9.1
 devas	admonishing monastics	SN9.2
@@ -9491,8 +9490,7 @@ elements (dhātu)	gratification, danger, escape	SN14.32
 gratification, danger, escape	four elements	SN14.32
 searches (esana, pariyesanā)	elements gratification, danger, escape	SN14.32
 gratification, danger, escape	if there were no	SN14.33
-elements (dhātu)	not exclusively painful	SN14.34
-elements (dhātu)	not exclusively pleasurable	SN14.34
+elements (dhātu)	not exclusively painful or pleasurable	SN14.34
 suffering (dukkha)	elements not exclusively painful	SN14.34
 pleasure (sukha)	elements not exclusively pleasurable	SN14.34
 delight (abhinanda)	in elements is pleasure in suffering	SN14.35
@@ -10177,7 +10175,7 @@ world, the	shackled by attraction, grasping, insisting 	SN22.90
 extremes (anta)	existence and non-existence	SN22.90
 middle (majjha)	dependent origination as middle way	SN22.90
 dependent origination	as middle way	SN22.90
-spiritual companion (sabrahmacārī)	Ven. Channa praising	SN22.90
+spiritual companions (sabrahmacārī)	Ven. Channa praising	SN22.90
 I making (ahaṅkāra)	knowing and seeing so that there is no 	SN22.91
 possessiveness (mamaṅkāra)	knowing and seeing so that there is no 	SN22.91
 rivers	simile for regarding aggregates for self; grasping plants on bank	SN22.93
@@ -11900,12 +11898,8 @@ loving-kindness (mettā)	as accompanying enlightenment factor	SN46.54
 loving-kindness (mettā)	liberation of mind by	SN46.54
 wanderers of other sects (aññatitthiya paribbājaka)	difference between their teaching and the Buddha’s	SN46.54
 heart’s release by loving-kindness (mettā cetovimutti)	awakening factors	SN46.54
-repulsive	seeing repulsive and unrepulsive in	SN46.54
-repulsive	seeing repulsive in	SN46.54
-repulsive	seeing unrepulsive in	SN46.54
-unrepulsive (appaṭikūla)	seeing repulsive and unrepulsive in	SN46.54
-unrepulsive (appaṭikūla)	seeing repulsive in	SN46.54
-unrepulsive (appaṭikūla)	seeing unrepulsive in	SN46.54
+repulsive (paṭikūla)	seeing repulsive and unrepulsive, etc.	SN46.54
+unrepulsive (appaṭikūla)	seeing repulsive and unrepulsive, etc.	SN46.54
 beautiful, the	culmination of heart’s release by loving-kindness	SN46.54
 heart’s release by loving-kindness (mettā cetovimutti)	culmination is the beautiful	SN46.54
 heart’s release by compassion (karuṇā cetovimutti)	awakening factors	SN46.54
@@ -13055,11 +13049,11 @@ human birth	dying as human and reborn as human are few	SN56.103
 human birth	dying as human and reborn as animal are many	SN56.103
 animal realm	dying as human and reborn as animal are many	SN56.103
 human birth	dying as human and reborn as human are few	SN56.104
-human birth	dying as human and reborn as ghosts are many	SN56.104
-ghost realm	dying as human and reborn as ghosts are many	SN56.104
-human birth	dying as human and reborn as gods are few	SN56.105
+human birth	dying as human and reborn as ghost are many	SN56.104
+ghost realm	dying as human and reborn as ghost are many	SN56.104
+human birth	dying as human and reborn as god are few	SN56.105
 human birth	dying as human and reborn in hell are many	SN56.105
-heavenly realms	dying as human and reborn as gods are few	SN56.105
+heavenly realms	dying as human and reborn as god are few	SN56.105
 men	minds occupied by women	AN1.1-10
 women	minds occupied by men	AN1.1-10
 sign of the beautiful (subhanimitta)	cause for sense desire	AN1.11
@@ -13585,7 +13579,7 @@ mendicants	places to remember	AN3.12
 hope (āsa)	free from	AN3.13
 hope (āsa)	having the hope to become enlightened	AN3.13
 wheel-turning monarchs	Dhamma is their king	AN3.14
-Buddha, the	honoring the Dhamma	AN3.14
+Buddha, the	respects the Dhamma	AN3.14
 Dhamma	honored by the Buddha	AN3.14
 wheels	made well	AN3.15
 chariot-maker	Bodhisatta as	AN3.15
@@ -14212,12 +14206,12 @@ marriage	partners with same or opposite qualities	AN4.53
 marriage	partners with same or opposite qualities	AN4.54
 zombie	simile for bad husband or wife	AN4.54
 generosity (cāga)	cause for rebirth	AN4.55
-husbands	together with wife in future life	AN4.55
-wives	together with husband in future life	AN4.55
+husbands	together with wife in future lives	AN4.55
+wives	together with husband in future lives	AN4.55
 marriage	to be together in future lives	AN4.55
 marriage	to be together in future lives	AN4.56
-husbands	together with wife in future life	AN4.56
-wives	together with husband in future life	AN4.56
+husbands	together with wife in future lives	AN4.56
+wives	together with husband in future lives	AN4.56
 giving (dāna)	food	AN4.57
 giving (dāna)	result of	AN4.57
 giving (dāna)	benefits to receiver and giver similar	AN4.57
@@ -14416,14 +14410,14 @@ women	danger for monks	AN4.122
 gharials	simile for women	AN4.122
 women	like gharials	AN4.122
 lifespans	of gods	AN4.123
-jhānas	leads to heaven	AN4.123
+jhānas	lead to heaven	AN4.123
 ordinary person (puthujjana)	compared to noble disciple with rebirth	AN4.123
 noble disciple (ariya sāvaka)	compared to an ordinary person with rebirth	AN4.123
 pure abodes (suddhāvāsā)	cause for rebirth in	AN4.124
-jhānas	leads to heaven	AN4.124
+jhānas	lead to heaven	AN4.124
 loving-kindness (mettā)	as a path to brahmā realm	AN4.125
 lifespans	of gods	AN4.125
-brahmaviharas	leads to heaven	AN4.125
+brahmaviharas	lead to heaven	AN4.125
 meditation	enjoying	AN4.125
 loving-kindness (mettā)	as a path to brahmā realm	AN4.126
 incredible and amazing (acchariyā abbhutā)	events connected with the Buddha	AN4.127
@@ -14721,7 +14715,7 @@ speech	bad conduct	AN4.222
 criticism	rightly directed	AN4.222
 criticism	rightly directed	AN4.223
 astute person (paṇḍita)	makes merit	AN4.224
-fools (bāla)	make bad karma	AN4.224
+fools (bāla)	make bad kamma	AN4.224
 poetry	types of poets	AN4.231
 actions (kamma)	bright and dark	AN4.232
 actions (kamma)	neither bright nor dark	AN4.232
@@ -14828,7 +14822,7 @@ powers of a trainee (sekha bala)	faith, conscience, prudence, energy, wisdom	AN5
 powers of a trainee (sekha bala)	definition	AN5.2
 powers of a trainee (sekha bala)	cause for happy life	AN5.3
 powers of a trainee (sekha bala)	cause for good rebirth	AN5.3
-powers of a trainee (sekha bala)	leads to heaven	AN5.4
+powers of a trainee (sekha bala)	lead to heaven	AN5.4
 powers of a trainee (sekha bala)	lack of leads to hell	AN5.4
 hell (niraya)	qualities that lead to	AN5.4
 heaven (sagga)	qualities that lead to	AN5.4
@@ -15274,7 +15268,7 @@ treasures	ordinary and spiritual	AN5.143
 Buddhas	rarity of	AN5.143
 Dhamma teachers	rarity of	AN5.143
 practicing	person who practices is rare	AN5.143
-repulsive	seeing repulsive and unrepulsive in	AN5.144
+repulsive (paṭikūla)	seeing repulsive and unrepulsive, etc.	AN5.144
 greed (rāga)	removing by seeing repulsive in unrepulsive	AN5.144
 hatred (dosa)	removing by seeing unrepulsive in repulsive	AN5.144
 equanimity (upekkhā)	towards repulsive an unrepulsive	AN5.144
@@ -15360,7 +15354,7 @@ timidity (sārajja)	qualities that make one	AN5.171
 precepts, five	breaking them makes you timit	AN5.171
 self-assured (visārada)	qualities that make one	AN5.172
 precepts, five	breaking leads to hell	AN5.173
-precepts, five	leads to heaven	AN5.173
+precepts, five	lead to heaven	AN5.173
 Anāthapiṇḍika, householder	precepts	AN5.174
 perils (bhaya)	of breaking precepts	AN5.174
 precepts, five	breaking leads to hell	AN5.174
@@ -16534,7 +16528,7 @@ brahmās	rebirth in company of	AN7.73
 confidence (pasāda)	in good person can determine rebirth	AN7.73
 Araka, teacher	shortness of life	AN7.73
 one attained to view (diṭṭhippatta)	abusing and insulting	AN7.73
-spiritual companion (sabrahmacārī)	abusing and insulting	AN7.73
+spiritual companions (sabrahmacārī)	abusing and insulting	AN7.73
 death (maraṇa)	comes quickly	AN7.74
 death (maraṇa)	inevitability of	AN7.74
 Araka, teacher	teaching rebirth in brahmā realm	AN7.74
@@ -16594,8 +16588,8 @@ knowing knows, seeing sees (jānaṁ jānāti passaṁ passatī)	mendicant with 
 love (piya)	qualities that lead to	AN8.2
 respect (gārava)	qualities that lead to	AN8.2
 harmony (sāmañña)	qualities that lead to	AN8.2
-spiritual companion (sabrahmacārī)	qualities that make one liked or disliked by ones	AN8.3
-spiritual companion (sabrahmacārī)	qualities that make one liked or disliked by ones	AN8.4
+spiritual companions (sabrahmacārī)	qualities that make one liked or disliked by ones	AN8.3
+spiritual companions (sabrahmacārī)	qualities that make one liked or disliked by ones	AN8.4
 worldly conditions (lokadhamma)	definition	AN8.5
 gain (lābha)	worldly conditions	AN8.5
 loss (alābha)	worldly conditions	AN8.5
@@ -16978,7 +16972,7 @@ Visākhā, Migara’s mother	leadership in household	AN8.49
 household management	how to	AN8.46
 household management	how to	AN8.49
 women	success in this life	AN8.49
-women	success in future life	AN8.49
+women	success in future lives	AN8.49
 lay life	practices for success	AN8.49
 accomplishments	faith, ethics, generosity, wisdom	AN8.49
 present life	success in	AN8.49
@@ -17000,7 +16994,7 @@ invitation (pavāraṇā)	bhikkhunīs inviting bhikkhus	AN8.51
 female probationer (sikkhamānā)	ordination of	AN8.51
 bhikkhunīs	abusing, insulting bhikkhus	AN8.51
 garlands	simile for accepting garudhammas	AN8.51
-spiritual path (brahmacariya)	lasing long	AN8.51
+spiritual path (brahmacariya)	lasting long	AN8.51
 family	with few men, simile for Saṅgha	AN8.51
 rice	field of, simile for true Dhamma not lasting long	AN8.51
 sugar cane	field of, simile for true Dhamma not lasting long	AN8.51
@@ -17421,7 +17415,7 @@ mind (cetas)	like bull with horns cut	AN9.11
 youths	freshly bathed, simile for repulsion towards body	AN9.11
 corpse	of snake or dog, simile for repulsion towards body	AN9.11
 rotten body (pūtikāya)	repulsiveness of	AN9.11
-repulsive	towards body	AN9.11
+body (kāya)	like bowl of fat	AN9.11
 bowls	of fat, simile for body	AN9.11
 body	like bowl of leaking fat	AN9.11
 asking forgiveness	example of	AN9.11
@@ -18529,7 +18523,7 @@ freedom (vimutti)	praise for person with who talks about	AN10.70
 monastic rules (vinaya)	live following	AN10.71
 almsfood	sought in suitable places	AN10.71
 danger in slightest fault	seeing	AN10.71
-spiritual companion (sabrahmacārī)	wish to be liked by	AN10.71
+spiritual companions (sabrahmacārī)	wish to be liked by	AN10.71
 internal serenity of mind (ajjhattaṁ cetosamatha)	being devoted to	AN10.71
 meditation (jhāyati)	do not neglect (anirākatajjhāna)	AN10.71
 insight (vipassanā)	being endowed with	AN10.71
@@ -18790,7 +18784,7 @@ deceit (kuhaka/māyāvī)	not having leads to respect and harmony	AN10.87
 listening to Dhamma	leads to respect and harmony	AN10.87
 seclusion (paṭisallīna, vivitta)	leads to respect and harmony	AN10.87
 hospitality (paṭisanthāra)	leads to respect and harmony	AN10.87
-spiritual companion (sabrahmacārī)	abusing and insulting, results of	AN10.88
+spiritual companions (sabrahmacārī)	abusing and insulting, results of	AN10.88
 criticizing noble ones	results of	AN10.88
 hell (niraya)	criticizing noble ones	AN10.88
 monastic life	dissatisfaction with, result of criticizing	AN10.88
@@ -19001,11 +18995,11 @@ ceremonies	of “descent” (paccorohaṇī)	AN10.167
 fire worship (aggika)	and ceremony of “descent” (paccorohaṇī)	AN10.167
 ceremonies	Buddha gives his meaning of	AN10.167
 training of the Noble One (ariya vinaya)	meaning of a ceremony in	AN10.167
-precepts, five	breaking gives bad result in present and future life	AN10.167
-wrong action (micchā kammanta)	bad result in present and future life	AN10.167
-wrong speech (micchā vācā)	bad result in present and future life	AN10.167
-wrong intention (micchā saṅkappa)	bad result in present and future life	AN10.167
-bad actions	bad result in present and future life	AN10.167
+precepts, five	breaking gives bad result in present and future lives	AN10.167
+wrong action (micchā kammanta)	bad result in present and future lives	AN10.167
+wrong speech (micchā vācā)	bad result in present and future lives	AN10.167
+wrong intention (micchā saṅkappa)	bad result in present and future lives	AN10.167
+bad actions	bad result in present and future lives	AN10.167
 near shore (orima)	definition	AN10.169
 far shore (pārima)	definition	AN10.169
 wrong action (micchā kammanta)	far shore	AN10.169
@@ -19198,7 +19192,7 @@ wholesome chain of causality	virtue to knowledge and vision of freedom	AN11.1
 wholesome chain of causality	happens without a wish	AN11.2
 intention (cetana)	not necessary for one who has developed the proper conditions	AN11.2
 near shore (orima)	going from to far shore like filling up good qualities	AN11.2
-spiritual companion (sabrahmacārī)	abusing and insulting, results of	AN11.6
+spiritual companions (sabrahmacārī)	abusing and insulting, results of	AN11.6
 criticizing noble ones	results of	AN11.6
 hell (niraya)	criticizing noble ones	AN11.6
 disrobing	from criticizing noble ones	AN11.6
@@ -19489,7 +19483,7 @@ blessings (maṅgala)	in detail	Kp5
 association	with good people	Kp5
 fools (bāla)	do not associate with	Kp5
 honor	honoring as a blessing	Kp5
-region	suitable to live in	Kp5
+region	suitable	Kp5
 merit (puñña)	done in the past	Kp5
 determination	as a blessing	Kp5
 education	as a blessing	Kp5
@@ -19825,8 +19819,7 @@ self-reliance	purified by oneself	Dhp165
 self-sacrifice	not neglecting ones own good	Dhp166
 sleep	sleeping well	Dhp168
 sleep	sleeping well	Dhp169
-world, the	like bubble	Dhp170
-world, the	like mirage	Dhp170
+world, the	like bubble, mirage	Dhp170
 bubbles	simile for the world	Dhp170
 mirages	simile for the world	Dhp170
 chariots	simile for the world	Dhp171
@@ -20685,7 +20678,7 @@ blessings (maṅgala)	in detail	Snp2.4
 association	with good people	Snp2.4
 fools (bāla)	do not associate with	Snp2.4
 honor	honoring as a blessing	Snp2.4
-region	suitable to live in	Snp2.4
+region	suitable	Snp2.4
 merit (puñña)	done in the past	Snp2.4
 determination	as a blessing	Snp2.4
 education	as a blessing	Snp2.4
@@ -21001,7 +20994,7 @@ Chattamāṇavaka	verses taught by Buddha	Vv53
 refuges	going for leads to heaven	Vv53
 Buddha, the	visiting beings about to die	Vv53
 Buddha, the	visiting beings about to die	Vv50
-precepts, five	leads to heaven	Vv53
+precepts, five	lead to heaven	Vv53
 heaven (sagga)	precepts lead to	Vv53
 heaven (sagga)	refuges lead to	Vv53
 merit (puñña)	small amounts give big results	Vv53

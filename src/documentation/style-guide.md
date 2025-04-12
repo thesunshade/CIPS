@@ -38,6 +38,7 @@ But not elsewhere.
 | ----------------------------------------------- | ----------------------------------------------- |
 | leaf and drop of water as simile for craving    | leaf and drop of water, simile for craving      |
 | human world, heavenly world, animal world, etc. | human realm, heavenly realm, animal realm, etc. |
+| karma                                           | kamma                                           |
 
 ## contractions
 
