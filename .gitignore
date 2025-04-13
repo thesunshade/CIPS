@@ -50,3 +50,5 @@ public/getBlurbs.js
 public/tooltips.js
 public/allSuttasPaliNameArray.js
 .vscode/tasks.json
+src/data/headword-subhead-count.js
+public/subheadCountTable.html
