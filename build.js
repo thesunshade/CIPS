@@ -169,6 +169,44 @@ function createIndexObject(indexArray) {
   });
   locatorCountHeadwordsList.reverse();
 
+  function headwordSubheadCounts(indexObject) {
+    const result = [];
+
+    for (const letter in indexObject) {
+      const headwords = indexObject[letter];
+      for (const headword in headwords) {
+        const subheadCount = Object.keys(headwords[headword]).length;
+        result.push([headword, subheadCount]);
+      }
+    }
+    result.sort((a, b) => b[1] - a[1]);
+
+    return result;
+  }
+
+  const headwordSubheadCount = `export const headwordSubheadCount =${JSON.stringify(headwordSubheadCounts(indexObject), null, 5)}`;
+  save("src/data/headword-subhead-count.js", headwordSubheadCount, "💾");
+
+  const openingHtmlHeadwordSubheadCountHtml = fs.readFileSync(new URL("./src/functions/htmlParts/openingHtmlheadwordSubheadCountHtml.txt", import.meta.url), "utf8");
+
+  const headwordSubheadArray = headwordSubheadCounts(indexObject);
+
+  let headwordSubheadCountHtml = openingHtmlHeadwordSubheadCountHtml;
+
+  headwordSubheadCountHtml += `<div class="table">`;
+  for (let i = 0; i < headwordSubheadArray.length; i++) {
+    headwordSubheadCountHtml += `
+    <div class="row">
+    <div>${headwordSubheadArray[i][0]}</div>
+    <div>${headwordSubheadArray[i][1]}</div>
+    </div>`;
+  }
+  headwordSubheadCountHtml += `
+  <div>
+  </body>`;
+
+  save("public/subheadCountTable.html", headwordSubheadCountHtml, "🌐");
+
   const object = `export const indexObject =${JSON.stringify(indexObject, null, 5)}`;
   save("src/data/index-object.js", object, "💾");
 
