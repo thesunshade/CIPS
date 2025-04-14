@@ -106,6 +106,12 @@ export const infoArea = `
             sorted by number of unique locators.
           </p>
           <p>
+            <a href="https://index.readingfaithfully.org/subheadcounttable" rel="noreferrer" target="_blank">
+              Table of headwords
+            </a>
+            sorted by number of sub-headings.
+          </p>
+          <p>
             <a href="https://index.readingfaithfully.org/locatorSortedTable.html" rel="noreferrer" target="_blank">
               Table of suttas</a> with headwords and sub-heads.
           </p>
