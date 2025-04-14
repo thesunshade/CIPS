@@ -1508,10 +1508,6 @@ export const headwordSubheadCount =[
           10
      ],
      [
-          "mind (cetas)",
-          10
-     ],
-     [
           "perception of death (maraṇasaññā)",
           10
      ],
@@ -3152,6 +3148,10 @@ export const headwordSubheadCount =[
           5
      ],
      [
+          "mind (cetas)",
+          5
+     ],
+     [
           "mind-made body (manomayena kāya)",
           5
      ],
@@ -4225,14 +4225,6 @@ export const headwordSubheadCount =[
      ],
      [
           "“as before, so after” etc.",
-          3
-     ],
-     [
-          "“as below, so above” etc.",
-          3
-     ],
-     [
-          "“as by day, so by night”",
           3
      ],
      [
