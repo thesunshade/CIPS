@@ -24,10 +24,6 @@ export const headwordSubheadCount =[
           78
      ],
      [
-          "Sāriputta, Ven.",
-          76
-     ],
-     [
           "virtue (sīla)",
           74
      ],
@@ -70,6 +66,10 @@ export const headwordSubheadCount =[
      [
           "Dhamma",
           66
+     ],
+     [
+          "Sāriputta, Ven.",
+          65
      ],
      [
           "Dhamma teaching",
@@ -184,15 +184,15 @@ export const headwordSubheadCount =[
           40
      ],
      [
-          "Moggallāna, Ven.",
-          39
-     ],
-     [
           "stream-enterers (sotāpanna)",
           39
      ],
      [
           "aggregates",
+          38
+     ],
+     [
+          "Moggallāna, Ven.",
           38
      ],
      [
@@ -372,10 +372,6 @@ export const headwordSubheadCount =[
           27
      ],
      [
-          "perception of ugliness (asubhasaññā)",
-          27
-     ],
-     [
           "bases of psychic power (iddhipāda)",
           26
      ],
@@ -393,6 +389,10 @@ export const headwordSubheadCount =[
      ],
      [
           "ignorance (avijjā)",
+          26
+     ],
+     [
+          "perception of ugliness (asubhasaññā)",
           26
      ],
      [
@@ -580,6 +580,10 @@ export const headwordSubheadCount =[
           21
      ],
      [
+          "perception of impermanence (aniccasaññā)",
+          21
+     ],
+     [
           "right effort, four (sammappadhāna)",
           21
      ],
@@ -625,10 +629,6 @@ export const headwordSubheadCount =[
      ],
      [
           "mindfulness of body (kāyagatāsati)",
-          20
-     ],
-     [
-          "perception of impermanence (aniccasaññā)",
           20
      ],
      [
@@ -1316,14 +1316,6 @@ export const headwordSubheadCount =[
           11
      ],
      [
-          "perception of dissatisfaction with the whole world (sabbaloke anabhiratasaññā)",
-          11
-     ],
-     [
-          "perception of repulsiveness of food (āhāre paṭikūlasaññā)",
-          11
-     ],
-     [
           "pots",
           11
      ],
@@ -1508,7 +1500,11 @@ export const headwordSubheadCount =[
           10
      ],
      [
-          "perception of death (maraṇasaññā)",
+          "perception of dissatisfaction with the whole world (sabbaloke anabhiratasaññā)",
+          10
+     ],
+     [
+          "perception of repulsiveness of food (āhāre paṭikūlasaññā)",
           10
      ],
      [
@@ -1737,6 +1733,10 @@ export const headwordSubheadCount =[
      ],
      [
           "paccekabuddhas",
+          9
+     ],
+     [
+          "perception of death (maraṇasaññā)",
           9
      ],
      [
@@ -2200,10 +2200,6 @@ export const headwordSubheadCount =[
           7
      ],
      [
-          "Hatthaka of Āḷavī, householder",
-          7
-     ],
-     [
           "hope (āsa)",
           7
      ],
@@ -2596,6 +2592,10 @@ export const headwordSubheadCount =[
           6
      ],
      [
+          "Hatthaka of Āḷavī, householder",
+          6
+     ],
+     [
           "head on fire",
           6
      ],
@@ -2796,15 +2796,7 @@ export const headwordSubheadCount =[
           6
      ],
      [
-          "Uppalavaṇṇā, Ven.",
-          6
-     ],
-     [
           "urgency",
-          6
-     ],
-     [
-          "Veḷukaṇṭakī Nandamāta, householder",
           6
      ],
      [
@@ -3112,10 +3104,6 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "Khemā, Ven.",
-          5
-     ],
-     [
           "knowledge (ñāṇa)",
           5
      ],
@@ -3332,11 +3320,19 @@ export const headwordSubheadCount =[
           5
      ],
      [
+          "Uppalavaṇṇā, Ven.",
+          5
+     ],
+     [
           "vanity (atimānī)",
           5
      ],
      [
           "Vassakāra, brahmin",
+          5
+     ],
+     [
+          "Veḷukaṇṭakī Nandamāta, householder",
           5
      ],
      [
@@ -3684,7 +3680,7 @@ export const headwordSubheadCount =[
           4
      ],
      [
-          "Khujjuttarā, householder",
+          "Khemā, Ven.",
           4
      ],
      [
@@ -4332,10 +4328,6 @@ export const headwordSubheadCount =[
           3
      ],
      [
-          "Citta of Āḷavī, householder",
-          3
-     ],
-     [
           "clouds",
           3
      ],
@@ -4700,6 +4692,10 @@ export const headwordSubheadCount =[
           3
      ],
      [
+          "Khujjuttarā, householder",
+          3
+     ],
+     [
           "kingship",
           3
      ],
@@ -4837,10 +4833,6 @@ export const headwordSubheadCount =[
      ],
      [
           "old age",
-          3
-     ],
-     [
-          "ordination (upasampadā)",
           3
      ],
      [
@@ -5693,6 +5685,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Citta Hatthisāriputta, Ven.",
+          2
+     ],
+     [
+          "Citta of Āḷavī, householder",
           2
      ],
      [
@@ -6784,15 +6780,15 @@ export const headwordSubheadCount =[
           2
      ],
      [
+          "ordination (upasampadā)",
+          2
+     ],
+     [
           "overestimation",
           2
      ],
      [
           "ownership (pariggaha)",
-          2
-     ],
-     [
-          "painful practice (dukkhā paṭipadā)",
           2
      ],
      [
@@ -6889,10 +6885,6 @@ export const headwordSubheadCount =[
      ],
      [
           "planes of consciousness (viññāṇaṭṭhitiyo)",
-          2
-     ],
-     [
-          "pleasant practice (sukhā paṭipadā)",
           2
      ],
      [
@@ -10816,6 +10808,10 @@ export const headwordSubheadCount =[
           1
      ],
      [
+          "painful practice (dukkhā paṭipadā)",
+          1
+     ],
+     [
           "pamāda",
           1
      ],
@@ -10993,6 +10989,10 @@ export const headwordSubheadCount =[
      ],
      [
           "pleasant and unpleasant sense objects",
+          1
+     ],
+     [
+          "pleasant practice (sukhā paṭipadā)",
           1
      ],
      [
