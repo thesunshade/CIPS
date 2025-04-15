@@ -1,5 +1,11 @@
 dependent origination		xref unwholesome chain of causality
 dependent origination		xref wholesome chain of causality
+scavenging		xref alms gathering practice
+actions (kamma)		xref right action (sammā kammanta)
+actions (kamma)		xref unintentional actions (asañcetanika)
+adornments		xref youths
+adornments		xref precepts, ten
+adornments		xref precepts, eight
 abortion		xref pregnancy
 bulls (usabha)		xref elephants
 excess energy (accāraddhavīriya)		xref energy (vīriya)
@@ -78,7 +84,7 @@ fools (bāla)		xref unwise (duppañña)
 cosmos		xref eternalism (sassatavāda)
 psychic powers (iddhi)		xref mind-made body (manomayena kāya)
 savings		xref money
-actions		xref observances (samādāna)
+actions (kamma)		xref observances (samādāna)
 meditation		xref bases of overcoming (abhibhāyatana)
 time		xref urgency
 huts		xref kuṭis
@@ -1876,13 +1882,13 @@ kings	bowing to former servants, subjects	DN2:34.0.1
 bowing down (abhivādana)	fruit of ascetic life	DN2:34.0.1
 going forth (pabbajja)	out of faith	DN2:34.0.1
 gradual training (anupubbasikkhā)	in detail	DN2:34.0.1
-killing, giving up	part of gradual training	DN2:34.0.1
-stealing, giving up	part of gradual training	DN2:34.0.1
-celibacy	part of gradual training	DN2:34.0.1
-false speech, giving up	part of gradual training	DN2:34.0.1
-harsh speech, giving up	part of gradual training	DN2:34.0.1
-divisive speech, giving up	part of gradual training	DN2:34.0.1
-useless speech, giving up	part of gradual training	DN2:34.0.1
+killing, giving up	gradual training, aspect of	DN2:34.0.1
+stealing, giving up	gradual training, aspect of	DN2:34.0.1
+celibacy	gradual training, aspect of	DN2:34.0.1
+false speech, giving up	gradual training, aspect of	DN2:34.0.1
+harsh speech, giving up	gradual training, aspect of	DN2:34.0.1
+divisive speech, giving up	gradual training, aspect of	DN2:34.0.1
+useless speech, giving up	gradual training, aspect of	DN2:34.0.1
 plants	not injuring	DN2:34.0.1
 seeds	not injuring	DN2:34.0.1
 eating in one time (ekabhattika)	Buddha practices	DN2:34.0.1
@@ -2417,8 +2423,8 @@ perception of cessation (nirodhasaññā)	prevent decline	DN16:1.6.0
 principles of cordiality (dhammā sāraṇīyā)	definition	DN16:1.6.0
 harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	DN16:1.6.0
 monastic rules (vinaya)	principles of cordiality	DN16:1.6.0
-right view	as principle of cordiality	DN16:1.6.0
-loving-kindness (mettā)	as principle of cordiality	DN16:1.6.0
+right view	principle of cordiality 	DN16:1.6.0
+loving-kindness (mettā)	principle of cordiality 	DN16:1.6.0
 concentration (samādhi)	virtue, imbued with	DN16:1.6.0
 virtue (sīla)	concentration, imbuing	DN16:1.6.0
 wisdom (paññā)	concentration, imbued with	DN16:1.6.0
@@ -2763,15 +2769,15 @@ noble truth of suffering	analysis of	DN22:13.0.1
 noble truth of the origin of suffering	analysis of	DN22:13.0.1
 noble truth of the cessation of suffering	analysis of	DN22:13.0.1
 noble truth of the practice that leads to the cessation of suffering	analysis of	DN22:13.0.1
-birth (jāti)	as first noble truth	DN22:13.0.1
-old age (jarā)	as first noble truth	DN22:13.0.1
-death (maraṇa)	as first noble truth	DN22:13.0.1
-sorrow (soka)	as first noble truth	DN22:13.0.1
-lamentation (parideva)	as first noble truth	DN22:13.0.1
-suffering (dukkha)	as first noble truth	DN22:13.0.1
-sadness (domanassa)	as first noble truth	DN22:13.0.1
-distress (upāyāsa)	as first noble truth	DN22:13.0.1
-not getting what you wish for	as first noble truth	DN22:13.0.1
+birth (jāti)	noble truth	DN22:13.0.1
+old age (jarā)	noble truth	DN22:13.0.1
+death (maraṇa)	noble truth	DN22:13.0.1
+sorrow (soka)	noble truth	DN22:13.0.1
+lamentation (parideva)	noble truth	DN22:13.0.1
+suffering (dukkha)	noble truth	DN22:13.0.1
+sadness (domanassa)	noble truth	DN22:13.0.1
+distress (upāyāsa)	noble truth	DN22:13.0.1
+not getting what you wish for	noble truth	DN22:13.0.1
 association (sampayoga)	with disliked is suffering	DN22:13.0.1
 separation from the loved	is suffering	DN22:13.0.1
 birth (jāti)	definition	DN22:13.0.1
@@ -3675,7 +3681,7 @@ jealousy (issā)	overcoming	MN8
 stinginess (maccharī)	overcoming	MN8
 deviousness (saṭha)	overcoming	MN8
 deceit (kuhaka/māyāvī)	overcoming	MN8
-arrogance (thaddha)	overcoming	MN8
+arrogance (thaddha)	practice for giving up	MN8
 conceit of superiority (atimāna)	overcoming	MN8
 admonishment	being difficult to	MN8
 friends, bad	overcoming	MN8
@@ -4321,7 +4327,7 @@ eating	situational awareness	MN27
 urinating	situational awareness	MN27
 defecating	situational awareness	MN27
 postures	situational awareness	MN27
-seclusion (paṭisallīna, vivitta)	part of gradual training	MN27
+seclusion (paṭisallīna, vivitta)	gradual training, aspect of	MN27
 alms gathering practice	meditating after	MN27
 covetousness, giving up	meditation	MN27
 ill will, giving up	meditation	MN27
@@ -4421,7 +4427,7 @@ Nandiya, Ven.	living with Ven. Anuruddha and Kimbila 	MN31
 Kimbila, Ven.	living with Ven. Anuruddha and Nandiya 	MN31
 harmony (samagga)	example of	MN31
 monastic life	duties	MN31
-loving-kindness (mettā)	as principle of cordiality	MN31
+loving-kindness (mettā)	principle of cordiality 	MN31
 loving-kindness (mettā)	in action	MN31
 loving-kindness (mettā)	by body, speech, mind	MN31
 good friends	example of	MN31
@@ -4919,10 +4925,10 @@ Kosambi	dispute at	MN48
 loving-kindness (mettā)	in action	MN48
 principles of cordiality (dhammā sāraṇīyā)	definition	MN48
 harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	MN48
-loving-kindness (mettā)	as principle of cordiality	MN48
-giving (dāna)	as principle of cordiality	MN48
-sharing	as principle of cordiality	MN48
-right view	as principle of cordiality	MN48
+loving-kindness (mettā)	principle of cordiality 	MN48
+giving (dāna)	principle of cordiality 	MN48
+sharing	principle of cordiality 	MN48
+right view	principle of cordiality 	MN48
 right view	leads to harmony	MN48
 loving-kindness (mettā)	by body, speech, mind 	MN48
 giving (dāna)	by monastics	MN48
@@ -5050,17 +5056,17 @@ eating	situational awareness	MN51
 urinating	situational awareness	MN51
 defecating	situational awareness	MN51
 postures	situational awareness	MN51
-seclusion (paṭisallīna, vivitta)	part of gradual training	MN51
+seclusion (paṭisallīna, vivitta)	gradual training, aspect of	MN51
 alms gathering practice	meditating after	MN51
 covetousness, giving up	meditation	MN51
 ill will, giving up	meditation	MN51
 dullness and drowsiness (thinamiddha)	removing	MN51
 doubt (vicikicchā)	removing	MN51
 hindrances (nīvaraṇa)	removal of as part of gradual training	MN51
-jhānas	part of gradual training	MN51
-past lives, knowledge of (pubbenivāsānussatiñāṇa)	part of gradual training	MN51
-knowledge of passing away and rebirth of beings (cutūpapātañāna)	part of gradual training	MN51
-knowledge of destruction of the taints (āsavakkhayañāṇa)	part of gradual training	MN51
+jhānas	gradual training, aspect of	MN51
+past lives, knowledge of (pubbenivāsānussatiñāṇa)	gradual training, aspect of	MN51
+knowledge of passing away and rebirth of beings (cutūpapātañāna)	gradual training, aspect of	MN51
+knowledge of destruction of the taints (āsavakkhayañāṇa)	gradual training, aspect of	MN51
 four noble truths	understanding as result of gradual training	MN51
 taints (āsava)	ended by gradual training	MN51
 freedom (vimutti)	knowing	MN51
@@ -5171,7 +5177,7 @@ taints (āsava)	caused by bad behavior	MN54
 training of the Noble One (ariya vinaya)	cutting off household life	MN54
 sense pleasures (kāma, kāmaguṇa)	like skeleton	MN54
 skeleton	simile for sense pleasures	MN54
-sense pleasures (kāma, kāmaguṇa)	like lump of meat	MN54
+sense pleasures (kāma, kāmaguṇa)	like lumps of meat	MN54
 meat	simile for sense pleasures	MN54
 vultures	simile for sense pleasures	MN54
 hawks	simile for sense pleasures	MN54
@@ -5518,7 +5524,7 @@ sense pleasures (kāma, kāmaguṇa)	should be feared	MN66
 bliss of renunciation (nekkhammasukha)	superior to happiness of sensuality	MN66
 jhānas	perturbable aspects	MN66
 jhānas	factors blocking	MN66
-formless liberations	not enough just to have	MN66
+formless liberations	insufficient	MN66
 fetters (saṁyojana)	giving up large and small	MN66
 shackles (bandha)	strong and weak	MN66
 dimension of neither perception nor non-perception (nevasaññanāsaññāyatana)	giving up even this	MN66
@@ -6621,11 +6627,11 @@ insanity (amūḷha)	as legal defence	MN104
 monastic rules (vinaya)	settling issues	MN104
 principles of cordiality (dhammā sāraṇīyā)	definition	MN104
 harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	MN104
-loving-kindness (mettā)	as principle of cordiality	MN104
-giving (dāna)	as principle of cordiality	MN104
-virtue (sīla)	as principle of cordiality	MN104
-sharing	as principle of cordiality	MN104
-right view (sammā diṭṭhi)	as principle of cordiality	MN104
+loving-kindness (mettā)	principle of cordiality 	MN104
+giving (dāna)	principle of cordiality 	MN104
+virtue (sīla)	principle of cordiality 	MN104
+sharing	principle of cordiality 	MN104
+right view (sammā diṭṭhi)	principle of cordiality 	MN104
 right view (sammā diṭṭhi)	leads to harmony	MN104
 loving-kindness (mettā)	by body, speech, mind  	MN104
 death (maraṇa)	abandoning the training as	MN105
@@ -6707,19 +6713,19 @@ brahmins	gradual training in chanting	MN107
 archers	gradual training of	MN107
 accountants	gradual training of	MN107
 gradual training (anupubbasikkhā)	like training a horse	MN107
-danger in slightest fault	part of gradual training	MN107
-virtue (sīla)	part of gradual training	MN107
-sense restraint (indriyasaṁvara)	part of gradual training	MN107
-eating in moderation	part of gradual training	MN107
+danger in slightest fault	gradual training, aspect of	MN107
+virtue (sīla)	gradual training, aspect of	MN107
+sense restraint (indriyasaṁvara)	gradual training, aspect of	MN107
+eating in moderation	gradual training, aspect of	MN107
 eating	reflection to be done before	MN107
-wakefulness (jāgara)	part of gradual training	MN107
-mindfulness (sati)	part of gradual training	MN107
-situational awareness (sampajañña)	part of gradual training	MN107
+wakefulness (jāgara)	gradual training, aspect of	MN107
+mindfulness (sati)	gradual training, aspect of	MN107
+situational awareness (sampajañña)	gradual training, aspect of	MN107
 gradual training (anupubbasikkhā)	in detail	MN107
-seclusion (paṭisallīna, vivitta)	part of gradual training	MN107
-wilderness (arañña)	part of gradual training	MN107
+seclusion (paṭisallīna, vivitta)	gradual training, aspect of	MN107
+wilderness (arañña)	gradual training, aspect of	MN107
 hindrances (nīvaraṇa)	removal of as part of gradual training	MN107
-jhānas	part of gradual training	MN107
+jhānas	gradual training, aspect of	MN107
 arahants	continue to practice meditation, mindfulness, situational awareness	MN107
 arahants	life after attainment	MN107
 disciples of the Buddha	do all attain enlightenment?	MN107
@@ -7214,9 +7220,9 @@ mountains	simile for ignorance blocking realization	MN125
 elephants	simile for gradual training	MN125
 elephant tracker (nāgavanika)	simile for gradual training	MN125
 gradual training (anupubbasikkhā)	in detail	MN125
-virtue (sīla)	part of gradual training	MN125
-sense doors, guarding (indriyesu guttadvāra)	part of gradual training	MN125
-foundations of mindfulness, four (satipaṭṭhāna)	part of gradual training	MN125
+virtue (sīla)	gradual training, aspect of	MN125
+sense doors, guarding (indriyesu guttadvāra)	gradual training, aspect of	MN125
+foundations of mindfulness, four (satipaṭṭhāna)	gradual training, aspect of	MN125
 foundations of mindfulness, four (satipaṭṭhāna)	like pillar grounded in the earth	MN125
 foundations of mindfulness, four (satipaṭṭhāna)	not thinking thoughts connected with sensual pleasures	MN125
 enduring (khama)	criticism	MN125
@@ -7265,7 +7271,7 @@ Nandiya, Ven.	living with Ven. Anuruddha and Kimbila	MN128
 Kimbila, Ven.	living with Ven. Anuruddha and Nandiya	MN128
 harmony (samagga)	example of	MN128
 monastic life	duties	MN128
-loving-kindness (mettā)	as principle of cordiality	MN128
+loving-kindness (mettā)	principle of cordiality 	MN128
 loving-kindness (mettā)	by body, speech, mind	MN128
 good friends	example of	MN128
 recollection of spiritual friends (kalyāṇamitta ānussati)	living in harmony	MN128
@@ -7637,15 +7643,15 @@ noble truth of suffering	analysis of	MN141
 noble truth of the origin of suffering	analysis of	MN141
 noble truth of the cessation of suffering	analysis of	MN141
 noble truth of the practice that leads to the cessation of suffering	analysis of	MN141
-birth (jāti)	as first noble truth	MN141
-old age (jarā)	as first noble truth	MN141
-death (maraṇa)	as first noble truth	MN141
-sorrow (soka)	as first noble truth	MN141
-lamentation (parideva)	as first noble truth	MN141
-suffering (dukkha)	as first noble truth	MN141
-sadness (domanassa)	as first noble truth	MN141
-distress (upāyāsa)	as first noble truth	MN141
-not getting what you wish for	as first noble truth	MN141
+birth (jāti)	noble truth	MN141
+old age (jarā)	noble truth	MN141
+death (maraṇa)	noble truth	MN141
+sorrow (soka)	noble truth	MN141
+lamentation (parideva)	noble truth	MN141
+suffering (dukkha)	noble truth	MN141
+sadness (domanassa)	noble truth	MN141
+distress (upāyāsa)	noble truth	MN141
+not getting what you wish for	noble truth	MN141
 birth (jāti)	definition	MN141
 aggregates (khandha)	definition of birth	MN141
 sense bases (āyatana)	definition of birth	MN141
@@ -8050,7 +8056,7 @@ promises	keeping	SN1.35
 asking forgiveness	example of	SN1.35
 forgiving	one who asks for forgiveness	SN1.35
 confession	accepting	SN1.35
-faith (saddhā)	as partner	SN1.36
+faith (saddhā)	partner	SN1.36
 pure abodes (suddhāvāsā)	gods of reciting verses	SN1.37
 charioteers	simile for mendicant guarding senses	SN1.37
 faculties, sense (indriya)	guarding, like charioteer	SN1.37
@@ -8421,8 +8427,8 @@ hatred (dosa)	harm	SN3.23
 delusion (moha)	harm	SN3.23
 giving (dāna)	qualities of recipient	SN3.24
 giving (dāna)	whom to give to	SN3.24
-warriors	choosing, simile for where to give	SN3.24
-archers	choosing, simile for where to give	SN3.24
+warriors	simile for where to give	SN3.24
+archers	simile for where to give	SN3.24
 hindrances (nīvaraṇa)	removal in one who receives gifts	SN3.24
 aggregate of virtue (sīlakkhandha)	in recipient of gift	SN3.24
 aggregate of wisdom (paññākkhandha)	in recipient of gift	SN3.24
@@ -8698,7 +8704,7 @@ wives	waking with kick	SN7.10
 daughters	supporting 	SN7.10
 monastic life	freedom of	SN7.10
 Kasibhāradvāja, brahmin	harassing the Buddha	SN7.11
-faith (saddhā)	as seed	SN7.11
+faith (saddhā)	like seed	SN7.11
 farming	as metaphor	SN7.11
 giving (dāna)	to the Buddha	SN7.11
 farmers (kassaka)	harassing the Buddha	SN7.11
@@ -8864,7 +8870,7 @@ yakkhas	asking questions	SN10.12
 Dhamma	brings happiness	SN10.12
 truth (sacca)	sweetest taste	SN10.12
 wisdom (paññā)	best life living by	SN10.12
-faith (saddhā)	as means of crossing flood	SN10.12
+faith (saddhā)	crossing flood, as means of	SN10.12
 truthfulness	as cause for good reputation	SN10.12
 reputation	gained by truthfulness	SN10.12
 wealth	gained by hard work	SN10.12
@@ -10263,7 +10269,7 @@ four noble truths pattern	identity (sakkāya)	SN22.103
 identity (sakkāya)	four noble truths pattern	SN22.103
 noble eightfold path (ariya aṭṭhangika magga)	end of identity (sakkāya)	SN22.103
 aggregates of clinging (pañcupādānakkhandhā)	suffering	SN22.104
-suffering (dukkha)	aggregates of clinging	SN22.104
+suffering (dukkha)	aggregates	SN22.104
 identity (sakkāya)	four noble truths pattern	SN22.105
 aggregates	should be completely understood	SN22.106
 stream-enterers (sotāpanna)	aggregates, truly understanding	SN22.109
@@ -11276,7 +11282,6 @@ sense pleasures (kāma, kāmaguṇa)	gold and money	SN42.10
 monastic rules	not accepting gold and money	SN42.10
 suffering (dukkha)	origin and ending	SN42.11
 Bhadraka, chief	asking about suffering	SN42.11
-suffering (dukkha)	present origin and ending	SN42.11
 death (maraṇa)	cause of grief	SN42.11
 desire (chanda)	cause of suffering	SN42.11
 desire (chanda)	root of suffering	SN42.11
@@ -13576,6 +13581,7 @@ Bodhisatta	as chariot-maker	AN3.15
 Pacetana, King	ordering a chariot	AN3.15
 sense doors, guarding (indriyesu guttadvāra)	definition	AN3.16
 eating in moderation	definition	AN3.16
+adornments	not eating for	AN3.16
 wakefulness (jāgara)	definition	AN3.16
 taints (āsava)	groundwork for ending	AN3.16
 wealth	shopkeeper increasing	AN3.19
@@ -13841,9 +13847,9 @@ confidence (aveccappasāda)	noble disciple with will not change	AN3.75
 noble disciple (ariya sāvaka)	will not be reborn in lower realms	AN3.75
 triple gem	qualities of	AN3.75
 becoming (bhava)	definition	AN3.76
-actions (kamma)	as field	AN3.76
-consciousness (viññāṇa)	as seed	AN3.76
-craving (taṇhā)	as moisture	AN3.76
+actions (kamma)	like field	AN3.76
+consciousness (viññāṇa)	like seed	AN3.76
+craving (taṇhā)	like moisture	AN3.76
 sensuous realm (kāmabhava)	becoming	AN3.76
 form realm (rūpabhava)	becoming	AN3.76
 formless realm (arūpabhava)	becoming	AN3.76
@@ -14022,7 +14028,7 @@ good monastics	like warrior	AN3.133
 assemblies	three	AN3.134
 friendship	qualities of a good friend	AN3.135
 impermanence	“All conditions are impermanent”	AN3.136
-suffering (dukkha)	“All conditions are suffering”	AN3.136
+suffering (dukkha)	all conditioned things are	AN3.136
 not-self	“All things are not-self”	AN3.136
 Makkhali, teacher	worst of all teachings, like hair blanket	AN3.137
 accomplishments	three types	AN3.138
@@ -14188,7 +14194,7 @@ merit (puñña)	immeasurable like water in ocean	AN4.51
 merit (puñña)	immeasurable amount	AN4.52
 requisites, four	donors collect merit when used by monastics	AN4.51
 confidence (aveccappasāda)	immeasurable amount of merit	AN4.52
-virtue (sīla)	the virtue loved by noble ones	AN4.52
+virtue (sīla)	loved by noble ones	AN4.52
 generosity (cāga)	as a quality of a good person	AN4.53
 zombie	simile for bad husband or wife	AN4.53
 marriage	partners with same or opposite qualities	AN4.53
@@ -14915,7 +14921,7 @@ giving (dāna)	food	AN5.37
 giving (dāna)	result of	AN5.37
 giving (dāna)	benefits to receiver and giver similar	AN5.37
 faith (saddhā)	benefits	AN5.38
-faith (saddhā)	leads to heaven	AN5.38
+faith (saddhā)	rebirth in heaven	AN5.38
 faith (saddhā)	like tree, person with	AN5.38
 trees	simile for person with faith	AN5.38
 parents	wanting children	AN5.39
@@ -15602,13 +15608,13 @@ wholesome chain of causality	inspiration to concentration	AN6.10
 principles of cordiality (dhammā sāraṇīyā)	definition	AN6.11
 harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	AN6.11
 monastic rules (vinaya)	principles of cordiality	AN6.11
-right view	as principle of cordiality	AN6.11
-loving-kindness (mettā)	as principle of cordiality	AN6.11
-loving-kindness (mettā)	as principle of cordiality	AN6.12
+right view	principle of cordiality 	AN6.11
+loving-kindness (mettā)	principle of cordiality 	AN6.11
+loving-kindness (mettā)	principle of cordiality 	AN6.12
 principles of cordiality (dhammā sāraṇīyā)	definition	AN6.12
 harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	AN6.12
 monastic rules (vinaya)	principles of cordiality	AN6.12
-right view	as principle of cordiality	AN6.12
+right view	principle of cordiality 	AN6.12
 loving-kindness (mettā)	liberation of mind by	AN6.13
 escape (nissaraṇa)	elements of	AN6.13
 heart’s release by loving-kindness (mettā cetovimutti) 	cause for giving up ill will	AN6.13
@@ -15768,7 +15774,7 @@ conceit of inferiority (omāna)	arahants do not have	AN6.49
 conceit of superiority (atimāna)	arahants do not have	AN6.49
 sense restraint (indriyasaṁvara)	as condition for virtue	AN6.50
 sense restraint (indriyasaṁvara)	eventually leads to knowledge and vision	AN6.50
-virtue (sīla)	as condition for right concentration	AN6.50
+virtue (sīla)	as leads to right concentration	AN6.50
 right concentration (sammā samādhi)	as condition for true knowledge and vision	AN6.50
 true knowledge and vision (yathābhūtañāṇadassana)	as condition for disillusionment and dispassion	AN6.50
 disillusionment and dispassion (nibbidāvirāga)	condition for knowledge and vision of freedom	AN6.50
@@ -15783,6 +15789,7 @@ khattiyas	what do they want	AN6.52
 brahmins	what do they want	AN6.52
 householders (gahapatika)	what do they want	AN6.52
 women	what do they want	AN6.52
+adornments	women interested in	AN6.52
 thieves (cora)	what do they want	AN6.52
 ascetics (samaṇa)	what do they want	AN6.52
 goals	of various groups of people	AN6.52
@@ -16277,6 +16284,7 @@ giving (dāna)	as an investment	AN7.52
 tradition (vaṁsa)	of giving	AN7.52
 giving (dāna)	to make the mind clear and joyful	AN7.52
 giving (dāna)	as an adornment for the mind	AN7.52
+adornments	giving as adornment for the mind	AN7.52
 giving (dāna)	result in heaven	AN7.52
 giving (dāna)	dedication to gods	AN7.53
 giving (dāna)	to Saṅgha	AN7.53
@@ -16392,7 +16400,7 @@ disillusionment and dispassion (nibbidāvirāga)	lack of prevents knowledge and 
 knowledge and vision of freedom (vimuttiñāṇadassana)	prevented by lack of disillusionment and dispassion	AN7.65
 conscience and prudence (hiri ottappa)	condition for sense restraint	AN7.65
 sense restraint (indriyasaṁvara)	condition for virtue	AN7.65
-virtue (sīla)	condition for right concentration	AN7.65
+virtue (sīla)	leads to right concentration	AN7.65
 right concentration (sammā samādhi)	condition for true knowledge and vision	AN7.65
 true knowledge and vision (yathābhūtañāṇadassana)	condition for disillusionment and dispassion	AN7.65
 disillusionment and dispassion (nibbidāvirāga)	condition for knowledge and vision of freedom	AN7.65
@@ -16810,6 +16818,7 @@ few wishes (appiccha)	definition	AN8.30
 rains residence (vassāvāsa)	Buddha directing Ven. Anuruddha to observe	AN8.30
 giving (dāna)	reasons for	AN8.31
 giving (dāna)	as an adornment for the mind	AN8.31
+adornments	giving as adornment for the mind	AN8.31
 giving (dāna)	expecting something in return	AN8.31
 giving (dāna)	how to give	AN8.31
 giving (dāna)	after insulting	AN8.31
@@ -17117,16 +17126,16 @@ Buddhas	death of causes earthquake	AN8.70
 Buddhas	surrendering life force causes earthquake	AN8.70
 wheel of Dhamma	Buddha starts rolling	AN8.70
 unsatisfied	should not be satisfied with partial attainment	AN8.71
-faith (saddhā)	not enough just to have	AN8.71
-virtue (sīla)	not enough just to have	AN8.71
+faith (saddhā)	insufficient	AN8.71
+virtue (sīla)	insufficient	AN8.71
 learned (bahussutā)	not enough just to be	AN8.71
 Dhamma teachers	not enough just to be	AN8.71
 assemblies	not enough just to frequent	AN8.71
-jhānas	not enough just to have	AN8.71
+jhānas	insufficient	AN8.71
 inspiration	qualities of one who is inspiring	AN8.71
-formless liberations	not enough just to have	AN8.72
-faith (saddhā)	not enough just to have	AN8.72
-virtue (sīla)	not enough just to have	AN8.72
+formless liberations	insufficient	AN8.72
+faith (saddhā)	insufficient	AN8.72
+virtue (sīla)	insufficient	AN8.72
 learned (bahussutā)	not enough just to be	AN8.72
 Dhamma teachers	not enough just to be	AN8.72
 assemblies	not enough just to frequent	AN8.72
@@ -17166,7 +17175,7 @@ conscience and prudence (hiri ottappa)	condition for sense restraint	AN8.81
 sense restraint (indriyasaṁvara)	conditioned by conscience and prudence	AN8.81
 sense restraint (indriyasaṁvara)	condition for ethical conduct	AN8.81
 virtue (sīla)	conditioned by sense restraint	AN8.81
-virtue (sīla)	condition for right concentration	AN8.81
+virtue (sīla)	leads to right concentration	AN8.81
 right concentration (sammā samādhi)	conditioned by virtue	AN8.81
 right concentration (sammā samādhi)	condition for true knowledge and vision	AN8.81
 true knowledge and vision (yathābhūtañāṇadassana)	conditioned by right concentration	AN8.81
@@ -17243,11 +17252,11 @@ loving-kindness (mettā)	to abandon ill-will	AN9.1
 wanderers of other sects (aññatitthiya paribbājaka)	asking questions	AN9.1
 questions, answering	from wanderers of other sects	AN9.1
 bodhipakkhiyā dhammā	conditions for development of	AN9.1
-spiritual friends (kalyāṇamitta)	condition for bodhipakkhiyā dhammā	AN9.1
-virtue (sīla)	condition for bodhipakkhiyā dhammā	AN9.1
-topics of discussion, good	condition for bodhipakkhiyā dhammā	AN9.1
-energetic (āraddhavīriya)	condition for bodhipakkhiyā dhammā	AN9.1
-wisdom (paññā)	condition for bodhipakkhiyā dhammā	AN9.1
+spiritual friends (kalyāṇamitta)	leads to bodhipakkhiyā dhammā	AN9.1
+virtue (sīla)	leads to bodhipakkhiyā dhammā	AN9.1
+topics of discussion, good	leads to bodhipakkhiyā dhammā	AN9.1
+energetic (āraddhavīriya)	leads to bodhipakkhiyā dhammā	AN9.1
+wisdom (paññā)	leads to bodhipakkhiyā dhammā	AN9.1
 perception of ugliness (asubhasaññā)	to give up greed	AN9.1
 loving-kindness (mettā)	to abandon hatred	AN9.1
 mindfulness of breathing (ānāpānassati)	to cut off thinking	AN9.1
@@ -17272,10 +17281,10 @@ talk (kathā)	getting to have good	AN9.3
 topics of discussion, good	getting to have	AN9.3
 Nandaka, Ven.	giving a talk while Buddha waited outside	AN9.4
 noble silence (ariya tuṇhībhāva)	when gathering together should either discuss Dhamma or maintain noble silence	AN9.4
-faith (saddhā)	not enough just to have	AN9.4
-virtue (sīla)	not enough just to have	AN9.4
-serenity of mind, heart (cetosamādhi)	not enough just to have	AN9.4
-higher wisdom of insight into phenomena (adhipaññādhammavipassanā)	not enough just to have	AN9.4
+faith (saddhā)	insufficient	AN9.4
+virtue (sīla)	insufficient	AN9.4
+serenity of mind, heart (cetosamādhi)	insufficient	AN9.4
+higher wisdom of insight into phenomena (adhipaññādhammavipassanā)	insufficient	AN9.4
 animals	four footed, simile for incomplete spiritual development	AN9.4
 listening to Dhamma	benefits	AN9.4
 listening to Dhamma	at the right time	AN9.4
@@ -17882,17 +17891,17 @@ this world (idhaloka)	perceptions and	AN10.6
 other world (paraloka)	perceptions and	AN10.6
 nibbāna	cessation of conditioned existence is	AN10.7
 unsatisfied	should not be satisfied with partial attainment	AN10.8
-faith (saddhā)	not enough just to have	AN10.8
-virtue (sīla)	not enough just to have	AN10.8
+faith (saddhā)	insufficient	AN10.8
+virtue (sīla)	insufficient	AN10.8
 learned (bahussutā)	not enough just to be	AN10.8
 Dhamma teachers	not enough just to be	AN10.8
 assemblies	not enough just to frequent	AN10.8
-jhānas	not enough just to have	AN10.8
+jhānas	insufficient	AN10.8
 expert in Vinaya (vinayadhara)	not enough just to be	AN10.8
 wilderness (arañña)	not enough just to live in	AN10.8
 inspiration	qualities of one who is inspiring	AN10.8
-formless attainments	not enough just to have	AN10.9
-knowledges, three (vijjā)	not enough just to have	AN10.10
+formless attainments	insufficient	AN10.9
+knowledges, three (vijjā)	insufficient	AN10.10
 dwellings (senāsana)	using to attain nibbāna	AN10.11
 faith (saddhā)	helpful for attaining nibbāna	AN10.11
 health	helpful for attaining nibbāna	AN10.11
@@ -18169,24 +18178,24 @@ body	cause for ten things	AN10.49
 principles of cordiality (dhammā sāraṇīyā)	definition	AN10.50
 disputes	preventing	AN10.50
 virtue (sīla)	prevents disputes	AN10.50
-virtue (sīla)	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+virtue (sīla)	principle of cordiality 	AN10.50
 learned (bahussutā)	prevents disputes	AN10.50
-learned (bahussutā)	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+learned (bahussutā)	principle of cordiality 	AN10.50
 friends, good	prevents disputes	AN10.50
-friends, good	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+friends, good	principle of cordiality 	AN10.50
 easy to admonish (suvaca)	prevents disputes	AN10.50
-easy to admonish (suvaca)	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+easy to admonish (suvaca)	principle of cordiality 	AN10.50
 work	monastics able to do skillfully	AN10.50
 love for the Dhamma (dhammakāma)	prevents disputes	AN10.50
-love for the Dhamma (dhammakāma)	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+love for the Dhamma (dhammakāma)	principle of cordiality 	AN10.50
 energetic (āraddhavīriya)	prevents disputes	AN10.50
-energetic (āraddhavīriya)	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+energetic (āraddhavīriya)	principle of cordiality 	AN10.50
 contentment (santuṭṭhi)	prevents disputes	AN10.50
-contentment (santuṭṭhi)	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+contentment (santuṭṭhi)	principle of cordiality 	AN10.50
 mindfulness (sati)	prevents disputes	AN10.50
-mindfulness (sati)	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+mindfulness (sati)	principle of cordiality 	AN10.50
 wisdom (paññā)	prevents disputes	AN10.50
-wisdom (paññā)	as principle of cordiality (dhammā sāraṇīyā)	AN10.50
+wisdom (paññā)	principle of cordiality 	AN10.50
 mind reading	skill in ones own mind	AN10.51
 self-reflection	to develop skillful qualities	AN10.51
 reviewing (paccavekkhaṇā)	to develop skillful qualities	AN10.51
@@ -18210,8 +18219,8 @@ unsatisfied	should not be satisfied with partial attainment	AN10.53
 skillful qualities (kusala dhamma)	not being satisfied with	AN10.53
 skillful qualities (kusala dhamma)	not stagnating in	AN10.53
 reviewing (paccavekkhaṇā)	to develop skillful qualities	AN10.53
-internal serenity of mind (ajjhattaṁ cetosamatha)	not enough just to have	AN10.54
-higher wisdom of insight into phenomena (adhipaññādhammavipassanā)	not enough just to have	AN10.54
+internal serenity of mind (ajjhattaṁ cetosamatha)	insufficient	AN10.54
+higher wisdom of insight into phenomena (adhipaññādhammavipassanā)	insufficient	AN10.54
 head on fire	simile for developing good qualities	AN10.54
 association (sevitabba)	whom to associate with	AN10.54
 association (sevitabba)	whom to not associate with	AN10.54
@@ -18551,7 +18560,7 @@ wisdom (paññā)	hindered by not wanting to listen and ask questions	AN10.73
 good qualities (saddhamma, dhammā)	hindered by lack of commitment and reviewing	AN10.73
 heaven (sagga)	hindered by wrong practice	AN10.73
 laziness (alasa, ālasya, anuṭṭhāna)	hinders wealth	AN10.73
-adornments	lack of hinders beauty	AN10.73
+adornments	beauty	AN10.73
 unsuitable activity (asappāyakiriyā)	hinders health	AN10.73
 friends, bad	hinders virtue	AN10.73
 sense restraint (indriyasaṁvara)	lack of hinders the monastic life	AN10.73
@@ -18571,7 +18580,6 @@ wisdom (paññā)	nourished by eagerness to listen and ask questions	AN10.73
 good qualities (saddhamma, dhammā)	nourished by commitment and reviewing	AN10.73
 heaven (sagga)	nourished by right practice	AN10.73
 initiative (uṭṭhāna)	nourishes wealth	AN10.73
-adornments	nourish beauty	AN10.73
 suitable activity (sappāyakiriyā)	nourishes health	AN10.73
 good friends	nourishes virtue	AN10.73
 sense restraint (indriyasaṁvara)	nourishes the monastic life	AN10.73
@@ -18587,7 +18595,7 @@ children	noble disciple grows nobly when they grow in	AN10.74
 bondservants (dāsa)	noble disciple grows nobly when they grow in	AN10.74
 employees	noble disciple grows nobly when they grow in	AN10.74
 livestock	noble disciple grows nobly when they grow in	AN10.74
-faith (saddhā)	noble disciple grows nobly when they grow in	AN10.74
+faith (saddhā)	noble disciple	AN10.74
 virtue (sīla)	noble disciple grows nobly when they grow in	AN10.74
 learned (bahussutā)	noble disciple grows nobly when they grow in	AN10.74
 generosity (cāga)	noble disciple grows nobly when they grow in	AN10.74
@@ -19217,7 +19225,7 @@ conduct (caraṇa, cariya)	quality of arahant	AN11.10
 khattiyas	first among people based on clan	AN11.10
 vijjācaraṇasampanno	first among gods and humans	AN11.10
 recollection of generosity (cāgānussati)	to be developed	AN11.11
-loving-kindness (mettā)	as principle of cordiality	AN11.11
+loving-kindness (mettā)	principle of cordiality 	AN11.11
 robes	monks making robe for Buddha	AN11.11
 rains residence (vassāvāsa)	Buddha wandering after	AN11.11
 lay life	what to practice	AN11.11
@@ -19243,7 +19251,7 @@ stream of Dhamma (dhammasota)	one who has entered	AN11.11
 recollection of virtue (sīlānussati)	suppresses greed, hate, delusion	AN11.11
 recollection of generosity (cāgānussati)	suppresses greed, hate, delusion	AN11.11
 recollection of deities (devatānussati)	suppresses greed, hate, delusion	AN11.11
-loving-kindness (mettā)	as principle of cordiality	AN11.12
+loving-kindness (mettā)	principle of cordiality 	AN11.12
 postures	recollections to be practiced in four	AN11.12
 recollection of Buddha (buddhānussati)	practiced in four postures	AN11.12
 recollection of Dhamma (dhammānussati)	practiced in four postures	AN11.12
@@ -20575,7 +20583,7 @@ association	with wicked	Snp1.3
 fetters (saṁyojana)	like fish in net	Snp1.3
 seclusion	praise of	Snp1.3
 brahmaviharas	freedom through	Snp1.3
-faith (saddhā)	as seed	Snp1.4
+faith (saddhā)	like seed	Snp1.4
 farming	as metaphor	Snp1.4
 Kasibhāradvāja, brahmin	harassing the Buddha	Snp1.4
 giving (dāna)	to the Buddha	Snp1.4
@@ -20620,7 +20628,7 @@ yakkhas	asking questions	Snp1.10
 Buddha, the	teaching yakkha	Snp1.10
 faith (saddhā)	wealth	Snp1.10
 truth (sacca)	as sweetest taste	Snp1.10
-faith (saddhā)	as means of crossing flood	Snp1.10
+faith (saddhā)	crossing flood, as means of	Snp1.10
 truthfulness	as cause for good reputation	Snp1.10
 reputation	gained by truthfulness	Snp1.10
 wealth	gained by hard work	Snp1.10
@@ -20827,7 +20835,7 @@ against the stream	Dhamma as	Snp3.12
 formless (arūpa)	more peaceful than form	Snp3.12
 happiness (sukha)	as suffering	Snp3.12
 sense pleasures (kāma, kāmaguṇa)	causing happiness and sadness	Snp4.1
-sense pleasures (kāma, kāmaguṇa)	to be avoided like snake head	Snp4.1
+sense pleasures (kāma, kāmaguṇa)	like snake head to be avoided	Snp4.1
 suffering (dukkha)	like leaky boat	Snp4.1
 boat, bailed out	simile for escaping saṁsāra	Snp4.1
 sense pleasures (kāma, kāmaguṇa)	of the past and future	Snp4.2
@@ -21202,7 +21210,7 @@ hands	Buddha is open-handed	Thag1.86
 aggregates (khandha)	remaining after enlightenment	Thag1.90
 Dhamma	as sweetest taste	Thag1.91
 food	attachment to	Thag1.92
-sense pleasures (kāma, kāmaguṇa)	suffering in	Thag1.93
+sense pleasures (kāma, kāmaguṇa)	suffering connected with	Thag1.93
 association	with wicked	Thag1.95
 offerings	small amount gives big results	Thag1.96
 bowls	giving up valuable	Thag1.97

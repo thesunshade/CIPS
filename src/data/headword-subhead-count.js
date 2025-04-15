@@ -9,7 +9,7 @@ export const headwordSubheadCount =[
      ],
      [
           "sense pleasures (kāma, kāmaguṇa)",
-          107
+          105
      ],
      [
           "jhānas",
@@ -24,16 +24,8 @@ export const headwordSubheadCount =[
           78
      ],
      [
-          "virtue (sīla)",
-          74
-     ],
-     [
           "wisdom (paññā)",
           74
-     ],
-     [
-          "faith (saddhā)",
-          73
      ],
      [
           "mind (citta)",
@@ -44,12 +36,16 @@ export const headwordSubheadCount =[
           73
      ],
      [
+          "virtue (sīla)",
+          73
+     ],
+     [
           "foundations of mindfulness, four (satipaṭṭhāna)",
           72
      ],
      [
-          "suffering (dukkha)",
-          69
+          "faith (saddhā)",
+          70
      ],
      [
           "death (maraṇa)",
@@ -65,6 +61,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Dhamma",
+          66
+     ],
+     [
+          "suffering (dukkha)",
           66
      ],
      [
@@ -1840,10 +1840,6 @@ export const headwordSubheadCount =[
           8
      ],
      [
-          "arrogance (thaddha)",
-          8
-     ],
-     [
           "attachments",
           8
      ],
@@ -2121,6 +2117,10 @@ export const headwordSubheadCount =[
      ],
      [
           "arahantship",
+          7
+     ],
+     [
+          "arrogance (thaddha)",
           7
      ],
      [
@@ -2836,6 +2836,10 @@ export const headwordSubheadCount =[
           5
      ],
      [
+          "adornments",
+          5
+     ],
+     [
           "advice (ovāda)",
           5
      ],
@@ -3373,10 +3377,6 @@ export const headwordSubheadCount =[
      ],
      [
           "accomplishment in wisdom (paññāsampadā)",
-          4
-     ],
-     [
-          "actions",
           4
      ],
      [
@@ -4193,6 +4193,10 @@ export const headwordSubheadCount =[
      ],
      [
           "accomplishment in mind (cittasampadā)",
+          3
+     ],
+     [
+          "actions",
           3
      ],
      [
@@ -5361,10 +5365,6 @@ export const headwordSubheadCount =[
      ],
      [
           "accomplishment in vision (dassanasampadā)",
-          2
-     ],
-     [
-          "adornments",
           2
      ],
      [
@@ -7069,6 +7069,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Saviṭṭha, Ven.",
+          2
+     ],
+     [
+          "scavenging",
           2
      ],
      [
@@ -11525,10 +11529,6 @@ export const headwordSubheadCount =[
      ],
      [
           "scales",
-          1
-     ],
-     [
-          "scavenging",
           1
      ],
      [
