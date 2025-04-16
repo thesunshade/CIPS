@@ -56,16 +56,16 @@ export const headwordSubheadCount =[
           67
      ],
      [
-          "Ānanda, Ven.",
-          66
-     ],
-     [
           "Dhamma",
           66
      ],
      [
           "suffering (dukkha)",
           66
+     ],
+     [
+          "Ānanda, Ven.",
+          65
      ],
      [
           "Sāriputta, Ven.",
@@ -92,11 +92,11 @@ export const headwordSubheadCount =[
           57
      ],
      [
-          "loving-kindness (mettā)",
-          56
+          "nibbāna",
+          57
      ],
      [
-          "nibbāna",
+          "loving-kindness (mettā)",
           56
      ],
      [
@@ -2100,6 +2100,10 @@ export const headwordSubheadCount =[
           8
      ],
      [
+          "advice",
+          7
+     ],
+     [
           "Ajātasattu",
           7
      ],
@@ -2421,10 +2425,6 @@ export const headwordSubheadCount =[
      ],
      [
           "accusations",
-          6
-     ],
-     [
-          "advice",
           6
      ],
      [
@@ -2844,7 +2844,11 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "air",
+          "aggression (sārambha)",
+          5
+     ],
+     [
+          "air (vāyo)",
           5
      ],
      [
@@ -3381,10 +3385,6 @@ export const headwordSubheadCount =[
      ],
      [
           "against the stream (paṭisota)",
-          4
-     ],
-     [
-          "aggression (sārambha)",
           4
      ],
      [
@@ -4137,6 +4137,10 @@ export const headwordSubheadCount =[
      ],
      [
           "views about the soul and body",
+          4
+     ],
+     [
+          "violence",
           4
      ],
      [
@@ -5276,10 +5280,6 @@ export const headwordSubheadCount =[
           3
      ],
      [
-          "violence",
-          3
-     ],
-     [
           "virtue, higher (adhisīla)",
           3
      ],
@@ -5389,6 +5389,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Ambapālī",
+          2
+     ],
+     [
+          "ambition",
           2
      ],
      [
@@ -7753,10 +7757,6 @@ export const headwordSubheadCount =[
      ],
      [
           "Ambaṭṭha, brahmin",
-          1
-     ],
-     [
-          "ambition",
           1
      ],
      [

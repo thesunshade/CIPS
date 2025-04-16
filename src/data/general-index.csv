@@ -3,12 +3,16 @@ dependent origination		xref wholesome chain of causality
 scavenging		xref alms gathering practice
 actions (kamma)		xref right action (sammā kammanta)
 actions (kamma)		xref unintentional actions (asañcetanika)
+aggression (sārambha)		xref violence
+violence		xref aggression (sārambha)
 adornments		xref youths
 adornments		xref precepts, ten
 adornments		xref precepts, eight
 abortion		xref pregnancy
 bulls (usabha)		xref elephants
 excess energy (accāraddhavīriya)		xref energy (vīriya)
+advice		xref admonishment
+admonishment		xref advice
 Buddhas		xref paccekabuddhas
 suffering (dukkha)		xref pain (dukkha)
 friends		xref association
@@ -4947,7 +4951,7 @@ beings (bhūta)	attachment to	MN49
 earth	attachment to	MN49
 water	attachment to	MN49
 fire	attachment to	MN49
-air	attachment to	MN49
+air (vāyo)	attachment to	MN49
 gods	attachment to	MN49
 Pajāpati	attachment to	MN49
 Gods of Streaming Radiance (ābhassarā devā)	Baka Brahmā’s birth in	MN49
@@ -5391,12 +5395,12 @@ meditation	like earth, water, fire, air, space	MN62
 earth	not horrified, repelled, disgusted because of unclean things	MN62
 water	not horrified, repelled, disgusted because of unclean things	MN62
 fire	not horrified, repelled, disgusted because of unclean things	MN62
-air	not horrified, repelled, disgusted because of unclean things	MN62
+air (vāyo)	not horrified, repelled, disgusted because of unclean things	MN62
 space (ākāsa)	not established anywhere	MN62
 earth	meditation like	MN62
 water	meditation like	MN62
 fire	meditation like	MN62
-air	meditation like	MN62
+air (vāyo)	meditation like	MN62
 space (ākāsa)	meditation like	MN62
 loving-kindness (mettā)	to abandon ill-will	MN62
 ill will, giving up	loving-kindness	MN62
@@ -14471,7 +14475,7 @@ mental illness	hard to find someone free from	AN4.157
 greed, many wishes (mahiccha)	as illness for monastics	AN4.157
 monastic life	for the sake of gain	AN4.157
 skillfulness (kusala)	growing	AN4.158
-Ānanda, Ven.	visits a bhikkhunī	AN4.159
+Ānanda, Ven.	visits bhikkhunīs	AN4.159
 craving (taṇhā)	using craving to remove craving	AN4.159
 almsfood	reflection on using	AN4.159
 conceit (māna)	using conceit to remove conceit	AN4.159
@@ -16643,6 +16647,7 @@ doctrine of inaction/non-doing (akiriyavādā)	Buddha accused of holding	AN8.12
 Nigaṇṭha Nāṭaputta	discouraging disciple from visiting Buddha	AN8.12
 annihilationism (ucchedavāda)	how Buddha teaches	AN8.12
 doctrine of inaction/non-doing (akiriyavādā)	how Buddha teaches	AN8.12
+ambition	how Buddha teaches	AN8.12
 comfort (assāsa)	Buddha offering highest	AN8.12
 conversion	Buddha urging caution for one considering converting	AN8.12
 Buddha, the	how he teaches	AN8.12
@@ -19182,7 +19187,7 @@ seen, heard, thought, known	not perceiving	AN11.7
 earth	perception of	AN11.7
 water	perception of	AN11.7
 fire	perception of	AN11.7
-air	perception of	AN11.7
+air (vāyo)	perception of	AN11.7
 dimension of infinite space (ākāsānañcāyatana)	perception of	AN11.7
 dimension of infinite consciousness (viññāṇañcāyatana)	perception of	AN11.7
 dimension of nothingness (ākiñcaññāyatana)	perception of	AN11.7
@@ -19201,7 +19206,7 @@ seen, heard, thought, known	meditating dependent on	AN11.9
 earth	meditating dependent on	AN11.9
 water	meditating dependent on	AN11.9
 fire	meditating dependent on	AN11.9
-air	meditating dependent on	AN11.9
+air (vāyo)	meditating dependent on	AN11.9
 dimension of infinite space (ākāsānañcāyatana)	meditating dependent on	AN11.9
 dimension of infinite consciousness (viññāṇañcāyatana)	meditating dependent on	AN11.9
 dimension of nothingness (ākiñcaññāyatana)	meditating dependent on	AN11.9
@@ -19412,7 +19417,7 @@ seen, heard, thought, known	not perceiving	AN11.18
 earth	perception of	AN11.18
 water	perception of	AN11.18
 fire	perception of	AN11.18
-air	perception of	AN11.18
+air (vāyo)	perception of	AN11.18
 dimension of infinite space (ākāsānañcāyatana)	perception of	AN11.18
 dimension of infinite consciousness (viññāṇañcāyatana)	perception of	AN11.18
 dimension of nothingness (ākiñcaññāyatana)	perception of	AN11.18
@@ -20834,6 +20839,7 @@ more peaceful	comparisons	Snp3.12
 against the stream	Dhamma as	Snp3.12
 formless (arūpa)	more peaceful than form	Snp3.12
 happiness (sukha)	as suffering	Snp3.12
+nibbāna	undeceptive nature	Snp3.12
 sense pleasures (kāma, kāmaguṇa)	causing happiness and sadness	Snp4.1
 sense pleasures (kāma, kāmaguṇa)	like snake head to be avoided	Snp4.1
 suffering (dukkha)	like leaky boat	Snp4.1
