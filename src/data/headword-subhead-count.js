@@ -21,7 +21,7 @@ export const headwordSubheadCount =[
      ],
      [
           "arahants",
-          78
+          76
      ],
      [
           "wisdom (paññā)",
@@ -332,10 +332,6 @@ export const headwordSubheadCount =[
           29
      ],
      [
-          "association",
-          28
-     ],
-     [
           "desire (chanda)",
           28
      ],
@@ -406,6 +402,10 @@ export const headwordSubheadCount =[
      [
           "water",
           26
+     ],
+     [
+          "association",
+          25
      ],
      [
           "conscience and prudence (hiri ottappa)",
@@ -772,6 +772,10 @@ export const headwordSubheadCount =[
           17
      ],
      [
+          "mortification (tapas)",
+          17
+     ],
+     [
           "practicing",
           17
      ],
@@ -825,10 +829,6 @@ export const headwordSubheadCount =[
      ],
      [
           "Mahā Kassapa, Ven.",
-          16
-     ],
-     [
-          "mortification (tapas)",
           16
      ],
      [
@@ -1116,10 +1116,6 @@ export const headwordSubheadCount =[
           12
      ],
      [
-          "association (sevitabba)",
-          12
-     ],
-     [
           "brahmās",
           12
      ],
@@ -1137,10 +1133,6 @@ export const headwordSubheadCount =[
      ],
      [
           "divine ear (dibbāsota)",
-          12
-     ],
-     [
-          "dwellings (senāsana)",
           12
      ],
      [
@@ -1229,6 +1221,10 @@ export const headwordSubheadCount =[
      ],
      [
           "development (bhāvanā)",
+          11
+     ],
+     [
+          "dwellings (senāsana)",
           11
      ],
      [
@@ -2128,7 +2124,7 @@ export const headwordSubheadCount =[
           7
      ],
      [
-          "ascetic practices",
+          "association (sevitabba)",
           7
      ],
      [
@@ -2852,6 +2848,10 @@ export const headwordSubheadCount =[
           5
      ],
      [
+          "ascetic practices",
+          5
+     ],
+     [
           "asking forgiveness",
           5
      ],
@@ -3405,6 +3405,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Aññā Koṇḍañña, Ven.",
+          4
+     ],
+     [
+          "ant-hill",
           4
      ],
      [
@@ -3993,6 +3997,10 @@ export const headwordSubheadCount =[
      ],
      [
           "self-knowledge (attaññū)",
+          4
+     ],
+     [
+          "self-mortification (attantapo)",
           4
      ],
      [
@@ -5048,10 +5056,6 @@ export const headwordSubheadCount =[
           3
      ],
      [
-          "self-mortification (attantapo)",
-          3
-     ],
-     [
           "self-reproach (attānuvāda)",
           3
      ],
@@ -5396,14 +5400,6 @@ export const headwordSubheadCount =[
           2
      ],
      [
-          "annihilationism",
-          2
-     ],
-     [
-          "ant-hill",
-          2
-     ],
-     [
           "anxiety (paritassanā)",
           2
      ],
@@ -5445,6 +5441,10 @@ export const headwordSubheadCount =[
      ],
      [
           "association (sampayoga)",
+          2
+     ],
+     [
+          "assurances (assāsa)",
           2
      ],
      [
@@ -7792,7 +7792,7 @@ export const headwordSubheadCount =[
           1
      ],
      [
-          "Anotatta lake",
+          "Anotatta, Lake",
           1
      ],
      [
@@ -7869,10 +7869,6 @@ export const headwordSubheadCount =[
      ],
      [
           "assuming bad things",
-          1
-     ],
-     [
-          "assurances, four (assāsa)",
           1
      ],
      [

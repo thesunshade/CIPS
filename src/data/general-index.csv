@@ -1194,7 +1194,7 @@ continued existence		xref becoming (bhava)
 enlightenment, stages of		xref stages of enlightenment
 Buddhas		xref Buddha, the
 Buddha, the		xref Buddhas
-consolations		xref assurances, four (assāsa)
+consolations		xref assurances (assāsa)
 discussion		xref Dhamma discussion
 ayoniso manasikāra		xref improper attention (ayoniso manasikāra)
 unwise attention		xref improper attention (ayoniso manasikāra)
@@ -3264,6 +3264,7 @@ friends, bad	types of fake friends	DN31:15.0
 friends, bad	recognizing	DN31:15.0
 flattery (anuppiyabhāṇin)	recognizing	DN31:15.0
 friends, good	recognizing	DN31:21.0
+ant-hill	like growing wealth	DN31:21.0
 secrets (guyhamanta)	and good friends	DN31:21.0
 friends, good	teaching Dhamma	DN31:21.0
 Dhamma teaching	good friends	DN31:21.0
@@ -4896,7 +4897,7 @@ bathing	as ritual	MN45
 bathing	refusing to	MN45
 dung	eating	MN45
 hell (niraya)	result of ascetic practices	MN45
-ascetic practices	leads to hell	MN45
+self-mortification (attantapo)	leads to hell	MN45
 intense lust (tibbarāga)	painful practice	MN45
 jhānas	pleasant practice, future pleasure	MN45
 desire (chanda)	for happiness	MN46
@@ -6931,9 +6932,16 @@ wrong view (micchā diṭṭhi)	should not be cultivated	MN114
 individuality (attabhāva)	what kinds should and should not be cultivated	MN114
 rebirth	what kinds should and should not be cultivated	MN114
 sense objects	what kinds should and should not be cultivated	MN114
-requisites, four	what kinds should and should not be cultivated	MN114
+association (sevitabba)	what kinds should and should not be cultivated	MN114
+association (sevitabba)	requisites	MN114
+association (sevitabba)	villages, countries	MN114
 dwellings (senāsana)	what kinds should and should not be cultivated	MN114
-association	what kinds should and should not be cultivated	MN114
+requisites, four	what kinds should and should not be cultivated	MN114
+almsfood	what kinds should and should not be cultivated	MN114
+robes	what kinds should and should not be cultivated	MN114
+villages (gāma)	what kinds should and should not be cultivated	MN114
+countries (janapadapadesa)	what kinds should and should not be cultivated	MN114
+people (puggala)	what kinds should and should not be cultivated	MN114
 dangers	all come from fools	MN115
 fools (bāla)	danger of like fire spreading	MN115
 fire	simile for danger of fools spreading	MN115
@@ -10128,7 +10136,7 @@ nibbāna	like level parkland	SN22.84
 Buddha, the	helping monk	SN22.84
 Yamaka, Ven.	arahant does not exist after death	SN22.85
 wrong views (diṭṭhigata)	annihilationism	SN22.85
-annihilationism	Ven. Sāriputta refutes	SN22.85
+annihilationism (ucchedavāda)	Ven. Sāriputta refutes	SN22.85
 Tathāgatas	not the aggregates	SN22.85
 Tathāgatas	not found in the present life	SN22.85
 present	Tathāgata not found in	SN22.85
@@ -10724,7 +10732,7 @@ noise	making noise around monks	SN35.132
 brahmins	not guarding senses	SN35.132
 brahmins	of the past	SN35.132
 sense doors, guarding (indriyesu guttadvāra)	all is vain for one who does not	SN35.132
-ascetic practices	to generate profits	SN35.132
+mortification (tapas)	to generate profits	SN35.132
 Brahmā	path to attain	SN35.132
 brahmin lady	of the Verahaccāni clan	SN35.133
 Udāyī, Ven.	not preaching to disrespectful person	SN35.133
@@ -10935,6 +10943,7 @@ kings	sound of harp, simile for aggregates	SN35.246
 sounds (sadda)	finding sound in harp, simile for aggregates	SN35.246
 kusa grass	simile for danger of villages	SN35.247
 snakes	simile for senses	SN35.247
+ant-hill	simile for sense bases	SN35.247
 crocodiles	simile for senses	SN35.247
 birds	simile for senses	SN35.247
 dogs	simile for senses	SN35.247
@@ -11993,7 +12002,7 @@ going forth (pabbajja)	new monks should train in four foundations of mindfulness
 foundations of mindfulness, four (satipaṭṭhāna)	new monks should train in	SN47.4
 foundations of mindfulness, four (satipaṭṭhāna)	know as they truly are	SN47.4
 trainee (sekha)	should train in four foundations of mindfulness	SN47.4
-arahants	meditate on four foundations of mindfulness	SN47.4
+arahants	meditation on four foundations of mindfulness	SN47.4
 advice	for new monastics	SN47.4
 hindrances (nīvaraṇa)	heap of the unskillful	SN47.5
 foundations of mindfulness, four (satipaṭṭhāna)	heap of the skillful	SN47.5
@@ -12801,6 +12810,7 @@ sick person	concern for relatives	SN55.54
 sickness	practicing while	SN55.54
 deathbed	concern for relatives	SN55.54
 deathbed	practice on	SN55.54
+assurances (assāsa)	on deathbed	SN55.55
 sense pleasures (kāma, kāmaguṇa)	clinging to at time of death	SN55.54
 sense pleasures (kāma, kāmaguṇa)	heavenly compared to human	SN55.54
 heavenly realms	ranked	SN55.54
@@ -13611,7 +13621,6 @@ temper	like an open sore	AN3.25
 advice	people who do not take well	AN3.25
 mind (citta)	like lightning	AN3.25
 mind (citta)	like diamond	AN3.25
-association	whom to not associate with	AN3.26
 association	whom to associate with	AN3.26
 Dhamma discussion	easy to talk to similar people	AN3.26
 association	with similar people/like elements	AN3.26
@@ -13778,7 +13787,7 @@ unwholesome roots (lobha, dosa, moha)	causes visible harm in a person	AN3.65
 blamed by the wise (viññugarahita)	qualities	AN3.65
 skillfulness and unskillfulness	seeing difference between	AN3.65
 praised by the wise (viññuppasattha)	qualities	AN3.65
-assurances, four (assāsa)	results of actions	AN3.65
+assurances (assāsa)	results of actions	AN3.65
 Nandaka, Ven.	evaluating teachings	AN3.66
 unwholesome roots (lobha, dosa, moha)	as real	AN3.66
 oral tradition (anussava)	going by	AN3.66
@@ -17327,20 +17336,15 @@ assemblies	fear of	AN9.5
 death (maraṇa)	fear of	AN9.5
 bad rebirth (duggati)	fear of	AN9.5
 laziness (kusīta)	fear of bad rebirth, disrepute, assemblies, death, fear for livelihood	AN9.5
-association (sevitabba)	whom to associate with	AN9.6
-association (sevitabba)	whom to not associate with	AN9.6
-association (sevitabba)	robes	AN9.6
-association (sevitabba)	almsfood	AN9.6
-association (sevitabba)	dwellings	AN9.6
-association (sevitabba)	villages	AN9.6
-association (sevitabba)	countries	AN9.6
-association (sevitabba)	people	AN9.6
-dwellings (senāsana)	to associate with	AN9.6
-almsfood	to associate with	AN9.6
-robes	to associate with	AN9.6
-villages (gāma)	to associate with	AN9.6
-countries (janapadapadesa)	to associate with	AN9.6
-people (puggala)	to associate with	AN9.6
+association (sevitabba)	what kinds should and should not be cultivated	AN9.6
+association (sevitabba)	requisites	AN9.6
+association (sevitabba)	villages, countries	AN9.6
+dwellings (senāsana)	what kinds should and should not be cultivated	AN9.6
+almsfood	what kinds should and should not be cultivated	AN9.6
+robes	what kinds should and should not be cultivated	AN9.6
+villages (gāma)	what kinds should and should not be cultivated	AN9.6
+countries (janapadapadesa)	what kinds should and should not be cultivated	AN9.6
+people (puggala)	what kinds should and should not be cultivated	AN9.6
 skillfulness and unskillfulness	developed through association	AN9.6
 association (sevitabba)	developing skillfulness	AN9.6
 requisites, four	not the reason to ordain	AN9.6
@@ -17367,8 +17371,6 @@ favouritism	arahants cannot make prejudiced decisions	AN9.8
 arahants	cannot do	AN9.8
 rejecting (paccakkhāti)	triple gem, arahant cannot	AN9.8
 rejecting (paccakkhāti)	training, arahant cannot	AN9.8
-arahants	cannot reject triple gem	AN9.8
-arahants	cannot reject training	AN9.8
 noble disciple (ariya sāvaka)	eight kinds of	AN9.9
 giving (dāna)	worthy of gifts	AN9.10
 clan member (gotrabhū)	worthy of gifts	AN9.10
@@ -18227,29 +18229,16 @@ reviewing (paccavekkhaṇā)	to develop skillful qualities	AN10.53
 internal serenity of mind (ajjhattaṁ cetosamatha)	insufficient	AN10.54
 higher wisdom of insight into phenomena (adhipaññādhammavipassanā)	insufficient	AN10.54
 head on fire	simile for developing good qualities	AN10.54
-association (sevitabba)	whom to associate with	AN10.54
-association (sevitabba)	whom to not associate with	AN10.54
-association (sevitabba)	robes	AN10.54
-association (sevitabba)	almsfood	AN10.54
-association (sevitabba)	dwellings	AN10.54
-association (sevitabba)	villages	AN10.54
-association (sevitabba)	countries	AN10.54
-association (sevitabba)	people	AN10.54
-dwellings (senāsana)	to associate with	AN10.54
-almsfood	to associate with	AN10.54
-robes	to associate with	AN10.54
-villages (gāma)	to associate with	AN10.54
-countries (janapadapadesa)	to associate with	AN10.54
-people (puggala)	to associate with	AN10.54
-skillfulness and unskillfulness	developed through association	AN10.54
-association (sevitabba)	developing skillfulness	AN10.54
-requisites, four	not the reason to ordain	AN10.54
-dwellings (senāsana)	helping to increase skillfulness	AN10.54
-almsfood	helping to increase skillfulness	AN10.54
-robes	helping to increase skillfulness	AN10.54
-villages (gāma)	helping to increase skillfulness	AN10.54
-countries (janapadapadesa)	helping to increase skillfulness	AN10.54
-people (puggala)	helping to increase skillfulness	AN10.54
+association (sevitabba)	what kinds should and should not be cultivated	AN10.54
+association (sevitabba)	requisites	AN10.54
+association (sevitabba)	villages, countries	AN10.54
+dwellings (senāsana)	what kinds should and should not be cultivated	AN10.54
+requisites, four	what kinds should and should not be cultivated	AN10.54
+almsfood	what kinds should and should not be cultivated	AN10.54
+robes	what kinds should and should not be cultivated	AN10.54
+villages (gāma)	what kinds should and should not be cultivated	AN10.54
+countries (janapadapadesa)	what kinds should and should not be cultivated	AN10.54
+people (puggala)	what kinds should and should not be cultivated	AN10.54
 decline (parihāna)	person liable to	AN10.55
 listening to Dhamma	not getting to leads to decline	AN10.55
 memorizing	not memorizing leads to decline	AN10.55
@@ -18325,8 +18314,8 @@ faith (saddhā)	lack of causes improper attention	AN10.61
 faith (saddhā)	lack of caused by listening to untrue teaching	AN10.61
 untrue teachings (asaddhamma)	causes lack of faith	AN10.61
 untrue teachings (asaddhamma)	caused by association with bad people	AN10.61
-association (saṁseva)	with bad people causes listening to untrue teachings	AN10.61
-association (saṁseva)	with bad people as the original cause of ignorance	AN10.61
+association (saṁseva)	with untrue persons causes listening to untrue teachings	AN10.61
+association (saṁseva)	with untrue persons as the original cause of ignorance	AN10.61
 rain	on mountain top, simile for cause of ignorance	AN10.61
 oceans	rain as the cause for, simile for cause of ignorance	AN10.61
 wholesome chain of causality	from association with good people to knowledge and freedom	AN10.61
@@ -18347,8 +18336,8 @@ faith (saddhā)	cause of proper attention	AN10.61
 faith (saddhā)	caused by listening to the true teachings	AN10.61
 listening to Dhamma	listening to true teachings leads to faith	AN10.61
 listening to Dhamma	caused by association with good people	AN10.61
-association (saṁseva)	with good people causes listening to true teachings	AN10.61
-association (saṁseva)	with good people as the original cause for knowledge and freedom	AN10.61
+association (saṁseva)	with true persons causes listening to true teachings	AN10.61
+association (saṁseva)	with true persons as the original cause for knowledge and freedom	AN10.61
 rain	on mountain top, simile for cause of knowledge and freedom	AN10.61
 oceans	rain as the cause for, simile for cause of knowledge and freedom	AN10.61
 unwholesome chain of causality	from association with bad people to ignorance	AN10.61
@@ -18369,8 +18358,8 @@ faith (saddhā)	lack of causes improper attention	AN10.62
 faith (saddhā)	lack of caused by listening to untrue teaching	AN10.62
 untrue teachings (asaddhamma)	causes lack of faith	AN10.62
 untrue teachings (asaddhamma)	caused by association with bad people	AN10.62
-association (saṁseva)	with bad people causes listening to untrue teachings	AN10.62
-association (saṁseva)	with bad people as the original cause of ignorance	AN10.62
+association (saṁseva)	with untrue persons causes listening to untrue teachings	AN10.62
+association (saṁseva)	with untrue persons as the original cause of ignorance	AN10.62
 rain	on mountain top, simile for cause of ignorance	AN10.62
 oceans	rain as the cause for, simile for cause of ignorance	AN10.62
 wholesome chain of causality	from association with good people to knowledge and freedom	AN10.62
@@ -18391,8 +18380,8 @@ faith (saddhā)	cause of proper attention	AN10.62
 faith (saddhā)	caused by listening to the true teachings	AN10.62
 listening to Dhamma	listening to true teachings leads to faith	AN10.62
 listening to Dhamma	caused by association with good people	AN10.62
-association (saṁseva)	with good people causes listening to true teachings	AN10.62
-association (saṁseva)	with good people as the original cause for knowledge and freedom	AN10.62
+association (saṁseva)	with true persons causes listening to true teachings	AN10.62
+association (saṁseva)	with true persons as the original cause for knowledge and freedom	AN10.62
 rain	on mountain top, simile for cause of knowledge and freedom	AN10.62
 oceans	rain as the cause for, simile for cause of knowledge and freedom	AN10.62
 unwholesome chain of causality	from association with bad people to craving	AN10.62
@@ -20695,14 +20684,14 @@ greed (rāga)	origin	Snp2.5
 hatred (dosa)	origin	Snp2.5
 sense pleasures (kāma, kāmaguṇa)	like camel’s foot creeper	Snp2.5
 monastic life	wrongly practiced	Snp2.6
-association	with the wise	Snp2.6
+association	with wise	Snp2.6
 brahmins	ancient traditions	Snp2.7
 celibacy	brahmins	Snp2.7
 sacrifices (yañña)	good and bad	Snp2.7
 honor	your Dhamma teacher	Snp2.8
 honor	your Dhamma teacher	Snp2.9
 Dhamma teaching	when not ready	Snp2.8
-association	with the wise	Snp2.8
+association	with wise	Snp2.8
 Dhamma teachers	like boat	Snp2.8
 listening to Dhamma	to reach highest goal	Snp2.9
 Dhamma	delight in	Snp2.9
@@ -21161,7 +21150,7 @@ merit (puñña)	small amounts give big results	Pv48
 wealthy people	not giving	Pv50
 ghosts	with hammers	Pv51
 Buddha, the	excellence is like fire blazing	Thag1.3
-association	with the wise	Thag1.4
+association	with wise	Thag1.4
 Māra	army of, pushed away like flood	Thag1.7
 nature	as pleasing	Thag1.13
 arahants	days pass peacefully	Thag1.16
@@ -21332,7 +21321,7 @@ conceit of superiority (atimāna)	overcoming	Thag6.9
 respect (gārava)	not giving	Thag6.9
 conceit of inferiority (omāna)	overcoming	Thag6.9
 child arahants	examples of	Thag6.10
-Anotatta lake	gathering water from	Thag6.10
+Anotatta, Lake	gathering water from	Thag6.10
 humility	not wanting others to know attainments	Thag6.10
 sickness	practicing while	Thag6.11
 simile of the saw	to endure abuse	Thag6.12
