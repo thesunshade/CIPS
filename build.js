@@ -299,15 +299,251 @@ function createIndexObject(indexArray) {
     }
   })();
 
-  // (async () => {
-  //   try {
-  //     const moduleLatex = await import("./src/functions/createSuttaIndexLatex.js");
-  //     const createSuttaIndexLatex = moduleLatex.default; // Access the default export
-  //     createSuttaIndexLatex(indexObject);
-  //   } catch (err) {
-  //     console.error("Error loading module Latex:", err);
-  //   }
-  // })();
+  function flattenTopLevel(topLevelObject) {
+    const flattened = {};
+
+    // Check if input is an object
+    if (typeof topLevelObject !== "object" || topLevelObject === null || Array.isArray(topLevelObject)) {
+      throw new Error("Input must be an object with key/value pairs");
+    }
+
+    // Process each key in the top-level object
+    Object.entries(topLevelObject).forEach(([key, value]) => {
+      // Check if the value is an object
+      if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+        // Merge the nested object properties into the flattened result
+        Object.entries(value).forEach(([nestedKey, nestedValue]) => {
+          // Handle potential key collisions by prefixing with the parent key
+          if (flattened.hasOwnProperty(nestedKey)) {
+            flattened[`${key}_${nestedKey}`] = nestedValue;
+          } else {
+            flattened[nestedKey] = nestedValue;
+          }
+        });
+      } else {
+        // Keep non-object values as is
+        flattened[key] = value;
+      }
+    });
+
+    return flattened;
+  }
+
+  function findSharedLocators(data) {
+    const result = {};
+
+    // Process each headword
+    Object.entries(data).forEach(([headword, subheads]) => {
+      const locatorMap = {};
+      let hasSharedLocators = false;
+
+      // Process each subhead
+      Object.entries(subheads).forEach(([subhead, content]) => {
+        // Skip empty subheads or those without locators
+        if (!subhead || !content.locators || content.locators.length === 0) {
+          return;
+        }
+
+        // Add each locator to the map
+        content.locators.forEach(locator => {
+          if (!locatorMap[locator]) {
+            locatorMap[locator] = [];
+          }
+          locatorMap[locator].push(subhead);
+        });
+      });
+
+      // Filter for locators with multiple subheads
+      const sharedLocators = {};
+      Object.entries(locatorMap).forEach(([locator, subheadList]) => {
+        if (subheadList.length > 1) {
+          sharedLocators[locator] = subheadList;
+          hasSharedLocators = true;
+        }
+      });
+
+      // Add to result if headword has any shared locators
+      if (hasSharedLocators) {
+        result[headword] = sharedLocators;
+      }
+    });
+
+    return result;
+  }
+
+  function generateSharedLocatorsTable(sharedLocatorsData) {
+    // First, build the HTML table structure
+    let html = `
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-table.png">
+  <title>Locators sharing subheads by headword</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 800px;
+      margin-bottom: 20px;
+    }
+    
+    th, td {
+      border: 2px solid #ddd;
+      padding: 6px;
+      text-align: left;
+      vertical-align: top;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    
+    .headword-cell {
+      position: sticky;
+      top: 0;
+      background-color: #f9f9f9;
+      z-index: 1;
+      font-weight: bold;
+      width: 200px;
+      border: 2px solid #ddd;
+      /* Ensure borders are visible in sticky position */
+      box-shadow: 0 -2px 0 #ddd, 0 2px 0 #ddd;
+    }
+    
+    .locator-cell {
+      /*min-width: 120px;*/
+    }
+    
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    
+    li {
+      margin-bottom: 4px;
+      list-style-type: "– ";
+    }
+    
+    li:last-child {
+      margin-bottom: 0;
+    }
+      /* Mobile responsiveness */
+    @media screen and (max-width: 768px) {
+      table {
+        width: 100%;
+        font-size: 14px;
+      }
+      
+      th, td {
+        padding: 8px;
+      }
+      
+      .locator-cell {
+        min-width: 80px;
+      }
+      
+      /* Force table to not be like a table on mobile */
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      
+      /* Hide table headers */
+      thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+      
+      tr {
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        position: relative;
+      }
+      
+      td {
+        /* Make each cell behave like a row */
+        border: none;
+        border-bottom: 1px solid #eee;
+        padding: 8px;
+      }
+      
+      /* Special handling for headword cells */
+      .headword-cell {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: #f0f0f0;
+        font-size: 16px;
+        border-bottom: 2px solid #aaa;
+        font-weight: bold;
+        padding: 10px 8px;
+      }
+      
+      /* Adjust list spacing on mobile */
+      ul {
+        padding-left: 20px;
+        margin: 5px 0;
+      }
+    }
+  </style>
+  </head>
+  <body>
+  <table>
+    <thead>
+      <tr>
+        <th>Headword</th>
+        <th>Locator</th>
+        <th>Subheads</th>
+      </tr>
+    </thead>
+    <tbody>
+  `;
+
+    // Process the data to build table rows
+    Object.entries(sharedLocatorsData).forEach(([headword, locators]) => {
+      const locatorEntries = Object.entries(locators);
+      const rowspan = locatorEntries.length;
+
+      locatorEntries.forEach(([locator, subheads], index) => {
+        html += "<tr>";
+
+        // Add headword cell with rowspan only on first row
+        if (index === 0) {
+          html += `<td class="headword-cell" rowspan="${rowspan}">${headword}</td>`;
+        }
+
+        // Add locator
+        html += `<td class="locator-cell"><a href="https://suttacentral.net/${locator}/en/sujato" rel="noreferrer" target="_blank">${locator}</a></td>`;
+
+        // Add subheads as unordered list
+        html += "<td><ul>";
+        subheads.forEach(subhead => {
+          html += `<li>${subhead}</li>`;
+        });
+        html += "</ul></td>";
+
+        html += "</tr>";
+      });
+    });
+
+    // Close the table and HTML structure
+    html += `
+    </tbody>
+  </table>
+  </body>
+  </html>
+  `;
+
+    return html;
+  }
+
+  const htmlTableOfSharedLocators = generateSharedLocatorsTable(findSharedLocators(flattenTopLevel(indexObject)));
+
+  save("public/SharedLocatorsTable.html", htmlTableOfSharedLocators, "🌐");
 }
 
 function createHeadingsArray(indexArray) {

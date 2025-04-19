@@ -115,6 +115,10 @@ export const infoArea = `
             <a href="https://index.readingfaithfully.org/locatorSortedTable.html" rel="noreferrer" target="_blank">
               Table of suttas</a> with headwords and sub-heads.
           </p>
+          <p>
+            <a href="https://index.readingfaithfully.org/SharedLocatorsTable.html" rel="noreferrer" target="_blank">
+              Table of locator shared subheads by headword</a>.
+          </p>
         </div>
       </details>
 `;
