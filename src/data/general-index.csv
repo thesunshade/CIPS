@@ -1,5 +1,7 @@
 dependent origination		xref unwholesome chain of causality
 dependent origination		xref wholesome chain of causality
+awakening (sambodha)		xref nibbāna
+nibbāna		xref awakening (sambodha)
 scavenging		xref alms gathering practice
 actions (kamma)		xref right action (sammā kammanta)
 actions (kamma)		xref unintentional actions (asañcetanika)
@@ -951,7 +953,7 @@ factors of stream-entry (sotāpattiyaṅga)		xref stream-enterers (sotāpanna)
 zeal (chanda)		xref desire (chanda)
 demons (yakkha)		xref yakkhas
 claiming enlightenment		xref declaring enlightenment
-attainments		xref declaring enlightenment
+attainments (samāpatti)		xref declaring enlightenment
 declaring enlightenment		xref false spiritual claims
 false spiritual claims		xref declaring enlightenment
 wrong view (micchā diṭṭhi)		xref wrong views
@@ -3986,7 +3988,7 @@ stinginess (maccharī)	difficult to admonish	MN15
 deviousness (saṭha)	difficult to admonish	MN15
 deceit (kuhaka/māyāvī)	difficult to admonish	MN15
 obstinacy (thambha)	difficult to admonish	MN15
-attachment to views (diṭṭhiyoga)	difficult to admonish	MN15
+attachment to views (diṭṭhiyoga)	admonishment	MN15
 easy to admonish (suvaca)	qualities of one who is	MN15
 self-reflection	comparing to others	MN15
 self-reflection	bad qualities	MN15
@@ -4909,10 +4911,8 @@ observances (samādāna)	for ways of, painful/pleasant	MN46
 results of actions	rebirth	MN46
 pain (dukkha)	actions done in pain and sadness	MN46
 observances (samādāna)	done in pain and sadness	MN46
-bad actions	done in pain and sadness	MN46
-bad actions	done with pleasure and happiness	MN46
-good actions	done in pain and sadness	MN46
-good actions	done with pleasure and happiness	MN46
+bad actions	doing in pain and sadness/with pleasure and happiness	MN46
+good actions	doing in pain and sadness/with pleasure and happiness	MN46
 beverages	poisoned/healthy, delicious/disgusting; simile for actions	MN46
 bad actions	like beverages	MN46
 good actions	like beverages	MN46
@@ -5289,7 +5289,7 @@ speech	types of	MN58
 speech	displeasing	MN58
 Devadatta	Buddha criticizing	MN58
 throat	something stuck in, simile for scolding	MN58
-babies	something stuck in throat, simile for scolding	MN58
+babies	simile for scolding, something stuck in throat	MN58
 speech	true	MN58
 speech	harmful	MN58
 speech	pleasing	MN58
@@ -6053,7 +6053,7 @@ sun (sūriya)	outshining the moon	MN80
 gods	outshining the sun	MN80
 sense pleasures (kāma, kāmaguṇa)	best kind of	MN80
 false spiritual claims	of enlightenment	MN80
-babies	released from swaddling, simile for enlightenment	MN80
+babies	simile for enlightenment, released from swaddling 	MN80
 enlightenment	like baby released from swaddling	MN80
 Ghaṭīkāra, householder	chief supporter of Buddha Kassapa	MN81
 Buddha, the	smiling	MN81
@@ -6600,7 +6600,7 @@ monastic rules (vinaya)	when someone breaks	MN103
 admonishment	how to do skillfully	MN103
 good monastics	easy to admonish	MN103
 bad monastics	difficult to admonish	MN103
-attachment to views (diṭṭhiyoga)	and admonishment	MN103
+attachment to views (diṭṭhiyoga)	admonishment	MN103
 skillfulness (kusala)	helping someone to develop	MN103
 unskillfulness (akusala)	helping someone to remove	MN103
 equanimity (upekkhā)	when someone cannot be admonished	MN103
@@ -6948,7 +6948,6 @@ fire	simile for danger of fools spreading	MN115
 houses	simile for danger of fools spreading like fire	MN115
 fools (bāla)	dangers, perils, hazards come from	MN115
 fools (bāla)	cause danger like fire spreading	MN115
-astute person (paṇḍita)	danger does not come from	MN115
 astute person (paṇḍita)	definition	MN115
 elements (dhātu)	eighteen (internal and external bases and consciousness of)	MN115
 consciousness (viññāṇa)	as element	MN115
@@ -6981,10 +6980,8 @@ Brahmā	impossible for woman to be	MN115
 Māra	impossible for woman to be	MN115
 Sakka, Lord of Gods	impossible for woman to be	MN115
 results of actions	impossible for good results to come from bad	MN115
-bad actions	impossible for good results to come from	MN115
-good actions	impossible for bad results to come from	MN115
-bad actions	impossible to lead to good destination	MN115
-good actions	impossible to lead to bad destination	MN115
+bad actions	resulting in good result/destination impossible	MN115
+good actions	resulting in bad result/destination impossible	MN115
 Vebhāra, mountain	name changing	MN116
 Paṇḍava, mountain	name changing	MN116
 Vepulla, mountain	name changing	MN116
@@ -7021,18 +7018,6 @@ doctrine of inaction/non-doing (akiriyavādā)	teachers of	MN117
 doctrine of nihilism (natthikavāda)	teachers of	MN117
 uposatha	sermon given on	MN118
 Komudi full moon	rainy season	MN118
-foundations of mindfulness, four (satipaṭṭhāna)	monks committed to developing	MN118
-right effort (sammā vāyāma)	monks committed to developing	MN118
-bases of psychic power (iddhipāda)	monks committed to developing	MN118
-faculties, spiritual (indriya)	monks committed to developing	MN118
-powers (bala)	monks committed to developing	MN118
-awakening factors, seven (bojjhaṅga)	monks committed to developing	MN118
-noble eightfold path (ariya aṭṭhangika magga)	monks committed to developing	MN118
-loving-kindness (mettā)	monks committed to developing	MN118
-compassion (karuṇā)	monks committed to developing	MN118
-meditation on ugliness (asubhabhāvanā)	monks committed to developing	MN118
-impermanence meditation (aniccasaññābhāvanā)	monks committed to developing	MN118
-mindfulness of breathing (ānāpānassati)	monks committed to developing	MN118
 mindfulness of breathing (ānāpānassati)	instructions	MN118
 mindfulness of breathing (ānāpānassati)	fulfils the four foundations of mindfulness meditation	MN118
 foundations of mindfulness, four (satipaṭṭhāna)	fulfils the seven awakening factors	MN118
@@ -7314,7 +7299,6 @@ jhānas	knowledge and vision	MN128
 knowledge and vision (ñāṇadassana)	jhāna	MN128
 concentration (samādhi)	problems maintaining	MN128
 fools (bāla)	characteristics	MN129
-astute person (paṇḍita)	knows a fool	MN129
 fools (bāla)	suffering of	MN129
 fools (bāla)	regret	MN129
 fools (bāla)	fear of punishment	MN129
@@ -7342,10 +7326,7 @@ fools (bāla)	reborn in low families	MN129
 fools (bāla)	reborn in difficult human life	MN129
 gamblers	simile for rebirth in good and bad destinations	MN129
 dice	simile of good and bad luck at dice is trivial thing compared to heaven and hell	MN129
-astute person (paṇḍita)	characteristics	MN129
-astute person (paṇḍita)	can recognize another	MN129
-astute person (paṇḍita)	no regret	MN129
-astute person (paṇḍita)	no fear of punishment	MN129
+astute person (paṇḍita)	definition	MN129
 heaven (sagga)	description of	MN129
 wheel-turning monarchs	simile for pleasures in heaven	MN129
 wheel-turning monarchs	description of	MN129
@@ -8990,12 +8971,8 @@ anger (kodha)	anger eating yakkha	SN11.22
 yakkhas	eating anger	SN11.22
 humility	Sakka	SN11.22
 anger (kodha)	removing	SN11.22
-fools (bāla)	two kinds	SN11.24
-fools (bāla)	not recognizing mistake	SN11.24
-fools (bāla)	not accepting confession	SN11.24
-astute person (paṇḍita)	not recognizing mistake	SN11.24
-astute person (paṇḍita)	not accepting confession	SN11.24
-astute person (paṇḍita)	two kinds	SN11.24
+fools (bāla)	not recognizing mistake, accepting confession	SN11.24
+astute person (paṇḍita)	recognizing mistake, accepting confession	SN11.24
 anger (kodha)	like mountain crushing bad people	SN11.24
 mountains	simile for anger crushing bad people	SN11.24
 noble ones (ariya)	kindness, harmlessness	SN11.25
@@ -10442,7 +10419,7 @@ uposatha	nāgas observing	SN29.5
 nāgas	observing uposatha	SN29.6
 uposatha	nāgas observing	SN29.6
 nāgas	cause for rebirth as	SN29.7
-bad actions	cause for rebirth as nāga	SN29.7
+bad actions	result in rebirth as nāga	SN29.7
 good actions	cause for rebirth as nāga	SN29.7
 rebirth	by choice/aspiration	SN29.7
 giving (dāna)	to gain rebirth	SN29.11-20
@@ -10452,8 +10429,8 @@ supaṇṇas	birth of	SN30.1
 supaṇṇas	birth of	SN30.2
 supaṇṇas	carrying off nāgas	SN30.2
 supaṇṇas	cause for rebirth as	SN30.3
-bad actions	cause for rebirth as supaṇṇa	SN30.3
-good actions	cause for rebirth as supaṇṇa	SN30.3
+bad actions	result in rebirth as supaṇṇa	SN30.3
+good actions	result in rebirth as supaṇṇa	SN30.3
 rebirth	by choice/aspiration	SN30.3
 supaṇṇas	cause for rebirth as	SN30.4-6
 bad actions	cause for rebirth as supaṇṇa	SN30.4-6
@@ -11698,7 +11675,7 @@ sleepiness	cause for dullness and drowsiness	SN46.2
 restlessness and remorse (uddhaccakukkucca)	cause	SN46.2
 agitation (avūpasama)	cause for restlessness and remorse	SN46.2
 doubt (vicikicchā)	cause	SN46.2
-awakening factors, seven (bojjhaṅga)	cause	SN46.2
+awakening factors, seven (bojjhaṅga)	caused by	SN46.2
 awakening factor of mindfulness (satisambojjhaṅga)	cause	SN46.2
 awakening factor of investigation of principles (dhammavicayasambojjhaṅga)	cause	SN46.2
 awakening factor of energy (vīriyasambojjhaṅga)	cause	SN46.2
@@ -11717,17 +11694,11 @@ final knowledge (aññā)	awakening factors	SN46.3
 deathbed	enlightenment on	SN46.3
 extinguished in-between (antarāparinibbāyī)	awakening factors	SN46.3
 awakening factors, seven (bojjhaṅga)	final knowledge (aññā)	SN46.3
-awakening factors, seven (bojjhaṅga)	extinguished in-between	SN46.3
 extinguished upon landing (upahaccaparinibbāyī)	awakening factors	SN46.3
-awakening factors, seven (bojjhaṅga)	extinguished upon landing	SN46.3
 extinguished without extra effort (asaṅkhāraparinibbāyī)	awakening factors	SN46.3
-awakening factors, seven (bojjhaṅga)	extinguished without extra effort	SN46.3
 extinguished with extra effort (sasaṅkhāraparinibbāyī)	awakening factors	SN46.3
-awakening factors, seven (bojjhaṅga)	extinguished with extra effort	SN46.3
 heading upstream to the Akaniṭṭha realm (uddhaṁsotassa akaniṭṭhagāmino)	awakening factors, seven	SN46.3
-awakening factors, seven (bojjhaṅga)	heading upstream to the Akaniṭṭha realm	SN46.3
 Sāriputta, Ven.	awakening factors, seven	SN46.4
-awakening factors, seven (bojjhaṅga)	Ven. Sāriputta’s practice	SN46.4
 Sāriputta, Ven.	meditation practice	SN46.4
 clothes	simile for changing meditation practices	SN46.4
 awakening factors, seven (bojjhaṅga)	definition	SN46.5
@@ -11752,7 +11723,6 @@ awakening factors, seven (bojjhaṅga)	self-knowledge of	SN46.8
 self-reflection	awakening factors	SN46.8
 awakening factors, seven (bojjhaṅga)	only when Buddha arises	SN46.9
 Buddhas	awakening factors only arise when Buddha appears	SN46.9
-awakening factors, seven (bojjhaṅga)	does not arise apart from the Blessed One’s Vinaya	SN46.10
 awakening factors, seven (bojjhaṅga)	only when Buddha arises	SN46.10
 virtue (sīla)	grounded on one develops seven awakening factors	SN46.11
 earth, the	simile for virtue as ground	SN46.11
@@ -11767,13 +11737,13 @@ sunrise	follows dawn, simile for one with proper attention	SN46.13
 awakening factors, seven (bojjhaṅga)	proper attention	SN46.13
 protective chanting (paritta)	awakening factors	SN46.14
 Mahā Kassapa, Ven.	awakening factors when ill	SN46.14
-awakening factors, seven (bojjhaṅga)	chanted when Ven. Mahākassapa was ill	SN46.14
+awakening factors, seven (bojjhaṅga)	chanted for the sick	SN46.14
 protective chanting (paritta)	awakening factors	SN46.15
 Moggallāna, Ven.	awakening factors when ill	SN46.15
-awakening factors, seven (bojjhaṅga)	chanted when Ven. Moggallāna was ill	SN46.15
+awakening factors, seven (bojjhaṅga)	chanted for the sick	SN46.15
 protective chanting (paritta)	awakening factors	SN46.16
 Buddha, the	awakening factors when ill	SN46.16
-awakening factors, seven (bojjhaṅga)	chanted when the Buddha was ill	SN46.16
+awakening factors, seven (bojjhaṅga)	chanted for the sick	SN46.16
 Buddha, the	illness of	SN46.16
 Mahā Cunda, Ven.	chanting awakening factors to the Buddha	SN46.16
 far shore (pārima)	awakening factors to reach	SN46.17
@@ -11851,7 +11821,7 @@ sleepiness	cause for dullness and drowsiness	SN46.51
 restlessness and remorse (uddhaccakukkucca)	cause	SN46.51
 agitation (avūpasama)	cause for restlessness and remorse	SN46.51
 doubt (vicikicchā)	cause	SN46.51
-awakening factors, seven (bojjhaṅga)	cause	SN46.51
+awakening factors, seven (bojjhaṅga)	caused by	SN46.51
 awakening factor of mindfulness (satisambojjhaṅga)	cause	SN46.51
 awakening factor of investigation of principles (dhammavicayasambojjhaṅga)	cause	SN46.51
 awakening factor of energy (vīriyasambojjhaṅga)	cause	SN46.51
@@ -13319,7 +13289,7 @@ finger-snap	rebirth not approved for even a fingersnap	AN1.329
 punishment (daṇḍa)	as motivation to do good	AN2.1
 hell (niraya)	as motivation to do good	AN2.1
 lay life	duty to support Saṅgha	AN2.2
-attachments	difficulty of letting go of	AN2.2
+acquisitions (upadhi)	difficulty of letting go of	AN2.2
 self-reflection	mortifying	AN2.3
 self-reflection	not mortifying	AN2.4
 determination	not to move until enlightened	AN2.5
@@ -13406,7 +13376,7 @@ followers of other paths (aññatitthiya)	lost without the Dhamma	AN2.36
 Sāriputta, Ven.	fetters, teaching about	AN2.36
 “Namo tassa bhagavato…”	brahmin Ārāmadaṇḍa	AN2.37
 Mahā Kaccāna, Ven.	cause of fighting	AN2.37
-attachment to views (diṭṭhiyoga)	causing fights	AN2.37
+attachment to views (diṭṭhiyoga)	cause of disputes	AN2.37
 disputes	over views	AN2.37
 attachment to sensual pleasures (kāmayoga)	causing fights	AN2.37
 sense pleasures (kāma, kāmaguṇa)	causing fights	AN2.37
@@ -15577,7 +15547,7 @@ association	with similar people/like elements	AN5.249
 confidence (pasāda)	danger when placed in an individual	AN5.250
 ordination (upasampadā)	who is qualified to ordain someone	AN5.251
 dependence (nissaya)	who is qualified to give	AN5.252
-attendant	who should have	AN5.253
+attendants	who should have	AN5.253
 stinginess (maccharī)	types	AN5.254
 stinginess (maccharī)	worst kind is of teachings	AN5.254
 stinginess (maccharī)	giving up	AN5.255
@@ -18969,7 +18939,7 @@ precepts, five	breaking gives bad result in present and future lives	AN10.167
 wrong action (micchā kammanta)	bad result in present and future lives	AN10.167
 wrong speech (micchā vācā)	bad result in present and future lives	AN10.167
 wrong intention (micchā saṅkappa)	bad result in present and future lives	AN10.167
-bad actions	bad result in present and future lives	AN10.167
+bad actions	result in present and future lives	AN10.167
 near shore (orima)	definition	AN10.169
 far shore (pārima)	definition	AN10.169
 wrong action (micchā kammanta)	far shore	AN10.169
@@ -19849,7 +19819,7 @@ association	with loved and unloved	Dhp210
 love (piya)	 	CUSTOM:Dhp:Dhp Chapter 16:suttacentral.net/dhp209-220/en/sujato
 loved ones	clinging to	Dhp211
 loved ones	clinging to	Dhp212
-attachments	as source of sorrow	Dhp214
+delight (rati)	as source of sorrow	Dhp214
 craving (taṇhā)	as source of sorrow	Dhp215
 good actions	rebirth	Dhp219
 good actions	rebirth	Dhp220
@@ -20137,7 +20107,7 @@ noble silence (ariya tuṇhībhāva)	when gathering together should either discu
 Buddha, the	time after enlightenment	Ud3.10
 world, the	state of	Ud3.10
 meditation	for seven days	Ud3.10
-attendant	of the Buddha	Ud4.1
+attendants	of the Buddha	Ud4.1
 Meghiya, Ven.	attendant of the Buddha	Ud4.1
 misconduct by mind	unripe mind	Ud4.1
 friendship	helps with cetovimutti	Ud4.1
@@ -21465,7 +21435,7 @@ arrogance	because of learning	Thag17.3
 learning	arrogance because of	Thag17.3
 learning	without practicing	Thag17.3
 friendship	with learned people	Thag17.3
-attendant	of the Buddha	Thag17.3
+attendants	of the Buddha	Thag17.3
 honor	like bog	Thag18.1
 requisites, four	contentment with	Thag18.1
 nature	as pleasing	Thag18.1

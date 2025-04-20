@@ -17,7 +17,7 @@ export const headwordSubheadCount =[
      ],
      [
           "noble eightfold path (ariya aṭṭhangika magga)",
-          88
+          87
      ],
      [
           "arahants",
@@ -41,7 +41,7 @@ export const headwordSubheadCount =[
      ],
      [
           "foundations of mindfulness, four (satipaṭṭhāna)",
-          72
+          71
      ],
      [
           "faith (saddhā)",
@@ -76,10 +76,6 @@ export const headwordSubheadCount =[
           64
      ],
      [
-          "awakening factors, seven (bojjhaṅga)",
-          63
-     ],
-     [
           "wealth",
           62
      ],
@@ -97,7 +93,11 @@ export const headwordSubheadCount =[
      ],
      [
           "loving-kindness (mettā)",
-          56
+          55
+     ],
+     [
+          "awakening factors, seven (bojjhaṅga)",
+          53
      ],
      [
           "rebirth",
@@ -168,16 +168,16 @@ export const headwordSubheadCount =[
           42
      ],
      [
-          "bad actions",
-          41
-     ],
-     [
           "perceptions (saññā)",
           41
      ],
      [
           "results of actions",
           41
+     ],
+     [
+          "bad actions",
+          40
      ],
      [
           "spiritual path (brahmacariya)",
@@ -228,10 +228,6 @@ export const headwordSubheadCount =[
           35
      ],
      [
-          "fools (bāla)",
-          35
-     ],
-     [
           "going forth (pabbajja)",
           35
      ],
@@ -240,11 +236,7 @@ export const headwordSubheadCount =[
           34
      ],
      [
-          "good actions",
-          34
-     ],
-     [
-          "mindfulness of breathing (ānāpānassati)",
+          "fools (bāla)",
           34
      ],
      [
@@ -256,7 +248,15 @@ export const headwordSubheadCount =[
           33
      ],
      [
+          "good actions",
+          33
+     ],
+     [
           "hindrances (nīvaraṇa)",
+          33
+     ],
+     [
+          "mindfulness of breathing (ānāpānassati)",
           33
      ],
      [
@@ -308,10 +308,6 @@ export const headwordSubheadCount =[
           30
      ],
      [
-          "faculties, spiritual (indriya)",
-          30
-     ],
-     [
           "laypeople",
           30
      ],
@@ -321,6 +317,10 @@ export const headwordSubheadCount =[
      ],
      [
           "dimension of nothingness (ākiñcaññāyatana)",
+          29
+     ],
+     [
+          "faculties, spiritual (indriya)",
           29
      ],
      [
@@ -368,10 +368,6 @@ export const headwordSubheadCount =[
           27
      ],
      [
-          "bases of psychic power (iddhipāda)",
-          26
-     ],
-     [
           "hatred (dosa)",
           26
      ],
@@ -392,10 +388,6 @@ export const headwordSubheadCount =[
           26
      ],
      [
-          "powers (bala)",
-          26
-     ],
-     [
           "respect (gārava)",
           26
      ],
@@ -405,6 +397,10 @@ export const headwordSubheadCount =[
      ],
      [
           "association",
+          25
+     ],
+     [
+          "bases of psychic power (iddhipāda)",
           25
      ],
      [
@@ -437,6 +433,10 @@ export const headwordSubheadCount =[
      ],
      [
           "meditation",
+          25
+     ],
+     [
+          "powers (bala)",
           25
      ],
      [
@@ -634,10 +634,6 @@ export const headwordSubheadCount =[
      [
           "unskillful qualities (akusala dhamma)",
           20
-     ],
-     [
-          "astute person (paṇḍita)",
-          19
      ],
      [
           "Devadatta",
@@ -1016,10 +1012,6 @@ export const headwordSubheadCount =[
           14
      ],
      [
-          "right effort (sammā vāyāma)",
-          14
-     ],
-     [
           "sacrifices (yañña)",
           14
      ],
@@ -1089,6 +1081,10 @@ export const headwordSubheadCount =[
      ],
      [
           "restraint",
+          13
+     ],
+     [
+          "right effort (sammā vāyāma)",
           13
      ],
      [
@@ -1193,6 +1189,10 @@ export const headwordSubheadCount =[
      ],
      [
           "aggregates of clinging (pañcupādānakkhandhā)",
+          11
+     ],
+     [
+          "astute person (paṇḍita)",
           11
      ],
      [
@@ -1588,6 +1588,10 @@ export const headwordSubheadCount =[
           9
      ],
      [
+          "acquisitions (upadhi)",
+          9
+     ],
+     [
           "babies",
           9
      ],
@@ -1617,6 +1621,10 @@ export const headwordSubheadCount =[
      ],
      [
           "death",
+          9
+     ],
+     [
+          "delight (rati)",
           9
      ],
      [
@@ -1824,10 +1832,6 @@ export const headwordSubheadCount =[
           9
      ],
      [
-          "acquisitions (upadhi)",
-          8
-     ],
-     [
           "air element (vāyo dhātu)",
           8
      ],
@@ -1836,19 +1840,11 @@ export const headwordSubheadCount =[
           8
      ],
      [
-          "attachments",
-          8
-     ],
-     [
           "bathing",
           8
      ],
      [
           "caste",
-          8
-     ],
-     [
-          "compassion (karuṇā)",
           8
      ],
      [
@@ -1861,10 +1857,6 @@ export const headwordSubheadCount =[
      ],
      [
           "deathbed",
-          8
-     ],
-     [
-          "delight (rati)",
           8
      ],
      [
@@ -2141,6 +2133,10 @@ export const headwordSubheadCount =[
      ],
      [
           "brahmā realm (brahmaloka)",
+          7
+     ],
+     [
+          "compassion (karuṇā)",
           7
      ],
      [
@@ -2440,7 +2436,7 @@ export const headwordSubheadCount =[
           6
      ],
      [
-          "attachment to views (diṭṭhiyoga)",
+          "attachments",
           6
      ],
      [
@@ -3140,10 +3136,6 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "meditation on ugliness (asubhabhāvanā)",
-          5
-     ],
-     [
           "mind (cetas)",
           5
      ],
@@ -3413,6 +3405,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Asibandhakaputta, chief",
+          4
+     ],
+     [
+          "attachment to views (diṭṭhiyoga)",
           4
      ],
      [
@@ -3765,6 +3761,10 @@ export const headwordSubheadCount =[
      ],
      [
           "marks of a great man",
+          4
+     ],
+     [
+          "meditation on ugliness (asubhabhāvanā)",
           4
      ],
      [
@@ -4668,10 +4668,6 @@ export const headwordSubheadCount =[
           3
      ],
      [
-          "impermanence meditation (aniccasaññābhāvanā)",
-          3
-     ],
-     [
           "industrious (analasa)",
           3
      ],
@@ -5464,15 +5460,7 @@ export const headwordSubheadCount =[
           2
      ],
      [
-          "attainments",
-          2
-     ],
-     [
           "attainments (samāpatti)",
-          2
-     ],
-     [
-          "attendant",
           2
      ],
      [
@@ -6353,6 +6341,10 @@ export const headwordSubheadCount =[
      ],
      [
           "imitation",
+          2
+     ],
+     [
+          "impermanence meditation (aniccasaññābhāvanā)",
           2
      ],
      [

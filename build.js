@@ -18,6 +18,18 @@ let xrefArray = [];
 const indexObject = initializeAlphabetObject();
 const alphabetGroupedObject = initializeAlphabetObject();
 
+function writeStats(stat, label) {
+  const formattedDate = new Date()
+    .toISOString()
+    .replace("T", " ")
+    .replace(/\.\d+Z$/, "");
+  const statsString = `|${formattedDate}|${label}|${stat.toLocaleString("en-US")}|\n`;
+
+  fs.appendFile("src/data/stats.md", statsString, err => {
+    if (err) throw err;
+  });
+}
+
 // build the index object
 function createIndexObject(indexArray) {
   let rawIndexArray = [...indexArray];
@@ -192,9 +204,10 @@ function createIndexObject(indexArray) {
   const headwordSubheadArray = headwordSubheadCounts(indexObject);
 
   let headwordSubheadCountHtml = openingHtmlHeadwordSubheadCountHtml;
-
+  let headwordSubheadCounter = 0;
   headwordSubheadCountHtml += `<div class="table">`;
   for (let i = 0; i < headwordSubheadArray.length; i++) {
+    headwordSubheadCounter += headwordSubheadArray[i][1];
     headwordSubheadCountHtml += `
     <div class="row">
     <div>${headwordSubheadArray[i][0]}</div>
@@ -204,6 +217,8 @@ function createIndexObject(indexArray) {
   headwordSubheadCountHtml += `
   <div>
   </body>`;
+
+  writeStats(headwordSubheadCounter, "Subheads");
 
   save("public/subheadCountTable.html", headwordSubheadCountHtml, "🌐");
 
@@ -380,7 +395,7 @@ function createIndexObject(indexArray) {
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-table.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-shared.png">
   <title>Locators sharing subheads by headword</title>
   <style>
     table {
@@ -490,6 +505,7 @@ function createIndexObject(indexArray) {
       }
     }
   </style>
+  <!-- favicon by https://www.flaticon.com/authors/torskaya -->
   </head>
   <body>
   <table>
@@ -503,6 +519,7 @@ function createIndexObject(indexArray) {
     <tbody>
   `;
 
+    let sharedCounter = 0;
     // Process the data to build table rows
     Object.entries(sharedLocatorsData).forEach(([headword, locators]) => {
       const locatorEntries = Object.entries(locators);
@@ -521,6 +538,7 @@ function createIndexObject(indexArray) {
 
         // Add subheads as unordered list
         html += "<td><ul>";
+        sharedCounter += subheads.length;
         subheads.forEach(subhead => {
           html += `<li>${subhead}</li>`;
         });
@@ -537,7 +555,7 @@ function createIndexObject(indexArray) {
   </body>
   </html>
   `;
-
+    writeStats(sharedCounter, "Shared subheads");
     return html;
   }
 
@@ -565,6 +583,8 @@ function createHeadingsArray(indexArray) {
   findNonUniqueHeadwords(listOfHeadwords);
 
   const headwordsArray = `export const headwordsArray =${JSON.stringify(listOfHeadwords, null, 5)}`;
+
+  writeStats(listOfHeadwords.length, "Headwords");
 
   save("src/data/headwords-array.js", headwordsArray, "💾");
 
