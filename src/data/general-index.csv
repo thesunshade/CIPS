@@ -173,8 +173,12 @@ contact (phassa)		xref dependent origination (paṭiccasamuppāda)
 name and form (nāma rūpa)		xref dependent origination (paṭiccasamuppāda)
 consciousness (viññāṇa)		xref dependent origination (paṭiccasamuppāda)
 bhikkhunīs		xref Dhammadinnā, Ven.
+bhikkhunīs		xref Āḷavikā, Ven.
 bhikkhunīs		xref Mahā Pajāpatī Gotamī, Ven.
+bhikkhunīs		xref Cālā, Ven.
 bhikkhunīs		xref Khemā, Ven.
+bhikkhunīs		xref Jaṭilagāhikā, Ven.
+bhikkhunīs		xref Āḷavikā, Ven.
 bhikkhunīs		xref Uppalavaṇṇā, Ven.
 bhikkhunīs		xref Paṭācārā, Ven.
 bhikkhunīs		xref Nandā, Ven.
@@ -3913,7 +3917,7 @@ standing	ascetic practice	MN12
 beds	of thorns/spikes	MN12
 thorns	bed of	MN12
 bathing	as ritual	MN12
-bathing	refusing to	MN12
+bathing	encourage others	MN12
 water	harming creatures in	MN12
 seclusion (paṭisallīna, vivitta)	Buddha’s practice of	MN12
 dung	eating	MN12
@@ -4896,7 +4900,7 @@ robes	various kinds	MN45
 beards	tearing out	MN45
 beds	of thorns/spikes	MN45
 bathing	as ritual	MN45
-bathing	refusing to	MN45
+bathing	encourage others	MN45
 dung	eating	MN45
 hell (niraya)	result of ascetic practices	MN45
 self-mortification (attantapo)	leads to hell	MN45
@@ -5034,7 +5038,7 @@ shows	avoiding	MN51
 garlands	avoiding	MN51
 perfume	avoiding	MN51
 makeup	avoiding	MN51
-beds	luxurious, avoiding	MN51
+beds	luxurious, abstaining from 	MN51
 money	not accepting	MN51
 meat	raw, not accepting	MN51
 grains	raw, not accepting	MN51
@@ -6804,14 +6808,7 @@ uposatha	sermon given on	MN110
 bad people (asappurisa)	cannot know good and bad	MN110
 bad people (asappurisa)	definition	MN110
 bad people (asappurisa)	qualities of	MN110
-bad people (asappurisa)	how they associate	MN110
-bad people (asappurisa)	intentions	MN110
-bad people (asappurisa)	how they council others	MN110
-bad people (asappurisa)	speech	MN110
-bad people (asappurisa)	actions	MN110
-bad people (asappurisa)	view of	MN110
 wrong view (micchā diṭṭhi)	held by bad people	MN110
-bad people (asappurisa)	way of giving	MN110
 bad people (asappurisa)	reborn in bad destination	MN110
 good people (sappurisa)	can know good and bad	MN110
 good people (sappurisa)	definition	MN110
@@ -7084,7 +7081,7 @@ stones	and wet clay, simile for Māra finding vulnerabilities	MN119
 clay	and stone, simile for Māra finding vulnerabilities	MN119
 logs	dried, simile for Māra finding vulnerabilities	MN119
 jars	full of water, simile for Māra finding vulnerabilities	MN119
-ball of string	and hard door, simile for Māra finding vulnerabilities	MN119
+ball of string	simile for Māra finding vulnerabilities	MN119
 ponds	lotus, simile for Māra finding vulnerabilities	MN119
 chariots	ready at crossroad, simile for person who has developed mindfulness of body	MN119
 discontent (arati)	mindfulness of the body overcomes	MN119
@@ -7775,7 +7772,6 @@ suicide	monks committing after meditation on ugliness	MN145
 conversion	monk successfully converting people	MN145
 Mahā Pajāpatī Gotamī, Ven.	requesting instruction (anusāsana)	MN146
 Nandaka, Ven.	teaching bhikkhunīs	MN146
-bhikkhunīs	instructing	MN146
 bhikkhunīs	Dhamma talk given to	MN146
 sense bases (āyatana)	as impermanent, suffering, not-self	MN146
 not-self	sense bases	MN146
@@ -8568,9 +8564,8 @@ aggregates (khandha)	like seedling	SN5.9
 sense bases (āyatana)	like seedling	SN5.9
 elements (dhātu)	like seedling	SN5.9
 Vajirā, Ven.	with Māra	SN5.10
-beings (satta)	just conditions	SN5.10
-chariot	simile for beings	SN5.10
-beings (satta)	like chariot	SN5.10
+chariot	simile for beings; just conditions	SN5.10
+beings (satta)	like chariot, just conditions	SN5.10
 suffering (dukkha)	only suffering comes to be	SN5.10
 brahmās	 	CUSTOM:SN:SN 6 Brahma Saṁyutta:suttacentral.net/sn6
 Buddha, the	after enlightenment	SN6.1
@@ -9120,8 +9115,7 @@ faith (saddhā)	vital condition for joy	SN12.23
 faith (saddhā)	vital condition is suffering	SN12.23
 suffering (dukkha)	vital condition for faith	SN12.23
 suffering (dukkha)	vital condition is becoming	SN12.23
-becoming (bhava)	vital condition for grasping	SN12.23
-becoming (bhava)	vital condition is grasping	SN12.23
+becoming (bhava)	vital condition	SN12.23
 grasping (upādāna)	vital condition for becoming	SN12.23
 grasping (upādāna)	vital condition is craving	SN12.23
 craving (taṇhā)	vital condition for grasping	SN12.23
@@ -9524,8 +9518,8 @@ rebirth	like stick landing in different ways	SN15.9
 Vepulla, mountain	heap of bones for one person in saṁsāra	SN15.10
 bones	heap of like mountain for one person in saṁsāra	SN15.10
 stream-enterers (sotāpanna)	seeing four noble truths	SN15.10
-bad rebirth (duggati)	we have experienced all in saṁsāra	SN15.11
-happiness (sukha)	we have experienced all in saṁsāra	SN15.12
+bad rebirth (duggati)	experienced all in saṁsāra	SN15.11
+happiness (sukha)	experienced all in saṁsāra	SN15.12
 blood	from heads chopped off in saṁsāra	SN15.13
 oceans	water in, less than blood in saṁsāra	SN15.13
 mothers	hard to find someone who has not been	SN15.14
@@ -10720,7 +10714,7 @@ seats	not sitting on high when listening to Dhamma	SN35.133
 pleasure (sukha)	when sense bases exist	SN35.133
 pain (dukkha)	when sense bases exist	SN35.133
 trainee (sekha)	work left to do, sense bases	SN35.134
-bases of contact, six (phassāyatana)	some have work to do	SN35.134
+bases of contact, six (phassāyatana)	some people have work to do	SN35.134
 heedfulness (appamāda)	fruit of	SN35.134
 opportunities (khaṇa)	fortunate	SN35.135
 hell (niraya)	called the six fields of contact	SN35.135
@@ -11444,8 +11438,8 @@ right concentration (sammā samādhi)	definition	SN45.8
 spikes	simile for wrong view and right view	SN45.9
 right view (sammā diṭṭhi)	like spike of rice pointing right way	SN45.9
 wrong view (micchā diṭṭhi)	like spike of rice pointing the wrong way	SN45.9
-rice	spike of, simile for wrong view and right view	SN45.9
-barley	spike of, simile for wrong view and right view	SN45.9
+rice	simile for wrong view and right view	SN45.9
+barley	simile for wrong view and right view	SN45.9
 Nandiya, wanderer	asking about nibbāna	SN45.10
 noble eightfold path (ariya aṭṭhangika magga)	culminates in nibbāna	SN45.10
 Buddha, the	going into retreat	SN45.11
@@ -11467,7 +11461,7 @@ Buddhas	noble eightfold path only arises when Buddha appears	SN45.14
 noble eightfold path (ariya aṭṭhangika magga)	does not arise apart from the Blessed One’s Vinaya	SN45.15
 noble eightfold path (ariya aṭṭhangika magga)	only when Buddha arises	SN45.16
 spiritual path (brahmacariya)	not the spiritual path	SN45.18
-Bhadda, Ven.	asks about “not the spiritual path”	SN45.18
+Bhadda, Ven.	asks about the spiritual path	SN45.18
 Ānanda, Ven.	not the spiritual path	SN45.18
 wrong eightfold path	not the spiritual path	SN45.18
 spiritual path (brahmacariya)	definition	SN45.19
@@ -12068,9 +12062,9 @@ bowls	of oil, carrying, simile for mindfulness	SN47.20
 Bhadda, Ven.	asks about wholesome virtue	SN47.21
 virtue (sīla)	purpose of is developing foundations of mindfulness	SN47.21
 Dhamma	reason it lasts long	SN47.22
-Bhadda, Ven.	asks why Dhamma lasts long	SN47.22
+Bhadda, Ven.	asks about Dhamma lasting long	SN47.22
 Dhamma	decline, factors leading to	SN47.23
-Bhadda, Ven.	asks why Dhamma does not last long	SN47.23
+Bhadda, Ven.	asks about Dhamma lasting long	SN47.23
 foundations of mindfulness, four (satipaṭṭhāna)	definition in brief	SN47.24
 Dhamma	reason it lasts long	SN47.25
 Dhamma	decline, factors leading to	SN47.25
@@ -12712,7 +12706,7 @@ beauty (vaṇṇa)	result of factors of stream-entry	SN55.30
 happiness (sukha)	result of factors of stream-entry	SN55.30
 fame (yasas)	result of factors of stream-entry	SN55.30
 sovereignty (ādhipateyya)	result of factors of stream-entry	SN55.30
-bathing	with “the inner bathing”: confidence in the Buddha	SN55.30
+bathing	with “the inner bathing”	SN55.30
 merit (puñña)	overflowing	SN55.31
 merit (puñña)	factors of stream-entry	SN55.31
 merit (puñña)	factors of stream-entry	SN55.32
@@ -13060,7 +13054,8 @@ mind (citta)	undeveloped mind brings suffering	AN1.29
 mind (citta)	developed mind brings happiness	AN1.30
 mind (citta)	tamed mind is very beneficial	AN1.32
 mind (citta)	wild mind is very harmful	AN1.31
-mind (citta)	pointing wrong way like spike of rice	AN1.41
+mind (citta)	like spike of rice pointing the wrong way	AN1.41
+barley	like mind pointing the wrong way	AN1.41
 mind (citta)	corrupted mind leads to hell	AN1.43
 hell (niraya)	corrupted mind leads to	AN1.43
 mind (citta)	pure mind leads to heaven	AN1.44
@@ -14625,31 +14620,31 @@ conceit (māna)	overcoming	AN4.200
 hatred (dosa)	caused by love and hate	AN4.200
 aggregates (khandha)	seeing as self	AN4.200
 bad people (asappurisa)	definition	AN4.201
-bad people (asappurisa)	even worse when they encourage others	AN4.201
+bad people (asappurisa)	encourage others	AN4.201
 good people (sappurisa)	definition	AN4.201
 good people (sappurisa)	even better when they encourage others	AN4.201
 encouragement	to do good	AN4.201
 encouragement	to do bad	AN4.201
 bad people (asappurisa)	definition	AN4.202
-bad people (asappurisa)	even worse when they encourage others	AN4.202
+bad people (asappurisa)	encourage others	AN4.202
 good people (sappurisa)	definition	AN4.202
 good people (sappurisa)	even better when they encourage others	AN4.202
 encouragement	to do good	AN4.202
 encouragement	to do bad	AN4.202
 bad people (asappurisa)	definition	AN4.203
-bad people (asappurisa)	even worse when they encourage others	AN4.203
+bad people (asappurisa)	encourage others	AN4.203
 good people (sappurisa)	definition	AN4.203
 good people (sappurisa)	even better when they encourage others	AN4.203
 encouragement	to do good	AN4.203
 encouragement	to do bad	AN4.203
 bad people (asappurisa)	definition	AN4.204
-bad people (asappurisa)	even worse when they encourage others	AN4.204
+bad people (asappurisa)	encourage others	AN4.204
 good people (sappurisa)	definition	AN4.204
 good people (sappurisa)	even better when they encourage others	AN4.204
 encouragement	to do good	AN4.204
 encouragement	to do bad	AN4.204
 bad people (asappurisa)	definition	AN4.205
-bad people (asappurisa)	even worse when they encourage others	AN4.205
+bad people (asappurisa)	encourage others	AN4.205
 good people (sappurisa)	definition	AN4.205
 good people (sappurisa)	even better when they encourage others	AN4.205
 encouragement	to do good	AN4.205
@@ -14658,7 +14653,7 @@ wrong eightfold path	person who possesses	AN4.205
 noble eightfold path (ariya aṭṭhangika magga)	person who possesses	AN4.205
 noble eightfold path (ariya aṭṭhangika magga)	encouraging others to practice	AN4.205
 bad people (asappurisa)	definition	AN4.206
-bad people (asappurisa)	even worse when they encourage others	AN4.206
+bad people (asappurisa)	encourage others	AN4.206
 good people (sappurisa)	definition	AN4.206
 good people (sappurisa)	even better when they encourage others	AN4.206
 encouragement	to do good	AN4.206
@@ -14716,6 +14711,7 @@ good people (sappurisa)	benefit of relying on	AN4.242
 association	with superior people causes one to improve	AN4.242
 Anuruddha, Ven.	not involved with disciplinary issues	AN4.243
 Ānanda, Ven.	and disciplinary issue	AN4.243
+Bāhiya, Ven.	creating a schism	AN4.243
 schisms	bad monk loves	AN4.243
 bad monastics	love schisms	AN4.243
 perils (bhaya)	of bad actions	AN4.244
@@ -14860,6 +14856,13 @@ meditation	meditation subject	AN5.26
 concentration (samādhi)	knowledges arise from	AN5.27
 right concentration (sammā samādhi)	five factors	AN5.28
 jhānas	similes for	AN5.28
+bath attendants	simile for first jhāna	AN5.28
+bath powder	simile for first jhāna	AN5.28
+lakes	simile for second jhāna	AN5.28
+water lilies	simile for third jhāna	AN5.28
+lotuses	simile for third jhāna	AN5.28
+mind (citta)	pure and bright in fourth jhāna	AN5.28
+cloth	white, covering person, simile for fourth jhāna	AN5.28
 reviewing (paccavekkhaṇā)	jhāna	AN5.28
 reviewing (paccavekkhaṇā)	like looking at another person	AN5.28
 right concentration (sammā samādhi)	like water jar filled to brim	AN5.28
@@ -15307,6 +15310,7 @@ senior monastics	desirable qualities	AN5.166
 Upavāṇa, Ven.	qualities of senior monastics	AN5.166
 mind-made body (manomayena kāya)	heaven of mind made gods	AN5.166
 accusations	preparing to make an accusation	AN5.167
+beneficial or harmful (atthasaṁhitena vā anatthasaṁhitena)	making accusations	AN5.167
 self-reflection	preparing to make an accusation	AN5.167
 loving-kindness (mettā)	accusations and	AN5.167
 admonishment	being easy to (sovacassatā)	AN5.167
@@ -16680,7 +16684,7 @@ Dhamma	has many treasures	AN8.20
 Dhamma	has one taste	AN8.20
 salt	taste of, simile for liberation	AN8.20
 asuras	love of ocean	AN8.20
-bad monastics	in pātimokkha recitation	AN8.20
+bad monastics	pātimokkha recitation	AN8.20
 Dhamma	like ocean	AN8.20
 gradual training (anupubbasikkhā)	like ocean	AN8.20
 nibbāna	never fills up	AN8.20
@@ -17221,11 +17225,9 @@ monastic rules (vinaya)	official Saṅgha acts	AN8.87
 monastic rules (vinaya)	overturning alms bowl	AN8.87
 bad monastics	harming laypeople	AN8.88
 bad monastics	proclamation of no confidence	AN8.88
-bad monastics	dividing laypeople	AN8.88
 reconciliation (paṭisāraṇīya)	between laypeople and monastics	AN8.88
 bad monastics	harming laypeople	AN8.89
 bad monastics	proclamation of no confidence	AN8.89
-bad monastics	dividing laypeople	AN8.89
 reconciliation (paṭisāraṇīya)	between laypeople and monastics	AN8.89
 monastic rules (vinaya)	official Saṅgha acts	AN8.89
 aggravated misconduct (tassapāpiyasikā)	rules for monk convicted of	AN8.90
@@ -17304,7 +17306,6 @@ livelihood	fear for	AN9.5
 disrepute	fear of	AN9.5
 assemblies	fear of	AN9.5
 death (maraṇa)	fear of	AN9.5
-bad rebirth (duggati)	fear of	AN9.5
 laziness (kusīta)	fear of bad rebirth, disrepute, assemblies, death, fear for livelihood	AN9.5
 association (sevitabba)	what kinds should and should not be cultivated	AN9.6
 association (sevitabba)	requisites	AN9.6
@@ -18121,6 +18122,7 @@ speech	timely, when admonishing	AN10.44
 speech	true, when admonishing	AN10.44
 speech	gentle, when admonishing	AN10.44
 speech	beneficial, when admonishing	AN10.44
+beneficial or harmful (atthasaṁhitena vā anatthasaṁhitena)	making accusations	AN10.44
 speech	with loving-kindness, when admonishing	AN10.44
 kings	royal harem/inner palace	AN10.45
 laypeople	danger of intimacy with for monastics	AN10.45
@@ -18623,7 +18625,7 @@ heedlessness (pamāda)	cause of and giving up	AN10.76
 unwholesome chain of causality	heedlessness to birth, old age and death	AN10.76
 wholesome chain of causality	lack of conscience and prudence to ending birth, old age and death	AN10.76
 crows	ten bad qualities of	AN10.77
-bad monastics	ten qualities of like qualities of crow	AN10.77
+bad monastics	like crow	AN10.77
 Nigaṇṭhas	ten bad qualities of	AN10.78
 resentment (āghāta)	grounds for, ten	AN10.79
 resentment (āghāta)	removing	AN10.80
@@ -19400,7 +19402,7 @@ makeup	abstaining from, ten precepts	Kp2
 music	abstaining from, ten precepts	Kp2
 shows	abstaining from, ten precepts	Kp2
 luxuries	abstaining from, ten precepts	Kp2
-beds	high and large, abstaining from, ten precepts	Kp2
+beds	luxurious, abstaining from 	Kp2
 money	abstaining from, ten precepts	Kp2
 gold	abstaining from, ten precepts	Kp2
 body	thirty-two parts	Kp3
@@ -20154,7 +20156,7 @@ paccekabuddhas	Tagarasikhī	Ud5.3
 harassing	noble ones	Ud5.3
 boys	harming an animal	Ud5.4
 uposatha	impure monk sitting in uposatha hall	Ud5.5
-bad monastics	in pātimokkha recitation	Ud5.5
+bad monastics	pātimokkha recitation	Ud5.5
 asuras	love of ocean	Ud5.5
 oceans	loved by asuras	Ud5.5
 gradual training (anupubbasikkhā)	like ocean	Ud5.5

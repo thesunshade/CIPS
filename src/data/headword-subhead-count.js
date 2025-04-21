@@ -460,10 +460,6 @@ export const headwordSubheadCount =[
           24
      ],
      [
-          "bad monastics",
-          24
-     ],
-     [
           "disputes",
           24
      ],
@@ -485,6 +481,10 @@ export const headwordSubheadCount =[
      ],
      [
           "almsfood",
+          23
+     ],
+     [
+          "bad monastics",
           23
      ],
      [
@@ -596,10 +596,6 @@ export const headwordSubheadCount =[
           21
      ],
      [
-          "bad people (asappurisa)",
-          20
-     ],
-     [
           "delight (nandi)",
           20
      ],
@@ -688,10 +684,6 @@ export const headwordSubheadCount =[
           19
      ],
      [
-          "bhikkhunīs",
-          18
-     ],
-     [
           "body (kāya)",
           18
      ],
@@ -726,6 +718,10 @@ export const headwordSubheadCount =[
      [
           "socializing",
           18
+     ],
+     [
+          "bhikkhunīs",
+          17
      ],
      [
           "birth (jāti)",
@@ -952,10 +948,6 @@ export const headwordSubheadCount =[
           14
      ],
      [
-          "becoming (bhava)",
-          14
-     ],
-     [
           "cessation (nirodha)",
           14
      ],
@@ -1030,6 +1022,14 @@ export const headwordSubheadCount =[
      [
           "views of other sects",
           14
+     ],
+     [
+          "bad people (asappurisa)",
+          13
+     ],
+     [
+          "becoming (bhava)",
+          13
      ],
      [
           "bodhipakkhiyā dhammā",
@@ -1840,10 +1840,6 @@ export const headwordSubheadCount =[
           8
      ],
      [
-          "bathing",
-          8
-     ],
-     [
           "caste",
           8
      ],
@@ -2124,11 +2120,11 @@ export const headwordSubheadCount =[
           7
      ],
      [
-          "beauty (vaṇṇa)",
+          "bathing",
           7
      ],
      [
-          "beings (satta)",
+          "beauty (vaṇṇa)",
           7
      ],
      [
@@ -2464,11 +2460,7 @@ export const headwordSubheadCount =[
           6
      ],
      [
-          "bad rebirth (duggati)",
-          6
-     ],
-     [
-          "beds",
+          "beings (satta)",
           6
      ],
      [
@@ -2856,11 +2848,11 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "banana trees",
+          "bad rebirth (duggati)",
           5
      ],
      [
-          "Bhadda, Ven.",
+          "banana trees",
           5
      ],
      [
@@ -3425,6 +3417,10 @@ export const headwordSubheadCount =[
      ],
      [
           "ball of string",
+          4
+     ],
+     [
+          "beds",
           4
      ],
      [
@@ -4264,6 +4260,10 @@ export const headwordSubheadCount =[
           3
      ],
      [
+          "barley",
+          3
+     ],
+     [
           "bases of contact, six (phassāyatana)",
           3
      ],
@@ -4277,6 +4277,10 @@ export const headwordSubheadCount =[
      ],
      [
           "beverages",
+          3
+     ],
+     [
+          "Bhadda, Ven.",
           3
      ],
      [
@@ -5472,6 +5476,10 @@ export const headwordSubheadCount =[
           2
      ],
      [
+          "Bāhiya, Ven.",
+          2
+     ],
+     [
           "Baka Brahmā",
           2
      ],
@@ -5497,10 +5505,6 @@ export const headwordSubheadCount =[
      ],
      [
           "banner and burden put down",
-          2
-     ],
-     [
-          "barley",
           2
      ],
      [
@@ -5545,6 +5549,10 @@ export const headwordSubheadCount =[
      ],
      [
           "beings unified in body and unified in perception (sattā ekattakāyā ekattasaññino)",
+          2
+     ],
+     [
+          "beneficial or harmful (atthasaṁhitena vā anatthasaṁhitena)",
           2
      ],
      [
@@ -7904,10 +7912,6 @@ export const headwordSubheadCount =[
           1
      ],
      [
-          "Bāhiya, Ven.",
-          1
-     ],
-     [
           "Bāhuna, Ven.",
           1
      ],
@@ -7973,10 +7977,6 @@ export const headwordSubheadCount =[
      ],
      [
           "beneficent conduct",
-          1
-     ],
-     [
-          "beneficial or harmful (atthasaṁhitena vā anatthasaṁhitena)",
           1
      ],
      [
