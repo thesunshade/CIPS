@@ -952,6 +952,10 @@ export const headwordSubheadCount =[
           14
      ],
      [
+          "cloth",
+          14
+     ],
+     [
           "companionship",
           14
      ],
@@ -1113,10 +1117,6 @@ export const headwordSubheadCount =[
      ],
      [
           "brahmās",
-          12
-     ],
-     [
-          "cloth",
           12
      ],
      [
@@ -1792,6 +1792,10 @@ export const headwordSubheadCount =[
           9
      ],
      [
+          "sick person",
+          9
+     ],
+     [
           "skillfulness and unskillfulness",
           9
      ],
@@ -2004,6 +2008,10 @@ export const headwordSubheadCount =[
           8
      ],
      [
+          "ponds",
+          8
+     ],
+     [
           "praise",
           8
      ],
@@ -2041,10 +2049,6 @@ export const headwordSubheadCount =[
      ],
      [
           "sense desire (kāmacchanda)",
-          8
-     ],
-     [
-          "sick person",
           8
      ],
      [
@@ -2297,10 +2301,6 @@ export const headwordSubheadCount =[
      ],
      [
           "personal witness (kāyasakkhī)",
-          7
-     ],
-     [
-          "ponds",
           7
      ],
      [
@@ -3225,6 +3225,10 @@ export const headwordSubheadCount =[
      ],
      [
           "purity (soceyya)",
+          5
+     ],
+     [
+          "rag",
           5
      ],
      [
@@ -4961,10 +4965,6 @@ export const headwordSubheadCount =[
      ],
      [
           "Rādha, Ven.",
-          3
-     ],
-     [
-          "rag",
           3
      ],
      [
@@ -9629,6 +9629,10 @@ export const headwordSubheadCount =[
      ],
      [
           "honey cake",
+          1
+     ],
+     [
+          "hoofprint",
           1
      ],
      [
