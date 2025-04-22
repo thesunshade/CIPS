@@ -2727,6 +2727,7 @@ export const filteredBlurbs ={
      "dhp365": "365. A well-off mendicant ought not look down<br>on others, nor should they be envious.<br>A mendicant who envies others<br>does not achieve immersion.<br>",
      "dhp366": "366. If a mendicant is poor in offerings,<br>the well-to-do ought not look down on them.<br>For the gods indeed praise them,<br>who are tireless and pure of livelihood.<br>",
      "dhp368": "368. A mendicant who meditates on love,<br>devoted to the Buddha’s teaching,<br>would realize the peaceful state,<br>the blissful stilling of conditions.<br>",
+     "dhp369": "369. Bail out this boat, mendicant!<br>When bailed out it will float lightly.<br>Having cut off desire and hate,<br>you shall reach quenching.<br>",
      "dhp371": "371. Practice absorption, don’t be negligent!<br>Don’t let the mind delight in the senses!<br>Don’t heedlessly swallow a hot iron ball!<br>And when it burns, don’t cry, “Oh, the pain!”<br>",
      "dhp372": "372. No absorption for one without wisdom,<br>no wisdom for one without absorption.<br>But one with absorption and wisdom—<br>they have truly drawn near to extinguishment.<br>",
      "dhp374": "374. Whenever they are mindful<br>of the rise and fall of the aggregates,<br>they feel rapture and joy:<br>that is the deathless for one who knows.<br>",

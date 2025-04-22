@@ -37,7 +37,7 @@ export const headwordSubheadCount =[
      ],
      [
           "virtue (sīla)",
-          73
+          72
      ],
      [
           "foundations of mindfulness, four (satipaṭṭhāna)",
@@ -300,10 +300,6 @@ export const headwordSubheadCount =[
           31
      ],
      [
-          "sense restraint (indriyasaṁvara)",
-          31
-     ],
-     [
           "doubt (vicikicchā)",
           30
      ],
@@ -313,6 +309,10 @@ export const headwordSubheadCount =[
      ],
      [
           "old age (jarā)",
+          30
+     ],
+     [
+          "sense restraint (indriyasaṁvara)",
           30
      ],
      [
@@ -724,10 +724,6 @@ export const headwordSubheadCount =[
           17
      ],
      [
-          "birth (jāti)",
-          17
-     ],
-     [
           "direct knowledges (abhiññā)",
           17
      ],
@@ -777,6 +773,10 @@ export const headwordSubheadCount =[
      ],
      [
           "ascetics (samaṇa)",
+          16
+     ],
+     [
+          "birth (jāti)",
           16
      ],
      [
@@ -1004,10 +1004,6 @@ export const headwordSubheadCount =[
           14
      ],
      [
-          "right concentration (sammā samādhi)",
-          14
-     ],
-     [
           "sacrifices (yañña)",
           14
      ],
@@ -1085,6 +1081,10 @@ export const headwordSubheadCount =[
      ],
      [
           "restraint",
+          13
+     ],
+     [
+          "right concentration (sammā samādhi)",
           13
      ],
      [
@@ -1556,10 +1556,6 @@ export const headwordSubheadCount =[
           10
      ],
      [
-          "true knowledge and vision (yathābhūtañāṇadassana)",
-          10
-     ],
-     [
           "truth (sacca)",
           10
      ],
@@ -1816,6 +1812,10 @@ export const headwordSubheadCount =[
           9
      ],
      [
+          "true knowledge and vision (yathābhūtañāṇadassana)",
+          9
+     ],
+     [
           "unwholesome roots (rāga, dosa, moha)",
           9
      ],
@@ -1841,6 +1841,10 @@ export const headwordSubheadCount =[
      ],
      [
           "applied and sustained thought (vitakkavicārā)",
+          8
+     ],
+     [
+          "blind people",
           8
      ],
      [
@@ -2348,10 +2352,6 @@ export const headwordSubheadCount =[
           7
      ],
      [
-          "singing",
-          7
-     ],
-     [
           "solitary life",
           7
      ],
@@ -2468,10 +2468,6 @@ export const headwordSubheadCount =[
           6
      ],
      [
-          "blind people",
-          6
-     ],
-     [
           "bowing down (abhivādana)",
           6
      ],
@@ -2489,10 +2485,6 @@ export const headwordSubheadCount =[
      ],
      [
           "conversion",
-          6
-     ],
-     [
-          "dancing",
           6
      ],
      [
@@ -2740,6 +2732,10 @@ export const headwordSubheadCount =[
           6
      ],
      [
+          "singing",
+          6
+     ],
+     [
           "stars",
           6
      ],
@@ -2856,6 +2852,14 @@ export const headwordSubheadCount =[
           5
      ],
      [
+          "Bimbisāra, King",
+          5
+     ],
+     [
+          "blood",
+          5
+     ],
+     [
           "bodily conduct (kāyasamācāra)",
           5
      ],
@@ -2913,6 +2917,10 @@ export const headwordSubheadCount =[
      ],
      [
           "cruelty (hiṁsa, vihiṁsā)",
+          5
+     ],
+     [
+          "dancing",
           5
      ],
      [
@@ -3116,10 +3124,6 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "makeup",
-          5
-     ],
-     [
           "malicious thoughts (byāpādavitakka)",
           5
      ],
@@ -3141,10 +3145,6 @@ export const headwordSubheadCount =[
      ],
      [
           "most beautiful girl in this country (janapadakalyāṇī)",
-          5
-     ],
-     [
-          "music",
           5
      ],
      [
@@ -3193,10 +3193,6 @@ export const headwordSubheadCount =[
      ],
      [
           "perception of ugliness",
-          5
-     ],
-     [
-          "perfume",
           5
      ],
      [
@@ -3261,10 +3257,6 @@ export const headwordSubheadCount =[
      ],
      [
           "sense perceptions (kāmasaññā)",
-          5
-     ],
-     [
-          "shows",
           5
      ],
      [
@@ -3428,15 +3420,19 @@ export const headwordSubheadCount =[
           4
      ],
      [
-          "Bimbisāra, King",
-          4
-     ],
-     [
           "bliss of renunciation (nekkhammasukha)",
           4
      ],
      [
           "bliss of seclusion (pavivekasukha)",
+          4
+     ],
+     [
+          "boasting",
+          4
+     ],
+     [
+          "boats",
           4
      ],
      [
@@ -3748,6 +3744,10 @@ export const headwordSubheadCount =[
           4
      ],
      [
+          "makeup",
+          4
+     ],
+     [
           "Makkhali Gosāla",
           4
      ],
@@ -3844,6 +3844,10 @@ export const headwordSubheadCount =[
           4
      ],
      [
+          "music",
+          4
+     ],
+     [
           "mustard seeds",
           4
      ],
@@ -3889,6 +3893,10 @@ export const headwordSubheadCount =[
      ],
      [
           "perception of danger/drawback (ādīnavasaññā)",
+          4
+     ],
+     [
+          "perfume",
           4
      ],
      [
@@ -4017,6 +4025,10 @@ export const headwordSubheadCount =[
      ],
      [
           "sexual misconduct, giving up",
+          4
+     ],
+     [
+          "shows",
           4
      ],
      [
@@ -4285,14 +4297,6 @@ export const headwordSubheadCount =[
      ],
      [
           "Bhadda, Ven.",
-          3
-     ],
-     [
-          "blood",
-          3
-     ],
-     [
-          "boasting",
           3
      ],
      [
@@ -4872,6 +4876,10 @@ export const headwordSubheadCount =[
           3
      ],
      [
+          "overestimation",
+          3
+     ],
+     [
           "painters",
           3
      ],
@@ -4965,6 +4973,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Rādha, Ven.",
+          3
+     ],
+     [
+          "rafts",
           3
      ],
      [
@@ -5581,10 +5593,6 @@ export const headwordSubheadCount =[
      ],
      [
           "Bhūmija, Ven.",
-          2
-     ],
-     [
-          "birth",
           2
      ],
      [
@@ -6788,10 +6796,6 @@ export const headwordSubheadCount =[
           2
      ],
      [
-          "overestimation",
-          2
-     ],
-     [
           "ownership (pariggaha)",
           2
      ],
@@ -6949,10 +6953,6 @@ export const headwordSubheadCount =[
      ],
      [
           "rafters",
-          2
-     ],
-     [
-          "rafts",
           2
      ],
      [
@@ -8045,10 +8045,6 @@ export const headwordSubheadCount =[
      ],
      [
           "bliss (sukha)",
-          1
-     ],
-     [
-          "boat, bailed out",
           1
      ],
      [

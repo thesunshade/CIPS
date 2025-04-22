@@ -3,6 +3,12 @@ dependent origination		xref wholesome chain of causality
 awakening (sambodha)		xref nibbāna
 nibbāna		xref awakening (sambodha)
 scavenging		xref alms gathering practice
+blame		xref accusations
+blame		xref admonishment
+blame		xref criticism
+accusations		xref blame
+criticism		xref blame
+admonishment		xref blame
 actions (kamma)		xref right action (sammā kammanta)
 actions (kamma)		xref unintentional actions (asañcetanika)
 aggression (sārambha)		xref violence
@@ -1752,13 +1758,18 @@ going forth (pabbajja)		xref brahmacariya
 ordination (upasampadā)		xref brahmacariya
 spiritual path (brahmacariya)		xref going forth (pabbajja)
 spiritual path (brahmacariya)		xref ordination (upasampadā)
+blood		xref body parts
 hair		xref head on fire
 sunrise		xref dawn
 dawn		xref sunrise
 madness		xref insanity (ummāda, ummattaka)
 madness		xref insanity (amūḷha)
 noble truth (ariyasacca)		xref four noble truths
+rafts		xref boats
+boats		xref rafts
 cloth		xref rag
+overestimation		xref boasting
+boasting		xref overestimation
 rag		xref cloth
 noble truth of suffering		xref four noble truths
 noble truth of the cessation of suffering		xref four noble truths
@@ -1794,6 +1805,7 @@ plants	not injuring	DN1:1.7.0.1
 seeds	not injuring	DN1:1.7.0.1
 eating in one time (ekabhattika)	Buddha practices	DN1:1.7.0.1
 dancing	abstaining from	DN1:1.7.0.1
+garlands	abstaining from	DN1:1.7.0.1
 singing	abstaining from	DN1:1.7.0.1
 music	abstaining from	DN1:1.7.0.1
 fragrances	abstaining from	DN1:1.7.0.1
@@ -1905,6 +1917,7 @@ plants	not injuring	DN2:34.0.1
 seeds	not injuring	DN2:34.0.1
 eating in one time (ekabhattika)	Buddha practices	DN2:34.0.1
 dancing	abstaining from	DN2:34.0.1
+garlands	abstaining from	DN2:34.0.1
 singing	abstaining from	DN2:34.0.1
 music	abstaining from	DN2:34.0.1
 fragrances	abstaining from	DN2:34.0.1
@@ -2246,7 +2259,7 @@ Pokkharasāti, brahmin	student praising	DN13
 roads (magga)	all leading so same town, simile for teachings	DN13:8.0
 villages (gāma)	all roads leading to same, simile for teachings	DN13:8.0
 Brahmā	brahmin teachers have not directly seen	DN13:11.0
-blind people	line of, simile for following one who does not see	DN13:11.0
+blind people	simile for following one who does not see, line of	DN13:11.0
 sun (sūriya)	brahmins cannot teach path to	DN13:11.0
 moon	brahmins cannot teach path to	DN13:11.0
 most beautiful girl in this country (janapadakalyāṇī)	simile for not knowing thing being taught	DN13:11.0
@@ -2283,13 +2296,12 @@ attendants	of previous Buddhas	DN14:1.0
 parents	of previous Buddhas	DN14:1.0
 city (nagara)	of previous Buddhas	DN14:1.0
 Buddha, the	knowing Buddhas of the past	DN14:1.0
-bodhisattas	characteristics, behaviours	DN14:1.17.0
+bodhisattas	characteristics, behaviours, birth	DN14:1.17.0
 Tusita heaven	bodhisatta’s place in	DN14:1.17.0
 light	spreading through the universe	DN14:1.17.0
 bodhisattas	mothers of	DN14:1.17.0
 mothers	of bodhisattas	DN14:1.17.0
 gems	simile for bodhisattas	DN14:1.17.0
-birth	of bodhisattas	DN14:1.17.0
 marks of a great man	appearing on Vipassī Buddha	DN14:1.31.0
 brahmins	soothsayers examining bodhisattas	DN14:1.31.0
 blinking	Tavatiṁsa gods do not	DN14:1.33.8.0
@@ -3232,7 +3244,7 @@ lions	Buddhas have jaw like	DN30:2.25.0
 Buddhas	no one can kill	DN30:2.25.0
 wheel-turning monarchs	no one can kill	DN30:2.25.0
 teeth	Buddhas’	DN30:2.28.0
-right livelihood (sammā ājīva)	Bodhisattas’	DN30:2.28.0
+right livelihood (sammā ājīva)	Bodhisatta’s	DN30:2.28.0
 treasures, seven (satta ratana)	of wheel-turning monarch	DN30:2.28.0
 Sigālaka, householder	sermon to	DN31
 directions	honoring	DN31
@@ -3752,11 +3764,11 @@ four noble truths	analysis of	MN9
 suffering (dukkha)	definition	MN9
 craving (taṇhā)	cause of suffering	MN9
 old age (jarā)	definition	MN9
-old age (jarā)	as part of right view	MN9
+old age (jarā)	right view	MN9
 death (maraṇa)	definition	MN9
-death (maraṇa)	as part of right view	MN9
+death (maraṇa)	right view	MN9
 birth (jāti)	definition	MN9
-birth (jāti)	as part of right view	MN9
+birth (jāti)	right view	MN9
 aggregates (khandha)	definition of birth	MN9
 aggregates (khandha)	definition of death	MN9
 becoming (bhava)	definition	MN9
@@ -4310,6 +4322,10 @@ plants	not injuring	MN27
 seeds	not injuring	MN27
 eating in one time (ekabhattika)	monastic training	MN27
 shows	abstaining from	MN27
+music	abstaining from	MN27
+singing	abstaining from	MN27
+dancing	abstaining from	MN27
+garlands	abstaining from	MN27
 entertainment	abstaining from	MN27
 makeup	abstaining from	MN27
 perfume	abstaining from	MN27
@@ -4642,6 +4658,7 @@ parents	conception of embryo	MN38
 gandhabbas	conception of embryo	MN38
 pregnancy	process	MN38
 milk	mother’s milk like blood	MN38
+blood	mother’s milk 	MN38
 children	playing childish games	MN38
 sense pleasures (kāma, kāmaguṇa)	enjoying before ordaining	MN38
 mindfulness of body (kāyagatāsati)	unestablished when enjoying sense pleasures	MN38
@@ -5033,13 +5050,13 @@ useless speech, giving up	definition	MN51
 plants	not injuring	MN51
 seeds	not injuring	MN51
 eating	in one part of the day	MN51
-dancing	avoiding	MN51
-singing	avoiding	MN51
-music	avoiding	MN51
-shows	avoiding	MN51
-garlands	avoiding	MN51
-perfume	avoiding	MN51
-makeup	avoiding	MN51
+dancing	abstaining from	MN51
+singing	abstaining from	MN51
+music	abstaining from	MN51
+shows	abstaining from	MN51
+garlands	abstaining from	MN51
+perfume	abstaining from	MN51
+makeup	abstaining from	MN51
 beds	luxurious, abstaining from 	MN51
 money	not accepting	MN51
 meat	raw, not accepting	MN51
@@ -5181,7 +5198,6 @@ blame	giving up	MN54
 anger, giving up (kodha)	by not being angry	MN54
 fetters (saṁyojana)	causing bad behavior	MN54
 fetters (saṁyojana)	giving up	MN54
-blame	fear of	MN54
 self-reproach (attānuvāda)	to give up bad behavior	MN54
 fetters (saṁyojana)	bad actions as fetter	MN54
 taints (āsava)	caused by bad behavior	MN54
@@ -6073,6 +6089,7 @@ rainy season	King Kikī inviting Kassapa Buddha	MN81
 confidence (aveccappasāda)	of Ghaṭīkāra	MN81
 precepts, ten	layperson following	MN81
 potters	Ghaṭīkāra	MN81
+blind people	parents	MN81
 Buddha, the	description of	MN82
 Raṭṭhapāla, Ven.	going forth, etc.	MN82
 going forth (pabbajja)	parents’ permission needed	MN82
@@ -14597,6 +14614,7 @@ arahants	like shadow of pillar completely destroyed	AN4.195
 arahants	equanimity towards senses	AN4.195
 virtue (sīla)	as one, but not only, factor of monastic life	AN4.196
 mortification (tapojigucchā)	purification through	AN4.196
+boats	simile for escaping saṁsāra	AN4.196
 giving (dāna)	result of	AN4.197
 Mallikā, Queen	asking about human variation	AN4.197
 results of actions	mixture of	AN4.197
@@ -15757,7 +15775,7 @@ powers (bala)	lack of five as debt	AN6.45
 regret	like being prosecuted	AN6.45
 hell (niraya)	rebirth in like being in prison	AN6.45
 animal realm	rebirth in like being in prison	AN6.45
-poverty	as suffering in the world	AN6.45
+poverty	suffering in the world	AN6.45
 Dhamma visible here and now (sandiṭṭhika)	definition	AN6.47
 Dhamma visible here and now (sandiṭṭhika)	definition	AN6.48
 Khema, Ven.	declaring enlightenment	AN6.49
@@ -15766,11 +15784,11 @@ declaring enlightenment	as a joke	AN6.49
 declaring enlightenment	in different ways	AN6.49
 conceit of inferiority (omāna)	arahants do not have	AN6.49
 conceit of superiority (atimāna)	arahants do not have	AN6.49
-sense restraint (indriyasaṁvara)	as condition for virtue	AN6.50
+sense restraint (indriyasaṁvara)	condition for virtue	AN6.50
 sense restraint (indriyasaṁvara)	eventually leads to knowledge and vision	AN6.50
-virtue (sīla)	as leads to right concentration	AN6.50
-right concentration (sammā samādhi)	as condition for true knowledge and vision	AN6.50
-true knowledge and vision (yathābhūtañāṇadassana)	as condition for disillusionment and dispassion	AN6.50
+virtue (sīla)	leads to right concentration	AN6.50
+right concentration (sammā samādhi)	condition for true knowledge and vision	AN6.50
+true knowledge and vision (yathābhūtañāṇadassana)	condition for disillusionment and dispassion	AN6.50
 disillusionment and dispassion (nibbidāvirāga)	condition for knowledge and vision of freedom	AN6.50
 knowledge and vision of freedom (vimuttiñāṇadassana)	disillusionment and dispassion as condition for	AN6.50
 trees	simile for one without conditions	AN6.50
@@ -19994,6 +20012,7 @@ envy (issā)	block to concentration	Dhp365
 livelihood	monastic	Dhp366
 praise	by gods	Dhp366
 loving-kindness (mettā)	leads to enlightenment	Dhp368
+boats	simile for escaping saṁsāra	Dhp369
 sense pleasures (kāma, kāmaguṇa)	like iron ball	Dhp371
 wisdom (paññā)	concentration and	Dhp372
 concentration (samādhi)	wisdom	Dhp372
@@ -20672,6 +20691,7 @@ honor	your Dhamma teacher	Snp2.9
 Dhamma teaching	when not ready	Snp2.8
 association	with wise	Snp2.8
 Dhamma teachers	like boat	Snp2.8
+boats	simile for teacher	Snp2.8
 listening to Dhamma	to reach highest goal	Snp2.9
 Dhamma	delight in	Snp2.9
 honor	elders	Snp2.9
@@ -20695,6 +20715,7 @@ lay life	advice for	Snp2.14
 uposatha	lay practice	Snp2.14
 lay life	uposatha practice	Snp2.14
 Bodhisatta	Gotama	Snp3.1
+Bimbisāra, King	meeting Bodhisatta	Snp3.1
 Bodhisatta	Gotama	Snp3.2
 Māra	attacks the Buddha	Snp3.2
 Māra	army of	Snp3.2
@@ -20811,7 +20832,7 @@ nibbāna	undeceptive nature	Snp3.12
 sense pleasures (kāma, kāmaguṇa)	causing happiness and sadness	Snp4.1
 sense pleasures (kāma, kāmaguṇa)	like snake head to be avoided	Snp4.1
 suffering (dukkha)	like leaky boat	Snp4.1
-boat, bailed out	simile for escaping saṁsāra	Snp4.1
+boats	simile for escaping saṁsāra	Snp4.1
 sense pleasures (kāma, kāmaguṇa)	of the past and future	Snp4.2
 attachments	like fish in dried-up stream	Snp4.2
 boasting	about ones own virtue	Snp4.3
@@ -21340,6 +21361,7 @@ mindfulness of breathing (ānāpānassati)	lights up the world	Thag10.3
 moon	simile for practitioner of mindfulness of breathing	Thag10.3
 wealth	loss of compared to wisdom 	Thag10.3
 grieving	makes enemies rejoice	Thag10.3
+boats	simile for good family	Thag10.3
 slow spiritual progress	helped by teacher	Thag10.4
 monastic life	not getting results for a long time	Thag10.4
 cloth	clean, meditation on	Thag10.4

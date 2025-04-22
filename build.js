@@ -49,7 +49,13 @@ function createIndexObject(indexArray) {
 
   for (let i = 0; i < rawIndexArray.length - 1; i++) {
     const head = rawIndexArray[i][0].trim();
-    const sub = rawIndexArray[i][1].trim();
+    let sub = "";
+    try {
+      sub = rawIndexArray[i][1].trim();
+    } catch (err) {
+      console.error(`❌ Cannot process csv file. Try TAB delimited instead.`);
+      process.exit(1); // stop the script
+    }
     const locator = rawIndexArray[i][2].trim();
 
     const headStartingWithLetter = head.replace("“", "");
