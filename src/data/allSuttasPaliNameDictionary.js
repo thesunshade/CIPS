@@ -3733,7 +3733,7 @@ export const allSuttasPaliNameDictionary = {
   "AN4.184": "Jāṇussonī [Abhaya]",
   "AN4.185": "Catukoṭikasuññatā [Brāhmaṇasacca]",
   "AN4.186": "Bahussuta [Ummagga]",
-  "AN4.187": "Vassakāra[Vassakāra 2]",
+  "AN4.187": "Vassakāra [Vassakāra 2]",
   "AN4.188": "Upaka",
   "AN4.189": "Sacchikaraṇīya",
   "AN4.190": "Bhikkhusaṅghathomana [Uposatha]",

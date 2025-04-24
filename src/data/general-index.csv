@@ -52,8 +52,8 @@ bases of psychic power (iddhipāda)		xref psychic powers (iddhi)
 going forth (pabbajja)		xref renunciation (nekkhamma)
 renunciation (nekkhamma)		xref going forth (pabbajja)
 beings (satta)		xref abodes of beings
-hair		xref body
-bones		xref body
+hair		xref body (kāya)
+bones		xref body (kāya)
 rag-robe wearing		xref robes
 five aggregates		xref aggregates
 psychic powers		xref magic
@@ -505,7 +505,7 @@ food		xref rice
 food		xref sugar cane
 body parts		xref blood
 body parts		xref bones
-body parts		xref skeleton
+body parts		xref skeletons
 body parts		xref spit
 body parts		xref throat
 geographic features		xref bog (paṅka)
@@ -847,8 +847,8 @@ illness		xref sickness
 wholesomeness		xref skillfulness (kusala)
 giving (dāna)		xref gifts, specific types of
 psychic powers (iddhi)		xref past lives, knowledge of (pubbenivāsānussatiñāṇa)
-body		xref mindfulness of body (kāyagatāsati)
-mindfulness of body (kāyagatāsati)		xref body
+body (kāya)		xref mindfulness of body (kāyagatāsati)
+mindfulness of body (kāyagatāsati)		xref body (kāya)
 sensual pleasures		xref sense pleasures (kāma, kāmaguṇa)
 spiritual path (brahmacariya)		xref monastic life
 solitary Buddha		xref paccekabuddhas
@@ -996,7 +996,7 @@ powers (bala)		xref psychic powers (iddhi)
 wise attention		xref proper attention (yoniso manasikāra)
 yoniso manasikāra		xref proper attention (yoniso manasikāra)
 monastic life		xref requisites, four
-body		xref perception of ugliness (asubhasaññā)
+body (kāya)		xref perception of ugliness (asubhasaññā)
 asubhasaññā		xref perception of ugliness (asubhasaññā)
 unattractiveness		xref perception of ugliness (asubhasaññā)
 threefold knowledge		xref knowledges, three (vijjā)
@@ -1399,7 +1399,7 @@ heart (cetas)		xref mind (cetas)
 young person		xref youths
 women		xref youths
 men		xref youths
-body		xref rotten body (pūtikāya)
+body (kāya)		xref rotten body (pūtikāya)
 sorry, saying		xref asking forgiveness
 left over, with something (saupādisesa)		xref residue remaining, with (saupādisesa)
 diligence		xref heedfulness (appamāda)
@@ -1770,6 +1770,7 @@ boats		xref rafts
 cloth		xref rag
 overestimation		xref boasting
 boasting		xref overestimation
+corpse		xref corpse
 rag		xref cloth
 noble truth of suffering		xref four noble truths
 noble truth of the cessation of suffering		xref four noble truths
@@ -2504,7 +2505,7 @@ secrets	Buddha has no secret teachings	DN16:2.21.0
 Buddha, the	eighty years old	DN16:2.21.0
 carts	old held together with straps, simile for Buddha in old age	DN16:2.21.0
 old age	Buddha experiencing	DN16:2.21.0
-body	old, like cart held together with straps	DN16:2.21.0
+body (kāya)	like cart held together with straps	DN16:2.21.0
 signless immersion of the heart (animittaṁ cetosamādhi)	Buddha finds comfort in	DN16:2.21.0
 islands	let the teaching be your	DN16:2.21.0
 Dhamma	as island	DN16:2.21.0
@@ -2624,7 +2625,7 @@ wheel-turning monarchs	King Mahāsudassana	DN17:1.7.0.1
 results of actions	wheel-turning monarchs 	DN17:2.1.0
 jhānas	laypeople attaining	DN17:2.1.0
 lifespans	in the past	DN17:2.13.0
-Bodhisatta	reborn as Mahāsudassana	DN17:2.13.0
+Bodhisatta	reborn as king	DN17:2.13.0
 conditions (saṅkāra)	impermanent, unstable (adhuvā), unreliable (anassāsikā)	DN17:2.13.0
 rebirth (upapatti)	Buddha declaring of people	DN18:1.0
 Bimbisāra, King	admiration for	DN18:4.0
@@ -2757,12 +2758,12 @@ defecating	mindfulness of body	DN22:2.0.1
 situational awareness (sampajañña)	mindfulness of body	DN22:2.0.1
 perception of ugliness	mindfulness of body	DN22:2.0.1
 mindfulness of body (kāyānupassanā)	ugliness	DN22:2.0.1
-body	like bag of grains	DN22:2.0.1
-body	thirty-two parts	DN22:2.0.1
+body (kāya)	like bag of grains	DN22:2.0.1
+body (kāya)	thirty-two parts	DN22:2.0.1
 grains	bag of, simile for parts of body	DN22:2.0.1
 elements (dhātu)	mindfulness of body	DN22:2.0.1
 mindfulness of body (kāyānupassanā)	elements	DN22:2.0.1
-body	like cuts of meat	DN22:2.0.1
+body (kāya)	like cuts of meat	DN22:2.0.1
 meat	cuts of, simile for elements in body	DN22:2.0.1
 butchers	cuts of meat, simile for elements in body	DN22:2.0.1
 charnel ground contemplation (sivathikā)	mindfulness of body	DN22:2.0.1
@@ -3821,12 +3822,12 @@ defecating	mindfulness of body	MN10
 situational awareness (sampajañña)	mindfulness of body	MN10
 perception of ugliness	mindfulness of body	MN10
 mindfulness of body (kāyānupassanā)	ugliness	MN10
-body	like bag of grains	MN10
-body	thirty-two parts	MN10
+body (kāya)	like bag of grains	MN10
+body (kāya)	thirty-two parts	MN10
 grains	bag of, simile for parts of body	MN10
 elements (dhātu)	mindfulness of body	MN10
 mindfulness of body (kāyānupassanā)	elements	MN10
-body	like cuts of meat	MN10
+body (kāya)	like cuts of meat	MN10
 meat	cuts of, simile for elements in body	MN10
 butchers	cuts of meat, simile for elements in body	MN10
 charnel ground contemplation (sivathikā)	mindfulness of body	MN10
@@ -4022,8 +4023,8 @@ doubt (vicikicchā)	about triple gem and training	MN16
 spiritual companions (sabrahmacārī)	anger at	MN16
 angry (kupita)	with spiritual companions	MN16
 sense pleasures (kāma, kāmaguṇa)	desire and craving for	MN16
-body (kāya)	desire and craving for	MN16
-form (rūpa)	desire and craving for	MN16
+body (kāya)	greed for as bondage of the mind	MN16
+form (rūpa)	greed for as bondage of the mind	MN16
 overeating	as shackle in the heart	MN16
 shackle of the mind (cetasovinibandha)	five	MN16
 rebirth	among gods, wishing for	MN16
@@ -4380,7 +4381,7 @@ form aggregate of clinging (rūpupādānakkhandha)	definition	MN28
 elements, four great (cattāri mahābhūtāni)	definition	MN28
 earth element (pathavī dhātu)	definition	MN28
 interior and exterior elements (ajjhattika bāhira)	definition	MN28
-body parts	made of elements	MN28
+body parts	elements	MN28
 “This is not mine, I am not this, this is not my self”	elements as	MN28
 disillusionment (nibbidā)	with elements	MN28
 correct understanding (sammappaññā)	seeing with	MN28
@@ -4417,7 +4418,7 @@ aggregates (khandha)	giving up desire for is end of suffering	MN28
 ears	arising of ear consciousness	MN28
 noses	arising of nose consciousness	MN28
 tongues	arising of tongue consciousness	MN28
-body (kāya)	arising of ear consciousness	MN28
+body (kāya)	arising of body consciousness	MN28
 mind (mano)	arising of mind consciousness	MN28
 Devadatta	Buddha criticizing	MN29
 gain (lābha)	being content with	MN29
@@ -5203,7 +5204,7 @@ fetters (saṁyojana)	bad actions as fetter	MN54
 taints (āsava)	caused by bad behavior	MN54
 training of the Noble One (ariya vinaya)	cutting off household life	MN54
 sense pleasures (kāma, kāmaguṇa)	like skeleton	MN54
-skeleton	simile for sense pleasures	MN54
+skeletons	simile for sense pleasures	MN54
 sense pleasures (kāma, kāmaguṇa)	like lumps of meat	MN54
 meat	simile for sense pleasures	MN54
 vultures	simile for sense pleasures	MN54
@@ -5399,7 +5400,7 @@ mindfulness of breathing (ānāpānassati)	how to practice	MN62
 earth element (pathavī dhātu)	definition	MN62
 earth element (pathavī dhātu)	internal and external	MN62
 earth element (pathavī dhātu)	right understanding and	MN62
-body parts	elements and	MN62
+body parts	elements	MN62
 “This is not mine, I am not this, this is not my self”	elements as	MN62
 water element (āpo dhātu)	definition	MN62
 water element (āpo dhātu)	internal and external	MN62
@@ -5789,10 +5790,10 @@ views (diṭṭhi)	“I believe in nothing”	MN74
 views (diṭṭhi)	clinging to	MN74
 disputes	over views	MN74
 disputes	results of	MN74
-body	created from	MN74
-body	impermanent	MN74
-body	disease, boil, dart	MN74
-body	not-self	MN74
+body (kāya)	created from	MN74
+body (kāya)	impermanent	MN74
+body (kāya)	disease, boil, dart	MN74
+body (kāya)	not-self	MN74
 feelings (vedanā)	three	MN74
 feelings (vedanā)	only one at a time	MN74
 feelings (vedanā)	impermanence	MN74
@@ -5838,7 +5839,7 @@ cloth	white cloth, simile for spiritual deception	MN75
 blind people	simile for spiritual deception	MN75
 faith (saddhā)	misplaced, like blind person tricked	MN75
 wanderers of other sects (aññatitthiya paribbājaka)	blind	MN75
-body	disease, boil, dart	MN75
+body (kāya)	disease, boil, dart	MN75
 aggregates (khandha)	giving up desire for when vision arises	MN75
 mind (citta)	cheated, tricked, deceived by	MN75
 dependent origination (paṭiccasamuppāda)	short version and aggregates	MN75
@@ -6134,7 +6135,7 @@ wealth	left behind after death	MN82
 fruit	falling, simile for death	MN82
 Buddha, the	smiling	MN83
 Makhādeva, King	bodhisatta	MN83
-Bodhisatta	reborn as King Makhādeva	MN83
+Bodhisatta	reborn as king	MN83
 barbers	of King Makhādeva	MN83
 hair	grey	MN83
 going forth (pabbajja)	non-Buddhist	MN83
@@ -7039,7 +7040,7 @@ mindfulness of breathing (ānāpānassati)	fulfils the four foundations of mindf
 foundations of mindfulness, four (satipaṭṭhāna)	fulfils the seven awakening factors	MN118
 awakening factors, seven (bojjhaṅga)	fulfil knowledge and freedom	MN118
 cross-legged (pallaṅka)	mindfulness of breathing	MN118
-body	mindfulness of breathing	MN118
+body (kāya)	mindfulness of breathing	MN118
 bodily formation (kāyasaṅkhāra)	mindfulness of breathing	MN118
 rapture (pīti)	mindfulness of breathing	MN118
 happiness (sukha)	mindfulness of breathing (bliss)	MN118
@@ -7077,11 +7078,12 @@ eating	situational awareness (sampajañña)	MN119
 perception of ugliness (asubhasaññā)	mindfulness of body	MN119
 mindfulness of body (kāyagatāsati)	ugliness	MN119
 lay life	memories and thoughts of	MN119
-body	like bag of grains	MN119
+body (kāya)	like bag of grains	MN119
+body (kāya)	thirty-two parts	MN119
 grains	bag of, simile for parts of body	MN119
 elements (dhātu)	mindfulness of body	MN119
 mindfulness of body (kāyagatāsati)	elements	MN119
-body	like cuts of meat	MN119
+body (kāya)	like cuts of meat	MN119
 meat	cuts of, simile for elements in body	MN119
 butchers	cuts of meat, simile for elements in body	MN119
 charnel ground contemplation (sivathikā)	mindfulness of body	MN119
@@ -7584,7 +7586,7 @@ equanimity (upekkhā)	towards sense contact	MN140
 wisdom (paññā)	do not neglect	MN140
 earth element (pathavī dhātu)	definition	MN140
 earth element (pathavī dhātu)	internal and external	MN140
-body parts	elements and	MN140
+body parts	elements	MN140
 elements (dhātu)	as not-self	MN140
 not-self	elements as	MN140
 disillusionment (nibbidā)	with elements	MN140
@@ -9749,7 +9751,7 @@ aggregates	“This is not mine, I am not this, this is not my self”	SN18.21
 Lakkhaṇa, Ven.	seeing ghosts	CUSTOM:SN:SN 19 Lakkhaṇa Saṁyutta:suttacentral.net/sn19
 Moggallāna, Ven.	seeing ghosts	CUSTOM:SN:SN 19 Lakkhaṇa Saṁyutta:suttacentral.net/sn19
 Gijjhakūṭa, mountain	non-humans on	CUSTOM:SN:SN 19 Lakkhaṇa Saṁyutta:suttacentral.net/sn19
-skeleton	former butcher	SN19.1
+skeletons	former butcher	SN19.1
 butchers	bad rebirth	SN19.1
 meat	former butcher	SN19.2
 butchers	bad rebirth	SN19.2
@@ -11676,7 +11678,7 @@ nāgas	supported by Himalayas, simile for seven awakening factors supported by v
 virtue (sīla)	grounded on one develops seven awakening factors	SN46.1
 awakening factors, seven (bojjhaṅga)	grounded on virtue	SN46.1
 awakening factors, seven (bojjhaṅga)	 	CUSTOM:SN:SN 46 Bojjhaṅga Saṁyutta:suttacentral.net/sn46
-body	supported by food, simile for hindrances	SN46.2
+body (kāya)	supported by food, simile for hindrances	SN46.2
 hindrances (nīvaraṇa)	sustained by fuel	SN46.2
 sense desire (kāmacchanda)	caused by sign of the beautiful	SN46.2
 sign of the beautiful (subhanimitta)	cause for sense desire	SN46.2
@@ -12011,7 +12013,7 @@ secrets	Buddha has no secret teachings	SN47.9
 Buddha, the	eighty years old	SN47.9
 carts	old held together with straps, simile for Buddha in old age	SN47.9
 old age	Buddha experiencing	SN47.9
-body	old, like cart held together with straps	SN47.9
+body (kāya)	like cart held together with straps	SN47.9
 signless immersion of the heart (animittaṁ cetosamādhi)	Buddha finds comfort in	SN47.9
 islands	let the teaching be your	SN47.9
 Dhamma	as island	SN47.9
@@ -12418,7 +12420,7 @@ Buddha, the	visiting brahmā realm	SN51.22
 incredible and amazing (acchariyā abbhutā)	Buddha’s psychic powers	SN51.22
 psychic powers (iddhi)	how they work	SN51.22
 balls of iron	simile for body and psychic powers	SN51.22
-body (kāya)	lighter, like heated iron ball, cotton wool	SN51.22
+body (kāya)	like heated iron ball, cotton wool; lighter	SN51.22
 cotton wool (kappāsapicu, tūlapicu)	simile for body and psychic powers	SN51.22
 non-returner (anāgāmi)	through bases of psychic power	SN51.25
 bases of psychic power (iddhipāda)	arahantship or non-returning	SN51.25
@@ -13640,8 +13642,8 @@ Way to the Beyond (Pārāyana)	Questions of Udaya 	AN3.33
 heart’s release (cetovimutti)	I making	AN3.33
 freedom by wisdom (paññāvimutti)	I making	AN3.33
 causes (nidāna)	for actions	AN3.34
-unwholesome roots (lobha, dosa, moha)	give rise to deeds	AN3.34
-wholesome roots (alobha, adosa, amoha)	give rise to deeds	AN3.34
+unwholesome roots (lobha, dosa, moha)	giving rise to deeds	AN3.34
+wholesome roots (alobha, adosa, amoha)	causing wholesome activities	AN3.34
 seeds	simile for destruction of deeds	AN3.34
 winnowing	destroyed seeds, simile for destruction of unwholesome roots	AN3.34
 Hatthaka of Āḷavī, householder	asks the Buddha if he slept well	AN3.35
@@ -13779,7 +13781,7 @@ lineage (paramparā)	going by	AN3.66
 logic (takka)	going by	AN3.66
 unwholesome roots (lobha, dosa, moha)	causes visible harm in a person	AN3.66
 wholesome roots (alobha, adosa, amoha)	as real	AN3.66
-wholesome roots (alobha, adosa, amoha)	lead to good behavior	AN3.66
+wholesome roots (alobha, adosa, amoha)	causing wholesome activities 	AN3.66
 skillfulness (kusala)	present in arahant	AN3.66
 loving-kindness (mettā)	as a protection	AN3.67
 questions, answering	three ways	AN3.67
@@ -13826,7 +13828,7 @@ recollection of virtue (sīlānussati)	on uposatha	AN3.70
 mind (citta)	corrupted cleansed by effort	AN3.70
 recollection of deities (devatānussati)	on uposatha	AN3.70
 precepts, eight	kept by noble disciples as a recollection on uposatha	AN3.70
-uposatha	results in heavenly rebirth	AN3.70
+uposatha	resulting in heaven	AN3.70
 heavenly realms	lifespan in	AN3.70
 lifespans	of gods	AN3.70
 Ānanda, Ven.	unwholesome roots	AN3.71
@@ -14007,7 +14009,7 @@ gods	teaching Dhamma	AN3.127
 Dhamma teaching	by gods	AN3.127
 gods	who were human disciples of the Buddha	AN3.127
 Hatthaka, god	visits the Buddha	AN3.127
-unsatisfied	in seeing Buddha, serving Saṅga, hearing Dhamma	AN3.127
+unsatisfied	in seeing Buddha, serving Saṅgha, hearing Dhamma	AN3.127
 Anuruddha, Ven.	asks about women’s rebirth	AN3.129
 women	reborn in hell because of stinginess	AN3.129
 Anuruddha, Ven.	enlightenment	AN3.130
@@ -14052,7 +14054,7 @@ mortification (tapojigucchā)	that are scorching	AN3.156-162
 middle path (majjhimā paṭipadā)	satipaṭṭhāna 	AN3.156-162
 addicted practice (āgāḷhā paṭipadā)	nothing wrong with sense pleasures	AN3.156-162
 scorching practice (nijjhāmā paṭipadā)	self mortification	AN3.156-162
-bodhipakkhiyā dhammā	as middle path	AN3.156-162
+bodhipakkhiyā dhammā	middle path	AN3.156-162
 emptiness concentration (suññato samādhi)	insight into greed	AN3.183
 signless concentration (animitto samādhi)	insight into greed	AN3.183
 undirected concentration (appaṇihito samādhi)	insight into greed	AN3.183
@@ -14175,7 +14177,7 @@ anger (kodha)	valuing more than the true Dhamma	AN4.44
 gain (lābha)	valuing more than the true Dhamma	AN4.44
 Rohitassa, devaputta	seeing or reaching the end of by traveling	AN4.45
 world, the	seeing the end of	AN4.45
-body	as the world	AN4.45
+corpse (kaḷevara)	as the world	AN4.45
 Dhamma	of virtuous far from the wicked	AN4.47
 Dhamma teaching	encouraging and inspiring	AN4.48
 perversion (vipallāsa)	of perception, mind, view	AN4.49
@@ -14561,7 +14563,7 @@ death (maraṇa)	no fear of	AN4.184
 fear (bhaya)	of death	AN4.184
 doubt (vicikicchā)	causing fear of death	AN4.184
 sense pleasures (kāma, kāmaguṇa)	attachment to causes fear of death	AN4.184
-body	attachment to causes fear of death	AN4.184
+body (kāya)	attachment to causes fear of death	AN4.184
 brahmins	truths	AN4.185
 “I’m better,” “I’m equal,” “I’m worse”	simply practicing	AN4.185
 world, the	led around by mind	AN4.186
@@ -15372,8 +15374,7 @@ wrong livelihood (micchā ājīva)	trades	AN5.177
 meat	wrong livelihood	AN5.177
 intoxicants	wrong livelihood	AN5.177
 poisons	wrong livelihood	AN5.177
-precepts, five	punished for keeping?	AN5.178
-precepts, five	punished for breaking	AN5.178
+precepts, five	punished for keeping/breaking	AN5.178
 punishment (daṇḍa)	for breaking precepts	AN5.178
 giving (dāna)	whom to give to	AN5.179
 lay life	higher practices	AN5.179
@@ -15457,7 +15458,7 @@ doubt (vicikicchā)	mental barrenness	AN5.205
 companionship	angry at companions as mental barrenness	AN5.205
 bondages of the mind (cetovinibaddha, cetasovinibandha)	five kinds	AN5.206
 sense pleasures (kāma, kāmaguṇa)	bondage of the mind	AN5.206
-body	greed for as bondage of the mind	AN5.206
+body (kāya)	greed for as bondage of the mind	AN5.206
 form (rūpa)	greed for as bondage of the mind	AN5.206
 overeating	bondage of the mind	AN5.206
 gods	wish to be reborn as through observances	AN5.206
@@ -17043,18 +17044,18 @@ accomplishments	faith, ethics, generosity, wisdom	AN8.54
 travel	advice	AN8.55
 present life	welfare in	AN8.55
 future lives	welfare in	AN8.55
-perils (bhaya)	term for sense pleasures	AN8.56
-sickness (roga)	term for sense pleasures	AN8.56
-boil (gaṇḍa)	term for sense pleasures	AN8.56
-darts (salla)	term for sense pleasures	AN8.56
-snare (saṅga)	term for sense pleasures	AN8.56
-bog (paṅka)	term for sense pleasures	AN8.56
-womb (gabbho)	term for sense pleasures	AN8.56
+suffering (dukkha)	sense pleasures	AN8.56
+perils (bhaya)	sense pleasures	AN8.56
+sickness (roga)	sense pleasures	AN8.56
+boil (gaṇḍa)	sense pleasures	AN8.56
+darts (salla)	sense pleasures	AN8.56
+snare (saṅga)	sense pleasures	AN8.56
+bog (paṅka)	sense pleasures	AN8.56
+womb (gabbho)	sense pleasures	AN8.56
 sense pleasures (kāma, kāmaguṇa)	terms for	AN8.56
 present life	dangers of	AN8.56
 future lives	dangers of	AN8.56
 sense pleasures (kāma, kāmaguṇa)	danger of	AN8.56
-suffering (dukkha)	sensual pleasures as	AN8.56
 giving (dāna)	worthy of gifts	AN8.57
 giving (dāna)	worthy of gifts	AN8.58
 wilderness (arañña)	living in makes one worthy of gifts	AN8.58
@@ -17400,7 +17401,6 @@ corpse	of snake or dog, simile for repulsion towards body	AN9.11
 rotten body (pūtikāya)	repulsiveness of	AN9.11
 body (kāya)	like bowl of fat	AN9.11
 bowls	of fat, simile for body	AN9.11
-body	like bowl of leaking fat	AN9.11
 asking forgiveness	example of	AN9.11
 asking forgiveness	growth in Buddha’s training	AN9.11
 head-splitting	from making false accusation	AN9.11
@@ -17452,7 +17452,7 @@ thoughts (vitakka)	deathless is its culmination	AN9.14
 deathless (amata)	as culmination	AN9.14
 humility	do not get conceited because of knowledge	AN9.14
 boil (gaṇḍa)	term for body	AN9.15
-body	like boil with nine leaking orifices	AN9.15
+body (kāya)	like boil with nine leaking orifices	AN9.15
 perception of ugliness (asubhasaññā)	body like boil	AN9.15
 perceptions (saññā)	nine	AN9.16
 deathless (amata)	perceptions that culminate in	AN9.16
@@ -17796,7 +17796,7 @@ foundations of mindfulness, four (satipaṭṭhāna)	to give up five higher fett
 mental barrenness (cetokhila)	develop foundations of mindfulness to give up	AN9.71
 foundations of mindfulness, four (satipaṭṭhāna)	to give up mental barrenness	AN9.71
 bondages of the mind (cetovinibaddha, cetasovinibandha)	develop foundations of mindfulness to give up	AN9.72
-body	greed for as bondage of the mind	AN9.72
+body (kāya)	greed for as bondage of the mind	AN9.72
 form (rūpa)	greed for as bondage of the mind	AN9.72
 gods	wish to be reborn as through observances	AN9.72
 overeating	bondage of the mind	AN9.72
@@ -18178,7 +18178,7 @@ actions (kamma)	heir to one’s	AN10.48
 actions (kamma)	ownership of	AN10.48
 seclusion	enjoying empty huts	AN10.48
 superhuman states (uttari manussadhamma)	reflecting on having them	AN10.48
-body	cause for ten things	AN10.49
+body (sarīra)	cause for ten things	AN10.49
 principles of cordiality (dhammā sāraṇīyā)	definition	AN10.50
 disputes	preventing	AN10.50
 virtue (sīla)	prevents disputes	AN10.50
@@ -18213,7 +18213,7 @@ restlessness (uddhacca)	self-examination for	AN10.51
 doubt (vicikicchā)	self-examination for	AN10.51
 anger (kodha)	self-examination for	AN10.51
 corrupted mind (saṅkiliṭṭhacitta)	self-examination for	AN10.51
-body	disturbed in	AN10.51
+body (kāya)	disturbed in	AN10.51
 energetic (āraddhavīriya)	self-examination for	AN10.51
 concentration (samādhi)	self-examination for	AN10.51
 head on fire	simile for giving up bad qualities	AN10.51
@@ -19430,7 +19430,7 @@ luxuries	abstaining from, ten precepts	Kp2
 beds	luxurious, abstaining from 	Kp2
 money	abstaining from, ten precepts	Kp2
 gold	abstaining from, ten precepts	Kp2
-body	thirty-two parts	Kp3
+body (kāya)	thirty-two parts	Kp3
 perception of ugliness (asubhasaññā)	thirty-two parts	Kp3
 boys	boy’s questions	Kp4
 food	all beings sustained by	Kp4
@@ -19630,12 +19630,12 @@ mind (citta)	tamed leads to happiness	Dhp35
 mind (citta)	as subtle	Dhp36
 mind (citta)	guarded leads to happiness	Dhp36
 faith (saddhā)	lack of prevents wisdom	Dhp38
-body	like pot	Dhp40
+body (kāya)	like pot	Dhp40
 mind (citta)	guarded like citadel	Dhp40
 death (maraṇa)	comes quickly	Dhp41
 mind (citta)	untrained worse than enemy	Dhp42
 mind (citta)	trained better than family	Dhp43
-body	like foam	Dhp46
+body (kāya)	like foam	Dhp46
 death (maraṇa)	like flood	Dhp47
 alms gathering practice	like bee and flower	Dhp49
 fault-finding	do not find fault with others	Dhp50
@@ -19749,7 +19749,7 @@ carpenters	simile for self-taming	Dhp145
 old age (jarā)	 	CUSTOM:Dhp:Dhp Chapter 11:suttacentral.net/dhp146-156/en/sujato
 urgency	when world is burning	Dhp146
 perception of ugliness (asubhasaññā)	body	Dhp147
-body	like puppet	Dhp147
+form (rūpa)	like puppet	Dhp147
 puppets	metaphor for body	Dhp147
 perception of ugliness (asubhasaññā)	body	Dhp148
 perception of ugliness (asubhasaññā)	body	Dhp149
@@ -20038,11 +20038,14 @@ hope (āsa)	no need for	Dhp410
 deathless (amata)	plunging into	Dhp411
 recollection (anussati)	of past lives	Dhp423
 Buddha, the	time after enlightenment	Ud1.1
+Bodhi Tree	sitting under for seven days	Ud1.1
 meditation	for seven days	Ud1.1
 dependent origination (paṭiccasamuppāda)	Buddha reflecting on after enlightenment	Ud1.1
 Buddha, the	time after enlightenment	Ud1.2
+Bodhi Tree	sitting under for seven days	Ud1.2
 dependent origination (paṭiccasamuppāda)	Buddha reflecting on after enlightenment	Ud1.2
 dependent origination (paṭiccasamuppāda)	Buddha reflecting on after enlightenment	Ud1.3
+Bodhi Tree	sitting under for seven days	Ud1.3
 Buddha, the	time after enlightenment	Ud1.3
 Buddha, the	time after enlightenment	Ud1.4
 meditation	for seven days	Ud1.2
@@ -20135,6 +20138,7 @@ noble silence (ariya tuṇhībhāva)	when gathering together should either discu
 Buddha, the	time after enlightenment	Ud3.10
 world, the	state of	Ud3.10
 meditation	for seven days	Ud3.10
+Bodhi Tree	sitting under for seven days	Ud3.10
 attendants	of the Buddha	Ud4.1
 Meghiya, Ven.	attendant of the Buddha	Ud4.1
 misconduct by mind	unripe mind	Ud4.1
@@ -20343,7 +20347,7 @@ Bodhisatta	reborn as Mahābrahmā	Iti22
 Bodhisatta	reborn as Sakka, lord of gods	Iti22
 Bodhisatta	reborn in realm of streaming radiance	Iti22
 Bodhisatta	reborn as wheel-turning monarch	Iti22
-Bodhisatta	reborn as a king	Iti22
+Bodhisatta	reborn as king	Iti22
 kings	Bodhisatta reborn as	Iti22
 wheel-turning monarchs	Bodhisatta reborn as	Iti22
 self-control	cause for rebirth	Iti22
@@ -20447,7 +20451,7 @@ fish	rotten, simile for association with bad people	Iti76
 association	with good like fragrance of sandalwood	Iti76
 sandalwood	simile for association with good people	Iti76
 arrows	simile for association with bad people	Iti76
-body	with bad like 	Iti77
+body (kāya)	fragile	Iti77
 association	with similar people/like elements	Iti78
 association	with wise	Iti78
 association	with fools	Iti78
@@ -20765,7 +20769,7 @@ inspiration	seeing the Buddha	Snp3.7
 appreciating (anumodati)	after meal	Snp3.7
 death (maraṇa)	inevitability of	Snp3.8
 death (maraṇa)	overcome grief of	Snp3.8
-body	like pot	Snp3.8
+life	like pot breaking	Snp3.8
 grieving	wise do not	Snp3.8
 grieving	uselessness of	Snp3.8
 Vāseṭṭha, brahmin	questioning how one becomes a brahmin	Snp3.9
@@ -21058,9 +21062,9 @@ wealth	not making good use of	Pv11
 ghosts	giving advice	Pv11
 death (maraṇa)	wise response to	Pv12
 grieving	wise do not	Pv12
-body	like snake’s skin shed	Pv12
+body (sarīra)	like snake’s skin shed	Pv12
 grieving	uselessness of	Pv12
-body	like pot	Pv13
+life	like pot	Pv12
 Sāriputta, Ven.	ghosts, helps	Pv13
 Saṅgha	giving to	Pv13
 ghosts	sharing merit with	Pv13
@@ -21240,7 +21244,7 @@ recollection (anussati)	of past lives	Thag2.23
 past lives, knowledge of	five hundred eons	Thag2.23
 enlightenment	while head being shaved	Thag2.25
 Dhamma	mirror	Thag2.26
-body	emptiness of	Thag2.26
+body (kāya)	emptiness of	Thag2.26
 mistakes	recovering like thoroughbred	Thag2.27
 lion’s roar	of disciples	Thag2.28
 lion’s roar	of disciples	Thag2.29
@@ -21507,7 +21511,7 @@ friendship	appreciating	Thig1.8
 marriage	disenchantment with	Thig1.11
 lay life	disenchantment with	Thig1.11
 encouragement	to meditate	Thig1.13
-body	danger of	Thig1.17
+body (kāya)	danger of	Thig1.17
 renunciation (nekkhamma)	giving up what one loves	Thig1.18
 perception of ugliness (asubhasaññā)	body	Thig2.1
 signless (animitta)	meditation on	Thig2.1
@@ -21583,7 +21587,7 @@ renunciation (nekkhamma)	as sanctuary	Thig11.1
 Māra	harassing bhikkhunī	Thig11.1
 bathing	as ritual	Thig12.1
 purification	with water	Thig12.1
-body	grown old	Thig13.1
+body (kāya)	old	Thig13.1
 old age (jarā)	body in	Thig13.1
 beauty	as impermanent	Thig13.1
 perception of ugliness (asubhasaññā)	body grown old	Thig13.1

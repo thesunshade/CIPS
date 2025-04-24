@@ -6,6 +6,6 @@ The ony periods at the end of a field should be for `Ven.` and `etc.` There shou
 
 # common misspellings
 
-ect nig (instead of ing)
+ect nig (instead of ing) Saṅga
 
 non attachment should non-attachment not self should be not-self

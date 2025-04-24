@@ -200,6 +200,10 @@ export const headwordSubheadCount =[
           38
      ],
      [
+          "body (kāya)",
+          37
+     ],
+     [
           "four noble truths",
           37
      ],
@@ -268,10 +272,6 @@ export const headwordSubheadCount =[
           33
      ],
      [
-          "Bodhisatta",
-          32
-     ],
-     [
           "impermanence",
           32
      ],
@@ -298,6 +298,10 @@ export const headwordSubheadCount =[
      [
           "Saṅgha",
           31
+     ],
+     [
+          "Bodhisatta",
+          30
      ],
      [
           "doubt (vicikicchā)",
@@ -346,10 +350,6 @@ export const headwordSubheadCount =[
      [
           "world, the",
           28
-     ],
-     [
-          "body",
-          27
      ],
      [
           "dimension of neither perception nor non-perception (nevasaññanāsaññāyatana)",
@@ -524,10 +524,6 @@ export const headwordSubheadCount =[
           23
      ],
      [
-          "uposatha",
-          23
-     ],
-     [
           "work",
           23
      ],
@@ -553,6 +549,10 @@ export const headwordSubheadCount =[
      ],
      [
           "sickness",
+          22
+     ],
+     [
+          "uposatha",
           22
      ],
      [
@@ -656,10 +656,6 @@ export const headwordSubheadCount =[
           19
      ],
      [
-          "precepts, five",
-          19
-     ],
-     [
           "robes",
           19
      ],
@@ -684,10 +680,6 @@ export const headwordSubheadCount =[
           19
      ],
      [
-          "body (kāya)",
-          18
-     ],
-     [
           "covetousness (abhijjhā)",
           18
      ],
@@ -705,6 +697,10 @@ export const headwordSubheadCount =[
      ],
      [
           "ordinary person (puthujjana)",
+          18
+     ],
+     [
+          "precepts, five",
           18
      ],
      [
@@ -1400,6 +1396,10 @@ export const headwordSubheadCount =[
           10
      ],
      [
+          "corpse",
+          10
+     ],
+     [
           "deathless (amata)",
           10
      ],
@@ -1560,10 +1560,6 @@ export const headwordSubheadCount =[
           10
      ],
      [
-          "unwholesome roots (lobha, dosa, moha)",
-          10
-     ],
-     [
           "views about the self (attavāda)",
           10
      ],
@@ -1609,10 +1605,6 @@ export const headwordSubheadCount =[
      ],
      [
           "conditions (saṅkāra)",
-          9
-     ],
-     [
-          "corpse",
           9
      ],
      [
@@ -1813,6 +1805,10 @@ export const headwordSubheadCount =[
      ],
      [
           "true knowledge and vision (yathābhūtañāṇadassana)",
+          9
+     ],
+     [
+          "unwholesome roots (lobha, dosa, moha)",
           9
      ],
      [
@@ -2256,6 +2252,10 @@ export const headwordSubheadCount =[
           7
      ],
      [
+          "life",
+          7
+     ],
+     [
           "lion’s roar",
           7
      ],
@@ -2465,6 +2465,10 @@ export const headwordSubheadCount =[
      ],
      [
           "bhikkhus",
+          6
+     ],
+     [
+          "body (sarīra)",
           6
      ],
      [
@@ -2864,10 +2868,6 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "body parts",
-          5
-     ],
-     [
           "bondages of the mind (cetovinibaddha, cetasovinibandha)",
           5
      ],
@@ -3112,10 +3112,6 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "life",
-          5
-     ],
-     [
           "loved ones",
           5
      ],
@@ -3344,10 +3340,6 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "wholesome roots (alobha, adosa, amoha)",
-          5
-     ],
-     [
           "worshiping (pūjā)",
           5
      ],
@@ -3444,7 +3436,7 @@ export const headwordSubheadCount =[
           4
      ],
      [
-          "body (sarīra)",
+          "body parts",
           4
      ],
      [
@@ -4297,6 +4289,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Bhadda, Ven.",
+          3
+     ],
+     [
+          "Bodhi Tree",
           3
      ],
      [
@@ -5336,6 +5332,10 @@ export const headwordSubheadCount =[
           3
      ],
      [
+          "wholesome roots (alobha, adosa, amoha)",
+          3
+     ],
+     [
           "wishing (ākaṅkhati)",
           3
      ],
@@ -5608,10 +5608,6 @@ export const headwordSubheadCount =[
           2
      ],
      [
-          "Bodhi Tree",
-          2
-     ],
-     [
           "bodies, doctrine of seven",
           2
      ],
@@ -5745,6 +5741,10 @@ export const headwordSubheadCount =[
      ],
      [
           "coral tree (pārichattaka)",
+          2
+     ],
+     [
+          "corpse (kaḷevara)",
           2
      ],
      [
@@ -7192,7 +7192,7 @@ export const headwordSubheadCount =[
           2
      ],
      [
-          "skeleton",
+          "skeletons",
           2
      ],
      [
