@@ -2,7 +2,14 @@ dependent origination		xref unwholesome chain of causality
 dependent origination		xref wholesome chain of causality
 awakening (sambodha)		xref nibbāna
 nibbāna		xref awakening (sambodha)
+brahmā realm (brahmaloka)		xref brahmās
+brahmās		xref brahmā realm (brahmaloka)
 scavenging		xref alms gathering practice
+children		xref boys
+bracelets		xref goldsmiths
+brahmās		xref gods
+Brahmā		xref brahmās
+brahmās		xref Brahmā
 blame		xref accusations
 blame		xref admonishment
 blame		xref criticism
@@ -290,13 +297,14 @@ neutral feelings (adukkhamasukhaṁ vedanā)		xref feelings (vedanā)
 bonfires		xref fires
 sapling		xref trees
 gods		xref Māra
-brahmās		xref Baka Brahmā
+brahmās		xref Baka, Brahmā
 devas		xref Sakka, Lord of Gods
 devas		xref Candana, devaputta
 devas		xref earth gods (bhummā devā)
 devas		xref Kanthaka deva
 brahmās		xref gods of Brahmā’s Host (brahmakāyika)
-brahmās		xref Mahābrahmā, the Great Brahmā
+Mahābrahmā, the Great Brahmā		xref Brahmā
+Brahmā, Great		xref Brahmā
 brahmās		xref Sahampati, Brahmā
 brahmās		xref Sanaṅkumāra, Brahmā
 brahmās		xref Tissa, Brahmā
@@ -1851,7 +1859,6 @@ eternalism (sassatavāda)	partial	DN1:1.28.0.1
 pītibhakkhā 	feeding on	DN1:1.28.0.1
 Brahmā mansions	empty appearing	DN1:1.28.0.1
 Brahmā	arising first in world system	DN1:1.28.0.1
-Brahmā, Great	arising first in world system	DN1:1.28.0.1
 Brahmā	ignorance	DN1:1.28.0.1
 devas	depraved/corrupted by play	DN1:1.28.0.1
 devas	malevolent 	DN1:1.28.0.1
@@ -2235,7 +2242,7 @@ miracle of instruction (anusāsanīpāṭihāriya)	definition	DN11:8.0
 instruction (anusāsana)	definition	DN11:8.0
 elements, four great (cattāri mahābhūtāni)	where do they cease	DN11:67.2.0
 devas	asking them questions	DN11:67.2.0
-Mahābrahmā, the Great Brahmā	asking him a question	DN11:67.2.0
+Brahmā	asking him a question	DN11:67.2.0
 brahmās	asking them questions	DN11:67.2.0
 birds	land seeking, simile for someone seeking out the Buddha last	DN11:67.2.0
 consciousness (viññāṇa)	elemnts not finding footing	DN11:67.2.0
@@ -2322,7 +2329,7 @@ dependent origination	Vipassī Buddha	DN14:2.18.0
 aggregates	Vipassī Buddha	DN14:2.18.0
 Vipassī, Buddha	enlightenment of	DN14:2.18.0
 Vipassī, Buddha	reluctant to teach	DN14:3.1.0
-Mahābrahmā, the Great Brahmā	encourages Vipassī Buddha to teach	DN14:3.1.0
+Brahmā	encourages Vipassī Buddha to teach	DN14:3.1.0
 lotuses	simile for different people’s ability to understand Dhamma	DN14:3.1.0
 mountains	person standing on, simile for Buddha	DN14:3.1.0
 gradual instruction (anupubba katha)	by Vipassī Buddha	DN14:3.1.0
@@ -2928,7 +2935,7 @@ lions	simile for the Buddha	DN24:1.19.0
 jackals (siṅgāla)	immitating a lion, simile for rivals of Buddha	DN24:1.19.0
 realm of streaming radiance (ābhassarūpa loka)	contraction of the world	DN24:2.14.0
 Brahmā mansions	empty appearing	DN24:2.14.0
-Mahābrahmā, the Great Brahmā	thinking he is creator	DN24:2.14.0
+Brahmā	thinking he is creator	DN24:2.14.0
 devas	depraved/corrupted by play	DN24:2.14.0
 devas	malevolent 	DN24:2.14.0
 gods who are non-percipient (devā asaññasattā)	origin of the world	DN24:2.14.0
@@ -3006,6 +3013,7 @@ merit (puñña)	grows from skillful qualities	DN26:28.0
 Vāseṭṭha, brahmin	abused by other brahmins	DN27
 Bhāradvāja, brahmin	abused by other brahmins	DN27
 brahmins	claims of superiority	DN27
+born from mouth	brahmins from mouth of Brahmā	DN27
 caste (vaṇṇa)	refuting	DN27
 caste (vaṇṇa)	purification of all four	DN27:5.0
 Pasenadi Kosala, King	showing respect to the Buddha	DN27:5.0
@@ -3303,7 +3311,7 @@ parents	eastern direction	DN31:27.0
 teachers (ācariyā)	southern direction	DN31:27.0
 wife and children (puttadārā)	western direction	DN31:27.0
 friends and colleagues (mittāmaccā)	northern direction	DN31:27.0
-bondservants (dāsa)	direction below	DN31:27.0
+bondservants (dāsa)	caring for; direction below	DN31:27.0
 workers (kammakara)	direction below	DN31:27.0
 ascetics and brahmins (samaṇabrāhmaṇa)	direction above	DN31:27.0
 children	caring for parents	DN31:27.0
@@ -3319,7 +3327,6 @@ husbands	caring for wife	DN31:27.0
 wives	caring for husband	DN31:27.0
 gifts, specific types of	adornments from husbands to wives	DN31:27.0
 friends and colleagues (mittāmaccā)	caring for friends	DN31:27.0
-bondservants (dāsa)	caring for	DN31:27.0
 workers (kammakara)	caring for	DN31:27.0
 loving-kindness (mettā)	by body, speech, mind  	DN31:27.0
 ascetics and brahmins (samaṇabrāhmaṇa)	caring for	DN31:27.0
@@ -3930,6 +3937,7 @@ nakedness	ascetic practice	MN12
 beards	tearing out	MN12
 standing	ascetic practice	MN12
 beds	of thorns/spikes	MN12
+bones	pillow of	MN12
 thorns	bed of	MN12
 bathing	as ritual	MN12
 bathing	encourage others	MN12
@@ -4016,7 +4024,6 @@ self-reflection	like person looking in mirror	MN15
 mirrors	simile for self-reflection	MN15
 youths	checking reflection, simile for self-examination	MN15
 mental barrenness (cetokhila)	five kinds	MN16
-bondages of the mind (cetovinibaddha, cetasovinibandha)	five kinds	MN16
 mental barrenness (cetokhila)	definition	MN16
 bondages of the mind (cetovinibaddha, cetasovinibandha)	definition	MN16
 doubt (vicikicchā)	about triple gem and training	MN16
@@ -4961,15 +4968,14 @@ right view	principle of cordiality 	MN48
 right view	leads to harmony	MN48
 loving-kindness (mettā)	by body, speech, mind 	MN48
 giving (dāna)	by monastics	MN48
-Baka Brahmā	wrong views	MN49
+Baka, Brahmā	wrong views	MN49
 Buddha, the	teaching gods	MN49
 Buddha, the	visiting brahmā realm	MN49
 wrong views (diṭṭhigata)	permanence, Baka Brahmā	MN49
 permanence	wrong view	MN49
 gods	thinking they are permanent	MN49
 Māra	debating the Buddha	MN49
-Brahmā, Great	Baka Brahmā	MN49
-goddess of luck (sirī)	chasing away	MN49
+Brahmā	chasing away	MN49
 mortification (tapojigucchā)	of ascetics in the past	MN49
 attachments (ajjhosāna)	to elements, beings, gods, etc.	MN49
 beings (bhūta)	attachment to	MN49
@@ -6159,6 +6165,7 @@ noble eightfold path (ariya aṭṭhangika magga)	established by the Buddha	MN83
 Mahā Kaccāna, Ven.	praise of	MN84
 Avantiputta, King	meeting Ven. Mahā Kaccāna	MN84
 caste (vaṇṇa)	refuting	MN84
+born from mouth	brahmins from mouth of Brahmā	MN84
 merchants (vessa)	equality with other castes	MN84
 workers (sudda)	equality with other castes	MN84
 khattiyas	equality with other castes	MN84
@@ -8610,14 +8617,14 @@ Buddha, the	respects the Dhamma	SN6.2
 Sahampati, Brahmā	agreeing with the Buddha	SN6.2
 Buddhas	all respected the Dhamma	SN6.2
 Brahmadeva, Ven.	mother worships Brahmā	SN6.3
-Sahampati, Brahmā	instructing to give to arahants, not brahmas	SN6.3
+Sahampati, Brahmā	instructing to give to arahants, not brahmās	SN6.3
 brahmās	arahants should be given to instead	SN6.3
-merit (puñña)	give to arahants, not brahmas	SN6.3
-Baka Brahmā	wrong views	SN6.4
+merit (puñña)	give to arahants, not brahmās	SN6.3
+Baka, Brahmā	wrong views	SN6.4
 Buddha, the	visiting brahmā realm	SN6.4
 brahmās	with wrong view	SN6.4
 permanence	wrong view	SN6.4
-Baka Brahmā	past merit	SN6.4
+Baka, Brahmā	past merit	SN6.4
 brahmās	with wrong view	SN6.5
 Buddha, the	visiting brahmā realm	SN6.5
 Moggallāna, Ven.	visiting brahmā realm	SN6.5
@@ -9540,7 +9547,7 @@ Ganges river	grains of sand, how many eons have passed	SN15.8
 sticks	landing in different ways, simile for different rebirths	SN15.9
 rebirth	like stick landing in different ways	SN15.9
 Vepulla, mountain	heap of bones for one person in saṁsāra	SN15.10
-bones	heap of like mountain for one person in saṁsāra	SN15.10
+bones	like mountain for one person in saṁsāra, heap of	SN15.10
 stream-enterers (sotāpanna)	seeing four noble truths	SN15.10
 bad rebirth (duggati)	experienced all in saṁsāra	SN15.11
 happiness (sukha)	experienced all in saṁsāra	SN15.12
@@ -9627,6 +9634,7 @@ crops (sassa)	wrecking, simile for not leading well	SN16.11
 Thullatissā, Ven.	scolding Ven. Mahā Kassapa	SN16.11
 Mahā Kassapa, Ven.	scolded by Ven. Thullatissā	SN16.11
 Mahā Kassapa, Ven.	meeting Buddha and receiving teaching	SN16.11
+born from mouth	Ven. Kassapa	SN16.11
 Buddha, the	exchanging robes with Ven. Mahā Kassapa	SN16.11
 elephants	hiding behind a palm leaf, simile for Ven. Mahā Kassapa	SN16.11
 senior monastics	sense of conscience and prudence towards	SN16.11
@@ -14190,10 +14198,10 @@ money	corruption of monastics	AN4.50
 sexual intercourse	corruption of monastics	AN4.50
 alcohol	corruption of monastics	AN4.50
 wrong livelihood (micchā ājīva)	corruption of monastics	AN4.50
-merit (puñña)	immeasurable amount	AN4.51
+merit (puñña)	immeasurable	AN4.51
 giving (dāna)	when merit is immeasurable	AN4.51
-merit (puñña)	immeasurable like water in ocean	AN4.51
-merit (puñña)	immeasurable amount	AN4.52
+merit (puñña)	like water in ocean, immeasurable	AN4.51
+merit (puñña)	immeasurable	AN4.52
 requisites, four	donors collect merit when used by monastics	AN4.51
 confidence (aveccappasāda)	immeasurable amount of merit	AN4.52
 virtue (sīla)	loved by noble ones	AN4.52
@@ -14964,9 +14972,9 @@ gods	who were human disciples of the Buddha	AN5.44
 giving (dāna)	result of	AN5.45
 giving (dāna)	merit like water in ocean	AN5.45
 giving (dāna)	as stream of merit	AN5.45
-merit (puñña)	immeasurable amount	AN5.45
+merit (puñña)	immeasurable	AN5.45
 giving (dāna)	when merit is immeasurable	AN5.45
-merit (puñña)	immeasurable like water in ocean	AN5.45
+merit (puñña)	like water in ocean, immeasurable	AN5.45
 requisites, four	donors collect merit when used by monastics	AN5.45
 generosity (cāga)	as an accomplishment	AN5.46
 accomplishments	faith, ethics, learning, generosity, wisdom	AN5.46
@@ -15459,7 +15467,7 @@ powers (bala)	faith, conscience, prudence, energy, wisdom	AN5.204
 mental barrenness (cetokhila)	five kinds	AN5.205
 doubt (vicikicchā)	mental barrenness	AN5.205
 companionship	angry at companions as mental barrenness	AN5.205
-bondages of the mind (cetovinibaddha, cetasovinibandha)	five kinds	AN5.206
+bondages of the mind (cetovinibaddha, cetasovinibandha)	definition	AN5.206
 sense pleasures (kāma, kāmaguṇa)	bondage of the mind	AN5.206
 body (kāya)	greed for as bondage of the mind	AN5.206
 form (rūpa)	greed for as bondage of the mind	AN5.206
@@ -16394,7 +16402,7 @@ loving-kindness (mettā)	as cause for rebirth	AN7.62
 merit (puñña)	do not fear	AN7.62
 realm of streaming radiance (ābhassarūpa loka)	Bodhisatta born in	AN7.62
 Bodhisatta	reborn in realm of streaming radiance	AN7.62
-Mahābrahmā, the Great Brahmā	Bodhisatta reborn as	AN7.62
+Brahmā	Bodhisatta reborn as	AN7.62
 Bodhisatta	reborn as Mahābrahmā	AN7.62
 Bodhisatta	reborn as Sakka, lord of gods	AN7.62
 treasures, seven (satta ratana)	Bodhisatta having	AN7.62
@@ -17928,7 +17936,6 @@ hindrances (nīvaraṇa)	arahant has given up	AN10.12
 one beyond training (asekha)	possessing ethics, immersion, wisdom, freedom, knowledge and vision of freedom	AN10.12
 fetters (saṁyojana)	ten	AN10.13
 mental barrenness (cetokhila)	five kinds	AN10.14
-bondages of the mind (cetovinibaddha, cetasovinibandha)	five kinds	AN10.14
 mental barrenness (cetokhila)	definition	AN10.14
 bondages of the mind (cetovinibaddha, cetasovinibandha)	definition	AN10.14
 Buddha, the	best of all beings	AN10.15
@@ -20351,7 +20358,7 @@ Sakka, Lord of Gods	reason for rebirth as	Iti22
 world system (lokadhātu)	collapse/contraction of	Iti22
 world system (lokadhātu)	expansion of	Iti22
 Brahmā mansions	rebirth in	Iti22
-Brahmā, Great	Buddha reborn as	Iti22
+Brahmā	Bodhisatta reborn as	Iti22
 Bodhisatta	reborn as Mahābrahmā	Iti22
 Bodhisatta	reborn as Sakka, lord of gods	Iti22
 Bodhisatta	reborn in realm of streaming radiance	Iti22
@@ -20365,6 +20372,7 @@ giving (dāna)	results in rebirth	Iti22
 heedfulness (appamāda)	results now and in future	Iti23
 heedfulness (appamāda)	in making merit	Iti23
 saṁsāra	mountain of bones of one person	Iti24
+bones	heap of bones for one person in saṁsāra	Iti24
 saṁsāra	length of	Iti24
 lying	person who lies can do anything	Iti25
 lying	indicator of shamelessness	Iti25
@@ -21629,6 +21637,7 @@ rebirth	as animal	Thig15.1
 learned (bahussutā)	example of person who is	Thig16.1
 impermanence	even gods are	Thig16.1
 sense pleasures (kāma, kāmaguṇa)	bitter like snake venom	Thig16.1
+bones	heap of bones for one person in saṁsāra	Thig16.1
 heaven (sagga)	life in is impermanent	Thig16.1
 hell (niraya)	going forth is not possible	Thig16.1
 going forth (pabbajja)	threatening to not eat if not allowed to	Thig16.1

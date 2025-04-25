@@ -152,15 +152,15 @@ export const headwordSubheadCount =[
           43
      ],
      [
-          "merit (puñña)",
-          43
-     ],
-     [
           "monastic life",
           43
      ],
      [
           "actions (kamma)",
+          42
+     ],
+     [
+          "merit (puñña)",
           42
      ],
      [
@@ -720,6 +720,10 @@ export const headwordSubheadCount =[
           17
      ],
      [
+          "Brahmā",
+          17
+     ],
+     [
           "direct knowledges (abhiññā)",
           17
      ],
@@ -1196,10 +1200,6 @@ export const headwordSubheadCount =[
           11
      ],
      [
-          "Brahmā",
-          11
-     ],
-     [
           "chariots",
           11
      ],
@@ -1385,10 +1385,6 @@ export const headwordSubheadCount =[
      ],
      [
           "association (saṁseva)",
-          10
-     ],
-     [
-          "bondservants (dāsa)",
           10
      ],
      [
@@ -1593,6 +1589,10 @@ export const headwordSubheadCount =[
      ],
      [
           "blame",
+          9
+     ],
+     [
+          "bondservants (dāsa)",
           9
      ],
      [
@@ -1841,6 +1841,10 @@ export const headwordSubheadCount =[
      ],
      [
           "blind people",
+          8
+     ],
+     [
+          "brahmā realm (brahmaloka)",
           8
      ],
      [
@@ -2129,10 +2133,6 @@ export const headwordSubheadCount =[
      ],
      [
           "beauty (vaṇṇa)",
-          7
-     ],
-     [
-          "brahmā realm (brahmaloka)",
           7
      ],
      [
@@ -2872,7 +2872,7 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "bondages of the mind (cetovinibaddha, cetasovinibandha)",
+          "bones",
           5
      ],
      [
@@ -3444,7 +3444,15 @@ export const headwordSubheadCount =[
           4
      ],
      [
+          "bondages of the mind (cetovinibaddha, cetasovinibandha)",
+          4
+     ],
+     [
           "bonfires",
+          4
+     ],
+     [
+          "born from mouth",
           4
      ],
      [
@@ -3733,10 +3741,6 @@ export const headwordSubheadCount =[
      ],
      [
           "Mahā Kappina, Ven.",
-          4
-     ],
-     [
-          "Mahābrahmā, the Great Brahmā",
           4
      ],
      [
@@ -4304,15 +4308,7 @@ export const headwordSubheadCount =[
           3
      ],
      [
-          "bones",
-          3
-     ],
-     [
           "boys",
-          3
-     ],
-     [
-          "Brahmā, Great",
           3
      ],
      [
@@ -5496,7 +5492,7 @@ export const headwordSubheadCount =[
           2
      ],
      [
-          "Baka Brahmā",
+          "Baka, Brahmā",
           2
      ],
      [
@@ -5620,7 +5616,7 @@ export const headwordSubheadCount =[
           2
      ],
      [
-          "born from mouth",
+          "bracelets",
           2
      ],
      [
@@ -8084,11 +8080,11 @@ export const headwordSubheadCount =[
           1
      ],
      [
-          "bracelets",
+          "Brahmā of a thousand (sahasso brahmā)",
           1
      ],
      [
-          "Brahmā of a thousand (sahasso brahmā)",
+          "Brahmā, Great",
           1
      ],
      [
@@ -9336,10 +9332,6 @@ export const headwordSubheadCount =[
           1
      ],
      [
-          "goddess of luck (sirī)",
-          1
-     ],
-     [
           "Godhā the Sakyan",
           1
      ],
@@ -10253,6 +10245,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Mahā Panthaka, Ven.",
+          1
+     ],
+     [
+          "Mahābrahmā, the Great Brahmā",
           1
      ],
      [
