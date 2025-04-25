@@ -210,6 +210,7 @@ export const filteredBlurbs ={
      "sn1.25": "If a perfected one has gone beyond all sense of self, would they still refer to themselves as “I”? ",
      "sn1.26": "How many lights are there that light up the world?",
      "sn1.27": "The stream of rebirth stops flowing when name and form ceases.",
+     "sn1.29": "A riddle on the topic of escape.",
      "sn1.30": "The Buddha is asked how to find release from suffering.",
      "sn1.31": "A series of deities give verses praising association with the good, and the Buddha gives his own response.",
      "sn1.32": "A series of deities give verses praising generosity, and the Buddha gives his own response.",

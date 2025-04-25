@@ -2868,6 +2868,10 @@ export const headwordSubheadCount =[
           5
      ],
      [
+          "bog (paṅka)",
+          5
+     ],
+     [
           "bondages of the mind (cetovinibaddha, cetasovinibandha)",
           5
      ],
@@ -8065,10 +8069,6 @@ export const headwordSubheadCount =[
      ],
      [
           "body, ending with (kāyapariyantika)",
-          1
-     ],
-     [
-          "bog (paṅka)",
           1
      ],
      [
