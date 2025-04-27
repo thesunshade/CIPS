@@ -1789,6 +1789,8 @@ four noble truths		xref noble truth of suffering
 four noble truths		xref noble truth of the cessation of suffering
 four noble truths		xref noble truth of the origin of suffering
 four noble truths		xref noble truth of the practice that leads to the cessation of suffering
+brahmin		xref brahmins
+brahmins		xref brahmin
 trenches		xref moats
 Suppiya, wanderer	criticizing the triple gem	DN1:1.0
 Brahmadatta, wanderer	praising the triple gem	DN1:1.0
@@ -2425,6 +2427,7 @@ growth	principles that lead to	DN16:1.4.0
 society	principles that lead to growth	DN16:1.4.0
 women	not abducting	DN16:1.4.0
 respect (gārava)	for elders	DN16:1.4.0
+bribery 	to defeat enemies	DN16:1.4.0
 harmony in Saṅgha (saṅghasāmaggī)	leads to growth	DN16:1.6.0
 meetings (sannipāta)	frequent leads to growth	DN16:1.6.0
 respect (gārava)	leads to growth	DN16:1.6.0
@@ -3665,7 +3668,7 @@ happiness (sukha)	leads to concentration	MN7
 almsfood	delicious not a hindrance	MN7
 cloth	can be made pure, simile for mind	MN7
 gold	can be made pure, simile for mind	MN7
-brahmaviharas	leading to enlightenment	MN7
+brahmaviharas	leads to enlightenment	MN7
 bathing	with “the inner bathing”	MN7
 bathing	useless as ritual	MN7
 purification	with water	MN7
@@ -4051,7 +4054,7 @@ Daṇḍapāṇi the Sakyan	questioning the Buddha	MN18
 conflicts (viggahaya)	Buddha not conflicting with anyone	MN18
 Dhamma	in brief	MN18
 Mahā Kaccāna, Ven.	explaining brief statement	MN18
-heartwood	simile for asking question from monk when should have asked the Buddha	MN18
+heartwood	simile for asking question from monk when should have asked the Buddha 	MN18
 Buddha, the	as vision and knowledge	MN18
 proliferation (papañca)	perceptions	MN18
 attachments (ajjhosāna)	from perceptions	MN18
@@ -7401,7 +7404,7 @@ delight (nandi)	in aggregates	MN131
 views about the self (attavāda)	aggregates	MN131
 Samiddhi, Ven.	on One Fine Night	MN133
 Mahā Kaccāna, Ven.	explaining brief statement	MN133
-heartwood	simile of asking question from monk when should have asked the Buddha	MN133
+heartwood	simile for asking question from monk when should have asked the Buddha	MN133
 Buddha, the	praise of	MN133
 Buddha, the	qualities of	MN133
 sense bases (āyatana)	consciousness tied to past	MN133
@@ -7534,7 +7537,7 @@ dimension of nothingness (ākiñcaññāyatana)	of person in training	MN137
 dimension of neither perception nor non-perception (nevasaññanāsaññāyatana)	of person in training	MN137
 cessation of perception and feeling (saññāvedayitanirodha)	of person in training	MN137
 Mahā Kaccāna, Ven.	explaining brief statement	MN138
-heartwood	simile of asking question from monk when should have asked the Buddha	MN138
+heartwood	simile for asking question from monk when should have asked the Buddha 	MN138
 Buddha, the	praise of	MN138
 Buddha, the	qualities of	MN138
 consciousness (viññāṇa)	scattered or not scattered	MN138
@@ -13761,7 +13764,7 @@ dependent origination (paṭiccasamuppāda)	as second noble truth	AN3.61
 perils (bhaya)	that separate mother and child	AN3.62
 noble eightfold path (ariya aṭṭhangika magga)	as practice to remove perils of old age, etc.	AN3.62
 old age, sickness, death	as perils removed by noble eightfold path	AN3.62
-loving-kindness (mettā)	as “luxurious bed” of brahmās	AN3.63
+loving-kindness (mettā)	“luxurious bed” of brahmās	AN3.63
 Buddha, the	reputation definition	AN3.63
 luxuries	not allowed for mendicants	AN3.63
 gods	“luxurious beds” of	AN3.63
@@ -14422,7 +14425,7 @@ pure abodes (suddhāvāsā)	cause for rebirth in	AN4.124
 jhānas	lead to heaven	AN4.124
 loving-kindness (mettā)	as a path to brahmā realm	AN4.125
 lifespans	of gods	AN4.125
-brahmaviharas	lead to heaven	AN4.125
+brahmaviharas	leads to heaven	AN4.125
 meditation	enjoying	AN4.125
 loving-kindness (mettā)	as a path to brahmā realm	AN4.126
 incredible and amazing (acchariyā abbhutā)	events connected with the Buddha	AN4.127
@@ -14559,7 +14562,7 @@ nibbāna	in the present life	AN4.179
 Dhamma	how to evaluate what is and what is not	AN4.180
 great references (mahāpadesa)	what is and is not Dhamma	AN4.180
 mendicants	worthy of gifts	AN4.181
-mendicants	like warrior	AN4.181
+mendicants	like warriors	AN4.181
 old age, sickness, death	no one can be guarantor	AN4.182
 results of actions	to be experienced as they should be experienced	AN4.182
 Vassakāra, brahmin	asks about speech	AN4.183
@@ -15329,7 +15332,7 @@ Dhamma teaching	out of kindness	AN5.159
 travel	urge to	AN5.160
 loving-kindness (mettā)	to abandon resentment	AN5.161
 resentment (āghāta)	overcoming	AN5.161
-brahmaviharas	to overcome resentment	AN5.161
+brahmaviharas	resentment, to overcome	AN5.161
 actions (kamma)	all are owner of their actions	AN5.161
 resentment (āghāta)	overcoming	AN5.162
 cloth	simile for overcoming resentment	AN5.162
@@ -15419,8 +15422,8 @@ dogs	compared to brahmins	AN5.191
 Doṇa, brahmin	asking Buddha why he does not bow	AN5.192
 Buddha, the	not bowing to elders	AN5.192
 brahmins	ancient traditions	AN5.192
-brahmaviharas	as practiced by brahmins	AN5.192
-sexual activity	of brahmins	AN5.192
+brahmaviharas	brahmins’ practice of	AN5.192
+sexual activity	brahmin’s	AN5.192
 marriage	practices of brahmins	AN5.192
 memorizing	why some things are not remembered	AN5.193
 memorizing	five hindrances and	AN5.193
@@ -16252,7 +16255,7 @@ respected people	good to have as friend	AN7.37
 analytical knowledge (paṭisambhidā)	qualities that will lead to	AN7.38
 Sāriputta, Ven.	analytical knowledge (paṭisambhidā)	AN7.39
 concentration (samādhi)	skills related to	AN7.40
-meditation subject	skill in	AN7.40
+meditation subject	skills in	AN7.40
 Sāriputta, Ven.	concentration	AN7.41
 Sāriputta, Ven.	praise of	AN7.42
 graduate, “ten-less” (niddasa)	definition	AN7.42
@@ -18941,7 +18944,7 @@ non-Dhamma (adhamma)	definition	AN10.113
 Dhamma and non-Dhamma	overcoming one with the other	AN10.114
 Dhamma	definition	AN10.113
 wrong eightfold path	non-Dhamma	AN10.114
-heartwood	like asking question from monk when should have asked the Buddha	AN10.115
+heartwood	simile for asking question from monk when should have asked the Buddha	AN10.115
 Ānanda, Ven.	explaining a brief statement of the Buddha	AN10.115
 Dhamma and non-Dhamma	refuting one with the other	AN10.116
 assemblies	contrary and in line with Dhamma	AN10.116
@@ -20833,6 +20836,9 @@ speech	like axe	Snp3.10
 harming a good person	like dust in wind	Snp3.10
 hell (niraya)	actions that lead to	Snp3.10
 hell (niraya)	torture in	Snp3.10
+dice	simile of good and bad luck at dice is trivial thing compared to heaven and hell	Snp3.10
+Sāriputta, Ven.	accused, falsely	Snp3.10
+Moggallāna, Ven.	accused by Kokālika	Snp3.10
 Tāvatiṁsa heaven	celebrating the Buddha’s birth	Snp3.11
 Asita, hermit	meets Bodhisatta	Snp3.11
 war	between devas and asuras	Snp3.11

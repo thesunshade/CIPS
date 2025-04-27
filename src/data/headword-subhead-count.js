@@ -688,10 +688,6 @@ export const headwordSubheadCount =[
           18
      ],
      [
-          "mendicants",
-          18
-     ],
-     [
           "oceans",
           18
      ],
@@ -757,6 +753,10 @@ export const headwordSubheadCount =[
      ],
      [
           "intention (saṅkappa)",
+          17
+     ],
+     [
+          "mendicants",
           17
      ],
      [
@@ -1924,10 +1924,6 @@ export const headwordSubheadCount =[
           8
      ],
      [
-          "heartwood",
-          8
-     ],
-     [
           "irritability (kodhana)",
           8
      ],
@@ -2053,6 +2049,10 @@ export const headwordSubheadCount =[
      ],
      [
           "sense desire (kāmacchanda)",
+          8
+     ],
+     [
+          "sexual activity",
           8
      ],
      [
@@ -2348,10 +2348,6 @@ export const headwordSubheadCount =[
           7
      ],
      [
-          "sexual activity",
-          7
-     ],
-     [
           "solitary life",
           7
      ],
@@ -2581,6 +2577,10 @@ export const headwordSubheadCount =[
      ],
      [
           "hearing the Dhamma (dhammassavana)",
+          6
+     ],
+     [
+          "heartwood",
           6
      ],
      [
@@ -3768,10 +3768,6 @@ export const headwordSubheadCount =[
           4
      ],
      [
-          "meditation subject",
-          4
-     ],
-     [
           "mental action (manokamma)",
           4
      ],
@@ -4784,6 +4780,10 @@ export const headwordSubheadCount =[
           3
      ],
      [
+          "meditation subject",
+          3
+     ],
+     [
           "meditator",
           3
      ],
@@ -5621,6 +5621,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Brahmā mansions",
+          2
+     ],
+     [
+          "bribery",
           2
      ],
      [
@@ -8113,10 +8117,6 @@ export const headwordSubheadCount =[
      ],
      [
           "breathless meditation",
-          1
-     ],
-     [
-          "bribery",
           1
      ],
      [
