@@ -228,16 +228,16 @@ export const headwordSubheadCount =[
           36
      ],
      [
+          "brahmins",
+          35
+     ],
+     [
           "devas",
           35
      ],
      [
           "going forth (pabbajja)",
           35
-     ],
-     [
-          "brahmins",
-          34
      ],
      [
           "fools (bāla)",
@@ -480,6 +480,10 @@ export const headwordSubheadCount =[
           24
      ],
      [
+          "admonishment",
+          23
+     ],
+     [
           "almsfood",
           23
      ],
@@ -526,10 +530,6 @@ export const headwordSubheadCount =[
      [
           "work",
           23
-     ],
-     [
-          "admonishment",
-          22
      ],
      [
           "children",
@@ -5112,6 +5112,10 @@ export const headwordSubheadCount =[
           3
      ],
      [
+          "spiritual progress",
+          3
+     ],
+     [
           "spit",
           3
      ],
@@ -6788,6 +6792,10 @@ export const headwordSubheadCount =[
           2
      ],
      [
+          "old age (vuḍḍha)",
+          2
+     ],
+     [
           "one thing (ekadhamma)",
           2
      ],
@@ -7205,10 +7213,6 @@ export const headwordSubheadCount =[
      ],
      [
           "slander",
-          2
-     ],
-     [
-          "slow spiritual progress",
           2
      ],
      [
