@@ -4,6 +4,7 @@ awakening (sambodha)		xref nibbāna
 nibbāna		xref awakening (sambodha)
 brahmā realm (brahmaloka)		xref brahmās
 brahmās		xref brahmā realm (brahmaloka)
+family		xref parents
 scavenging		xref alms gathering practice
 children		xref boys
 bracelets		xref goldsmiths
@@ -2487,6 +2488,8 @@ devas	living in human houses	DN16:1.26.0
 appreciating (anumodati)	after meal	DN16:1.26.0
 devas	offerings to	DN16:1.26.0
 Buddha, the	psychic powers	DN16:1.26.0
+bridges	simile for nibbāna	DN16:1.26.0
+nibbāna	like a bridge	DN16:1.26.0
 four noble truths	not truly seeing causes rebirth	DN16:2.1.0
 suffering (dukkha)	root cut off	DN16:2.1.0
 Sāḷha, Ven.	Buddha declares attainment	DN16:2.5.0
@@ -2513,7 +2516,7 @@ intention to live (jīvitasaṅkhāra)	Buddha maintains to prevent passing away	
 Ānanda, Ven.	upset when Buddha was sick	DN16:2.21.0
 hands	Buddha is open-handed	DN16:2.21.0
 secrets	Buddha has no secret teachings	DN16:2.21.0
-Buddha, the	eighty years old	DN16:2.21.0
+Buddha, the	age of	DN16:2.21.0
 carts	old held together with straps, simile for Buddha in old age	DN16:2.21.0
 old age	Buddha experiencing	DN16:2.21.0
 body (kāya)	like cart held together with straps	DN16:2.21.0
@@ -2607,6 +2610,7 @@ Subhadda	questions on Buddha’s deathbed	DN16:5.23.0
 other sects	questioning attainments of leaders	DN16:5.23.0
 teachers of other religions	questioning attainments	DN16:5.23.0
 noble eightfold path (ariya aṭṭhangika magga)	other sects	DN16:5.23.0
+Buddha, the	age of	DN16:5.23.0
 teachers (satthā)	Dhamma is teacher after Buddha’s passing	DN16:6.1.0
 Dhamma	as teacher after Buddha’s passing	DN16:6.1.0
 friend (āvuso)	seniors address juniors as	DN16:6.1.0
@@ -2799,7 +2803,7 @@ hindrances (nīvaraṇa)	understanding of	DN22:13.0.1
 aggregates (khandha)	understanding of arising and passing away	DN22:13.0.1
 faculties, sense (indriya)	understanding of arising and fulfillment	DN22:13.0.1
 awakening factors, seven (bojjhaṅga)	understanding of arising and passing away	DN22:13.0.1
-four noble truths	understanding of	DN22:13.0.1
+four noble truths	understanding	DN22:13.0.1
 four noble truths	analysis of	DN22:13.0.1
 noble truth of suffering	analysis of	DN22:13.0.1
 noble truth of the origin of suffering	analysis of	DN22:13.0.1
@@ -3582,7 +3586,7 @@ postures	overcoming fear in different	MN4
 night	as day	MN4
 day	as night	MN4
 jhānas	Buddha’s path to enlightenment	MN4
-Buddha, the	attainting enlightenment	MN4
+Bodhisatta	meditation experience	MN4
 past lives, knowledge of (pubbenivāsānussatiñāṇa)	Buddha’s knowledge of	MN4
 knowledge of passing away and rebirth of beings (cutūpapātañāna)	Buddha’s knowledge of	MN4
 knowledge of destruction of the taints (āsavakkhayañāṇa)	Buddha’s knowledge of	MN4
@@ -3860,7 +3864,7 @@ hindrances (nīvaraṇa)	understanding of	MN10
 aggregates (khandha)	understanding of arising and passing away	MN10
 faculties, sense (indriya)	understanding of arising and fulfillment	MN10
 awakening factors, seven (bojjhaṅga)	understanding of arising and passing away	MN10
-four noble truths	understanding of	MN10
+four noble truths	understanding	MN10
 time	taken to attain enlightenment	MN10
 lion’s roar	of the Buddha	MN11
 other sects	empty of ascetics	MN11
@@ -3934,7 +3938,7 @@ heaven (sagga)	like palace	MN12
 nibbāna	like lotus pond in forest	MN12
 ponds	simile for nibbāna	MN12
 mortification (tapas)	of the Buddha	MN12
-Buddha, the	self mortification of	MN12
+Bodhisatta	austerity practices	MN12
 mortification (tapas)	various practices	MN12
 robes	various kinds	MN12
 nakedness	ascetic practice	MN12
@@ -4554,7 +4558,7 @@ Saccaka Nigaṇṭhaputta	debating with the Buddha	MN35
 Assaji, Ven.	speaking with Saccaka Nigaṇṭhaputta	MN35
 Buddha, the	debating with	MN35
 debates	like tossing around sheep, strainer, etc.	MN35
-Buddha, the	how he teaches	MN35
+Buddha, the	teaching method	MN35
 aggregates	as impermanent, suffering, not-self	MN35
 conditions (saṅkāra)	impermanent	MN35
 things (dhamma)	not-self	MN35
@@ -5247,7 +5251,7 @@ ill will (vyāpāda, byāpāda)	eating almsfood	MN55
 almsfood	blameless	MN55
 brahmās	abiding in brahmaviharas	MN55
 Buddha, the	greed, hatred, delusion given up	MN55
-Buddha, the	abides in brahmaviharas	MN55
+Buddha, the	brahmaviharas	MN55
 brahmaviharas	dwelling of brahmās	MN55
 brahmaviharas	dwelling of the Buddha	MN55
 brahmaviharas	eating almsfood	MN55
@@ -5928,7 +5932,8 @@ almsfood	only eating almsfood collected house to house	MN77
 dwellings (senāsana)	only living under tree	MN77
 tree root dwelling (rukkhamūlika)	disciples who practice	MN77
 wilderness dwelling monk (āraññika)	disciples who practice	MN77
-Buddha, the	compared to disciples	MN77
+Buddha, the	disciples different from	MN77
+disciples of the Buddha	different from the Buddha	MN77
 respect (gārava)	why disciples respect the Buddha	MN77
 Buddha, the	why disciples respect	MN77
 virtue, higher (adhisīla)	why disciples respect the Buddha	MN77
@@ -6257,7 +6262,7 @@ listening to Dhamma	attentively	MN89
 debates	seeking with the Buddha	MN89
 Isidatta, householder	discussing Dhamma	MN89
 Purāṇa, householder	discussing Dhamma	MN89
-Buddha, the	eighty years old	MN89
+Buddha, the	age of	MN89
 shrines (cetiya)	dhammacetiya	MN89
 feet kissing	King Pasenadi kisses Buddha’s feet	MN89
 Viḍūḍabha, general	with King Pasenadi	MN90
@@ -6545,7 +6550,7 @@ faith (saddhā)	spiritual claims based on	MN100
 logic (takka)	spiritual claims based on	MN100
 Buddha, the	enlightenment of	MN100
 Buddha, the	path to enlightenment	MN100
-Buddha, the	austerity practices	MN100
+Bodhisatta	austerity practices	MN100
 direct knowledges (abhiññā)	claims based on	MN100
 gods	existing/surviving	MN100
 past actions	everything is caused by	MN101
@@ -6782,7 +6787,7 @@ fragrances	best of	MN107
 Gopakamoggallāna, brahmin	questions about the Buddha	MN108
 Ānanda, Ven.	are there any mendicants like the Buddha	MN108
 Buddha, the	description of	MN108
-Buddha, the	different from disciples	MN108
+Buddha, the	disciples different from	MN108
 disciples of the Buddha	different from the Buddha	MN108
 Buddha, the	discoverer of the path	MN108
 Vassakāra, brahmin	questions about the Buddha	MN108
@@ -7211,8 +7216,10 @@ Buddha, the	treating as a friend	MN122
 listening to Dhamma	properly and improperly	MN122
 Buddha, the	not treating students like potter with wet clay	MN122
 incredible and amazing (acchariyā abbhutā)	events connected with the Buddha	MN123
+Buddha, the	incredible and amazing events	MN123
 Buddha, the	knowing Buddhas of the past	MN123
 Bodhisatta	birth of	MN123
+Buddha, the	best person	MN123
 Bodhisatta	mother	MN123
 Joyful gods (tusitā devā)	Bodhisatta reborn among	MN123
 Māyā, Queen Mahā	pregnancy and birth of Bodhisatta	MN123
@@ -8566,6 +8573,7 @@ swords	simile for sense pleasures	SN5.1
 chopping block	simile for aggregates	SN5.1
 Somā, Ven.	with Māra	SN5.2
 womanhood	irrelevant for enlightenment	SN5.2
+women	wisdom, two fingered	SN5.2
 Kisāgotamī, Ven.	with Māra	SN5.2
 grieving	overcoming	SN5.3
 children	death of	SN5.3
@@ -12029,7 +12037,7 @@ intention to live (jīvitasaṅkhāra)	Buddha maintains to prevent passing away	
 Ānanda, Ven.	upset when Buddha was sick	SN47.9
 hands	Buddha is open-handed	SN47.9
 secrets	Buddha has no secret teachings	SN47.9
-Buddha, the	eighty years old	SN47.9
+Buddha, the	age of	SN47.9
 carts	old held together with straps, simile for Buddha in old age	SN47.9
 old age	Buddha experiencing	SN47.9
 body (kāya)	like cart held together with straps	SN47.9
@@ -12091,7 +12099,7 @@ views (diṭṭhi)	straight (ujuka)	SN47.15
 foundations of mindfulness, four (satipaṭṭhāna)	virtue and right view as precursor	SN47.15
 death (maccu)	realm of death (maccudheyya)	SN47.16
 Sahampati, Brahmā	agreeing with the Buddha	SN47.18
-Buddha, the	time after enlightenment	SN47.18
+Buddha, the	after enlightenment	SN47.18
 acrobats	simile for protecting oneself	SN47.19
 protection (ārakkha)	protecting oneself	SN47.19
 Medakathālikā, acrobat	protecting oneself	SN47.19
@@ -12151,7 +12159,7 @@ name and form (nāma rūpa)	origin of mind	SN47.42
 phenomena (dhamma)	origin is attention	SN47.42
 attention (manasikāra)	origin of phenomenon	SN47.42
 Sahampati, Brahmā	agreeing with the Buddha	SN47.43
-Buddha, the	time after enlightenment	SN47.43
+Buddha, the	after enlightenment	SN47.43
 foundations of mindfulness, four (satipaṭṭhāna)	heap of the skillful	SN47.45
 Dhamma	in brief	SN47.46
 skillful qualities (kusala dhamma)	starting point	SN47.46
@@ -13646,8 +13654,10 @@ wealth	vision to increase wealth	AN3.29
 skillfulness and unskillfulness	vision to see the difference between	AN3.29
 listening to Dhamma	not paying attention while	AN3.30
 listening to Dhamma	forgetting afterwards	AN3.30
+pots	simile for listening to Dhamma	AN3.30
 listening to Dhamma	remembering	AN3.30
 wisdom (paññā)	lap-like	AN3.30
+laps	simile for listening to Dhamma	AN3.30
 wisdom (paññā)	upside-down	AN3.30
 wisdom (paññā)	wide	AN3.30
 parents	honoring	AN3.31
@@ -14021,7 +14031,7 @@ food	gratification, danger, escape	AN3.123
 disputes	in the Saṅgha	AN3.124
 disputes	indicator of having given up right intention	AN3.124
 harmony in Saṅgha (saṅghasāmaggī)	indicator of having right intention	AN3.124
-Buddha, the	does not like to think about disputing monks	AN3.124
+Buddha, the	disputing monks, does not like to think about	AN3.124
 Buddha, the	teaches with direct knowledge, reason, demonstrable base	AN3.125
 faith (saddhā)	in triple gem	AN3.125
 gods	teaching Dhamma	AN3.127
@@ -16689,7 +16699,7 @@ doctrine of inaction/non-doing (akiriyavādā)	how Buddha teaches	AN8.12
 ambition	how Buddha teaches	AN8.12
 comfort (assāsa)	Buddha offering highest	AN8.12
 conversion	Buddha urging caution for one considering converting	AN8.12
-Buddha, the	how he teaches	AN8.12
+Buddha, the	teaching method	AN8.12
 giving (dāna)	“Gifts should only be given to the Buddha”	AN8.12
 giving (dāna)	to other religions	AN8.12
 conversion	continuing to give after	AN8.12
@@ -17228,7 +17238,6 @@ disillusionment and dispassion (nibbidāvirāga)	conditioned by true knowledge a
 disillusionment and dispassion (nibbidāvirāga)	condition for knowledge and vision of freedom	AN8.81
 trees	simile for one without conditions	AN8.81
 Puṇṇiya, Ven.	asking about inspiration for teaching	AN8.82
-Buddha, the	inspiration for teaching	AN8.82
 inspiration	causes Buddha to teach	AN8.82
 Buddha, the	teaching when inspired	AN8.82
 faith (saddhā)	inspires the Buddha to teach	AN8.82
@@ -17312,6 +17321,9 @@ using (paṭisevana)	after appraisal	AN9.2
 enduring (adhivāsana)	after appraisal	AN9.2
 avoiding (parivajjana)	after appraisal	AN9.2
 removing (vinodana)	after appraisal	AN9.2
+attendants	of the Buddha	AN9.3
+Meghiya, Ven.	attendant of the Buddha	AN9.3
+Buddha, the	attendants	AN9.3
 friendship	helps with cetovimutti	AN9.3
 loving-kindness (mettā)	to give up hate	AN9.3
 loving-kindness (mettā)	to abandon ill-will	AN9.3
@@ -17319,7 +17331,7 @@ misconduct by mind	unripe mind	AN9.3
 mindfulness of breathing (ānāpānassati)	to cut off thinking	AN9.3
 perception of impermanence (aniccasaññā)	to remove conceit “I am”	AN9.3
 perception of ugliness (asubhasaññā)	to give up greed	AN9.3
-talk (kathā)	getting to have good	AN9.3
+talk (kathā)	because of good friends	AN9.3
 topics of discussion, good	getting to have	AN9.3
 Nandaka, Ven.	giving a talk while Buddha waited outside	AN9.4
 noble silence (ariya tuṇhībhāva)	when gathering together should either discuss Dhamma or maintain noble silence	AN9.4
@@ -18709,7 +18721,6 @@ contentment (santuṭṭhi)	essential for monastic’s development	AN10.82
 few wishes (appiccha)	essential for monastic’s development	AN10.82
 right view (sammā diṭṭhi)	essential for monastic’s development	AN10.82
 Puṇṇiya, Ven.	asking about inspiration for teaching	AN10.83
-Buddha, the	inspiration for teaching	AN10.83
 inspiration	causes Buddha to teach	AN10.83
 Buddha, the	teaching when inspired	AN10.83
 faith (saddhā)	inspires the Buddha to teach	AN10.83
@@ -19462,16 +19473,17 @@ gold	abstaining from, ten precepts	Kp2
 body (kāya)	thirty-two parts	Kp3
 perception of ugliness (asubhasaññā)	thirty-two parts	Kp3
 boys	boy’s questions	Kp4
-food	all beings sustained by	Kp4
+nutriment (āhāra)	all beings sustained by	Kp4
 name and form (nāma rūpa)	two things	Kp4
 feelings (vedanā)	three	Kp4
-four noble truths	as four things	Kp4
-aggregates (khandha)	as five things	Kp4
-sense fields	as six things	Kp4
-awakening factors, seven (bojjhaṅga)	as seven things	Kp4
-noble eightfold path (ariya aṭṭhangika magga)	as eight things	Kp4
+four noble truths	four things	Kp4
+aggregates (khandha)	five things	Kp4
+sense fields	six things	Kp4
+awakening factors, seven (bojjhaṅga)	seven things	Kp4
+noble eightfold path (ariya aṭṭhangika magga)	eight things	Kp4
 abodes of beings	nine	Kp4
 ten factors	of an arahant	Kp4
+arahants	ten factors	Kp4
 gods	asking questions	Kp5
 blessings (maṅgala)	in detail	Kp5
 association	with good people	Kp5
@@ -19479,42 +19491,45 @@ fools (bāla)	do not associate with	Kp5
 honor	honoring as a blessing	Kp5
 region	suitable	Kp5
 merit (puñña)	done in the past	Kp5
-determination	as a blessing	Kp5
-education	as a blessing	Kp5
-discipline	as a blessing	Kp5
-training	as a blessing	Kp5
-speech	well-spoken	Kp5
+determination	blessing	Kp5
+education	blessing	Kp5
+discipline	blessing	Kp5
+training	blessing	Kp5
+speech (vācā)	well-spoken	Kp5
 parents	caring for	Kp5
 children	caring for	Kp5
-work	as a blessing	Kp5
-giving (dāna)	as a blessing	Kp5
+husbands	caring for	Kp5
+wives	caring for	Kp5
+work	blessing	Kp5
+giving (dāna)	blessing	Kp5
 righteous conduct (dhammacārī)	as a blessing	Kp5
 family	caring for as a blessing	Kp5
 actions (kamma)	blameless	Kp5
 evil (pāpa)	abandoning	Kp5
 alcohol	abstaining from is a blessing	Kp5
-heedfulness (appamāda)	as a blessing	Kp5
-respect (gārava)	as a blessing	Kp5
-humility	as a blessing	Kp5
-contentment (santuṭṭhi)	as a blessing	Kp5
-gratitude	as a blessing	Kp5
+heedfulness (appamāda)	blessing	Kp5
+respect (gārava)	blessing	Kp5
+humility	blessing	Kp5
+contentment (santuṭṭhi)	blessing	Kp5
+gratitude	blessing	Kp5
 listening to Dhamma	time for	Kp5
-patience (khanti)	as a blessing	Kp5
+patience (khanti)	blessing	Kp5
 admonishment	being easy to (sovacassatā)	Kp5
 association	with wise	Kp5
 Dhamma discussion	time for	Kp5
-mortification (tapas)	as a blessing	Kp5
-celibacy	as a blessing	Kp5
-four noble truths	as a blessing	Kp5
-nibbāna	as a blessing	Kp5
+mortification (tapas)	blessing	Kp5
+celibacy	blessing	Kp5
+four noble truths	blessing	Kp5
+nibbāna	blessing	Kp5
 worldly conditions (lokadhamma)	not affected by	Kp5
 sorrowless (asoka)	mind that is	Kp5
 security (khema)	mind that is	Kp5
 offerings	to gods	Kp6
 triple gem	description in detail	Kp6
-Buddha, the	as unequalled gem	Kp6
-Dhamma	as unequalled gem	Kp6
-Saṅgha	as unequalled gem	Kp6
+Buddha, the	unequalled gem	Kp6
+Dhamma	unequalled gem	Kp6
+Saṅgha	unequalled gem	Kp6
+beings (bhūta)	Buddha addressing	Kp6
 concentration (samādhi)	with immediate result	Kp6
 eight individuals	gifts to	Kp6
 four pairs of people	gifts to	Kp6
@@ -19523,7 +19538,12 @@ Saṅgha	gifts to	Kp6
 Saṅgha	unshakeable like pillar	Kp6
 stream-enterers (sotāpanna)	rebirth	Kp6
 rebirth	stream-enterers cannot take eighth	Kp6
+four noble truths	understanding	Kp6
 fetters (saṁyojana)	three lower	Kp6
+accomplishment in vision (dassanasampadā)	giving up three fetters	Kp6
+identity view (sakkāyadiṭṭhi)	giving up	Kp6
+doubt (vicikicchā)	giving up	Kp6
+precepts and observances (sīlabbata)	giving up	Kp6
 six grave crimes (chaccābhiṭhānāni abhabba)	noble disciples unable to do	Kp6
 Dhamma teaching	like flowering forest	Kp6
 flowers	simile for Dhamma teaching	Kp6
@@ -20016,7 +20036,7 @@ sense pleasures (kāma, kāmaguṇa)	as fetter	Dhp346
 sense pleasures (kāma, kāmaguṇa)	as fetter	Dhp347
 past, present, future	let go of	Dhp348
 sense pleasures (kāma, kāmaguṇa)	as fetter	Dhp349
-Buddha, the	as best person	Dhp353
+Buddha, the	best person	Dhp353
 craving (taṇhā)	freedom from	Dhp350
 craving (taṇhā)	freedom from	Dhp351
 craving (taṇhā)	freedom from	Dhp352
@@ -20066,17 +20086,17 @@ solitary life	true brahmin	Dhp404
 hope (āsa)	no need for	Dhp410
 deathless (amata)	plunging into	Dhp411
 recollection (anussati)	of past lives	Dhp423
-Buddha, the	time after enlightenment	Ud1.1
+Buddha, the	after enlightenment	Ud1.1
 Bodhi Tree	sitting under for seven days	Ud1.1
 meditation	for seven days	Ud1.1
 dependent origination (paṭiccasamuppāda)	Buddha reflecting on after enlightenment	Ud1.1
-Buddha, the	time after enlightenment	Ud1.2
+Buddha, the	after enlightenment	Ud1.2
 Bodhi Tree	sitting under for seven days	Ud1.2
 dependent origination (paṭiccasamuppāda)	Buddha reflecting on after enlightenment	Ud1.2
 dependent origination (paṭiccasamuppāda)	Buddha reflecting on after enlightenment	Ud1.3
 Bodhi Tree	sitting under for seven days	Ud1.3
-Buddha, the	time after enlightenment	Ud1.3
-Buddha, the	time after enlightenment	Ud1.4
+Buddha, the	after enlightenment	Ud1.3
+Buddha, the	after enlightenment	Ud1.4
 meditation	for seven days	Ud1.2
 meditation	for seven days	Ud1.3
 meditation	for seven days	Ud1.4
@@ -20164,15 +20184,17 @@ speech	useless (tiraccha)	Ud3.9
 hope (āsa)	no need for	Ud3.9
 solitary life	true mendicant	Ud3.9
 noble silence (ariya tuṇhībhāva)	when gathering together should either discuss Dhamma or maintain noble silence	Ud3.9
-Buddha, the	time after enlightenment	Ud3.10
+Buddha, the	after enlightenment	Ud3.10
 world, the	state of	Ud3.10
 meditation	for seven days	Ud3.10
 Bodhi Tree	sitting under for seven days	Ud3.10
 attendants	of the Buddha	Ud4.1
 Meghiya, Ven.	attendant of the Buddha	Ud4.1
+Buddha, the	attendants	Ud4.1
 misconduct by mind	unripe mind	Ud4.1
 friendship	helps with cetovimutti	Ud4.1
 talk (kathā)	because of good friends	Ud4.1
+topics of discussion, good	getting to have	Ud4.1
 perception of ugliness (asubhasaññā)	to give up greed	Ud4.1
 loving-kindness (mettā)	to give up hate	Ud4.1
 mindfulness of breathing (ānāpānassati)	to cut off thinking	Ud4.1
@@ -20536,7 +20558,7 @@ hands	Buddha is open-handed	Iti100
 Dhamma	best gift	Iti100
 giving (dāna)	material things or Dhamma	Iti100
 born from mouth	disciples of Buddha	Iti100
-Buddha, the	as doctor	Iti100
+Buddha, the	doctor	Iti100
 requisites, four	as trifles	Iti101
 contentment (santuṭṭhi)	with requisites	Iti101
 heart’s release (cetovimutti)	through noble truths	Iti103
@@ -20574,7 +20596,7 @@ world, the	Buddha knows	Iti112
 Tathāgatas	definition	Iti112
 Buddha, the	understanding of	Iti112
 knower of the world	definition	Iti112
-Buddha, the	as best	Iti112
+Buddha, the	best person	Iti112
 Buddha, the	without counterpart	Iti112
 anger (kodha)	removing	Snp1.1
 anger (kodha)	like venom	Snp1.1
@@ -20583,7 +20605,8 @@ lust (rāga)	cut off like plucked lotus	Snp1.1
 lotuses	simile for lust cut off	Snp1.1
 craving (taṇhā)	like stream	Snp1.1
 streams (saritā)	simile for craving	Snp1.1
-conceit (māna)	like flood	Snp1.1
+conceit (māna)	like bridge swept away	Snp1.1
+bridges	simile for conceit swept away	Snp1.1
 essence (sāra)	like fig tree has no flower	Snp1.1
 anger (kodha)	arahant is free from	Snp1.1
 arahants	like snake shedding skin	Snp1.1
@@ -20681,34 +20704,36 @@ fools (bāla)	do not associate with	Snp2.4
 honor	honoring as a blessing	Snp2.4
 region	suitable	Snp2.4
 merit (puñña)	done in the past	Snp2.4
-determination	as a blessing	Snp2.4
-education	as a blessing	Snp2.4
-discipline	as a blessing	Snp2.4
-training	as a blessing	Snp2.4
-speech	well-spoken	Snp2.4
+determination	blessing	Snp2.4
+education	blessing	Snp2.4
+discipline	blessing	Snp2.4
+training	blessing	Snp2.4
+speech (vācā)	well-spoken	Snp2.4
 parents	caring for	Snp2.4
 children	caring for	Snp2.4
-work	as a blessing	Snp2.4
-giving (dāna)	as a blessing	Snp2.4
+husbands	caring for	Snp2.4
+wives	caring for	Snp2.4
+work	blessing	Snp2.4
+giving (dāna)	blessing	Snp2.4
 righteous conduct (dhammacārī)	as a blessing	Snp2.4
 family	caring for as a blessing	Snp2.4
 actions (kamma)	blameless	Snp2.4
 evil (pāpa)	abandoning	Snp2.4
 alcohol	abstaining from is a blessing	Snp2.4
-heedfulness (appamāda)	as a blessing	Snp2.4
-respect (gārava)	as a blessing	Snp2.4
-humility	as a blessing	Snp2.4
-contentment (santuṭṭhi)	as a blessing	Snp2.4
-gratitude	as a blessing	Snp2.4
+heedfulness (appamāda)	blessing	Snp2.4
+respect (gārava)	blessing	Snp2.4
+humility	blessing	Snp2.4
+contentment (santuṭṭhi)	blessing	Snp2.4
+gratitude	blessing	Snp2.4
 listening to Dhamma	time for	Snp2.4
-patience (khanti)	as a blessing	Snp2.4
+patience (khanti)	blessing	Snp2.4
 admonishment	being easy to (sovacassatā)	Snp2.4
 association	with wise	Snp2.4
 Dhamma discussion	time for	Snp2.4
-mortification (tapas)	as a blessing	Snp2.4
-celibacy	as a blessing	Snp2.4
-four noble truths	as a blessing	Snp2.4
-nibbāna	as a blessing	Snp2.4
+mortification (tapas)	blessing	Snp2.4
+celibacy	blessing	Snp2.4
+four noble truths	blessing	Snp2.4
+nibbāna	blessing	Snp2.4
 worldly conditions (lokadhamma)	not affected by	Snp2.4
 sorrowless (asoka)	mind that is	Snp2.4
 security (khema)	mind that is	Snp2.4
@@ -21191,6 +21216,7 @@ ghosts	with hammers	Pv51
 Buddha, the	excellence is like fire blazing	Thag1.3
 association	with wise	Thag1.4
 Māra	army of, pushed away like flood	Thag1.7
+bridges	simile for Māra’s army swept away	Thag1.7
 nature	as pleasing	Thag1.13
 arahants	days pass peacefully	Thag1.16
 sleep	fondness for	Thag1.17
@@ -21429,14 +21455,14 @@ fame (yasas)	of the unintelligent	Thag14.2
 praise	by fools	Thag14.2
 seclusion	suffering of	Thag14.2
 Dhamma	full of flavor (maha rassa)	Thag15.1
-Buddha, the	as nāga	Thag15.2
+Buddha, the	nāga	Thag15.2
 death (maraṇa)	fear of	Thag16.1
 death (maraṇa)	without fear	Thag16.1
 sense restraint (indriyasaṁvara)	not harming others	Thag16.2
 faculties (indriya)	knocking out faculties with faculties	Thag16.2
 spiritual progress	helped by teacher	Thag16.3
 doubt (vicikicchā)	tied up with	Thag16.3
-Buddha, the	as doctor	Thag16.3
+Buddha, the	doctor	Thag16.3
 perception of ugliness (asubhasaññā)	woman’s body	Thag16.4
 wealthy people	not giving	Thag16.4
 greed (rāga)	unsatisfied	Thag16.4

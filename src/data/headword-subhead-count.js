@@ -1,7 +1,7 @@
 export const headwordSubheadCount =[
      [
           "Buddha, the",
-          195
+          188
      ],
      [
           "giving (dāna)",
@@ -21,7 +21,7 @@ export const headwordSubheadCount =[
      ],
      [
           "arahants",
-          76
+          77
      ],
      [
           "wisdom (paññā)",
@@ -84,11 +84,11 @@ export const headwordSubheadCount =[
           59
      ],
      [
-          "craving (taṇhā)",
-          57
+          "nibbāna",
+          58
      ],
      [
-          "nibbāna",
+          "craving (taṇhā)",
           57
      ],
      [
@@ -280,7 +280,15 @@ export const headwordSubheadCount =[
           32
      ],
      [
+          "Bodhisatta",
+          31
+     ],
+     [
           "contact (phassa)",
+          31
+     ],
+     [
+          "doubt (vicikicchā)",
           31
      ],
      [
@@ -298,14 +306,6 @@ export const headwordSubheadCount =[
      [
           "Saṅgha",
           31
-     ],
-     [
-          "Bodhisatta",
-          30
-     ],
-     [
-          "doubt (vicikicchā)",
-          30
      ],
      [
           "laypeople",
@@ -768,6 +768,10 @@ export const headwordSubheadCount =[
           17
      ],
      [
+          "wives",
+          17
+     ],
+     [
           "Anāthapiṇḍika, householder",
           16
      ],
@@ -853,10 +857,6 @@ export const headwordSubheadCount =[
      ],
      [
           "underlying tendencies (anusaya)",
-          16
-     ],
-     [
-          "wives",
           16
      ],
      [
@@ -980,6 +980,10 @@ export const headwordSubheadCount =[
           14
      ],
      [
+          "identity view (sakkāyadiṭṭhi)",
+          14
+     ],
+     [
           "inspiration",
           14
      ],
@@ -1045,10 +1049,6 @@ export const headwordSubheadCount =[
      ],
      [
           "gratification, danger, escape",
-          13
-     ],
-     [
-          "identity view (sakkāyadiṭṭhi)",
           13
      ],
      [
@@ -1536,10 +1536,6 @@ export const headwordSubheadCount =[
           10
      ],
      [
-          "talk (kathā)",
-          10
-     ],
-     [
           "training",
           10
      ],
@@ -1720,6 +1716,10 @@ export const headwordSubheadCount =[
           9
      ],
      [
+          "nutriment (āhāra)",
+          9
+     ],
+     [
           "oil lamps",
           9
      ],
@@ -1797,6 +1797,10 @@ export const headwordSubheadCount =[
      ],
      [
           "sun (sūriya)",
+          9
+     ],
+     [
+          "talk (kathā)",
           9
      ],
      [
@@ -1945,10 +1949,6 @@ export const headwordSubheadCount =[
      ],
      [
           "mindfulness of body (kāyānupassanā)",
-          8
-     ],
-     [
-          "nutriment (āhāra)",
           8
      ],
      [
@@ -2596,6 +2596,10 @@ export const headwordSubheadCount =[
           6
      ],
      [
+          "husbands",
+          6
+     ],
+     [
           "ill will, giving up",
           6
      ],
@@ -2876,6 +2880,10 @@ export const headwordSubheadCount =[
           5
      ],
      [
+          "bridges",
+          5
+     ],
+     [
           "butchers",
           5
      ],
@@ -3073,10 +3081,6 @@ export const headwordSubheadCount =[
      ],
      [
           "householders (gahapatika)",
-          5
-     ],
-     [
-          "husbands",
           5
      ],
      [
@@ -3413,6 +3417,10 @@ export const headwordSubheadCount =[
      ],
      [
           "beds",
+          4
+     ],
+     [
+          "beings (bhūta)",
           4
      ],
      [
@@ -3928,6 +3936,10 @@ export const headwordSubheadCount =[
           4
      ],
      [
+          "precepts and observances (sīlabbata)",
+          4
+     ],
+     [
           "precepts, eight",
           4
      ],
@@ -4216,6 +4228,10 @@ export const headwordSubheadCount =[
           3
      ],
      [
+          "accomplishment in vision (dassanasampadā)",
+          3
+     ],
+     [
           "actions",
           3
      ],
@@ -4281,10 +4297,6 @@ export const headwordSubheadCount =[
      ],
      [
           "bases of overcoming (abhibhāyatana)",
-          3
-     ],
-     [
-          "beings (bhūta)",
           3
      ],
      [
@@ -4944,10 +4956,6 @@ export const headwordSubheadCount =[
           3
      ],
      [
-          "precepts and observances (sīlabbata)",
-          3
-     ],
-     [
           "Purāṇa, householder",
           3
      ],
@@ -5384,10 +5392,6 @@ export const headwordSubheadCount =[
           2
      ],
      [
-          "accomplishment in vision (dassanasampadā)",
-          2
-     ],
-     [
           "against the stream",
           2
      ],
@@ -5629,10 +5633,6 @@ export const headwordSubheadCount =[
      ],
      [
           "bribery",
-          2
-     ],
-     [
-          "bridges",
           2
      ],
      [
