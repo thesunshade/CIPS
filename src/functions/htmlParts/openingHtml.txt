@@ -5,7 +5,7 @@
       <meta name="theme-color" content="#000000" />
       <link rel="apple-touch-icon" href="images/favicon.png" />
       <meta property="og:title" content="Comprehensive Index of Pali Suttas | ReadingFaithfully" />
-      <meta property="og:description" content="Get the teachings you need. An index of topics, words, people, similes, and titles found in the Pāli canon of the Theravada Buddhist tradition. " />
+      <meta property="og:description" content="Get the teachings you need. An index of topics, words, people, similes, and titles found in the suttas of the Pāli canon of the Theravada Buddhist tradition. " />
       <meta property="og:url" content="https://index.readingfaithfully.org/" />
       <meta property="og:site_name" content="Index.ReadingFaithfully.org" />
       <meta property="og:image" itemprop="image" content="images/featuredImage-index.png" />

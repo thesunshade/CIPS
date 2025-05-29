@@ -1,5 +1,5 @@
 <div class="preface"><h1>Comprehensive Index of Pāli Suttas</h1>
-<p class="subtitle">An index of topics, words, people, similes, and titles found in the Pāli canon of the Theravada Buddhist tradition.</p>
+<p class="subtitle">An index of topics, words, people, similes, and titles found in the suttas of the Pāli canon of the Theravada Buddhist tradition.</p>
 <p>By using this index you will learn what the Buddha and his Great Disciples had to say about the Dhamma that ends all suffering. Whether you are just beginning to learn about Buddhism or are researching deep topics, this sutta index will help you on your path.</p>
 <p style="color:red;font-weight:bold; text-align:center; text-wrap: pretty;background-color:rgb(247, 232, 213);padding: 10px;">The use of this index for training, developing, testing, or improving any artificial intelligence system, machine learning model, or similar technology is strictly prohibited. Please see <a href="https://github.com/thesunshade/CIPS#readme" style="color:red">the full license.</a></p>
 </div>
