@@ -60,7 +60,15 @@ export const infoArea = `
             </a>
             is also an excellent resource.
           </p>
-        </div>
+          <h3>Other ReadingFaithfully resources:</h3>
+          <ul>
+          <li><a href="https://sutta.readingfaithfully.org" rel="noreferrer" target="_blank">Main Sutta reading website</a></li>
+          <li><a href="https://daily.readingfaithfully.org" rel="noreferrer" target="_blank">Daily Suttas</a></li>
+          <li><a href="https://diff.readingfaithfully.org" rel="noreferrer" target="_blank">Sutta Differ</a></li>
+          <li><a href="https://discourse.suttacentral.net/t/a-browser-extension-for-suttacentral/36074" rel="noreferrer" target="_blank">SuttaCentral Browser Extension</a></li>
+          <li><a href="https://links.readingfaithfully.org/" rel="noreferrer" target="_blank">All links and tools</a></li>
+          </ul>
+          </div>
       </details>
       <details>
         <summary>Coverage</summary>

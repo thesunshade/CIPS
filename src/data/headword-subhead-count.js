@@ -137,7 +137,7 @@ export const headwordSubheadCount =[
      ],
      [
           "women",
-          45
+          46
      ],
      [
           "sense bases",
@@ -1172,6 +1172,10 @@ export const headwordSubheadCount =[
           12
      ],
      [
+          "pots",
+          12
+     ],
+     [
           "serenity (samatha)",
           12
      ],
@@ -1305,10 +1309,6 @@ export const headwordSubheadCount =[
      ],
      [
           "past, present, future",
-          11
-     ],
-     [
-          "pots",
           11
      ],
      [
@@ -1529,6 +1529,10 @@ export const headwordSubheadCount =[
      ],
      [
           "Sahampati, Brahmā",
+          10
+     ],
+     [
+          "snakes",
           10
      ],
      [
@@ -2053,10 +2057,6 @@ export const headwordSubheadCount =[
      ],
      [
           "sexual activity",
-          8
-     ],
-     [
-          "snakes",
           8
      ],
      [
@@ -10129,6 +10129,10 @@ export const headwordSubheadCount =[
      ],
      [
           "land",
+          1
+     ],
+     [
+          "laps",
           1
      ],
      [

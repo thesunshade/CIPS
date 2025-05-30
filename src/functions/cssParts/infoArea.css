@@ -28,6 +28,14 @@
     text-decoration: none;
 }
 
+.info-area h3 {
+    margin-bottom: 5px
+}
+
+.info-area ul {
+    margin-top: 0px;
+}
+
 .dark .info-area a,
 .dark .info-area a:visited {
     color: var(--dark-link)
