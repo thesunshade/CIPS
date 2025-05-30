@@ -56,11 +56,11 @@ export const headwordSubheadCount =[
           67
      ],
      [
-          "Dhamma",
-          66
+          "suffering (dukkha)",
+          67
      ],
      [
-          "suffering (dukkha)",
+          "Dhamma",
           66
      ],
      [
@@ -108,11 +108,11 @@ export const headwordSubheadCount =[
           52
      ],
      [
-          "aggregates (khandha)",
-          51
+          "happiness (sukha)",
+          52
      ],
      [
-          "happiness (sukha)",
+          "aggregates (khandha)",
           51
      ],
      [
@@ -185,7 +185,7 @@ export const headwordSubheadCount =[
      ],
      [
           "stream-enterers (sotāpanna)",
-          39
+          40
      ],
      [
           "aggregates",
@@ -340,6 +340,10 @@ export const headwordSubheadCount =[
           28
      ],
      [
+          "family",
+          28
+     ],
+     [
           "lay life",
           28
      ],
@@ -357,10 +361,6 @@ export const headwordSubheadCount =[
      ],
      [
           "elephants",
-          27
-     ],
-     [
-          "family",
           27
      ],
      [
@@ -768,6 +768,10 @@ export const headwordSubheadCount =[
           17
      ],
      [
+          "rivers",
+          17
+     ],
+     [
           "wives",
           17
      ],
@@ -833,10 +837,6 @@ export const headwordSubheadCount =[
      ],
      [
           "refuges",
-          16
-     ],
-     [
-          "rivers",
           16
      ],
      [
@@ -1492,6 +1492,10 @@ export const headwordSubheadCount =[
           10
      ],
      [
+          "mothers",
+          10
+     ],
+     [
           "perception of dissatisfaction with the whole world (sabbaloke anabhiratasaññā)",
           10
      ],
@@ -1664,10 +1668,6 @@ export const headwordSubheadCount =[
           9
      ],
      [
-          "grieving",
-          9
-     ],
-     [
           "hands",
           9
      ],
@@ -1705,10 +1705,6 @@ export const headwordSubheadCount =[
      ],
      [
           "money",
-          9
-     ],
-     [
-          "mothers",
           9
      ],
      [
@@ -1917,6 +1913,10 @@ export const headwordSubheadCount =[
      ],
      [
           "gratitude",
+          8
+     ],
+     [
+          "grieving",
           8
      ],
      [
@@ -3092,10 +3092,6 @@ export const headwordSubheadCount =[
           5
      ],
      [
-          "intention (mano)",
-          5
-     ],
-     [
           "investigation (vīmaṁsā)",
           5
      ],
@@ -3344,7 +3340,15 @@ export const headwordSubheadCount =[
           5
      ],
      [
+          "wheels",
+          5
+     ],
+     [
           "“when this exists, that comes to be…”",
+          5
+     ],
+     [
+          "womb (gabbho)",
           5
      ],
      [
@@ -4192,14 +4196,6 @@ export const headwordSubheadCount =[
           4
      ],
      [
-          "wheels",
-          4
-     ],
-     [
-          "womb (gabbho)",
-          4
-     ],
-     [
           "workers (kammakara)",
           4
      ],
@@ -4701,6 +4697,10 @@ export const headwordSubheadCount =[
      ],
      [
           "integrity",
+          3
+     ],
+     [
+          "intention (mano)",
           3
      ],
      [
@@ -5729,14 +5729,6 @@ export const headwordSubheadCount =[
      ],
      [
           "confession",
-          2
-     ],
-     [
-          "conflicts (medhaga)",
-          2
-     ],
-     [
-          "conflicts (viggahaya)",
           2
      ],
      [
@@ -12685,10 +12677,6 @@ export const headwordSubheadCount =[
      ],
      [
           "well liberated by wisdom (suvimuttapañña)",
-          1
-     ],
-     [
-          "wheel",
           1
      ],
      [
