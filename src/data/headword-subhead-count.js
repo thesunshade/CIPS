@@ -1,7 +1,7 @@
 export const headwordSubheadCount =[
      [
           "Buddha, the",
-          188
+          189
      ],
      [
           "giving (dāna)",
