@@ -165,8 +165,8 @@ function createElementObject(elementId) {
     .replace(/   /g, " ")
     .replace(/  /g, " ")
     .replace(/<segment-id>/g, "")
-    .replace(/<\/segment-id>/g, "");
-
+    .replace(/<\/segment-id>/g, "")
+    .replace(/<span class="ignore">(.+?)<\/span>/g, "$1 ");
   elementObject += "]}}";
 
   return JSON.parse(elementObject);
