@@ -516,6 +516,11 @@ sub-w {
   line-height: 1.5rem;
 }
 
+.ignore {
+  color: rgb(93, 93, 93);
+
+}
+
 .xref-link,
 .xref-link:visited {
   text-decoration: none;
