@@ -1,1 +1,1 @@
-export const IGNORE_WORDS = ["in", "of", "with", "the", "as"];
+export const IGNORE_WORDS = ["in", "of", "with", "the", "as", "a", "an"];
