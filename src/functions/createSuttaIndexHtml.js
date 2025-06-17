@@ -8,6 +8,7 @@ import getSuttaTitle from "../functionsBuilding/getSuttaTitle.js";
 import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
+import { IGNORE_WORDS } from "../data/ignoreWords.js";
 
 const endingHtml = fs.readFileSync(new URL("./htmlParts/endingHtml.txt", import.meta.url), "utf8");
 const openingHtml = fs.readFileSync(new URL("./htmlParts/openingHtml.txt", import.meta.url), "utf8");
@@ -132,6 +133,28 @@ export default function createSuttaIndexHtml(indexObject) {
     } else return "";
   }
 
+  function wrapIgnoreWords(str, ignoreWords = IGNORE_WORDS) {
+    let result = str;
+    let prefix = "";
+    let changed = true;
+    // Keep matching and removing ignore words at the start
+    while (changed) {
+      changed = false;
+      for (const ignore of ignoreWords) {
+        const regex = new RegExp(`^(${ignore})(\\b\\s*)`, "i");
+        const match = result.match(regex);
+        if (match) {
+          // Wrap the matched word and preserve any following spaces
+          prefix += `<span class="ignore">${match[1]}</span>${match[2] || ""}`;
+          result = result.slice(match[0].length);
+          changed = true;
+          break; // Only match one word per loop, then start over
+        }
+      }
+    }
+    return prefix + result;
+  }
+
   let alphabet = Object.keys(indexObject);
 
   // this builds the html for the index
@@ -149,7 +172,7 @@ export default function createSuttaIndexHtml(indexObject) {
             .map(subhead => {
               const locatorListObject = headwordsObject[headword][subhead];
               return `${constructSublessLocatorList(locatorListObject, subhead)}
-        <sub-w>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : subhead}          ${locatorListObject.xrefs
+        <sub-w>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : wrapIgnoreWords(subhead)}          ${locatorListObject.xrefs
                 .map((rawXref, index) => {
                   return constructXrefHtml(locatorListObject, rawXref, index);
                 })
