@@ -7,7 +7,7 @@ export default function sortedKeys(object) {
     while (changed) {
       changed = false;
       for (const word of ignoreWords) {
-        const regex = new RegExp(`^${word}\\b\\s*`, "i");
+        const regex = new RegExp(`^${word}(?=\\s|$)\\s*`, "iu");
         if (regex.test(result)) {
           result = result.replace(regex, "");
           changed = true;

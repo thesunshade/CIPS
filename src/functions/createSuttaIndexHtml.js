@@ -141,7 +141,7 @@ export default function createSuttaIndexHtml(indexObject) {
     while (changed) {
       changed = false;
       for (const ignore of ignoreWords) {
-        const regex = new RegExp(`^(${ignore})(\\b\\s*)`, "i");
+        const regex = new RegExp(`^(${ignore})(?=\\s|$)(\\s*)`, "iu");
         const match = result.match(regex);
         if (match) {
           // Wrap the matched word and preserve any following spaces
