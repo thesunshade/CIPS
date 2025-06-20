@@ -1,4 +1,5 @@
 import { IGNORE_WORDS } from "../data/ignoreWords.js";
+import { escapeForRegex } from "../data/ignoreWords.js";
 
 export default function sortedKeys(object) {
   function stripIgnoreWords(str, ignoreWords = IGNORE_WORDS) {
@@ -7,7 +8,7 @@ export default function sortedKeys(object) {
     while (changed) {
       changed = false;
       for (const word of ignoreWords) {
-        const regex = new RegExp(`^${word}(?=\\s|$)\\s*`, "iu");
+        const regex = new RegExp(`^${escapeForRegex(word)}(?=\\s|$)\\s*`, "iu");
         if (regex.test(result)) {
           result = result.replace(regex, "");
           changed = true;

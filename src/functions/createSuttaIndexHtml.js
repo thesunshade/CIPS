@@ -9,6 +9,7 @@ import justBook from "../functionsBuilding/justBook.js";
 import convertVatthus from "../functionsBuilding/convertVatthus.js";
 import { tidyHtml } from "../functionsBuilding/tidyHtml.js";
 import { IGNORE_WORDS } from "../data/ignoreWords.js";
+import { escapeForRegex } from "../data/ignoreWords.js";
 
 const endingHtml = fs.readFileSync(new URL("./htmlParts/endingHtml.txt", import.meta.url), "utf8");
 const openingHtml = fs.readFileSync(new URL("./htmlParts/openingHtml.txt", import.meta.url), "utf8");
@@ -141,7 +142,7 @@ export default function createSuttaIndexHtml(indexObject) {
     while (changed) {
       changed = false;
       for (const ignore of ignoreWords) {
-        const regex = new RegExp(`^(${ignore})(?=\\s|$)(\\s*)`, "iu");
+        const regex = new RegExp(`^(${escapeForRegex(ignore)})(?=\\s|$)(\\s*)`, "iu");
         const match = result.match(regex);
         if (match) {
           // Wrap the matched word and preserve any following spaces
