@@ -433,10 +433,7 @@ function createIndexObject(indexArray) {
       /* Ensure borders are visible in sticky position */
       box-shadow: 0 -2px 0 #ddd, 0 2px 0 #ddd;
     }
-    
-    .locator-cell {
-      /*min-width: 120px;*/
-    }
+  
     
     ul {
       margin: 0;
@@ -460,10 +457,6 @@ function createIndexObject(indexArray) {
       
       th, td {
         padding: 8px;
-      }
-      
-      .locator-cell {
-        min-width: 80px;
       }
       
       /* Force table to not be like a table on mobile */
