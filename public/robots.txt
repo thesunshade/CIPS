@@ -1,0 +1,86 @@
+# Allow reputable search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Disallow known scraping or non-essential bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: Qwantify
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: SiteAuditBot
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: linkdexbot
+Disallow: /
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
+
+User-agent: libwww-perl
+Disallow: /
+
+# Fallback: disallow all others
+User-agent: *
+Disallow: /
