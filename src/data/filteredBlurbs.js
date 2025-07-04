@@ -1871,7 +1871,6 @@ export const filteredBlurbs ={
      "an5.146": "Don’t befriend a mendicant with five qualities; look instead for the five opposites.",
      "an5.147": "Good and bad ways of offering gifts.",
      "an5.148": "The way a good person gives gifts and the outcome. ",
-     "an5.149": "A mendicant who has found only temporary freedom may decline for five reasons.",
      "an5.151": "Qualities that prevent one who is listening to the teaching from understanding.",
      "an5.152": "Qualities that prevent one who is listening to the teaching from understanding.",
      "an5.153": "Qualities that prevent one who is listening to the teaching from understanding.",
