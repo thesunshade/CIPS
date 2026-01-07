@@ -1,6 +1,7 @@
 dependent origination		xref unwholesome chain of causality
 dependent origination		xref wholesome chain of causality
 awakening (sambodha)		xref nibbāna
+difficult to admonish (dovacassa)		xref hard to admonish (dovacassa)
 nibbāna		xref awakening (sambodha)
 rag-robe		xref rag-robe wearing
 rag-robe		xref robes
@@ -2970,7 +2971,7 @@ honor (sakkāra)	because of mortification	DN25:7.0
 gain (lābha)	because of mortification	DN25:7.0
 eating	attachment and mortification	DN25:7.0
 meditation	only when people can see	DN25:7.0
-restraint (saṁvara)	fourfold of a mordifier	DN25:7.0
+restraint (saṁvara)	fourfold of a mortifier	DN25:7.0
 gradual training	of a mortifier	DN25:7.0
 heartwood	simile for being satisfied with limited attainments	DN25:7.0
 knowledges, three (vijjā)	culmination of practice	DN25:19.0
@@ -3189,7 +3190,7 @@ views about the self	undeclared points	DN29:37.0
 foundations of mindfulness, four (satipaṭṭhāna)	for going beyond views	DN29:37.0
 marks of a great man	in detail	DN30
 wheel-turning monarchs	qualities	DN30
-wheel-turning monarchs	as a result of merit	DN30
+wheel-turning monarchs	result of merit	DN30
 wheel-turning monarchs	description of	DN30
 treasures, seven (satta ratana)	of wheel-turning monarch	DN30
 Buddhas	marks of a great man	DN30
@@ -3264,7 +3265,7 @@ teeth	Buddhas’	DN30:2.19.0
 harmony	Bodhisatta’s practice of	DN30:2.19.0
 tongues	Buddhas’	DN30:2.22.0
 harsh speech, giving up	Bodhisatta had	DN30:2.22.0
-sweet voice	as result of merit	DN30:2.22.0
+sweet voice	result of merit	DN30:2.22.0
 useless speech (samphappalāpa)	Bodhisatta gave up	DN30:2.25.0
 lions	Buddhas have jaw like	DN30:2.25.0
 Buddhas	no one can kill	DN30:2.25.0
@@ -4716,12 +4717,12 @@ debt (iṇa)	person freed from, simile for removal of covetousness	MN39
 sick person	recovering, simile for removal of ill will	MN39
 prisoner	freed, simile for removal of drowsiness	MN39
 bondservants (dāsa)	freed, simile for removal of restlessness and remorse	MN39
-travellers	crossing desert, simile for removing doubt	MN39
+travelers	crossing desert, simile for removing doubt	MN39
 covetousness (abhijjhā)	like person in debt	MN39
 ill will (vyāpāda, byāpāda)	like sick person	MN39
 dullness and drowsiness (thinamiddha)	like prisoner	MN39
 restlessness and remorse (uddhaccakukkucca)	like bondservant	MN39
-doubt (vicikicchā)	like traveller in desert	MN39
+doubt (vicikicchā)	like traveler in desert	MN39
 jhānas	similes for	MN39
 bath attendants	simile for first jhāna	MN39
 bath powder	simile for first jhāna	MN39
@@ -4731,9 +4732,9 @@ lotuses	simile for third jhāna	MN39
 mind (citta)	pure and bright in fourth jhāna	MN39
 cloth	white, covering person, simile for fourth jhāna	MN39
 past lives, knowledge of (pubbenivāsānussatiñāṇa)	definition	MN39
-travellers	simile for recollecting past lives	MN39
+travelers	simile for recollecting past lives	MN39
 villages (gāma)	simile for recollecting past lives	MN39
-past lives, knowledge of (pubbenivāsānussatiñāṇa)	like traveller recollecting journey	MN39
+past lives, knowledge of (pubbenivāsānussatiñāṇa)	like traveler recollecting journey	MN39
 knowledge of passing away and rebirth of beings (cutūpapātañāna)	definition	MN39
 houses	people walking between, simile for knowledge of rebirth of beings	MN39
 divine eye (dibbacakkhu)	rebirth of beings	MN39
@@ -4976,6 +4977,8 @@ fame (yasas)	Buddha not corrupted by	MN47
 confidence (pasāda)	in Buddha from knowing Dhamma	MN47
 faith (saddhā)	settled, rooted, planted	MN47
 quarrels (kalahajāta)	monks of Kosambi	MN48
+hard to admonish (dovacassa)	monks of Kosambi	MN48
+bad monastics	monks of Kosambi	MN48
 Kosambi	dispute at	MN48
 loving-kindness (mettā)	in action	MN48
 principles of cordiality (dhammā sāraṇīyā)	definition	MN48
@@ -5531,10 +5534,10 @@ seclusion (paṭisallīna, vivitta)	behaving badly while in	MN65
 reprimand (upavadita)	by gods, humans, oneself	MN65
 training (sikkhā)	fulfilling and not fulfilling	MN65
 seclusion (paṭisallīna, vivitta)	fulfilling the training	MN65
-jhānas	as a result of proper striving	MN65
-recollection of past lives	as a result of proper striving	MN65
-knowledge of passing away and rebirth of beings (cutūpapātañāna)	as a result of proper striving	MN65
-knowledge of destruction of the taints (āsavakkhayañāṇa)	as a result of proper striving	MN65
+jhānas	result of proper striving	MN65
+recollection of past lives	result of proper striving	MN65
+knowledge of passing away and rebirth of beings (cutūpapātañāna)	result of proper striving	MN65
+knowledge of destruction of the taints (āsavakkhayañāṇa)	result of proper striving	MN65
 admonishment	some are admonished repeatedly, some not	MN65
 admonishment	being difficult to	MN65
 offences against monastic rules (āpatti)	frequent offender vs. occasional offender	MN65
@@ -5584,6 +5587,7 @@ fetters (saṁyojana)	giving up large and small	MN66
 shackles (bandha)	strong and weak	MN66
 dimension of neither perception nor non-perception (nevasaññanāsaññāyatana)	giving up even this	MN66
 Ānanda, Ven.	explaining noisy monks to Buddha	MN67
+bad monastics	Buddha dismisses noisy monks	MN67
 Sāriputta, Ven.	noisy monks, leading	MN67
 Moggallāna, Ven.	noisy monks, leading	MN67
 socializing	dismissed by the Buddha for being noisy	MN67
@@ -6016,9 +6020,9 @@ men	checking reflection, simile for knowing mind of others	MN77
 youths	checking reflection, simile for knowing mind of others	MN77
 mirrors	simile for knowing mind of others	MN77
 past lives, knowledge of (pubbenivāsānussatiñāṇa)	definition	MN77
-travellers	simile for recollecting past lives	MN77
+travelers	simile for recollecting past lives	MN77
 villages (gāma)	simile for recollecting past lives	MN77
-past lives, knowledge of (pubbenivāsānussatiñāṇa)	like traveller recollecting journey	MN77
+past lives, knowledge of (pubbenivāsānussatiñāṇa)	like traveler recollecting journey	MN77
 knowledge of passing away and rebirth of beings (cutūpapātañāna)	definition	MN77
 houses	people walking between, simile for knowledge of rebirth of beings	MN77
 divine eye (dibbacakkhu)	rebirth of beings	MN77
@@ -6546,7 +6550,7 @@ second jhāna	rapture apart from sensual pleasures	MN99
 compassion (anukampā)	ground for making merit, brahmins’	MN99
 joy (pāmojja)	connected with the teachings	MN99
 loving-kindness (mettā)	as a path to brahmā realm	MN99
-travellers	simile for knowing the path	MN99
+travelers	simile for knowing the path	MN99
 brahmā realm (brahmaloka)	Buddha knows paths that lead to	MN99
 directions	simile for Buddha knowing path to brahmā realm	MN99
 heart’s release by loving-kindness (mettā cetovimutti)	path to the company of Brahmā	MN99
@@ -6604,10 +6608,10 @@ Buddha, the	praise on ten grounds	MN101
 Nigaṇṭhas	Buddha’s discussion with	MN101
 striving (padhāna)	correctly	MN101
 happiness (sukha)	gained through pain/suffering	MN101
-jhānas	as a result of proper striving	MN101
-recollection of past lives	as a result of proper striving	MN101
-knowledge of passing away and rebirth of beings (cutūpapātañāna)	as a result of proper striving	MN101
-knowledge of destruction of the taints (āsavakkhayañāṇa)	as a result of proper striving	MN101
+jhānas	result of proper striving	MN101
+recollection of past lives	result of proper striving	MN101
+knowledge of passing away and rebirth of beings (cutūpapātañāna)	result of proper striving	MN101
+knowledge of destruction of the taints (āsavakkhayañāṇa)	result of proper striving	MN101
 nibbāna here and now (diṭṭhadhammanibbāna)	view of	MN102
 views of other sects	refuted by the Buddha	MN102
 views about the self (attavāda)	refuted by the Buddha	MN102
@@ -7306,6 +7310,8 @@ oil lamps	simile for differences between gods	MN127
 flies	simile for thoughts of gods	MN127
 Sabhiya Kaccāna, Ven.	asking about gods	MN127
 loving-kindness (mettā)	in action	MN128
+quarrels (kalahajāta)	monks of Kosambi	MN128
+hard to admonish (dovacassa)	monks of Kosambi	MN128
 Kosambi	dispute at	MN128
 disputes	at Kosambi	MN128
 grudge bearing (upanayhati)	ending hatred	MN128
@@ -7468,7 +7474,7 @@ ugliness	result of anger	MN135
 anger, giving up (kodha)	leads to heaven	MN135
 anger, giving up (kodha)	definition	MN135
 anger, giving up (kodha)	cause of beauty	MN135
-beauty	as result of non-anger	MN135
+beauty	result of non-anger	MN135
 envy (issā)	definition	MN135
 envy (issā)	leads to hell	MN135
 envy (issā)	cause of being uninfluential, insignificant	MN135
@@ -7479,11 +7485,11 @@ influential	result of non-jealousy	MN135
 stinginess (maccharī)	definition	MN135
 stinginess (maccharī)	leads to hell	MN135
 stinginess (maccharī)	cause of poverty	MN135
-poverty	as a result of not giving	MN135
+poverty	result of not giving	MN135
 generosity (cāga)	leads to heaven	MN135
 generosity (cāga)	definition	MN135
 generosity (cāga)	cause of wealth	MN135
-wealth	as result of giving	MN135
+wealth	result of giving	MN135
 giving (dāna)	result in heaven	MN135
 giving (dāna)	definition	MN135
 giving (dāna)	results in wealth	MN135
@@ -7674,6 +7680,7 @@ death (maraṇa)	not dying	MN140
 asking forgiveness	for not recognizing the Buddha	MN140
 training of the Noble One (ariya vinaya)	asking forgiveness	MN140
 non-returner (anāgāmi)	examples of	MN140
+cows	death by	MN140
 death (maraṇa)	in four noble truths	MN141
 right speech (sammā vācā)	definition	MN141
 wheel of Dhamma	Buddha starts rolling	MN141
@@ -8154,12 +8161,12 @@ Anāthapiṇḍika, householder	as deva praising Jeta’s grove and Ven. Sāripu
 Jeta’s Grove	praised by god Anāthapiṇḍika	SN1.48
 Sāriputta, Ven.	praise of	SN1.48
 generosity (cāga)	cause for rebirth	SN1.49
-generosity (cāga)	as cause for wealth	SN1.49
+generosity (cāga)	cause for wealth	SN1.49
 stinginess (maccharī)	rebirth in hell	SN1.49
 insulting (paribhāsati)	rebirth in hell	SN1.49
 giving (dāna)	preventing	SN1.49
 hell (niraya)	cause for rebirth in	SN1.49
-poverty	as a result of not giving	SN1.49
+poverty	result of not giving	SN1.49
 confidence (pasāda)	in triple gem	SN1.49
 wealthy people	cause for rebirth as	SN1.49
 Ghaṭīkāra, householder	reborn as deva	SN1.50
@@ -8919,7 +8926,7 @@ Dhamma	brings happiness	SN10.12
 truth (sacca)	sweetest taste	SN10.12
 wisdom (paññā)	best life living by	SN10.12
 faith (saddhā)	crossing flood, as means of	SN10.12
-truthfulness	as cause for good reputation	SN10.12
+truthfulness	cause for good reputation	SN10.12
 reputation	gained by truthfulness	SN10.12
 wealth	gained by hard work	SN10.12
 friendship	gained by giving	SN10.12
@@ -10155,8 +10162,8 @@ youths	checking reflection, simile for grasping	SN22.83
 grasping (upādāna)	like youth checking mirror	SN22.83
 Tissa, Ven.	dissatisfaction with monastic life	SN22.84
 dissatisfaction (anabhirata)	living the spiritual life	SN22.84
-ordinary person (puthujjana)	like traveller not skilled in path	SN22.84
-travellers	simile for person skilled or not skilled in path	SN22.84
+ordinary person (puthujjana)	like traveler not skilled in path	SN22.84
+travelers	simile for person skilled or not skilled in path	SN22.84
 doubt (vicikicchā)	like fork in the road	SN22.84
 wrong eightfold path	like left-hand path	SN22.84
 noble eightfold path (ariya aṭṭhangika magga)	like right-hand path	SN22.84
@@ -10201,7 +10208,7 @@ nibbāna	like oil lamp going out	SN22.88
 Khemaka, Ven.	enlightened while teaching	SN22.89
 Dāsaka, Ven.	 messenger to Ven. Khemaka	SN22.89
 aggregates of clinging (pañcupādānakkhandhā)	regarding as self, etc.	SN22.89
-arahants	regarding aggregates as not-self does not make one a	SN22.89
+arahants	regarding aggregates as not-self does not make one an	SN22.89
 conceit “I am” (asmimāna)	given up by arahant	SN22.89
 “This is mine, I am this, this is my self”	not regarding anything as “I am this”	SN22.89
 water lilies	simile for conceit “I am”; scent of	SN22.89
@@ -12300,6 +12307,7 @@ cessation of perception and feeling (saññāvedayitanirodha)	equanimity ends	SN
 jhānas	factors blocking	SN48.40
 Buddha, the	old age of	SN48.41
 Buddha, the	warming back in the sun	SN48.41
+skin	Buddha’s wrinkly	SN48.41
 old age (jarā)	Buddha experiencing	SN48.41
 Ānanda, Ven.	massaging Buddha’s limbs	SN48.41
 Ānanda, Ven.	commenting on Buddha’s body	SN48.41
@@ -13132,9 +13140,12 @@ mind (citta)	like workable wood	AN1.47
 mind (citta)	quick to change	AN1.48
 mind (citta)	as radiant but corrupted	AN1.49
 mind (citta)	as radiant but corrupted	AN1.51
-loving-kindness (mettā)	for time of a finger snap	AN1.53
-loving-kindness (mettā)	for time of a finger snap	AN1.54
-loving-kindness (mettā)	for time of a finger snap	AN1.55
+loving-kindness (mettā)	for time of a finger-snap	AN1.53
+finger-snap	loving-kindness for time of	AN1.53
+loving-kindness (mettā)	for time of a finger-snap	AN1.54
+finger-snap	loving-kindness for time of	AN1.54
+loving-kindness (mettā)	for time of a finger-snap	AN1.55
+finger-snap	loving-kindness for time of	AN1.55
 intention (mano)	precedes all	AN1.56
 intention (mano)	precedes all	AN1.57
 heedlessness (pamāda)	leads to unwholesome	AN1.58
@@ -13283,7 +13294,7 @@ Sūrambaṭṭha, householder	foremost with confirmed confidence	AN1.255
 Jīvaka Komārabhacca, householder	foremost who have confidence in a person	AN1.256
 Nakulapitā, householder	foremost who have trust	AN1.257
 Sujātā Seniyadhītā, householder	foremost in first to go for refuge	AN1.258
-Visākhā, Migara’s mother	foremost as a donor	AN1.259
+Visākhā, Migāra’s mother	foremost as a donor	AN1.259
 giving (dāna)	foremost givers	AN1.259
 Khujjuttarā, householder	foremost who are very learned	AN1.260
 Sāmāvatī, householder	foremost who dwell in loving-kindness	AN1.261
@@ -13343,10 +13354,10 @@ laziness (kusīta)	live in suffering	AN1.325
 rebirth	Buddha does not approve	AN1.328
 rebirth	like small bit of excrement	AN1.328
 excrement	simile for rebirth/becoming	AN1.328
-finger-snap	rebirth not approved for even a fingersnap	AN1.328
+finger-snap	rebirth not approved for even a finger-snap	AN1.328
 rebirth	Buddha does not approve	AN1.329
 rebirth	like small bit of excrement	AN1.329
-finger-snap	rebirth not approved for even a fingersnap	AN1.329
+finger-snap	rebirth not approved for even a finger-snap	AN1.329
 punishment (daṇḍa)	as motivation to do good	AN2.1
 hell (niraya)	as motivation to do good	AN2.1
 lay life	duty to support Saṅgha	AN2.2
@@ -13861,7 +13872,7 @@ unwholesome roots (lobha, dosa, moha)	like creeper chokes a tree	AN3.69
 wholesome roots (alobha, adosa, amoha)	causing wholesome activities	AN3.69
 accusations	responding to	AN3.69
 creepers	simile for unwholesome roots	AN3.69
-Visākhā, Migara’s mother	observing the uposatha	AN3.70
+Visākhā, Migāra’s mother	observing the uposatha	AN3.70
 uposatha	of the cowherd	AN3.70
 uposatha	thinking of tomorrow’s meal	AN3.70
 uposatha	of the Nigaṇṭhas’	AN3.70
@@ -13904,7 +13915,7 @@ precepts and observances (sīlabbata)	fruitful when wholesome qualities grow	AN3
 lifestyles	fruitful when wholesome qualities grow	AN3.78
 spiritual path (brahmacariya)	fruitful when wholesome qualities grow	AN3.78
 reputation	gained by generosity	AN3.79
-generosity (cāga)	as cause for good reputation	AN3.79
+generosity (cāga)	cause for good reputation	AN3.79
 reputation	like fragrance that goes against wind	AN3.79
 good people (sappurisa)	praised by gods	AN3.79
 Sikhī, Buddha	and disciple	AN3.80
@@ -14268,7 +14279,7 @@ giving (dāna)	to Saṅgha	AN4.60
 Anāthapiṇḍika, householder	appropriate lay practice	AN4.60
 giving (dāna)	four requisites	AN4.60
 lay life	what to practice	AN4.60
-generosity (cāga)	as cause for wealth	AN4.61
+generosity (cāga)	cause for wealth	AN4.61
 generosity (cāga)	definition	AN4.61
 accomplishment in generosity (cāgasampadā)	definition	AN4.61
 hard to obtain (dullabha)	four things hard to obtain	AN4.61
@@ -14674,12 +14685,12 @@ Mallikā, Queen	asking about human variation	AN4.197
 results of actions	mixture of	AN4.197
 anger (kodha)	result of in future lives	AN4.197
 ugliness	result of anger	AN4.197
-beauty	as result of non-anger	AN4.197
+beauty	result of non-anger	AN4.197
 jealousy (issā)	result of in future lives	AN4.197
 insignificance, social	result of jealousy	AN4.197
 influential	result of non-jealousy	AN4.197
-wealth	as result of giving	AN4.197
-poverty	as a result of not giving	AN4.197
+wealth	result of giving	AN4.197
+poverty	result of not giving	AN4.197
 results of actions	seeing results as encouragement for good actions	AN4.197
 mortification (tapojigucchā)	of oneself and others	AN4.198
 mortification (tapojigucchā)	definition	AN4.198
@@ -15650,7 +15661,7 @@ stages of enlightenment	prevented by stinginess	AN5.265-271
 stream-enterers (sotāpanna)	prevented by ingratitude	AN5.265-271
 jhānas	prevented by ingratitude	AN5.265-271
 stages of enlightenment	prevented by ingratitude	AN5.265-271
-ingratitude	prevents jhanas	AN5.265-271
+ingratitude	prevents jhānas	AN5.265-271
 ingratitude	prevents stream entry	AN5.265-271
 meal allocator	going to hell	AN5.272
 work	various monastic jobs	AN5.273-285
@@ -16450,7 +16461,7 @@ restraint	lack of prevents concentration	AN7.61
 disputes	leads to restlessness and lack of concentration	AN7.61
 association	with people vs. remote dwellings	AN7.61
 arahants	definition	AN7.61
-loving-kindness (mettā)	as cause for rebirth	AN7.62
+loving-kindness (mettā)	cause for rebirth	AN7.62
 merit (puñña)	do not fear	AN7.62
 realm of streaming radiance (ābhassarūpa loka)	Bodhisatta born in	AN7.62
 Bodhisatta	reborn in realm of streaming radiance	AN7.62
@@ -17014,7 +17025,7 @@ gods of Yama (yāmā devā)	lifespan of	AN8.42
 Joyful gods (tusitā devā)	lifespan of	AN8.42
 gods that delight in creation (nimmānaratī devā)	lifespan of	AN8.42
 gods Who Control the Creations of Others (paranimmitavasavattī devā)	lifespan of	AN8.42
-Visākhā, Migara’s mother	uposatha practice	AN8.43
+Visākhā, Migāra’s mother	uposatha practice	AN8.43
 uposatha	with eight factors	AN8.43
 arahants	imitating on uposatha	AN8.43
 imitation	of arahants on uposatha	AN8.43
@@ -17034,10 +17045,10 @@ wives	advice for	AN8.46
 hospitality (paṭisanthāra)	advice for	AN8.46
 wives	leadership in household	AN8.46
 generosity (cāga)	wives	AN8.46
-Visākhā, Migara’s mother	wives, qualities of	AN8.47
+Visākhā, Migāra’s mother	wives, qualities of	AN8.47
 Nakulamātā, householder	wives, qualities of	AN8.48
 generosity (cāga)	cause for rebirth	AN8.49
-Visākhā, Migara’s mother	leadership in household	AN8.49
+Visākhā, Migāra’s mother	leadership in household	AN8.49
 household management	how to	AN8.46
 household management	how to	AN8.49
 women	success in this life	AN8.49
@@ -17578,7 +17589,7 @@ precepts, five	greater than going for refuge	AN9.20
 loving-kindness (mettā)	greater than following precepts	AN9.20
 cows	time to pull cow’s udder practicing loving-kindness	AN9.20
 finger-snap	perception of impermanence	AN9.20
-perception of impermanence (aniccasaññā)	for a finger snap	AN9.20
+perception of impermanence (aniccasaññā)	for time of a finger-snap	AN9.20
 perception of impermanence (aniccasaññā)	greater than loving-kindness	AN9.20
 Uttarakuru, people of	surpassing gods	AN9.21
 Jambudīpa (India)	people of	AN9.21
@@ -19607,16 +19618,16 @@ parents	caring for	Kp8
 siblings	caring for	Kp8
 death (maraṇa)	leaving all behind	Kp8
 merit (puñña)	as true possession	Kp8
-beauty	as result of merit	Kp8
-sweet voice	as result of merit	Kp8
-leadership	as result of merit	Kp8
-followers	as result of merit	Kp8
-sovereignty	as result of merit	Kp8
-wheel-turning monarchs	as result of merit	Kp8
+beauty	result of merit	Kp8
+sweet voice	result of merit	Kp8
+leadership	result of merit	Kp8
+followers	result of merit	Kp8
+sovereignty	result of merit	Kp8
+wheel-turning monarchs	result of merit	Kp8
 heaven (sagga)	vs. kingship	Kp8
 merit (puñña)	as support for nibbāna	Kp8
-good friends	as result of merit	Kp8
-analytical knowledge (paṭisambhidā)	as result of merit	Kp8
+good friends	result of merit	Kp8
+analytical knowledge (paṭisambhidā)	result of merit	Kp8
 paccekabuddhas	becoming through merit	Kp8
 merit (puñña)	praised by wise	Kp8
 speech	easy to speak to	Kp9
@@ -19968,8 +19979,8 @@ concentration (samādhi)	hindrances to	Dhp250
 greed (rāga)	as fire	Dhp251
 hatred (dosa)	as crime	Dhp251
 fault-finding	easy to find faults of others	Dhp252
-chaff	simile for fault finding	Dhp252
-winnowing	simile for fault finding	Dhp252
+chaff	simile for fault-finding	Dhp252
+winnowing	simile for fault-finding	Dhp252
 fault-finding	like winnowing chaff	Dhp252
 fault-finding	causes own defilements to grow	Dhp253
 judging	carefully	Dhp256
@@ -20185,7 +20196,7 @@ loss	of loved ones	Ud2.7
 pregnancy	difficult	Ud2.8
 recollection (anussati)	of triple gem	Ud2.8
 faith (saddhā)	guarantor	Ud2.8
-Visākhā, Migara’s mother	business with King Pasenadi	Ud2.9
+Visākhā, Migāra’s mother	business with King Pasenadi	Ud2.9
 subservience	as suffering	Ud2.9
 Bhaddiya Kāḷigodhā, Ven.	calling out “Oh, what bliss!”	Ud2.10
 spiritual path (brahmacariya)	dissatisfaction with	Ud2.10
@@ -20274,6 +20285,7 @@ paccekabuddhas	disparaging	Ud5.3
 Tagarasikhī, paccekabuddha	being insulted	Ud5.3
 paccekabuddhas	Tagarasikhī	Ud5.3
 harassing	noble ones	Ud5.3
+cows	death by	Ud5.3
 boys	harming an animal	Ud5.4
 uposatha	impure monk sitting in uposatha hall	Ud5.5
 bad monastics	pātimokkha recitation	Ud5.5
@@ -20387,7 +20399,7 @@ devas	offerings to	Ud8.6
 Buddha, the	psychic powers	Ud8.6
 Buddha, the	attendants	Ud8.7
 death (maraṇa)	of relative	Ud8.8
-Visākhā, Migara’s mother	wishing for grandchildren	Ud8.8
+Visākhā, Migāra’s mother	wishing for grandchildren	Ud8.8
 loved ones	as source of sorrow	Ud8.8
 grandmother	Visākhā wishing for grandchildren	Ud8.8
 grandchildren	Visākhā wishing for	Ud8.8
@@ -20426,7 +20438,7 @@ rebirth	pure mind	Iti21
 heaven (sagga)	pure mind leads to	Iti21
 merit (puñña)	another word for happiness	Iti22
 loving-kindness (mettā)	grounds for making merit	Iti22
-merit (puñña)	not to be feared	Iti22
+merit (puñña)	do not fear	Iti22
 brahmās	rebirth as	Iti22
 Sakka, Lord of Gods	reason for rebirth as	Iti22
 world system (lokadhātu)	collapse/contraction of	Iti22
@@ -20718,7 +20730,7 @@ Buddha, the	teaching yakkha	Snp1.10
 faith (saddhā)	wealth	Snp1.10
 truth (sacca)	as sweetest taste	Snp1.10
 faith (saddhā)	crossing flood, as means of	Snp1.10
-truthfulness	as cause for good reputation	Snp1.10
+truthfulness	cause for good reputation	Snp1.10
 reputation	gained by truthfulness	Snp1.10
 wealth	gained by hard work	Snp1.10
 friendship	gained by giving	Snp1.10
@@ -21585,7 +21597,7 @@ urgency	for practice	Thag19.1
 mind (citta)	like monkey	Thag19.1
 encouragement	to oneself	Thag19.1
 doubt	in ones abilities	Thag19.1
-mind (citta)	like traveller	Thag19.1
+mind (citta)	like traveler	Thag19.1
 sense pleasures (kāma, kāmaguṇa)	giving up like vomiting	Thag19.1
 rebirth	mind causing	Thag19.1
 cat-skin bag	mind like a	Thag1.19
@@ -21645,6 +21657,7 @@ Mahā Kassapa, Ven.	qualities of	Thig4.1
 Bhaddā Kāpilānī, Ven.	attainments same as Ven. Mahā Kassapa	Thig4.1
 marriage	disenchantment with	Thig4.1
 spiritual progress	helped by teacher	Thig5.1
+finger-snap	no peace even for a finger-snap	Thig5.1
 psychic powers (iddhi)	bhikkhunī with	Thig5.1
 direct knowledges (abhiññā)	six direct (chaḷabhiññā)	Thig5.1
 courtesans	former	Thig5.2
@@ -21692,6 +21705,7 @@ bathing	as ritual	Thig12.1
 purification	with water	Thig12.1
 body (kāya)	old	Thig13.1
 old age (jarā)	body in	Thig13.1
+skin	old, wrinkly 	Thig13.1
 beauty	as impermanent	Thig13.1
 perception of ugliness (asubhasaññā)	body grown old	Thig13.1
 ascetics (samaṇa)	love for	Thig13.2
