@@ -17,6 +17,8 @@ robes		xref rag-robe
 robes		xref rag-robe wearing
 speech		xref admonishment
 speech		xref accusations
+oil		xref ghee
+ghee		xref oil
 brahmā realm (brahmaloka)		xref brahmās
 brahmās		xref brahmā realm (brahmaloka)
 gift of the teaching (dhammadāna)		xref giving (dāna)
@@ -11303,6 +11305,7 @@ rocks	thrown in lake, simile for causing rebirth in heaven	SN42.6
 lakes	rock thrown in, simile for causing rebirth in heaven	SN42.6
 lakes	ghee thrown in, simile for causing rebirth in hell	SN42.6
 ghee	in broken pot rising up, simile for causing rebirth in hell	SN42.6
+oil	in broken pot rising up, simile for causing rebirth in hell	SN42.6
 rebirth	cannot be changed by others prayers	SN42.6
 Buddha, the	cannot cause someone’s rebirth	SN42.6
 prayer	ineffective for changing someone’s rebirth	SN42.6
