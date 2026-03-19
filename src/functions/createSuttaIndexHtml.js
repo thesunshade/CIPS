@@ -89,7 +89,7 @@ export default function createSuttaIndexHtml(indexObject) {
             <head-word>
               ${headwordWithCounter}
               <img src="images/copy-head.png" alt="copy icon" class="icon copy-icon click-to-copy copy-headword" height="16" data-clipbt="${headword}">
-              <img src="images/link.png" alt="link copy icon" class="icon link-icon click-to-copy copy-link" height="16" data-clipbt="index.readingfaithfully.org/#${headwordId}">
+              <img src="images/link.png" alt="link copy icon" class="icon link-icon click-to-copy copy-link" height="16" data-clipbt="https://index.readingfaithfully.org/#${headwordId}">
               <img src="images/copy-txt.png" alt="text copy icon" class="icon text-icon copy-icon entry-text" height="16" data-head="${headword}">
               <img src="images/copy-html.png" alt="text copy icon" class="icon html-icon copy-icon entry-html" height="16" data-head="${headword}">
               <img src="images/copy-md.png" alt="text copy icon" class="icon markdown-icon copy-icon entry-markdown" height="16" data-head="${headword}">
@@ -174,10 +174,10 @@ export default function createSuttaIndexHtml(indexObject) {
               const locatorListObject = headwordsObject[headword][subhead];
               return `${constructSublessLocatorList(locatorListObject, subhead)}
         <sub-w>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : wrapIgnoreWords(subhead)}          ${locatorListObject.xrefs
-                .map((rawXref, index) => {
-                  return constructXrefHtml(locatorListObject, rawXref, index);
-                })
-                .join("")}${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}
+          .map((rawXref, index) => {
+            return constructXrefHtml(locatorListObject, rawXref, index);
+          })
+          .join("")}${subhead === "" ? "" : constructLocatorListHtml(locatorListObject)}
         </sub-w>`;
             })
             .join("")}
