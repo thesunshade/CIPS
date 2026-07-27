@@ -5,6 +5,8 @@
 @import url('../src/functions/cssParts/infoArea.css');
 @import url('../src/functions/cssParts/snackBars.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
 :root {
   --primary: #b54d0d;
   --dark-primary: #3f1011;
@@ -764,7 +766,7 @@ body.copy-buttons-visible .copy-icon {
     max-width: initial !important;
     background: none;
     margin: 20mm auto;
-    font-family: 'Source Serif', 'Times New Roman', georgia, serif;
+    font-family: 'Source Serif 4', 'Times New Roman', georgia, serif;
   }
 
   .sutta-index {
