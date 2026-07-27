@@ -102,6 +102,10 @@ h1 {
   text-wrap: balance;
 }
 
+.print-only-html {
+  display: none;
+}
+
 .settings-bar {
   color: var(--offwhite-saturated);
   background-color: var(--primary);
@@ -752,15 +756,129 @@ body.copy-buttons-visible .copy-icon {
   display: none
 }
 
-/*Safari specific*/
-/* @media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) {
-    .sub-w {
-      line-height: 1.7rem !important
+@media print {
+
+  body {
+    padding: 0rem;
+    margin: 0in;
+    max-width: initial !important;
+    background: none;
+    margin: 20mm auto;
+    font-family: 'Source Serif', 'Times New Roman', georgia, serif;
+  }
+
+  .sutta-index {
+    margin: 0;
+    padding: 0;
+    column-count: 2;
+    column-gap: 6mm;
+    column-rule: 0.5pt solid black;
+    margin-top: 0;
+  }
+
+  #settings-bar,
+  .icon,
+  sub-w br,
+  .preface {
+    display: none
+  }
+
+  .print-only-html {
+    display: inherit;
+    margin-bottom: 2rem;
+  }
+
+  .print-only-html p {
+    margin-bottom: 1rem;
+  }
+
+  head-word {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+
+  sub-w {
+    break-inside: avoid;
+    margin-left: 1ex;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 11pt;
+    /* width: 79%; */
+    line-height: 14pt;
+    text-indent: 0;
+  }
+
+  a.locator,
+  a.locator:visited {
+    color: #666;
+  }
+
+  a.xref-link {
+    color: #777;
+    line-height: 13pt;
+    padding-bottom: 0;
+    text-indent: 0;
+  }
+
+  sub-w a {
+    padding-left: 1ex;
+  }
+
+  /* sub-w a:first-of-type {
+    padding-left: 0;
+  } */
+
+  head-word-area {
+    background: none transparent;
+    position: inherit;
+  }
+
+  .headword-link {
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    padding-left: 1ex;
+    background-color: #eee;
+    color: #000;
+    width: 100%;
+    margin-bottom: 1mm;
+    border-top: none;
+  }
+
+  .headword-link img {
+    display: none;
+  }
+
+}
+
+@media print {
+  @page {
+    /* Set page margins to create space for your headers/footers */
+    margin: 25mm 15mm 20mm 15mm;
+
+    /* Running Header (Top Center) */
+    @top-center {
+      content: "Comprehensive Index of Pāli Suttas";
+      font-size: 9pt;
+      font-family: sans-serif;
+      color: #666;
+
     }
 
-    .colored-locators .locator {
-      padding: 1px 4px !important;
+    /* Running Footer (Bottom Left) */
+    @bottom-left {
+      content: "Version 2026/07/23";
+      font-size: 9pt;
+      font-family: sans-serif;
+      color: #888;
+    }
+
+    /* Page Numbers (Bottom Right) */
+    @bottom-right {
+      content: counter(page);
+      font-size: 10pt;
+      font-weight: bold;
+      font-family: sans-serif;
     }
   }
-} */
+}
