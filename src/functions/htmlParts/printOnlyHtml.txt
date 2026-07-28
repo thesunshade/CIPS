@@ -1,6 +1,46 @@
 <div class="print-only-html">
-<h1>Comprehensive Index of Pāli Suttas</h1>
-<p class="subtitle">An index of topics, words, people, similes, and titles found in the suttas of the Pāli canon of the Theravada Buddhist tradition.</p>
-<p>By using this index you will learn what the Buddha and his Great Disciples had to say about the Dhamma that ends all suffering. Whether you are just beginning to learn about Buddhism or are researching deep topics, this sutta index will help you on your path.</p>
-<p>The use of this index for training, developing, testing, or improving any artificial intelligence system, machine learning model, or similar technology is strictly prohibited. Please see <a href="https://github.com/thesunshade/CIPS#readme">the full license.</a></p>
+    <div class="print-page">
+        <h1 style="font-size: 3.5rem;font-weight:normal">Comprehensive Index <br><span style="font-size:2rem;">of</span><br> Pāli Suttas</h1>
+        <div class="subtitle" style="margin-top:3rem;">By ReadingFaithfully.org</div>
+        <div class="subtitle" style="margin:6rem 4rem;font-size:1.5rem">An index of topics, words, people, similes, and titles found in the suttas of the Pāli canon of the Theravada Buddhist tradition.</div>
+        <div class="subtitle" style="margin-top:3rem;">For a full Digital version of the index, visit <a href="https://index.readingfaithfully.org">Index.ReadingFaithfully.org</a>.</div>
+    </div>
+    <div class="print-page">
+        <h2>Welcome</h2>
+        <p>By using this index you will learn what the Buddha and his Great Disciples had to say about the Dhamma that ends all suffering. Whether you are just beginning to learn about Buddhism or are researching deep topics, this sutta index will help you on your path.</p>
+        <p>To report missing or incorrect information, please use the <a href="https://readingfaithfully.org/contact/" rel="noreferrer" target="_blank"> contact form on ReadingFaithfully.org</a>.</p>
+        <h2>How to use the index</h2>
+        <p>First, look things up by <em>noun</em> followed by an <em>adjective</em>. If that doesn't work, then try the adjective.</p>
+        <p>Checking cross references is essential. If you don't find what you need always check cross references. </p>
+        <p>For the sake of simplicity, the grammar of head and sub words may not always match. For example, <i>energetic, as protector</i> might be more accurately written as <i>energetic, being as protector</i>, which more verbosely would be written as <i>energetic, being energetic serves as a protector.</i></p>
+        <p>In all cases, one should actually read the sutta being refrenced and not rely on the index headings or subheadings. For example, some wrong views may be indexed in a way that is not immediately apparent that they are such. So actually reading the sutta is critical for understanding the matter at hand.</p>
+        <p>Diacritics are ignored for alphabetization.</p>
+        <h2>Pāli</h2>
+        <p>Pāli is given for some terms. The Pāli is generally in the singular, though the term in the text may be plural.</p>
+        <p>Generally, headwords will be in English. For some words where the Pāli is more concise and well known (e.g. Bodhisatta, paccekabuddha) it will be listed under Pāli.</p>
+        <p>In some cases, although a Pāli word may appear in parentheses in the head word, the Pāli word may not appear in the text.</p>
+        <p>Proper names may refer to multiple distinct individuals. Also note that some identical looking names may be gendered versions, e.g. Visākhā and Visākha.</p>
+        <h2>More Resources</h2>
+          <p>
+            While this index attempts to be more than just significant occurrences, it is by no mean a complete concordance of all words in the Sutta Piṭaka. For that you may want to try using <a href="https://www.digitalpalireader.online" rel="noreferrer" target="_blank"> the DigitalPaliReader.online</a>.
+          </p>
+          <p>
+            The<a href="https://digitalpalidictionary.github.io/" rel="noreferrer" target="_blank"> Digital Pāli Dictionary</a> is also an excellent resource.
+          </p>
+          <h2>Other ReadingFaithfully resources:</h2>
+          <ul>
+          <li><a href="https://sutta.readingfaithfully.org" rel="noreferrer" target="_blank">Main Sutta reading website</a></li>
+          <li><a href="https://daily.readingfaithfully.org" rel="noreferrer" target="_blank">Daily Suttas</a></li>
+          <li><a href="https://diff.readingfaithfully.org" rel="noreferrer" target="_blank">Sutta Differ</a></li>
+          <li><a href="https://discourse.suttacentral.net/t/a-browser-extension-for-suttacentral/36074" rel="noreferrer" target="_blank">SuttaCentral Browser Extension</a></li>
+          <li><a href="https://links.readingfaithfully.org/" rel="noreferrer" target="_blank">All links and tools</a></li>
+          </ul>
+        <h2>Coverage</h2>
+        <p>DN, MN, SN, AN, Kp, Dhp, Ud, Iti, Snp, Vv, Pv, Thag, Thig</p>
+        <h2>Copyright</h2>
+        <p>All data and content in this index and the digital repository (including the final website as well as raw data) is copyright ReadingFaithfully.org and may not be reproduced without permission.
+        <p>The use of this index for training, developing, testing, or improving any artificial intelligence system, machine learning model, or similar technology is strictly prohibited. Please see <a href="https://github.com/thesunshade/CIPS#readme">the full license.</a></p>
+    </div>
+
+
 </div>

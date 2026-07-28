@@ -766,6 +766,9 @@ body.copy-buttons-visible .copy-icon {
     max-width: initial !important;
     background: none;
     margin: 20mm auto;
+  }
+
+  body * {
     font-family: 'Source Serif 4', 'Times New Roman', georgia, serif;
   }
 
@@ -791,7 +794,30 @@ body.copy-buttons-visible .copy-icon {
   }
 
   .print-only-html p {
-    margin-bottom: 1rem;
+    text-indent: 1em;
+    ;
+  }
+
+  .print-only-html .subtitle {
+    line-height: 2rem;
+  }
+
+  .print-only-html h2 {
+    font-weight: normal;
+  }
+
+  .print-only-html h2+p {
+    text-indent: 0;
+  }
+
+  .print-page {
+    break-after: page;
+    margin: 3rem;
+  }
+
+  .print-page a {
+    color: black;
+    text-decoration: none;
   }
 
   head-word {
