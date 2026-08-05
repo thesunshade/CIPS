@@ -174,7 +174,7 @@ export default function createSuttaIndexHtml(indexObject) {
             .map(subhead => {
               const locatorListObject = headwordsObject[headword][subhead];
               return `${constructSublessLocatorList(locatorListObject, subhead)}
-        <sub-w>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : wrapIgnoreWords(subhead)}          ${locatorListObject.xrefs
+        <sub-w><sub-w-term>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : wrapIgnoreWords(subhead)}</sub-w-term>          ${locatorListObject.xrefs
           .map((rawXref, index) => {
             return constructXrefHtml(locatorListObject, rawXref, index);
           })
