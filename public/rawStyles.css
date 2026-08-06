@@ -5,6 +5,9 @@
 @import url('../src/functions/cssParts/infoArea.css');
 @import url('../src/functions/cssParts/snackBars.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 :root {
   --primary: #b54d0d;
   --dark-primary: #3f1011;
@@ -100,6 +103,10 @@ h1 {
   line-height: 100%;
   text-align: center;
   text-wrap: balance;
+}
+
+.print-only-html {
+  display: none;
 }
 
 .settings-bar {
@@ -752,15 +759,232 @@ body.copy-buttons-visible .copy-icon {
   display: none
 }
 
-/*Safari specific*/
-/* @media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) {
-    .sub-w {
-      line-height: 1.7rem !important
-    }
+@media print {
 
-    .colored-locators .locator {
-      padding: 1px 4px !important;
+  body {
+    padding: 0rem;
+    margin: 0in;
+    max-width: initial !important;
+    background: none;
+    margin: 20mm auto;
+  }
+
+  body * {
+    font-family: 'Source Serif 4', 'Times New Roman', georgia, serif;
+  }
+
+  .sutta-index {
+    margin: 0;
+    padding: 0;
+    column-count: 3;
+    column-gap: 6mm;
+    margin-top: 0;
+    break-before: right;
+  }
+
+  /* Triggers for A5 (148mm) and Half-Letter (139.7mm) */
+  @media (max-width: 170mm) {
+    .sutta-index {
+      column-count: 2;
+      column-gap: 4mm;
     }
   }
-} */
+
+  #settings-bar,
+  .icon,
+  sub-w br,
+  .preface {
+    display: none
+  }
+
+  .print-only-html {
+    display: inherit;
+    margin-bottom: 2rem;
+  }
+
+  .print-only-html p {
+    margin-bottom: .2rem;
+    text-indent: 1em;
+  }
+
+  .print-only-html h2+p {
+    text-indent: 0;
+  }
+
+  .print-only-html .subtitle {
+    line-height: 2rem;
+  }
+
+  .print-only-html h2 {
+    font-weight: normal;
+  }
+
+  .print-page {
+    break-after: page;
+    margin: 3rem;
+  }
+
+  .print-page a {
+    color: black;
+    text-decoration: none;
+  }
+
+  head-word {
+    break-after: avoid;
+    break-inside: avoid;
+    font-family: "Source Sans 3", "Fira Sans", sans-serif;
+  }
+
+  sub-w {
+    break-inside: avoid;
+    margin-bottom: 1.5pt;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 9pt;
+    width: 100%;
+    line-height: 11pt;
+    text-indent: 0;
+    text-align: left;
+
+    font-family: 'Source Serif 4', 'Times New Roman', georgia, serif;
+  }
+
+  sub-w-term {
+    font-weight: 700;
+  }
+
+  a.locator,
+  a.locator:visited {
+    color: #000;
+  }
+
+  .locator {
+    white-space: unset;
+  }
+
+  sub-w:has(a.xref-link) {
+    font-style: italic;
+    font-size: 9pt;
+    line-height: 11pt;
+    margin-bottom: 2pt;
+    font-weight: 500;
+    /* color: #5E5E5E; */
+  }
+
+  a.xref-link {
+    color: #000000;
+    font-size: 9pt;
+    font-style: italic;
+    padding-bottom: 0;
+    text-indent: 0;
+    font-weight: 700;
+  }
+
+  sub-w a {
+    /* padding-right: 1ex; */
+    font-weight: 500;
+  }
+
+  sutta-name {
+    font-size: 9pt;
+
+  }
+
+  /* sub-w a:last-of-type {
+    padding-right: 0;
+  } */
+
+  head-word-area {
+    background: none transparent;
+    position: inherit;
+  }
+
+  headword-section {
+    padding-bottom: 14pt;
+  }
+
+  .headword-link {
+    padding-top: 0pt;
+    margin-top: 0;
+    color: #000;
+    width: 100%;
+    margin-bottom: 5pt;
+    border-top: none;
+    border-bottom: 0.25pt solid #000;
+    font-size: 11pt;
+    line-height: 13pt;
+  }
+
+  .headword-link img {
+    display: none;
+  }
+
+  alphabet-anchor {
+    font-size: 24pt;
+    border-bottom: none;
+    margin-top: 0;
+    page-break-before: always;
+    break-before: page;
+    font-family: "Source Sans 3", "Fira Sans", sans-serif;
+  }
+
+}
+
+@media print {
+
+  /* Override headers and footers for the first page only */
+  @page :first {
+
+    @top-center {
+      content: none;
+    }
+
+    @bottom-left {
+      content: none;
+    }
+
+    @bottom-right {
+      content: none;
+    }
+  }
+
+  /* Base page settings for all pages */
+  @page {
+
+    margin: 20mm 12mm;
+
+    @top-center {
+      content: "Comprehensive Index of Pāli Suttas";
+      font-size: 9pt;
+      font-family: sans-serif;
+    }
+  }
+
+  @page :left {
+    margin-right: 25mm;
+
+    @bottom-left {
+      content: counter(page);
+      font-size: 10pt;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+
+    @bottom-right {
+      content: "Version 2026/07/23";
+      font-size: 7pt;
+      font-family: sans-serif;
+    }
+  }
+
+  @page :right {
+    margin-left: 25mm;
+
+    @bottom-right {
+      content: counter(page);
+      font-size: 10pt;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+  }
+}
