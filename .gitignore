@@ -54,3 +54,4 @@ src/data/headword-subhead-count.js
 public/subheadCountTable.html
 headword-subhead-count.js
 subheadCountTable.html
+.vscode/settings.json
