@@ -14,6 +14,7 @@ import { escapeForRegex } from "../data/ignoreWords.js";
 const endingHtml = fs.readFileSync(new URL("./htmlParts/endingHtml.txt", import.meta.url), "utf8");
 const openingHtml = fs.readFileSync(new URL("./htmlParts/openingHtml.txt", import.meta.url), "utf8");
 const prefaceHtml = fs.readFileSync(new URL("./htmlParts/prefaceHtml.txt", import.meta.url), "utf8");
+const printOnlyHtml = fs.readFileSync(new URL("./htmlParts/printOnlyHtml.txt", import.meta.url), "utf8");
 
 export default function createSuttaIndexHtml(indexObject) {
   // because there is no Vv or Pv on SC, those citations go to suttafriends.org
@@ -173,7 +174,7 @@ export default function createSuttaIndexHtml(indexObject) {
             .map(subhead => {
               const locatorListObject = headwordsObject[headword][subhead];
               return `${constructSublessLocatorList(locatorListObject, subhead)}
-        <sub-w>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : wrapIgnoreWords(subhead)}          ${locatorListObject.xrefs
+        <sub-w><sub-w-term>${subhead === "" && locatorListObject.xrefs.length > 0 ? (sortedSubWords.length === 1 ? "see " : "see also ") : wrapIgnoreWords(subhead)}</sub-w-term>          ${locatorListObject.xrefs
           .map((rawXref, index) => {
             return constructXrefHtml(locatorListObject, rawXref, index);
           })
@@ -190,6 +191,7 @@ export default function createSuttaIndexHtml(indexObject) {
   // asemble all the parts
   let suttaIndexHtml = `${openingHtml}
     ${settingsBar(indexObject)}
+    ${printOnlyHtml}
     <div id="sutta-index" class="sutta-index">
     ${prefaceHtml}
     ${index}

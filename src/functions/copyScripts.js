@@ -159,6 +159,8 @@ function createElementObject(elementId) {
     .replace(/<a href="(.+?)" class=".+?">(.+?)<\/a>,*/g, '{"url": "$1","location": "$2"},')
     .replace(/<\/sub-w>/g, "]},")
     .replace(/<\/div><sub-w>/g, "")
+    .replace(/<sub-w-term>/g, "")
+    .replace(/<\/sub-w-term>/g, "")
     .replace(/;<br>/g, "")
     .replace(/,$/, "")
     .replace(/,\]/g, "]")
