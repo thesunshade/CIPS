@@ -114,7 +114,7 @@ export const infoArea = `
             sorted by number of unique locators.
           </p>
           <p>
-            <a href="https://index.readingfaithfully.org/subheadcounttable" rel="noreferrer" target="_blank">
+            <a href="https://index.readingfaithfully.org/subheadcounttable.html" rel="noreferrer" target="_blank">
               Table of headwords
             </a>
             sorted by number of sub-headings.
