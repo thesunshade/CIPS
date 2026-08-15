@@ -50,3 +50,20 @@
 #loading-snackbar a {
     text-decoration: underline;
 }
+
+#snackbar-close {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--offblack);
+    padding: 4px;
+}
+
+#snackbar-close:hover {
+    opacity: 0.7;
+}

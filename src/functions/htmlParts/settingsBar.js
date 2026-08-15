@@ -8,6 +8,7 @@ export function settingsBar(indexObject) {
   return `<div id="settings-bar" class="settings-bar">
   <div class="snack-bar">Copied!</div>
   <div id="loading-snackbar">
+  <button id="snackbar-close" aria-label="Close">&times;</button>
   Trouble loading?
     <div class="spinner"></div>
   Try a <a href="https://simple-index.readingfaithfully.org" target="_blank" rel="noreferrer" >simple version of the index</a>.</div>

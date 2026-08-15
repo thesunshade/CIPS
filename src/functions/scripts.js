@@ -11,6 +11,10 @@ window.addEventListener("load", function () {
   document.getElementById("loading-snackbar").style.display = "none";
 });
 
+document.getElementById("snackbar-close").addEventListener("click", function () {
+  document.getElementById("loading-snackbar").style.display = "none";
+});
+
 const SITENAME = "Comprehensive Index of Pāli Suttas";
 const searchBox = document.getElementById("search-box");
 const resultsContainer = document.getElementById("results");
