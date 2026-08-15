@@ -1282,6 +1282,10 @@ food		xref perception of repulsiveness of food (āhāre paṭikūlasaññā)
 perception of repulsiveness of food (āhāre paṭikūlasaññā)		xref food
 reviewing (paccavekkhaṇā)		xref reflection (paṭisaṅkhā)
 reflection (paṭisaṅkhā)		xref reviewing (paccavekkhaṇā)
+reviewing (paccavekkhaṇā)		xref recollection (anussati)
+reflection (paṭisaṅkhā)		xref recollection (anussati)
+recollection (anussati)		xref reflection (paṭisaṅkhā)
+recollection (anussati)		xref reviewing (paccavekkhaṇā)
 association		xref companionship
 monastic life		xref disrobing
 perception of death (maraṇasaññā)		xref mindfulness of death (maraṇassati)
@@ -2726,21 +2730,18 @@ Dhataraṭṭha, deva king	ruling the east	DN20:4.0
 Virūḷhaka, deva king	ruling the south	DN20:4.0
 Virūpakkha, deva king	ruling the west	DN20:4.0
 Kuvera, deva king	ruling the north	DN20:4.0
-Four Great Kings, the (catumahārāja)	described	DN20:4.1
-gandhabbas	visiting monastics	DN20:4.2
-nāgas	visiting monastics	DN20:4.3
-supaṇṇas	visiting monastics	DN20:4.4
-nāgas	going for refuge to the Buddha	DN20:4.5
-supaṇṇas	going for refuge to the Buddha	DN20:4.6
-yakkhas	visiting monastics	DN20:4.7
-Varuṇa, deva	visiting monastics	DN20:4.8
-devas	visiting monastics	DN20:4.9
-Varuṇa, deva	visiting monastics	DN20:4.10
-Gods of Yama (yāmā devā)	visiting monastics	DN20:4.11
-Gods that delight in creation (nimmānaratī devā)	visiting monastics	DN20:4.12
-Gods that delight in creation (nimmānaratī devā)	visiting monastics	DN20:4.13
-Gods that delight in creation (nimmānaratī devā)	visiting monastics	DN20:4.14
-Māra	attacks gathering of arahants	DN20:4.15
+Four Great Kings, the (catumahārāja)	described	DN20:4.0
+gandhabbas	visiting monastics	DN20:4.0
+nāgas	visiting monastics	DN20:4.0
+supaṇṇas	visiting monastics	DN20:4.0
+nāgas	going for refuge to the Buddha	DN20:4.0
+supaṇṇas	going for refuge to the Buddha	DN20:4.0
+yakkhas	visiting monastics	DN20:4.0
+devas	visiting monastics	DN20:4.0
+Varuṇa, deva	visiting monastics	DN20:4.0
+Gods of Yama (yāmā devā)	visiting monastics	DN20:4.0
+Gods that delight in creation (nimmānaratī devā)	visiting monastics	DN20:4.0
+Māra	attacks gathering of arahants	DN20:4.0
 Pañcasikha, gandhabba	accompanying Sakka	DN21
 Sakka, Lord of Gods	questioning the Buddha	DN21
 songs (gītā)	sung to Buddha	DN21:1.4.7.0
@@ -3394,8 +3395,8 @@ protective chanting (paritta)	Āṭānāṭiya 	DN32
 Nigaṇṭha Nāṭaputta	death	DN33
 Sāriputta, Ven.	detailed listing of terms	DN33
 reciting Dhamma	should come together to	DN33
-food	all beings sustained by	DN33:1.7.9.0
-conditions (saṅkāra)	all beings sustained by	DN33:1.7.9.1
+nutriment (āhāra)	all beings sustained by	DN33:1.7.9.0
+conditions (saṅkāra)	all beings sustained by	DN33:1.7.9.0
 contentment	with partial attainments	DN33:1.9.0
 bad actions	by body, speech, mind 	DN33:1.10.0
 good actions	by body, speech, mind 	DN33:1.10.0
@@ -3568,7 +3569,7 @@ indulgent (bāhulika)	disciples who do not train	MN3
 senior monastics	good and bad	MN3
 middle monastics	good and bad	MN3
 junior monastics	good and bad	MN3
-middle path (majjhimā paṭipadā)	for giving up greed and hate, etc.	MN3
+middle path (majjhimā paṭipadā)	for giving up greed and hatred, etc.	MN3
 evil (pāpa)	qualities, giving up	MN3
 greed (lobha)	practice for giving up	MN3
 hatred (dosa)	practice for giving up	MN3
@@ -4548,8 +4549,8 @@ form (rūpa)	knowing to be four great elements	MN33
 elements, four great (cattāri mahābhūtāni)	form and	MN33
 characteristics (lakkhaṇa)	skilled in	MN33
 characteristics (lakkhaṇa)	of fools and wise people	MN33
-fools (bāla)	known by deeds	MN33
-astute person (paṇḍita)	known by deeds	MN33
+fools (bāla)	known by actions	MN33
+astute person (paṇḍita)	known by actions	MN33
 flies	eggs, picking out, simile for bad thoughts	MN33
 eggs	flies eggs, picking out, simile for bad thoughts	MN33
 sensual thoughts (kāmavitakka)	removing like picking out flies’ eggs	MN33
@@ -5769,7 +5770,7 @@ views (diṭṭhi)	that do not lead to enlightenment	MN72
 wrong views (diṭṭhigata)	Buddha has done away with	MN72
 aggregates (khandha)	origin and ending	MN72
 conceiving (maññita)	Buddha has abandoned all	MN72
-I making (ahaṅkāra)	Buddha has abandoned all	MN72
+I-making (ahaṅkāra)	Buddha has abandoned all	MN72
 possessiveness (mamaṅkāra)	Buddha has abandoned all	MN72
 rebirth	“reborn” does not apply	MN72
 rebirth	ending like flame going out	MN72
@@ -6260,7 +6261,7 @@ moon	simile for young monk	MN86
 monk, young	like moon lights up world	MN86
 enemies	wishing for them to hear Dhamma	MN86
 self-taming	wise tame themselves	MN86
-self-taming	like arrow maker	MN86
+self-taming	like arrow-maker	MN86
 self-taming	like irrigator	MN86
 self-taming	like carpenter	MN86
 arrowsmiths	simile for self-taming	MN86
@@ -6391,7 +6392,7 @@ debates	about caste	MN93
 results of actions	experiencing regardless of caste	MN93
 loving-kindness (mettā)	castes, all can practice	MN93
 bathing	all castes can wash themselves	MN93
-fires	of different kinds of wood made by different castes	MN93
+fires	of different kinds of wood, simile for castes	MN93
 children	of mixed caste parents	MN93
 caste (vaṇṇa)	children of mixed caste parents	MN93
 horses	mated with donkey, not like mixed caste children	MN93
@@ -6877,7 +6878,7 @@ danger (ādīnava)	of aggregates	MN109
 escape (nissaraṇa)	from aggregates	MN109
 aggregates (khandha)	as not-self	MN109
 conceit (māna)	knowing and seeing so that there is no	MN109
-I making (ahaṅkāra)	knowing and seeing so that there is no	MN109
+I-making (ahaṅkāra)	knowing and seeing so that there is no	MN109
 not-self	aggregates	MN109
 conceit, underlying tendency (mānānusaya)	knowing and seeing so that there is no	MN109
 impermanence	of aggregates	MN109
@@ -6934,7 +6935,7 @@ elements (dhātu)	as not-self	MN112
 elements (dhātu)	underlying tendencies and	MN112
 consciousness element (viññāṇadhātu)	as not-self	MN112
 sense bases (āyatana)	cessation of desire	MN112
-I making (ahaṅkāra)	knowing and seeing so that there is no	MN112
+I-making (ahaṅkāra)	knowing and seeing so that there is no	MN112
 gradual training (anupubbasikkhā)	as reported by an arahant	MN112
 enlightenment	without triple knowledge	MN112
 spiritual companions (sabrahmacārī)	fortunate to have an enlightened one as	MN112
@@ -7135,8 +7136,11 @@ mindfulness of body (kāyagatāsati)	postures	MN119
 mindfulness of body (kāyagatāsati)	concentration and	MN119
 postures	mindfulness of body	MN119
 situational awareness (sampajañña)	mindfulness of body	MN119
-mindfulness of body (kāyagatāsati)	situational awareness (sampajañña)	MN119
-eating	situational awareness (sampajañña)	MN119
+mindfulness of body (kāyagatāsati)	situational awareness	MN119
+eating	situational awareness	MN119
+defecating 	situational awareness	MN119
+postures 	situational awareness	MN119
+urinating 	situational awareness	MN119
 perception of ugliness (asubhasaññā)	mindfulness of body	MN119
 mindfulness of body (kāyagatāsati)	ugliness	MN119
 lay life	memories and thoughts of	MN119
@@ -7403,8 +7407,8 @@ animal realm	gluttony as cause for rebirth in	MN129
 brahmins	running to a burnt offering	MN129
 gluttony (rasāda)	leading to rebirth in animal realm	MN129
 animal realm	suffering in	MN129
-turtles	simile for beings in lower realm reborn as human; turtle	MN129
-yokes	simile for beings in lower realm reborn as human; yoke	MN129
+turtles	simile for rebirth in human realm rare; yoke	MN129
+yokes	simile for rebirth in human realm rare; turtle	MN129
 underworld (vinipāta)	no good conduct in	MN129
 merit (puñña)	none in hell	MN129
 fools (bāla)	reborn in low families	MN129
@@ -7698,7 +7702,7 @@ covetousness, giving up	arahants	MN140
 resentment (āghāta)	through ignorance	MN140
 ill will (vyāpāda, byāpāda)	through ignorance	MN140
 ill will, giving up	arahants	MN140
-peace (upasama)	ultimate: pacification of greed, hate, delusion	MN140
+peace (upasama)	ultimate: pacification of greed, hatred, delusion	MN140
 conceiving (maññita)	streams of do not flow	MN140
 identity (sakkāya)	forms of	MN140
 conceiving (maññita)	disease, boil, dart	MN140
@@ -9443,7 +9447,7 @@ going forth (pabbajja)	thief of Dhamma	SN12.70
 thieves (cora)	simile for thief of Dhamma	SN12.70
 ascetics and brahmins (samaṇabrāhmaṇa)	true and not true; dependent origination	SN12.71
 right view, person accomplished in (diṭṭhisampanna puggala)	suffering removed like great earth	SN13.1
-fingernail (nakhasikhā)	dirt, simile of suffering removed by stream-enterer	SN13.1
+fingernail (nakhasikhā)	dirt, simile for suffering removed by stream-enterer	SN13.1
 ponds	giant, simile for suffering removed by stream-enterer	SN13.2
 grass	water on tip of, simile for suffering removed by stream-enterer	SN13.2
 right view, person accomplished in (diṭṭhisampanna puggala)	suffering removed like giant pond	SN13.2
@@ -9825,7 +9829,7 @@ craving (taṇhā)	impermanent	SN18.8
 elements (dhātu)	impermanent	SN18.9
 aggregates	impermanent	SN18.10
 sense bases	impermanent, suffering	SN18.11
-I making (ahaṅkāra)	knowing and seeing so that there is no	SN18.21
+I-making (ahaṅkāra)	knowing and seeing so that there is no	SN18.21
 possessiveness (mamaṅkāra)	knowing and seeing so that there is no	SN18.21
 conceit, underlying tendency (mānānusaya)	knowing and seeing so that there is no	SN18.21
 aggregates	“This is not mine, I am not this, this is not my self”	SN18.21
@@ -9887,7 +9891,7 @@ emptiness (suññatā)	monastics will not have interest in future	SN20.7
 listening to Dhamma	in the future monastics will not be interested in	SN20.7
 poetry	will become more popular	SN20.7
 Dhamma	disappearing	SN20.7
-memorizing	Thinking teachings are worth	SN20.7
+memorizing	thinking teachings are worth	SN20.7
 Licchavis	using wood blocks for pillows	SN20.8
 Māra	cannot attack	SN20.8
 pillow	made of wood	SN20.8
@@ -9912,7 +9916,7 @@ noble silence (ariya tuṇhībhāva)	second jhāna	SN21.1
 Buddha, the	visiting monks in trouble	SN21.1
 Moggallāna, Ven.	helped by the Buddha	SN21.1
 Sāriputta, Ven.	sadness, nothing that would cause	SN21.2
-I making (ahaṅkāra)	Ven. Sāriputta has long ago eradicated	SN21.2
+I-making (ahaṅkāra)	Ven. Sāriputta has long ago eradicated	SN21.2
 possessiveness (mamaṅkāra)	Ven. Sāriputta has long ago eradicated	SN21.2
 conceit, underlying tendency (mānānusaya)	Ven. Sāriputta has long ago eradicated	SN21.2
 psychic powers (iddhi)	traveling using	SN21.3
@@ -10121,10 +10125,10 @@ not-self	aggregates	SN22.68
 self (atta)	what belongs to	SN22.69
 Rādha, Ven.	knowing and seeing	SN22.71
 knowing and seeing	aggregates not-self	SN22.71
-I making (ahaṅkāra)	knowing and seeing so that there is no	SN22.71
+I-making (ahaṅkāra)	knowing and seeing so that there is no	SN22.71
 Surādha, Ven.	knowing and seeing	SN22.72
 knowing and seeing	aggregates not-self	SN22.72
-I making (ahaṅkāra)	knowing and seeing so that there is no	SN22.72
+I-making (ahaṅkāra)	knowing and seeing so that there is no	SN22.72
 gratification, danger, escape	aggregates	SN22.73
 ordinary person (puthujjana)	aggregates	SN22.73
 noble disciple (ariya sāvaka)	aggregates, understanding	SN22.73
@@ -10180,7 +10184,7 @@ danger (ādīnava)	of aggregates	SN22.82
 escape (nissaraṇa)	from aggregates	SN22.82
 aggregates (khandha)	as not-self	SN22.82
 conceit (māna)	knowing and seeing so that there is no	SN22.82
-I making (ahaṅkāra)	knowing and seeing so that there is no	SN22.82
+I-making (ahaṅkāra)	knowing and seeing so that there is no	SN22.82
 not-self	aggregates	SN22.82
 conceit, underlying tendency (mānānusaya)	knowing and seeing so that there is no	SN22.82
 impermanence	of aggregates	SN22.82
@@ -10264,7 +10268,7 @@ extremes (anta)	existence and non-existence	SN22.90
 middle (majjha)	dependent origination as middle way	SN22.90
 dependent origination	as middle way	SN22.90
 spiritual companions (sabrahmacārī)	Ven. Channa praising	SN22.90
-I making (ahaṅkāra)	knowing and seeing so that there is no 	SN22.91
+I-making (ahaṅkāra)	knowing and seeing so that there is no 	SN22.91
 possessiveness (mamaṅkāra)	knowing and seeing so that there is no 	SN22.91
 rivers	simile for regarding aggregates for self; grasping plants on bank	SN22.93
 aggregates	like grasping plants on river bank	SN22.93
@@ -10386,7 +10390,7 @@ once returner (sakadāgāmī)	should apply their minds to	SN22.123
 non-returner (anāgāmi)	should apply their minds to	SN22.123
 arahants	should apply their minds to	SN22.123
 Kappa, Ven.	asking about I-making, etc.	SN22.124
-I making (ahaṅkāra)	knowing and seeing so that there is no 	SN22.124
+I-making (ahaṅkāra)	knowing and seeing so that there is no 	SN22.124
 possessiveness (mamaṅkāra)	knowing and seeing so that there is no 	SN22.124
 conceit, underlying tendency (mānānusaya)	knowing and seeing so that there is no 	SN22.124
 “This is not mine, I am not this, this is not my self”	aggregates	SN22.124
@@ -10490,7 +10494,7 @@ renunciation (nekkhamma)	inclining towards	CUSTOM:SN:SN 27 Kilesa Saṁyutta:sut
 corruptions (upakkilesa)	 	CUSTOM:SN:SN 27 Kilesa Saṁyutta:suttacentral.net/sn27
 sense bases	desire for	SN27.1
 Sāriputta, Ven.	 	CUSTOM:SN:SN 28 Sāriputta Saṁyutta:suttacentral.net/sn28
-I making (ahaṅkāra)	Ven. Sāriputta has long ago eradicated	SN28.1
+I-making (ahaṅkāra)	Ven. Sāriputta has long ago eradicated	SN28.1
 possessiveness (mamaṅkāra)	Ven. Sāriputta has long ago eradicated	SN28.1
 conceit, underlying tendency (mānānusaya)	Ven. Sāriputta has long ago eradicated	SN28.1
 first jhāna	Ven. Sāriputta practicing	SN28.1
@@ -10896,7 +10900,7 @@ fisherman	simile for Māra	SN35.230
 Māra	like fisherman	SN35.230
 fish hook	simile for sense bases	SN35.230
 sense bases	like fish hook	SN35.230
-trees	latex producing; simile for greed, hate, delusion	SN35.231
+trees	latex producing; simile for greed, hatred, delusion	SN35.231
 latex	simile for greed, hatred, delusion	SN35.231
 greed, hatred, delusion	like latex	SN35.231
 sense bases	internal not fetter of external	SN35.232
@@ -11191,7 +11195,7 @@ speaker of Dhamma (dhammavādī)	definition	SN38.3
 Dhamma teaching	to give up greed, hatred, delusion	SN38.3
 practicing well (suppaṭipannā)	definition	SN38.3
 Well Gone One (sugato)	definition	SN38.3
-noble eightfold path (ariya aṭṭhangika magga)	for giving up greed and hate, etc.	SN38.3
+noble eightfold path (ariya aṭṭhangika magga)	for giving up greed and hatred, etc.	SN38.3
 spiritual path (brahmacariya)	purpose of: complete understanding of suffering	SN38.4
 noble eightfold path (ariya aṭṭhangika magga)	complete understanding of suffering	SN38.4
 comfort (assāsa)	understanding six fields of contact’s origin, ending, etc.	SN38.5
@@ -11930,7 +11934,7 @@ awakening factor of tranquility (passaddhisambojjhaṅga)	cause	SN46.51
 awakening factor of immersion (samādhisambojjhaṅga)	cause	SN46.51
 sense desire (kāmacchanda)	starved by sign of ugly	SN46.51
 sign of the ugly (asubhanimitta)	starves sense desire	SN46.51
-ill will (vyāpāda, byāpāda)	starved by hearts release by loving-kindness	SN46.51
+ill will (vyāpāda, byāpāda)	starved by heart’s release by loving-kindness	SN46.51
 heart’s release by loving-kindness (mettā cetovimutti)	starves ill will	SN46.51
 dullness and drowsiness (thinamiddha)	starved by elements of initiative, persistence, exertion	SN46.51
 restlessness and remorse (uddhaccakukkucca)	starved by the settled mind	SN46.51
@@ -13041,14 +13045,14 @@ Licchavi youths	practicing archery	SN56.45
 four noble truths	harder to penetrate than horsehair	SN56.45
 space between worlds (lokantarika)	not as dark as not understanding four noble truths	SN56.46
 four noble truths	not understanding is darker than space	SN56.46
-turtles	simile for rebirth in human realm; yoke	SN56.47
-yokes	simile for rebirth in human realm rare 	SN56.47
+turtles	simile for rebirth in human realm rare; yoke	SN56.47
+yokes	simile for rebirth in human realm rare; turtle 	SN56.47
 underworld (vinipāta)	no good conduct in	SN56.47
 merit (puñña)	none in hell	SN56.47
 turtles	simile for Buddha arising in world	SN56.48
 yokes	simile for Buddha arising in world	SN56.48
-turtles	simile for rebirth in human realm; yoke	SN56.48
-yokes	simile for rebirth in human realm rare 	SN56.48
+turtles	simile for rebirth in human realm rare; yoke	SN56.48
+yokes	simile for rebirth in human realm rare; turtle 	SN56.48
 turtles	simile for Dhamma being rare	SN56.48
 yokes	simile for Dhamma being rare	SN56.48
 Tathāgatas	rarity of, simile of blind turtle	SN56.48
@@ -13734,8 +13738,8 @@ heart’s release (cetovimutti)	stilling of all activities	AN3.32
 freedom by wisdom (paññāvimutti)	stilling of all activities	AN3.32
 Ānanda, Ven.	asking about cetovimutti and paññāvimutti	AN3.32
 Way to the Beyond (Pārāyana)	Questions of Udaya 	AN3.33
-heart’s release (cetovimutti)	I making	AN3.33
-freedom by wisdom (paññāvimutti)	I making	AN3.33
+heart’s release (cetovimutti)	I-making	AN3.33
+freedom by wisdom (paññāvimutti)	I-making	AN3.33
 causes (nidāna)	for actions	AN3.34
 unwholesome roots (lobha, dosa, moha)	giving rise to deeds	AN3.34
 wholesome roots (alobha, adosa, amoha)	causing wholesome activities	AN3.34
@@ -19358,9 +19362,9 @@ laziness (kusīta)	lazy do not succeed	AN11.11
 mindful people	succeed	AN11.11
 concentration (samādhi)	concentrated succeed	AN11.11
 wise people	succeed	AN11.11
-recollection of Buddha (buddhānussati)	suppresses greed, hate, delusion	AN11.11
-recollection of Dhamma (dhammānussati)	suppresses greed, hate, delusion	AN11.11
-recollection of Saṅgha (saṅghānussati)	suppresses greed, hate, delusion	AN11.11
+recollection of Buddha (buddhānussati)	suppresses greed, hatred, delusion	AN11.11
+recollection of Dhamma (dhammānussati)	suppresses greed, hatred, delusion	AN11.11
+recollection of Saṅgha (saṅghānussati)	suppresses greed, hatred, delusion	AN11.11
 wholesome chain of causality	from recollections to samādhi	AN11.11
 inspiration	in the meaning	AN11.11
 joy (pāmojja)	connected with the teachings	AN11.11
@@ -19370,9 +19374,9 @@ happiness (sukha)	from tranquility	AN11.11
 concentration (samādhi)	from happiness/bliss	AN11.11
 noble disciple (ariya sāvaka)	definition	AN11.11
 stream of Dhamma (dhammasota)	one who has entered	AN11.11
-recollection of virtue (sīlānussati)	suppresses greed, hate, delusion	AN11.11
-recollection of generosity (cāgānussati)	suppresses greed, hate, delusion	AN11.11
-recollection of deities (devatānussati)	suppresses greed, hate, delusion	AN11.11
+recollection of virtue (sīlānussati)	suppresses greed, hatred, delusion	AN11.11
+recollection of generosity (cāgānussati)	suppresses greed, hatred, delusion	AN11.11
+recollection of deities (devatānussati)	suppresses greed, hatred, delusion	AN11.11
 loving-kindness (mettā)	principle of cordiality 	AN11.12
 postures	recollections to be practiced in four	AN11.12
 recollection of Buddha (buddhānussati)	practiced in four postures	AN11.12
@@ -19500,8 +19504,8 @@ form (rūpa)	knowing to be four great elements	AN11.17
 elements, four great (cattāri mahābhūtāni)	form and	AN11.17
 characteristics (lakkhaṇa)	skilled in	AN11.17
 characteristics (lakkhaṇa)	of fools and wise people	AN11.17
-fools (bāla)	known by deeds	AN11.17
-astute person (paṇḍita)	known by deeds	AN11.17
+fools (bāla)	known by actions	AN11.17
+astute person (paṇḍita)	known by actions	AN11.17
 flies	eggs, picking out, simile for bad thoughts	AN11.17
 eggs	flies eggs, picking out, simile for bad thoughts	AN11.17
 sensual thoughts (kāmavitakka)	removing like picking out flies’ eggs	AN11.17
@@ -19768,7 +19772,7 @@ heedfulness (appamāda)	like fire	Dhp31
 heedlessness (pamāda)	seeing fear in	Dhp31
 heedlessness (pamāda)	seeing fear in	Dhp32
 mind (citta)	 	CUSTOM:Dhp:Dhp Chapter 3:suttacentral.net/dhp33-43/en/sujato
-mind (citta)	like arrow maker	Dhp33
+mind (citta)	like arrow-maker	Dhp33
 mind (citta)	hard to control	Dhp33
 mind (citta)	hard to control	Dhp34
 mind (citta)	like fish	Dhp34
@@ -19788,7 +19792,7 @@ fault-finding	do not find fault with others	Dhp50
 self-reflection	only watch yourself	Dhp50
 beautiful words without practicing	like flower without fragrance	Dhp51
 beautiful words beneficial for the one who practices	like flower with fragrance	Dhp52
-good actions	like garland maker	Dhp53
+good actions	like garland-maker	Dhp53
 reputation	like fragrance that goes against wind	Dhp54
 virtue (sīla)	as supreme fragrance	Dhp55
 virtue (sīla)	as supreme fragrance	Dhp56
@@ -19818,7 +19822,7 @@ friends, good	have	Dhp78
 Dhamma	rejoicing in	Dhp79
 sleep	sleeping well	Dhp79
 self-taming	wise tame themselves	Dhp80
-self-taming	like arrow maker	Dhp80
+self-taming	like arrow-maker	Dhp80
 self-taming	like irrigator	Dhp80
 self-taming	like carpenter	Dhp80
 arrowsmiths	simile for self-taming	Dhp80
@@ -19886,7 +19890,7 @@ external appearance	not matching internal	Dhp142
 conscience (hiri)	like horse and whip	Dhp143
 conscience (hiri)	like horse and whip	Dhp144
 self-taming	wise tame themselves	Dhp145
-self-taming	like arrow maker	Dhp145
+self-taming	like arrow-maker	Dhp145
 self-taming	like irrigator	Dhp145
 self-taming	like carpenter	Dhp145
 arrowsmiths	simile for self-taming	Dhp145
@@ -20401,7 +20405,7 @@ wrong views	followers of	Ud6.6
 eternalism (sassatavāda)	arguing about views	Ud6.6
 followers of other paths (aññatitthiya)	arguing about views	Ud6.6
 disputes	over views	Ud6.6
-I making (ahaṅkāra)	and other-maker	Ud6.6
+I-making (ahaṅkāra)	and other-maker	Ud6.6
 conceit (māna)	wrong views	Ud6.6
 Subhūti, Ven.	Buddha comments on	Ud6.7
 training	as the essence	Ud6.8
@@ -21326,7 +21330,7 @@ arahants	days pass peacefully	Thag1.16
 sleep	fondness for	Thag1.17
 perception of skeleton (aṭṭhisaññā)	for removing sensual desire	Thag1.18
 self-taming	wise tame themselves	Thag1.19
-self-taming	like arrow maker	Thag1.19
+self-taming	like arrow-maker	Thag1.19
 self-taming	like irrigator	Thag1.19
 self-taming	like carpenter	Thag1.19
 arrowsmiths	simile for self-taming	Thag1.19
@@ -21594,7 +21598,7 @@ moon	simile for bad deed covered by good	Thag16.8
 moon	simile for young monk	Thag16.8
 monk, young	like moon lights up world	Thag16.8
 self-taming	wise tame themselves	Thag16.8
-self-taming	like arrow maker	Thag16.8
+self-taming	like arrow-maker	Thag16.8
 self-taming	like irrigator	Thag16.8
 self-taming	like carpenter	Thag16.8
 arrowsmiths	simile for self-taming	Thag16.8
@@ -21803,8 +21807,8 @@ sense pleasures (kāma, kāmaguṇa)	like dream	Thig16.1
 saṁsāra	long for fools	Thig16.1
 oceans	of tears, simile for saṁsāra	Thig16.1
 saṁsāra	similes for	Thig16.1
-turtles	simile for rebirth in human realm; yoke	Thig16.1
-yokes	simile for rebirth in human realm rare	Thig16.1
+turtles	simile for rebirth in human realm rare; yoke	Thig16.1
+yokes	simile for rebirth in human realm rare; turtle	Thig16.1
 sense pleasures (kāma, kāmaguṇa)	like grass torch burns holder	Thig16.1
 dogs	with chain like person attached to sensual pleasures	Thig16.1
 gifts, specific types of	monastery	Thig16.1
