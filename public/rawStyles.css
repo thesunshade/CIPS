@@ -16,7 +16,7 @@
   --offwhite: #fff9f1;
   --offwhite-saturated: #ffeecc;
   --offwhite-saturated-filter: brightness(0) saturate(100%) invert(97%) sepia(6%) saturate(2029%) hue-rotate(315deg) brightness(103%) contrast(102%);
-  --dark-offwhite: #d1d1d1;
+  --dark-offwhite: #e6e6e6;
   --offblack: #5d4037;
   --offblacker: #150d01;
   --offblack-filter: brightness(0) saturate(100%) invert(26%) sepia(6%) saturate(3124%) hue-rotate(337deg) brightness(98%) contrast(89%);
@@ -400,10 +400,27 @@ alphabet-anchor {
   color: var(--white)
 }
 
+.preface a {
+  color: var(--offblack)
+}
+
+.dark .preface a {
+  color: var(--offwhite)
+}
+
 .subtitle {
   text-align: center;
   font-style: italic;
   text-wrap: balance;
+}
+
+.about {
+  background-color: #f7e8d5;
+  padding: 10px
+}
+
+.dark .about {
+  color: var(--offblack)
 }
 
 .preface p {
