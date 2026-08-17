@@ -538,7 +538,7 @@ food		xref honey cake
 food		xref milk
 food		xref porridge (yāgu)
 food		xref rice
-food		xref sugar cane
+food		xref sugarcane
 body parts		xref blood
 body parts		xref bones
 body parts		xref skeletons
@@ -2336,13 +2336,13 @@ Buddha, the	biogragraphical information	DN14:1.0
 Buddhas	biogragraphical information	DN14:1.0
 khattiyas	Buddhas who were	DN14:1.0
 brahmins	Buddhas who were	DN14:1.0
-lifespans	of previous Buddhas	DN14:1.0
-Bodhi Tree	of previous Buddhas	DN14:1.0
-chief disciples (sāvakayuga)	of previous Buddhas	DN14:1.0
-assemblies	of previous Buddhas	DN14:1.0
-attendants	of previous Buddhas	DN14:1.0
-parents	of previous Buddhas	DN14:1.0
-city (nagara)	of previous Buddhas	DN14:1.0
+lifespans	previous Buddhas	DN14:1.0
+Bodhi Tree	previous Buddhas	DN14:1.0
+chief disciples (sāvakayuga)	previous Buddhas	DN14:1.0
+assemblies	previous Buddhas	DN14:1.0
+attendants	previous Buddhas	DN14:1.0
+parents	previous Buddhas	DN14:1.0
+city (nagara)	previous Buddhas	DN14:1.0
 Buddha, the	knowing Buddhas of the past	DN14:1.0
 bodhisattas	characteristics, behaviours, birth	DN14:1.17.0
 Tusita heaven	bodhisatta’s place in	DN14:1.17.0
@@ -2657,6 +2657,7 @@ Channa, Ven.	brahmadaṇḍa (punishment)	DN16:6.1.0
 punishment (daṇḍa)	Channa’s	DN16:6.1.0
 heedfulness (appamāda)	Buddha’s admonishment to be	DN16:6.1.0
 conditions (saṅkāra)	liable to fall apart	DN16:6.1.0
+parinibbāna	of Buddha	DN16:6.8.0
 jhānas	Buddha’s passing away	DN16:6.8.0
 Buddha, the	passing away	DN16:6.8.0
 Sahampati, Brahmā	Buddha’s passing away, verse	DN16:6.8.0
@@ -3929,16 +3930,19 @@ powers of a Tathāgata (tathāgatabala)	ten	MN12
 possible and impossible (ṭhāna aṭṭhāna)	power of a Tathāgata	MN12
 results of actions	knowing is a power of a Tathāgata	MN12
 realms (gati)	Buddha knows paths that lead to	MN12
-knower of the world	as power of a Tathāgata	MN12
+knower of the world	power of a Tathāgata	MN12
 world, the	Buddha knows world with elements	MN12
 elements (dhātu)	Buddha knows world with elements	MN12
 beings (satta)	Buddha knows conviction/disposition of beings	MN12
 faculties (indriya)	Buddha knows faculties of beings	MN12
-knowledges, three (vijjā)	as power of a Tathāgata	MN12
-recollection of past lives	as power of a Tathāgata	MN12
-knowledge of passing away and rebirth of beings (cutūpapātañāna)	as power of a Tathāgata	MN12
-knowledge of destruction of the taints (āsavakkhayañāṇa)	as power of a Tathāgata	MN12
+questions, answering 	Buddha answering questions related to powers 	MN12
+knowledges, three (vijjā)	power of a Tathāgata	MN12
+recollection of past lives	power of a Tathāgata	MN12
+past lives, knowledge of (pubbenivāsānussatiñāṇa)	power of a Tathāgata	MN12
+knowledge of passing away and rebirth of beings (cutūpapātañāna)	power of a Tathāgata	MN12
+knowledge of destruction of the taints (āsavakkhayañāṇa)	power of a Tathāgata	MN12
 jhānas	Buddha knows	MN12
+concentration (samādhi) 	knowledges arise from 	MN12
 liberations, eight (vimokkha)	Buddha knows	MN12
 concentration (samādhi)	Buddha knows	MN12
 attainments (samāpatti)	Buddha knows	MN12
@@ -4206,7 +4210,7 @@ simile of dream	obstruction of sensual pleasures	MN22
 simile of fruit on tree	obstruction of sensual pleasures	MN22
 simile of butcher’s knife	obstruction of sensual pleasures	MN22
 simile of staking sword	obstruction of sensual pleasures	MN22
-simile of snakes head	obstruction of sensual pleasures	MN22
+simile of snake’s head	obstruction of sensual pleasures	MN22
 sense pleasures (kāma, kāmaguṇa)	danger of	MN22
 sexual activity	without desire impossible	MN22
 sensual thoughts (kāmavitakka)	sensual acts always lead to	MN22
@@ -4927,7 +4931,7 @@ right livelihood (sammā ājīva)	aggregate of virtue (sīlakkhandha)	MN44
 right effort (sammā vāyāma)	aggregate of concentration (samādhikkhandha)	MN44
 right mindfulness (sammā sati)	aggregate of concentration (samādhikkhandha)	MN44
 right concentration (sammā samādhi)	aggregate of concentration (samādhikkhandha)	MN44
-concentration (samādhi)	definition, foundation, prerequisites, etc	MN44
+concentration (samādhi)	definition, foundation, prerequisites, etc.	MN44
 unification of mind (cittassa ekaggatā)	meaning of concentration	MN44
 foundations of mindfulness, four (satipaṭṭhāna)	concentration	MN44
 formations (saṅkhāra)	physical, verbal, mental	MN44
@@ -5057,7 +5061,7 @@ hell (niraya)	torture in	MN50
 hell (niraya)	having head of a fish	MN50
 elephant look	Kakusandha Buddha looks at Māra	MN50
 heavenly mansions (vimāna)	Ven. Moggallāna can see	MN50
-Palace of Migarā’s Mother	Ven. Moggallāna shaking with toe	MN50
+Palace of Migāra’s Mother	Ven. Moggallāna shaking with toe	MN50
 Palace of Victory	Ven. Moggallāna shaking with toe	MN50
 Moggallāna, Ven.	psychic powers	MN50
 Brahmā	questioned by Ven. Moggallāna	MN50
@@ -7427,7 +7431,7 @@ rebirth	of bad people	MN129
 rebirth	of good people	MN129
 rebirth	actions as cause for	MN129
 death (maraṇa)	as divine messenger	MN130
-knowledge of passing away and rebirth of beings (cutūpapātañāna)	power of the Buddha	MN130
+knowledge of passing away and rebirth of beings (cutūpapātañāna)	power of a Tathāgata	MN130
 knowledge of passing away and rebirth of beings (cutūpapātañāna)	in hell	MN130
 Yama, King	questioning beings reborn in hell	MN130
 divine messengers (devadūta)	description of	MN130
@@ -9466,7 +9470,7 @@ Himalayas	simile for suffering removed by stream-enterer	SN13.9
 pebbles	compared to Himalayas, simile for suffering ended 	SN13.9
 Himalayas	simile for suffering removed by stream-enterer	SN13.10
 pebbles	compared to Himalayas, simile for suffering ended 	SN13.10
-Sineru, King of mountains	compared to pebbles, simile for suffering ended	SN13.11
+Sineru, king of mountains	compared to pebbles, simile for suffering ended	SN13.11
 pebbles	compared to Mt. Sineru, simile for suffering ended	SN13.11
 right view, person accomplished in (diṭṭhisampanna puggala)	suffering removed like Mt. Sineru	SN13.11
 elements (dhātu)	 	CUSTOM:SN:SN 14 Dhātu Saṁyutta:suttacentral.net/sn14
@@ -9671,6 +9675,9 @@ compassion (karuṇā)	teaching Dhamma	SN16.3
 monastics	visiting families, worthwhile and not worthwhile 	SN16.4
 receiving gifts	without expectations	SN16.4
 Mahā Kassapa, Ven.	encouraged to give up ascetic practices by the Buddha	SN16.5
+wilderness (arañña) 	reason for living in	SN16.5
+happiness in the present life (diṭṭhadhammasukhavihāra) 	wilderness living 	SN16.5
+compassion for future generations 	wilderness living 	SN16.5
 ascetic practices	for the sake of future generations	SN16.5
 Mahā Kassapa, Ven.	as an example to be followed	SN16.5
 hard to admonish (dovacassa)	Mahā Kassapa, Ven., says monks are now	SN16.6
@@ -10052,7 +10059,7 @@ seeds	five kinds of propagation	SN22.54
 planes of consciousness (viññāṇaṭṭhitiyo)	like the earth for seeds	SN22.54
 delight (nandi)	like water for seeds	SN22.54
 greed (rāga)	like water for seeds	SN22.54
-consciousness (viññāṇa)	like seeds	SN22.54
+consciousness (viññāṇa)	like seed	SN22.54
 seeds	simile for consciousness dependently arisen	SN22.54
 consciousness (viññāṇa)	not apart from aggregates	SN22.54
 “It might not be, and it might not be mine.…”	cutting off lower fetters	SN22.55
@@ -11544,11 +11551,14 @@ right livelihood (sammā ājīva)	definition	SN45.8
 right effort (sammā vāyāma)	definition	SN45.8
 right mindfulness (sammā sati)	definition	SN45.8
 right concentration (sammā samādhi)	definition	SN45.8
-spikes	simile for wrong view and right view	SN45.9
+barley	simile for mind pointing wrong way	SN45.9
+rice	simile for mind pointing wrong way	SN45.9
+mind (citta)	like of spike of rice pointing wrong way	SN45.9
 right view (sammā diṭṭhi)	like spike of rice pointing right way	SN45.9
-wrong view (micchā diṭṭhi)	like spike of rice pointing the wrong way	SN45.9
-rice	simile for wrong view and right view	SN45.9
-barley	simile for wrong view and right view	SN45.9
+barley	simile for mind pointing right way	SN45.9
+rice	simile for mind pointing right way	SN45.9
+mind (citta)	like spike of rice pointing wrong way	SN45.9
+wrong view (micchā diṭṭhi)	like spike of rice pointing wrong way	SN45.9
 Nandiya, wanderer	asking about nibbāna	SN45.10
 noble eightfold path (ariya aṭṭhangika magga)	culminates in nibbāna	SN45.10
 Buddha, the	going into retreat	SN45.11
@@ -11685,7 +11695,13 @@ noble eightfold path (ariya aṭṭhangika magga)	grounded on virtue	SN45.151
 trees	slanting to the east, simile for noble eightfold path leads to nibbāna	SN45.152
 pots	water pot tipped, simile for person giving up bad qualities	SN45.153
 unskillful qualities (akusala dhamma)	completely giving up	SN45.153
-spike	simile for wrong view and right view	SN45.154
+wrong view (micchā diṭṭhi)	like spike of rice pointing wrong way	SN45.154
+barley	simile for mind pointing wrong way	SN45.154
+rice	simile for mind pointing wrong way	SN45.154
+right view (sammā diṭṭhi)	like spike of rice pointing right way	SN45.154
+barley	simile for mind pointing right way	SN45.154
+rice	simile for mind pointing right way	SN45.154
+mind (citta)	like spike of rice pointing wrong way	SN45.154
 right view (sammā diṭṭhi)	leads to nibbāna	SN45.154
 bodhipakkhiyā dhammā	developed when noble eightfold path is developed	SN45.155
 noble eightfold path (ariya aṭṭhangika magga)	leads to development of bodhipakkhiyā dhammā	SN45.155
@@ -11896,7 +11912,7 @@ past, present, future	awakening factors	SN46.41
 treasures, seven (satta ratana)	simile for awakening factors	SN46.42
 Buddhas	when Buddha appears, awakening factors appear	SN46.42
 awakening factors, seven (bojjhaṅga)	appear when Buddha appears	SN46.42
-awakening factors, seven (bojjhaṅga)	like seven treasures of wheel turning monarch	SN46.42
+awakening factors, seven (bojjhaṅga)	like seven treasures of wheel-turning monarch	SN46.42
 Māra	army of, crushing with awakening factors	SN46.43
 unwise (duppañña)	unwise idiot	SN46.44
 wise people	definition	SN46.45
@@ -13170,8 +13186,14 @@ mind (citta)	undeveloped mind brings suffering	AN1.29
 mind (citta)	developed mind brings happiness	AN1.30
 mind (citta)	tamed mind is very beneficial	AN1.32
 mind (citta)	wild mind is very harmful	AN1.31
-mind (citta)	like spike of rice pointing the wrong way	AN1.41
-barley	like mind pointing the wrong way	AN1.41
+mind (citta)	like spike of rice pointing wrong way	AN1.41
+wrong view (micchā diṭṭhi)	like spike of rice pointing wrong way	AN1.41
+barley	simile for mind pointing wrong way	AN1.41
+rice	simile for mind pointing wrong way	AN1.41
+mind (citta)	like of spike of rice pointing wrong way	AN1.42
+right view (sammā diṭṭhi)	like spike of rice pointing right way	AN1.42
+barley	simile for mind pointing right way	AN1.42
+rice	simile for mind pointing right way	AN1.42
 mind (citta)	corrupted mind leads to hell	AN1.43
 hell (niraya)	corrupted mind leads to	AN1.43
 mind (citta)	pure mind leads to heaven	AN1.44
@@ -13463,7 +13485,7 @@ heaven (sagga)	right view leads to	AN2.28
 unvirtuous people	hell and animal realm	AN2.29
 virtuous people	heaven and human realm	AN2.29
 wilderness (arañña)	reasons for living in	AN2.30
-compassion for future generations	wilderness living	AN2.30
+compassion (anukampā)	for future generations, living in wilderness	AN2.30
 happiness in the present life (diṭṭhadhammasukhavihāra)	wilderness living	AN2.30
 serenity (samatha)	insight and	AN2.31
 insight (vipassanā)	and serenity	AN2.31
@@ -15986,7 +16008,7 @@ insects	given up by enduring	AN6.58
 criticism	given up by enduring	AN6.58
 pain (dukkha)	given up by enduring	AN6.58
 deadly pain	given up by enduring	AN6.58
-taints (āsava)	given up by seeing, avoiding, etc	AN6.58
+taints (āsava)	given up by seeing, avoiding, etc.	AN6.58
 avoiding (parivajjana)	in order to remove taints (āsava)	AN6.58
 animals	avoiding to remove taints	AN6.58
 friends, bad	avoiding to remove taints	AN6.58
@@ -16041,12 +16063,12 @@ noble eightfold path (ariya aṭṭhangika magga)	as path to cessation	AN6.63
 suffering (dukkha)	definition	AN6.63
 suffering (dukkha)	severe, mild, slow to fade, quick to fade	AN6.63
 powers of a Tathāgata (tathāgatabala)	six	AN6.64
-possible and impossible (ṭhāna aṭṭhāna)	Tathāgata understands	AN6.64
+possible and impossible (ṭhāna aṭṭhāna)	power of a Tathāgata	AN6.64
 lion’s roar	of the Buddha	AN6.64
-results of actions	known as a power of the Buddha	AN6.64
-past lives, knowledge of (pubbenivāsānussatiñāṇa)	power of the Buddha	AN6.64
-knowledge of passing away and rebirth of beings (cutūpapātañāna)	power of the Buddha	AN6.64
-knowledge of destruction of the taints (āsavakkhayañāṇa)	power of the Buddha	AN6.64
+results of actions	knowing is a power of a Tathāgata	AN6.64
+past lives, knowledge of (pubbenivāsānussatiñāṇa)	power of a Tathāgata	AN6.64
+knowledge of passing away and rebirth of beings (cutūpapātañāna)	power of a Tathāgata	AN6.64
+knowledge of destruction of the taints (āsavakkhayañāṇa)	power of a Tathāgata	AN6.64
 questions, answering	Buddha answering questions related to powers	AN6.64
 concentration (samādhi)	as the path	AN6.64
 concentration (samādhi)	knowledges arise from	AN6.64
@@ -17126,8 +17148,8 @@ garlands	simile for accepting garudhammas	AN8.51
 spiritual path (brahmacariya)	lasting long	AN8.51
 family	with few men, simile for Saṅgha	AN8.51
 rice	field of, simile for true Dhamma not lasting long	AN8.51
-sugar cane	field of, simile for true Dhamma not lasting long	AN8.51
-dykes	around lake, simile for garudhamma	AN8.51
+sugarcane	field of, simile for true Dhamma not lasting long	AN8.51
+dikes	around lake, simile for garudhamma	AN8.51
 advice (ovāda)	qualities of advisor of bhikkhunīs	AN8.52
 expert in Vinaya (vinayadhara)	knowing both Vinayas	AN8.52
 encouragement	advisor of bhikkhunīs should be able to give	AN8.52
@@ -18138,15 +18160,16 @@ powers of a Tathāgata (tathāgatabala)	ten	AN10.21
 possible and impossible (ṭhāna aṭṭhāna)	power of a Tathāgata	AN10.21
 results of actions	knowing is a power of a Tathāgata	AN10.21
 realms (gati)	Buddha knows paths that lead to	AN10.21
-knower of the world	as power of a Tathāgata	AN10.21
+knower of the world	power of a Tathāgata	AN10.21
+concentration (samādhi) 	knowledges arise from 	AN10.21
 world, the	Buddha knows world with elements	AN10.21
 elements (dhātu)	Buddha knows world with elements	AN10.21
 beings (satta)	Buddha knows conviction/disposition of beings	AN10.21
 faculties (indriya)	Buddha knows faculties of beings	AN10.21
-knowledges, three (vijjā)	as power of a Tathāgata	AN10.21
-recollection of past lives	as power of a Tathāgata	AN10.21
-knowledge of passing away and rebirth of beings (cutūpapātañāna)	as power of a Tathāgata	AN10.21
-knowledge of destruction of the taints (āsavakkhayañāṇa)	as power of a Tathāgata	AN10.21
+knowledges, three (vijjā)	power of a Tathāgata	AN10.21
+recollection of past lives	power of a Tathāgata	AN10.21
+knowledge of passing away and rebirth of beings (cutūpapātañāna)	power of a Tathāgata	AN10.21
+knowledge of destruction of the taints (āsavakkhayañāṇa)	power of a Tathāgata	AN10.21
 Buddha, the	teaching to different kinds of people	AN10.22
 inferior and superior	knowing	AN10.22
 misconduct	three types	AN10.23
@@ -21095,6 +21118,7 @@ giving (dāna)	food	Vv27
 giving (dāna)	criticizing	Vv29
 giving (dāna)	result in heaven	Vv29
 gifts, specific types of	sugarcane	Vv30
+sugarcane	deva who gave	Vv30
 giving (dāna)	criticizing	Vv30
 celibacy	laypeople	Vv31
 wives	respectful	Vv32
@@ -21118,6 +21142,7 @@ offerings	to stupa	Vv47
 death (maraṇa)	by cow	Vv47
 giving (dāna)	smallest gift has value	Vv47
 gifts, specific types of	sugarcane	Vv48
+sugarcane	deva who gave	Vv48
 giving (dāna)	criticizing	Vv48
 worshiping (vandati)	leads to heaven	Vv49
 suicide	prevented	Vv50
@@ -21303,6 +21328,7 @@ hell (niraya)	lifespan in	Pv38
 departed relatives	sharing merit with	Pv38
 wrong views	giving up like vomiting	Pv38
 ghosts	hunger	Pv40
+sugarcane	ghost who gave rudely	Pv40
 wealthy people	not giving	Pv41
 paccekabuddhas	disparaging	Pv41
 monastics	treating them badly	Pv42
