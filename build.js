@@ -64,35 +64,22 @@ function createIndexObject(indexArray) {
     const letterKey = alphabetGroupedObject[firstRealLetter];
 
     if (!letterKey.hasOwnProperty(head)) {
-      // the key of the headword does not exist in the object yet, so create the key and add the locator-xref object
+      // the key of the headword does not exist in the object yet, so create it
       letterKey[head] = { [sub]: { locators: [], xrefs: [] } };
-      if (/xref/.test(locator)) {
-        letterKey[head][sub].xrefs.push(locator);
-      } else {
-        letterKey[head][sub].locators.push(locator);
-      }
-    } else {
-      if (!letterKey[head].hasOwnProperty(sub)) {
-        // the key for the headword exists, but the sub does not exist as a key
-        letterKey[head][sub] = { locators: [], xrefs: [] };
+    } else if (!letterKey[head].hasOwnProperty(sub)) {
+      // the key for the headword exists, but the sub does not exist as a key yet
+      letterKey[head][sub] = { locators: [], xrefs: [] };
+    }
 
-        if (/xref/.test(locator)) {
-          letterKey[head][sub].xrefs.push(locator);
-        } else {
-          letterKey[head][sub].locators.push(locator);
-        }
-      } else {
-        // the head and sub already exist, so the locator must be pushed into the array
-        if (/xref/.test(locator)) {
-          letterKey[head][sub].xrefs.push(locator);
-        } else {
-          if (!letterKey[head][sub].locators.includes(locator)) {
-            letterKey[head][sub].locators.push(locator);
-          } else {
-            console.error(`Duplicate locator found: Head=${head}, Sub=${sub}, Locator=${locator}`);
-          }
-        }
-      }
+    // push the locator/xref into the right array, checking for duplicates
+    const entry = letterKey[head][sub];
+    const isXref = /xref/.test(locator);
+    const list = isXref ? entry.xrefs : entry.locators;
+
+    if (!list.includes(locator)) {
+      list.push(locator);
+    } else {
+      console.error(`Duplicate ${isXref ? "xref" : "locator"} found: Head=${head}, Sub=${sub}, Locator=${locator}`);
     }
   }
 
