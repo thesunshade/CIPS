@@ -16,13 +16,13 @@ export const infoArea = `
         <summary>How to use the index</summary>
         <div>
           <p>
-            First, look things up by <em>noun</em> followed by an <em>adjective</em>. If that doesn't work, then try the adjective.
+            First, look things up by <em>noun</em> followed by an <em>adjective</em>. If that doesn’t work, then try the adjective.
           </p>
-          <p>Checking cross references is essential. If you don't find what you need always check cross references. </p>
+          <p>Checking cross references is essential. If you don’t find what you need always check cross references. </p>
           <p>
             For the sake of simplicity, the grammar of head and sub words may not always match. For example, <i>energetic, as protector</i> might be more accurately written as <i>energetic, being as protector</i>, which more verbosely would be written as <i>energetic, being energetic serves as a protector.</i>
           </p>
-          <p>In all cases, one should actually read the sutta being refrenced and not rely on the index headings or subheadings. For example, some wrong views may be indexed in a way that is not immediately apparent that they are such. So actually reading the sutta is critical for understanding the matter at hand.</p>
+          <p>In all cases, one should actually read the sutta being referenced and not rely on the index headings or subheadings. For example, some wrong views may be indexed in a way that is not immediately apparent that they are such. So actually reading the sutta is critical for understanding the matter at hand.</p>
           <p>Diacritics are ignored for alphabetization.</p>
         </div>
       </details>
@@ -105,7 +105,7 @@ export const infoArea = `
       <details open>
         <summary>Misc.</summary>
         <div>
-        <p class="full-message">You are viewing the full featured index. There is also a <a href="https://simple-index.readingfaithfully.org">plain HTML version</a> that may better on older mobile devices.</p>
+        <p class="full-message">You are viewing the full featured index. There is also a <a href="https://simple-index.readingfaithfully.org">plain HTML version</a> that may work better on older mobile devices.</p>
         <p class="html-message">You are viewing the plain HTML version of the index. There is also a <a href="https://index.readingfaithfully.org"> full featured version</a> with sutta summaries and search.</p>
           <p>
             <a href="https://index.readingfaithfully.org/locatorCountTable.html" rel="noreferrer" target="_blank">
