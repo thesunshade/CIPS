@@ -2,6 +2,10 @@ dependent origination		xref unwholesome chain of causality
 dependent origination		xref wholesome chain of causality
 awakening (sambodha)		xref nibbāna
 difficult to admonish (dovacassa)		xref hard to admonish (dovacassa)
+Saṅgha		xref recollection of Saṅgha (saṅghānussati)
+Saṅgha		xref expulsion from Saṅgha
+Saṅgha		xref harmony in Saṅgha (saṅghasāmaggī)
+recollection of Saṅgha (saṅghānussati)		xref Saṅgha
 devas		xref recollection of deities (devatānussati)
 Buddhas, seven		xref Vipassī, Buddha
 Buddhas, seven		xref Kakusandha, Buddha
@@ -921,11 +925,11 @@ bodhipakkhiyā dhammā		xref awakening factors, seven (bojjhaṅga)
 bodhipakkhiyā dhammā		xref noble eightfold path (ariya aṭṭhangika magga)
 explicit meaning		xref meaning (attha)
 interpreted meaning		xref meaning (attha)
-offences against monastic rules (āpatti)		xref monastic rules (vinaya)
-monastic rules (vinaya)		xref offences against monastic rules (āpatti)
-admonishment		xref offences against monastic rules (āpatti)
+offenses against monastic rules (āpatti)		xref monastic rules (vinaya)
+monastic rules (vinaya)		xref offenses against monastic rules (āpatti)
+admonishment		xref offenses against monastic rules (āpatti)
 admonishment		xref monastic rules (vinaya)
-offences against monastic rules (āpatti)		xref admonishment
+offenses against monastic rules (āpatti)		xref admonishment
 monastic rules (vinaya)		xref admonishment
 views (diṭṭhi)		xref attachment to views (diṭṭhiyoga)
 views (diṭṭhi)		xref wrong views
@@ -2540,7 +2544,7 @@ mindfulness and clear comprehension (satisampajañña)	definition	DN16:2.8.0
 Ambapālī	inviting Buddha to a meal	DN16:2.14.0
 Ambapālī	offering Mango Grove	DN16:2.14.0
 Gods of the Thirty-Three (tāvatiṁsā devā)	compared to Licchavis	DN16:2.14.0
-Licchavis	compared to the gods of the Thirty-Three	DN16:2.14.0
+Licchavis	compared to the Gods of the Thirty-Three	DN16:2.14.0
 rains residence (vassāvāsa)	of the Buddha	DN16:2.21.0
 Buddha, the	illness of	DN16:2.21.0
 intention to live (jīvitasaṅkhāra)	Buddha maintains to prevent passing away	DN16:2.21.0
@@ -2681,7 +2685,7 @@ yakkhas	King Bimbisāra reborn as	DN18:9.4.0
 Vessavaṇa, deva king	King Bimbisāra reborn as yakkha under	DN18:9.4.0
 stream-enterers (sotāpanna)	declarations of	DN18:9.4.0
 Gods of the Four Great Kings (cātumahārājika devā)	meeting to discuss new devas	DN18:12.0
-Sanaṅkumāra, Brahmā	visiting gods of the Thirty-Three	DN18:16.0
+Sanaṅkumāra, Brahmā	visiting Gods of the Thirty-Three	DN18:16.0
 bases of psychic power (iddhipāda)	definition	DN18:22.2.0
 joy (pāmojja)	happiness born from	DN18:23.3.0
 sense pleasures (kāma, kāmaguṇa)	happiness greater than	DN18:23.3.0
@@ -2705,7 +2709,7 @@ seclusion	delight in, Buddha’s	DN19:4.0
 Buddha, the	seclusion, delight in	DN19:4.0
 sammāsambuddha	two cannot arise at the same time	DN19:4.0
 Buddhas	appear only one at a time	DN19:4.0
-Sanaṅkumāra, Brahmā	visiting gods of the Thirty-Three	DN19:16.0
+Sanaṅkumāra, Brahmā	visiting Gods of the Thirty-Three	DN19:16.0
 Bodhisatta	reborn as Mahāgovinda	DN19:30.0
 sense pleasures (kāma, kāmaguṇa)	intoxicating power of	DN19:30.0
 seclusion (paṭisallīna, vivitta)	layperson entering	DN19:30.0
@@ -3628,7 +3632,7 @@ self-reflection	blemishes in oneself	MN5
 abandoning (pajahati, pahāna)	blemishes in oneself	MN5
 dish	bronze, simile for blemishes	MN5
 evil wishes (pāpiccha)	definition	MN5
-offences against monastic rules (āpatti)	hiding	MN5
+offenses against monastic rules (āpatti)	hiding	MN5
 accusations	wanting to be accused privately, by an equal	MN5
 alms gathering practice	wanting to go first	MN5
 almsfood	wanting the best	MN5
@@ -5566,7 +5570,7 @@ knowledge of passing away and rebirth of beings (cutūpapātañāna)	result of p
 knowledge of destruction of the taints (āsavakkhayañāṇa)	result of proper striving	MN65
 admonishment	some are admonished repeatedly, some not	MN65
 admonishment	being difficult to	MN65
-offences against monastic rules (āpatti)	frequent offender vs. occasional offender	MN65
+offenses against monastic rules (āpatti)	frequent offender vs. occasional offender	MN65
 faith (saddhā)	getting by on	MN65
 love (pema)	getting by on love of Dhamma	MN65
 eyes	simile for person getting by on faith	MN65
@@ -6682,7 +6686,7 @@ phrasing (byañjana)	disputes over	MN103
 meaning (attha)	disputes over	MN103
 harmony (samagga)	how to achieve	MN103
 memorizing	disputes over what has been	MN103
-offences against monastic rules (āpatti)	when someone commits	MN103
+offenses against monastic rules (āpatti)	when someone commits	MN103
 monastic rules (vinaya)	when someone breaks	MN103
 admonishment	how to do skillfully	MN103
 good monastics	easy to admonish	MN103
@@ -6715,7 +6719,7 @@ wrong view (micchā diṭṭhi)	cause of disputes	MN104
 attachment to views (diṭṭhiyoga)	cause of disputes	MN104
 disputes	cause of suffering for gods and humans	MN104
 litigation (adhikaraṇa)	four types	MN104
-insanity (amūḷha)	as legal defence	MN104
+insanity (amūḷha)	as legal defense	MN104
 monastic rules (vinaya)	settling issues	MN104
 principles of cordiality (dhammā sāraṇīyā)	definition	MN104
 harmony in Saṅgha (saṅghasāmaggī)	principles of cordiality	MN104
@@ -6843,7 +6847,7 @@ leadership	of Saṅgha after Buddha’s passing	MN108
 Saṅgha	leader after the Buddha’s passing	MN108
 Dhamma	as refuge after passing of Buddha	MN108
 uposatha	monastic practice of	MN108
-offences against monastic rules (āpatti)	confession of	MN108
+offenses against monastic rules (āpatti)	confession of	MN108
 respect (gārava)	for monk with ten qualities	MN108
 virtue (sīla)	respecting a monk with	MN108
 learned (bahussutā)	respecting a monk who is	MN108
@@ -7837,7 +7841,7 @@ Anāthapiṇḍika, householder	requesting deep teachings for householders	MN143
 laypeople	teachings usually given to	MN143
 Tusita heaven	Anāthapiṇḍika reborn in	MN143
 Anāthapiṇḍika, householder	reborn in Tusita heaven	MN143
-Anāthapiṇḍika, householder	as deva praising Jeta’s grove and Ven. Sāriputta	MN143
+Anāthapiṇḍika, householder	as deva praising Jeta’s Grove and Ven. Sāriputta	MN143
 Jeta’s Grove	praised by god Anāthapiṇḍika	MN143
 Sāriputta, Ven.	praise of	MN143
 Sāriputta, Ven.	discussion with Ven. Channa	MN144
@@ -8190,7 +8194,7 @@ bridges	building, merit grows day and night	SN1.47
 wells (udapāna)	building, merit grows day and night	SN1.47
 dwellings (upassaya)	giving, merit grows day and night	SN1.47
 heaven (sagga)	cause for rebirth in	SN1.47
-Anāthapiṇḍika, householder	as deva praising Jeta’s grove and Ven. Sāriputta	SN1.48
+Anāthapiṇḍika, householder	as deva praising Jeta’s Grove and Ven. Sāriputta	SN1.48
 Jeta’s Grove	praised by god Anāthapiṇḍika	SN1.48
 Sāriputta, Ven.	praise of	SN1.48
 generosity (cāga)	cause for rebirth	SN1.49
@@ -11387,7 +11391,7 @@ past (atīta)	using present to infer about	SN42.11
 future (anāgata)	using present to infer about	SN42.11
 Rāsiya, chief	asking about mortification	SN42.12
 mortification (tapas)	Buddha condemning or not	SN42.12
-extremes (anta)	sense pleasures and self mortification	SN42.12
+extremes (anta)	sense pleasures and self-mortification	SN42.12
 middle path (majjhimā paṭipadā)	between sensual pleasure and mortification	SN42.12
 noble eightfold path (ariya aṭṭhangika magga)	middle path	SN42.12
 pleasure seekers (kāmabhogī)	gaining wealth using legitimate and illegitimate means 	SN42.12
@@ -11479,7 +11483,7 @@ arahantship	Buddha declaring of people	SN44.9
 wanderers of other sects (aññatitthiya paribbājaka)	declaring rebirth of disciples	SN44.9
 Buddha, the	declaring rebirth of individuals	SN44.9
 fire	simile for rebirth of person with grasping	SN44.9
-fire	fuelled by wind	SN44.9
+fire	fueled by wind	SN44.9
 Vacchagotta, wanderer	asking about the self	SN44.10
 self (atta)	does the self survive	SN44.10
 questions, answering	Buddha not answering	SN44.10
@@ -12948,7 +12952,7 @@ talk (kathā)	suitable and unsuitable	SN56.10
 speech	useless (tiraccha)	SN56.10
 first sermons	to the five monks	SN56.11
 group of five monks (pañcavaggiyā bhikkhū)	Buddha teaching	SN56.11
-extremes (anta)	sense pleasures and self mortification	SN56.11
+extremes (anta)	sense pleasures and self-mortification	SN56.11
 middle path (majjhimā paṭipadā)	between sensual pleasure and mortification	SN56.11
 vision (cakkhu)	middle path gives	SN56.11
 mortification (attakilamatha)	painful, ignoble, pointless	SN56.11
@@ -13162,7 +13166,7 @@ dullness and drowsiness (thinamiddha)	cause	AN1.13
 restlessness and remorse (uddhaccakukkucca)	cause	AN1.14
 improper attention (ayoniso manasikāra)	cause of doubt	AN1.15
 doubt (vicikicchā)	caused by improper attention	AN1.15
-sense desire (kāmacchanda)	removed by sign of sign of the ugly	AN1.16
+sense desire (kāmacchanda)	removed by sign of the ugly	AN1.16
 loving-kindness (mettā)	to abandon ill will	AN1.17
 loving-kindness (mettā)	liberation of mind by	AN1.17
 ill will (vyāpāda, byāpāda)	removed by heart’s release by loving-kindness	AN1.17
@@ -14170,7 +14174,7 @@ wrong views	that there is nothing wrong with sensual pleasures	AN3.156-162
 mortification (tapojigucchā)	that are scorching	AN3.156-162
 middle path (majjhimā paṭipadā)	satipaṭṭhāna 	AN3.156-162
 addicted practice (āgāḷhā paṭipadā)	nothing wrong with sense pleasures	AN3.156-162
-scorching practice (nijjhāmā paṭipadā)	self mortification	AN3.156-162
+scorching practice (nijjhāmā paṭipadā)	self-mortification	AN3.156-162
 bodhipakkhiyā dhammā	middle path	AN3.156-162
 emptiness concentration (suññato samādhi)	insight into greed	AN3.183
 signless concentration (animitto samādhi)	insight into greed	AN3.183
@@ -15090,7 +15094,7 @@ old age, sickness, death	universality of	AN5.48
 grieving	uselessness of	AN5.48
 grieving	makes enemies rejoice	AN5.48
 death (maraṇa)	of relative	AN5.49
-Nārada, Ven.	counselling King Muṇḍa	AN5.50
+Nārada, Ven.	counseling King Muṇḍa	AN5.50
 old age, sickness, death	universality of	AN5.50
 old age, sickness, death	should be reflected on	AN5.50
 sorrow	pulling out sorrow’s arrow	AN5.50
@@ -15197,16 +15201,11 @@ rebirth	given up, like filled in moat	AN5.71
 craving (taṇhā)	given up, like pillar pulled up	AN5.71
 fetters (saṁyojana)	five lower given up, like unbarred	AN5.71
 conceit “I am” (asmimāna)	given up, like banner lowered	AN5.71
-perception of impermanence (aniccasaññā)	result in cetovimutti	AN5.72
-perception of suffering in impermanence (anicce dukkhasaññā)	result in cetovimutti	AN5.72
-perception of not-self in suffering (dukkhe anattasaññā)	result in cetovimutti	AN5.72
-perception of giving up (pahānasaññā)	result in cetovimutti	AN5.72
-perception of fading away (virāgasaññā)	result in cetovimutti	AN5.72
-perception of impermanence (aniccasaññā)	result in paññāvmutti	AN5.72
-perception of suffering in impermanence (anicce dukkhasaññā)	result in paññāvmutti	AN5.72
-perception of not-self in suffering (dukkhe anattasaññā)	result in paññāvmutti	AN5.72
-perception of giving up (pahānasaññā)	result in paññāvmutti	AN5.72
-perception of fading away (virāgasaññā)	result in paññāvmutti	AN5.72
+perception of impermanence (aniccasaññā)	result in cetovimutti, paññāvmutti 	AN5.72
+perception of suffering in impermanence (anicce dukkhasaññā)	result in cetovimutti, paññāvmutti 	AN5.72
+perception of not-self in suffering (dukkhe anattasaññā)	result in cetovimutti, paññāvmutti 	AN5.72
+perception of giving up (pahānasaññā)	result in cetovimutti, paññāvmutti 	AN5.72
+perception of fading away (virāgasaññā)	result in cetovimutti, paññāvmutti 	AN5.72
 learning	without practicing	AN5.73
 learning	living in line with what has been learned	AN5.73
 living according to the teachings (dhammavihārī)	definition	AN5.73
@@ -17778,8 +17777,8 @@ perception of the dimension of infinite consciousness (viññāṇañcāyatanasa
 dimension of nothingness (ākiñcaññāyatana)	perception of the dimension of infinite consciousness ceases	AN9.33
 perception of the dimension of nothingness (ākiñcaññāyatanasaññā)	ceases in dimension of neither perception nor non-perception	AN9.33
 dimension of neither perception nor non-perception (nevasaññanāsaññāyatana)	perception of the dimension of nothingness ceases	AN9.33
-perceptions (saññā)	ceases in cessation of perception and feeling	AN9.33
-feelings (vedanā)	ceases in cessation of perception and feeling	AN9.33
+perceptions (saññā)	cease in cessation of perception and feeling	AN9.33
+feelings (vedanā)	cease in cessation of perception and feeling	AN9.33
 cessation of perception and feeling (saññāvedayitanirodha)	perceptions and feelings cease	AN9.33
 jhānas	factors of	AN9.33
 nibbāna	is bliss	AN9.34
@@ -18260,9 +18259,9 @@ confidence (pasāda)	Vinaya to inspire and increase	AN10.31
 Dhamma	Vinaya helps to continue	AN10.31
 training (vinaya)	Vinaya helps support	AN10.31
 recitation of monastic code (pātimokkha)	reasons for suspending	AN10.32
-offences against monastic rules (āpatti)	and recitation of the pātimokkha	AN10.32
+offenses against monastic rules (āpatti)	and recitation of the pātimokkha	AN10.32
 sexual assault	and recitation of the pātimokkha	AN10.32
-offences against monastic rules (āpatti)	qualified to judge	AN10.33
+offenses against monastic rules (āpatti)	qualified to judge	AN10.33
 monastic rules (vinaya)	who is qualified to judge	AN10.33
 harmony	one who is able to restore	AN10.33
 ordination (upasampadā)	who is qualified to ordain someone	AN10.34
@@ -18906,7 +18905,7 @@ spiritual companions (sabrahmacārī)	abusing and insulting, results of	AN10.88
 criticizing noble ones	results of	AN10.88
 hell (niraya)	criticizing noble ones	AN10.88
 monastic life	dissatisfaction with, result of criticizing	AN10.88
-offences against monastic rules (āpatti)	committing as result of criticizing	AN10.88
+offenses against monastic rules (āpatti)	committing as result of criticizing	AN10.88
 overestimation (adhimāna)	criticizing noble ones	AN10.88
 sickness	from criticizing noble ones	AN10.88
 mental illness	from criticizing noble ones	AN10.88
@@ -18969,8 +18968,8 @@ Anāthapiṇḍika, householder	visiting wanderers of other sects	AN10.93
 views (diṭṭhi)	as conditioned	AN10.93
 Dhamma teaching	by laypeople	AN10.93
 laypeople	teaching Dhamma	AN10.93
-Vajjiyamāhita, householder	asked about self mortification	AN10.94
-wanderers of other sects (aññatitthiya paribbājaka)	asking about self mortification	AN10.94
+Vajjiyamāhita, householder	asked about self-mortification	AN10.94
+wanderers of other sects (aññatitthiya paribbājaka)	asking about self-mortification	AN10.94
 mortification (tapojigucchā)	what is and is not condemned by the Buddha	AN10.94
 annihilationist (venayika)	who refuses definite statements	AN10.94
 observances (samādāna)	what should and should not be undertaken	AN10.94

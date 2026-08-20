@@ -800,12 +800,12 @@ body.copy-buttons-visible .copy-icon {
   }
 
   /* Triggers for A5 (148mm) and Half-Letter (139.7mm) */
-  @media (max-width: 170mm) {
+  /* @media (max-width: 170mm) {
     .sutta-index {
       column-count: 2;
       column-gap: 4mm;
     }
-  }
+  } */
 
   #settings-bar,
   .icon,
@@ -850,6 +850,12 @@ body.copy-buttons-visible .copy-icon {
     break-after: avoid;
     break-inside: avoid;
     font-family: "Source Sans 3", "Fira Sans", sans-serif;
+  }
+
+  sub-w-term .ignore {
+    /* font-weight: normal; */
+    color: inherit;
+    font-size: 80%;
   }
 
   sub-w {
