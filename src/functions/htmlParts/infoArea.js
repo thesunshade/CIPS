@@ -20,7 +20,7 @@ export const infoArea = `
           </p>
           <p>Checking cross references is essential. If you don’t find what you need always check cross references. </p>
           <p>
-            For the sake of simplicity, the grammar of head and sub words may not always match. For example, <i>energetic, as protector</i> might be more accurately written as <i>energetic, being as protector</i>, which more verbosely would be written as <i>energetic, being energetic serves as a protector.</i>
+            For the sake of simplicity, the grammar of headwords and subheadings may not always match. For example, <i>energetic, as protector</i> might be more accurately written as <i>energetic, being as protector</i>, which more verbosely would be written as <i>energetic, being energetic serves as a protector.</i>
           </p>
           <p>In all cases, one should actually read the sutta being referenced and not rely on the index headings or subheadings. For example, some wrong views may be indexed in a way that is not immediately apparent that they are such. So actually reading the sutta is critical for understanding the matter at hand.</p>
           <p>Diacritics are ignored for alphabetization.</p>
@@ -31,14 +31,14 @@ export const infoArea = `
         <div>
           <p>Pāli is given for some terms. The Pāli is generally in the singular, though the term in the text may be plural.</p>
           <p>Generally, headwords will be in English. For some words where the Pāli is more concise and well known (e.g. Bodhisatta, paccekabuddha) it will be listed under Pāli.</p>
-          <p>In some cases, although a Pāli word may appear in parentheses in the head word, the Pāli word may not appear in the text.</p>
+          <p>In some cases, although a Pāli word may appear in parentheses in the headword, the Pāli word may not appear in the text.</p>
           <p>Proper names may refer to multiple distinct individuals. Also note that some identical looking names may be gendered versions, e.g. Visākhā and Visākha.</p>
         </div>
       </details>
       <details>
         <summary>Sutta Summaries</summary>
         <div>
-          <p>Most suttas have a short summary. To see them, desktop users can hover over citations with the mouse. Mobile and touch users can swipe them.</p>
+          <p>On the full featured site, most suttas have a short summary. To see them, desktop users can hover over citations with the mouse. Mobile and touch users can swipe them.</p>
         </div>
       </details>
       <details>
