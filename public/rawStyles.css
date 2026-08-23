@@ -5,9 +5,6 @@
 @import url('../src/functions/cssParts/infoArea.css');
 @import url('../src/functions/cssParts/snackBars.css');
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-
 :root {
   --primary: #b54d0d;
   --dark-primary: #3f1011;
@@ -41,21 +38,6 @@
   --pv: #D3D3D3;
   --thag: #DDF0FF;
   --thig: #DCE3C7;
-  /* --primary: #ee6f20; */
-  /* --dark-primary: #6b1617; */
-  /* --dn: #ACE6E6;
-  --mn: #DBA9A9;
-  --sn: #B1D6FA;
-  --an: #B8B8E3;
-  --kp: #FAE1C8;
-  --dhp: #ABD4C0;
-  --ud: #e9e296;
-  --iti: #FAC0CB;
-  --snp: #E3BDF2;
-  --vv: #FFFFC2;
-  --pv: #D4D4D4;
-  --thag: #DDF0FF;
-  --thig: #F0FFE0; */
 }
 
 *,
@@ -135,7 +117,6 @@ input {
   font-size: inherit;
   flex-grow: 1;
   border: solid 1px var(--offblack);
-  /* border-radius: 4px; */
   background-color: var(--offwhite-saturated);
   padding: 3px 0px 2px 4px;
 }
@@ -447,39 +428,24 @@ head-word-area {
   background-color: var(--offblack);
 }
 
-/* head-word {
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-} */
-
 head-word {
   font-weight: bold;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  /* Allow text wrapping */
 }
 
 head-word span,
 head-word img {
   flex-shrink: 0;
-  /* Prevent images and span from shrinking */
 }
 
 head-word::first-line {
   display: flex;
-  /* Keep the first line intact with wrapping allowed */
   flex-grow: 1;
-  /* Ensure the text block can grow and take up space */
   min-width: 0;
-  /* Allow the text to shrink when necessary */
   white-space: normal;
-  /* Let the text wrap naturally */
 }
-
-/*end cgpt*/
-
 
 .counter {
   padding-bottom: .3rem;
@@ -578,11 +544,6 @@ segment-id {
   display: none;
 }
 
-/* .colored-locators .locator {
-  padding: 2px 4px 1px;
-  margin-right: 1px;
-} */
-/*Pasanna*/
 .colored-locators .locator {
   padding: 1px 4px 2px;
   margin-right: 1px;
@@ -598,10 +559,6 @@ segment-id {
   text-decoration-thickness: 2px;
 }
 
-/* .colored-locators .locator:hover {
-  text-decoration: none;
-} */
-
 .dark .locator {
   color: #ffecb3;
 }
@@ -610,15 +567,12 @@ segment-id {
   color: #ffccbc;
 }
 
-
-/*pasanna*/
 .locator {
   color: #a65711;
   text-decoration: none;
   white-space: nowrap;
 }
 
-/*pasanna*/
 .locator:visited {
   color: #612901
 }
@@ -778,6 +732,26 @@ body.copy-buttons-visible .copy-icon {
 
 @media print {
 
+  @font-face {
+    font-family: 'Source Serif 4';
+    src: url('fonts/SourceSerif4Variable-Roman.otf.woff') format('woff');
+    font-weight: 1 900;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Source Serif 4';
+    src: url('fonts/SourceSerif4Variable-Italic.otf.woff') format('woff');
+    font-weight: 1 900;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Source Sans 3';
+    src: url('fonts/SourceSans3VF-Upright.otf.woff2') format('woff');
+    font-weight: 1 900;
+  }
+
   body {
     padding: 0rem;
     margin: 0in;
@@ -798,14 +772,6 @@ body.copy-buttons-visible .copy-icon {
     margin-top: 0;
     break-before: right;
   }
-
-  /* Triggers for A5 (148mm) and Half-Letter (139.7mm) */
-  /* @media (max-width: 170mm) {
-    .sutta-index {
-      column-count: 2;
-      column-gap: 4mm;
-    }
-  } */
 
   #settings-bar,
   .icon,
@@ -846,76 +812,27 @@ body.copy-buttons-visible .copy-icon {
     text-decoration: none;
   }
 
-  head-word {
+  alphabet-anchor {
+    print-color-adjust: exact;
+    background-color: black;
+    color: white;
+    font-size: 24pt;
+    font-weight: bold;
+    border-bottom: none;
+    padding: 5px;
+    margin-top: 0;
     break-after: avoid;
-    break-inside: avoid;
+    page-break-before: always;
+    break-before: page;
     font-family: "Source Sans 3", "Fira Sans", sans-serif;
   }
 
-  sub-w-term .ignore {
-    /* font-weight: normal; */
-    color: inherit;
-    font-size: 80%;
-  }
-
-  sub-w {
+  head-word {
+    break-after: avoid;
     break-inside: avoid;
-    margin-bottom: 1.5pt;
-    padding-bottom: 0;
-    padding-left: 0;
-    font-size: 9pt;
-    width: 100%;
-    line-height: 11pt;
-    text-indent: 0;
-    text-align: left;
-
-    font-family: 'Source Serif 4', 'Times New Roman', georgia, serif;
+    font-weight: bold;
+    font-family: "Source Sans 3", "Fira Sans", sans-serif;
   }
-
-  sub-w-term {
-    font-weight: 700;
-  }
-
-  a.locator,
-  a.locator:visited {
-    color: #000;
-  }
-
-  .locator {
-    white-space: unset;
-  }
-
-  sub-w:has(a.xref-link) {
-    font-style: italic;
-    font-size: 9pt;
-    line-height: 11pt;
-    margin-bottom: 2pt;
-    font-weight: 500;
-    /* color: #5E5E5E; */
-  }
-
-  a.xref-link {
-    color: #000000;
-    font-size: 9pt;
-    font-style: italic;
-    padding-bottom: 0;
-    text-indent: 0;
-    font-weight: 700;
-  }
-
-  sub-w a {
-    /* padding-right: 1ex; */
-    font-weight: 500;
-  }
-
-  sutta-name {
-    font-size: 9pt;
-
-  }
-
-  /* sub-w a:last-of-type {
-    padding-right: 0;
-  } */
 
   head-word-area {
     background: none transparent;
@@ -923,7 +840,7 @@ body.copy-buttons-visible .copy-icon {
   }
 
   headword-section {
-    padding-bottom: 14pt;
+    padding-bottom: 8pt;
   }
 
   .headword-link {
@@ -942,20 +859,85 @@ body.copy-buttons-visible .copy-icon {
     display: none;
   }
 
-  alphabet-anchor {
-    font-size: 24pt;
-    border-bottom: none;
-    margin-top: 0;
-    page-break-before: always;
-    break-before: page;
-    font-family: "Source Sans 3", "Fira Sans", sans-serif;
+  sub-w-term .ignore {
+    color: inherit;
+    font-size: 80%;
   }
 
-}
+  sub-w {
+    break-inside: avoid;
+    margin-bottom: 3pt;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 9pt;
+    width: 100%;
+    line-height: 11pt;
+    text-indent: 0;
+    text-align: left;
+    font-family: 'Source Serif 4', 'Times New Roman', georgia, serif;
+  }
 
-@media print {
+  sub-w-term {
+    font-weight: 700;
+  }
 
-  /* Override headers and footers for the first page only */
+  a.locator,
+  a.locator:visited,
+  .colored-locators a.locator,
+  .colored-locators a.locator:visited {
+    color: #000;
+  }
+
+  .locator {
+    white-space: unset;
+  }
+
+  .colored-locators .dn,
+  .colored-locators .mn,
+  .colored-locators .sn,
+  .colored-locators .an,
+  .colored-locators .kp,
+  .colored-locators .dhp,
+  .colored-locators .ud,
+  .colored-locators .iti,
+  .colored-locators .snp,
+  .colored-locators .vv,
+  .colored-locators .pv,
+  .colored-locators .thag,
+  .colored-locators .thig {
+    background-color: white;
+  }
+
+  sub-w:has(a.xref-link) {
+    /* font-style: italic; */
+    font-size: 9pt;
+    line-height: 11pt;
+    margin-bottom: 2pt;
+    font-weight: 500;
+  }
+
+  a.xref-link {
+    color: #000000;
+    font-size: 9pt;
+    font-style: italic;
+    padding-bottom: 0;
+    text-indent: 0;
+    font-weight: 700;
+  }
+
+  sub-w a {
+    font-weight: 500;
+  }
+
+  sutta-name {
+    font-size: 9pt;
+  }
+
+  segment-id {
+    font-size: 80%;
+    font-weight: normal;
+  }
+
   @page :first {
 
     @top-center {
