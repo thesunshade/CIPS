@@ -16,7 +16,7 @@ export const infoArea = `
         <summary>How to use the index</summary>
         <div>
           <p>
-            First, look things up by <em>noun</em> followed by an <em>adjective</em>. If that doesn’t work, then try the adjective.
+            First, look things up by <em>noun</em> followed by an <em>adjective</em>. If that doesn’t work, then try the adjective. Headwords are almost always in the plural, even if they are singular in the text.
           </p>
           <p>Checking cross references is essential. If you don’t find what you need always check cross references. </p>
           <p>

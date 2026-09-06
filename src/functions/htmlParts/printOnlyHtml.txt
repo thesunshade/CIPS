@@ -8,38 +8,83 @@
     <div class="print-page">
         <h2>Welcome</h2>
         <p>By using this index you will learn what the Buddha and his Great Disciples had to say about the Dhamma that ends all suffering. Whether you are just beginning to learn about Buddhism or are researching deep topics, this sutta index will help you on your path.</p>
+        <p>This index aims to be comprehensive in scope. This means that whenever possible, even minor mentions of a topic will be included. As well, even identical treatments of a topic will be indexed up to a point. A special effort has been made to include mentions in each nikāya when possible.</p>
         <p>To report missing or incorrect information, please use the <a href="https://readingfaithfully.org/contact/" rel="noreferrer" target="_blank"> contact form on ReadingFaithfully.org</a>.</p>
+        
         <h2>How to use the index</h2>
-        <p>First, look things up by <em>noun</em> followed by an <em>adjective</em>. If that doesn't work, then try the adjective.</p>
-        <p>Checking cross references is essential. If you don't find what you need always check cross references. </p>
-        <p>For the sake of simplicity, the grammar of head and sub words may not always match. For example, <i>energetic, as protector</i> might be more accurately written as <i>energetic, being as protector</i>, which more verbosely would be written as <i>energetic, being energetic serves as a protector.</i></p>
-        <p>In all cases, one should actually read the sutta being refrenced and not rely on the index headings or subheadings. For example, some wrong views may be indexed in a way that is not immediately apparent that they are such. So actually reading the sutta is critical for understanding the matter at hand.</p>
+
+        <p>Headwords are almost always in the plural, even if they are singular in the text. Checking cross references is essential. If you don't find what you need, always check cross references. </p>
+        <p>In all cases, one should actually read the sutta being referenced and not rely on the index headings or subheadings. For example, some wrong views may be indexed in a way that is not immediately apparent that they are such. So actually reading the sutta is critical for understanding the matter at hand. You will notice that all references are to entire suttas, with the exception of the Dīgha Nikāya which sometimes points to a section and the Dhammapada which points to individual verses. Since this index may be used for any edition of a text, pointing to exact page numbers would be impractical. As well, it’s good to read the entire sutta when possible to make sure that meaning isn't being taken out of context. There are also cases where an entire chapter in the Saṁutta Nikāya is referenced.</p>
         <p>Diacritics are ignored for alphabetization.</p>
-        <h2>Pāli</h2>
-        <p>Pāli is given for some terms. The Pāli is generally in the singular, though the term in the text may be plural.</p>
-        <p>Generally, headwords will be in English. For some words where the Pāli is more concise and well known (e.g. Bodhisatta, paccekabuddha) it will be listed under Pāli.</p>
-        <p>In some cases, although a Pāli word may appear in parentheses in the head word, the Pāli word may not appear in the text.</p>
+
+        <h2>Similes and Proper Names</h2>
+        <p>Similes and proper names are included together with topics, not as separate indexes.</p>
+        <p>When you want to find similes for a topic go to the entry for the topic. Most subheads for the similes will start with the word <i>“like…”</i>. If you want to find similes where a certain object is being used for illustration, go to that object. There you will see the subheads for the similes starting with <i>“simile for…”</i>. </p>
+        <p>When looking for people, generally ignore any titles, e.g look for Prince Abhaya under “Abhaya, Prince.” Names of very common people and places are usually not indexed. For example, Ven. Ānanda is only indexed when he is giving the teaching, or if he is a significant interlocutor. Sāvatthi is not indexed at all.</p>
+        <p>When looking for suttas specifically about the current Buddha Gotama, look under <i>Buddha, the</i>. For information about Buddha's in general, look under <i>Buddhas</i> and <i>Tathāgatas</i>. Often the Buddha Gotama will use the term <i>Tathāgata</i> to talk about himself specifically. These are indexed under <i>Buddha, the</i>.</p>
         <p>Proper names may refer to multiple distinct individuals. Also note that some identical looking names may be gendered versions, e.g. Visākhā and Visākha.</p>
+
+        <h2>Pāli</h2>
+
+        <p>Pāli is given for some terms. The Pāli is generally in the singular, though the term in the text may be plural. Usually headwords will be in English. For some words where the Pāli is more concise and well known (e.g. Bodhisatta, paccekabuddha) it will be listed under Pāli.</p>
+        <p>Often you will see an English headword with no Pāli followed by the same English word with Pāli, sometimes several times. In this case it means that the first entry with English only covers the topic in general without including a specific Pali word. For example, a sutta may discuss the aggregates without actually including the word khandha.</p>
+
+        <h2>Coverage and Citations</h2>
+
+        <p>The following books have been indexed:</p><br>
+          <table style="margin: 0 auto; border-collapse: collapse;">
+            <tr><td style="">DN</td><td style="padding: 0px 10px;">Dīgha Nikāya</td>
+              <td style="padding-left: 40px;">Kp</td><td style="padding: 0px 10px;">Khuddakapāṭha</td>
+            </tr>
+            <tr><td style="">MN</td><td style="padding: 0px 10px;">Majjhima Nikāya</td>
+              <td style="padding-left: 40px;">Dhp</td><td style="padding: 0px 10px;">Dhammapada</td>
+            </tr>
+            <tr><td style="">SN</td><td style="padding: 0px 10px;">Saṁyutta Nikāya</td>
+              <td style="padding-left: 40px;">Ud</td><td style="padding: 0px 10px;">Udāna</td>
+            </tr>
+            <tr><td style="">AN</td><td style="padding: 0px 10px;">Aṅguttara Nikāya</td>
+              <td style="padding-left: 40px;">Iti</td><td style="padding: 0px 10px;">Itivuttaka</td>
+            </tr>
+            <tr><td style=""></td><td style="padding: 0px 10px;"></td>
+              <td style="padding-left: 40px;">Snp</td><td style="padding: 0px 10px;">Sutta Nipāta</td>
+            </tr>
+            <tr><td style=""></td><td style="padding: 0px 10px;"></td>
+              <td style="padding-left: 40px;">Vv</td><td style="padding: 0px 10px;">Vimāna Vatthu</td>
+            </tr>
+            <tr><td style=""></td><td style="padding: 0px 10px;"></td>
+              <td style="padding-left: 40px;">Pv</td><td style="padding: 0px 10px;">Peta Vatthu</td>
+            </tr>
+            <tr><td style=""></td><td style="padding: 0px 10px;"></td>
+              <td style="padding-left: 40px;">Thag</td><td style="padding: 0px 10px;">Theragāthā</td>
+            </tr>
+            <tr><td style=""></td><td style="padding: 0px 10px;"></td>
+              <td style="padding-left: 40px;">Thig</td><td style="padding: 0px 10px;">Therīgāthā</td>
+            </tr>
+          </table>
+        <br>
+        <p>Citations for the DN and MN are sequential. Citations for the SN and AN follow the numbering on SuttaCentral and the translations by Bhikkhu Bodhi, Wisdom Publications. </p>
+        <p>Segment numbers for the Dīgha Nikāya refer to the headings on SuttaCentral</p>
+
+
         <h2>More Resources</h2>
-          <p>
-            While this index attempts to be more than just significant occurrences, it is by no mean a complete concordance of all words in the Sutta Piṭaka. For that you may want to try using <a href="https://www.digitalpalireader.online" rel="noreferrer" target="_blank"> the DigitalPaliReader.online</a>.
-          </p>
-          <p>
-            The<a href="https://digitalpalidictionary.github.io/" rel="noreferrer" target="_blank"> Digital Pāli Dictionary</a> is also an excellent resource.
-          </p>
-          <h2>Other ReadingFaithfully resources:</h2>
-          <ul>
-          <li><a href="https://sutta.readingfaithfully.org" rel="noreferrer" target="_blank">Main Sutta reading website</a></li>
-          <li><a href="https://daily.readingfaithfully.org" rel="noreferrer" target="_blank">Daily Suttas</a></li>
-          <li><a href="https://diff.readingfaithfully.org" rel="noreferrer" target="_blank">Sutta Differ</a></li>
+        <p>While this index attempts to be more than just significant occurrences, it is by no mean a complete concordance of all words in the Sutta Piṭaka. For that you may want to try using <a href="https://www.digitalpalireader.online" rel="noreferrer" target="_blank"> the DigitalPaliReader.online</a>.
+        </p>
+        <p>The<a href="https://digitalpalidictionary.github.io/" rel="noreferrer" target="_blank"> Digital Pāli Dictionary</a> is also an excellent resource.</p>
+        
+        <h2>Other ReadingFaithfully resources:</h2>
+
+        <ul>
+          <li><a href="https://sutta.readingfaithfully.org" rel="noreferrer" target="_blank">Main Sutta reading website: ReadingFaithfully.org</a></li>
+          <li><a href="https://daily.readingfaithfully.org" rel="noreferrer" target="_blank">Daily Suttas: Daily.: ReadingFaithfully.org</a></li>
+          <li><a href="https://diff.readingfaithfully.org" rel="noreferrer" target="_blank">Sutta Differ: diff.ReadingFaithfully.org</a></li>
           <li><a href="https://discourse.suttacentral.net/t/a-browser-extension-for-suttacentral/36074" rel="noreferrer" target="_blank">SuttaCentral Browser Extension</a></li>
-          <li><a href="https://links.readingfaithfully.org/" rel="noreferrer" target="_blank">All links and tools</a></li>
-          </ul>
-        <h2>Coverage</h2>
-        <p>DN, MN, SN, AN, Kp, Dhp, Ud, Iti, Snp, Vv, Pv, Thag, Thig</p>
+          <li><a href="https://links.readingfaithfully.org/" rel="noreferrer" target="_blank">All links and tools: links.ReadingFaithfully.org</a></li>
+        </ul>
+
+
         <h2>Copyright</h2>
-        <p>All data and content in this index and the digital repository (including the final website as well as raw data) is copyright ReadingFaithfully.org and may not be reproduced without permission.
-        <p>The use of this index for training, developing, testing, or improving any artificial intelligence system, machine learning model, or similar technology is strictly prohibited. Please see <a href="https://github.com/thesunshade/CIPS#readme">the full license.</a></p>
+
+        <p>All data and content in this index and the digital repository (including the final website as well as raw data) is copyright ReadingFaithfully.org and may not be reproduced without permission. The use of this index for training, developing, testing, or improving any artificial intelligence system, machine learning model, or similar technology is strictly prohibited. Please see <a href="https://github.com/thesunshade/CIPS#readme">the full license.</a></p>
     </div>
 
 
